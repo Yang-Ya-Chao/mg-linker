@@ -1,0 +1,54 @@
+# MG Liner
+
+#### 介绍
+MGLive;MG7;android;小组件;名爵;名爵7
+
+#### 软件架构
+软件架构说明
+
+
+#### 安装教程
+
+1.  xxxx
+2.  xxxx
+3.  xxxx
+
+#### 使用说明
+
+--获取车辆状态信息1.1：
+
+POST--------https://mp.ebanma.com/app-mp/vp/1.1/getVehicleStatus?timestamp=XXXX&token=XXXXXXXXX-prod_SAIC&vin=LSJWXXXXXXXXXX
+
+--地图随便找个api就行,目前使用高德，项目中的key需要自己手动修改
+
+https://restapi.amap.com/v3/geocode/regeo?key=XXXX=经度,纬度
+
+
+配置页面：
+
+![输入图片说明](https://foruda.gitee.com/images/1768037488980039934/815d254c_8784824.png "屏幕截图")
+
+小部件页面1：
+
+!![输入图片说明](https://foruda.gitee.com/images/1768037498931980640/daa657b2_8784824.png "屏幕截图")
+
+小部件页面2：
+
+![输入图片说明](https://foruda.gitee.com/images/1768037472971862446/56c70158_8784824.png "屏幕截图")
+
+#### 参与贡献
+
+1.  Fork 本仓库
+2.  新建 Feat_xxx 分支
+3.  提交代码
+4.  新建 Pull Request
+
+
+#### 特技
+
+1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
+2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
+3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
+4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
+5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
+6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
