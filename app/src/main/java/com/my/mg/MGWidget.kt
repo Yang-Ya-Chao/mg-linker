@@ -6,6 +6,7 @@ import android.appwidget.AppWidgetProvider
 import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
+import android.location.Geocoder
 import android.text.Spannable
 import android.text.SpannableString
 import android.text.style.ForegroundColorSpan
@@ -47,6 +48,7 @@ class MGWidget : AppWidgetProvider() {
             if (appWidgetId != AppWidgetManager.INVALID_APPWIDGET_ID) {
                 val appWidgetManager = AppWidgetManager.getInstance(context)
                 val views = RemoteViews(context.packageName, R.layout.mg_widget)
+                // 切换视图
                 views.showNext(R.id.view_flipper_center)
                 appWidgetManager.updateAppWidget(appWidgetId, views)
             }
@@ -191,12 +193,13 @@ class MGWidget : AppWidgetProvider() {
                     log(context, "Error fetching data: ${e.message}")
                     e.printStackTrace()
                     withContext(Dispatchers.Main) {
-                        views.setTextViewText(R.id.tv_update_time, "更新失败, 点击重试")
+                        views.setTextViewText(R.id.tv_update_time, "更新失败")
                         appWidgetManager.updateAppWidget(appWidgetId, views)
                     }
                 }
             }
         }
+
 
         private fun updateWidgetUI(
             context: Context,
@@ -362,26 +365,12 @@ class MGWidget : AppWidgetProvider() {
 
             CoroutineScope(Dispatchers.IO).launch {
                 try {
-                    // 按要求使用高德地图API，请用你自己的
-                    val key = "XXXXXX"
-                    // location=long,lat
-                    val locationParam = String.format("%.6f,%.6f", longitude, latitude)
-                    val url = "https://restapi.amap.com/v3/geocode/regeo?key=$key&location=$locationParam"
-                    log(context, "Location Request URL: $url")
-
-                    val client = OkHttpClient()
-                    val request = Request.Builder().url(url).build()
-                    val response = client.newCall(request).execute()
-                    val responseBody = response.body?.string()
-                    log(context, "Location Response: $responseBody")
-
-                    if (responseBody != null) {
-                        val gson = Gson()
-                        val data = gson.fromJson(responseBody, AmapRegeoResponse::class.java)
-                        val address = data.regeocode?.formatted_address ?: "未知位置"
-
+                    val geocoder = Geocoder(context, Locale.getDefault())
+                    val address = geocoder.getFromLocation(latitude, longitude, 1)
+                    log(context, "Addr result: $address")
+                    if (address != null && address.isNotEmpty()) {
                         withContext(Dispatchers.Main) {
-                            views.setTextViewText(R.id.tv_location, address)
+                            views.setTextViewText(R.id.tv_location, address[0].getAddressLine(0))
                             appWidgetManager.updateAppWidget(appWidgetId, views)
                         }
                     }

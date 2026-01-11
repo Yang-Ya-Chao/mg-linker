@@ -144,7 +144,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp">
+            android:layout_marginTop="5dp">
             <ImageView
                 android:id="@+id/iv_brand_logo"
                 android:layout_width="34dp"
@@ -178,6 +178,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="fitCenter"
+            android:layout_marginTop="-20dp"
+            android:layout_marginBottom="-14dp"
             android:layout_weight="1"
             android:inAnimation="@android:anim/fade_in"
             android:outAnimation="@android:anim/fade_out">
@@ -186,9 +188,7 @@
                 android:id="@+id/iv_car_image"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="-22dp"
-                android:layout_marginBottom="-12dp"
-                android:layout_weight="1"
+                 android:layout_weight="1"
                 android:scaleType="fitCenter"
                 android:src="@drawable/blue_300x257" />
 
@@ -199,6 +199,7 @@
             android:id="@+id/ll_window_door"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="-23dp"
             android:gravity="center_horizontal">
 
 
