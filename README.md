@@ -19,10 +19,6 @@ MGLive;MG7;android;小组件;名爵;名爵7
 
 POST--------https://mp.ebanma.com/app-mp/vp/1.1/getVehicleStatus?timestamp=XXXX&token=XXXXXXXXX-prod_SAIC&vin=LSJWXXXXXXXXXX
 
---地图随便找个api就行,目前使用高德，项目中的key需要自己手动修改
-
-https://restapi.amap.com/v3/geocode/regeo?key=XXXX=经度,纬度
-
 
 配置页面：
 
