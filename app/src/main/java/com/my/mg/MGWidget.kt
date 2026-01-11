@@ -40,7 +40,7 @@ class MGWidget : AppWidgetProvider() {
     override fun onReceive(context: Context, intent: Intent) {
         log(context, "onReceive called with action: ${intent.action}")
         super.onReceive(context, intent)
-        if ("ACTION_WIDGET_FLIP" == intent.action) {
+        if (ACTION_WIDGET_FLIP == intent.action) {
             val appWidgetId = intent.getIntExtra(
                 AppWidgetManager.EXTRA_APPWIDGET_ID,
                 AppWidgetManager.INVALID_APPWIDGET_ID
@@ -58,9 +58,11 @@ class MGWidget : AppWidgetProvider() {
             val componentName = ComponentName(context, MGWidget::class.java)
             val appWidgetIds = appWidgetManager.getAppWidgetIds(componentName)
 
-            // 显示“正在更新...”状态
+            // 显示“正在更新...”状态并重置视图
             for (appWidgetId in appWidgetIds) {
                 val views = RemoteViews(context.packageName, R.layout.mg_widget)
+                // Reset to main view
+                //views.setDisplayedChild(R.id.view_flipper_center, 0)
                 views.setTextViewText(R.id.tv_update_time, "正在更新....")
                 appWidgetManager.updateAppWidget(appWidgetId, views)
             }
@@ -73,6 +75,7 @@ class MGWidget : AppWidgetProvider() {
         private const val PREFS_NAME = "mg_config"
         private const val LOG_TAG = "MGWidget"
         private const val ACTION_REFRESH = "com.my.mg.ACTION_REFRESH"
+        private const val ACTION_WIDGET_FLIP = "ACTION_WIDGET_FLIP"
 
         private fun log(context: Context, message: String) {
             Log.d(LOG_TAG, message)
@@ -129,7 +132,7 @@ class MGWidget : AppWidgetProvider() {
             views.setOnClickPendingIntent(R.id.tv_update_time, refreshPendingIntent)
             // 创建一个意图，动作为自定义的切换动作
             val flipIntent = Intent(context, MGWidget::class.java).apply {
-                action = "ACTION_WIDGET_FLIP"
+                action = ACTION_WIDGET_FLIP
                 // 传入当前的 widgetId
                 putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId)
             }
@@ -143,9 +146,6 @@ class MGWidget : AppWidgetProvider() {
 
             // 点击图片触发切换
             views.setOnClickPendingIntent(R.id.view_flipper_center, pendingIntent)
-
-            // Instruct the widget manager to update the widget
-            //appWidgetManager.updateAppWidget(appWidgetId, views)
 
             // 获取数据
             if (vin.isNotEmpty() && token.isNotEmpty()) {
@@ -215,26 +215,22 @@ class MGWidget : AppWidgetProvider() {
 
             log(context, "Updating UI with data: Mileage=${vehicleValue?.odometer}, Lock=${vehicleState?.lock}")
 
-            // 里程和燃油/电池
+            // --- Main Info UI (mg_info_widget) ---
             val mileage = vehicleValue?.odometer ?: 0
             val fuelLevel = vehicleValue?.fuel_level_prc ?: 0
             val fuelRange = vehicleValue?.fuel_range ?: 0
 
             views.setTextViewText(R.id.tv_range, "$fuelRange")
             views.setTextViewText(R.id.tv_fuel_percent, "$fuelLevel")
-
             views.setTextViewText(R.id.tv_total_mileage, "总里程: $mileage km")
 
-            // 电池信息
             val batteryLevelRaw = vehicleValue?.vehicle_battery_prc ?: 0
             val batteryVoltageRaw = vehicleValue?.vehicle_battery ?: 0
-            val batteryLevel = batteryLevelRaw / 10 // 假设 700 -> 70%
-            val batteryVoltage = batteryVoltageRaw / 10.0 // 假设 121 -> 12.1V
-
+            val batteryLevel = batteryLevelRaw / 10
+            val batteryVoltage = batteryVoltageRaw / 10.0
             val batteryVoltageString = String.format("%.1f", batteryVoltage)
             val batteryInfoText = "电池: $batteryLevel% 电压: ${batteryVoltageString}V"
             val spannableBatteryInfo = SpannableString(batteryInfoText)
-
             if (batteryVoltage < 11.0) {
                 val startIndex = batteryInfoText.indexOf(batteryVoltageString)
                 if (startIndex != -1) {
@@ -248,79 +244,64 @@ class MGWidget : AppWidgetProvider() {
             }
             views.setTextViewText(R.id.tv_battery_info, spannableBatteryInfo)
 
-
-            // 锁定状态
             val isLocked = vehicleState?.lock == true
             views.setTextViewText(R.id.tv_lock_status, if (isLocked) "已上锁" else "未上锁")
             views.setTextColor(R.id.tv_lock_status, if (isLocked) context.getColor(R.color.status_green) else context.getColor(R.color.status_red))
 
-            // 时间
             val updateDate = Date(updateTime)
             val now = Date()
             val sdfSameDay = SimpleDateFormat("yyyyMMdd", Locale.getDefault())
             val isSameDay = sdfSameDay.format(updateDate) == sdfSameDay.format(now)
-
-            val displaySdf = if (isSameDay) {
-                SimpleDateFormat("HH:mm", Locale.getDefault())
-            } else {
-                SimpleDateFormat("MM-dd HH:mm", Locale.getDefault())
-            }
+            val displaySdf = if (isSameDay) SimpleDateFormat("HH:mm", Locale.getDefault()) else SimpleDateFormat("MM-dd HH:mm", Locale.getDefault())
             views.setTextViewText(R.id.tv_update_time, "${displaySdf.format(updateDate)} 更新")
 
-            // 温度
             val interiorTemp = vehicleValue?.interior_temperature ?: 0.0
             views.setTextViewText(R.id.tv_temp_value, String.format("%.1f°C", interiorTemp))
-
-            // 温度颜色逻辑
-            val tempColorRes = if (interiorTemp <= 27.0) {
-                R.color.status_green
-            } else {
-                R.color.status_red
-            }
+            val tempColorRes = if (interiorTemp <= 27.0) R.color.status_green else R.color.status_red
             views.setTextColor(R.id.tv_temp_value, context.getColor(tempColorRes))
 
-            // 胎压
             updateTirePressure(context, views, vehicleValue?.front_left_tyre_pressure, R.id.tv_front_left_val)
             updateTirePressure(context, views, vehicleValue?.front_right_tyre_pressure, R.id.tv_front_right_val)
             updateTirePressure(context, views, vehicleValue?.rear_left_tyre_pressure, R.id.tv_rear_left_val)
             updateTirePressure(context, views, vehicleValue?.rear_right_tyre_pressure, R.id.tv_rear_right_val)
 
+            if (vehicleState != null) {
+                // Summary for doors and windows (on mg_info_widget)
+                val allWindowsClosed = !(vehicleState.driver_window == true || vehicleState.passenger_window == true || vehicleState.rear_left_window == true || vehicleState.rear_right_window == true || vehicleState.sunroof == true)
+                views.setTextViewText(R.id.tv_window_value, if (allWindowsClosed) "已关闭" else "未关闭")
+                views.setTextColor(R.id.tv_window_value, if (allWindowsClosed) context.getColor(R.color.status_green) else context.getColor(R.color.status_red))
+                val allDoorsClosed = !(vehicleState.driver_door == true || vehicleState.passenger_door == true || vehicleState.rear_left_door == true || vehicleState.rear_right_door == true || vehicleState.bonnet == true || vehicleState.boot == true)
+                views.setTextViewText(R.id.tv_door_value, if (allDoorsClosed) "已关闭" else "未关闭")
+                views.setTextColor(R.id.tv_door_value, if (allDoorsClosed) context.getColor(R.color.status_green) else context.getColor(R.color.status_red))
 
-            // 窗/门
-            val driverWindowOpen = vehicleState?.driver_window == true
-            val passengerWindowOpen = vehicleState?.passenger_window == true
-            val rearLeftWindowOpen = vehicleState?.rear_left_window == true
-            val rearRightWindowOpen = vehicleState?.rear_right_window == true
-            val sunroofOpen = vehicleState?.sunroof == true
+                // --- Detailed Lock/Window UI (mg_lock_widget) ---
+                updateDoorOrWindowStatus(context, views, vehicleState.driver_door == true, R.id.fl_door_value)
+                updateDoorOrWindowStatus(context, views, vehicleState.passenger_door == true, R.id.fr_door_value)
+                updateDoorOrWindowStatus(context, views, vehicleState.rear_left_door == true, R.id.rl_door_value)
+                updateDoorOrWindowStatus(context, views, vehicleState.rear_right_door == true, R.id.rr_door_value)
 
-            val allWindowsClosed = !driverWindowOpen && !passengerWindowOpen && !rearLeftWindowOpen && !rearRightWindowOpen && !sunroofOpen
-            views.setTextViewText(R.id.tv_window_value, if (allWindowsClosed) "已关闭" else "未关闭")
-            views.setTextColor(R.id.tv_window_value, if (allWindowsClosed) context.getColor(R.color.status_green) else context.getColor(R.color.status_red))
+                updateDoorOrWindowStatus(context, views, vehicleState.driver_window == true, R.id.fl_window_value)
+                updateDoorOrWindowStatus(context, views, vehicleState.passenger_window == true, R.id.fr_window_value)
+                updateDoorOrWindowStatus(context, views, vehicleState.rear_left_window == true, R.id.rl_window_value)
+                updateDoorOrWindowStatus(context, views, vehicleState.rear_right_window == true, R.id.rr_window_value)
+            }
 
-            val driverDoorOpen = vehicleState?.driver_door == true
-            val passengerDoorOpen = vehicleState?.passenger_door == true
-            val rearLeftDoorOpen = vehicleState?.rear_left_door == true
-            val rearRightDoorOpen = vehicleState?.rear_right_door == true
-            val bonnetOpen = vehicleState?.bonnet == true
-            val bootOpen = vehicleState?.boot == true
-
-            val allDoorsClosed = !driverDoorOpen && !passengerDoorOpen && !rearLeftDoorOpen && !rearRightDoorOpen && !bonnetOpen && !bootOpen
-            views.setTextViewText(R.id.tv_door_value, if (allDoorsClosed) "已关闭" else "未关闭")
-            views.setTextColor(R.id.tv_door_value, if (allDoorsClosed) context.getColor(R.color.status_green) else context.getColor(R.color.status_red))
-
-            // 反向地理编码
             if (vehiclePosition != null) {
-                val latStr = vehiclePosition.latitude
-                val longStr = vehiclePosition.longitude
-                val lat = latStr?.toDoubleOrNull()
-                val long = longStr?.toDoubleOrNull()
-
+                val lat = vehiclePosition.latitude?.toDoubleOrNull()
+                val long = vehiclePosition.longitude?.toDoubleOrNull()
                 fetchLocation(context, views, appWidgetManager, appWidgetId, lat, long)
             } else {
                 appWidgetManager.updateAppWidget(appWidgetId, views)
             }
         }
-        //更新胎压
+        
+        private fun updateDoorOrWindowStatus(context: Context, views: RemoteViews, isOpen: Boolean, viewId: Int) {
+            val text = if (isOpen) "开启" else "关闭"
+            val color = if (isOpen) context.getColor(R.color.status_red) else context.getColor(R.color.status_green)
+            views.setTextViewText(viewId, text)
+            views.setTextColor(viewId, color)
+        }
+
         private fun updateTirePressure(context: Context, views: RemoteViews, pressureRaw: Int?, textViewId: Int) {
             if (pressureRaw != null) {
                 val pressure = pressureRaw / 100.0
@@ -348,7 +329,7 @@ class MGWidget : AppWidgetProvider() {
                 views.setTextColor(textViewId, context.getColor(R.color.status_red))
             }
         }
-        //更新位置
+        
         private fun fetchLocation(
             context: Context,
             views: RemoteViews,
@@ -386,7 +367,7 @@ class MGWidget : AppWidgetProvider() {
     }
 }
 
-// 数据类（根据实际JSON更新）
+// Data classes (assuming they are correct as per previous context)
 data class VehicleStatusResponse(val req_id: String?, val data: VehicleData?)
 data class VehicleData(
     val vehicle_position: VehiclePosition?,
@@ -437,6 +418,3 @@ data class VehicleState(
     val rear_right_window: Boolean?,
     val sunroof: Boolean?
 )
-
-data class AmapRegeoResponse(val regeocode: Regeocode?)
-data class Regeocode(val formatted_address: String?)
