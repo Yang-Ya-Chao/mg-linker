@@ -6,6 +6,7 @@ import android.appwidget.AppWidgetProvider
 import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
+import android.content.res.ColorStateList
 import android.location.Geocoder
 import android.text.Spannable
 import android.text.SpannableString
@@ -19,6 +20,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import okhttp3.OkHttpClient
 import okhttp3.Request
+import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
@@ -200,7 +202,6 @@ class MGWidget : AppWidgetProvider() {
             }
         }
 
-
         private fun updateWidgetUI(
             context: Context,
             views: RemoteViews,
@@ -219,10 +220,10 @@ class MGWidget : AppWidgetProvider() {
             val mileage = vehicleValue?.odometer ?: 0
             val fuelLevel = vehicleValue?.fuel_level_prc ?: 0
             val fuelRange = vehicleValue?.fuel_range ?: 0
-
             views.setTextViewText(R.id.tv_range, "$fuelRange")
             views.setTextViewText(R.id.tv_fuel_percent, "$fuelLevel")
             views.setTextViewText(R.id.tv_total_mileage, "总里程: $mileage km")
+            views.setProgressBar(R.id.pb_fuel,100,fuelLevel,false)
 
             val batteryLevelRaw = vehicleValue?.vehicle_battery_prc ?: 0
             val batteryVoltageRaw = vehicleValue?.vehicle_battery ?: 0

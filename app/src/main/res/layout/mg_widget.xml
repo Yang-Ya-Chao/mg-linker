@@ -80,6 +80,16 @@
                 android:textSize="10sp" />
         </LinearLayout>
 
+        <ProgressBar
+            android:id="@+id/pb_fuel"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="85dp"
+            android:layout_height="8dp"
+            android:layout_weight="0.2"
+            android:layout_marginTop="-5dp"
+            android:indeterminate="false"
+            android:max="100"
+            android:progressDrawable="@drawable/pb_rounded_layer"/>
         <TextView
             android:id="@+id/tv_total_mileage"
             android:layout_width="match_parent"
@@ -178,7 +188,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="fitCenter"
-            android:layout_marginTop="-20dp"
+            android:layout_marginTop="-28dp"
             android:layout_marginBottom="-14dp"
             android:layout_weight="1"
             android:inAnimation="@android:anim/fade_in"
@@ -193,6 +203,7 @@
                 android:src="@drawable/blue_300x257" />
 
             <include layout="@layout/mg_info_widget" />
+            <include layout="@layout/mg_lock_widget" />
         </ViewFlipper>
 
         <LinearLayout
