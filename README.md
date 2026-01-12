@@ -9,9 +9,9 @@ MGLive;MG7;android;小组件;名爵;名爵7
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  下载安装MG Linker
+2.  配置MG Linker参数，车架号在MGLive中查看，TOKEN需要使用httpcanary等工具抓取请求头中格式为XXXXXXXXX-prod_SAIC的数据
+3.  保存返回桌面，在小组件中找到MG Linker并添加到桌面
 
 #### 使用说明
 
