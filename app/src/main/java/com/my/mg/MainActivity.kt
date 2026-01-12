@@ -102,7 +102,15 @@ class MainActivity : ComponentActivity() {
         Log.d("UpdateCheck", "Starting update check (manual: $manual)")
         lifecycleScope.launch(Dispatchers.IO) {
             try {
-                val request = Request.Builder().url(giteeApiUrl).build()
+                val requestBuilder = Request.Builder().url(giteeApiUrl)
+                //需要自己配置token，否则请求会被拒
+                val token = BuildConfig.GITEE_API_TOKEN
+                if (token.isNotEmpty()) {
+                    requestBuilder.addHeader("Authorization", "token $token")
+                    Log.d("UpdateCheck", "Authorization token added.")
+                }
+
+                val request = requestBuilder.build()
                 Log.d("UpdateCheck", "Requesting URL: $giteeApiUrl")
                 client.newCall(request).execute().use { response ->
                     if (!response.isSuccessful) {
