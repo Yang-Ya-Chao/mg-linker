@@ -12,16 +12,33 @@ MGLive;MG7;android;小组件;名爵;名爵7
 1.  下载安装MG Linker
 2.  下载HttpCanary
 3.  按下方图示进行抓包
+
 ![输入图片说明](httpcanary1.jpg)
+
+
 ![输入图片说明](httpcanary22.jpg)
+
+
 ![输入图片说明](httpcanary33.jpg)
+
+
 ![输入图片说明](httpcanary44.jpg)
+
+
 ![输入图片说明](httpcanary55.jpg)
+
+
 ![输入图片说明](httpcanary66.jpg)
+
+
 ![输入图片说明](httpcanary77.jpg)
+
+
 ![输入图片说明](httpcanary88.jpg)
+
+
 ![输入图片说明](httpcanary99.jpg)
-![输入图片说明](httpcanary1010.jpg)
+
 4.  配置MG Linker参数
 5.  保存返回桌面，在小组件中找到MG Linker并添加到桌面
 
