@@ -4,61 +4,62 @@
 MGLive;MG7;android;小组件;名爵;名爵7
 
 #### 软件架构
-软件架构说明
+软件架构说明：andriod studio 编译 kotlin 
 
 
 #### 安装教程
 
 1.  下载安装[MG Linker](https://gitee.com/yangyachao-X/mg-linker/releases/download/1.0/MG%20Linker.apk)
-2.  下载[HttpCanary](https://gitee.com/yangyachao-X/mg-linker/raw/master/HttpCanary/HttpCanary.apk)
-3.  按下方图示进行抓包
+2.  下载安装[HttpCanary](https://gitee.com/yangyachao-X/mg-linker/raw/master/HttpCanary/HttpCanary.apk)
+3.  按下方图示进行Token抓包
 
 
+#### 1
 ![输入图片说明](HttpCanary/1.jpg)
 
 
 
-
+#### 2
 ![输入图片说明](HttpCanary/2.jpg)
 
 
 
-
+#### 3
 ![输入图片说明](HttpCanary/3.jpg)
 
 
 
-
+#### 4
 ![输入图片说明](HttpCanary/4.jpg)
 
 
 
-
+#### 5
 ![输入图片说明](HttpCanary/5.jpg)
 
 
 
-
+#### 6
 ![输入图片说明](HttpCanary/6.jpg)
 
 
 
-
+#### 7
 ![输入图片说明](HttpCanary/7.jpg)
 
 
 
-
+#### 8
 ![输入图片说明](HttpCanary/8.jpg)
 
 
 
-
+#### 9
 ![输入图片说明](HttpCanary/9.jpg)
 
 
 
-
+#### 10
 ![输入图片说明](HttpCanary/10.jpg)
 
 
@@ -66,14 +67,9 @@ MGLive;MG7;android;小组件;名爵;名爵7
 4.  配置MG Linker参数
 5.  保存返回桌面，在小组件中找到MG Linker并添加到桌面
 
-#### 使用说明
-
---获取车辆状态信息1.1：
-
-POST--------https://mp.ebanma.com/app-mp/vp/1.1/getVehicleStatus?timestamp=XXXX&token=XXXXXXXXX-prod_SAIC&vin=LSJWXXXXXXXXXX
 
 
-配置页面：
+#### 配置页面
 
 ![输入图片说明](https://foruda.gitee.com/images/1768037488980039934/815d254c_8784824.png "屏幕截图")
 
@@ -84,6 +80,14 @@ POST--------https://mp.ebanma.com/app-mp/vp/1.1/getVehicleStatus?timestamp=XXXX&
 小部件页面2：
 
 ![输入图片说明](https://foruda.gitee.com/images/1768037472971862446/56c70158_8784824.png "屏幕截图")
+
+
+
+#### 使用说明
+
+--获取车辆状态信息1.1：
+
+POST--------https://mp.ebanma.com/app-mp/vp/1.1/getVehicleStatus?timestamp=XXXX&token=XXXXXXXXX-prod_SAIC&vin=LSJWXXXXXXXXXX
 
 #### 参与贡献
 
