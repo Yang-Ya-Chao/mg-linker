@@ -17,6 +17,8 @@ import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.outlined.Info
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -25,6 +27,7 @@ import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
@@ -55,7 +58,7 @@ data class GiteeAsset(
 
 class MainActivity : ComponentActivity() {
 
-    private val giteeApiUrl = "https://gitee.com/api/v5/repos/yangyachao-X/mg-liner/releases/latest"
+    private val giteeApiUrl = "https://gitee.com/api/v5/repos/yangyachao-X/mg-linker/releases/latest"
     private val client = OkHttpClient()
     private val gson = Gson()
 
@@ -102,7 +105,7 @@ class MainActivity : ComponentActivity() {
         Log.d("UpdateCheck", "Starting update check (manual: $manual)")
         lifecycleScope.launch(Dispatchers.IO) {
             try {
-                val requestBuilder = Request.Builder().url(giteeApiUrl)
+                val requestBuilder = Request.Builder().url(giteeApiUrl).get()
                 //需要自己配置token，否则请求会被拒
                 val token = BuildConfig.GITEE_API_TOKEN
                 if (token.isNotEmpty()) {
@@ -204,18 +207,19 @@ class MainActivity : ComponentActivity() {
                     unregisterReceiver(this)
                     val file = File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS), asset.name)
                     if (file.exists()) {
-                         val fileUri = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                        val fileUri = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
                             FileProvider.getUriForFile(this@MainActivity, "${this@MainActivity.packageName}.provider", file)
                         } else {
                             Uri.fromFile(file)
                         }
                         installApk(fileUri)
                     } else {
-                         Toast.makeText(this@MainActivity, "下载失败，文件未找到", Toast.LENGTH_LONG).show()
+                        Toast.makeText(this@MainActivity, "下载失败，文件未找到", Toast.LENGTH_LONG).show()
                     }
                 }
             }
         }
+        // 注意：RECEIVER_EXPORTED 需要在 API 33+ 使用，如果报错请根据你的 targetSDK 调整
         registerReceiver(onComplete, IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE), RECEIVER_EXPORTED)
     }
 
@@ -261,6 +265,8 @@ fun UpdateDialog(
 fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
     val context = LocalContext.current
     val sharedPreferences = remember { context.getSharedPreferences("mg_config", Context.MODE_PRIVATE) }
+    // 获取 URI Handler 用于跳转网页
+    val uriHandler = LocalUriHandler.current
 
     var vin by remember { mutableStateOf(sharedPreferences.getString("vin", "") ?: "") }
     var color by remember { mutableStateOf(sharedPreferences.getString("color", "") ?: "") }
@@ -304,12 +310,18 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
 
         InputField(label = "请输入您的车辆名称 (选填) :", value = carName, onValueChange = { carName = it })
         InputField(label = "请输入您的车牌号 (选填) :", value = plateNumber, onValueChange = { plateNumber = it })
+
+        // 修改了这里，增加了 onHelpClick 参数
         InputField(
             label = "请输入您的 ACCESS_TOKEN:",
             value = accessToken,
             onValueChange = { accessToken = it },
             modifier = Modifier.focusRequester(accessTokenFocusRequester),
-            singleLine = false
+            singleLine = false,
+            onHelpClick = {
+                // 跳转到 Gitee README 页面
+                uriHandler.openUri("https://gitee.com/yangyachao-X/mg-linker/blob/master/README.md")
+            }
         )
 
         Spacer(modifier = Modifier.height(30.dp))
@@ -440,17 +452,38 @@ fun InputField(
     value: String,
     onValueChange: (String) -> Unit,
     modifier: Modifier = Modifier,
-    singleLine: Boolean = true
+    singleLine: Boolean = true,
+    // 新增可选回调，用于点击帮助图标
+    onHelpClick: (() -> Unit)? = null
 ) {
     Column(modifier = Modifier
         .fillMaxWidth()
         .padding(vertical = 8.dp)) {
-        Text(
-            text = label,
-            fontSize = 14.sp,
-            color = Color.Black,
+
+        // 使用 Row 包裹 Text 和 Icon
+        Row(
+            verticalAlignment = Alignment.CenterVertically,
             modifier = Modifier.padding(bottom = 8.dp)
-        )
+        ) {
+            Text(
+                text = label,
+                fontSize = 14.sp,
+                color = Color.Black
+            )
+            // 如果传入了回调，显示一个 Info 图标
+            if (onHelpClick != null) {
+                Spacer(modifier = Modifier.width(4.dp))
+                Icon(
+                    imageVector = Icons.Outlined.Info,
+                    contentDescription = "Help",
+                    tint = MaterialTheme.colorScheme.primary,
+                    modifier = Modifier
+                        .size(18.dp)
+                        .clickable { onHelpClick() }
+                )
+            }
+        }
+
         OutlinedTextField(
             value = value,
             onValueChange = onValueChange,
