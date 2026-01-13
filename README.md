@@ -16,31 +16,31 @@ MGLive;MG7;android;小组件;名爵;名爵7
 ![输入图片说明](HttpCanary/1.jpg)
 
 
-![输入图片说明](httpcanary/2.jpg)
+![输入图片说明](HttpCanary/2.jpg)
 
 
-![输入图片说明](httpcanary/3.jpg)
+![输入图片说明](HttpCanary/3.jpg)
 
 
-![输入图片说明](httpcanary/4.jpg)
+![输入图片说明](HttpCanary/4.jpg)
 
 
-![输入图片说明](httpcanary/5.jpg)
+![输入图片说明](HttpCanary/5.jpg)
 
 
-![输入图片说明](httpcanary/6.jpg)
+![输入图片说明](HttpCanary/6.jpg)
 
 
-![输入图片说明](httpcanary/7.jpg)
+![输入图片说明](HttpCanary/7.jpg)
 
 
-![输入图片说明](httpcanary/8.jpg)
+![输入图片说明](HttpCanary/8.jpg)
 
 
-![输入图片说明](httpcanary/9.jpg)
+![输入图片说明](HttpCanary/9.jpg)
 
 
-![输入图片说明](httpcanary/10.jpg)
+![输入图片说明](HttpCanary/10.jpg)
 
 4.  配置MG Linker参数
 5.  保存返回桌面，在小组件中找到MG Linker并添加到桌面
