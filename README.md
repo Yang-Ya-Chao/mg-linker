@@ -10,7 +10,7 @@ MGLive;MG7;android;小组件;名爵;名爵7
 #### 安装教程
 
 1.  下载安装[MG Linker](https://gitee.com/yangyachao-X/mg-linker/releases/download/1.0/MG%20Linker.apk)
-2.  下载[HttpCanary](https://gitee.com/yangyachao-X/mg-linker/raw/master/HttpCanary/HttoCanary.apk)
+2.  下载[HttpCanary](https://gitee.com/yangyachao-X/mg-linker/raw/master/HttpCanary/HttpCanary.apk)
 3.  按下方图示进行抓包
 
 
