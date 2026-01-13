@@ -13,34 +13,55 @@ MGLive;MG7;android;小组件;名爵;名爵7
 2.  下载[HttpCanary](https://gitee.com/yangyachao-X/mg-linker/raw/master/HttpCanary/HttoCanary.apk)
 3.  按下方图示进行抓包
 
+
 ![输入图片说明](HttpCanary/1.jpg)
+
+
 
 
 ![输入图片说明](HttpCanary/2.jpg)
 
 
+
+
 ![输入图片说明](HttpCanary/3.jpg)
+
+
 
 
 ![输入图片说明](HttpCanary/4.jpg)
 
 
+
+
 ![输入图片说明](HttpCanary/5.jpg)
+
+
 
 
 ![输入图片说明](HttpCanary/6.jpg)
 
 
+
+
 ![输入图片说明](HttpCanary/7.jpg)
+
+
 
 
 ![输入图片说明](HttpCanary/8.jpg)
 
 
+
+
 ![输入图片说明](HttpCanary/9.jpg)
 
 
+
+
 ![输入图片说明](HttpCanary/10.jpg)
+
+
 
 4.  配置MG Linker参数
 5.  保存返回桌面，在小组件中找到MG Linker并添加到桌面
