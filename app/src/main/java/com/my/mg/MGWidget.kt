@@ -24,6 +24,8 @@ import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
+import android.os.PowerManager
+import com.my.mg.log.LogcatHelper
 
 class MGWidget : AppWidgetProvider() {
 
@@ -32,10 +34,18 @@ class MGWidget : AppWidgetProvider() {
         appWidgetManager: AppWidgetManager,
         appWidgetIds: IntArray
     ) {
+        LogcatHelper.startRecording(context)
         log(context, "onUpdate called for IDs: ${appWidgetIds.joinToString()}")
-        // 可能有多个小组件处于活动状态，因此请更新所有这些小组件
-        for (appWidgetId in appWidgetIds) {
-            updateAppWidget(context, appWidgetManager, appWidgetId)
+        // 1. 获取电源管理器
+        val powerManager = context.getSystemService(Context.POWER_SERVICE) as PowerManager
+
+        // 2. 检查屏幕是否交互中 (亮屏状态)
+        val isScreenOn = powerManager.isInteractive
+        if (isScreenOn){
+                // 可能有多个小组件处于活动状态，因此请更新所有这些小组件
+            for (appWidgetId in appWidgetIds) {
+                updateAppWidget(context, appWidgetManager, appWidgetId)
+            }
         }
     }
 
@@ -224,6 +234,9 @@ class MGWidget : AppWidgetProvider() {
             views.setTextViewText(R.id.tv_fuel_percent, "$fuelLevel")
             views.setTextViewText(R.id.tv_total_mileage, "总里程: $mileage km")
             views.setProgressBar(R.id.pb_fuel,100,fuelLevel,false)
+
+            val fuelColorRes = if (fuelLevel < 20) R.color.process_red else R.color.process_green
+            views.setColorStateList(R.id.pb_fuel, "setProgressTintList", ColorStateList.valueOf(context.getColor(fuelColorRes)))
 
             val batteryLevelRaw = vehicleValue?.vehicle_battery_prc ?: 0
             val batteryVoltageRaw = vehicleValue?.vehicle_battery ?: 0

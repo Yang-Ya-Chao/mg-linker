@@ -36,6 +36,7 @@ import androidx.compose.ui.unit.sp
 import androidx.core.content.FileProvider
 import androidx.lifecycle.lifecycleScope
 import com.google.gson.Gson
+import com.my.mg.log.LogcatHelper
 import com.my.mg.ui.theme.MGLinkerTheme
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -67,6 +68,8 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        // 进程启动时开始记录日志
+        LogcatHelper.startRecording(this)
         enableEdgeToEdge()
         setContent {
             MGLinkerTheme {
@@ -335,6 +338,11 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
                 }
                 if (accessToken.isBlank()) {
                     Toast.makeText(context, "请输入ACCESS_TOKEN", Toast.LENGTH_SHORT).show()
+                    accessTokenFocusRequester.requestFocus()
+                    return@Button
+                }
+                if (!accessToken.endsWith("-prod_SAIC")){
+                    Toast.makeText(context, "ACCESS_TOKEN不正确，请点击输入框上方帮助按钮ⓘ查看抓包教程", Toast.LENGTH_SHORT).show()
                     accessTokenFocusRequester.requestFocus()
                     return@Button
                 }

@@ -14,6 +14,8 @@
     <color name="status_green">#4CAF50</color>
     <color name="status_red">#F44336</color>
     <color name="status_gray">#666666</color>
+    <color name="process_green">#00FF00</color>
+    <color name="process_red">#FF0000</color>
     
     <!-- Temperature Colors -->
     <color name="temp_cold">#2196F3</color>

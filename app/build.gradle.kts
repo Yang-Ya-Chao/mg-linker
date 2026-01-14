@@ -51,6 +51,25 @@ android {
         compose = true
         buildConfig = true // Enable BuildConfig generation
     }
+        // ↓↓↓↓↓↓ 添加这段代码 ↓↓↓↓↓↓
+    applicationVariants.all {
+        val variant = this
+        outputs.all {
+            // 获取输出对象
+            val output = this as? com.android.build.gradle.internal.api.BaseVariantOutputImpl
+
+            // 1. 获取当前时间 (例如 20231027)
+            //val date = java.text.SimpleDateFormat("yyyyMMdd").format(java.util.Date())
+
+            // 2. 拼接文件名: "AppName_v1.0_debug_20231027.apk"
+            // variant.versionName: 版本号
+            // variant.buildType.name: debug 或 release
+            //val newFileName = "MGWidget_v${variant.versionName}_${variant.buildType.name}_${date}.apk"
+            // 3. 设置新名称
+            output?.outputFileName = "MG Linker.apk"
+        }
+    }
+
 }
 
 dependencies {
