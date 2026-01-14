@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1.2"
             android:text="MG7"
-            android:textColor="#000000"
+            android:textColor="@color/widget_text_color"
             android:textSize="16sp"
             android:textStyle="bold" />
 
@@ -33,6 +33,7 @@
             android:layout_weight="1"
             android:text="川G"
             android:layout_marginTop="1dp"
+            android:textColor="@color/widget_text_color"
             android:textSize="13sp" />
         <LinearLayout
             android:id="@+id/ll_range_fuel"
@@ -47,7 +48,7 @@
                 android:layout_height="wrap_content"
                 android:includeFontPadding="false"
                 android:text="0"
-                android:textColor="#000000"
+                android:textColor="@color/widget_text_color"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -55,12 +56,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=" km "
+                android:textColor="@color/widget_text_color"
                 android:textSize="10sp" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=" / "
-                android:textColor="#000000"
+                android:textColor="@color/widget_text_color"
                 android:textSize="11sp"/>
 
             <TextView
@@ -69,7 +71,7 @@
                 android:layout_height="wrap_content"
                 android:includeFontPadding="false"
                 android:text="0"
-                android:textColor="#000000"
+                android:textColor="@color/widget_text_color"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -77,6 +79,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="%"
+                android:textColor="@color/widget_text_color"
                 android:textSize="10sp" />
         </LinearLayout>
 
@@ -97,6 +100,7 @@
             android:text="总里程: 0 km"
             android:layout_marginTop="1dp"
             android:layout_weight="1"
+            android:textColor="@color/widget_text_color"
             android:textSize="10sp" />
         <TextView
             android:id="@+id/tv_battery_info"
@@ -105,6 +109,7 @@
             android:text="电池:0% 电压：0v"
             android:layout_marginTop="1dp"
             android:layout_weight="1"
+            android:textColor="@color/widget_text_color"
             android:textSize="10sp" />
 
 
@@ -121,7 +126,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="已上锁"
-                android:textColor="#52C41A"
+                android:textColor="@color/status_green"
                 android:textSize="10sp" />
 
             <TextView
@@ -130,6 +135,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="3dp"
                 android:text=" 更新"
+                android:textColor="@color/widget_text_color"
                 android:textSize="10sp" />
         </LinearLayout>
 
@@ -141,6 +147,7 @@
             android:layout_marginTop="1dp"
             android:layout_marginBottom="2dp"
             android:text="--"
+            android:textColor="@color/widget_text_color"
             android:textSize="8sp"  />
     </LinearLayout>
 
@@ -173,13 +180,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="车内温度: "
+                android:textColor="@color/widget_text_color"
                 android:textSize="8sp" />
             <TextView
                 android:id="@+id/tv_temp_value"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0°C"
-                android:textColor="#81C784"
+                android:textColor="@color/status_green"
                 android:textSize="8sp" />
         </LinearLayout>
 
@@ -188,7 +196,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="fitCenter"
-            android:layout_marginTop="-28dp"
+            android:layout_marginTop="-20dp"
             android:layout_marginBottom="-14dp"
             android:layout_weight="1"
             android:inAnimation="@android:anim/fade_in"
@@ -220,6 +228,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="2dp"
                 android:text="车窗"
+                android:textColor="@color/widget_text_color"
                 android:textSize="8sp"/>
             <TextView
                 android:id="@+id/tv_window_value"
@@ -227,6 +236,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="1dp"
                 android:text="已关闭"
+                android:textColor="@color/widget_text_color"
                 android:textSize="8sp"/>
             <TextView
                 android:id="@+id/tv_door_label"
@@ -234,6 +244,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="2dp"
                 android:text="车门"
+                android:textColor="@color/widget_text_color"
                 android:textSize="8sp" />
 
             <TextView
@@ -242,6 +253,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="1dp"
                 android:text="已关闭"
+                android:textColor="@color/widget_text_color"
                 android:textSize="8sp" />
         </LinearLayout>
     </LinearLayout>

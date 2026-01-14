@@ -15,8 +15,6 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.Info
 import androidx.compose.material3.*
@@ -25,7 +23,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.text.font.FontWeight
@@ -282,54 +279,53 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
 
     val vinFocusRequester = remember { FocusRequester() }
     val accessTokenFocusRequester = remember { FocusRequester() }
-    val scrollState = rememberScrollState()
 
     Column(
         modifier = modifier
             .fillMaxSize()
-            .padding(16.dp)
-            .verticalScroll(scrollState),
+            .padding(24.dp), // Use consistent padding
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Spacer(modifier = Modifier.height(20.dp))
         Text(
             text = "MG7 小组件配置",
-            fontSize = 20.sp,
+            fontSize = 24.sp,
             fontWeight = FontWeight.Bold,
-            color = Color.Black
+            color = MaterialTheme.colorScheme.primary
         )
         Spacer(modifier = Modifier.height(20.dp))
 
-        InputField(
-            label = "请输入您的车架号(VIN):",
-            value = vin,
-            onValueChange = { vin = it },
-            modifier = Modifier.focusRequester(vinFocusRequester)
-        )
+        // --- Input Fields Column (Scrollable if needed, but not for now) ---
+        Column {
+            InputField(
+                label = "请输入您的车架号(VIN):",
+                value = vin,
+                onValueChange = { vin = it },
+                modifier = Modifier.focusRequester(vinFocusRequester)
+            )
 
-        ColorDropdownField(
-            label = "请选择车辆颜色:",
-            selectedColor = color,
-            onColorSelected = { color = it }
-        )
+            ColorDropdownField(
+                label = "请选择车辆颜色:",
+                selectedColor = color,
+                onColorSelected = { color = it }
+            )
 
-        InputField(label = "请输入您的车辆名称 (选填) :", value = carName, onValueChange = { carName = it })
-        InputField(label = "请输入您的车牌号 (选填) :", value = plateNumber, onValueChange = { plateNumber = it })
+            InputField(label = "请输入您的车辆名称 (选填) :", value = carName, onValueChange = { carName = it })
+            InputField(label = "请输入您的车牌号 (选填) :", value = plateNumber, onValueChange = { plateNumber = it })
 
-        // 修改了这里，增加了 onHelpClick 参数
-        InputField(
-            label = "请输入您的 ACCESS_TOKEN:",
-            value = accessToken,
-            onValueChange = { accessToken = it },
-            modifier = Modifier.focusRequester(accessTokenFocusRequester),
-            singleLine = false,
-            onHelpClick = {
-                // 跳转到 Gitee README 页面
-                uriHandler.openUri("https://gitee.com/yangyachao-X/mg-linker/blob/master/README.md")
-            }
-        )
-
-        Spacer(modifier = Modifier.height(30.dp))
+            InputField(
+                label = "请输入您的 ACCESS_TOKEN:",
+                value = accessToken,
+                onValueChange = { accessToken = it },
+                modifier = Modifier.focusRequester(accessTokenFocusRequester),
+                singleLine = false,
+                onHelpClick = {
+                    uriHandler.openUri("https://gitee.com/yangyachao-X/mg-linker/blob/master/README.md")
+                }
+            )
+        }
+        
+        // --- This spacer will push all subsequent content to the bottom ---
+        Spacer(modifier = Modifier.weight(1f))
 
         Button(
             onClick = {
@@ -360,30 +356,15 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
                 Toast.makeText(context, "保存成功，小组件将在稍后更新", Toast.LENGTH_SHORT).show()
                 val appWidgetManager = AppWidgetManager.getInstance(context)
                 val myProvider = ComponentName(context, MGWidget::class.java)
-                // 1. 【关键步骤】获取当前该部件在桌面上已存在的 ID 列表
-                val existingIds = appWidgetManager.getAppWidgetIds(myProvider)
-                // 2. 判断：如果列表不为空，说明桌面上已经有一个或多个了
-                if (existingIds.isEmpty()) {
-                    // 3. 如果没有，且系统支持钉选，则发起请求
-                    // 1. 检查当前系统是否支持“请求固定小部件” (Android 8.0+ 支持)
+                if (appWidgetManager.getAppWidgetIds(myProvider).isEmpty()) {
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O && appWidgetManager.isRequestPinAppWidgetSupported) {
-
-                        // 2. 创建一个 PendingIntent，用于处理添加成功后的回调 (可选)
-                        // 如果不需要回调，传 null 也可以，但建议传一个
-                        // val successCallback = PendingIntent.getBroadcast(...)
-
-                        // 3. 发起请求：这会在屏幕上弹出一个系统对话框，让用户点击“添加”
                         try {
                             appWidgetManager.requestPinAppWidget(myProvider, null, null)
                         } catch (e: Exception) {
-                            // 处理异常
+                            // Handle exception
                         }
-                    } else {
-                        // 对于不支持的旧手机，或者特殊 ROM，只能提示用户去桌面手动添加
-                        // Toast.makeText(context, "请在桌面长按空白处手动添加小部件", Toast.LENGTH_LONG).show()
-                    }
+                    } 
                 }
-                // 触发小组件更新
                 val intent = Intent(context, MGWidget::class.java).apply {
                     action = AppWidgetManager.ACTION_APPWIDGET_UPDATE
                 }
@@ -394,10 +375,9 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
             },
             modifier = Modifier
                 .fillMaxWidth()
-                .height(50.dp),
-            colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF6750A4))
+                .height(52.dp),
         ) {
-            Text(text = "保存并更新小组件", color = Color.White, fontSize = 16.sp)
+            Text(text = "保存并更新小组件", fontSize = 16.sp)
         }
 
         Spacer(modifier = Modifier.height(16.dp))
@@ -405,18 +385,17 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
         Text(
             text = "当前状态: ${if (isConfigured) "已配置" else "未配置"}",
             modifier = Modifier.align(Alignment.Start),
-            color = Color.Gray,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
             fontSize = 14.sp
         )
 
-        Spacer(modifier = Modifier.weight(1f))
-        Spacer(modifier = Modifier.height(40.dp))
+        Spacer(modifier = Modifier.height(16.dp)) 
 
         Text(
             text = "Power By 杨家三郎\n纯属娱乐免费，请勿较真",
             textAlign = TextAlign.Center,
             fontSize = 12.sp,
-            color = Color.Gray,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
             lineHeight = 16.sp,
             modifier = Modifier.clickable(
                 interactionSource = remember { MutableInteractionSource() },
@@ -443,7 +422,7 @@ fun ColorDropdownField(
         Text(
             text = label,
             fontSize = 14.sp,
-            color = Color.Black,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
             modifier = Modifier.padding(bottom = 8.dp)
         )
         ExposedDropdownMenuBox(
@@ -487,14 +466,12 @@ fun InputField(
     onValueChange: (String) -> Unit,
     modifier: Modifier = Modifier,
     singleLine: Boolean = true,
-    // 新增可选回调，用于点击帮助图标
     onHelpClick: (() -> Unit)? = null
 ) {
     Column(modifier = Modifier
         .fillMaxWidth()
         .padding(vertical = 8.dp)) {
 
-        // 使用 Row 包裹 Text 和 Icon
         Row(
             verticalAlignment = Alignment.CenterVertically,
             modifier = Modifier.padding(bottom = 8.dp)
@@ -502,9 +479,8 @@ fun InputField(
             Text(
                 text = label,
                 fontSize = 14.sp,
-                color = Color.Black
+                color = MaterialTheme.colorScheme.onSurfaceVariant
             )
-            // 如果传入了回调，显示一个 Info 图标
             if (onHelpClick != null) {
                 Spacer(modifier = Modifier.width(4.dp))
                 Icon(

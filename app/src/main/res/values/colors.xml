@@ -23,4 +23,7 @@
     <color name="temp_comfortable">#4CAF50</color>
     <color name="temp_warm">#FF9800</color>
     <color name="temp_hot">#F44336</color>
+
+    <!-- Text color for widgets -->
+    <color name="widget_text_color">#000000</color>
 </resources>

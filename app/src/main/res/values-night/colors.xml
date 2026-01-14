@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text color for widgets in dark mode -->
+    <color name="widget_text_color">#FFFFFF</color>
+
+    <!-- Status Colors for Dark Mode -->
+    <color name="status_green">#81C784</color> <!-- A lighter green for dark backgrounds -->
+    <color name="status_red">#E57373</color>   <!-- A lighter red for dark backgrounds -->
+</resources>

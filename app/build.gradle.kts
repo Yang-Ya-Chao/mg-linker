@@ -64,9 +64,9 @@ android {
             // 2. 拼接文件名: "AppName_v1.0_debug_20231027.apk"
             // variant.versionName: 版本号
             // variant.buildType.name: debug 或 release
-            //val newFileName = "MGWidget_v${variant.versionName}_${variant.buildType.name}_${date}.apk"
+            val newFileName = "MG Linker.apk"
             // 3. 设置新名称
-            output?.outputFileName = "MG Linker.apk"
+            output?.outputFileName =  newFileName
         }
     }
 
@@ -81,6 +81,7 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
+    implementation("androidx.compose.material:material-icons-extended")
     
     // Networking
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
