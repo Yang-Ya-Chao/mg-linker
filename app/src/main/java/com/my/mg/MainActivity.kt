@@ -86,7 +86,7 @@ class MainActivity : ComponentActivity() {
                             UpdateDialog(
                                 release = release,
                                 onConfirm = {
-                                    val apkAsset = release.assets.firstOrNull { it.name.endsWith(".apk") }
+                                    val apkAsset = release.assets.firstOrNull { it.name == "MG Linker.apk" }
                                     if (apkAsset != null) {
                                         downloadAndInstallApk(apkAsset)
                                     }
