@@ -69,7 +69,9 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         // 进程启动时开始记录日志
-        LogcatHelper.startRecording(this)
+        if (BuildConfig.DEBUG){
+          LogcatHelper.startRecording(this)
+        }
         enableEdgeToEdge()
         setContent {
             MGLinkerTheme {
@@ -356,7 +358,31 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
                 editor.apply()
                 isConfigured = true
                 Toast.makeText(context, "保存成功，小组件将在稍后更新", Toast.LENGTH_SHORT).show()
+                val appWidgetManager = AppWidgetManager.getInstance(context)
+                val myProvider = ComponentName(context, MGWidget::class.java)
+                // 1. 【关键步骤】获取当前该部件在桌面上已存在的 ID 列表
+                val existingIds = appWidgetManager.getAppWidgetIds(myProvider)
+                // 2. 判断：如果列表不为空，说明桌面上已经有一个或多个了
+                if (existingIds.isEmpty()) {
+                    // 3. 如果没有，且系统支持钉选，则发起请求
+                    // 1. 检查当前系统是否支持“请求固定小部件” (Android 8.0+ 支持)
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O && appWidgetManager.isRequestPinAppWidgetSupported) {
 
+                        // 2. 创建一个 PendingIntent，用于处理添加成功后的回调 (可选)
+                        // 如果不需要回调，传 null 也可以，但建议传一个
+                        // val successCallback = PendingIntent.getBroadcast(...)
+
+                        // 3. 发起请求：这会在屏幕上弹出一个系统对话框，让用户点击“添加”
+                        try {
+                            appWidgetManager.requestPinAppWidget(myProvider, null, null)
+                        } catch (e: Exception) {
+                            // 处理异常
+                        }
+                    } else {
+                        // 对于不支持的旧手机，或者特殊 ROM，只能提示用户去桌面手动添加
+                        // Toast.makeText(context, "请在桌面长按空白处手动添加小部件", Toast.LENGTH_LONG).show()
+                    }
+                }
                 // 触发小组件更新
                 val intent = Intent(context, MGWidget::class.java).apply {
                     action = AppWidgetManager.ACTION_APPWIDGET_UPDATE

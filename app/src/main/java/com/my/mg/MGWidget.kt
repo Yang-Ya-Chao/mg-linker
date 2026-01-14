@@ -34,7 +34,9 @@ class MGWidget : AppWidgetProvider() {
         appWidgetManager: AppWidgetManager,
         appWidgetIds: IntArray
     ) {
-        LogcatHelper.startRecording(context)
+        if (BuildConfig.DEBUG){
+            LogcatHelper.startRecording(context)
+        }
         log(context, "onUpdate called for IDs: ${appWidgetIds.joinToString()}")
         // 1. 获取电源管理器
         val powerManager = context.getSystemService(Context.POWER_SERVICE) as PowerManager
