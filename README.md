@@ -66,7 +66,7 @@ MGLive;MG7;android;小组件;名爵;名爵7
 
 4.  配置MG Linker参数
 5.  保存返回桌面，在小组件中找到MG Linker并添加到桌面
-6.  按照教程操作，也正确抓取到了token，配置之后小组件刷新异常，请下载[MG Linker调试版](https://gitee.com/yangyachao-X/mg-linker/releases/download/1.0/MG%20Linker_debug.apk)，刷新小组将后在Android/data/com.my.mg/files/logs/MGLinker_log.txt中查看详细报错信息
+6.  按照教程操作，也正确抓取到了token，配置之后小组件刷新异常，请下载[MG Linker调试版](https://gitee.com/yangyachao-X/mg-linker/releases/download/1.0/MG%20Linker_debug.apk)，刷新小组件后在Android/data/com.my.mg/files/logs/MGLinker_log.txt中查看详细报错信息
 
 
 
