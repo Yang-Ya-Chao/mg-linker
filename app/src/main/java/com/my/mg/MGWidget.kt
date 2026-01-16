@@ -26,6 +26,7 @@ import java.util.Date
 import java.util.Locale
 import android.os.PowerManager
 import com.my.mg.log.LogcatHelper
+import android.view.View
 
 class MGWidget : AppWidgetProvider() {
 
@@ -105,63 +106,61 @@ class MGWidget : AppWidgetProvider() {
             val prefs = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
 
             val vin = prefs.getString("vin", "") ?: ""
+            val carBrand = prefs.getString("car_brand", "名爵") ?: "名爵"
+            val carModel = prefs.getString("car_model", "") ?: ""
             val color = prefs.getString("color", "") ?: ""
-            val carName = prefs.getString("car_name", "")
-            val plateNumber = prefs.getString("plate_number", "")
+            val carName = prefs.getString("car_name", "") ?: ""
+            val plateNumber = prefs.getString("plate_number", "") ?: ""
             val token = prefs.getString("access_token", "") ?: ""
 
-            log(context, "Config - VIN: $vin, Color: $color, Token: ${token.take(10)}...")
+            log(context, "Config - VIN: $vin, Brand: $carBrand, Model: $carModel, Color: $color, Token: ${token.take(10)}...")
 
-            // 基本信息
-            views.setTextViewText(R.id.tv_car_name, if (carName.isNullOrEmpty()) "" else carName)
-            views.setTextViewText(R.id.tv_plate_number, if (plateNumber.isNullOrEmpty()) "" else plateNumber)
+            // Set car name and plate number
+            views.setTextViewText(R.id.tv_car_name, if (carName.isNullOrEmpty()) carModel else carName)
+            views.setTextViewText(R.id.tv_plate_number, plateNumber)
 
-            // 根据颜色设置汽车图片
-            val carImageResId = when (color) {
-                "墨玉黑" -> R.drawable.black_300x257
-                "釉瓷白" -> R.drawable.white_300x257
-                "山茶红" -> R.drawable.red_300x257
-                "雾凇灰" -> R.drawable.gray_300x257
-                "翡冷翠" -> R.drawable.green_300x257
-                "冰晶蓝" -> R.drawable.blue_300x257
-                else -> R.drawable.blue_300x257
+            // Set brand logo
+            val logoResId = if (carBrand == "荣威") R.drawable.rw_logo else R.drawable.mg_logo
+            views.setImageViewResource(R.id.iv_brand_logo, logoResId)
+
+            // Set car image based on model and color
+            val colorMap = mapOf(
+                // MG7
+                "墨玉黑" to "black", "釉瓷白" to "white", "山茶红" to "red", "雾凇灰" to "gray", "翡冷翠" to "green", "冰晶蓝" to "blue",
+                // MG4
+                "车来紫" to "purple", "清波绿" to "green", "海岛蓝" to "blue", "珊瑚红" to "red", "星野灰" to "gray", "月光白" to "white",
+                // D7
+                "安第斯灰" to "gray", "光速银" to "silver", "晨曦金" to "gold", "亮白" to "white", "珠光黑" to "black"
+            )
+            val colorIdentifier = colorMap[color] ?: "default"
+            val modelIdentifier = carModel.lowercase(Locale.getDefault())
+            val imageName = "${colorIdentifier}_${modelIdentifier}"
+            val carImageResId = context.resources.getIdentifier(imageName, "drawable", context.packageName)
+            
+            if (carImageResId != 0) {
+                views.setImageViewResource(R.id.iv_car_image, carImageResId)
+            } else {
+                // Fallback to a default image if not found
+                views.setImageViewResource(R.id.iv_car_image, R.drawable.mg_logo) 
             }
-            views.setImageViewResource(R.id.iv_car_image, carImageResId)
 
-            // 设置点击logo打开应用程序
+            // Set click listeners
             val openAppIntent = Intent(context, MainActivity::class.java)
             val openAppPendingIntent = PendingIntent.getActivity(context, 0, openAppIntent, PendingIntent.FLAG_IMMUTABLE)
             views.setOnClickPendingIntent(R.id.iv_brand_logo, openAppPendingIntent)
 
-            // 在“更新”文本上设置刷新按钮意图
-            val refreshIntent = Intent(context, MGWidget::class.java).apply {
-                action = ACTION_REFRESH
-            }
-            val refreshPendingIntent = PendingIntent.getBroadcast(
-                context,
-                1,
-                refreshIntent,
-                PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
-            )
+            val refreshIntent = Intent(context, MGWidget::class.java).apply { action = ACTION_REFRESH }
+            val refreshPendingIntent = PendingIntent.getBroadcast(context, 1, refreshIntent, PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE)
             views.setOnClickPendingIntent(R.id.tv_update_time, refreshPendingIntent)
-            // 创建一个意图，动作为自定义的切换动作
+
             val flipIntent = Intent(context, MGWidget::class.java).apply {
                 action = ACTION_WIDGET_FLIP
-                // 传入当前的 widgetId
                 putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId)
             }
-
-            val pendingIntent = PendingIntent.getBroadcast(
-                context,
-                appWidgetId, // 使用 appWidgetId 保证唯一性
-                flipIntent,
-                PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
-            )
-
-            // 点击图片触发切换
+            val pendingIntent = PendingIntent.getBroadcast(context, appWidgetId, flipIntent, PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE)
             views.setOnClickPendingIntent(R.id.view_flipper_center, pendingIntent)
 
-            // 获取数据
+            // Fetch data or show configuration prompt
             if (vin.isNotEmpty() && token.isNotEmpty()) {
                 fetchVehicleData(context, views, appWidgetManager, appWidgetId, vin, token)
             } else {
@@ -230,15 +229,42 @@ class MGWidget : AppWidgetProvider() {
 
             // --- Main Info UI (mg_info_widget) ---
             val mileage = vehicleValue?.odometer ?: 0
+            views.setTextViewText(R.id.tv_total_mileage, "总里程: $mileage km")
+
             val fuelLevel = vehicleValue?.fuel_level_prc ?: 0
             val fuelRange = vehicleValue?.fuel_range ?: 0
-            views.setTextViewText(R.id.tv_range, "$fuelRange")
-            views.setTextViewText(R.id.tv_fuel_percent, "$fuelLevel")
-            views.setTextViewText(R.id.tv_total_mileage, "总里程: $mileage km")
-            views.setProgressBar(R.id.pb_fuel,100,fuelLevel,false)
+            val batteryPackRange = vehicleValue?.battery_pack_range ?: 0
+            val batteryPackPrc = vehicleValue?.battery_pack_prc?.let { it / 10 } ?: 0
 
-            val fuelColorRes = if (fuelLevel < 20) R.color.process_red else R.color.process_green
-            views.setColorStateList(R.id.pb_fuel, "setProgressTintList", ColorStateList.valueOf(context.getColor(fuelColorRes)))
+            val showFuel = fuelRange > 0
+            val showBattery = batteryPackRange > 0
+
+            views.setViewVisibility(R.id.ll_range_fuel, if (showFuel) View.VISIBLE else View.GONE)
+            views.setViewVisibility(R.id.ll_battery_range, if (showBattery) View.VISIBLE else View.GONE)
+
+            if (showFuel) {
+                views.setTextViewText(R.id.tv_range, "⛽$fuelRange")
+                views.setTextViewText(R.id.tv_fuel_percent, "$fuelLevel")
+                views.setProgressBar(R.id.pb_fuel, 100, fuelLevel, false)
+                val fuelColor = when {
+                    fuelLevel < 20 -> R.color.status_red
+                    showBattery -> R.color.status_blue // Both are visible, fuel is blue
+                    else -> R.color.status_green // Only fuel is visible, so it's green
+                }
+                views.setColorStateList(R.id.pb_fuel, "setProgressTintList", ColorStateList.valueOf(context.getColor(fuelColor)))
+            }
+
+            if (showBattery) {
+                views.setTextViewText(R.id.tv_battery_range, "🔋$batteryPackRange")
+                views.setTextViewText(R.id.tv_battery_percent, "$batteryPackPrc")
+                views.setProgressBar(R.id.pb_battery, 100, batteryPackPrc, false)
+                val batteryColor = when {
+                    batteryPackPrc < 20 -> R.color.status_red
+                    else -> R.color.status_green // Battery is always green (unless low)
+                }
+                views.setColorStateList(R.id.pb_battery, "setProgressTintList", ColorStateList.valueOf(context.getColor(batteryColor)))
+            }
+            
 
             val batteryLevelRaw = vehicleValue?.vehicle_battery_prc ?: 0
             val batteryVoltageRaw = vehicleValue?.vehicle_battery ?: 0
@@ -416,7 +442,9 @@ data class VehicleValue(
     val rear_right_tyre_pressure: Int?,
     val front_left_tyre_pressure: Int?,
     val front_right_tyre_pressure: Int?,
-    val rear_left_tyre_pressure: Int?
+    val rear_left_tyre_pressure: Int?,
+    val battery_pack_range: Int?,
+    val battery_pack_prc: Int?
 )
 
 data class VehicleState(

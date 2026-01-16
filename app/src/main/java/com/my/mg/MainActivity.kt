@@ -267,12 +267,13 @@ fun UpdateDialog(
 fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
     val context = LocalContext.current
     val sharedPreferences = remember { context.getSharedPreferences("mg_config", Context.MODE_PRIVATE) }
-    // 获取 URI Handler 用于跳转网页
     val uriHandler = LocalUriHandler.current
 
+    var carBrand by remember { mutableStateOf(sharedPreferences.getString("car_brand", "名爵") ?: "名爵") }
+    var carModel by remember { mutableStateOf(sharedPreferences.getString("car_model", "") ?: "") }
+    var carName by remember { mutableStateOf(sharedPreferences.getString("car_name", "") ?: "") }
     var vin by remember { mutableStateOf(sharedPreferences.getString("vin", "") ?: "") }
     var color by remember { mutableStateOf(sharedPreferences.getString("color", "") ?: "") }
-    var carName by remember { mutableStateOf(sharedPreferences.getString("car_name", "") ?: "") }
     var plateNumber by remember { mutableStateOf(sharedPreferences.getString("plate_number", "") ?: "") }
     var accessToken by remember { mutableStateOf(sharedPreferences.getString("access_token", "") ?: "") }
     var isConfigured by remember { mutableStateOf(sharedPreferences.getBoolean("is_configured", false)) }
@@ -280,57 +281,90 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
     val vinFocusRequester = remember { FocusRequester() }
     val accessTokenFocusRequester = remember { FocusRequester() }
 
+    val modelsByBrand = mapOf(
+        "名爵" to listOf("MG7", "MG4"),
+        "荣威" to listOf("D7")
+    )
+
+    val colorsByModel = mapOf(
+        "MG7" to listOf("墨玉黑", "釉瓷白", "山茶红", "雾凇灰", "翡冷翠", "冰晶蓝"),
+        "MG4" to listOf("车来紫", "清波绿", "海岛蓝", "珊瑚红", "星野灰", "月光白"),
+        "D7" to listOf("安第斯灰", "光速银", "晨曦金", "亮白", "珠光黑")
+    )
+
+    LaunchedEffect(carBrand) {
+        modelsByBrand[carBrand]?.firstOrNull()?.let { firstModel ->
+            if (carModel.isEmpty() || modelsByBrand[carBrand]?.contains(carModel) == false) {
+                carModel = firstModel
+            }
+        }
+    }
+    
+    LaunchedEffect(carModel) {
+        val availableColors = colorsByModel[carModel] ?: emptyList()
+        if (color.isEmpty() || !availableColors.contains(color)) {
+            color = availableColors.firstOrNull() ?: ""
+        }
+    }
+
     Column(
         modifier = modifier
             .fillMaxSize()
-            .padding(24.dp), // Use consistent padding
+            .padding(horizontal = 24.dp, vertical = 16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            text = "MG7 小组件配置",
-            fontSize = 24.sp,
+            text = "上汽小组件配置",
+            fontSize = 22.sp,
             fontWeight = FontWeight.Bold,
-            color = MaterialTheme.colorScheme.primary
+            color = MaterialTheme.colorScheme.primary,
+            modifier = Modifier.padding(bottom = 8.dp)
         )
-        Spacer(modifier = Modifier.height(20.dp))
 
-        // --- Input Fields Column (Scrollable if needed, but not for now) ---
-        Column {
-            InputField(
-                label = "请输入您的车架号(VIN):",
-                value = vin,
-                onValueChange = { vin = it },
-                modifier = Modifier.focusRequester(vinFocusRequester)
-            )
+        BrandSelector(selectedBrand = carBrand, onBrandSelected = { carBrand = it })
 
-            ColorDropdownField(
-                label = "请选择车辆颜色:",
-                selectedColor = color,
-                onColorSelected = { color = it }
-            )
+        ModelDropdownField(
+            label = "请选择车型",
+            selectedModel = carModel,
+            onModelSelected = { carModel = it },
+            models = modelsByBrand[carBrand] ?: emptyList()
+        )
 
-            InputField(label = "请输入您的车辆名称 (选填) :", value = carName, onValueChange = { carName = it })
-            InputField(label = "请输入您的车牌号 (选填) :", value = plateNumber, onValueChange = { plateNumber = it })
+        InputField(label = "车辆名称 (选填)", value = carName, onValueChange = { carName = it })
 
-            InputField(
-                label = "请输入您的 ACCESS_TOKEN:",
-                value = accessToken,
-                onValueChange = { accessToken = it },
-                modifier = Modifier.focusRequester(accessTokenFocusRequester),
-                singleLine = false,
-                onHelpClick = {
-                    uriHandler.openUri("https://gitee.com/yangyachao-X/mg-linker/blob/master/README.md")
-                }
-            )
-        }
-        
-        // --- This spacer will push all subsequent content to the bottom ---
+        InputField(
+            label = "请输入您的车架号(VIN):",
+            value = vin,
+            onValueChange = { vin = it },
+            modifier = Modifier.focusRequester(vinFocusRequester)
+        )
+
+        ColorDropdownField(
+            label = "请选择车辆颜色:",
+            selectedColor = color,
+            onColorSelected = { color = it },
+            options = colorsByModel[carModel] ?: emptyList()
+        )
+
+        InputField(label = "请输入您的车牌号 (选填) :", value = plateNumber, onValueChange = { plateNumber = it })
+
+        InputField(
+            label = "请输入您的 ACCESS_TOKEN:",
+            value = accessToken,
+            onValueChange = { accessToken = it },
+            modifier = Modifier.focusRequester(accessTokenFocusRequester),
+            singleLine = false,
+            onHelpClick = {
+                uriHandler.openUri("https://gitee.com/yangyachao-X/mg-linker/blob/master/README.md")
+            }
+        )
+
         Spacer(modifier = Modifier.weight(1f))
 
         Button(
             onClick = {
-                if (vin.isBlank()) {
-                    Toast.makeText(context, "请输入车架号", Toast.LENGTH_SHORT).show()
+                if (!vin.startsWith("LSJW") || vin.length != 17) {
+                    Toast.makeText(context, "请输入正确的17位车架号，以LSJW开头", Toast.LENGTH_SHORT).show()
                     vinFocusRequester.requestFocus()
                     return@Button
                 }
@@ -345,9 +379,11 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
                     return@Button
                 }
                 val editor = sharedPreferences.edit()
+                editor.putString("car_brand", carBrand)
+                editor.putString("car_model", carModel)
+                editor.putString("car_name", carName)
                 editor.putString("vin", vin)
                 editor.putString("color", color)
-                editor.putString("car_name", carName)
                 editor.putString("plate_number", plateNumber)
                 editor.putString("access_token", accessToken)
                 editor.putBoolean("is_configured", true)
@@ -375,21 +411,21 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
             },
             modifier = Modifier
                 .fillMaxWidth()
-                .height(52.dp),
+                .height(50.dp),
         ) {
             Text(text = "保存并更新小组件", fontSize = 16.sp)
         }
 
-        Spacer(modifier = Modifier.height(16.dp))
+        Spacer(modifier = Modifier.height(8.dp))
 
         Text(
             text = "当前状态: ${if (isConfigured) "已配置" else "未配置"}",
             modifier = Modifier.align(Alignment.Start),
             color = MaterialTheme.colorScheme.onSurfaceVariant,
-            fontSize = 14.sp
+            fontSize = 12.sp
         )
 
-        Spacer(modifier = Modifier.height(16.dp)) 
+        Spacer(modifier = Modifier.height(8.dp))
 
         Text(
             text = "Power By 杨家三郎\n纯属娱乐免费，请勿较真",
@@ -402,7 +438,87 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
                 indication = null
             ) { onCheckUpdate() }
         )
-        Spacer(modifier = Modifier.height(20.dp))
+    }
+}
+
+@Composable
+fun BrandSelector(
+    selectedBrand: String,
+    onBrandSelected: (String) -> Unit
+) {
+    val brands = listOf("名爵", "荣威")
+    Row(
+        modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp),
+        horizontalArrangement = Arrangement.Center,
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        brands.forEach { brand ->
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier
+                    .clickable { onBrandSelected(brand) }
+                    .padding(horizontal = 16.dp)
+            ) {
+                RadioButton(
+                    selected = selectedBrand == brand,
+                    onClick = { onBrandSelected(brand) }
+                )
+                Text(
+                    text = brand,
+                    style = MaterialTheme.typography.bodyLarge,
+                    modifier = Modifier.padding(start = 4.dp)
+                )
+            }
+        }
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun ModelDropdownField(
+    label: String,
+    selectedModel: String,
+    onModelSelected: (String) -> Unit,
+    models: List<String>
+) {
+    var expanded by remember { mutableStateOf(false) }
+
+    Column(modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp)) {
+        Text(
+            text = label,
+            fontSize = 14.sp,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+            modifier = Modifier.padding(bottom = 4.dp)
+        )
+        ExposedDropdownMenuBox(
+            expanded = expanded,
+            onExpandedChange = { expanded = !expanded },
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            OutlinedTextField(
+                modifier = Modifier.fillMaxWidth().menuAnchor(),
+                readOnly = true,
+                value = selectedModel,
+                onValueChange = {},
+                trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = expanded) },
+                colors = ExposedDropdownMenuDefaults.outlinedTextFieldColors(),
+            )
+            ExposedDropdownMenu(
+                expanded = expanded,
+                onDismissRequest = { expanded = false },
+            ) {
+                models.forEach { model ->
+                    DropdownMenuItem(
+                        text = { Text(model) },
+                        onClick = {
+                            onModelSelected(model)
+                            expanded = false
+                        },
+                        contentPadding = ExposedDropdownMenuDefaults.ItemContentPadding,
+                    )
+                }
+            }
+        }
     }
 }
 
@@ -411,19 +527,19 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
 fun ColorDropdownField(
     label: String,
     selectedColor: String,
-    onColorSelected: (String) -> Unit
+    onColorSelected: (String) -> Unit,
+    options: List<String>
 ) {
-    val options = listOf("墨玉黑", "釉瓷白", "山茶红", "雾凇灰", "翡冷翠", "冰晶蓝")
     var expanded by remember { mutableStateOf(false) }
 
     Column(modifier = Modifier
         .fillMaxWidth()
-        .padding(vertical = 8.dp)) {
+        .padding(vertical = 4.dp)) {
         Text(
             text = label,
             fontSize = 14.sp,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
-            modifier = Modifier.padding(bottom = 8.dp)
+            modifier = Modifier.padding(bottom = 4.dp)
         )
         ExposedDropdownMenuBox(
             expanded = expanded,
@@ -470,11 +586,11 @@ fun InputField(
 ) {
     Column(modifier = Modifier
         .fillMaxWidth()
-        .padding(vertical = 8.dp)) {
+        .padding(vertical = 4.dp)) { // Adjusted padding
 
         Row(
             verticalAlignment = Alignment.CenterVertically,
-            modifier = Modifier.padding(bottom = 8.dp)
+            modifier = Modifier.padding(bottom = 4.dp) // Adjusted padding
         ) {
             Text(
                 text = label,
