@@ -8,10 +8,12 @@ import android.content.Context
 import android.content.Intent
 import android.content.res.ColorStateList
 import android.location.Geocoder
+import android.os.Bundle
 import android.text.Spannable
 import android.text.SpannableString
 import android.text.style.ForegroundColorSpan
 import android.util.Log
+import android.util.TypedValue
 import android.widget.RemoteViews
 import com.google.gson.Gson
 import kotlinx.coroutines.CoroutineScope
@@ -51,6 +53,18 @@ class MGWidget : AppWidgetProvider() {
             }
         }
     }
+
+    override fun onAppWidgetOptionsChanged(
+        context: Context,
+        appWidgetManager: AppWidgetManager,
+        appWidgetId: Int,
+        newOptions: Bundle
+    ) {
+        super.onAppWidgetOptionsChanged(context, appWidgetManager, appWidgetId, newOptions)
+        log(context, "onAppWidgetOptionsChanged for ID: $appWidgetId")
+        updateAppWidget(context, appWidgetManager, appWidgetId) // Re-render with new sizes
+    }
+
 
     override fun onReceive(context: Context, intent: Intent) {
         log(context, "onReceive called with action: ${intent.action}")
@@ -144,6 +158,10 @@ class MGWidget : AppWidgetProvider() {
                 views.setImageViewResource(R.id.iv_car_image, R.drawable.mg_logo) 
             }
 
+            // --- Font Size Adjustment Logic ---
+            adjustFontSizes(context, appWidgetManager, appWidgetId, views)
+
+
             // Set click listeners
             val openAppIntent = Intent(context, MainActivity::class.java)
             val openAppPendingIntent = PendingIntent.getActivity(context, 0, openAppIntent, PendingIntent.FLAG_IMMUTABLE)
@@ -167,6 +185,69 @@ class MGWidget : AppWidgetProvider() {
                 views.setTextViewText(R.id.tv_update_time, "请配置 App")
                 appWidgetManager.updateAppWidget(appWidgetId, views)
             }
+        }
+        private fun adjustFontSizes(context: Context, appWidgetManager: AppWidgetManager, appWidgetId: Int, views: RemoteViews) {
+            val options = appWidgetManager.getAppWidgetOptions(appWidgetId)
+            val height = options.getInt(AppWidgetManager.OPTION_APPWIDGET_MAX_HEIGHT)
+
+            // Threshold to decide between 4x2 and 4x3. This might need tuning.
+            val isLarge = height > 180 // Assuming 4x3 is taller than 180dp
+
+            // Define font sizes for both states
+            val fontSizes = if (isLarge) {
+                log(context, "Using LARGE font sizes for height: $height")
+                // 4x3 sizes as per your request
+                listOf(13f, 12f, 11f, 10f, 10f, 10f)
+            } else {
+                log(context, "Using REGULAR font sizes for height: $height")
+                // 4x2 sizes (original sizes from your XML)
+                listOf(18f, 13f, 12f, 11f, 10f, 8f)
+            }
+
+            // Apply sizes
+            // 18sp -> size18
+            views.setTextViewTextSize(R.id.tv_range, TypedValue.COMPLEX_UNIT_SP, fontSizes[0])
+            views.setTextViewTextSize(R.id.tv_fuel_percent, TypedValue.COMPLEX_UNIT_SP, fontSizes[0])
+            views.setTextViewTextSize(R.id.tv_battery_range, TypedValue.COMPLEX_UNIT_SP, fontSizes[0])
+            views.setTextViewTextSize(R.id.tv_battery_percent, TypedValue.COMPLEX_UNIT_SP, fontSizes[0])
+            
+            // 13sp -> size13
+            views.setTextViewTextSize(R.id.tv_plate_number, TypedValue.COMPLEX_UNIT_SP, fontSizes[1])
+
+            // 12sp -> size12 (Assuming tv_car_name was 12 or similar)
+             views.setTextViewTextSize(R.id.tv_car_name, TypedValue.COMPLEX_UNIT_SP, 15f) // Keep car name larger
+
+            // 11sp -> size11
+             // No 11sp found in latest XML, but keeping for safety
+
+            // 10sp -> size10
+            views.setTextViewTextSize(R.id.tv_total_mileage, TypedValue.COMPLEX_UNIT_SP, fontSizes[4])
+            views.setTextViewTextSize(R.id.tv_battery_info, TypedValue.COMPLEX_UNIT_SP, fontSizes[4])
+            views.setTextViewTextSize(R.id.tv_lock_status, TypedValue.COMPLEX_UNIT_SP, fontSizes[4])
+            views.setTextViewTextSize(R.id.tv_update_time, TypedValue.COMPLEX_UNIT_SP, fontSizes[4])
+            
+            // 8sp -> size8
+            views.setTextViewTextSize(R.id.tv_temp_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.tv_temp_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.tv_window_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.tv_window_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.tv_door_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.tv_door_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.tv_location, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            // mg_info_widget.xml
+            views.setTextViewTextSize(R.id.tv_front_left_val, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.tv_rear_left_val, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.tv_front_right_val, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.tv_rear_right_val, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            // mg_lock_widget.xml
+            views.setTextViewTextSize(R.id.fl_window_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.fl_door_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.rl_window_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.rl_door_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.fr_window_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.fr_door_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.rr_window_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.rr_door_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
         }
 
         private fun fetchVehicleData(

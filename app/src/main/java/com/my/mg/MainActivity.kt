@@ -199,6 +199,8 @@ class MainActivity : ComponentActivity() {
             .setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED)
             .setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, asset.name)
             .setMimeType("application/vnd.android.package-archive")
+            .setRequiresCharging(false)
+            .setAllowedOverMetered(true)
 
         val downloadId = downloadManager.enqueue(request)
 
@@ -207,22 +209,21 @@ class MainActivity : ComponentActivity() {
                 val id = intent?.getLongExtra(DownloadManager.EXTRA_DOWNLOAD_ID, -1)
                 if (id == downloadId) {
                     unregisterReceiver(this)
-                    val file = File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS), asset.name)
-                    if (file.exists()) {
-                        val fileUri = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-                            FileProvider.getUriForFile(this@MainActivity, "${this@MainActivity.packageName}.provider", file)
-                        } else {
-                            Uri.fromFile(file)
-                        }
-                        installApk(fileUri)
+                    val uri = downloadManager.getUriForDownloadedFile(id)
+                    if (uri != null) {
+                        installApk(uri)
                     } else {
-                        Toast.makeText(this@MainActivity, "下载失败，文件未找到", Toast.LENGTH_LONG).show()
+                        Toast.makeText(this@MainActivity, "下载失败，无法获取文件URI", Toast.LENGTH_LONG).show()
                     }
                 }
             }
         }
-        // 注意：RECEIVER_EXPORTED 需要在 API 33+ 使用，如果报错请根据你的 targetSDK 调整
-        registerReceiver(onComplete, IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE), RECEIVER_EXPORTED)
+        // For Android 8.0 (API 26) and higher, you need to declare the receiver for exported=true
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            registerReceiver(onComplete, IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE), RECEIVER_EXPORTED)
+        } else {
+            registerReceiver(onComplete, IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE))
+        }
     }
 
     private fun installApk(uri: Uri) {
