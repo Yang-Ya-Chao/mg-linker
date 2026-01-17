@@ -184,7 +184,7 @@
             android:id="@+id/tv_battery_info"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="电池:0% 电压：0v"
+            android:text="电瓶:0% 电压：0v"
             android:layout_marginTop="1dp"
             android:layout_weight="1"
             android:textColor="@color/widget_text_color"

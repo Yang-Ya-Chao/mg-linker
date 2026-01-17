@@ -19,10 +19,11 @@
             android:id="@+id/tv_front_left_val"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="2.4 Bar"
+            android:text="0 Bar"
             android:textSize="8sp"
             android:textStyle="bold" />
         <TextView
+            android:id="@+id/tv_front_left"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="左前"
@@ -33,10 +34,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:text="2.5 Bar"
+            android:text="0 Bar"
             android:textSize="8sp"
             android:textStyle="bold" />
         <TextView
+            android:id="@+id/tv_rear_left"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="左后"
@@ -63,10 +65,11 @@
             android:id="@+id/tv_front_right_val"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="2.4 Bar"
+            android:text="0 Bar"
             android:textSize="8sp"
             android:textStyle="bold" />
         <TextView
+            android:id="@+id/tv_front_right"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="右前"
@@ -77,10 +80,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:text="2.5 Bar"
+            android:text="0 Bar"
             android:textSize="8sp"
             android:textStyle="bold" />
         <TextView
+            android:id="@+id/tv_rear_right"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="右后"

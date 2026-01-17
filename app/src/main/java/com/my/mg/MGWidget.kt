@@ -235,18 +235,38 @@ class MGWidget : AppWidgetProvider() {
             views.setTextViewTextSize(R.id.tv_door_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(R.id.tv_location, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             // mg_info_widget.xml
+            views.setTextViewTextSize(R.id.tv_front_left, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(R.id.tv_front_left_val, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.tv_rear_left, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(R.id.tv_rear_left_val, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.tv_front_right, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(R.id.tv_front_right_val, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.tv_rear_right, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(R.id.tv_rear_right_val, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             // mg_lock_widget.xml
+            //主驾
+            views.setTextViewTextSize(R.id.fl_window_door, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.fl_window_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(R.id.fl_window_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.fl_door_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(R.id.fl_door_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            //左后
+            views.setTextViewTextSize(R.id.rl_window_door, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.rl_window_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(R.id.rl_window_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.rl_door_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(R.id.rl_door_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            //副驾
+            views.setTextViewTextSize(R.id.fr_window_door, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.fr_window_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(R.id.fr_window_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.fr_door_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(R.id.fr_door_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            //右后
+            views.setTextViewTextSize(R.id.rr_window_door, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.rr_window_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(R.id.rr_window_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            views.setTextViewTextSize(R.id.rr_door_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(R.id.rr_door_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
         }
 
@@ -288,6 +308,7 @@ class MGWidget : AppWidgetProvider() {
                     e.printStackTrace()
                     withContext(Dispatchers.Main) {
                         views.setTextViewText(R.id.tv_update_time, "更新失败")
+                        views.setTextViewText(R.id.tv_location, "${e.message}")
                         appWidgetManager.updateAppWidget(appWidgetId, views)
                     }
                 }
@@ -350,9 +371,9 @@ class MGWidget : AppWidgetProvider() {
             val batteryLevelRaw = vehicleValue?.vehicle_battery_prc ?: 0
             val batteryVoltageRaw = vehicleValue?.vehicle_battery ?: 0
             val batteryLevel = batteryLevelRaw / 10
-            val batteryVoltage = batteryVoltageRaw / 10.0
+            val batteryVoltage = if (batteryVoltageRaw > 999) batteryVoltageRaw / 100.0 else batteryVoltageRaw / 10.0
             val batteryVoltageString = String.format("%.1f", batteryVoltage)
-            val batteryInfoText = "电池: $batteryLevel% 电压: ${batteryVoltageString}V"
+            val batteryInfoText = "电瓶: $batteryLevel% 电压: ${batteryVoltageString}V"
             val spannableBatteryInfo = SpannableString(batteryInfoText)
             if (batteryVoltage < 11.0) {
                 val startIndex = batteryInfoText.indexOf(batteryVoltageString)
