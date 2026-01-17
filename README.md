@@ -133,7 +133,7 @@ mg-linker/
 // 使用OkHttp进行网络请求
 val client = OkHttpClient()
 val request = Request.Builder()
-    .url("https://gitee.com/api/v5/repos/yangyachao-X/mg-linker/releases/latest")
+    .url("https://mp.ebanma.com/app-mp/vp/1.1/getVehicleStatus?timestamp=$timestamp&token=$token&vin=$vin")
     .build()
 ```
 
