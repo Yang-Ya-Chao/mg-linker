@@ -66,6 +66,8 @@ MGLive;MG7;android;小组件;名爵;名爵7
 
 6.  按照教程操作，也正确抓取到了token，配置之后小组件刷新异常，请下载[MG Linker调试版](https://gitee.com/yangyachao-X/mg-linker/releases/download/1.0/MG%20Linker_debug.apk)，刷新小组件后在Android/data/com.my.mg/files/logs/MGLinker_log.txt中查看详细报错信息
 
+7. [历史版本下载](https://gitee.com/yangyachao-X/mg-linker/releases)
+
 #### 小部件页面1：
 
 !![输入图片说明](https://foruda.gitee.com/images/1768037498931980640/daa657b2_8784824.png "屏幕截图")
