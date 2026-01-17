@@ -364,8 +364,8 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
 
         Button(
             onClick = {
-                if (!vin.startsWith("LSJW") || vin.length != 17) {
-                    Toast.makeText(context, "请输入正确的17位车架号，以LSJW开头", Toast.LENGTH_SHORT).show()
+                if ( vin.length != 17) {
+                    Toast.makeText(context, "请输入正确的17位车架号，", Toast.LENGTH_SHORT).show()
                     vinFocusRequester.requestFocus()
                     return@Button
                 }
