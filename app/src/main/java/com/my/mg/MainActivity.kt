@@ -15,6 +15,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.Info
 import androidx.compose.material3.*
@@ -26,6 +27,9 @@ import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.ImeAction
+import androidx.compose.ui.text.input.KeyboardCapitalization
+import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -281,7 +285,10 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
 
     val vinFocusRequester = remember { FocusRequester() }
     val accessTokenFocusRequester = remember { FocusRequester() }
-
+    // VIN 校验状态
+    val isVinValid = vin.length == 17
+    // 当有输入但长度不对时，显示错误
+    val isVinError = vin.isNotEmpty() && !isVinValid
     val modelsByBrand = mapOf(
         "名爵" to listOf("MG7", "MG4"),
         "荣威" to listOf("D7")
@@ -333,13 +340,27 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
 
         InputField(label = "车辆名称 (选填)", value = carName, onValueChange = { carName = it })
 
+        // *** VIN 输入框修改 ***
         InputField(
             label = "请输入您的车架号(VIN):",
             value = vin,
-            onValueChange = { vin = it },
-            modifier = Modifier.focusRequester(vinFocusRequester)
+            onValueChange = { input ->
+                // 1. 转大写
+                // 2. 过滤非数字和非大写字母
+                // 3. 限制长度为17
+                val formatted = input.uppercase()
+                    .filter { it.isDigit() || it in 'A'..'Z' }
+                    .take(17)
+                vin = formatted
+            },
+            modifier = Modifier.focusRequester(vinFocusRequester),
+            isError = isVinError,
+            supportingText = {
+                if (isVinError) {
+                    Text("需输入17位，当前: ${vin.length}", color = MaterialTheme.colorScheme.error)
+                }
+            }
         )
-
         ColorDropdownField(
             label = "请选择车辆颜色:",
             selectedColor = color,
@@ -364,7 +385,8 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
 
         Button(
             onClick = {
-                if ( vin.length != 17) {
+                // *** 增加 VIN 校验 ***
+                if (!isVinValid) {
                     Toast.makeText(context, "请输入正确的17位车架号", Toast.LENGTH_SHORT).show()
                     vinFocusRequester.requestFocus()
                     return@Button
@@ -429,7 +451,7 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
         Spacer(modifier = Modifier.height(8.dp))
 
         Text(
-            text = "Power By 杨家三郎\n纯属娱乐免费，请勿较真",
+            text = "Power By 杨家三郎\n娱乐免费，请勿较真",
             textAlign = TextAlign.Center,
             fontSize = 12.sp,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
@@ -583,6 +605,8 @@ fun InputField(
     onValueChange: (String) -> Unit,
     modifier: Modifier = Modifier,
     singleLine: Boolean = true,
+    isError: Boolean = false,
+    supportingText: @Composable (() -> Unit)? = null,
     onHelpClick: (() -> Unit)? = null
 ) {
     Column(modifier = Modifier
@@ -615,7 +639,9 @@ fun InputField(
             value = value,
             onValueChange = onValueChange,
             modifier = modifier.fillMaxWidth(),
-            singleLine = singleLine
+            singleLine = singleLine,
+            isError = isError,
+            supportingText = supportingText,
         )
     }
 }

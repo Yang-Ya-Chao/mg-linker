@@ -8,27 +8,32 @@ import android.content.Context
 import android.content.Intent
 import android.content.res.ColorStateList
 import android.location.Geocoder
+import android.net.ConnectivityManager
+import android.net.NetworkCapabilities
 import android.os.Bundle
+import android.os.PowerManager
 import android.text.Spannable
 import android.text.SpannableString
 import android.text.style.ForegroundColorSpan
 import android.util.Log
 import android.util.TypedValue
+import android.view.View
 import android.widget.RemoteViews
 import com.google.gson.Gson
+import com.my.mg.log.LogcatHelper
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import okhttp3.OkHttpClient
 import okhttp3.Request
-import java.io.File
+import java.net.ConnectException
+import java.net.SocketTimeoutException
+import java.net.UnknownHostException
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
-import android.os.PowerManager
-import com.my.mg.log.LogcatHelper
-import android.view.View
+import java.util.concurrent.TimeUnit
 
 class MGWidget : AppWidgetProvider() {
 
@@ -37,17 +42,18 @@ class MGWidget : AppWidgetProvider() {
         appWidgetManager: AppWidgetManager,
         appWidgetIds: IntArray
     ) {
-        if (BuildConfig.DEBUG){
+        if (BuildConfig.DEBUG) {
             LogcatHelper.startRecording(context)
         }
         log(context, "onUpdate called for IDs: ${appWidgetIds.joinToString()}")
+
         // 1. 获取电源管理器
         val powerManager = context.getSystemService(Context.POWER_SERVICE) as PowerManager
 
-        // 2. 检查屏幕是否交互中 (亮屏状态)
+        // 2. 检查屏幕是否交互中 (亮屏状态) - 省电策略
         val isScreenOn = powerManager.isInteractive
-        if (isScreenOn){
-                // 可能有多个小组件处于活动状态，因此请更新所有这些小组件
+        if (isScreenOn) {
+            // 可能有多个小组件处于活动状态，因此请更新所有这些小组件
             for (appWidgetId in appWidgetIds) {
                 updateAppWidget(context, appWidgetManager, appWidgetId)
             }
@@ -81,8 +87,7 @@ class MGWidget : AppWidgetProvider() {
                 views.showNext(R.id.view_flipper_center)
                 appWidgetManager.updateAppWidget(appWidgetId, views)
             }
-        }
-        else if (ACTION_REFRESH == intent.action) {
+        } else if (ACTION_REFRESH == intent.action) {
             val appWidgetManager = AppWidgetManager.getInstance(context)
             val componentName = ComponentName(context, MGWidget::class.java)
             val appWidgetIds = appWidgetManager.getAppWidgetIds(componentName)
@@ -90,8 +95,6 @@ class MGWidget : AppWidgetProvider() {
             // 显示“正在更新...”状态并重置视图
             for (appWidgetId in appWidgetIds) {
                 val views = RemoteViews(context.packageName, R.layout.mg_widget)
-                // Reset to main view
-                //views.setDisplayedChild(R.id.view_flipper_center, 0)
                 views.setTextViewText(R.id.tv_update_time, "正在更新....")
                 appWidgetManager.updateAppWidget(appWidgetId, views)
             }
@@ -108,6 +111,21 @@ class MGWidget : AppWidgetProvider() {
 
         private fun log(context: Context, message: String) {
             Log.d(LOG_TAG, message)
+        }
+
+        /**
+         * 检查网络连接是否可用
+         */
+        private fun isNetworkAvailable(context: Context): Boolean {
+            val connectivityManager = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+            val network = connectivityManager.activeNetwork ?: return false
+            val activeNetwork = connectivityManager.getNetworkCapabilities(network) ?: return false
+            return when {
+                activeNetwork.hasTransport(NetworkCapabilities.TRANSPORT_WIFI) -> true
+                activeNetwork.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR) -> true
+                activeNetwork.hasTransport(NetworkCapabilities.TRANSPORT_ETHERNET) -> true
+                else -> false
+            }
         }
 
         internal fun updateAppWidget(
@@ -150,12 +168,12 @@ class MGWidget : AppWidgetProvider() {
             val modelIdentifier = carModel.lowercase(Locale.getDefault())
             val imageName = "${colorIdentifier}_${modelIdentifier}"
             val carImageResId = context.resources.getIdentifier(imageName, "drawable", context.packageName)
-            
+
             if (carImageResId != 0) {
                 views.setImageViewResource(R.id.iv_car_image, carImageResId)
             } else {
                 // Fallback to a default image if not found
-                views.setImageViewResource(R.id.iv_car_image, R.drawable.mg_logo) 
+                views.setImageViewResource(R.id.iv_car_image, R.drawable.mg_logo)
             }
 
             // --- Font Size Adjustment Logic ---
@@ -186,6 +204,7 @@ class MGWidget : AppWidgetProvider() {
                 appWidgetManager.updateAppWidget(appWidgetId, views)
             }
         }
+
         private fun adjustFontSizes(context: Context, appWidgetManager: AppWidgetManager, appWidgetId: Int, views: RemoteViews) {
             val options = appWidgetManager.getAppWidgetOptions(appWidgetId)
             val height = options.getInt(AppWidgetManager.OPTION_APPWIDGET_MAX_HEIGHT)
@@ -210,22 +229,19 @@ class MGWidget : AppWidgetProvider() {
             views.setTextViewTextSize(R.id.tv_fuel_percent, TypedValue.COMPLEX_UNIT_SP, fontSizes[0])
             views.setTextViewTextSize(R.id.tv_battery_range, TypedValue.COMPLEX_UNIT_SP, fontSizes[0])
             views.setTextViewTextSize(R.id.tv_battery_percent, TypedValue.COMPLEX_UNIT_SP, fontSizes[0])
-            
+
             // 13sp -> size13
             views.setTextViewTextSize(R.id.tv_plate_number, TypedValue.COMPLEX_UNIT_SP, fontSizes[1])
 
             // 12sp -> size12 (Assuming tv_car_name was 12 or similar)
-             views.setTextViewTextSize(R.id.tv_car_name, TypedValue.COMPLEX_UNIT_SP, 15f) // Keep car name larger
-
-            // 11sp -> size11
-             // No 11sp found in latest XML, but keeping for safety
+            views.setTextViewTextSize(R.id.tv_car_name, TypedValue.COMPLEX_UNIT_SP, 15f) // Keep car name larger
 
             // 10sp -> size10
             views.setTextViewTextSize(R.id.tv_total_mileage, TypedValue.COMPLEX_UNIT_SP, fontSizes[4])
             views.setTextViewTextSize(R.id.tv_battery_info, TypedValue.COMPLEX_UNIT_SP, fontSizes[4])
             views.setTextViewTextSize(R.id.tv_lock_status, TypedValue.COMPLEX_UNIT_SP, fontSizes[4])
             views.setTextViewTextSize(R.id.tv_update_time, TypedValue.COMPLEX_UNIT_SP, fontSizes[4])
-            
+
             // 8sp -> size8
             views.setTextViewTextSize(R.id.tv_temp_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(R.id.tv_temp_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
@@ -279,13 +295,29 @@ class MGWidget : AppWidgetProvider() {
             token: String
         ) {
             log(context, "Fetching vehicle data for VIN: $vin")
+
             CoroutineScope(Dispatchers.IO).launch {
                 try {
+                    // 1. 网络可用性检查
+                    if (!isNetworkAvailable(context)) {
+                        withContext(Dispatchers.Main) {
+                            views.setTextViewText(R.id.tv_location, "无网络")
+                            appWidgetManager.updateAppWidget(appWidgetId, views)
+                        }
+                        return@launch
+                    }
+
                     val timestamp = System.currentTimeMillis() / 1000
                     val url = "https://mp.ebanma.com/app-mp/vp/1.1/getVehicleStatus?timestamp=$timestamp&token=$token&vin=$vin"
                     log(context, "Request URL: $url")
 
-                    val client = OkHttpClient()
+                    // 2. 配置 OkHttp 超时
+                    val client = OkHttpClient.Builder()
+                        .connectTimeout(10, TimeUnit.SECONDS) // 连接超时
+                        .readTimeout(10, TimeUnit.SECONDS)    // 读取超时
+                        .writeTimeout(10, TimeUnit.SECONDS)   // 写入超时
+                        .build()
+
                     val request = Request.Builder().url(url).build()
                     val response = client.newCall(request).execute()
                     val responseBody = response.body?.string()
@@ -306,9 +338,17 @@ class MGWidget : AppWidgetProvider() {
                 } catch (e: Exception) {
                     log(context, "Error fetching data: ${e.message}")
                     e.printStackTrace()
+                    // 3. 详细的错误处理
+                    val errorMsg = when (e) {
+                        is UnknownHostException -> "无法解析主机" // DNS 或 域名错误
+                        is SocketTimeoutException -> "连接超时"     // 网络慢
+                        is ConnectException -> "连接失败"         // 握手失败
+                        else -> "更新出错"
+                    }
                     withContext(Dispatchers.Main) {
-                        views.setTextViewText(R.id.tv_update_time, "更新失败")
-                        views.setTextViewText(R.id.tv_location, "${e.message}")
+                        views.setTextViewText(R.id.tv_update_time, errorMsg)
+                        // 可选：将具体 Exception 显示在地址栏方便排查
+                        views.setTextViewText(R.id.tv_location, "${e.localizedMessage}")
                         appWidgetManager.updateAppWidget(appWidgetId, views)
                     }
                 }
@@ -366,7 +406,7 @@ class MGWidget : AppWidgetProvider() {
                 }
                 views.setColorStateList(R.id.pb_battery, "setProgressTintList", ColorStateList.valueOf(context.getColor(batteryColor)))
             }
-            
+
 
             val batteryLevelRaw = vehicleValue?.vehicle_battery_prc ?: 0
             val batteryVoltageRaw = vehicleValue?.vehicle_battery ?: 0
@@ -438,7 +478,7 @@ class MGWidget : AppWidgetProvider() {
                 appWidgetManager.updateAppWidget(appWidgetId, views)
             }
         }
-        
+
         private fun updateDoorOrWindowStatus(context: Context, views: RemoteViews, isOpen: Boolean, viewId: Int) {
             val text = if (isOpen) "开启" else "关闭"
             val color = if (isOpen) context.getColor(R.color.status_red) else context.getColor(R.color.status_green)
@@ -473,7 +513,7 @@ class MGWidget : AppWidgetProvider() {
                 views.setTextColor(textViewId, context.getColor(R.color.status_red))
             }
         }
-        
+
         private fun fetchLocation(
             context: Context,
             views: RemoteViews,
@@ -490,6 +530,14 @@ class MGWidget : AppWidgetProvider() {
 
             CoroutineScope(Dispatchers.IO).launch {
                 try {
+                    // Geocoding 也需要网络
+                    if (!isNetworkAvailable(context)) {
+                        withContext(Dispatchers.Main) {
+                            appWidgetManager.updateAppWidget(appWidgetId, views)
+                        }
+                        return@launch
+                    }
+
                     val geocoder = Geocoder(context, Locale.getDefault())
                     val address = geocoder.getFromLocation(latitude, longitude, 1)
                     log(context, "Addr result: $address")
@@ -503,6 +551,7 @@ class MGWidget : AppWidgetProvider() {
                     log(context, "Error fetching location: ${e.message}")
                     e.printStackTrace()
                     withContext(Dispatchers.Main) {
+                        // 地理位置失败通常不需要太强的错误提示，保持界面更新即可
                         appWidgetManager.updateAppWidget(appWidgetId, views)
                     }
                 }
