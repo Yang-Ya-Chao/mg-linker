@@ -169,6 +169,14 @@
                 android:indeterminate="false"
                 android:max="100"
                 android:progressDrawable="@drawable/pb_rounded_layer"/>
+            <TextView
+                android:id="@+id/chrgng_rmnng_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🔌"
+                android:textColor="@color/widget_text_color"
+                android:textSize="10sp" />
+
         </LinearLayout>
 
         <TextView

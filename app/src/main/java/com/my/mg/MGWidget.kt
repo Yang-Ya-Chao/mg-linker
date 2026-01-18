@@ -7,9 +7,11 @@ import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.content.res.ColorStateList
+import android.location.Address
 import android.location.Geocoder
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
+import android.os.Build
 import android.os.Bundle
 import android.os.PowerManager
 import android.text.Spannable
@@ -34,6 +36,7 @@ import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
 import java.util.concurrent.TimeUnit
+import kotlin.concurrent.thread
 
 class MGWidget : AppWidgetProvider() {
 
@@ -377,9 +380,12 @@ class MGWidget : AppWidgetProvider() {
             val fuelRange = vehicleValue?.fuel_range ?: 0
             val batteryPackRange = vehicleValue?.battery_pack_range ?: 0
             val batteryPackPrc = vehicleValue?.battery_pack_prc?.let { it / 10 } ?: 0
+            var chrgngRmnngTime = vehicleValue?.chrgng_rmnng_time?.let {it / 60 } ?: 0.0
 
             val showFuel = fuelRange > 0
             val showBattery = batteryPackRange > 0
+            var showChargng = chrgngRmnngTime  > 0
+
 
             views.setViewVisibility(R.id.ll_range_fuel, if (showFuel) View.VISIBLE else View.GONE)
             views.setViewVisibility(R.id.ll_battery_range, if (showBattery) View.VISIBLE else View.GONE)
@@ -406,7 +412,10 @@ class MGWidget : AppWidgetProvider() {
                 }
                 views.setColorStateList(R.id.pb_battery, "setProgressTintList", ColorStateList.valueOf(context.getColor(batteryColor)))
             }
-
+            if (showChargng) {
+                views.setTextViewText(R.id.chrgng_rmnng_time, "⚡剩余$chrgngRmnngTime"+"小时")
+                views.setTextColor(R.id.chrgng_rmnng_time,context.getColor(R.color.status_green))
+            }
 
             val batteryLevelRaw = vehicleValue?.vehicle_battery_prc ?: 0
             val batteryVoltageRaw = vehicleValue?.vehicle_battery ?: 0
@@ -539,11 +548,24 @@ class MGWidget : AppWidgetProvider() {
                     }
 
                     val geocoder = Geocoder(context, Locale.getDefault())
-                    val address = geocoder.getFromLocation(latitude, longitude, 1)
+                    var address = ""
+
+                    // 请求 5 个候选地址，增加获取详尽数据的概率
+                    val addresses = geocoder.getFromLocation(latitude, longitude, 3)
+                    if (addresses.isNullOrEmpty()) address = "无法定位当前位置"
+
+                    // 筛选出信息最丰富的地址对象（优先包含道路名和子区域的）
+                    val bestAddr = addresses?.maxByOrNull {
+                        (if (it.thoroughfare != null) 10 else 0) + (if (it.subLocality != null) 5 else 0)
+                    } ?: addresses?.firstOrNull()
+                    if (bestAddr != null) {
+                        address = formatAddressSmart(bestAddr)
+                        // 在此处更新 UI 或变量
+                    }
                     log(context, "Addr result: $address")
                     if (address != null && address.isNotEmpty()) {
                         withContext(Dispatchers.Main) {
-                            views.setTextViewText(R.id.tv_location, address[0].getAddressLine(0))
+                            views.setTextViewText(R.id.tv_location, address)
                             appWidgetManager.updateAppWidget(appWidgetId, views)
                         }
                     }
@@ -558,6 +580,43 @@ class MGWidget : AppWidgetProvider() {
             }
         }
     }
+}
+/**
+ * 格式化地址：处理“鹏程路鹏程路1519号”这种重复情况
+ */
+private fun formatAddressSmart(addr: Address): String {
+    val sb = StringBuilder()
+
+    // 1. 省、市、区（常规拼接，加入去重防止“上海市上海市”）
+    val admin = addr.adminArea ?: ""
+    val city = addr.locality ?: ""
+    val district = addr.subLocality ?: ""
+
+    sb.append(admin)
+    if (city != admin) sb.append(city)
+    sb.append(district)
+
+    // 2. 核心去重逻辑：处理道路与门牌号
+    val road = addr.thoroughfare ?: ""  // 鹏程路
+    val feature = addr.featureName ?: "" // 鹏程路1519号
+
+    if (road.isNotEmpty()) {
+        sb.append(road)
+        // 如果 featureName 包含路名，只截取路名后面的部分（如“1519号”）
+        if (feature.contains(road) && feature != road) {
+            sb.append(feature.substringAfter(road))
+        } else if (feature != road && feature != district) {
+            // 如果不包含且不重复，再拼接
+            sb.append(feature)
+        }
+    } else {
+        // 如果没有路名，直接尝试拼接 featureName
+        if (feature != district) sb.append(feature)
+    }
+
+    val result = sb.toString()
+    // 兜底逻辑：如果拼接出来太短（比如只有中国），则返回完整行
+    return if (result.length < 3) addr.getAddressLine(0) ?: "未知地址" else result
 }
 
 // Data classes (assuming they are correct as per previous context)
@@ -595,7 +654,8 @@ data class VehicleValue(
     val front_right_tyre_pressure: Int?,
     val rear_left_tyre_pressure: Int?,
     val battery_pack_range: Int?,
-    val battery_pack_prc: Int?
+    val battery_pack_prc: Int?,
+    val chrgng_rmnng_time: Double?
 )
 
 data class VehicleState(
