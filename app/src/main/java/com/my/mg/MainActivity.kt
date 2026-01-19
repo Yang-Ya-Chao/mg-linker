@@ -36,15 +36,22 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.core.content.FileProvider
 import androidx.lifecycle.lifecycleScope
+import androidx.work.Constraints
+import androidx.work.ExistingPeriodicWorkPolicy
+import androidx.work.NetworkType
+import androidx.work.PeriodicWorkRequestBuilder
+import androidx.work.WorkManager
 import com.google.gson.Gson
 import com.my.mg.log.LogcatHelper
 import com.my.mg.ui.theme.MGLinkerTheme
+import com.my.mg.worker.WidgetUpdateWorker
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import java.io.File
+import java.util.concurrent.TimeUnit
 
 // Data class for Gitee Release API response
 data class GiteeRelease(
@@ -73,6 +80,7 @@ class MainActivity : ComponentActivity() {
         if (BuildConfig.DEBUG){
           LogcatHelper.startRecording(this)
         }
+        scheduleWidgetWork()
         enableEdgeToEdge()
         setContent {
             MGLinkerTheme {
@@ -107,8 +115,22 @@ class MainActivity : ComponentActivity() {
             }
         }
         //checkUpdate(manual = false) // Automatic check
-    }
 
+    }
+    private fun scheduleWidgetWork()
+    {
+        val request = PeriodicWorkRequestBuilder<WidgetUpdateWorker>(
+            30, TimeUnit.MINUTES
+        ).setConstraints(
+            Constraints.Builder()
+                .setRequiredNetworkType(NetworkType.CONNECTED) // 需要网络
+                .build() )
+            .build()
+        WorkManager.getInstance(this) .enqueueUniquePeriodicWork(
+            "MGWidgetPeriodicUpdate", ExistingPeriodicWorkPolicy.UPDATE,
+            request
+        )
+    }
     private fun checkUpdate(manual: Boolean) {
         Log.d("UpdateCheck", "Starting update check (manual: $manual)")
         lifecycleScope.launch(Dispatchers.IO) {

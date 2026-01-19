@@ -4,7 +4,6 @@
     android:minHeight="100dp"
     android:targetCellWidth="4"
     android:targetCellHeight="2"
-    android:updatePeriodMillis="1800000"
     android:initialLayout="@layout/mg_widget"
     android:resizeMode="horizontal"
     android:widgetCategory="home_screen" />
