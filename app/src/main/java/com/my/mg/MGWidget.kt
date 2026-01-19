@@ -380,15 +380,17 @@ class MGWidget : AppWidgetProvider() {
             val fuelRange = vehicleValue?.fuel_range ?: 0
             val batteryPackRange = vehicleValue?.battery_pack_range ?: 0
             val batteryPackPrc = vehicleValue?.battery_pack_prc?.let { it / 10 } ?: 0
-            var chrgngRmnngTime = vehicleValue?.chrgng_rmnng_time?.let {it / 60 } ?: 0.0
+            var chrgngRmnngTime = vehicleValue?.chrgng_rmnng_time ?: 0.0
+            var chargeStatus = vehicleValue?.charge_status ?: 0
 
             val showFuel = fuelRange > 0
             val showBattery = batteryPackRange > 0
-            var showChargng = chrgngRmnngTime  > 0
+            var showChargng = (chargeStatus  != 1009) && (chargeStatus > 0)
 
 
             views.setViewVisibility(R.id.ll_range_fuel, if (showFuel) View.VISIBLE else View.GONE)
             views.setViewVisibility(R.id.ll_battery_range, if (showBattery) View.VISIBLE else View.GONE)
+            views.setViewVisibility(R.id.chrgng_rmnng_time, if (showChargng) View.VISIBLE else View.GONE)
 
             if (showFuel) {
                 views.setTextViewText(R.id.tv_range, "⛽$fuelRange")
@@ -413,7 +415,21 @@ class MGWidget : AppWidgetProvider() {
                 views.setColorStateList(R.id.pb_battery, "setProgressTintList", ColorStateList.valueOf(context.getColor(batteryColor)))
             }
             if (showChargng) {
-                views.setTextViewText(R.id.chrgng_rmnng_time, "⚡剩余$chrgngRmnngTime"+"小时")
+                val h = chrgngRmnngTime / 60
+                val m = chrgngRmnngTime % 60
+                val timeText = when {
+                    h > 0 && m > 0 -> "剩余${h}小时${m}分钟"
+                    h > 0 -> "剩余${h}小时"
+                    m > 0 -> "剩余${m}分钟"
+                    else -> "计算中"
+                }
+                val statusText = "充电-"
+                //后续如果能确定chargeStatus值慢充快充状态，可以显示
+//                var statusText = when {
+//                    chargeStatus == 1010 -> "慢充-"
+//                    else -> "充电-"
+//                }
+                views.setTextViewText(R.id.chrgng_rmnng_time, "⚡$statusText$timeText")
                 views.setTextColor(R.id.chrgng_rmnng_time,context.getColor(R.color.status_green))
             }
 
@@ -655,7 +671,8 @@ data class VehicleValue(
     val rear_left_tyre_pressure: Int?,
     val battery_pack_range: Int?,
     val battery_pack_prc: Int?,
-    val chrgng_rmnng_time: Double?
+    val chrgng_rmnng_time: Double?,
+    val charge_status:Int?
 )
 
 data class VehicleState(

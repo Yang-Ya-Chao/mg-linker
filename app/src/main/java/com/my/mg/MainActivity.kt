@@ -79,7 +79,9 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     MGConfigScreen(
                         modifier = Modifier.padding(innerPadding),
-                        onCheckUpdate = { checkUpdate(manual = true) }
+                        onCheckUpdate = {
+                            checkUpdate(manual = true)
+                        }
                     )
 
                     if (showUpdateDialog) {
@@ -104,7 +106,7 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-        checkUpdate(manual = false) // Automatic check
+        //checkUpdate(manual = false) // Automatic check
     }
 
     private fun checkUpdate(manual: Boolean) {
