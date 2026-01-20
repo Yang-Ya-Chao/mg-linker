@@ -45,6 +45,8 @@ import androidx.work.NetworkType
 import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkManager
 import com.google.gson.Gson
+import com.my.mg.config.CarConfig
+import com.my.mg.config.RemoteConfig
 import com.my.mg.log.LogcatHelper
 import com.my.mg.ui.theme.MGLinkerTheme
 import com.my.mg.worker.WidgetUpdateWorker
@@ -94,6 +96,30 @@ fun changeAppIcon(context: Context, isMg: Boolean) {
     } else {
         pm.setComponentEnabledSetting(componentNameRW, PackageManager.COMPONENT_ENABLED_STATE_ENABLED, PackageManager.DONT_KILL_APP)
         pm.setComponentEnabledSetting(componentNameMG, PackageManager.COMPONENT_ENABLED_STATE_DISABLED, PackageManager.DONT_KILL_APP)
+    }
+}
+
+// 在 MainActivity 内部或外部定义
+suspend fun fetchCarConfig(client: OkHttpClient, gson: Gson): List<CarConfig>? {
+    // ！！！关键：必须使用 raw 地址，而不是 blob 地址 ！！！
+    val configUrl = "https://gitee.com/yangyachao-X/mg-linker/raw/master/other/config.json"
+
+    return withContext(Dispatchers.IO) {
+        try {
+            val request = Request.Builder().url(configUrl).get().build()
+            client.newCall(request).execute().use { response ->
+                if (response.isSuccessful) {
+                    val json = response.body?.string()
+                    if (!json.isNullOrEmpty()) {
+                        val remoteConfig = gson.fromJson(json, RemoteConfig::class.java)
+                        remoteConfig.saic
+                    } else null
+                } else null
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
+            null
+        }
     }
 }
 
@@ -329,7 +355,16 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
     val context = LocalContext.current
     val sharedPreferences = remember { context.getSharedPreferences("mg_config", Context.MODE_PRIVATE) }
     val uriHandler = LocalUriHandler.current
+    // 网络请求相关依赖
+    val client = remember { OkHttpClient() }
+    val gson = remember { Gson() }
 
+    // ================== 1. 状态定义 ==================
+    // 远程配置数据状态
+    var carConfigList by remember { mutableStateOf<List<CarConfig>>(emptyList()) }
+    var isLoadingConfig by remember { mutableStateOf(true) }
+
+    //用户选择状态
     var carBrand by remember { mutableStateOf(sharedPreferences.getString("car_brand", "名爵") ?: "名爵") }
     var carModel by remember { mutableStateOf(sharedPreferences.getString("car_model", "") ?: "") }
     var carName by remember { mutableStateOf(sharedPreferences.getString("car_name", "") ?: "") }
@@ -345,31 +380,68 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
     val isVinValid = vin.length == 17
     // 当有输入但长度不对时，显示错误
     val isVinError = vin.isNotEmpty() && !isVinValid
-    val modelsByBrand = mapOf(
-        "名爵" to listOf("MG7", "MG4"),
-        "荣威" to listOf("D7")
-    )
+    // ================== 2. 数据获取与处理逻辑 ==================
 
-    val colorsByModel = mapOf(
-        "MG7" to listOf("墨玉黑", "釉瓷白", "山茶红", "雾凇灰", "翡冷翠", "冰晶蓝"),
-        "MG4" to listOf("车来紫", "清波绿", "海岛蓝", "珊瑚红", "星野灰", "月光白"),
-        "D7" to listOf("安第斯灰", "光速银", "晨曦金", "亮白", "珠光黑")
-    )
+    // 初始化加载配置
+    LaunchedEffect(Unit) {
+        val config = fetchCarConfig(client, gson)
+        if (config != null) {
+            carConfigList = config
+        } else {
+            Toast.makeText(context, "获取车型配置失败，请检查网络", Toast.LENGTH_SHORT).show()
+        }
+        isLoadingConfig = false
+    }
 
-    LaunchedEffect(carBrand) {
-        modelsByBrand[carBrand]?.firstOrNull()?.let { firstModel ->
-            if (carModel.isEmpty() || modelsByBrand[carBrand]?.contains(carModel) == false) {
-                carModel = firstModel
-            }
+    // 辅助函数：将中文品牌映射到 JSON 中的 brand 代码 ("MG", "RW")
+    fun getBrandCode(cnName: String): String {
+        return if (cnName == "名爵") "MG" else "RW"
+    }
+
+    // 计算当前品牌下的所有车型
+    val availableModels = remember(carBrand, carConfigList) {
+        val code = getBrandCode(carBrand)
+        carConfigList.filter { it.brand == code }.map { it.model }
+    }
+
+    // 计算当前车型下的所有颜色对象
+    val currentModelConfig = remember(carBrand, carModel, carConfigList) {
+        val code = getBrandCode(carBrand)
+        carConfigList.find { it.brand == code && it.model == carModel }
+    }
+
+    val availableColors = remember(currentModelConfig) {
+        currentModelConfig?.colors?.map { it.name } ?: emptyList()
+    }
+
+    // 级联选择逻辑：品牌变了，重置车型；车型变了，重置颜色
+    // 关键修复：加入 isLoadingConfig 判断，防止在数据加载前清空本地已保存的配置
+    LaunchedEffect(availableModels, isLoadingConfig) {
+        // 如果正在加载配置，不要执行重置逻辑，保留 SharedPreferences 读取的值
+        if (isLoadingConfig) return@LaunchedEffect
+
+        if (carModel.isNotEmpty() && !availableModels.contains(carModel)) {
+            // 如果当前选中的车型不在列表中（且不是因为正在加载），则重置
+            carModel = availableModels.firstOrNull() ?: ""
+        } else if (carModel.isEmpty() && availableModels.isNotEmpty()) {
+            // 如果没选车型，默认选第一个
+            carModel = availableModels.firstOrNull() ?: ""
         }
     }
 
-    LaunchedEffect(carModel) {
-        val availableColors = colorsByModel[carModel] ?: emptyList()
-        if (color.isEmpty() || !availableColors.contains(color)) {
+    LaunchedEffect(availableColors, isLoadingConfig) {
+        // 如果正在加载配置，不要执行重置逻辑
+        if (isLoadingConfig) return@LaunchedEffect
+
+        if (color.isNotEmpty() && !availableColors.contains(color)) {
+            // 如果当前选中的颜色不在列表中（且不是因为正在加载），则重置
+            color = availableColors.firstOrNull() ?: ""
+        } else if (color.isEmpty() && availableColors.isNotEmpty()) {
+            // 如果没选颜色，默认选第一个
             color = availableColors.firstOrNull() ?: ""
         }
     }
+
     // 获取滚动状态
     val scrollState = rememberScrollState()
     // 最外层容器
@@ -399,12 +471,17 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
                 .verticalScroll(scrollState), // 关键：只允许这一块滚动
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-        ModelDropdownField(
-            label = "请选择车型",
-            selectedModel = carModel,
-            onModelSelected = { carModel = it },
-            models = modelsByBrand[carBrand] ?: emptyList()
-        )
+            if (isLoadingConfig) {
+                CircularProgressIndicator(modifier = Modifier.padding(16.dp))
+                Text("正在加载车型数据...", fontSize = 12.sp, color = MaterialTheme.colorScheme.secondary)
+            } else {
+                ModelDropdownField(
+                    label = "请选择车型",
+                    selectedModel = carModel,
+                    onModelSelected = { carModel = it },
+                    models = availableModels // 使用动态计算的列表
+                )
+            }
 
         InputField(label = "车辆名称 (选填)", value = carName, onValueChange = { carName = it })
 
@@ -433,7 +510,7 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
             label = "请选择车辆颜色:",
             selectedColor = color,
             onColorSelected = { color = it },
-            options = colorsByModel[carModel] ?: emptyList()
+            options = availableColors // 使用动态计算的列表
         )
 
         InputField(label = "请输入您的车牌号 (选填) :", value = plateNumber, onValueChange = { plateNumber = it })
@@ -476,6 +553,10 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
                     accessTokenFocusRequester.requestFocus()
                     return@Button
                 }
+                // *** 新增：查找并保存图片 URL ***
+                val selectedColorObj = currentModelConfig?.colors?.find { it.name == color }
+                val imageUrl = selectedColorObj?.imageUrl ?: ""
+
                 val editor = sharedPreferences.edit()
                 editor.putString("car_brand", carBrand)
                 editor.putString("car_model", carModel)
@@ -484,6 +565,8 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
                 editor.putString("color", color)
                 editor.putString("plate_number", plateNumber)
                 editor.putString("access_token", accessToken)
+                // 保存图片地址到本地
+                editor.putString("car_image_url", imageUrl)
                 editor.putBoolean("is_configured", true)
                 editor.apply()
                 isConfigured = true
