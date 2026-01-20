@@ -64,14 +64,14 @@
                     android:layout_height="wrap_content"
                     android:text=" km "
                     android:textColor="@color/widget_text_color"
-                    android:textSize="10sp" />
+                    android:textSize="12sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text=" / "
                     android:textColor="@color/widget_text_color"
-                    android:textSize="11sp"/>
+                    android:textSize="12sp"/>
 
                 <TextView
                     android:id="@+id/tv_fuel_percent"
@@ -173,7 +173,7 @@
                 android:id="@+id/chrgng_rmnng_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="🔌"
+                android:text="⚡"
                 android:textColor="@color/widget_text_color"
                 android:textSize="10sp" />
 
@@ -291,8 +291,8 @@
             <ImageView
                 android:id="@+id/iv_car_image"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                 android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:scaleType="fitCenter"
                 android:src="@drawable/blue_mg7" />
 

@@ -18,7 +18,7 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="@string/app_name_mg"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MGLinker"
@@ -27,15 +27,33 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.MGLinker">
+        </activity>
+        <activity-alias
+            android:name=".MainActivityMG"
+            android:enabled="true"
+            android:exported="true"
+            android:icon="@drawable/mg_logo"
+            android:label="@string/app_name_mg"
+            android:targetActivity=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        
+        </activity-alias>
+
+        <activity-alias
+            android:name=".MainActivityRW"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@drawable/rw_logo"
+            android:label="@string/app_name_rw"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
         <receiver
             android:name=".MGWidget"
             android:exported="true">
