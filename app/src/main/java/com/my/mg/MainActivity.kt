@@ -390,7 +390,7 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
         // 品牌选择器放在这里，它就不会滚动了
         BrandSelector(selectedBrand = carBrand, onBrandSelected = { carBrand = it })
         // 加一条分割线或者间距，让视觉分离更明显（可选）
-        Spacer(modifier = Modifier.height(8.dp))
+       // Spacer(modifier = Modifier.height(4.dp))
         // ================== 2. 中间滚动区域 (Content) ==================
         Column(
             modifier = Modifier
@@ -449,7 +449,7 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
             }
         )
             // 底部留一点空白，防止滚动到底时内容贴着按钮
-            Spacer(modifier = Modifier.height(16.dp))
+            Spacer(modifier = Modifier.height(8.dp))
         }
         // ================== 3. 底部固定区域 (Footer) ==================
         Column(
@@ -457,7 +457,7 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             // 给按钮上方加一点间距
-            Spacer(modifier = Modifier.height(8.dp))
+            Spacer(modifier = Modifier.height(2.dp))
         Button(
             onClick = {
                 // *** 增加 VIN 校验 ***
@@ -598,7 +598,7 @@ fun ModelDropdownField(
             text = label,
             fontSize = 14.sp,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
-            modifier = Modifier.padding(bottom = 4.dp)
+            modifier = Modifier.padding(bottom = 2.dp)
         )
         ExposedDropdownMenuBox(
             expanded = expanded,
