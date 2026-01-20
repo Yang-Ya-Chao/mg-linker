@@ -634,11 +634,11 @@ class MGWidget : AppWidgetProvider() {
                     // 1. 网络可用性检查
                     // ============================
                     if (!isNetworkAvailable(context)) {
-                        withContext(Dispatchers.Main) {
-                            // 显示无网络提示
-                            views.setTextViewText(R.id.tv_location, "无网络")
-                            appWidgetManager.updateAppWidget(appWidgetId, views)
-                        }
+//                        withContext(Dispatchers.Main) {
+//                            // 显示无网络提示
+//                            views.setTextViewText(R.id.tv_location, "无网络")
+//                            appWidgetManager.updateAppWidget(appWidgetId, views)
+//                        }
                         return@launch
                     }
 
@@ -703,22 +703,22 @@ class MGWidget : AppWidgetProvider() {
                     e.printStackTrace()
 
                     // 根据异常类型显示不同提示
-                    val errorMsg = when (e) {
-                        is UnknownHostException -> "无法解析主机" // DNS 或域名错误
-                        is SocketTimeoutException -> "连接超时"     // 网络慢
-                        is ConnectException -> "连接失败"         // 握手失败
-                        else -> "更新出错"
-                    }
-
-                    // 切回主线程更新 UI
-                    withContext(Dispatchers.Main) {
-                        views.setTextViewText(R.id.tv_update_time, errorMsg)
-
-                        // 显示具体错误信息（方便调试）
-                        views.setTextViewText(R.id.tv_location, "${e.localizedMessage}")
-
-                        appWidgetManager.updateAppWidget(appWidgetId, views)
-                    }
+//                    val errorMsg = when (e) {
+//                        is UnknownHostException -> "无法解析主机" // DNS 或域名错误
+//                        is SocketTimeoutException -> "连接超时"     // 网络慢
+//                        is ConnectException -> "连接失败"         // 握手失败
+//                        else -> "更新出错"
+//                    }
+//
+//                    // 切回主线程更新 UI
+//                    withContext(Dispatchers.Main) {
+//                        views.setTextViewText(R.id.tv_update_time, errorMsg)
+//
+//                        // 显示具体错误信息（方便调试）
+//                        views.setTextViewText(R.id.tv_location, "${e.localizedMessage}")
+//
+//                        appWidgetManager.updateAppWidget(appWidgetId, views)
+//                    }
                 }
             }
         }

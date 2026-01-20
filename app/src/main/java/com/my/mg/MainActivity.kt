@@ -3,6 +3,7 @@ package com.my.mg
 import android.app.DownloadManager
 import android.appwidget.AppWidgetManager
 import android.content.*
+import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
@@ -15,7 +16,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.Info
 import androidx.compose.material3.*
@@ -64,6 +67,35 @@ data class GiteeAsset(
     val browser_download_url: String,
     val name: String
 )
+
+/**
+ * 切换 App 图标
+ * @param context 上下文
+ * @param isMg true 为名爵，false 为荣威
+ */
+fun changeAppIcon(context: Context, isMg: Boolean) {
+    val pm = context.packageManager
+    // 获取组件名称，必须与 Manifest 中的 android:name 完全一致（包含包名）
+    val componentNameMG = ComponentName(context, "com.my.mg.MainActivityMG")
+    val componentNameRW = ComponentName(context, "com.my.mg.MainActivityRW")
+
+    // 检查当前状态，避免重复操作（重复操作会导致应用闪退或图标闪烁）
+    val isMgEnabled = pm.getComponentEnabledSetting(componentNameMG) == PackageManager.COMPONENT_ENABLED_STATE_ENABLED
+    val isRwEnabled = pm.getComponentEnabledSetting(componentNameRW) == PackageManager.COMPONENT_ENABLED_STATE_ENABLED
+
+    if (isMg && isMgEnabled) return // 已经是名爵图标，无需更改
+    if (!isMg && isRwEnabled) return // 已经是荣威图标，无需更改
+
+    // 启用目标图标，禁用另一个
+    // DONT_KILL_APP 标志位尽量防止应用被系统强制杀掉，但在某些机型上切换图标应用仍可能会重启
+    if (isMg) {
+        pm.setComponentEnabledSetting(componentNameMG, PackageManager.COMPONENT_ENABLED_STATE_ENABLED, PackageManager.DONT_KILL_APP)
+        pm.setComponentEnabledSetting(componentNameRW, PackageManager.COMPONENT_ENABLED_STATE_DISABLED, PackageManager.DONT_KILL_APP)
+    } else {
+        pm.setComponentEnabledSetting(componentNameRW, PackageManager.COMPONENT_ENABLED_STATE_ENABLED, PackageManager.DONT_KILL_APP)
+        pm.setComponentEnabledSetting(componentNameMG, PackageManager.COMPONENT_ENABLED_STATE_DISABLED, PackageManager.DONT_KILL_APP)
+    }
+}
 
 class MainActivity : ComponentActivity() {
 
@@ -331,20 +363,23 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
             }
         }
     }
-    
+
     LaunchedEffect(carModel) {
         val availableColors = colorsByModel[carModel] ?: emptyList()
         if (color.isEmpty() || !availableColors.contains(color)) {
             color = availableColors.firstOrNull() ?: ""
         }
     }
-
+    // 获取滚动状态
+    val scrollState = rememberScrollState()
+    // 最外层容器
     Column(
         modifier = modifier
             .fillMaxSize()
             .padding(horizontal = 24.dp, vertical = 16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        // ================== 1. 顶部固定区域 (Header) ==================
         Text(
             text = "上汽小组件配置",
             fontSize = 22.sp,
@@ -352,9 +387,18 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
             color = MaterialTheme.colorScheme.primary,
             modifier = Modifier.padding(bottom = 8.dp)
         )
-
+        // 品牌选择器放在这里，它就不会滚动了
         BrandSelector(selectedBrand = carBrand, onBrandSelected = { carBrand = it })
-
+        // 加一条分割线或者间距，让视觉分离更明显（可选）
+        Spacer(modifier = Modifier.height(8.dp))
+        // ================== 2. 中间滚动区域 (Content) ==================
+        Column(
+            modifier = Modifier
+                .weight(1f) // 关键：占据上下固定区域之外的所有剩余空间
+                .fillMaxWidth()
+                .verticalScroll(scrollState), // 关键：只允许这一块滚动
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
         ModelDropdownField(
             label = "请选择车型",
             selectedModel = carModel,
@@ -404,9 +448,16 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
                 uriHandler.openUri("https://gitee.com/yangyachao-X/mg-linker/blob/master/README.md")
             }
         )
-
-        Spacer(modifier = Modifier.weight(1f))
-
+            // 底部留一点空白，防止滚动到底时内容贴着按钮
+            Spacer(modifier = Modifier.height(16.dp))
+        }
+        // ================== 3. 底部固定区域 (Footer) ==================
+        Column(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            // 给按钮上方加一点间距
+            Spacer(modifier = Modifier.height(8.dp))
         Button(
             onClick = {
                 // *** 增加 VIN 校验 ***
@@ -436,7 +487,19 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
                 editor.putBoolean("is_configured", true)
                 editor.apply()
                 isConfigured = true
-                Toast.makeText(context, "保存成功，小组件将在稍后更新", Toast.LENGTH_SHORT).show()
+                // --- 新增代码开始 ---
+                // 根据选择的品牌切换图标
+                // 注意：切换图标可能会导致应用短暂退出或桌面刷新，这是系统机制
+                                try {
+                                    val isMgBrand = carBrand == "名爵"
+                                    changeAppIcon(context, isMgBrand)
+                                } catch (e: Exception) {
+                                    e.printStackTrace()
+                                    // 可以在这里加个 Toast 提示用户图标切换可能需要重启生效
+                                }
+                // --- 新增代码结束 ---
+
+                Toast.makeText(context, "保存成功，app将在稍后更新", Toast.LENGTH_SHORT).show()
                 val appWidgetManager = AppWidgetManager.getInstance(context)
                 val myProvider = ComponentName(context, MGWidget::class.java)
                 if (appWidgetManager.getAppWidgetIds(myProvider).isEmpty()) {
@@ -446,7 +509,7 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
                         } catch (e: Exception) {
                             // Handle exception
                         }
-                    } 
+                    }
                 }
                 val intent = Intent(context, MGWidget::class.java).apply {
                     action = AppWidgetManager.ACTION_APPWIDGET_UPDATE
@@ -485,7 +548,7 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
                 indication = null
             ) { onCheckUpdate() }
         )
-    }
+    }}
 }
 
 @Composable

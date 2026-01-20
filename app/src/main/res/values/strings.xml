@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">MG Linker</string>
+    <string name="app_name_mg">MG Linker</string>
+    <string name="app_name_rw">RW Linker</string>
 </resources>
