@@ -57,6 +57,28 @@
       ]
     },
     {
+      "brand": "MG",
+      "model": "MG5",
+      "colors": [
+        {
+          "name": "赤焰红",
+          "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2025/36e77ae6f7774cd2a10464cd6c5fd137.png"
+        },
+        {
+          "name": "安第斯灰",
+          "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2025/2b9a2d93f1144c5dbf8607c6f1b6b2f2.png"
+        },
+        {
+          "name": "雪山白",
+          "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2025/737e7781f2fe497fbebb8b9712923f3b.png"
+        },
+        {
+          "name": "气泡橙",
+          "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2025/b44f5b4511824a8eb097ed8518c4bcc5.png"
+        }
+      ]
+    },
+    {
       "brand": "RW",
       "model": "D7 DMH",
       "colors": [
