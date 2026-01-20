@@ -37,6 +37,8 @@ import java.util.Date
 import java.util.Locale
 import java.util.concurrent.TimeUnit
 import kotlin.concurrent.thread
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
 
 /**          Power by 杨家三郎
  * MGWidget - 车辆状态桌面小组件的 AppWidgetProvider 实现类
@@ -273,6 +275,8 @@ class MGWidget : AppWidgetProvider() {
             val carName = prefs.getString("car_name", "") ?: ""
             val plateNumber = prefs.getString("plate_number", "") ?: ""
             val token = prefs.getString("access_token", "") ?: ""
+            // *** 新增：读取图片 URL ***
+            val carImageUrl = prefs.getString("car_image_url", "") ?: ""
 
             log(
                 context,
@@ -299,43 +303,59 @@ class MGWidget : AppWidgetProvider() {
             // ============================
             // 3. 根据车型 + 颜色选择车辆图片
             // ============================
-            val colorMap = mapOf(
-                // MG7
-                "墨玉黑" to "black",
-                "釉瓷白" to "white",
-                "山茶红" to "red",
-                "雾凇灰" to "gray",
-                "翡冷翠" to "green",
-                "冰晶蓝" to "blue",
-                // MG4
-                "车来紫" to "purple",
-                "清波绿" to "green",
-                "海岛蓝" to "blue",
-                "珊瑚红" to "red",
-                "星野灰" to "gray",
-                "月光白" to "white",
-                // D7
-                "安第斯灰" to "gray",
-                "光速银" to "silver",
-                "晨曦金" to "gold",
-                "亮白" to "white",
-                "珠光黑" to "black"
-            )
-            val colorIdentifier = colorMap[color] ?: "default"
-            val modelIdentifier = carModel.lowercase(Locale.getDefault())
-            val imageName = "${colorIdentifier}_${modelIdentifier}"
-
-            // 动态查找 drawable 资源
-            val carImageResId =
-                context.resources.getIdentifier(imageName, "drawable", context.packageName)
-
-            if (carImageResId != 0) {
-                views.setImageViewResource(R.id.iv_car_image, carImageResId)
-            } else {
-                // 找不到对应图片 → 使用默认 Logo
-                views.setImageViewResource(R.id.iv_car_image, R.drawable.mg_logo)
+//            val colorMap = mapOf(
+//                // MG7
+//                "墨玉黑" to "black",
+//                "釉瓷白" to "white",
+//                "山茶红" to "red",
+//                "雾凇灰" to "gray",
+//                "翡冷翠" to "green",
+//                "冰晶蓝" to "blue",
+//                // MG4
+//                "车来紫" to "purple",
+//                "清波绿" to "green",
+//                "海岛蓝" to "blue",
+//                "珊瑚红" to "red",
+//                "星野灰" to "gray",
+//                "月光白" to "white",
+//                // D7
+//                "安第斯灰" to "gray",
+//                "光速银" to "silver",
+//                "晨曦金" to "gold",
+//                "亮白" to "white",
+//                "珠光黑" to "black"
+//            )
+//            val colorIdentifier = colorMap[color] ?: "default"
+//            val modelIdentifier = carModel.lowercase(Locale.getDefault())
+//            val imageName = "${colorIdentifier}_${modelIdentifier}"
+//
+//            // 动态查找 drawable 资源
+//            val carImageResId =
+//                context.resources.getIdentifier(imageName, "drawable", context.packageName)
+//
+//            if (carImageResId != 0) {
+//                views.setImageViewResource(R.id.iv_car_image, carImageResId)
+//            } else {
+//                // 找不到对应图片 → 使用默认 Logo
+//                views.setImageViewResource(R.id.iv_car_image, R.drawable.blue_mg7)
+//            }
+            // --- 步骤 B: 如果有 URL，异步下载并覆盖 ---
+            if (carImageUrl.isNotEmpty()) {
+                CoroutineScope(Dispatchers.IO).launch {
+                    val bitmap = downloadBitmap(carImageUrl)
+                    if (bitmap != null) {
+                        // 切回主线程更新 RemoteViews
+                        withContext(Dispatchers.Main) {
+                            views.setImageViewBitmap(R.id.iv_car_image, bitmap)
+                            // 必须再次调用 updateAppWidget 才能生效
+                            appWidgetManager.updateAppWidget(appWidgetId, views)
+                        }
+                    }
+                }
+            }else {
+                // 找不到对应图片 → 使用默认图片
+                views.setImageViewResource(R.id.iv_car_image, R.drawable.blue_mg7)
             }
-
             // ============================
             // 4. 根据小组件尺寸调整字体大小
             // ============================
@@ -634,11 +654,11 @@ class MGWidget : AppWidgetProvider() {
                     // 1. 网络可用性检查
                     // ============================
                     if (!isNetworkAvailable(context)) {
-                        withContext(Dispatchers.Main) {
-                            // 显示无网络提示
-                            views.setTextViewText(R.id.tv_location, "无网络")
-                            appWidgetManager.updateAppWidget(appWidgetId, views)
-                        }
+//                        withContext(Dispatchers.Main) {
+//                            // 显示无网络提示
+//                            views.setTextViewText(R.id.tv_location, "无网络")
+//                            appWidgetManager.updateAppWidget(appWidgetId, views)
+//                        }
                         return@launch
                     }
 
@@ -703,26 +723,44 @@ class MGWidget : AppWidgetProvider() {
                     e.printStackTrace()
 
                     // 根据异常类型显示不同提示
-                    val errorMsg = when (e) {
-                        is UnknownHostException -> "无法解析主机" // DNS 或域名错误
-                        is SocketTimeoutException -> "连接超时"     // 网络慢
-                        is ConnectException -> "连接失败"         // 握手失败
-                        else -> "更新出错"
-                    }
-
-                    // 切回主线程更新 UI
-                    withContext(Dispatchers.Main) {
-                        views.setTextViewText(R.id.tv_update_time, errorMsg)
-
-                        // 显示具体错误信息（方便调试）
-                        views.setTextViewText(R.id.tv_location, "${e.localizedMessage}")
-
-                        appWidgetManager.updateAppWidget(appWidgetId, views)
-                    }
+//                    val errorMsg = when (e) {
+//                        is UnknownHostException -> "无法解析主机" // DNS 或域名错误
+//                        is SocketTimeoutException -> "连接超时"     // 网络慢
+//                        is ConnectException -> "连接失败"         // 握手失败
+//                        else -> "更新出错"
+//                    }
+//
+//                    // 切回主线程更新 UI
+//                    withContext(Dispatchers.Main) {
+//                        views.setTextViewText(R.id.tv_update_time, errorMsg)
+//
+//                        // 显示具体错误信息（方便调试）
+//                        views.setTextViewText(R.id.tv_location, "${e.localizedMessage}")
+//
+//                        appWidgetManager.updateAppWidget(appWidgetId, views)
+//                    }
                 }
             }
         }
-
+        /**
+         * downloadBitmap()
+         *
+         * 【作用】
+         * 下载网络图片并转换为 Bitmap。
+         * 用于小组件显示自定义车辆图片。
+         */
+        private fun downloadBitmap(url: String): Bitmap? {
+            return try {
+                val client = OkHttpClient()
+                val request = Request.Builder().url(url).build()
+                val response = client.newCall(request).execute()
+                val inputStream = response.body?.byteStream()
+                BitmapFactory.decodeStream(inputStream)
+            } catch (e: Exception) {
+                e.printStackTrace()
+                null
+            }
+        }
 
         /**
          * updateWidgetUI()
