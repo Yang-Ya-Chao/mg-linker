@@ -81,6 +81,24 @@
           "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2024/9d12e8fa09c3428fab71804d43499eda.png"
         }
       ]
+    },
+    {
+      "brand": "RW",
+      "model": "D5X DMH",
+      "colors": [
+        {
+          "name": "皎月白",
+          "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2024/42fbb15cd8e549979e1972cb8b03cb4b.png"
+        },
+        {
+          "name": "雾凇银",
+          "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2024/57e9684c56db4207b0d7ad50ff99a2ad.png"
+        },
+        {
+          "name": "沧浪灰",
+          "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2024/4438d8b27bb843bf9dad7d7de76bbd09.png"
+        }
+      ]
     }
   ]
 }
