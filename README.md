@@ -55,7 +55,8 @@ MGLive;MG7;android;小组件;名爵;名爵7
 
 
 #### 如果是荣威车系，需要抓取到下图中的地址，在此地址中获取token
-![输入图片说明](HttpCanary/1769005413130.jpeg)
+![输入图片说明](HttpCanary/11.jpg)
+
 
 #### 步骤九
 ![输入图片说明](HttpCanary/9.jpg)
