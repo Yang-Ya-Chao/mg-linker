@@ -1,11 +1,9 @@
 package com.my.mg.receiver
 
-import android.appwidget.AppWidgetManager
 import android.content.BroadcastReceiver
-import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
-import com.my.mg.MGWidget
+
 //无意义，andeoid禁止亮屏信号静态注册，只能写常驻服务检测。
 class ScreenOnReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {

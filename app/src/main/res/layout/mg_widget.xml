@@ -12,8 +12,8 @@
     <LinearLayout
         android:layout_width="91dp"
         android:layout_height="match_parent"
-        android:layout_weight="0.6"
         android:layout_marginLeft="1dp"
+        android:layout_weight="0.6"
         android:orientation="vertical">
 
         <TextView
@@ -30,9 +30,9 @@
             android:id="@+id/tv_plate_number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
             android:layout_weight="1"
             android:text="川G"
-            android:layout_marginTop="1dp"
             android:textColor="@color/widget_text_color"
             android:textSize="13sp" />
 
@@ -71,7 +71,7 @@
                     android:layout_height="wrap_content"
                     android:text=" / "
                     android:textColor="@color/widget_text_color"
-                    android:textSize="12sp"/>
+                    android:textSize="12sp" />
 
                 <TextView
                     android:id="@+id/tv_fuel_percent"
@@ -100,7 +100,7 @@
                 android:layout_marginTop="2dp"
                 android:indeterminate="false"
                 android:max="100"
-                android:progressDrawable="@drawable/pb_rounded_layer"/>
+                android:progressDrawable="@drawable/pb_rounded_layer" />
         </LinearLayout>
 
         <!-- Container for Battery Info and Progress Bar -->
@@ -108,8 +108,8 @@
             android:id="@+id/ll_battery_range"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="4dp">
+            android:layout_marginTop="4dp"
+            android:orientation="vertical">
 
             <!-- Horizontal layout for the text info -->
             <LinearLayout
@@ -139,7 +139,7 @@
                     android:layout_height="wrap_content"
                     android:text=" / "
                     android:textColor="@color/widget_text_color"
-                    android:textSize="12sp"/>
+                    android:textSize="12sp" />
 
                 <TextView
                     android:id="@+id/tv_battery_percent"
@@ -168,7 +168,8 @@
                 android:layout_marginTop="2dp"
                 android:indeterminate="false"
                 android:max="100"
-                android:progressDrawable="@drawable/pb_rounded_layer"/>
+                android:progressDrawable="@drawable/pb_rounded_layer" />
+
             <TextView
                 android:id="@+id/chrgng_rmnng_time"
                 android:layout_width="wrap_content"
@@ -183,29 +184,29 @@
             android:id="@+id/tv_total_mileage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="总里程: 0 km"
             android:layout_marginTop="8dp"
             android:layout_weight="1"
+            android:text="总里程: 0 km"
             android:textColor="@color/widget_text_color"
             android:textSize="10sp" />
+
         <TextView
             android:id="@+id/tv_battery_info"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="电瓶:0% 电压：0v"
             android:layout_marginTop="1dp"
             android:layout_weight="1"
+            android:text="电瓶:0% 电压：0v"
             android:textColor="@color/widget_text_color"
             android:textSize="10sp" />
-
 
 
         <LinearLayout
             android:id="@+id/ll_update_time"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginTop="1dp">
+            android:layout_marginTop="1dp"
+            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/tv_lock_status"
@@ -229,12 +230,12 @@
             android:id="@+id/tv_location"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:lines="2"
             android:layout_marginTop="1dp"
             android:layout_marginBottom="2dp"
+            android:lines="2"
             android:text="--"
             android:textColor="@color/widget_text_color"
-            android:textSize="8sp"  />
+            android:textSize="8sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -248,6 +249,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp">
+
             <ImageView
                 android:id="@+id/iv_brand_logo"
                 android:layout_width="34dp"
@@ -255,12 +257,14 @@
                 android:layout_alignParentEnd="true"
                 android:src="@drawable/mg_logo" />
         </RelativeLayout>
+
         <LinearLayout
             android:id="@+id/ll_temperature"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="1dp"
             android:gravity="center_horizontal">
+
             <TextView
                 android:id="@+id/tv_temp_label"
                 android:layout_width="wrap_content"
@@ -268,6 +272,7 @@
                 android:text="车内温度: "
                 android:textColor="@color/widget_text_color"
                 android:textSize="8sp" />
+
             <TextView
                 android:id="@+id/tv_temp_value"
                 android:layout_width="wrap_content"
@@ -281,12 +286,12 @@
             android:id="@+id/view_flipper_center"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:scaleType="fitCenter"
             android:layout_marginTop="-20dp"
             android:layout_marginBottom="-14dp"
             android:layout_weight="1"
             android:inAnimation="@android:anim/fade_in"
-            android:outAnimation="@android:anim/fade_out">
+            android:outAnimation="@android:anim/fade_out"
+            android:scaleType="fitCenter">
 
             <ImageView
                 android:id="@+id/iv_car_image"
@@ -297,6 +302,7 @@
                 android:src="@drawable/blue_mg7" />
 
             <include layout="@layout/mg_info_widget" />
+
             <include layout="@layout/mg_lock_widget" />
         </ViewFlipper>
 
@@ -315,7 +321,8 @@
                 android:layout_marginStart="2dp"
                 android:text="车窗"
                 android:textColor="@color/widget_text_color"
-                android:textSize="8sp"/>
+                android:textSize="8sp" />
+
             <TextView
                 android:id="@+id/tv_window_value"
                 android:layout_width="wrap_content"
@@ -323,7 +330,8 @@
                 android:layout_marginStart="1dp"
                 android:text="已关闭"
                 android:textColor="@color/widget_text_color"
-                android:textSize="8sp"/>
+                android:textSize="8sp" />
+
             <TextView
                 android:id="@+id/tv_door_label"
                 android:layout_width="wrap_content"

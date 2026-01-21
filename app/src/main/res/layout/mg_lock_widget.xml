@@ -2,24 +2,26 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
-    android:padding="8dp"
-    android:gravity="center_vertical"
     android:layout_marginTop="-12dp"
-    android:baselineAligned="false">
+    android:baselineAligned="false"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="8dp">
 
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="vertical">
+
         <TextView
             android:id="@+id/fl_window_door"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="主驾"
             android:textSize="8sp" />
+
         <LinearLayout
             android:id="@+id/fl_window"
             android:layout_width="wrap_content"
@@ -32,19 +34,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="车窗"
-                android:textSize="8sp"/>
+                android:textSize="8sp" />
+
             <TextView
                 android:id="@+id/fl_window_value"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="已关闭"
-                android:textSize="8sp"/>
+                android:textSize="8sp" />
         </LinearLayout>
+
         <LinearLayout
             android:id="@+id/fl_door"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal">
+
             <TextView
                 android:id="@+id/fl_door_label"
                 android:layout_width="wrap_content"
@@ -67,6 +72,7 @@
             android:layout_height="wrap_content"
             android:text="左后"
             android:textSize="8sp" />
+
         <LinearLayout
             android:id="@+id/rl_window"
             android:layout_width="wrap_content"
@@ -79,19 +85,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="车窗"
-                android:textSize="8sp"/>
+                android:textSize="8sp" />
+
             <TextView
                 android:id="@+id/rl_window_value"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="已关闭"
-                android:textSize="8sp"/>
+                android:textSize="8sp" />
         </LinearLayout>
+
         <LinearLayout
             android:id="@+id/rl_door"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal">
+
             <TextView
                 android:id="@+id/rl_door_label"
                 android:layout_width="wrap_content"
@@ -115,22 +124,24 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:contentDescription="@null"
         android:scaleType="fitCenter"
-        android:src="@drawable/car_info"
-        android:contentDescription="@null" />
+        android:src="@drawable/car_info" />
 
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="vertical">
+
         <TextView
             android:id="@+id/fr_window_door"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="副驾"
             android:textSize="8sp" />
+
         <LinearLayout
             android:id="@+id/fr_window"
             android:layout_width="wrap_content"
@@ -143,19 +154,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="车窗"
-                android:textSize="8sp"/>
+                android:textSize="8sp" />
+
             <TextView
                 android:id="@+id/fr_window_value"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="已关闭"
-                android:textSize="8sp"/>
+                android:textSize="8sp" />
         </LinearLayout>
+
         <LinearLayout
             android:id="@+id/fr_door"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal">
+
             <TextView
                 android:id="@+id/fr_door_label"
                 android:layout_width="wrap_content"
@@ -171,6 +185,7 @@
                 android:text="已关闭"
                 android:textSize="8sp" />
         </LinearLayout>
+
         <TextView
             android:id="@+id/rr_window_door"
             android:layout_width="wrap_content"
@@ -190,19 +205,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="车窗"
-                android:textSize="8sp"/>
+                android:textSize="8sp" />
+
             <TextView
                 android:id="@+id/rr_window_value"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="已关闭"
-                android:textSize="8sp"/>
+                android:textSize="8sp" />
         </LinearLayout>
+
         <LinearLayout
             android:id="@+id/rr_door"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal">
+
             <TextView
                 android:id="@+id/rr_door_label"
                 android:layout_width="wrap_content"
