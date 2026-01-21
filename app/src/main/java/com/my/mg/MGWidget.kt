@@ -7,13 +7,13 @@ import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.content.res.ColorStateList
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
 import android.location.Address
 import android.location.Geocoder
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
-import android.os.Build
 import android.os.Bundle
-import android.os.PowerManager
 import android.text.Spannable
 import android.text.SpannableString
 import android.text.style.ForegroundColorSpan
@@ -29,16 +29,14 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import okhttp3.OkHttpClient
 import okhttp3.Request
-import java.net.ConnectException
-import java.net.SocketTimeoutException
-import java.net.UnknownHostException
+import java.io.BufferedInputStream
+import java.io.File
+import java.io.FileOutputStream
+import java.net.URL
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
 import java.util.concurrent.TimeUnit
-import kotlin.concurrent.thread
-import android.graphics.Bitmap
-import android.graphics.BitmapFactory
 
 /**          Power by 杨家三郎
  * MGWidget - 车辆状态桌面小组件的 AppWidgetProvider 实现类
@@ -75,9 +73,7 @@ class MGWidget : AppWidgetProvider() {
      * - updateAppWidget() 内部会根据配置决定是否发起网络请求
      */
     override fun onUpdate(
-        context: Context,
-        appWidgetManager: AppWidgetManager,
-        appWidgetIds: IntArray
+        context: Context, appWidgetManager: AppWidgetManager, appWidgetIds: IntArray
     ) {
         if (BuildConfig.DEBUG) {
             LogcatHelper.startRecording(context)
@@ -112,10 +108,7 @@ class MGWidget : AppWidgetProvider() {
      * - updateAppWidget() 内部会异步拉取数据，因此这里是安全的
      */
     override fun onAppWidgetOptionsChanged(
-        context: Context,
-        appWidgetManager: AppWidgetManager,
-        appWidgetId: Int,
-        newOptions: Bundle
+        context: Context, appWidgetManager: AppWidgetManager, appWidgetId: Int, newOptions: Bundle
     ) {
         super.onAppWidgetOptionsChanged(context, appWidgetManager, appWidgetId, newOptions)
 
@@ -161,8 +154,7 @@ class MGWidget : AppWidgetProvider() {
 
             // 获取小组件 ID（由 PendingIntent 传入）
             val appWidgetId = intent.getIntExtra(
-                AppWidgetManager.EXTRA_APPWIDGET_ID,
-                AppWidgetManager.INVALID_APPWIDGET_ID
+                AppWidgetManager.EXTRA_APPWIDGET_ID, AppWidgetManager.INVALID_APPWIDGET_ID
             )
 
             if (appWidgetId != AppWidgetManager.INVALID_APPWIDGET_ID) {
@@ -256,9 +248,7 @@ class MGWidget : AppWidgetProvider() {
          * - updateAppWidget() 是线程安全的，可以从 Worker 或主线程调用
          */
         internal fun updateAppWidget(
-            context: Context,
-            appWidgetManager: AppWidgetManager,
-            appWidgetId: Int
+            context: Context, appWidgetManager: AppWidgetManager, appWidgetId: Int
         ) {
             log(context, "updateAppWidget called for ID: $appWidgetId")
 
@@ -289,8 +279,7 @@ class MGWidget : AppWidgetProvider() {
             // 1. 设置静态 UI（车名、车牌）
             // ============================
             views.setTextViewText(
-                R.id.tv_car_name,
-                if (carName.isNullOrEmpty()) carModel else carName
+                R.id.tv_car_name, if (carName.isNullOrEmpty()) carModel else carName
             )
             views.setTextViewText(R.id.tv_plate_number, plateNumber)
 
@@ -339,23 +328,24 @@ class MGWidget : AppWidgetProvider() {
 //                // 找不到对应图片 → 使用默认 Logo
 //                views.setImageViewResource(R.id.iv_car_image, R.drawable.blue_mg7)
 //            }
-            // --- 步骤 B: 如果有 URL，异步下载并覆盖 ---
-            if (carImageUrl.isNotEmpty()) {
-                CoroutineScope(Dispatchers.IO).launch {
-                    val bitmap = downloadBitmap(carImageUrl)
-                    if (bitmap != null) {
-                        // 切回主线程更新 RemoteViews
-                        withContext(Dispatchers.Main) {
-                            views.setImageViewBitmap(R.id.iv_car_image, bitmap)
-                            // 必须再次调用 updateAppWidget 才能生效
-                            appWidgetManager.updateAppWidget(appWidgetId, views)
-                        }
-                    }
-                }
-            }else {
-                // 找不到对应图片 → 使用默认图片
-                views.setImageViewResource(R.id.iv_car_image, R.drawable.blue_mg7)
-            }
+
+//            if (carImageUrl.isNotEmpty()) {
+//                CoroutineScope(Dispatchers.IO).launch {
+//                    val bitmap = downloadBitmap(carImageUrl)
+//                    if (bitmap != null) {
+//                        // 切回主线程更新 RemoteViews
+//                        withContext(Dispatchers.Main) {
+//                            views.setImageViewBitmap(R.id.iv_car_image, bitmap)
+//                            // 必须再次调用 updateAppWidget 才能生效
+//                            appWidgetManager.updateAppWidget(appWidgetId, views)
+//                        }
+//                    }
+//                }
+//            } else {
+//                // 找不到对应图片 → 使用默认图片
+//                views.setImageViewResource(R.id.iv_car_image, R.drawable.blue_mg7)
+//            }
+
             // ============================
             // 4. 根据小组件尺寸调整字体大小
             // ============================
@@ -376,7 +366,9 @@ class MGWidget : AppWidgetProvider() {
             val refreshIntent =
                 Intent(context, MGWidget::class.java).apply { action = ACTION_REFRESH }
             val refreshPendingIntent = PendingIntent.getBroadcast(
-                context, 1, refreshIntent,
+                context,
+                1,
+                refreshIntent,
                 PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
             )
             views.setOnClickPendingIntent(R.id.tv_update_time, refreshPendingIntent)
@@ -389,7 +381,9 @@ class MGWidget : AppWidgetProvider() {
                 putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId)
             }
             val pendingIntent = PendingIntent.getBroadcast(
-                context, appWidgetId, flipIntent,
+                context,
+                appWidgetId,
+                flipIntent,
                 PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
             )
             views.setOnClickPendingIntent(R.id.view_flipper_center, pendingIntent)
@@ -405,8 +399,116 @@ class MGWidget : AppWidgetProvider() {
                 views.setTextViewText(R.id.tv_update_time, "请配置 App")
                 appWidgetManager.updateAppWidget(appWidgetId, views)
             }
+            // --- 步骤 B: 如果有 URL，异步下载并覆盖 ---
+            loadCarImageWithCache(
+                context = context,
+                views = views,
+                appWidgetManager = appWidgetManager,
+                appWidgetId = appWidgetId,
+                carImageUrl = carImageUrl
+            )
         }
 
+        /**
+         * 从本地缓存加载车辆图片；若本地不存在或 URL 变化则重新下载。
+         * 整体流程：
+         * 1. 根据 URL 生成唯一文件名（hash）
+         * 2. 清理旧缓存，只保留当前 URL 对应的文件
+         * 3. 若本地已有 → decodeFile
+         * 4. 若本地没有 → 下载并保存 → decodeFile
+         * 5. 主线程更新 RemoteViews
+         */
+        private fun loadCarImageWithCache(
+            context: Context,
+            views: RemoteViews,
+            appWidgetManager: AppWidgetManager,
+            appWidgetId: Int,
+            carImageUrl: String?
+        ) {
+            // URL 为空 → 使用默认图片
+            if (carImageUrl.isNullOrEmpty()) {
+                views.setImageViewResource(R.id.iv_car_image, R.drawable.blue_mg7)
+                appWidgetManager.updateAppWidget(appWidgetId, views)
+                return
+            }
+
+            // IO 线程执行下载/读取逻辑，避免阻塞主线程
+            CoroutineScope(Dispatchers.IO).launch {
+                try {
+                    // 缓存目录：/data/data/包名/files/car_image_cache
+                    val cacheDir = File(context.filesDir, "car_image_cache")
+                    if (!cacheDir.exists()) cacheDir.mkdirs()
+
+                    // 使用 URL 的 hashCode 作为文件名，确保唯一性
+                    val fileName = carImageUrl.hashCode().toString() + ".img"
+                    val imageFile = File(cacheDir, fileName)
+
+                    // 清理旧文件：只保留当前 URL 对应的文件
+                    cacheDir.listFiles()?.forEach { file ->
+                        if (file.name != fileName) file.delete()
+                    }
+
+                    // bitmap：优先从本地读取；若不存在则下载
+                    val bitmap = if (imageFile.exists()) {
+                        // 本地已有 → 直接 decodeFile（避免 decodeStream 半图问题）
+                        BitmapFactory.decodeFile(imageFile.absolutePath)
+                    } else {
+                        // 本地没有 → 下载并保存
+                        downloadAndSaveImage(carImageUrl, imageFile)
+                        // 下载完成后再 decodeFile，确保文件完整
+                        BitmapFactory.decodeFile(imageFile.absolutePath)
+                    }
+
+                    // bitmap 成功 → 主线程更新 RemoteViews
+                    if (bitmap != null) {
+                        withContext(Dispatchers.Main) {
+                            views.setImageViewBitmap(R.id.iv_car_image, bitmap)
+                            appWidgetManager.updateAppWidget(appWidgetId, views)
+                        }
+                    } else {
+                        // 解码失败 → 使用默认图
+                        withContext(Dispatchers.Main) {
+                            views.setImageViewResource(R.id.iv_car_image, R.drawable.blue_mg7)
+                            appWidgetManager.updateAppWidget(appWidgetId, views)
+                        }
+                    }
+
+                } catch (e: Exception) {
+                    // 任意异常 → 回退默认图
+                    e.printStackTrace()
+                    withContext(Dispatchers.Main) {
+                        views.setImageViewResource(R.id.iv_car_image, R.drawable.blue_mg7)
+                        appWidgetManager.updateAppWidget(appWidgetId, views)
+                    }
+                }
+            }
+        }
+
+        /**
+         * 下载网络图片并保存到指定文件。
+         * 关键点：
+         * - 使用 BufferedInputStream + FileOutputStream
+         * - copyTo() 确保完整写入
+         * - decodeFile 时不会出现“只显示一半”的问题
+         */
+        private fun downloadAndSaveImage(urlStr: String, outFile: File) {
+            val url = URL(urlStr)
+            val connection = url.openConnection()
+            connection.connect()
+
+            // 输入流：网络数据
+            val input = BufferedInputStream(connection.getInputStream())
+            // 输出流：写入本地文件
+            val output = FileOutputStream(outFile)
+
+            // use{} 自动关闭流，避免泄漏
+            input.use { inp ->
+                output.use { out ->
+                    // 将网络流完整写入文件
+                    inp.copyTo(out)
+                }
+            }
+        }
 
         /**
          * adjustFontSizes()
@@ -466,26 +568,18 @@ class MGWidget : AppWidgetProvider() {
             // 18sp → size18（或 13sp）
             views.setTextViewTextSize(R.id.tv_range, TypedValue.COMPLEX_UNIT_SP, fontSizes[0])
             views.setTextViewTextSize(
-                R.id.tv_fuel_percent,
-                TypedValue.COMPLEX_UNIT_SP,
-                fontSizes[0]
+                R.id.tv_fuel_percent, TypedValue.COMPLEX_UNIT_SP, fontSizes[0]
             )
             views.setTextViewTextSize(
-                R.id.tv_battery_range,
-                TypedValue.COMPLEX_UNIT_SP,
-                fontSizes[0]
+                R.id.tv_battery_range, TypedValue.COMPLEX_UNIT_SP, fontSizes[0]
             )
             views.setTextViewTextSize(
-                R.id.tv_battery_percent,
-                TypedValue.COMPLEX_UNIT_SP,
-                fontSizes[0]
+                R.id.tv_battery_percent, TypedValue.COMPLEX_UNIT_SP, fontSizes[0]
             )
 
             // 13sp → size13
             views.setTextViewTextSize(
-                R.id.tv_plate_number,
-                TypedValue.COMPLEX_UNIT_SP,
-                fontSizes[1]
+                R.id.tv_plate_number, TypedValue.COMPLEX_UNIT_SP, fontSizes[1]
             )
 
             // 车名字体你强制设为 15sp，不随尺寸变化
@@ -493,14 +587,10 @@ class MGWidget : AppWidgetProvider() {
 
             // 10sp → size10
             views.setTextViewTextSize(
-                R.id.tv_total_mileage,
-                TypedValue.COMPLEX_UNIT_SP,
-                fontSizes[4]
+                R.id.tv_total_mileage, TypedValue.COMPLEX_UNIT_SP, fontSizes[4]
             )
             views.setTextViewTextSize(
-                R.id.tv_battery_info,
-                TypedValue.COMPLEX_UNIT_SP,
-                fontSizes[4]
+                R.id.tv_battery_info, TypedValue.COMPLEX_UNIT_SP, fontSizes[4]
             )
             views.setTextViewTextSize(R.id.tv_lock_status, TypedValue.COMPLEX_UNIT_SP, fontSizes[4])
             views.setTextViewTextSize(R.id.tv_update_time, TypedValue.COMPLEX_UNIT_SP, fontSizes[4])
@@ -509,14 +599,10 @@ class MGWidget : AppWidgetProvider() {
             views.setTextViewTextSize(R.id.tv_temp_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(R.id.tv_temp_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(
-                R.id.tv_window_label,
-                TypedValue.COMPLEX_UNIT_SP,
-                fontSizes[5]
+                R.id.tv_window_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5]
             )
             views.setTextViewTextSize(
-                R.id.tv_window_value,
-                TypedValue.COMPLEX_UNIT_SP,
-                fontSizes[5]
+                R.id.tv_window_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5]
             )
             views.setTextViewTextSize(R.id.tv_door_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(R.id.tv_door_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
@@ -527,27 +613,19 @@ class MGWidget : AppWidgetProvider() {
             // ============================
             views.setTextViewTextSize(R.id.tv_front_left, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(
-                R.id.tv_front_left_val,
-                TypedValue.COMPLEX_UNIT_SP,
-                fontSizes[5]
+                R.id.tv_front_left_val, TypedValue.COMPLEX_UNIT_SP, fontSizes[5]
             )
             views.setTextViewTextSize(R.id.tv_rear_left, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(
-                R.id.tv_rear_left_val,
-                TypedValue.COMPLEX_UNIT_SP,
-                fontSizes[5]
+                R.id.tv_rear_left_val, TypedValue.COMPLEX_UNIT_SP, fontSizes[5]
             )
             views.setTextViewTextSize(R.id.tv_front_right, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(
-                R.id.tv_front_right_val,
-                TypedValue.COMPLEX_UNIT_SP,
-                fontSizes[5]
+                R.id.tv_front_right_val, TypedValue.COMPLEX_UNIT_SP, fontSizes[5]
             )
             views.setTextViewTextSize(R.id.tv_rear_right, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(
-                R.id.tv_rear_right_val,
-                TypedValue.COMPLEX_UNIT_SP,
-                fontSizes[5]
+                R.id.tv_rear_right_val, TypedValue.COMPLEX_UNIT_SP, fontSizes[5]
             )
 
             // ============================
@@ -557,14 +635,10 @@ class MGWidget : AppWidgetProvider() {
             // 主驾
             views.setTextViewTextSize(R.id.fl_window_door, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(
-                R.id.fl_window_label,
-                TypedValue.COMPLEX_UNIT_SP,
-                fontSizes[5]
+                R.id.fl_window_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5]
             )
             views.setTextViewTextSize(
-                R.id.fl_window_value,
-                TypedValue.COMPLEX_UNIT_SP,
-                fontSizes[5]
+                R.id.fl_window_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5]
             )
             views.setTextViewTextSize(R.id.fl_door_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(R.id.fl_door_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
@@ -572,14 +646,10 @@ class MGWidget : AppWidgetProvider() {
             // 左后
             views.setTextViewTextSize(R.id.rl_window_door, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(
-                R.id.rl_window_label,
-                TypedValue.COMPLEX_UNIT_SP,
-                fontSizes[5]
+                R.id.rl_window_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5]
             )
             views.setTextViewTextSize(
-                R.id.rl_window_value,
-                TypedValue.COMPLEX_UNIT_SP,
-                fontSizes[5]
+                R.id.rl_window_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5]
             )
             views.setTextViewTextSize(R.id.rl_door_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(R.id.rl_door_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
@@ -587,14 +657,10 @@ class MGWidget : AppWidgetProvider() {
             // 副驾
             views.setTextViewTextSize(R.id.fr_window_door, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(
-                R.id.fr_window_label,
-                TypedValue.COMPLEX_UNIT_SP,
-                fontSizes[5]
+                R.id.fr_window_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5]
             )
             views.setTextViewTextSize(
-                R.id.fr_window_value,
-                TypedValue.COMPLEX_UNIT_SP,
-                fontSizes[5]
+                R.id.fr_window_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5]
             )
             views.setTextViewTextSize(R.id.fr_door_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(R.id.fr_door_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
@@ -602,14 +668,10 @@ class MGWidget : AppWidgetProvider() {
             // 右后
             views.setTextViewTextSize(R.id.rr_window_door, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(
-                R.id.rr_window_label,
-                TypedValue.COMPLEX_UNIT_SP,
-                fontSizes[5]
+                R.id.rr_window_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5]
             )
             views.setTextViewTextSize(
-                R.id.rr_window_value,
-                TypedValue.COMPLEX_UNIT_SP,
-                fontSizes[5]
+                R.id.rr_window_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5]
             )
             views.setTextViewTextSize(R.id.rr_door_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(R.id.rr_door_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
@@ -674,8 +736,7 @@ class MGWidget : AppWidgetProvider() {
                     // ============================
                     // 3. 配置 OkHttp（超时 10 秒）
                     // ============================
-                    val client = OkHttpClient.Builder()
-                        .connectTimeout(10, TimeUnit.SECONDS) // 连接超时
+                    val client = OkHttpClient.Builder().connectTimeout(10, TimeUnit.SECONDS) // 连接超时
                         .readTimeout(10, TimeUnit.SECONDS)    // 读取超时
                         .writeTimeout(10, TimeUnit.SECONDS)   // 写入超时
                         .build()
@@ -696,19 +757,14 @@ class MGWidget : AppWidgetProvider() {
                     // ============================
                     if (responseBody != null) {
                         val gson = Gson()
-                        val data =
-                            gson.fromJson(responseBody, VehicleStatusResponse::class.java)
+                        val data = gson.fromJson(responseBody, VehicleStatusResponse::class.java)
 
                         // ============================
                         // 6. 切回主线程更新 UI
                         // ============================
                         withContext(Dispatchers.Main) {
                             updateWidgetUI(
-                                context,
-                                views,
-                                data,
-                                appWidgetManager,
-                                appWidgetId
+                                context, views, data, appWidgetManager, appWidgetId
                             )
                         }
                     } else {
@@ -742,6 +798,7 @@ class MGWidget : AppWidgetProvider() {
                 }
             }
         }
+
         /**
          * downloadBitmap()
          *
@@ -827,12 +884,10 @@ class MGWidget : AppWidgetProvider() {
             // 控制油量、电量布局显示/隐藏
             views.setViewVisibility(R.id.ll_range_fuel, if (showFuel) View.VISIBLE else View.GONE)
             views.setViewVisibility(
-                R.id.ll_battery_range,
-                if (showBattery) View.VISIBLE else View.GONE
+                R.id.ll_battery_range, if (showBattery) View.VISIBLE else View.GONE
             )
             views.setViewVisibility(
-                R.id.chrgng_rmnng_time,
-                if (showChargng) View.VISIBLE else View.GONE
+                R.id.chrgng_rmnng_time, if (showChargng) View.VISIBLE else View.GONE
             )
 
             // ============================
@@ -921,8 +976,7 @@ class MGWidget : AppWidgetProvider() {
             val isLocked = vehicleState?.lock == true
             views.setTextViewText(R.id.tv_lock_status, if (isLocked) "已上锁" else "未上锁")
             views.setTextColor(
-                R.id.tv_lock_status,
-                if (isLocked) context.getColor(R.color.status_green)
+                R.id.tv_lock_status, if (isLocked) context.getColor(R.color.status_green)
                 else context.getColor(R.color.status_red)
             )
 
@@ -934,9 +988,8 @@ class MGWidget : AppWidgetProvider() {
             val sdfSameDay = SimpleDateFormat("yyyyMMdd", Locale.getDefault())
             val isSameDay = sdfSameDay.format(updateDate) == sdfSameDay.format(now)
 
-            val displaySdf =
-                if (isSameDay) SimpleDateFormat("HH:mm", Locale.getDefault())
-                else SimpleDateFormat("MM-dd HH:mm", Locale.getDefault())
+            val displaySdf = if (isSameDay) SimpleDateFormat("HH:mm", Locale.getDefault())
+            else SimpleDateFormat("MM-dd HH:mm", Locale.getDefault())
 
             views.setTextViewText(R.id.tv_update_time, "${displaySdf.format(updateDate)} 更新")
 
@@ -953,28 +1006,16 @@ class MGWidget : AppWidgetProvider() {
             // 7. 胎压（四个轮胎）
             // ============================
             updateTirePressure(
-                context,
-                views,
-                vehicleValue?.front_left_tyre_pressure,
-                R.id.tv_front_left_val
+                context, views, vehicleValue?.front_left_tyre_pressure, R.id.tv_front_left_val
             )
             updateTirePressure(
-                context,
-                views,
-                vehicleValue?.front_right_tyre_pressure,
-                R.id.tv_front_right_val
+                context, views, vehicleValue?.front_right_tyre_pressure, R.id.tv_front_right_val
             )
             updateTirePressure(
-                context,
-                views,
-                vehicleValue?.rear_left_tyre_pressure,
-                R.id.tv_rear_left_val
+                context, views, vehicleValue?.rear_left_tyre_pressure, R.id.tv_rear_left_val
             )
             updateTirePressure(
-                context,
-                views,
-                vehicleValue?.rear_right_tyre_pressure,
-                R.id.tv_rear_right_val
+                context, views, vehicleValue?.rear_right_tyre_pressure, R.id.tv_rear_right_val
             )
 
             // ============================
@@ -984,15 +1025,10 @@ class MGWidget : AppWidgetProvider() {
 
                 // 总览：所有窗是否关闭
                 val allWindowsClosed =
-                    !(vehicleState.driver_window == true ||
-                            vehicleState.passenger_window == true ||
-                            vehicleState.rear_left_window == true ||
-                            vehicleState.rear_right_window == true ||
-                            vehicleState.sunroof == true)
+                    !(vehicleState.driver_window == true || vehicleState.passenger_window == true || vehicleState.rear_left_window == true || vehicleState.rear_right_window == true || vehicleState.sunroof == true)
 
                 views.setTextViewText(
-                    R.id.tv_window_value,
-                    if (allWindowsClosed) "已关闭" else "未关闭"
+                    R.id.tv_window_value, if (allWindowsClosed) "已关闭" else "未关闭"
                 )
                 views.setTextColor(
                     R.id.tv_window_value,
@@ -1002,72 +1038,41 @@ class MGWidget : AppWidgetProvider() {
 
                 // 总览：所有门是否关闭
                 val allDoorsClosed =
-                    !(vehicleState.driver_door == true ||
-                            vehicleState.passenger_door == true ||
-                            vehicleState.rear_left_door == true ||
-                            vehicleState.rear_right_door == true ||
-                            vehicleState.bonnet == true ||
-                            vehicleState.boot == true)
+                    !(vehicleState.driver_door == true || vehicleState.passenger_door == true || vehicleState.rear_left_door == true || vehicleState.rear_right_door == true || vehicleState.bonnet == true || vehicleState.boot == true)
 
                 views.setTextViewText(
-                    R.id.tv_door_value,
-                    if (allDoorsClosed) "已关闭" else "未关闭"
+                    R.id.tv_door_value, if (allDoorsClosed) "已关闭" else "未关闭"
                 )
                 views.setTextColor(
-                    R.id.tv_door_value,
-                    if (allDoorsClosed) context.getColor(R.color.status_green)
+                    R.id.tv_door_value, if (allDoorsClosed) context.getColor(R.color.status_green)
                     else context.getColor(R.color.status_red)
                 )
 
                 // 详细门窗状态（mg_lock_widget）
                 updateDoorOrWindowStatus(
-                    context,
-                    views,
-                    vehicleState.driver_door == true,
-                    R.id.fl_door_value
+                    context, views, vehicleState.driver_door == true, R.id.fl_door_value
                 )
                 updateDoorOrWindowStatus(
-                    context,
-                    views,
-                    vehicleState.passenger_door == true,
-                    R.id.fr_door_value
+                    context, views, vehicleState.passenger_door == true, R.id.fr_door_value
                 )
                 updateDoorOrWindowStatus(
-                    context,
-                    views,
-                    vehicleState.rear_left_door == true,
-                    R.id.rl_door_value
+                    context, views, vehicleState.rear_left_door == true, R.id.rl_door_value
                 )
                 updateDoorOrWindowStatus(
-                    context,
-                    views,
-                    vehicleState.rear_right_door == true,
-                    R.id.rr_door_value
+                    context, views, vehicleState.rear_right_door == true, R.id.rr_door_value
                 )
 
                 updateDoorOrWindowStatus(
-                    context,
-                    views,
-                    vehicleState.driver_window == true,
-                    R.id.fl_window_value
+                    context, views, vehicleState.driver_window == true, R.id.fl_window_value
                 )
                 updateDoorOrWindowStatus(
-                    context,
-                    views,
-                    vehicleState.passenger_window == true,
-                    R.id.fr_window_value
+                    context, views, vehicleState.passenger_window == true, R.id.fr_window_value
                 )
                 updateDoorOrWindowStatus(
-                    context,
-                    views,
-                    vehicleState.rear_left_window == true,
-                    R.id.rl_window_value
+                    context, views, vehicleState.rear_left_window == true, R.id.rl_window_value
                 )
                 updateDoorOrWindowStatus(
-                    context,
-                    views,
-                    vehicleState.rear_right_window == true,
-                    R.id.rr_window_value
+                    context, views, vehicleState.rear_right_window == true, R.id.rr_window_value
                 )
             }
 
@@ -1114,19 +1119,14 @@ class MGWidget : AppWidgetProvider() {
          * - RemoteViews 的所有 UI 更新必须在主线程执行（你已确保）
          */
         private fun updateDoorOrWindowStatus(
-            context: Context,
-            views: RemoteViews,
-            isOpen: Boolean,
-            viewId: Int
+            context: Context, views: RemoteViews, isOpen: Boolean, viewId: Int
         ) {
             // 根据状态选择文本
             val text = if (isOpen) "开启" else "关闭"
 
             // 根据状态选择颜色
-            val color = if (isOpen)
-                context.getColor(R.color.status_red)
-            else
-                context.getColor(R.color.status_green)
+            val color = if (isOpen) context.getColor(R.color.status_red)
+            else context.getColor(R.color.status_green)
 
             // 设置文本内容
             views.setTextViewText(viewId, text)
@@ -1159,10 +1159,7 @@ class MGWidget : AppWidgetProvider() {
          * @param textViewId  需要更新的 TextView ID（如 R.id.tv_front_left_val）
          */
         private fun updateTirePressure(
-            context: Context,
-            views: RemoteViews,
-            pressureRaw: Int?,
-            textViewId: Int
+            context: Context, views: RemoteViews, pressureRaw: Int?, textViewId: Int
         ) {
             // ============================
             // 1. 胎压缺失（null） → 显示 "- Bar"
@@ -1195,11 +1192,8 @@ class MGWidget : AppWidgetProvider() {
             // ============================
             // 3. 根据胎压范围设置颜色
             // ============================
-            val colorRes =
-                if (roundedPressure < 2.0 || roundedPressure > 3.0)
-                    R.color.status_red
-                else
-                    R.color.status_green
+            val colorRes = if (roundedPressure < 2.0 || roundedPressure > 3.0) R.color.status_red
+            else R.color.status_green
 
             val color = context.getColor(colorRes)
 
@@ -1280,8 +1274,7 @@ class MGWidget : AppWidgetProvider() {
                     // thoroughfare = 道路名
                     // subLocality = 子区域（如街道、镇）
                     val bestAddr = addresses?.maxByOrNull {
-                        (if (it.thoroughfare != null) 10 else 0) +
-                                (if (it.subLocality != null) 5 else 0)
+                        (if (it.thoroughfare != null) 10 else 0) + (if (it.subLocality != null) 5 else 0)
                     } ?: addresses?.firstOrNull()
 
                     // 如果找到最佳地址 → 格式化为更友好的文本
@@ -1317,60 +1310,58 @@ class MGWidget : AppWidgetProvider() {
     }
 }
 
-        /**
-         * 格式化地址：处理“鹏程路鹏程路111号”这种重复情况
-         *
-         * 【作用】
-         * - 对 Geocoder 返回的 Address 进行智能格式化
-         * - 去除重复字段（如道路名重复）
-         * - 拼接省、市、区、道路、门牌号
-         * - 避免出现“上海市上海市浦东新区”这种重复
-         *
-         * 【保持原样】
-         * - 以下代码完全保持你的逻辑，只添加注释
-         */
-        private fun formatAddressSmart(addr: Address): String {
-            val sb = StringBuilder()
+/**
+ * 格式化地址：处理“鹏程路鹏程路111号”这种重复情况
+ *
+ * 【作用】
+ * - 对 Geocoder 返回的 Address 进行智能格式化
+ * - 去除重复字段（如道路名重复）
+ * - 拼接省、市、区、道路、门牌号
+ * - 避免出现“上海市上海市浦东新区”这种重复
+ *
+ * 【保持原样】
+ * - 以下代码完全保持你的逻辑，只添加注释
+ */
+private fun formatAddressSmart(addr: Address): String {
+    val sb = StringBuilder()
 
-            // 1. 省、市、区（加入去重逻辑）
-            val admin = addr.adminArea ?: ""      // 省
-            val city = addr.locality ?: ""        // 市
-            val district = addr.subLocality ?: "" // 区/街道
+    // 1. 省、市、区（加入去重逻辑）
+    val admin = addr.adminArea ?: ""      // 省
+    val city = addr.locality ?: ""        // 市
+    val district = addr.subLocality ?: "" // 区/街道
 
-            sb.append(admin)
-            if (city != admin) sb.append(city) // 避免“上海市上海市”
-            sb.append(district)
+    sb.append(admin)
+    if (city != admin) sb.append(city) // 避免“上海市上海市”
+    sb.append(district)
 
-            // 2. 道路与门牌号（核心去重逻辑）
-            val road = addr.thoroughfare ?: ""   // 道路名，如“鹏程路”
-            val feature = addr.featureName ?: "" // 可能包含门牌号，如“鹏程路111号”
+    // 2. 道路与门牌号（核心去重逻辑）
+    val road = addr.thoroughfare ?: ""   // 道路名，如“鹏程路”
+    val feature = addr.featureName ?: "" // 可能包含门牌号，如“鹏程路111号”
 
-            if (road.isNotEmpty()) {
-                sb.append(road)
+    if (road.isNotEmpty()) {
+        sb.append(road)
 
-                // 如果 featureName 包含 road → 截取 road 后面的部分（如“111号”）
-                if (feature.contains(road) && feature != road) {
-                    sb.append(feature.substringAfter(road))
-                } else if (feature != road && feature != district) {
-                    // 如果不重复 → 直接拼接
-                    sb.append(feature)
-                }
-            } else {
-                // 没有道路名 → 尝试拼接 featureName
-                if (feature != district) sb.append(feature)
-            }
-
-            val result = sb.toString()
-
-            // 兜底逻辑：如果拼接结果太短（如“上海市”），则返回完整地址行
-            return if (result.length < 3)
-                addr.getAddressLine(0) ?: "未知地址"
-            else
-                result
+        // 如果 featureName 包含 road → 截取 road 后面的部分（如“111号”）
+        if (feature.contains(road) && feature != road) {
+            sb.append(feature.substringAfter(road))
+        } else if (feature != road && feature != district) {
+            // 如果不重复 → 直接拼接
+            sb.append(feature)
         }
+    } else {
+        // 没有道路名 → 尝试拼接 featureName
+        if (feature != district) sb.append(feature)
+    }
+
+    val result = sb.toString()
+
+    // 兜底逻辑：如果拼接结果太短（如“上海市”），则返回完整地址行
+    return if (result.length < 3) addr.getAddressLine(0) ?: "未知地址"
+    else result
+}
 
 
-        // Data classes (assuming they are correct as per previous context)
+// Data classes (assuming they are correct as per previous context)
 data class VehicleStatusResponse(val req_id: String?, val data: VehicleData?)
 data class VehicleData(
     val vehicle_position: VehiclePosition?,
@@ -1407,7 +1398,7 @@ data class VehicleValue(
     val battery_pack_range: Int?,
     val battery_pack_prc: Int?,
     val chrgng_rmnng_time: Double?,
-    val charge_status:Int?
+    val charge_status: Int?
 )
 
 data class VehicleState(
