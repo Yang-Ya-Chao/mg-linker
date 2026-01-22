@@ -874,7 +874,7 @@ class MGWidget : AppWidgetProvider() {
             val fuelRange = vehicleValue?.fuel_range ?: 0
             val batteryPackRange = vehicleValue?.battery_pack_range ?: 0
             val batteryPackPrc = vehicleValue?.battery_pack_prc?.let { it / 10 } ?: 0
-            var chrgngRmnngTime = vehicleValue?.chrgng_rmnng_time ?: 0.0
+            var chrgngRmnngTime = vehicleValue?.chrgng_rmnng_time ?: 0
             var chargeStatus = vehicleValue?.charge_status ?: 0
 
             val showFuel = fuelRange > 0
@@ -934,9 +934,9 @@ class MGWidget : AppWidgetProvider() {
                 val h = chrgngRmnngTime / 60
                 val m = chrgngRmnngTime % 60
                 val timeText = when {
-                    h > 0 && m > 0 -> "剩余${h}小时${m}分钟"
-                    h > 0 -> "剩余${h}小时"
-                    m > 0 -> "剩余${m}分钟"
+                    h > 0 && m > 0 -> "≈${h}小时${m}分钟"
+                    h > 0 -> "≈${h}小时"
+                    m > 0 -> "≈${m}分钟"
                     else -> ""
                 }
 
@@ -1397,7 +1397,7 @@ data class VehicleValue(
     val rear_left_tyre_pressure: Int?,
     val battery_pack_range: Int?,
     val battery_pack_prc: Int?,
-    val chrgng_rmnng_time: Double?,
+    val chrgng_rmnng_time: Int?,
     val charge_status: Int?
 )
 
