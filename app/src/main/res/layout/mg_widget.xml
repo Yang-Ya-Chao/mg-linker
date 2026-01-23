@@ -157,7 +157,7 @@
                     android:layout_width="31dp"
                     android:layout_height="wrap_content"
                     android:includeFontPadding="false"
-                    android:text="99"
+                    android:text="0"
                     android:textColor="@color/widget_text_color"
                     android:textSize="18sp"
                     android:gravity="center"

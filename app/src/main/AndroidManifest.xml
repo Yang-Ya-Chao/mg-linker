@@ -57,7 +57,8 @@
 
         <receiver
             android:name=".MGWidget"
-            android:exported="true">
+            android:exported="true"
+            android:label="MG Linker 文字版">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -65,6 +66,18 @@
             <meta-data
                 android:name="android.appwidget.provider"
                 android:resource="@xml/mg_widget_info" />
+        </receiver>
+        <receiver
+            android:name=".MGWidgetIcon"
+            android:exported="true"
+            android:label="MG Linker 图标版">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/mg_widget_info_icon" />
         </receiver>
         <provider
             android:name="androidx.core.content.FileProvider"
