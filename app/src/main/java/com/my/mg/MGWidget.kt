@@ -599,15 +599,15 @@ class MGWidget : AppWidgetProvider() {
             views.setTextViewTextSize(R.id.tv_update_time, TypedValue.COMPLEX_UNIT_SP, fontSizes[4])
 
             // 8sp → size8（或 10sp）
-            views.setTextViewTextSize(R.id.tv_temp_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            //views.setTextViewTextSize(R.id.tv_temp_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(R.id.tv_temp_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
-            views.setTextViewTextSize(
-                R.id.tv_window_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5]
-            )
+//            views.setTextViewTextSize(
+//                R.id.tv_window_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5]
+//            )
             views.setTextViewTextSize(
                 R.id.tv_window_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5]
             )
-            views.setTextViewTextSize(R.id.tv_door_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+            //views.setTextViewTextSize(R.id.tv_door_label, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(R.id.tv_door_value, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
             views.setTextViewTextSize(R.id.tv_location, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
 
@@ -957,8 +957,8 @@ class MGWidget : AppWidgetProvider() {
                 if (batteryVoltageRaw > 999) batteryVoltageRaw / 100.0 else batteryVoltageRaw / 10.0
             val batteryVoltageString = String.format("%.1f", batteryVoltage)
 
-            views.setTextViewText(R.id.tv_charge,"$batteryLevel%")
-            views.setTextViewText(R.id.tv_voltage,"${batteryVoltageString}V")
+            views.setTextViewText(R.id.tv_charge, "$batteryLevel%")
+            views.setTextViewText(R.id.tv_voltage, "${batteryVoltageString}V")
 
 //            val batteryInfoText = "电瓶: $batteryLevel% 电压: ${batteryVoltageString}V"
 //            val spannableBatteryInfo = SpannableString(batteryInfoText)
@@ -979,11 +979,18 @@ class MGWidget : AppWidgetProvider() {
             // 4. 车辆锁状态
             // ============================
             val isLocked = vehicleState?.lock == true
-            views.setTextViewText(R.id.tv_lock_status, if (isLocked) "已上锁" else "未上锁")
-            views.setTextColor(
-                R.id.tv_lock_status, if (isLocked) context.getColor(R.color.status_green)
-                else context.getColor(R.color.status_red)
+            views.setTextViewCompoundDrawablesRelative(
+                R.id.tv_lock_status,
+                if (isLocked) R.drawable.locked else R.drawable.unlocked,
+                0,
+                0,
+                0,
             )
+//            views.setTextViewText(R.id.tv_lock_status, if (isLocked) "已上锁" else "未上锁")
+//            views.setTextColor(
+//                R.id.tv_lock_status, if (isLocked) context.getColor(R.color.status_green)
+//                else context.getColor(R.color.status_red)
+//            )
 
             // ============================
             // 5. 更新时间显示（同一天显示 HH:mm）
@@ -1030,28 +1037,52 @@ class MGWidget : AppWidgetProvider() {
 
                 // 总览：所有窗是否关闭
                 val allWindowsClosed =
-                    !(vehicleState.driver_window == true || vehicleState.passenger_window == true || vehicleState.rear_left_window == true || vehicleState.rear_right_window == true || vehicleState.sunroof == true)
-
-                views.setTextViewText(
-                    R.id.tv_window_value, if (allWindowsClosed) "已关闭" else "未关闭"
-                )
-                views.setTextColor(
+                    !(vehicleState.driver_window == true
+                            || vehicleState.passenger_window == true
+                            || vehicleState.rear_left_window == true
+                            || vehicleState.rear_right_window == true
+                            || vehicleState.sunroof == true
+                            )
+                views.setTextViewCompoundDrawablesRelative(
                     R.id.tv_window_value,
-                    if (allWindowsClosed) context.getColor(R.color.status_green)
-                    else context.getColor(R.color.status_red)
+                    if (allWindowsClosed) R.drawable.windowsclose else R.drawable.windowsopen,
+                    0,
+                    0,
+                    0
                 )
+//                views.setTextViewText(
+//                    R.id.tv_window_value, if (allWindowsClosed) "已关闭" else "未关闭"
+//                )
+//                views.setTextColor(
+//                    R.id.tv_window_value,
+//                    if (allWindowsClosed) context.getColor(R.color.status_green)
+//                    else context.getColor(R.color.status_red)
+//                )
 
                 // 总览：所有门是否关闭
                 val allDoorsClosed =
-                    !(vehicleState.driver_door == true || vehicleState.passenger_door == true || vehicleState.rear_left_door == true || vehicleState.rear_right_door == true || vehicleState.bonnet == true || vehicleState.boot == true)
+                    !(vehicleState.driver_door == true
+                            || vehicleState.passenger_door == true
+                            || vehicleState.rear_left_door == true
+                            || vehicleState.rear_right_door == true
+                            || vehicleState.bonnet == true
+                            || vehicleState.boot == true
+                            )
+//                views.setTextViewText(
+//                    R.id.tv_door_value, if (allDoorsClosed) "已关闭" else "未关闭"
+//                )
 
-                views.setTextViewText(
-                    R.id.tv_door_value, if (allDoorsClosed) "已关闭" else "未关闭"
+                views.setTextViewCompoundDrawablesRelative(
+                    R.id.tv_door_value,
+                    if (allDoorsClosed) R.drawable.doorclose else R.drawable.dooropen,
+                    0,
+                    0,
+                    0
                 )
-                views.setTextColor(
-                    R.id.tv_door_value, if (allDoorsClosed) context.getColor(R.color.status_green)
-                    else context.getColor(R.color.status_red)
-                )
+//                views.setTextColor(
+//                    R.id.tv_door_value, if (allDoorsClosed) context.getColor(R.color.status_green)
+//                    else context.getColor(R.color.status_red)
+//                )
 
                 // 详细门窗状态（mg_lock_widget）
                 updateDoorOrWindowStatus(
