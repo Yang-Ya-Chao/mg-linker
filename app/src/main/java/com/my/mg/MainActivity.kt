@@ -605,7 +605,12 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
             InputField(
                 label = "请输入您的 ACCESS_TOKEN:",
                 value = accessToken,
-                onValueChange = { accessToken = it },
+                onValueChange ={ input ->
+                    // 去掉空格和回车
+                    val formatted = input
+                        .filterNot { it == ' ' || it == '\n' || it == '\r' } // 去掉空格和回车
+                    accessToken = formatted
+                },
                 modifier = Modifier.focusRequester(accessTokenFocusRequester),
                 singleLine = false,
                 onHelpClick = {

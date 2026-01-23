@@ -188,7 +188,7 @@ class MGWidget : AppWidgetProvider() {
                 val views = RemoteViews(context.packageName, R.layout.mg_widget)
 
                 // 显示加载提示
-                views.setTextViewText(R.id.tv_update_time, "正在更新....")
+                views.setTextViewText(R.id.tv_update_time, "正在更新")
 
                 // 立即更新 UI（让用户看到反馈）
                 appWidgetManager.updateAppWidget(appWidgetId, views)
@@ -590,7 +590,10 @@ class MGWidget : AppWidgetProvider() {
                 R.id.tv_total_mileage, TypedValue.COMPLEX_UNIT_SP, fontSizes[4]
             )
             views.setTextViewTextSize(
-                R.id.tv_battery_info, TypedValue.COMPLEX_UNIT_SP, fontSizes[4]
+                R.id.tv_charge, TypedValue.COMPLEX_UNIT_SP, fontSizes[4]
+            )
+            views.setTextViewTextSize(
+                R.id.tv_voltage, TypedValue.COMPLEX_UNIT_SP, fontSizes[4]
             )
             views.setTextViewTextSize(R.id.tv_lock_status, TypedValue.COMPLEX_UNIT_SP, fontSizes[4])
             views.setTextViewTextSize(R.id.tv_update_time, TypedValue.COMPLEX_UNIT_SP, fontSizes[4])
@@ -894,7 +897,7 @@ class MGWidget : AppWidgetProvider() {
             // 2.1 油量 UI
             // ============================
             if (showFuel) {
-                views.setTextViewText(R.id.tv_range, "⛽$fuelRange")
+                views.setTextViewText(R.id.tv_range, "$fuelRange")
                 views.setTextViewText(R.id.tv_fuel_percent, "$fuelLevel")
                 views.setProgressBar(R.id.pb_fuel, 100, fuelLevel, false)
 
@@ -914,7 +917,7 @@ class MGWidget : AppWidgetProvider() {
             // 2.2 电量 UI
             // ============================
             if (showBattery) {
-                views.setTextViewText(R.id.tv_battery_range, "🔋$batteryPackRange")
+                views.setTextViewText(R.id.tv_battery_range, "$batteryPackRange")
                 views.setTextViewText(R.id.tv_battery_percent, "$batteryPackPrc")
                 views.setProgressBar(R.id.pb_battery, 100, batteryPackPrc, false)
 
@@ -940,7 +943,7 @@ class MGWidget : AppWidgetProvider() {
                     else -> ""
                 }
 
-                views.setTextViewText(R.id.chrgng_rmnng_time, "⚡充电中$timeText")
+                views.setTextViewText(R.id.chrgng_rmnng_time, "$timeText")
                 views.setTextColor(R.id.chrgng_rmnng_time, context.getColor(R.color.status_green))
             }
 
@@ -954,21 +957,23 @@ class MGWidget : AppWidgetProvider() {
                 if (batteryVoltageRaw > 999) batteryVoltageRaw / 100.0 else batteryVoltageRaw / 10.0
             val batteryVoltageString = String.format("%.1f", batteryVoltage)
 
-            val batteryInfoText = "电瓶: $batteryLevel% 电压: ${batteryVoltageString}V"
-            val spannableBatteryInfo = SpannableString(batteryInfoText)
+            views.setTextViewText(R.id.tv_charge,"$batteryLevel%")
+            views.setTextViewText(R.id.tv_voltage,"${batteryVoltageString}V")
 
-            if (batteryVoltage < 11.0) {
-                val startIndex = batteryInfoText.indexOf(batteryVoltageString)
-                if (startIndex != -1) {
-                    spannableBatteryInfo.setSpan(
-                        ForegroundColorSpan(context.getColor(R.color.status_red)),
-                        startIndex,
-                        startIndex + batteryVoltageString.length,
-                        Spannable.SPAN_EXCLUSIVE_EXCLUSIVE
-                    )
-                }
-            }
-            views.setTextViewText(R.id.tv_battery_info, spannableBatteryInfo)
+//            val batteryInfoText = "电瓶: $batteryLevel% 电压: ${batteryVoltageString}V"
+//            val spannableBatteryInfo = SpannableString(batteryInfoText)
+//
+//            if (batteryVoltage < 11.0) {
+//                val startIndex = batteryInfoText.indexOf(batteryVoltageString)
+//                if (startIndex != -1) {
+//                    spannableBatteryInfo.setSpan(
+//                        ForegroundColorSpan(context.getColor(R.color.status_red)),
+//                        startIndex,
+//                        startIndex + batteryVoltageString.length,
+//                        Spannable.SPAN_EXCLUSIVE_EXCLUSIVE
+//                    )
+//                }
+//            }
 
             // ============================
             // 4. 车辆锁状态
@@ -991,7 +996,7 @@ class MGWidget : AppWidgetProvider() {
             val displaySdf = if (isSameDay) SimpleDateFormat("HH:mm", Locale.getDefault())
             else SimpleDateFormat("MM-dd HH:mm", Locale.getDefault())
 
-            views.setTextViewText(R.id.tv_update_time, "${displaySdf.format(updateDate)} 更新")
+            views.setTextViewText(R.id.tv_update_time, "${displaySdf.format(updateDate)}")
 
             // ============================
             // 6. 车内温度
@@ -1090,7 +1095,6 @@ class MGWidget : AppWidgetProvider() {
             // ============================
             // 10. 强制刷新 RemoteViews（解决缓存问题）
             // ============================
-            appWidgetManager.notifyAppWidgetViewDataChanged(appWidgetId, R.id.view_flipper_center)
             appWidgetManager.updateAppWidget(appWidgetId, views)
         }
 

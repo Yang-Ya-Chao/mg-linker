@@ -57,6 +57,7 @@
                     android:text="0"
                     android:textColor="@color/widget_text_color"
                     android:textSize="18sp"
+                    android:drawableStart="@drawable/fuel"
                     android:textStyle="bold" />
 
                 <TextView
@@ -124,6 +125,7 @@
                     android:includeFontPadding="false"
                     android:text="0"
                     android:textColor="@color/widget_text_color"
+                    android:drawableStart="@drawable/battery"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -174,7 +176,8 @@
                 android:id="@+id/chrgng_rmnng_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="⚡"
+                android:text=""
+                android:drawableStart="@drawable/charging"
                 android:textColor="@color/widget_text_color"
                 android:textSize="10sp" />
 
@@ -190,17 +193,35 @@
             android:textColor="@color/widget_text_color"
             android:textSize="10sp" />
 
-        <TextView
-            android:id="@+id/tv_battery_info"
-            android:layout_width="match_parent"
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
-            android:layout_weight="1"
-            android:text="电瓶:0% 电压：0v"
-            android:textColor="@color/widget_text_color"
-            android:textSize="10sp" />
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_charge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:text="0%"
+                android:textColor="@color/widget_text_color"
+                android:drawableStart="@drawable/charge"
+                android:textSize="10sp" />
 
-
+            <TextView
+                android:id="@+id/tv_voltage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:text="0v"
+                android:textColor="@color/widget_text_color"
+                android:drawableStart="@drawable/voltage"
+                android:textSize="10sp" />
+        </LinearLayout>>
         <LinearLayout
             android:id="@+id/ll_update_time"
             android:layout_width="match_parent"
@@ -221,8 +242,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="3dp"
-                android:text=" 更新"
+                android:text=""
                 android:textColor="@color/widget_text_color"
+                android:drawableEnd="@drawable/update"
                 android:textSize="10sp" />
         </LinearLayout>
 
