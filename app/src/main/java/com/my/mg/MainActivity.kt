@@ -55,6 +55,10 @@ import java.util.concurrent.TimeUnit
 import kotlin.collections.filter
 import kotlin.collections.find
 import kotlin.collections.map
+import androidx.compose.foundation.background
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import kotlin.map
 import kotlin.sequences.filter
 import kotlin.sequences.find
@@ -605,10 +609,10 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
             InputField(
                 label = "请输入您的 ACCESS_TOKEN:",
                 value = accessToken,
-                onValueChange ={ input ->
-                    // 去掉空格和回车
+                onValueChange =  { input ->
+                    // 过滤空格/回车
                     val formatted = input
-                        .filterNot { it == ' ' || it == '\n' || it == '\r' } // 去掉空格和回车
+                        .filterNot { it == ' ' || it == '\n' || it == '\r' }
                     accessToken = formatted
                 },
                 modifier = Modifier.focusRequester(accessTokenFocusRequester),
@@ -717,7 +721,7 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
             Spacer(modifier = Modifier.height(8.dp))
 
             Text(
-                text = "Power By 杨家三郎\n娱乐免费，请勿较真",
+                text = "Power By 杨家三郎\n点击检查更新",
                 textAlign = TextAlign.Center,
                 fontSize = 12.sp,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
@@ -730,35 +734,31 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
         }
     }
 }
-
 @Composable
-fun BrandSelector(
-    selectedBrand: String,
-    onBrandSelected: (String) -> Unit
-) {
-    val brands = listOf("名爵", "荣威")
+fun BrandSelector(selectedBrand: String, onBrandSelected: (String) -> Unit) {
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(vertical = 4.dp),
-        horizontalArrangement = Arrangement.Center,
+            .height(48.dp)
+            .background(Color(0xFFE0E0E0), RoundedCornerShape(24.dp))
+            .padding(4.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
-        brands.forEach { brand ->
-            Row(
-                verticalAlignment = Alignment.CenterVertically,
+        listOf("名爵", "荣威").forEach { brand ->
+            val isSelected = selectedBrand == brand
+            Box(
+                contentAlignment = Alignment.Center,
                 modifier = Modifier
+                    .weight(1f)
+                    .fillMaxHeight()
+                    .clip(RoundedCornerShape(20.dp))
+                    .background(if (isSelected) Color.White else Color.Transparent)
                     .clickable { onBrandSelected(brand) }
-                    .padding(horizontal = 16.dp)
             ) {
-                RadioButton(
-                    selected = selectedBrand == brand,
-                    onClick = { onBrandSelected(brand) }
-                )
                 Text(
                     text = brand,
-                    style = MaterialTheme.typography.bodyLarge,
-                    modifier = Modifier.padding(start = 4.dp)
+                    color = if (isSelected) Color.Black else Color.Gray,
+                    fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal
                 )
             }
         }

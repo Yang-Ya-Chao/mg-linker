@@ -20,10 +20,10 @@ android {
 
     defaultConfig {
         applicationId = "com.my.mg"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 34
         versionCode = 1
-        versionName = "2.2"
+        versionName = "2.4"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
@@ -53,20 +53,9 @@ android {
     }
         // ↓↓↓↓↓↓ 添加这段代码 ↓↓↓↓↓↓
     applicationVariants.all {
-        val variant = this
         outputs.all {
-            // 获取输出对象
             val output = this as? com.android.build.gradle.internal.api.BaseVariantOutputImpl
-
-            // 1. 获取当前时间 (例如 20231027)
-            //val date = java.text.SimpleDateFormat("yyyyMMdd").format(java.util.Date())
-
-            // 2. 拼接文件名: "AppName_v1.0_debug_20231027.apk"
-            // variant.versionName: 版本号
-            // variant.buildType.name: debug 或 release
-            val newFileName = "MG Linker.apk"
-            // 3. 设置新名称
-            output?.outputFileName =  newFileName
+            output?.outputFileName = "MG Linker.apk"
         }
     }
 
@@ -77,17 +66,22 @@ dependencies {
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
+    // UI 组件
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
+    // Material Icons 扩展库 (用于更多图标)
     implementation("androidx.compose.material:material-icons-extended")
-    
-    // Networking
+
+    // 网络请求
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
     implementation("com.google.code.gson:gson:2.10.1")
-    // Coroutines
+
+    // 协程
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+
+    // 后台任务 WorkManager
     implementation(libs.work.runtime.ktx)
 
     testImplementation(libs.junit)
