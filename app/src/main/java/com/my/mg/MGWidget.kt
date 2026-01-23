@@ -1090,7 +1090,7 @@ class MGWidget : AppWidgetProvider() {
             // ============================
             // 10. 强制刷新 RemoteViews（解决缓存问题）
             // ============================
-            appWidgetManager.notifyAppWidgetViewDataChanged(appWidgetId, R.id.view_flipper_center)
+            //appWidgetManager.notifyAppWidgetViewDataChanged(appWidgetId, R.id.view_flipper_center)
             appWidgetManager.updateAppWidget(appWidgetId, views)
         }
 
