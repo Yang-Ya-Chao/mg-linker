@@ -477,6 +477,11 @@ class MGWidget : AppWidgetProvider() {
                 R.id.tv_lock_status,
                 context.getColor(if (isLocked) R.color.status_green else R.color.status_red)
             )
+//            views.setTextViewText(R.id.tv_lock_status, if (isLocked) "已上锁" else "未上锁")
+//            views.setTextColor(
+//                R.id.tv_lock_status, if (isLocked) context.getColor(R.color.status_green)
+//                else context.getColor(R.color.status_red)
+//            )
 
             // 6. 车内温度
             val interiorTemp = vehicleValue?.interior_temperature ?: 0.0
@@ -525,6 +530,14 @@ class MGWidget : AppWidgetProvider() {
                     R.id.tv_window_value,
                     context.getColor(if (allWindowsClosed) R.color.status_green else R.color.status_red)
                 )
+//                views.setTextViewText(
+//                    R.id.tv_window_value, if (allWindowsClosed) "已关闭" else "未关闭"
+//                )
+//                views.setTextColor(
+//                    R.id.tv_window_value,
+//                    if (allWindowsClosed) context.getColor(R.color.status_green)
+//                    else context.getColor(R.color.status_red)
+//                )
 
                 val allDoorsClosed =
                     !(vehicleState.driver_door == true || vehicleState.passenger_door == true ||
@@ -537,6 +550,10 @@ class MGWidget : AppWidgetProvider() {
                     R.id.tv_door_value,
                     context.getColor(if (allDoorsClosed) R.color.status_green else R.color.status_red)
                 )
+//                views.setTextColor(
+//                    R.id.tv_door_value, if (allDoorsClosed) context.getColor(R.color.status_green)
+//                    else context.getColor(R.color.status_red)
+//                )
 
                 // 详细 (mg_lock_widget)
                 updateDoorOrWindowStatus(
