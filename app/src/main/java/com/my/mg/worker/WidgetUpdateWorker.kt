@@ -9,6 +9,7 @@ import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
 import com.my.mg.MGWidget
 import com.my.mg.MGWidgetIcon
+import com.my.mg.MGWidgetSmall
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
@@ -48,6 +49,9 @@ class WidgetUpdateWorker(
             // 配置小组件 (如果没有这个类，请先注释掉这一行)
             WidgetConfig(MGWidgetIcon::class.java) { ctx, mgr, id ->
                 MGWidget.updateWidgetSynchronously(ctx, mgr, id)
+            },
+            WidgetConfig(MGWidgetSmall::class.java) { ctx, mgr, id ->
+                MGWidgetSmall.updateWidgetSynchronously(ctx, mgr, id)
             }
 
             // 将来如果有中型组件，直接加：

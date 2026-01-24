@@ -228,7 +228,7 @@ open class MGWidget : AppWidgetProvider() {
         /**
          * 挂起函数：获取车辆数据
          */
-        private suspend fun fetchVehicleDataSuspended(
+        suspend fun fetchVehicleDataSuspended(
             context: Context, vin: String, token: String
         ): VehicleStatusResponse? = withContext(Dispatchers.IO) {
             try {
@@ -288,7 +288,7 @@ open class MGWidget : AppWidgetProvider() {
          * 挂起函数：加载图片
          * 包含 Bitmap 采样，防止 OOM (Out Of Memory)
          */
-        private suspend fun loadCarImageSuspended(
+        suspend fun loadCarImageSuspended(
             context: Context, views: RemoteViews, carImageUrl: String
         ) = withContext(Dispatchers.IO) {
             if (carImageUrl.isEmpty()) {
