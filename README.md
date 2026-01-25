@@ -6,7 +6,7 @@
 
 MG Linker 是一款专为名爵(MG)和荣威(RW)汽车打造的Android桌面小组件应用。通过配合HttpCanary抓包工具获取车辆数据Token，实现车辆状态信息的实时展示。主要功能包括车辆续航里程、剩余油量/电量、车门锁状态、车内温度等关键信息的桌面快捷查看。
 
-**适用车型：** MG7、MG5、MG6、荣威D7、荣威i6 MAX等上汽名爵/荣威系列车型
+**适用车型：** MG7、MG5、MG6、荣威D7、荣威D5X 等上汽名爵/荣威系列车型
 
 ## 核心功能
 
@@ -84,6 +84,7 @@ mg-linker/
 
 ## 使用教程
 
+
 ### Token抓取步骤
 
 使用HttpCanary抓取车辆数据的Token是配置成功的关键。请按照以下步骤操作：
@@ -91,15 +92,27 @@ mg-linker/
 1. **启动HttpCanary**
    - 打开HttpCanary应用
    - 开始抓包
-   - 切换到上汽名爵/荣威App进行登录操作
-
+   - 切换到MG Live APP/上汽荣威APP进行登录操作
+   - 抓包示例图：
+   - 步骤1
+   - 步骤2
+   - 步骤3
+   - 步骤4
+   - 步骤5
+   - 步骤6
+   - 步骤7
+   - 步骤8
+   - 步骤9
+   - 步骤10
 2. **定位请求**
-   - 在抓包记录中找到形如 `mp.ebanma.com/app-mp/vp/1.1/getVehicleStatus` 的请求
+   - 在抓包记录中找到形如示例请求:
+   - 名爵车系: `https://social.saicmg.com/XXXXXXXXXXXXXXXX`
+   - 荣威车系：`https://mq.ebanma.com/app-xxxxxxxxxxxx`
    - 记录请求URL中的token参数值
 
 3. **获取VIN码**
    - 在同一请求或App相关页面中找到车辆VIN码
-   - VIN码通常以LSJW开头，共17位
+   - VIN码通常以LSJ开头，共17位
 
 ### 应用配置界面说明
 
@@ -183,8 +196,8 @@ A: 调试版日志保存在 `Android/data/com.my.mg/files/logs/MGLinker_log.txt`
 ## 版本历史
 
 | 版本 | 更新内容 |
-|------|----------|
-| 2.7 | 最新稳定版本，支持多车型适配 |
+|------|--------|
+| 2.7 | 最新稳定版本 |
 | 1.0 | 调试版本，包含详细日志输出 |
 
 完整版本历史请访问 [Gitee Releases](https://gitee.com/yangyachao-X/mg-linker/releases)
