@@ -414,9 +414,9 @@ open class MGWidget : AppWidgetProvider() {
             // 2. 总里程
             val mileage = vehicleValue?.odometer ?: 0
             if (layoutId == R.layout.mg_widget) {
-                views.setTextViewText(R.id.tv_total_mileage, "总里程: $mileage km")
+                views.setTextViewText(R.id.tv_total_mileage, "总里程: ${mileage}km")
             } else if (layoutId == R.layout.mg_widget_icon) {
-                views.setTextViewText(R.id.tv_total_mileage, "$mileage km")
+                views.setTextViewText(R.id.tv_total_mileage, "${mileage}km")
             }
 
             // 3. 油量、电量、续航
