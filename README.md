@@ -95,25 +95,54 @@ mg-linker/
    - 切换到MG Live APP/上汽荣威APP进行登录操作
    - 抓包示例图：
    - 步骤1
+
 ![输入图片说明](HttpCanary/1.jpg)
+
+
    - 步骤2
+
 ![输入图片说明](HttpCanary/2.jpg)
+
+
    - 步骤3
+
 ![输入图片说明](HttpCanary/3.jpg)
-   - 步骤4
+
+
+   - 步骤4（名爵车系选择MG Live；荣威车系先择上汽荣威）
+
 ![输入图片说明](HttpCanary/4.jpg)
+
+
    - 步骤5
+
 ![输入图片说明](HttpCanary/5.jpg)
+
+
    - 步骤6
+
 ![输入图片说明](HttpCanary/6.jpg)
+
+
    - 步骤7
 ![输入图片说明](HttpCanary/7.jpg)
+
+
    - 步骤8
+
 ![输入图片说明](HttpCanary/8.jpg)
+
+
    - 步骤9
+
 ![输入图片说明](HttpCanary/9.jpg)
+
+
    - 步骤10
+
 ![输入图片说明](HttpCanary/10.jpg)
+
+
 2. **定位请求**
    - 在抓包记录中找到形如示例请求:
    - 名爵车系: `https://social.saicmg.com/XXXXXXXXXXXXXXXX`
