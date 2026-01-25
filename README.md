@@ -1,191 +1,202 @@
-# MG Liner
-
-#### 介绍
-
-MGLive;MG7;android;小组件;名爵;名爵7
-
-有需要的可以加入抖音群聊互相交流
-![输入图片说明](2026-01-19-110136.jpg)
-
-### 📋 使用流程
-
-#### 1. **安装步骤**
-1. 下载安装[MG Linker](https://gitee.com/yangyachao-X/mg-linker/releases/download/2.7/MG%20Linker.apk)
-2. 下载安装[HttpCanary](https://pan.quark.cn/s/c3582382b19d )抓包工具
-3. 按照下方教程进行Token抓包
-#### 步骤一
-![输入图片说明](HttpCanary/1.jpg)
 
 
+# MG Linker
 
-#### 步骤二
-![输入图片说明](HttpCanary/2.jpg)
+## 项目介绍
 
+MG Linker 是一款专为名爵(MG)和荣威(RW)汽车打造的Android桌面小组件应用。通过配合HttpCanary抓包工具获取车辆数据Token，实现车辆状态信息的实时展示。主要功能包括车辆续航里程、剩余油量/电量、车门锁状态、车内温度等关键信息的桌面快捷查看。
 
+**适用车型：** MG7、MG5、MG6、荣威D7、荣威i6 MAX等上汽名爵/荣威系列车型
 
-#### 步骤三
-![输入图片说明](HttpCanary/3.jpg)
+## 核心功能
 
+- **实时车辆状态监控**：在桌面小组件中展示车门开关状态、锁车状态、续航里程、油耗/电量信息
+- **多尺寸组件支持**：提供图标型、标准型等多种尺寸的桌面小组件
+- **品牌智能适配**：支持MG和荣威两个品牌的车辆配置切换
+- **自动更新机制**：通过Gitee Release自动检测并下载最新版本
+- **完善日志系统**：内置详细的运行日志记录，便于问题排查
+- **深色主题适配**：自动跟随系统深色/浅色主题切换
 
+## 技术架构
 
-#### 步骤四
-#### 如果是荣威车系，抓包应用选择“上汽荣威”
+### 技术栈
 
+| 技术 | 说明 |
+|------|------|
+| **开发语言** | Kotlin |
+| **UI框架** | Jetpack Compose |
+| **目标SDK** | Android API 34 |
+| **构建工具** | Gradle with Kotlin DSL |
+| **包名** | com.my.mg |
 
-![输入图片说明](HttpCanary/4.jpg)
+### 项目结构
 
-
-
-#### 步骤五
-![输入图片说明](HttpCanary/5.jpg)
-
-
-
-#### 步骤六
-![输入图片说明](HttpCanary/6.jpg)
-
-
-
-#### 步骤七
-![输入图片说明](HttpCanary/7.jpg)
-
-
-
-#### 步骤八
-![输入图片说明](HttpCanary/8.jpg)
-
-
-
-#### 如果是荣威车系，需要抓取到下图中的地址，在此地址中获取token
-![输入图片说明](HttpCanary/11.jpg)
-
-
-#### 步骤九
-![输入图片说明](HttpCanary/9.jpg)
-
-
-
-#### 步骤十
-![输入图片说明](HttpCanary/10.jpg)
-
-
-
-4.  配置MG Linker参数![输入图片说明](https://foruda.gitee.com/images/1768037488980039934/815d254c_8784824.png "屏幕截图")
-
-5.  保存返回桌面，在小组件中找到MG Linker并添加到桌面（如果在手机设置-应用管理-MG Linker权限中，开启‘桌面快捷方式’权限，保存会自动在桌面创建小部件）
-
-6.  按照教程操作，也正确抓取到了token，配置之后小组件刷新异常，请下载[MG Linker调试版](https://gitee.com/yangyachao-X/mg-linker/releases/download/1.0/MG%20Linker_debug.apk)，刷新小组件后在Android/data/com.my.mg/files/logs/MGLinker_log.txt中查看详细报错信息
-
-7. [历史版本下载](https://gitee.com/yangyachao-X/mg-linker/releases)
-
-#### 小部件页面1：
-
-!![输入图片说明](https://foruda.gitee.com/images/1768037498931980640/daa657b2_8784824.png "屏幕截图")
-
-
-#### 小部件页面2：
-
-![输入图片说明](https://foruda.gitee.com/images/1768037472971862446/56c70158_8784824.png "屏幕截图")
-
-
-
-
-
-### 📱 项目概述
-**MG Linker** 是一个Android应用，主要功能是获取名爵MG7车辆的数据，展示到安卓小部件中，需要配合HttpCanary进行网络抓包使用。
-
-### 🏗️ 核心架构
-
-#### 1. **技术栈**
-- **平台**: Android
-- **语言**: Kotlin
-- **UI框架**: Jetpack Compose
-- **构建工具**: Gradle with Kotlin DSL
-- **目标SDK**: Android API 34
-- **包名**: `com.my.mg`
-
-#### 2. **项目结构**
 ```
 mg-linker/
-├── app/
-│   ├── src/main/java/com/my/mg/
-│   │   ├── MainActivity.kt          # 主界面
-│   │   ├── MGWidget.kt             # 桌面小组件
-│   │   ├── log/LogcatHelper.kt     # 日志管理
-│   │   └── ui/theme/              # UI主题
-│   └── src/main/res/
-├── HttpCanary/                     # 抓包工具以及教程
-├── gradle/                         # Gradle配置
-└── README.md                       # 使用说明
+├── app/src/main/java/com/my/mg/
+│   ├── MainActivity.kt        # 主应用界面与更新逻辑
+│   ├── MGWidget.kt            # 主桌面小组件实现
+│   ├── MGWidgetSmall.kt       # 小尺寸小组件
+│   ├── config/
+│   │   └── CarConfig.kt       # 车辆配置数据模型
+│   ├── log/
+│   │   └── LogcatHelper.kt    # 日志记录管理
+│   ├── receiver/
+│   │   └── ScreenOnReceiver.kt # 屏幕亮起广播接收
+│   ├── ui/theme/              # Compose UI主题配置
+│   └── worker/
+│       └── WidgetUpdateWorker.kt # 小组件定时更新
+├── HttpCanary/                # 抓包工具及教程资源
+└── gradle/                    # Gradle构建配置
 ```
 
-### 🚀 核心功能模块
+## 快速开始
 
-#### 1. **主应用模块 (MainActivity.kt)**
-- **功能**: 自动更新和安装管理
-- **API集成**: 通过Gitee API检查最新版本
-- **自动下载**: 下载最新版本的APK文件
-- **静默安装**: 支持应用的自动更新
+### 环境要求
 
-#### 2. **桌面小组件模块 (MGWidget.kt)**
-- **基础**: 继承自AppWidgetProvider
-- **功能**: 提供快捷的网络调试功能
-- **更新机制**: 定期更新显示信息
+- Android Studio Hedgehog (2023.1.1) 或更高版本
+- Android SDK 34
+- Gradle 8.4+
+- JDK 17
 
-#### 3. **日志模块 (LogcatHelper.kt)**
-- **功能**: 管理应用运行日志
-- **存储**: 日志保存在本地文件系统
-- **路径**: `Android/data/com.my.mg/files/logs/MGLinker_log.txt`
+### 安装步骤
 
-### 🔧 关键技术实现
+1. **下载安装应用**
+   - 从 [Gitee Releases](https://gitee.com/yangyachao-X/mg-linker/releases) 下载最新版本的MG Linker APK
+   - 在手机上允许安装未知来源应用后完成安装
 
-#### 1. **网络请求处理**
+2. **准备抓包工具**
+   - 下载并安装 [HttpCanary](https://pan.quark.cn/s/c3582382b19d) 抓包工具
+   - 安装上汽名爵或荣威官方App
+
+3. **获取车辆Token**（详细步骤见下方使用教程）
+
+4. **配置应用**
+   - 打开MG Linker应用
+   - 选择您的车辆品牌(MG/荣威)
+   - 输入VIN码和抓取到的Token
+   - 保存配置
+
+5. **添加桌面小组件**
+   - 长按手机桌面 → 添加小部件 → 找到MG Linker
+   - 选择合适的组件尺寸添加到桌面
+   - 配置成功后小组件将自动开始显示车辆数据
+
+## 使用教程
+
+### Token抓取步骤
+
+使用HttpCanary抓取车辆数据的Token是配置成功的关键。请按照以下步骤操作：
+
+1. **启动HttpCanary**
+   - 打开HttpCanary应用
+   - 开始抓包
+   - 切换到上汽名爵/荣威App进行登录操作
+
+2. **定位请求**
+   - 在抓包记录中找到形如 `mp.ebanma.com/app-mp/vp/1.1/getVehicleStatus` 的请求
+   - 记录请求URL中的token参数值
+
+3. **获取VIN码**
+   - 在同一请求或App相关页面中找到车辆VIN码
+   - VIN码通常以LSJW开头，共17位
+
+### 应用配置界面说明
+
+应用主界面提供以下配置项：
+
+| 配置项 | 说明 |
+|--------|------|
+| **品牌选择** | 选择MG或荣威品牌 |
+| **车型选择** | 选择具体车型如MG7、D7等 |
+| **颜色选择** | 选择车辆外观颜色(影响展示图标) |
+| **Token输入** | 粘贴从抓包获取的token |
+| **VIN码输入** | 输入17位车辆识别码 |
+| **检查更新** | 手动触发版本更新检查 |
+
+## API接口说明
+
+应用通过以下接口获取车辆状态信息：
+
+```
+POST https://mp.ebanma.com/app-mp/vp/1.1/getVehicleStatus
+```
+
+**请求参数：**
+
+| 参数 | 必填 | 说明 |
+|------|------|------|
+| timestamp | 是 | 时间戳(毫秒) |
+| token | 是 | 身份令牌 |
+| vin | 是 | 车辆识别码 |
+
+**返回数据字段说明：**
 
 ```kotlin
-// 使用OkHttp进行网络请求
-val client = OkHttpClient()
-val request = Request.Builder()
-    .url("https://mp.ebanma.com/app-mp/vp/1.1/getVehicleStatus?timestamp=$timestamp&token=$token&vin=$vin")
-    .build()
+// 车辆位置信息
+data class VehiclePosition(
+    val latitude: String?,      // 纬度
+    val longitude: String?,     // 经度
+    val gps_status: Int?,       // GPS状态
+    val satellites: Int?,       // 卫星数量
+    val update_time: Long?      // 更新时间
+)
+
+// 车辆数值数据
+data class VehicleValue(
+    val fuel_level_prc: Int?,        // 燃油百分比
+    val fuel_range: Int?,            // 燃油续航(km)
+    val odometer: Int?,              // 里程表(km)
+    val battery_pack_prc: Int?,      // 电池百分比
+    val battery_pack_range: Int?,    // 电池续航(km)
+    val interior_temperature: Double?, // 车内温度
+    val exterior_temperature: Int?,    // 车外温度
+    val chrgng_rmnng_time: Int?,       // 充电剩余时间
+    val charge_status: Int?            // 充电状态
+)
+
+// 车辆状态数据
+data class VehicleState(
+    val lock: Boolean?,            // 锁车状态
+    val door: Boolean?,            // 车门状态
+    val driver_door: Boolean?,     // 驾驶位车门
+    val passenger_door: Boolean?,  // 副驾驶车门
+    val boot: Boolean?,            // 后备箱状态
+    val sunroof: Boolean?          // 天窗状态
+)
 ```
 
-#### 2. **Gitee API集成**
-- **数据类**: `GiteeRelease` 用于解析API响应
-- **版本检查**: 获取最新release信息
-- **文件下载**: 通过DownloadManager下载APK
+## 常见问题
 
-#### 3. **UI设计**
-- **现代界面**: 使用Jetpack Compose
-- **主题适配**: 支持深色/浅色主题
-- **动态配色**: 兼容Material Design 3
+### Q: 小组件显示"获取数据失败"
+A: 请检查Token和VIN码是否正确填写；确认车辆App登录状态有效；尝试重新抓取Token（Token可能过期）
 
-### 🔍 项目特点
+### Q: 小组件不刷新
+A: 检查应用是否授予后台运行权限；在设置-应用管理-MG Linker中开启"自启动"权限
 
-#### 1. **自动化更新**
-- 通过Gitee Release API实现版本检查
-- 支持静默下载和安装
-- 完整的更新流程管理
+### Q: 抓包获取不到Token
+A: 确保使用正确版本的官方App；荣威车型需要抓取特定接口；尝试完整操作一遍App登录流程
 
-#### 2. **调试友好**
-- 内置详细的日志记录
-- 提供debug版本用于问题排查
-- 完善的错误处理机制
+### Q: 日志文件位置
+A: 调试版日志保存在 `Android/data/com.my.mg/files/logs/MGLinker_log.txt`
 
-#### 3. **用户体验**
-- 现代化的Compose UI
-- 桌面小组件快速访问
-- 简洁的操作流程
+## 版本历史
 
-### 💡 工程实践亮点
+| 版本 | 更新内容 |
+|------|----------|
+| 2.7 | 最新稳定版本，支持多车型适配 |
+| 1.0 | 调试版本，包含详细日志输出 |
 
-1. **模块化设计**: 功能清晰分离
-2. **协程使用**: 异步网络请求处理
-3. **现代Android开发**: 遵循最新开发规范
-4. **持续集成**: 通过Gitee Releases管理版本
+完整版本历史请访问 [Gitee Releases](https://gitee.com/yangyachao-X/mg-linker/releases)
 
+## 问题反馈
 
-#### 接口说明
+如遇到问题，欢迎通过以下方式获取帮助：
 
---获取车辆状态信息1.1：
+- 加入抖音群聊交流
+- 查看日志文件中的详细报错信息
+- 下载调试版本复现问题后提交反馈
 
-POST--------https://mp.ebanma.com/app-mp/vp/1.1/getVehicleStatus?timestamp=XXXX&token=XXXXXXXXX-prod_SAIC&vin=LSJWXXXXXXXXXX
+## 许可证
+
+本项目遵循 Apache License 2.0 许可证。
