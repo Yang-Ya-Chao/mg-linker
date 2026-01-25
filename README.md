@@ -93,7 +93,15 @@ mg-linker/
    - 打开HttpCanary应用
    - 开始抓包
    - 切换到MG Live APP/上汽荣威APP进行登录操作
-   - 抓包示例图：
+2. **定位请求**
+   - 在抓包记录中找到形如示例请求:
+   - 名爵车系: `https://social.saicmg.com/xxxxxxxxxxxx`
+   - 荣威车系：`https://mq.ebanma.com/xxxxxxxxxxxx`
+   - 记录请求URL中的token参数值
+3. **获取VIN码**
+   - 在同一请求或App相关页面中找到车辆VIN码
+   - VIN码通常以LSJ开头，共17位
+4. **抓包演示图**
    - 步骤1
 
 ![输入图片说明](HttpCanary/1.jpg)
@@ -142,16 +150,6 @@ mg-linker/
 
 ![输入图片说明](HttpCanary/10.jpg)
 
-
-2. **定位请求**
-   - 在抓包记录中找到形如示例请求:
-   - 名爵车系: `https://social.saicmg.com/xxxxxxxxxxxx`
-   - 荣威车系：`https://mq.ebanma.com/xxxxxxxxxxxx`
-   - 记录请求URL中的token参数值
-
-3. **获取VIN码**
-   - 在同一请求或App相关页面中找到车辆VIN码
-   - VIN码通常以LSJ开头，共17位
 
 ### 应用配置界面说明
 
