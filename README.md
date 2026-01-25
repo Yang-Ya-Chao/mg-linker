@@ -62,18 +62,18 @@ mg-linker/
 ### 安装步骤
 
 1. **下载安装应用**
-   - 从 [Gitee Releases](https://gitee.com/yangyachao-X/mg-linker/releases) 下载最新版本的MG Linker APK
+   - 下载最新版本的[MG Linke](https://gitee.com/yangyachao-X/mg-linker/releases/download/2.7/MG%20Linker.apk)
    - 在手机上允许安装未知来源应用后完成安装
 
 2. **准备抓包工具**
-   - 下载并安装 [HttpCanary](https://pan.quark.cn/s/c3582382b19d) 抓包工具
-   - 安装上汽名爵或荣威官方App
+   - 下载并安装 [HttpCanary](https://pan.quark.cn/s/c3582382b19d) 
+   - 安装MG Live或上汽荣威 官网APP
 
 3. **获取车辆Token**（详细步骤见下方使用教程）
 
 4. **配置应用**
    - 打开MG Linker应用
-   - 选择您的车辆品牌(MG/荣威)
+   - 选择您的车辆品牌(名爵/荣威)
    - 输入VIN码和抓取到的Token
    - 保存配置
 
