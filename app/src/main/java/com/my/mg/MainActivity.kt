@@ -2,7 +2,11 @@ package com.my.mg
 
 import android.app.DownloadManager
 import android.appwidget.AppWidgetManager
-import android.content.*
+import android.content.BroadcastReceiver
+import android.content.ComponentName
+import android.content.Context
+import android.content.Intent
+import android.content.IntentFilter
 import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Build
@@ -13,19 +17,51 @@ import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.Info
-import androidx.compose.material3.*
-import androidx.compose.runtime.*
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.Button
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.DropdownMenuItem
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.ExposedDropdownMenuBox
+import androidx.compose.material3.ExposedDropdownMenuDefaults
+import androidx.compose.material3.Icon
+import androidx.compose.material3.LinearProgressIndicator
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.text.font.FontWeight
@@ -52,20 +88,6 @@ import okhttp3.OkHttpClient
 import okhttp3.Request
 import java.io.File
 import java.util.concurrent.TimeUnit
-import kotlin.collections.filter
-import kotlin.collections.find
-import kotlin.collections.map
-import androidx.compose.foundation.background
-import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
-import kotlin.map
-import kotlin.sequences.filter
-import kotlin.sequences.find
-import kotlin.sequences.map
-import kotlin.text.filter
-import kotlin.text.find
-import kotlin.text.map
 
 // Data class for Gitee Release API response
 data class GiteeRelease(
@@ -177,19 +199,49 @@ class MainActivity : ComponentActivity() {
                             checkUpdate(manual = true)
                         }
                     )
-
+                    // [新增状态]
+                    var isDownloading by remember { mutableStateOf(false) }
+                    var downloadProgress by remember { mutableStateOf(0f) }
                     if (showUpdateDialog) {
                         releaseToUpdate?.let { release ->
                             UpdateDialog(
                                 release = release,
+                                isDownloading = isDownloading, // [传入]
+                                progress = downloadProgress,   // [传入]
                                 onConfirm = {
                                     val apkAsset =
                                         release.assets.firstOrNull { it.name == "MG Linker.apk" }
                                     if (apkAsset != null) {
-                                        downloadAndInstallApk(apkAsset)
+                                        // 1. 设置正在下载状态
+                                        isDownloading = true
+                                        // 2. 开始下载并获取 ID
+                                        val downloadId = downloadAndInstallApk(apkAsset)
+
+                                        // 3. 启动协程监听进度
+                                        lifecycleScope.launch(Dispatchers.IO) {
+                                            observeDownloadProgress(
+                                                downloadId = downloadId,
+                                                onProgress = { p ->
+                                                    downloadProgress = p
+                                                },
+                                                onFinish = {
+                                                    isDownloading = false
+                                                    showUpdateDialog = false
+                                                    releaseToUpdate = null
+                                                },
+                                                // 【修改位置】在这里
+                                                onFailed = {
+                                                    isDownloading = false
+                                                    // 不需要 withContext，因为 observeDownloadProgress 内部已经切回主线程了
+                                                    // 直接写 Toast 即可
+                                                    Toast.makeText(this@MainActivity, "下载失败", Toast.LENGTH_SHORT).show()
+                                                }
+                                            )
+                                        }
+                                    } else {
+                                        showUpdateDialog = false
+                                        releaseToUpdate = null
                                     }
-                                    showUpdateDialog = false
-                                    releaseToUpdate = null
                                 },
                                 onDismiss = {
                                     showUpdateDialog = false
@@ -204,7 +256,61 @@ class MainActivity : ComponentActivity() {
         //checkUpdate(manual = false) // Automatic check
 
     }
+    // 监听下载进度的挂起函数
+    private suspend fun observeDownloadProgress(
+        downloadId: Long,
+        onProgress: (Float) -> Unit,
+        onFinish: () -> Unit,
+        onFailed: (String) -> Unit
+    ) {
+        val downloadManager = getSystemService(Context.DOWNLOAD_SERVICE) as DownloadManager
+        var downloading = true
 
+        while (downloading) {
+            val query = DownloadManager.Query().setFilterById(downloadId)
+            val cursor = downloadManager.query(query)
+
+            if (cursor != null && cursor.moveToFirst()) {
+                // 检查列是否存在，避免异常
+                val downloadedIndex = cursor.getColumnIndex(DownloadManager.COLUMN_BYTES_DOWNLOADED_SO_FAR)
+                val totalIndex = cursor.getColumnIndex(DownloadManager.COLUMN_TOTAL_SIZE_BYTES)
+                val statusIndex = cursor.getColumnIndex(DownloadManager.COLUMN_STATUS)
+
+                if (downloadedIndex != -1 && totalIndex != -1 && statusIndex != -1) {
+                    val bytesDownloaded = cursor.getInt(downloadedIndex)
+                    val bytesTotal = cursor.getInt(totalIndex)
+                    val status = cursor.getInt(statusIndex)
+
+                    if (status == DownloadManager.STATUS_SUCCESSFUL) {
+                        downloading = false
+                        withContext(Dispatchers.Main) {
+                            onProgress(1.0f) // 100%
+                            onFinish()
+                        }
+                    } else if (status == DownloadManager.STATUS_FAILED) {
+                        downloading = false
+                        withContext(Dispatchers.Main) {
+                            onFailed("下载失败")
+                        }
+                    } else {
+                        // 计算进度
+                        if (bytesTotal > 0) {
+                            val progress = bytesDownloaded.toFloat() / bytesTotal.toFloat()
+                            withContext(Dispatchers.Main) {
+                                onProgress(progress)
+                            }
+                        }
+                    }
+                }
+            }
+            cursor?.close()
+
+            if (downloading) {
+                // 每 500ms 查询一次，避免过于频繁占用资源
+                kotlinx.coroutines.delay(500)
+            }
+        }
+    }
     private fun scheduleWidgetWork() {
         val request = PeriodicWorkRequestBuilder<WidgetUpdateWorker>(
             30, TimeUnit.MINUTES
@@ -322,7 +428,7 @@ class MainActivity : ComponentActivity() {
         return false
     }
 
-    private fun downloadAndInstallApk(asset: GiteeAsset) {
+    private fun downloadAndInstallApk(asset: GiteeAsset): Long {
         Toast.makeText(this, "开始下载更新...", Toast.LENGTH_SHORT).show()
         val downloadManager = getSystemService(Context.DOWNLOAD_SERVICE) as DownloadManager
         val destination = File(
@@ -371,6 +477,7 @@ class MainActivity : ComponentActivity() {
         } else {
             registerReceiver(onComplete, IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE))
         }
+        return downloadId // [新增] 返回 ID
     }
 
     private fun installApk(uri: Uri) {
@@ -391,21 +498,58 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun UpdateDialog(
     release: GiteeRelease,
+    isDownloading: Boolean, // [新增]
+    progress: Float,        // [新增]
     onConfirm: () -> Unit,
     onDismiss: () -> Unit
 ) {
     AlertDialog(
-        onDismissRequest = onDismiss,
-        title = { Text("发现新版本: ${release.tag_name}") },
-        text = { Text(release.body) },
+        onDismissRequest = {
+            // 如果正在下载，点击外部不应该关闭弹窗
+            if (!isDownloading) onDismiss()
+        },
+        title = {
+            Text(if (isDownloading) "正在下载更新..." else "发现新版本: ${release.tag_name}")
+        },
+        text = {
+            Column {
+                if (isDownloading) {
+                    // 显示进度条
+                    LinearProgressIndicator(
+                        progress = { progress },
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(8.dp)
+                            .clip(RoundedCornerShape(4.dp)),
+                    )
+                    Spacer(modifier = Modifier.height(8.dp))
+                    // 显示百分比文字
+                    Text(
+                        text = "${(progress * 100).toInt()}%",
+                        modifier = Modifier.fillMaxWidth(),
+                        textAlign = TextAlign.Center,
+                        color = MaterialTheme.colorScheme.primary
+                    )
+                } else {
+                    // 显示更新日志
+                    Text(release.body)
+                }
+            }
+        },
         confirmButton = {
-            TextButton(onClick = onConfirm) {
-                Text("立即更新")
+            // 如果正在下载，隐藏“立即更新”按钮
+            if (!isDownloading) {
+                TextButton(onClick = onConfirm) {
+                    Text("立即更新")
+                }
             }
         },
         dismissButton = {
-            TextButton(onClick = onDismiss) {
-                Text("取消")
+            // 如果正在下载，隐藏“取消”按钮，或者改为“后台下载”
+            if (!isDownloading) {
+                TextButton(onClick = onDismiss) {
+                    Text("取消")
+                }
             }
         }
     )
