@@ -182,6 +182,7 @@
                 android:max="100"
                 android:progressDrawable="@drawable/pb_rounded_layer" />
             <LinearLayout
+                android:id="@+id/ll_chrgng"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
@@ -190,7 +191,7 @@
                     android:layout_height="16sp"
                     android:src="@drawable/chrgng"/>
                 <TextView
-                    android:id="@+id/chrgng_rmnng_time"
+                    android:id="@+id/chrgng_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"

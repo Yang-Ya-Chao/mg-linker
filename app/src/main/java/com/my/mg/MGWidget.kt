@@ -181,10 +181,10 @@ open class MGWidget : AppWidgetProvider() {
             views.setImageViewResource(R.id.iv_brand_logo, logoResId)
 
             // 3. 动态调整字体大小
-            adjustFontSizes(appWidgetManager, appWidgetId, views,layoutId)
+            adjustFontSizes(appWidgetManager, appWidgetId, views, layoutId)
 
             // 4. 设置点击事件 (打开APP、刷新、翻页)
-            setupClickEvents(context, views, appWidgetId,layoutId)
+            setupClickEvents(context, views, appWidgetId, layoutId)
 
             // 5. 加载车辆图片 (挂起操作，含缓存和采样)
             loadCarImageSuspended(context, views, carImageUrl)
@@ -207,7 +207,7 @@ open class MGWidget : AppWidgetProvider() {
                             }
                         }
                         // 更新所有 UI 字段
-                        updateWidgetUI(context, views, data, address,layoutId)
+                        updateWidgetUI(context, views, data, address, layoutId)
                     }
                 } else {
                     // 无网络时保持原样，或者可以显示无网络提示
@@ -401,19 +401,21 @@ open class MGWidget : AppWidgetProvider() {
             val isSameDay = sdfSameDay.format(updateDate) == sdfSameDay.format(now)
             val displaySdf = if (isSameDay) SimpleDateFormat("HH:mm", Locale.getDefault())
             else SimpleDateFormat("MM-dd HH:mm", Locale.getDefault())
-            if(layoutId == R.layout.mg_widget) {
-            views.setTextViewText(R.id.tv_update_time, "${displaySdf.format(updateDate)} 更新")
-            } else if (layoutId == R.layout.mg_widget_icon){
-                views.setTextViewText(R.id.tv_update_time, "更新于 ${displaySdf.format(updateDate)}")
+            if (layoutId == R.layout.mg_widget) {
+                views.setTextViewText(R.id.tv_update_time, "${displaySdf.format(updateDate)} 更新")
+            } else if (layoutId == R.layout.mg_widget_icon) {
+                views.setTextViewText(
+                    R.id.tv_update_time,
+                    "更新于 ${displaySdf.format(updateDate)}"
+                )
 
             }
 
             // 2. 总里程
             val mileage = vehicleValue?.odometer ?: 0
             if (layoutId == R.layout.mg_widget) {
-            views.setTextViewText(R.id.tv_total_mileage, "总里程: $mileage km")
-            }
-            else if (layoutId == R.layout.mg_widget_icon) {
+                views.setTextViewText(R.id.tv_total_mileage, "总里程: $mileage km")
+            } else if (layoutId == R.layout.mg_widget_icon) {
                 views.setTextViewText(R.id.tv_total_mileage, "$mileage km")
             }
 
@@ -435,7 +437,7 @@ open class MGWidget : AppWidgetProvider() {
                 if (showBattery) View.VISIBLE else View.GONE
             )
             views.setViewVisibility(
-                R.id.chrgng_rmnng_time,
+                R.id.ll_chrgng,
                 if (showChargng) View.VISIBLE else View.GONE
             )
 
@@ -443,8 +445,8 @@ open class MGWidget : AppWidgetProvider() {
             if (showFuel) {
                 views.setTextViewText(R.id.tv_range, "$fuelRange")
                 if ((fuelRange > 999) || (fuelLevel == 100)) {
-                    views.setTextViewTextSize(R.id.tv_range,TypedValue.COMPLEX_UNIT_SP,17f)
-                    views.setTextViewTextSize(R.id.tv_fuel_percent,TypedValue.COMPLEX_UNIT_SP,17f)
+                    views.setTextViewTextSize(R.id.tv_range, TypedValue.COMPLEX_UNIT_SP, 17f)
+                    views.setTextViewTextSize(R.id.tv_fuel_percent, TypedValue.COMPLEX_UNIT_SP, 17f)
                 }
                 views.setTextViewText(R.id.tv_fuel_percent, "$fuelLevel")
                 views.setProgressBar(R.id.pb_fuel, 100, fuelLevel, false)
@@ -463,9 +465,17 @@ open class MGWidget : AppWidgetProvider() {
             // 3.2 电量
             if (showBattery) {
                 views.setTextViewText(R.id.tv_battery_range, "$batteryPackRange")
-                if ((batteryPackRange > 999) || (batteryPackPrc == 100 )) {
-                    views.setTextViewTextSize(R.id.tv_battery_range,TypedValue.COMPLEX_UNIT_SP,17f)
-                    views.setTextViewTextSize(R.id.tv_battery_percent,TypedValue.COMPLEX_UNIT_SP,17f)
+                if ((batteryPackRange > 999) || (batteryPackPrc == 100)) {
+                    views.setTextViewTextSize(
+                        R.id.tv_battery_range,
+                        TypedValue.COMPLEX_UNIT_SP,
+                        17f
+                    )
+                    views.setTextViewTextSize(
+                        R.id.tv_battery_percent,
+                        TypedValue.COMPLEX_UNIT_SP,
+                        17f
+                    )
                 }
                 views.setTextViewText(R.id.tv_battery_percent, "$batteryPackPrc")
                 views.setProgressBar(R.id.pb_battery, 100, batteryPackPrc, false)
@@ -488,8 +498,8 @@ open class MGWidget : AppWidgetProvider() {
                     m > 0 -> "${m}分钟"
                     else -> ""
                 }
-                views.setTextViewText(R.id.chrgng_rmnng_time, "$timeText")
-                views.setTextColor(R.id.chrgng_rmnng_time, context.getColor(R.color.status_green))
+                views.setTextViewText(R.id.chrgng_time, "$timeText")
+                views.setTextColor(R.id.chrgng_time, context.getColor(R.color.status_green))
             }
 
             // 4. 小电瓶状态
@@ -512,23 +522,26 @@ open class MGWidget : AppWidgetProvider() {
                     )
                 }
             }
-            if (layoutId == R.layout.mg_widget){
-            views.setTextViewText(R.id.tv_battery_info, spannableBatteryInfo)
-            }
-            else if (layoutId == R.layout.mg_widget_icon){
-                views.setTextViewText(R.id.tv_battery_level,"$batteryLevel%")
-                views.setTextViewText(R.id.tv_battery_voltage,"${batteryVoltageString}V")
+            if (layoutId == R.layout.mg_widget) {
+                views.setTextViewText(R.id.tv_battery_info, spannableBatteryInfo)
+            } else if (layoutId == R.layout.mg_widget_icon) {
+                views.setTextViewText(R.id.tv_battery_level, "$batteryLevel%")
+                views.setTextViewText(R.id.tv_battery_voltage, "${batteryVoltageString}V")
             }
 
             // 5. 门锁状态
             val isLocked = vehicleState?.lock == true
-            if (layoutId == R.layout.mg_widget){
-            views.setTextViewText(R.id.tv_lock_status, if (isLocked) "已上锁" else "未上锁")
-            views.setTextColor(
-                R.id.tv_lock_status,
-                context.getColor(if (isLocked) R.color.status_green else R.color.status_red)
-            )}else if (layoutId == R.layout.mg_widget_icon){
-                views.setImageViewResource(R.id.tv_lock_status,if (isLocked) R.drawable.lock else R.drawable.unlock)
+            if (layoutId == R.layout.mg_widget) {
+                views.setTextViewText(R.id.tv_lock_status, if (isLocked) "已上锁" else "未上锁")
+                views.setTextColor(
+                    R.id.tv_lock_status,
+                    context.getColor(if (isLocked) R.color.status_green else R.color.status_red)
+                )
+            } else if (layoutId == R.layout.mg_widget_icon) {
+                views.setImageViewResource(
+                    R.id.tv_lock_status,
+                    if (isLocked) R.drawable.lock else R.drawable.unlock
+                )
             }
 
             // 6. 车内温度
@@ -538,7 +551,10 @@ open class MGWidget : AppWidgetProvider() {
                 if (interiorTemp <= 27.0) R.color.status_green else R.color.status_red
             views.setTextColor(R.id.tv_temp_value, context.getColor(tempColorRes))
             if (layoutId == R.layout.mg_widget_icon) {
-                views.setImageViewResource(R.id.tv_temp_label,if(interiorTemp <= 27.0) R.drawable.tempgreen else R.drawable.tempred)
+                views.setImageViewResource(
+                    R.id.tv_temp_label,
+                    if (interiorTemp <= 27.0) R.drawable.tempgreen else R.drawable.tempred
+                )
             }
             // 7. 胎压
             updateTirePressure(
@@ -582,21 +598,28 @@ open class MGWidget : AppWidgetProvider() {
                         context.getColor(if (allWindowsClosed) R.color.status_green else R.color.status_red)
                     )
                 } else if (layoutId == R.layout.mg_widget_icon) {
-                    views.setImageViewResource(R.id.tv_window_value,if (allWindowsClosed) R.drawable.windowclose else R.drawable.windowopen);
+                    views.setImageViewResource(
+                        R.id.tv_window_value,
+                        if (allWindowsClosed) R.drawable.windowclose else R.drawable.windowopen
+                    );
                 }
                 val allDoorsClosed =
                     !(vehicleState.driver_door == true || vehicleState.passenger_door == true ||
                             vehicleState.rear_left_door == true || vehicleState.rear_right_door == true || vehicleState.bonnet == true || vehicleState.boot == true)
                 if (layoutId == R.layout.mg_widget) {
-                views.setTextViewText(
-                    R.id.tv_door_value,
-                    if (allDoorsClosed) "已关闭" else "未关闭"
-                )
-                views.setTextColor(
-                    R.id.tv_door_value,
-                    context.getColor(if (allDoorsClosed) R.color.status_green else R.color.status_red)
-                )}else if (layoutId == R.layout.mg_widget_icon) {
-                    views.setImageViewResource(R.id.tv_door_value,if (allDoorsClosed) R.drawable.doorclose else R.drawable.dooropen);
+                    views.setTextViewText(
+                        R.id.tv_door_value,
+                        if (allDoorsClosed) "已关闭" else "未关闭"
+                    )
+                    views.setTextColor(
+                        R.id.tv_door_value,
+                        context.getColor(if (allDoorsClosed) R.color.status_green else R.color.status_red)
+                    )
+                } else if (layoutId == R.layout.mg_widget_icon) {
+                    views.setImageViewResource(
+                        R.id.tv_door_value,
+                        if (allDoorsClosed) R.drawable.doorclose else R.drawable.dooropen
+                    );
                 }
 
                 // 详细 (mg_lock_widget)
@@ -729,13 +752,19 @@ open class MGWidget : AppWidgetProvider() {
         // 字体与事件设置 (通用逻辑)
         // ========================================================================
 
-        private fun setupClickEvents(context: Context, views: RemoteViews, appWidgetId: Int,layoutId:Int) {
+        private fun setupClickEvents(
+            context: Context,
+            views: RemoteViews,
+            appWidgetId: Int,
+            layoutId: Int
+        ) {
             val appWidgetManager = AppWidgetManager.getInstance(context)
 
             // 【关键修复】动态获取当前 Widget ID 到底属于哪个类 (MGWidget0 还是 MGWidget1)
             // 系统会返回实际注册在 AndroidManifest 中的那个组件类
             val providerInfo = appWidgetManager.getAppWidgetInfo(appWidgetId)
-            val realComponent = providerInfo?.provider ?: ComponentName(context, MGWidget::class.java)
+            val realComponent =
+                providerInfo?.provider ?: ComponentName(context, MGWidget::class.java)
 
             // 1. 设置 Logo 点击 -> 打开主页 (保持不变)
             val openAppIntent = Intent(context, MainActivity::class.java)
@@ -756,8 +785,8 @@ open class MGWidget : AppWidgetProvider() {
                 PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
             )
             if (layoutId == R.layout.mg_widget) {
-            views.setOnClickPendingIntent(R.id.tv_update_time, refreshPendingIntent)}
-            else if (layoutId == R.layout.mg_widget_icon) {
+                views.setOnClickPendingIntent(R.id.tv_update_time, refreshPendingIntent)
+            } else if (layoutId == R.layout.mg_widget_icon) {
                 views.setOnClickPendingIntent(R.id.tv_update, refreshPendingIntent)
             }
 
@@ -780,7 +809,7 @@ open class MGWidget : AppWidgetProvider() {
             appWidgetManager: AppWidgetManager,
             appWidgetId: Int,
             views: RemoteViews,
-            layoutId:Int
+            layoutId: Int
         ) {
             val options = appWidgetManager.getAppWidgetOptions(appWidgetId)
             val height = options.getInt(AppWidgetManager.OPTION_APPWIDGET_MAX_HEIGHT)
@@ -801,7 +830,7 @@ open class MGWidget : AppWidgetProvider() {
             setTextSizeForIds(views, fontSizes[1], R.id.tv_plate_number)
 
             // 3. 辅助信息 (里程、电瓶、锁状态)
-            if(layoutId == R.layout.mg_widget) {
+            if (layoutId == R.layout.mg_widget) {
                 setTextSizeForIds(
                     views,
                     fontSizes[4],
@@ -811,14 +840,14 @@ open class MGWidget : AppWidgetProvider() {
                     R.id.tv_update_time
                 )
                 setTextSizeForIds(
-                        views,
-                fontSizes[5],
-                R.id.tv_temp_value,
-                R.id.tv_window_label,
-                R.id.tv_door_label,
+                    views,
+                    fontSizes[5],
+                    R.id.tv_temp_value,
+                    R.id.tv_window_label,
+                    R.id.tv_door_label,
                     R.id.tv_location
                 )
-            }else if (layoutId == R.layout.mg_widget_icon) {
+            } else if (layoutId == R.layout.mg_widget_icon) {
                 setTextSizeForIds(
                     views,
                     fontSizes[4],
@@ -840,8 +869,8 @@ open class MGWidget : AppWidgetProvider() {
             // 4. 详细信息 (门窗、温度、胎压) - 批量处理
             val detailIds = intArrayOf(
                 R.id.tv_temp_label,
-                 R.id.tv_window_value ,
-                 R.id.tv_door_value,
+                R.id.tv_window_value,
+                R.id.tv_door_value,
                 R.id.tv_front_left, R.id.tv_front_left_val,
                 R.id.tv_rear_left, R.id.tv_rear_left_val,
                 R.id.tv_front_right, R.id.tv_front_right_val,
@@ -867,11 +896,12 @@ open class MGWidget : AppWidgetProvider() {
 
                 // 只有当“不是”特殊情况时，才执行字体设置
                 if (!isIconSpecialView) {
-                try {
-                    views.setTextViewTextSize(id, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
-                } catch (e: Exception) {
-                    // 忽略非 TextView 的 ID
-                }}
+                    try {
+                        views.setTextViewTextSize(id, TypedValue.COMPLEX_UNIT_SP, fontSizes[5])
+                    } catch (e: Exception) {
+                        // 忽略非 TextView 的 ID
+                    }
+                }
             }
 
             // 特殊处理：车名保持固定

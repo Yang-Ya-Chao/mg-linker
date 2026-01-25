@@ -217,6 +217,7 @@
                     android:progressDrawable="@drawable/pb_rounded_layer" />
 
                 <LinearLayout
+                    android:id="@+id/ll_chrgng"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
@@ -227,7 +228,7 @@
                         android:src="@drawable/chrgng" />
 
                     <TextView
-                        android:id="@+id/chrgng_rmnng_time"
+                        android:id="@+id/chrgng_time"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
@@ -361,9 +362,9 @@
 
                     android:id="@+id/tv_window_value"
 
-                    android:layout_width="14sp"
+                    android:layout_width="16sp"
 
-                    android:layout_height="14dp"
+                    android:layout_height="16dp"
 
                     android:layout_marginStart="2dp"
 
