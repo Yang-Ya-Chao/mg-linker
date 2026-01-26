@@ -272,11 +272,23 @@ open class MGWidget : AppWidgetProvider() {
 
                 // 2. 从候选地址中挑选“信息最丰富”的一个 (原版优选算法)
                 // 权重规则：有门牌号+20分，有道路名+10分，有子区域(区/县)+5分
-                val bestAddr = addresses.maxByOrNull {
-                    (if (it.featureName.matches(Regex(".*\\d+号.*"))) 20 else 0)
-                     + (if (it.thoroughfare != null) 10 else 0)
-                     + (if (it.subLocality != null) 5 else 0)
-                } ?: addresses[0] // 兜底：如果排序失败，使用第一个
+                val bestAddr = addresses.sortedWith(compareByDescending<Address> {
+                    // 权重计算
+                    var score = 0
+                    val feature = it.featureName ?: ""
+                    val line0 = it.getAddressLine(0) ?: ""
+
+                    // 规则A：如果是具体门牌号（包含数字和号），权重最高
+                    if (feature.matches(Regex(".*\\d+号.*"))) score += 20
+
+                    // 规则B：避免选中纯地标名称（如"德润精品酒店"），优先选包含省市信息的完整描述
+                    if (line0.contains("市") && line0.contains("路")) score += 5
+
+                    // 规则C：如果 subLocality (区/县) 不为空，加分 (应对某些数据源)
+                    if (it.subLocality != null) score += 5
+
+                    score
+                }).firstOrNull() ?: addresses[0] // 兜底使用第一个
 
                 // 3. 格式化地址
                 formatAddressSmart(bestAddr)
