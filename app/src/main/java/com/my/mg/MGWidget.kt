@@ -271,9 +271,11 @@ open class MGWidget : AppWidgetProvider() {
                 if (addresses.isNullOrEmpty()) return ""
 
                 // 2. 从候选地址中挑选“信息最丰富”的一个 (原版优选算法)
-                // 权重规则：有道路名+10分，有子区域(区/县)+5分
+                // 权重规则：有门牌号+20分，有道路名+10分，有子区域(区/县)+5分
                 val bestAddr = addresses.maxByOrNull {
-                    (if (it.thoroughfare != null) 10 else 0) + (if (it.subLocality != null) 5 else 0)
+                    (if (it.featureName.matches(Regex(".*\\d+号.*"))) 20 else 0)
+                     + (if (it.thoroughfare != null) 10 else 0)
+                     + (if (it.subLocality != null) 5 else 0)
                 } ?: addresses[0] // 兜底：如果排序失败，使用第一个
 
                 // 3. 格式化地址

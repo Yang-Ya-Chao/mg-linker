@@ -884,7 +884,7 @@ fun BrandSelector(selectedBrand: String, onBrandSelected: (String) -> Unit) {
         modifier = Modifier
             .fillMaxWidth()
             .height(48.dp)
-            .background(Color(0xFFE0E0E0), RoundedCornerShape(24.dp))
+            .background(MaterialTheme.colorScheme.surfaceVariant, RoundedCornerShape(24.dp))
             .padding(4.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
@@ -896,12 +896,12 @@ fun BrandSelector(selectedBrand: String, onBrandSelected: (String) -> Unit) {
                     .weight(1f)
                     .fillMaxHeight()
                     .clip(RoundedCornerShape(20.dp))
-                    .background(if (isSelected) Color.White else Color.Transparent)
+                    .background(if (isSelected) MaterialTheme.colorScheme.surface else Color.Transparent)
                     .clickable { onBrandSelected(brand) }
             ) {
                 Text(
                     text = brand,
-                    color = if (isSelected) Color.Black else Color.Gray,
+                    color = if (isSelected) MaterialTheme.colorScheme.onSurface else MaterialTheme.colorScheme.onSurfaceVariant,
                     fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal
                 )
             }
