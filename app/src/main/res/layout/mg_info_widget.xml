@@ -8,91 +8,412 @@
     android:orientation="horizontal"
     android:padding="8dp">
 
-    <LinearLayout
-        android:layout_width="0dp"
+
+
+    <FrameLayout
+        android:id="@+id/fl_car_container"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/tv_front_left_val"
+        android:layout_weight="1">
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="0 Bar"
-            android:textSize="8sp"
-            android:textStyle="bold" />
+            android:layout_gravity="start|center_vertical"
+            android:orientation="vertical"
+            android:gravity="start">
 
-        <TextView
-            android:id="@+id/tv_front_left"
+            <TextView
+                android:id="@+id/tv_front_left_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 Bar"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_front_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="左前"
+                android:layout_marginStart="4dp"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv_rear_left_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="0 Bar"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_rear_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="左后"
+                android:layout_marginStart="4dp"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="左前"
-            android:textSize="8sp" />
+            android:layout_gravity="end|center_vertical"
+            android:orientation="vertical"
+            android:gravity="end">
 
-        <TextView
-            android:id="@+id/tv_rear_left_val"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:text="0 Bar"
-            android:textSize="8sp"
-            android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tv_front_right_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 Bar"
+                android:textSize="10sp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/tv_rear_left"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="左后"
-            android:textSize="8sp" />
-    </LinearLayout>
+            <TextView
+                android:id="@+id/tv_front_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:text="右前"
+                android:textSize="10sp" />
 
-    <ImageView
-        android:id="@+id/iv_car_info_image"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:contentDescription="@null"
-        android:scaleType="fitCenter"
-        android:src="@drawable/car_info" />
+            <TextView
+                android:id="@+id/tv_rear_right_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="0 Bar"
+                android:textSize="10sp"
+                android:textStyle="bold" />
 
-    <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_rear_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:text="右后"
+                android:textSize="10sp" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_green_palm" />
 
-        <TextView
-            android:id="@+id/tv_front_right_val"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="0 Bar"
-            android:textSize="8sp"
-            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/iv_wheel_fl_green"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_driver_wheels_green"
+            />
 
-        <TextView
-            android:id="@+id/tv_front_right"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="右前"
-            android:textSize="8sp" />
+        <ImageView
+            android:id="@+id/iv_wheel_fr_green"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_side_wheels_green"
+            />
 
-        <TextView
-            android:id="@+id/tv_rear_right_val"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:text="0 Bar"
-            android:textSize="8sp"
-            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/iv_wheel_rl_green"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_driver_rear_wheels_green"
+            />
 
-        <TextView
-            android:id="@+id/tv_rear_right"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="右后"
-            android:textSize="8sp" />
-    </LinearLayout>
+        <ImageView
+            android:id="@+id/iv_wheel_rr_green"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_side_wheels2_green"
+             />
+
+        <ImageView
+            android:id="@+id/iv_car_base"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car" />
+
+        <ImageView
+            android:id="@+id/iv_light"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_light"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/iv_win_sky"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_skylight"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/iv_win_fl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_driver_window"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/iv_win_fr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_side_window"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/iv_win_rl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_driver_rear_window"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/iv_win_rr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_side_window2"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/iv_wheel_fl_red"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_driver_wheels_red"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/iv_wheel_fr_red"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_side_wheels_red"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/iv_wheel_rl_red"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_driver_rear_wheels_red"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/iv_wheel_rr_red"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_side_wheels2_red"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/iv_win_fl_open"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_driver_window_open"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_win_fr_open"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_side_window_open"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_win_rl_open"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_driver_rear_window_open"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_win_rr_open"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_side_window2_open"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_win_sky_open"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_skylight_open"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_door_fl_a"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_driver_door"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_door_fr_a"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_side_door"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_door_rl_a"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_driver_rear_door"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_door_rr_a"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_side_door2"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_door_fl_b"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_the_main_drive_door_opens"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_door_fr_b"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_the_copilot_door_opens"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_door_rl_b"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_left_back_door_open"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_door_rr_b"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_right_back_door_open"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_win_door_fl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_driver_window_door_open"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_win_door_fr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_side_window_door_open"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_win_door_rl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_driver_rear_window_door_open"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_win_door_rr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_side_window2_door_open"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_hood_a"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_hood"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_hood_b"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_front_stand_by_box_open"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_trunk_a"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_trunk"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_trunk_b"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_trunk_open"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_light_low"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_low_light_on"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_light_high"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_high_beam_on"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_light_both"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_near_high_beam_on"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
 
 </LinearLayout>

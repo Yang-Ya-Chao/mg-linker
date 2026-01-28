@@ -68,6 +68,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.em
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.lifecycleScope
 import androidx.work.Constraints
@@ -512,32 +513,41 @@ fun UpdateDialog(
             Text(if (isDownloading) "正在下载更新..." else "发现新版本: ${release.tag_name}")
         },
         text = {
-            Column {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    // 如果日志很长，可以包裹在一个可滚动的 Box 中，防止弹窗溢出
+                    .verticalScroll(rememberScrollState())
+            ) {
+                // 1. 始终显示更新内容
+                Text(
+                    text = release.body,
+                    lineHeight = 1.5.em,
+                    color = MaterialTheme.colorScheme.onSurface
+                )
+
+                // 2. 如果正在下载，在下方显示进度条
                 if (isDownloading) {
-                    // 显示进度条
+                    Spacer(modifier = Modifier.height(16.dp))
+                    Text(
+                        text = "下载进度: ${(progress * 100).toInt()}%",
+                        modifier = Modifier.fillMaxWidth(),
+                        textAlign = TextAlign.End, // 文字靠右
+                        fontSize = 12.sp,
+                        color = MaterialTheme.colorScheme.primary
+                    )
+                    Spacer(modifier = Modifier.height(4.dp))
                     LinearProgressIndicator(
                         progress = { progress },
                         modifier = Modifier
                             .fillMaxWidth()
-                            .height(8.dp)
-                            .clip(RoundedCornerShape(4.dp)),
+                            .height(6.dp)
+                            .clip(RoundedCornerShape(3.dp)),
                     )
-                    Spacer(modifier = Modifier.height(8.dp))
-                    // 显示百分比文字
-                    Text(
-                        text = "${(progress * 100).toInt()}%",
-                        modifier = Modifier.fillMaxWidth(),
-                        textAlign = TextAlign.Center,
-                        color = MaterialTheme.colorScheme.primary
-                    )
-                } else {
-                    // 显示更新日志
-                    Text(release.body)
                 }
             }
         },
         confirmButton = {
-            // 如果正在下载，隐藏“立即更新”按钮
             if (!isDownloading) {
                 TextButton(onClick = onConfirm) {
                     Text("立即更新")
@@ -545,7 +555,6 @@ fun UpdateDialog(
             }
         },
         dismissButton = {
-            // 如果正在下载，隐藏“取消”按钮，或者改为“后台下载”
             if (!isDownloading) {
                 TextButton(onClick = onDismiss) {
                     Text("取消")
@@ -800,7 +809,11 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
                     // *** 新增：查找并保存图片 URL ***
                     val selectedColorObj = currentModelConfig?.colors?.find { it.name == color }
                     val imageUrl = selectedColorObj?.imageUrl ?: ""
-
+                    // *** 新增：获取油箱和电池容量数据 ***
+                    // 默认为 0.0，防止空指针
+                    val fuelCapacity = currentModelConfig?.fuel ?: 0.0
+                    val batteryCapacity = currentModelConfig?.battery ?: 0.0
+                    // *** 新增：查找并保存油箱容积/电池容量 ***
                     val editor = sharedPreferences.edit()
                     editor.putString("car_brand", carBrand)
                     editor.putString("car_model", carModel)
@@ -812,6 +825,9 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
                     // 保存图片地址到本地
                     editor.putString("car_image_url", imageUrl)
                     editor.putBoolean("is_configured", true)
+                    // 建议转为 String 保存，避免 float/double 精度问题，读取时再 toDouble()
+                    editor.putString("car_fuel_capacity", fuelCapacity.toString())
+                    editor.putString("car_battery_capacity", batteryCapacity.toString())
                     editor.apply()
                     isConfigured = true
                     // --- 新增代码开始 ---

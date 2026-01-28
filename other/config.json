@@ -3,6 +3,8 @@
     {
       "brand": "MG",
       "model": "MG7",
+      "fuel": 65.0,
+      "battery": 0.0,
       "colors": [
         {
           "name": "冰岛蓝",
@@ -29,6 +31,8 @@
     {
       "brand": "MG",
       "model": "MG4",
+      "fuel": 0.0,
+      "battery": 53.95,
       "colors": [
         {
           "name": "东来紫",
@@ -59,6 +63,8 @@
     {
       "brand": "MG",
       "model": "MG5",
+      "fuel": 50.0,
+      "battery": 0.0,
       "colors": [
         {
           "name": "赤焰红",
@@ -81,6 +87,8 @@
     {
       "brand": "RW",
       "model": "D7 DMH",
+      "fuel": 55.0,
+      "battery": 19.7,
       "colors": [
         {
           "name": "光速银",
@@ -107,6 +115,8 @@
     {
       "brand": "RW",
       "model": "D5X DMH",
+      "fuel": 55.0,
+      "battery": 21.4,
       "colors": [
         {
           "name": "皎月白",

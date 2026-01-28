@@ -24,7 +24,9 @@ import android.widget.RemoteViews
 import androidx.work.OneTimeWorkRequest
 import androidx.work.WorkManager
 import com.google.gson.Gson
+import com.my.mg.MGWidget.Companion.log
 import com.my.mg.log.LogcatHelper
+import com.my.mg.widget.data.EnergyCalculator
 import com.my.mg.worker.WidgetUpdateWorker
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
@@ -37,6 +39,7 @@ import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
 import java.util.concurrent.TimeUnit
+import kotlin.math.log
 
 /**
  * Power by 杨家三郎 & Optimized by Android Expert
@@ -49,6 +52,8 @@ import java.util.concurrent.TimeUnit
  */
 
 class MGWidgetIcon : MGWidget() //图标版
+class MGWidgetStyle1 : MGWidget()//风格1
+class MGWidgetStyle2 : MGWidget() //风格2
 open class MGWidget : AppWidgetProvider() {
 
     override fun onUpdate(
@@ -136,6 +141,9 @@ open class MGWidget : AppWidgetProvider() {
         private const val ACTION_REFRESH = "com.my.mg.ACTION_REFRESH"
         private const val ACTION_WIDGET_FLIP = "ACTION_WIDGET_FLIP"
 
+        private var fuelCapacity = 0.0
+        private var batteryCapacity = 0.0
+
         private fun log(context: Context, message: String) {
             Log.d(LOG_TAG, message)
         }
@@ -170,25 +178,28 @@ open class MGWidget : AppWidgetProvider() {
             val plateNumber = prefs.getString("plate_number", "") ?: ""
             val token = prefs.getString("access_token", "") ?: ""
             val carImageUrl = prefs.getString("car_image_url", "") ?: ""
-
+            fuelCapacity = prefs.getString("car_fuel_capacity", null)?.toDoubleOrNull() ?: 0.0
+            batteryCapacity = prefs.getString("car_battery_capacity", null)?.toDoubleOrNull() ?: 0.0
             // 2. 设置静态 UI (车名、车牌、Logo)
             views.setTextViewText(
                 R.id.tv_car_name,
                 if (carName.isNullOrEmpty()) carModel else carName
             )
-            views.setTextViewText(R.id.tv_plate_number, plateNumber)
-            val logoResId = if (carBrand == "荣威") R.drawable.rw_logo else R.drawable.mg_logo
-            views.setImageViewResource(R.id.iv_brand_logo, logoResId)
+            if ((layoutId != R.layout.mg_widget_style1) || (layoutId != R.layout.mg_widget_style2)) {
+                views.setTextViewText(R.id.tv_plate_number, plateNumber)
+                val logoResId = if (carBrand == "荣威") R.drawable.rw_logo else R.drawable.mg_logo
+                views.setImageViewResource(R.id.iv_brand_logo, logoResId)
 
-            // 3. 动态调整字体大小
-            adjustFontSizes(appWidgetManager, appWidgetId, views, layoutId)
 
-            // 4. 设置点击事件 (打开APP、刷新、翻页)
-            setupClickEvents(context, views, appWidgetId, layoutId)
+                // 3. 动态调整字体大小
+                adjustFontSizes(appWidgetManager, appWidgetId, views, layoutId)
 
-            // 5. 加载车辆图片 (挂起操作，含缓存和采样)
-            loadCarImageSuspended(context, views, carImageUrl)
+                // 4. 设置点击事件 (打开APP、刷新、翻页)
+                setupClickEvents(context, views, appWidgetId, layoutId)
 
+                // 5. 加载车辆图片 (挂起操作，含缓存和采样)
+                loadCarImageSuspended(context, views, carImageUrl)
+            }
             // 6. 获取并更新车辆数据 (挂起操作)
             if (vin.isNotEmpty() && token.isNotEmpty()) {
                 if (isNetworkAvailable(context)) {
@@ -425,13 +436,7 @@ open class MGWidget : AppWidgetProvider() {
 
             }
 
-            // 2. 总里程
-            val mileage = vehicleValue?.odometer ?: 0
-            if (layoutId == R.layout.mg_widget) {
-                views.setTextViewText(R.id.tv_total_mileage, "总里程: ${mileage}km")
-            } else if (layoutId == R.layout.mg_widget_icon) {
-                views.setTextViewText(R.id.tv_total_mileage, "${mileage}km")
-            }
+
 
             // 3. 油量、电量、续航
             val fuelLevel = vehicleValue?.fuel_level_prc ?: 0
@@ -439,8 +444,27 @@ open class MGWidget : AppWidgetProvider() {
             val batteryPackRange = vehicleValue?.battery_pack_range ?: 0
             val batteryPackPrc = (vehicleValue?.battery_pack_prc ?: 0) / 10
             val chrgngRmnngTime = vehicleValue?.chrgng_rmnng_time ?: 0
-            val chargeStatus = vehicleValue?.charge_status ?: 0
 
+            // 2. 总里程
+            val mileage = vehicleValue?.odometer ?: 0
+            // 3. 油耗+能耗
+            // 调用计算器
+            val result = EnergyCalculator.calculate(
+                fuelRange = fuelRange.toDouble(),
+                fuelCapacity = fuelCapacity,
+                fuelLevel = fuelLevel.toDouble(),
+                batteryRange = batteryPackRange.toDouble(),
+                batteryCapacity = batteryCapacity,
+                batteryPackPrc = batteryPackPrc.toDouble()
+            ).displayText
+            if (layoutId == R.layout.mg_widget) {
+                views.setTextViewText(R.id.tv_total_mileage, "总里程: ${mileage}km / ${result}")
+            } else if (layoutId == R.layout.mg_widget_icon) {
+                views.setTextViewText(R.id.tv_total_mileage, "${mileage}km")
+            }
+
+
+            val chargeStatus = vehicleValue?.charge_status ?: 0
             val showFuel = fuelRange > 0
             val showBattery = batteryPackRange > 0
             val showChargng = (chargeStatus != 1009) && (chargeStatus > 0)
@@ -636,55 +660,10 @@ open class MGWidget : AppWidgetProvider() {
                     );
                 }
 
-                // 详细 (mg_lock_widget)
-                updateDoorOrWindowStatus(
-                    context,
+                // 详细 (mg_info_widget)
+                updateUltimateVisuals(
                     views,
-                    vehicleState.driver_door == true,
-                    R.id.fl_door_value
-                )
-                updateDoorOrWindowStatus(
-                    context,
-                    views,
-                    vehicleState.passenger_door == true,
-                    R.id.fr_door_value
-                )
-                updateDoorOrWindowStatus(
-                    context,
-                    views,
-                    vehicleState.rear_left_door == true,
-                    R.id.rl_door_value
-                )
-                updateDoorOrWindowStatus(
-                    context,
-                    views,
-                    vehicleState.rear_right_door == true,
-                    R.id.rr_door_value
-                )
-
-                updateDoorOrWindowStatus(
-                    context,
-                    views,
-                    vehicleState.driver_window == true,
-                    R.id.fl_window_value
-                )
-                updateDoorOrWindowStatus(
-                    context,
-                    views,
-                    vehicleState.passenger_window == true,
-                    R.id.fr_window_value
-                )
-                updateDoorOrWindowStatus(
-                    context,
-                    views,
-                    vehicleState.rear_left_window == true,
-                    R.id.rl_window_value
-                )
-                updateDoorOrWindowStatus(
-                    context,
-                    views,
-                    vehicleState.rear_right_window == true,
-                    R.id.rr_window_value
+                    data.data
                 )
             }
 
@@ -694,17 +673,160 @@ open class MGWidget : AppWidgetProvider() {
             }
         }
 
-        private fun updateDoorOrWindowStatus(
-            context: Context,
-            views: RemoteViews,
-            isOpen: Boolean,
-            viewId: Int
-        ) {
-            val text = if (isOpen) "开启" else "关闭"
-            val color =
-                if (isOpen) context.getColor(R.color.status_red) else context.getColor(R.color.status_green)
-            views.setTextViewText(viewId, text)
-            views.setTextColor(viewId, color)
+        // 功能：全量驱动车辆视觉状态。实现目的：通过映射 40 个资源图层，实现小米 HyperOS 级别的极致动效感。
+        /**
+         * 功能：全量驱动 40 个车辆视觉部件。
+         * 实现目的：按照用户提供的 FrameLayout 布局层级，将所有传感器数据精准映射到小组件 UI。
+         */
+        private fun updateUltimateVisuals(views: RemoteViews, data: VehicleData?) {
+            val state = data?.vehicle_state
+            val value = data?.vehicle_value
+
+            // ============================================================
+            // 1. 胎压驱动层 (底层：绿色指示 vs 红色轮毂)
+            // ============================================================
+            val flP = (value?.front_left_tyre_pressure ?: 0) / 100.0
+            val frP = (value?.front_right_tyre_pressure ?: 0) / 100.0
+            val rlP = (value?.rear_left_tyre_pressure ?: 0) / 100.0
+            val rrP = (value?.rear_right_tyre_pressure ?: 0) / 100.0
+
+            // 逻辑：胎压正常(2.0-3.0)显示绿色发光，异常显示红色轮毂 (假设红色ID已添加)
+            views.setViewVisibility(
+                R.id.iv_wheel_fl_green,
+                if (flP in 2.0..3.0) View.VISIBLE else View.GONE
+            )
+            views.setViewVisibility(
+                R.id.iv_wheel_fr_green,
+                if (frP in 2.0..3.0) View.VISIBLE else View.GONE
+            )
+            views.setViewVisibility(
+                R.id.iv_wheel_rl_green,
+                if (rlP in 2.0..3.0) View.VISIBLE else View.GONE
+            )
+            views.setViewVisibility(
+                R.id.iv_wheel_rr_green,
+                if (rrP in 2.0..3.0) View.VISIBLE else View.GONE
+            )
+            views.setViewVisibility(
+                R.id.iv_wheel_fl_red,
+                if (flP in 2.0..3.0) View.GONE else View.VISIBLE
+            )
+            views.setViewVisibility(
+                R.id.iv_wheel_fr_red,
+                if (frP in 2.0..3.0) View.GONE else View.VISIBLE
+            )
+            views.setViewVisibility(
+                R.id.iv_wheel_rl_red,
+                if (rlP in 2.0..3.0) View.GONE else View.VISIBLE
+            )
+            views.setViewVisibility(
+                R.id.iv_wheel_rr_red,
+                if (rrP in 2.0..3.0) View.GONE else View.VISIBLE
+            )
+
+            // ============================================================
+            // 2. 车门状态驱动 (Style A + Style B + 伴随车窗)
+            // ============================================================
+            // 修复 Pair 语法错误：明确声明 List<Pair<Boolean, List<Int>>>
+            val doorConfigs = listOf(
+                Pair(
+                    state?.driver_door == true,
+                    listOf(R.id.iv_door_fl_a, R.id.iv_door_fl_b, R.id.iv_win_door_fl)
+                ),
+                Pair(
+                    state?.passenger_door == true,
+                    listOf(R.id.iv_door_fr_a, R.id.iv_door_fr_b, R.id.iv_win_door_fr)
+                ),
+                Pair(
+                    state?.rear_left_door == true,
+                    listOf(R.id.iv_door_rl_a, R.id.iv_door_rl_b, R.id.iv_win_door_rl)
+                ),
+                Pair(
+                    state?.rear_right_door == true,
+                    listOf(R.id.iv_door_rr_a, R.id.iv_door_rr_b, R.id.iv_win_door_rr)
+                )
+            )
+
+            doorConfigs.forEach { config ->
+                val isDoorOpen = config.first
+                val ids = config.second
+                ids.forEach { id ->
+                    views.setViewVisibility(id, if (isDoorOpen) View.VISIBLE else View.GONE)
+                }
+            }
+
+            // ============================================================
+            // 3. 车窗开启状态驱动
+            // ============================================================
+            views.setViewVisibility(
+                R.id.iv_win_fl_open,
+                if (state?.driver_window == true) View.VISIBLE else View.GONE
+            )
+            views.setViewVisibility(
+                R.id.iv_win_fr_open,
+                if (state?.passenger_window == true) View.VISIBLE else View.GONE
+            )
+            views.setViewVisibility(
+                R.id.iv_win_rl_open,
+                if (state?.rear_left_window == true) View.VISIBLE else View.GONE
+            )
+            views.setViewVisibility(
+                R.id.iv_win_rr_open,
+                if (state?.rear_right_window == true) View.VISIBLE else View.GONE
+            )
+            views.setViewVisibility(
+                R.id.iv_win_sky_open,
+                if (state?.sunroof == true) View.VISIBLE else View.GONE
+            )
+            views.setViewVisibility(
+                R.id.iv_win_fl,
+                if (state?.driver_window == true) View.VISIBLE else View.GONE
+            )
+            views.setViewVisibility(
+                R.id.iv_win_fr,
+                if (state?.passenger_window == true) View.VISIBLE else View.GONE
+            )
+            views.setViewVisibility(
+                R.id.iv_win_rl,
+                if (state?.rear_left_window == true) View.VISIBLE else View.GONE
+            )
+            views.setViewVisibility(
+                R.id.iv_win_rr,
+                if (state?.rear_right_window == true) View.VISIBLE else View.GONE
+            )
+            views.setViewVisibility(
+                R.id.iv_win_sky,
+                if (state?.sunroof == true) View.VISIBLE else View.GONE
+            )
+
+            // ============================================================
+            // 4. 箱盖开启驱动 (Style A + Style B)
+            // ============================================================
+            val isHoodOpen = state?.bonnet == true
+            views.setViewVisibility(R.id.iv_hood_a, if (isHoodOpen) View.VISIBLE else View.GONE)
+            views.setViewVisibility(R.id.iv_hood_b, if (isHoodOpen) View.VISIBLE else View.GONE)
+
+            val isTrunkOpen = state?.boot == true
+            views.setViewVisibility(R.id.iv_trunk_a, if (isTrunkOpen) View.VISIBLE else View.GONE)
+            views.setViewVisibility(R.id.iv_trunk_b, if (isTrunkOpen) View.VISIBLE else View.GONE)
+
+            // ============================================================
+            // 5. 灯光特效驱动 (最上层)
+            // ============================================================
+            // 假设数据模型中包含灯光字段，此处以逻辑示例
+            val isLowBeam = state?.light == true
+            val isHighBeam = state?.main_beam == true
+
+            views.setViewVisibility(
+                R.id.iv_light,
+                if (isLowBeam || isHighBeam) View.VISIBLE else View.GONE
+            )
+            views.setViewVisibility(R.id.iv_light_low, if (isLowBeam) View.VISIBLE else View.GONE)
+            views.setViewVisibility(R.id.iv_light_high, if (isHighBeam) View.VISIBLE else View.GONE)
+            views.setViewVisibility(
+                R.id.iv_light_both,
+                if (isLowBeam && isHighBeam) View.VISIBLE else View.GONE
+            )
         }
 
         private fun updateTirePressure(
@@ -891,13 +1013,13 @@ open class MGWidget : AppWidgetProvider() {
                 R.id.tv_rear_right, R.id.tv_rear_right_val,
 
                 // 门窗详情 ID
-                R.id.fl_window_label, R.id.fl_window_value, R.id.fl_door_label, R.id.fl_door_value,
-                R.id.fr_window_label, R.id.fr_window_value, R.id.fr_door_label, R.id.fr_door_value,
-                R.id.rl_window_label, R.id.rl_window_value, R.id.rl_door_label, R.id.rl_door_value,
-                R.id.rr_window_label, R.id.rr_window_value, R.id.rr_door_label, R.id.rr_door_value,
-
-                // 门窗组合 FrameLayout 容器不需要设字体，但 label/value 需要
-                R.id.fl_window_door, R.id.fr_window_door, R.id.rl_window_door, R.id.rr_window_door
+//                R.id.fl_window_label, R.id.fl_window_value, R.id.fl_door_label, R.id.fl_door_value,
+//                R.id.fr_window_label, R.id.fr_window_value, R.id.fr_door_label, R.id.fr_door_value,
+//                R.id.rl_window_label, R.id.rl_window_value, R.id.rl_door_label, R.id.rl_door_value,
+//                R.id.rr_window_label, R.id.rr_window_value, R.id.rr_door_label, R.id.rr_door_value,
+//
+//                // 门窗组合 FrameLayout 容器不需要设字体，但 label/value 需要
+//                R.id.fl_window_door, R.id.fr_window_door, R.id.rl_window_door, R.id.rr_window_door
             )
 
             for (id in detailIds) {
@@ -929,59 +1051,3 @@ open class MGWidget : AppWidgetProvider() {
         }
     }
 }
-
-// Data classes (assuming they are correct as per previous context)
-data class VehicleStatusResponse(val req_id: String?, val data: VehicleData?)
-data class VehicleData(
-    val vehicle_position: VehiclePosition?,
-    val vehicle_security: Any?,
-    val vehicle_alerts: List<Any>?,
-    val vehicle_value: VehicleValue?,
-    val vehicle_state: VehicleState?,
-    val update_time: Long?
-)
-
-data class VehiclePosition(
-    val satellites: Int?,
-    val altitude: Int?,
-    val gps_status: Int?,
-    val latitude: String?,
-    val longitude: String?,
-    val update_time: Long?,
-    val gps_time: Long?,
-    val hdop: Int?
-)
-
-data class VehicleValue(
-    val fuel_level_prc: Int?,
-    val fuel_range: Int?,
-    val odometer: Int?,
-    val vehicle_battery: Int?,
-    val vehicle_battery_prc: Int?,
-    val interior_temperature: Double?,
-    val exterior_temperature: Int?,
-    val rear_right_tyre_pressure: Int?,
-    val front_left_tyre_pressure: Int?,
-    val front_right_tyre_pressure: Int?,
-    val rear_left_tyre_pressure: Int?,
-    val battery_pack_range: Int?,
-    val battery_pack_prc: Int?,
-    val chrgng_rmnng_time: Int?,
-    val charge_status: Int?
-)
-
-data class VehicleState(
-    val lock: Boolean?,
-    val door: Boolean?,
-    val driver_door: Boolean?,
-    val passenger_door: Boolean?,
-    val rear_left_door: Boolean?,
-    val rear_right_door: Boolean?,
-    val bonnet: Boolean?,
-    val boot: Boolean?,
-    val driver_window: Boolean?,
-    val passenger_window: Boolean?,
-    val rear_left_window: Boolean?,
-    val rear_right_window: Boolean?,
-    val sunroof: Boolean?
-)

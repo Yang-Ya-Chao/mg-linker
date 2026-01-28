@@ -41,6 +41,7 @@
             android:id="@+id/ll_range_fuel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:orientation="vertical">
 
             <!-- Horizontal layout for the text info -->
@@ -115,6 +116,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
+
+            android:layout_weight="1"
             android:orientation="vertical">
 
             <!-- Horizontal layout for the text info -->
@@ -185,6 +188,8 @@
                 android:id="@+id/ll_chrgng"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+
+                android:layout_weight="1"
                 android:orientation="horizontal">
                 <ImageView
                     android:layout_width="16sp"
@@ -256,7 +261,7 @@
             android:layout_marginTop="1dp"
             android:layout_marginBottom="2dp"
             android:lines="2"
-            android:text="--"
+            android:text="四川省成都市温江区鹏程路1519号合能珍宝琥珀"
             android:textColor="@color/widget_text_color"
             android:textSize="8sp" />
     </LinearLayout>
@@ -309,8 +314,6 @@
             android:id="@+id/view_flipper_center"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="-20dp"
-            android:layout_marginBottom="-14dp"
             android:layout_weight="1"
             android:inAnimation="@android:anim/fade_in"
             android:outAnimation="@android:anim/fade_out"
@@ -326,14 +329,13 @@
 
             <include layout="@layout/mg_info_widget" />
 
-            <include layout="@layout/mg_lock_widget" />
         </ViewFlipper>
 
         <LinearLayout
             android:id="@+id/ll_window_door"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="-23dp"
+            android:layout_marginTop="-20dp"
             android:gravity="center_horizontal">
 
 

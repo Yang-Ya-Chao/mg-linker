@@ -76,6 +76,7 @@
                 android:id="@+id/ll_range_fuel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:orientation="vertical">
 
                 <LinearLayout
@@ -149,6 +150,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
+                android:layout_weight="1"
                 android:orientation="vertical">
 
                 <LinearLayout
@@ -220,6 +222,7 @@
                     android:id="@+id/ll_chrgng"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:orientation="horizontal">
 
                     <ImageView
@@ -518,8 +521,6 @@
                     android:src="@drawable/blue_mg7" />
 
                 <include layout="@layout/mg_info_widget" />
-
-                <include layout="@layout/mg_lock_widget" />
             </ViewFlipper>
 
 

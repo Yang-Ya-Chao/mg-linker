@@ -10,6 +10,8 @@ import androidx.work.WorkerParameters
 import com.my.mg.MGWidget
 import com.my.mg.MGWidgetIcon
 import com.my.mg.MGWidgetSmall
+import com.my.mg.MGWidgetStyle1
+import com.my.mg.MGWidgetStyle2
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
@@ -45,15 +47,19 @@ class WidgetUpdateWorker(
             WidgetConfig(MGWidget::class.java) { ctx, mgr, id ->
                 MGWidget.updateWidgetSynchronously(ctx, mgr, id)
             },
-
             // 配置小组件 (如果没有这个类，请先注释掉这一行)
             WidgetConfig(MGWidgetIcon::class.java) { ctx, mgr, id ->
                 MGWidget.updateWidgetSynchronously(ctx, mgr, id)
             },
             WidgetConfig(MGWidgetSmall::class.java) { ctx, mgr, id ->
-                MGWidgetSmall.updateWidgetSynchronously(ctx, mgr, id)
+                MGWidget.updateWidgetSynchronously(ctx, mgr, id)
+            },
+            WidgetConfig(MGWidgetStyle1::class.java) { ctx, mgr, id ->
+                MGWidget.updateWidgetSynchronously(ctx, mgr, id)
+            },
+            WidgetConfig(MGWidgetStyle2::class.java) { ctx, mgr, id ->
+                MGWidget.updateWidgetSynchronously(ctx, mgr, id)
             }
-
             // 将来如果有中型组件，直接加：
             // WidgetConfig(MGWidgetMedium::class.java) { ctx, mgr, id ->
             //     MGWidgetMedium.updateWidgetSynchronously(ctx, mgr, id)
@@ -73,7 +79,10 @@ class WidgetUpdateWorker(
                 val widgetIds = appWidgetManager.getAppWidgetIds(componentName)
 
                 if (widgetIds.isNotEmpty()) {
-                    Log.d("WidgetUpdateWorker", "Found ${widgetIds.size} instances of ${config.widgetClass.simpleName}")
+                    Log.d(
+                        "WidgetUpdateWorker",
+                        "Found ${widgetIds.size} instances of ${config.widgetClass.simpleName}"
+                    )
 
                     // 2. 为每个实例 ID 启动一个并发协程
                     widgetIds.map { widgetId ->
@@ -82,7 +91,11 @@ class WidgetUpdateWorker(
                                 // 执行你在配置区定义的 updateAction
                                 config.updateAction(context, appWidgetManager, widgetId)
                             } catch (e: Exception) {
-                                Log.e("WidgetUpdateWorker", "Error updating ${config.widgetClass.simpleName} (ID: $widgetId)", e)
+                                Log.e(
+                                    "WidgetUpdateWorker",
+                                    "Error updating ${config.widgetClass.simpleName} (ID: $widgetId)",
+                                    e
+                                )
                             }
                         }
                     }
@@ -91,7 +104,11 @@ class WidgetUpdateWorker(
                 }
             } catch (e: Exception) {
                 // 防止某种组件类找不到导致整个 Worker 崩溃
-                Log.e("WidgetUpdateWorker", "Failed to process widget type: ${config.widgetClass.simpleName}", e)
+                Log.e(
+                    "WidgetUpdateWorker",
+                    "Failed to process widget type: ${config.widgetClass.simpleName}",
+                    e
+                )
                 emptyList()
             }
         }
