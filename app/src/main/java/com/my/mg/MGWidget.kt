@@ -431,7 +431,7 @@ open class MGWidget : AppWidgetProvider() {
             } else if (layoutId == R.layout.mg_widget_icon) {
                 views.setTextViewText(
                     R.id.tv_update_time,
-                    "更新于 ${displaySdf.format(updateDate)}"
+                    "${displaySdf.format(updateDate)}"
                 )
 
             }
@@ -461,6 +461,8 @@ open class MGWidget : AppWidgetProvider() {
                 views.setTextViewText(R.id.tv_total_mileage, "总里程: ${mileage}km / ${result}")
             } else if (layoutId == R.layout.mg_widget_icon) {
                 views.setTextViewText(R.id.tv_total_mileage, "${mileage}km")
+                views.setTextViewText(R.id.capacity, "${result}")
+
             }
 
 
@@ -924,6 +926,7 @@ open class MGWidget : AppWidgetProvider() {
                 views.setOnClickPendingIntent(R.id.tv_update_time, refreshPendingIntent)
             } else if (layoutId == R.layout.mg_widget_icon) {
                 views.setOnClickPendingIntent(R.id.tv_update, refreshPendingIntent)
+                views.setOnClickPendingIntent(R.id.tv_update_time, refreshPendingIntent)
             }
 
             // 3. 设置翻页点击 -> 发送广播给【实际的子类组件】

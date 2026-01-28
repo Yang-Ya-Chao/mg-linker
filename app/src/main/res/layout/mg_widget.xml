@@ -115,8 +115,6 @@
             android:id="@+id/ll_battery_range"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-
             android:layout_weight="1"
             android:orientation="vertical">
 
@@ -212,7 +210,6 @@
             android:id="@+id/tv_total_mileage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
             android:layout_weight="1"
             android:text="总里程: 0 km"
             android:textColor="@color/widget_text_color"
@@ -222,7 +219,6 @@
             android:id="@+id/tv_battery_info"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
             android:layout_weight="1"
             android:text="电瓶:0% 电压：0v"
             android:textColor="@color/widget_text_color"
@@ -233,7 +229,6 @@
             android:id="@+id/ll_update_time"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
             android:layout_weight="1">
 
             <TextView
@@ -258,7 +253,6 @@
             android:id="@+id/tv_location"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
             android:layout_marginBottom="2dp"
             android:lines="2"
             android:text="四川省成都市温江区鹏程路1519号合能珍宝琥珀"
