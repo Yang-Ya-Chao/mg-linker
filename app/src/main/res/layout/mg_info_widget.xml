@@ -133,7 +133,37 @@
             android:scaleType="fitCenter"
             android:src="@drawable/detailspage_car_side_wheels2_green"
              />
+        <ImageView
+            android:id="@+id/iv_wheel_fl_red"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_driver_wheels_red"
+            android:visibility="gone"/>
 
+        <ImageView
+            android:id="@+id/iv_wheel_fr_red"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_side_wheels_red"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/iv_wheel_rl_red"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_driver_rear_wheels_red"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/iv_wheel_rr_red"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/detailspage_car_side_wheels2_red"
+            android:visibility="gone"/>
         <ImageView
             android:id="@+id/iv_car_base"
             android:layout_width="match_parent"
@@ -189,37 +219,7 @@
             android:src="@drawable/detailspage_car_side_window2"
             android:visibility="gone"/>
 
-        <ImageView
-            android:id="@+id/iv_wheel_fl_red"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scaleType="fitCenter"
-            android:src="@drawable/detailspage_car_driver_wheels_red"
-            android:visibility="gone"/>
 
-        <ImageView
-            android:id="@+id/iv_wheel_fr_red"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scaleType="fitCenter"
-            android:src="@drawable/detailspage_car_side_wheels_red"
-            android:visibility="gone"/>
-
-        <ImageView
-            android:id="@+id/iv_wheel_rl_red"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scaleType="fitCenter"
-            android:src="@drawable/detailspage_car_driver_rear_wheels_red"
-            android:visibility="gone"/>
-
-        <ImageView
-            android:id="@+id/iv_wheel_rr_red"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scaleType="fitCenter"
-            android:src="@drawable/detailspage_car_side_wheels2_red"
-            android:visibility="gone"/>
 
         <ImageView
             android:id="@+id/iv_win_fl_open"

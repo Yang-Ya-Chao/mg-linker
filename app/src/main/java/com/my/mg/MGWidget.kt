@@ -695,35 +695,35 @@ open class MGWidget : AppWidgetProvider() {
             // 逻辑：胎压正常(2.0-3.0)显示绿色发光，异常显示红色轮毂 (假设红色ID已添加)
             views.setViewVisibility(
                 R.id.iv_wheel_fl_green,
-                if (flP in 2.0..3.0) View.VISIBLE else View.GONE
+                if (flP in 2.0..3.5) View.VISIBLE else View.GONE
             )
             views.setViewVisibility(
                 R.id.iv_wheel_fr_green,
-                if (frP in 2.0..3.0) View.VISIBLE else View.GONE
+                if (frP in 2.0..3.5) View.VISIBLE else View.GONE
             )
             views.setViewVisibility(
                 R.id.iv_wheel_rl_green,
-                if (rlP in 2.0..3.0) View.VISIBLE else View.GONE
+                if (rlP in 2.0..3.5) View.VISIBLE else View.GONE
             )
             views.setViewVisibility(
                 R.id.iv_wheel_rr_green,
-                if (rrP in 2.0..3.0) View.VISIBLE else View.GONE
+                if (rrP in 2.0..3.5) View.VISIBLE else View.GONE
             )
             views.setViewVisibility(
                 R.id.iv_wheel_fl_red,
-                if (flP in 2.0..3.0) View.GONE else View.VISIBLE
+                if (flP !in 2.0..3.0 ) View.GONE else View.VISIBLE
             )
             views.setViewVisibility(
                 R.id.iv_wheel_fr_red,
-                if (frP in 2.0..3.0) View.GONE else View.VISIBLE
+                if (frP !in 2.0..3.0) View.GONE else View.VISIBLE
             )
             views.setViewVisibility(
                 R.id.iv_wheel_rl_red,
-                if (rlP in 2.0..3.0) View.GONE else View.VISIBLE
+                if (rlP !in 2.0..3.0) View.GONE else View.VISIBLE
             )
             views.setViewVisibility(
                 R.id.iv_wheel_rr_red,
-                if (rrP in 2.0..3.0) View.GONE else View.VISIBLE
+                if (rrP !in 2.0..3.0) View.GONE else View.VISIBLE
             )
 
             // ============================================================
