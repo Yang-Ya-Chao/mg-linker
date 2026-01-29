@@ -1,26 +1,22 @@
-package com.my.mg.widget.data // 或者 com.my.mg.util
+package com.my.mg.widget.data
 
 import java.util.Locale
 
 /**
- * 功能：能耗计算器。
- * 实现目的：
- * 1. 根据剩余油量/电量和剩余续航，反推车辆当前的百公里能耗。
- * 2. 支持纯油、纯电、混动三种模式的计算策略。
- * 3. 将电耗转化为“等效油耗”以便进行综合能耗展示。
+ * 功能：能耗计算器（优化版）。
+ * 优化点：
+ * 1. 修复：增加前缀 " / "。
+ * 2. 诊断：解决因容量配置为 0 导致计算结果为空的问题。
+ * 3. 策略：混合动力模式下，如果只有单侧数据有效，依然尝试输出结果。
  */
 object EnergyCalculator {
 
     // 物理常数：1升汽油约等于 8.9 kWh 能量
     private const val KWH_PER_LITER_GASOLINE = 8.9
 
-    /**
-     * 计算综合能耗结果
-     */
     data class ConsumptionResult(
-        val displayText: String,   // 用于UI显示的文本 (例如 "5.6 L/100km")
-        val rawValue: Double,      // 原始数值 (用于逻辑判断)
-        val unit: String           // 单位
+        val displayText: String,   // UI显示文本 (例如 " / 5.6L/100km")
+        val rawValue: Double       // 原始数值
     )
 
     /**
@@ -35,78 +31,81 @@ object EnergyCalculator {
      */
     fun calculate(
         fuelRange: Double,
-        fuelCapacity: Double,
+        fuelCapacity: Double, // ⚠️ 关键：必须确保传入正确的油箱容量(L)，否则结果为0
         fuelLevel: Double,
         batteryRange: Double,
-        batteryCapacity: Double,
+        batteryCapacity: Double, // ⚠️ 关键：必须确保传入正确的电池容量(kWh)，否则结果为0
         batteryPackPrc: Double
     ): ConsumptionResult {
 
-        // 1. 判断车辆类型模式
-        val isEV = fuelCapacity <= 0.1 && batteryCapacity > 0.0 // 纯电车
-        val isICE = batteryCapacity <= 0.1 && fuelCapacity > 0.0// 纯油车 (假设电池极小或为0)
-        // 其他情况视为混动 (PHEV/EREV)
+        // 1. 模式判定
+        // 如果油箱几乎没有但有电池 -> 纯电
+        val isEV = fuelCapacity <= 0.5 && batteryCapacity > 0.5
+        // 如果电池几乎没有但有油箱 -> 纯油
+        val isICE = batteryCapacity <= 0.5 && fuelCapacity > 0.5
 
-        // ================== 纯电模式 (EV) ==================
+        // 2. 纯电模式 (EV)
         if (isEV) {
-            val kwhPer100km = calculateElectricConsumption(batteryRange, batteryCapacity, batteryPackPrc)
-            return ConsumptionResult(
-                displayText = if (kwhPer100km > 0.0) String.format(Locale.US, "%.1fkWh/100km", kwhPer100km) else "",
-                rawValue = kwhPer100km,
-                unit = "kWh/100km"
-            )
+            val kwhPer100km =
+                calculateElectricConsumption(batteryRange, batteryCapacity, batteryPackPrc)
+            return formatResult(kwhPer100km, "kWh/100km")
         }
 
-        // ================== 纯油模式 (ICE) ==================
+        // 3. 纯油模式 (ICE)
         if (isICE) {
             val litersPer100km = calculateFuelConsumption(fuelRange, fuelCapacity, fuelLevel)
-            return ConsumptionResult(
-                displayText = if (litersPer100km > 0.0) String.format(Locale.US, "%.1fL/100km", litersPer100km) else "",
-                rawValue = litersPer100km,
-                unit = "L/100km"
-            )
+            return formatResult(litersPer100km, "L/100km")
         }
 
-        // ================== 混动模式 (Hybrid) ==================
-        // 策略：分别计算，然后将电耗转化为等效油耗相加
+        // 4. 混动模式 (Hybrid / PHEV)
+        // 即使是混动，如果当前没油了只有电，或者没电了只有油，我们也尽量算出一个数
+        val fuelCons = calculateFuelConsumption(fuelRange, fuelCapacity, fuelLevel)
+        val elecCons = calculateElectricConsumption(batteryRange, batteryCapacity, batteryPackPrc)
 
-        // 1. 算出基础油耗 (L/100km)
-        val fuelConsumption = calculateFuelConsumption(fuelRange, fuelCapacity, fuelLevel)
+        // 将电耗转化为“等效油耗”
+        val electricToFuelEquivalent = if (elecCons > 0) elecCons / KWH_PER_LITER_GASOLINE else 0.0
+        val totalEquivalentConsumption = fuelCons + electricToFuelEquivalent
 
-        // 2. 算出基础电耗 (kWh/100km)
-        val electricConsumption = calculateElectricConsumption(batteryRange, batteryCapacity, batteryPackPrc)
-
-        // 3. 电耗转等效油耗 (Equivalent L/100km) = 电耗 / 8.9
-        val electricToFuelEquivalent = electricConsumption / KWH_PER_LITER_GASOLINE
-
-        // 4. 综合油耗
-        val totalEquivalentConsumption = fuelConsumption + electricToFuelEquivalent
-
-        return ConsumptionResult(
-            displayText = if (totalEquivalentConsumption > 0.0) String.format(Locale.US, "%.1fL/100km ", totalEquivalentConsumption) else "",
-            rawValue = totalEquivalentConsumption,
-            unit = "L/100km"
-        )
+        return formatResult(totalEquivalentConsumption, "L/100km")
     }
 
     /**
-     * 内部算法：计算百公里油耗
-     * 公式：(当前剩余油量L / 当前剩余续航km) * 100
+     * 统一格式化输出
+     * 规则：如果有值，返回 " / 5.6L/100km"；如果是0，返回 ""
      */
-    private fun calculateFuelConsumption(range: Double, capacity: Double, levelPercent: Double): Double {
-        if (range <= 1.0) return 0.0 // 避免除以0，或者续航极低时不准确
+    private fun formatResult(value: Double, unit: String): ConsumptionResult {
+        // 过滤异常值：能耗不可能超过 50L/100km (坦克?) 或小于 1.0 (除非下坡)
+        // 这里设置一个宽松范围 0.1 ~ 99.0 防止除以极小数导致的 Infinity
+        val isValid = value in 0.1..99.0
 
+        val text = if (isValid) {
+            // 注意：这里加了 " / " 前缀
+            String.format(Locale.US, "%.1f%s", value, unit)
+        } else {
+            ""
+        }
+        return ConsumptionResult(text, value)
+    }
+
+    // --- 内部算法 ---
+
+    private fun calculateFuelConsumption(
+        range: Double,
+        capacity: Double,
+        levelPercent: Double
+    ): Double {
+        // 必须有续航且有容量配置
+        if (range < 1.0 || capacity <= 0.0) return 0.0
         val currentFuelLiters = capacity * (levelPercent / 100.0)
         return (currentFuelLiters / range) * 100.0
     }
 
-    /**
-     * 内部算法：计算百公里电耗
-     * 公式：(当前剩余电量kWh / 当前剩余续航km) * 100
-     */
-    private fun calculateElectricConsumption(range: Double, capacity: Double, levelPercent: Double): Double {
-        if (range <= 1.0) return 0.0
-
+    private fun calculateElectricConsumption(
+        range: Double,
+        capacity: Double,
+        levelPercent: Double
+    ): Double {
+        if (range < 1.0 || capacity <= 0.0) return 0.0
         val currentEnergyKwh = capacity * (levelPercent / 100.0)
         return (currentEnergyKwh / range) * 100.0
     }

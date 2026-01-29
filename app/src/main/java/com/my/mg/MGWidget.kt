@@ -26,6 +26,7 @@ import androidx.work.WorkManager
 import com.google.gson.Gson
 import com.my.mg.MGWidget.Companion.log
 import com.my.mg.log.LogcatHelper
+import com.my.mg.net.ImageWorker.loadCarImageSuspended
 import com.my.mg.widget.data.EnergyCalculator
 import com.my.mg.worker.WidgetUpdateWorker
 import kotlinx.coroutines.Dispatchers
@@ -157,7 +158,11 @@ open class MGWidget : AppWidgetProvider() {
          * 它会挂起直到网络请求完成，确保 Worker 不会提前结束。
          */
         suspend fun updateWidgetSynchronously(
-            context: Context, appWidgetManager: AppWidgetManager, appWidgetId: Int
+            context: Context,
+            appWidgetManager: AppWidgetManager,
+            appWidgetId: Int,
+            fetchedData: VehicleStatusResponse?, // 新增参数
+            fetchedAddress: String?              // 新增参数
         ) {
             log(context, "updateWidgetSynchronously called for ID: $appWidgetId")
             val providerInfo = appWidgetManager.getAppWidgetInfo(appWidgetId)
@@ -200,209 +205,25 @@ open class MGWidget : AppWidgetProvider() {
                 // 5. 加载车辆图片 (挂起操作，含缓存和采样)
                 loadCarImageSuspended(context, views, carImageUrl)
             }
-            // 6. 获取并更新车辆数据 (挂起操作)
-            if (vin.isNotEmpty() && token.isNotEmpty()) {
-                if (isNetworkAvailable(context)) {
-                    // 获取车辆状态数据
-                    val data = fetchVehicleDataSuspended(context, vin, token)
-                    if (data != null) {
-                        // 获取地理位置 (如果经纬度存在)
-                        var address: String? = null
-                        val pos = data.data?.vehicle_position
-                        if (pos?.latitude != null && pos.longitude != null) {
-                            val lat = pos.latitude.toDoubleOrNull()
-                            val lng = pos.longitude.toDoubleOrNull()
-                            if (lat != null && lng != null) {
-                                address = getAddressSync(context, lat, lng)
-                                log(context, address)
-                            }
-                        }
-                        // 更新所有 UI 字段
-                        updateWidgetUI(context, views, data, address, layoutId)
-                    }
-                } else {
-                    // 无网络时保持原样，或者可以显示无网络提示
-                    // views.setTextViewText(R.id.tv_location, "网络不可用")
-                }
+            // 5. 使用传入的数据更新 UI
+            if (fetchedData != null) {
+                // 直接使用 Worker 传过来的地址
+                updateWidgetUI(context, views, fetchedData, fetchedAddress, layoutId)
             } else {
-                views.setTextViewText(R.id.tv_update_time, "请配置 App")
+                // 如果数据为空（比如无网络），显示提示或保持旧数据
+                // views.setTextViewText(R.id.tv_update_time, "等待更新...")
+                // 建议：可以在这里判断网络状态，如果也没网，显示“网络异常”
             }
 
             // 7. 提交更新到系统
             appWidgetManager.updateAppWidget(appWidgetId, views)
         }
 
-        // ========================================================================
-        // 辅助逻辑：网络请求与数据处理
-        // ========================================================================
 
-        /**
-         * 挂起函数：获取车辆数据
-         */
-        suspend fun fetchVehicleDataSuspended(
-            context: Context, vin: String, token: String
-        ): VehicleStatusResponse? = withContext(Dispatchers.IO) {
-            try {
-                val timestamp = System.currentTimeMillis() / 1000
-                val url =
-                    "https://mp.ebanma.com/app-mp/vp/1.1/getVehicleStatus?timestamp=$timestamp&token=$token&vin=$vin"
-                log(context, "Fetch Data url:  $url")
-                val client = OkHttpClient.Builder()
-                    .connectTimeout(15, TimeUnit.SECONDS)
-                    .readTimeout(15, TimeUnit.SECONDS)
-                    .build()
-                val request = Request.Builder().url(url).build()
-                val response = client.newCall(request).execute()
-                val body = response.body?.string()
-                log(context, "Fetch Data response:  $body")
-                if (response.isSuccessful && !body.isNullOrEmpty()) {
-                    Gson().fromJson(body, VehicleStatusResponse::class.java)
-                } else {
-                    log(context, "Fetch Data Failed: Code ${response.code}")
-                    null
-                }
-            } catch (e: Exception) {
-                log(context, "Fetch Data Error: ${e.message}")
-                e.printStackTrace()
-                null
-            }
-        }
 
-        /**
-         * 同步获取地址 (在 Worker 线程中直接调用，无需再开协程)
-         */
-        private fun getAddressSync(context: Context, lat: Double, lng: Double): String {
-            return try {
-                val geocoder = Geocoder(context, Locale.getDefault())
 
-                // 1. 请求多个候选地址（3 个），提高解析成功率
-                val addresses = geocoder.getFromLocation(lat, lng, 3)
-                log(context, "Geocoder addr: ${addresses}")
-                // 如果没有任何地址，返回空字符串
-                if (addresses.isNullOrEmpty()) return ""
 
-                // 2. 从候选地址中挑选“信息最丰富”的一个 (原版优选算法)
-                // 权重规则：有门牌号+20分，有道路名+10分，有子区域(区/县)+5分
-                val bestAddr = addresses.sortedWith(compareByDescending<Address> {
-                    // 权重计算
-                    var score = 0
-                    val feature = it.featureName ?: ""
-                    val line0 = it.getAddressLine(0) ?: ""
 
-                    // 规则A：如果是具体门牌号（包含数字和号），权重最高
-                    if (feature.matches(Regex(".*\\d+号.*"))) score += 20
-
-                    // 规则B：避免选中纯地标名称（如"德润精品酒店"），优先选包含省市信息的完整描述
-                    if (line0.contains("市") && line0.contains("路")) score += 5
-
-                    // 规则C：如果 subLocality (区/县) 不为空，加分 (应对某些数据源)
-                    if (it.subLocality != null) score += 5
-
-                    score
-                }).firstOrNull() ?: addresses[0] // 兜底使用第一个
-
-                // 3. 格式化地址
-                formatAddressSmart(bestAddr)
-            } catch (e: Exception) {
-                log(context, "Geocoder Error: ${e.message}")
-                ""
-            }
-        }
-
-        /**
-         * 挂起函数：加载图片
-         * 包含 Bitmap 采样，防止 OOM (Out Of Memory)
-         */
-        suspend fun loadCarImageSuspended(
-            context: Context, views: RemoteViews, carImageUrl: String
-        ) = withContext(Dispatchers.IO) {
-            if (carImageUrl.isEmpty()) {
-                views.setImageViewResource(R.id.iv_car_image, R.drawable.blue_mg7)
-                return@withContext
-            }
-
-            try {
-                val cacheDir = File(context.filesDir, "car_image_cache")
-                if (!cacheDir.exists()) cacheDir.mkdirs()
-
-                // 使用 hash 保证文件名合法
-                val fileName = carImageUrl.hashCode().toString() + ".img"
-                val imageFile = File(cacheDir, fileName)
-
-                // 缓存策略：如果文件不存在，才下载
-                if (!imageFile.exists()) {
-                    // 清理旧缓存 (删除该目录下所有非当前图片的文件)
-                    cacheDir.listFiles()?.forEach { if (it.name != fileName) it.delete() }
-                    downloadAndSaveImage(carImageUrl, imageFile)
-                }
-
-                if (imageFile.exists()) {
-                    // 关键修复：使用采样解码，限制图片大小
-                    // 300x200 足够小组件显示，避免加载几兆的原图
-                    val bitmap = decodeSampledBitmap(imageFile.absolutePath, 300, 200)
-                    if (bitmap != null) {
-                        views.setImageViewBitmap(R.id.iv_car_image, bitmap)
-                    } else {
-                        // 解码失败回退
-                        views.setImageViewResource(R.id.iv_car_image, R.drawable.blue_mg7)
-                    }
-                }
-            } catch (e: Exception) {
-                e.printStackTrace()
-                views.setImageViewResource(R.id.iv_car_image, R.drawable.blue_mg7)
-            }
-        }
-
-        private fun downloadAndSaveImage(urlStr: String, outFile: File) {
-            val url = URL(urlStr)
-            val connection = url.openConnection()
-            connection.connectTimeout = 10000
-            connection.readTimeout = 10000
-            connection.connect()
-            connection.getInputStream().use { input ->
-                FileOutputStream(outFile).use { output ->
-                    input.copyTo(output)
-                }
-            }
-        }
-
-        // 防止 OOM 的关键方法：计算采样率
-        private fun decodeSampledBitmap(path: String, reqWidth: Int, reqHeight: Int): Bitmap? {
-            val options = BitmapFactory.Options().apply {
-                inJustDecodeBounds = true // 只读取尺寸，不加载内存
-            }
-            BitmapFactory.decodeFile(path, options)
-
-            options.inSampleSize = calculateInSampleSize(options, reqWidth, reqHeight)
-            options.inJustDecodeBounds = false // 真正加载
-
-            return BitmapFactory.decodeFile(path, options)
-        }
-
-        private fun calculateInSampleSize(
-            options: BitmapFactory.Options,
-            reqWidth: Int,
-            reqHeight: Int
-        ): Int {
-            val (height: Int, width: Int) = options.outHeight to options.outWidth
-            var inSampleSize = 1
-
-            if (height > reqHeight || width > reqWidth) {
-                val halfHeight: Int = height / 2
-                val halfWidth: Int = width / 2
-                while ((halfHeight / inSampleSize) >= reqHeight && (halfWidth / inSampleSize) >= reqWidth) {
-                    inSampleSize *= 2
-                }
-            }
-            return inSampleSize
-        }
-
-        private fun isNetworkAvailable(context: Context): Boolean {
-            val cm = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
-            val network = cm.activeNetwork ?: return false
-            val cap = cm.getNetworkCapabilities(network) ?: return false
-            return cap.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET)
-        }
 
         // ========================================================================
         // UI 更新逻辑 (完整保留)
@@ -449,7 +270,7 @@ open class MGWidget : AppWidgetProvider() {
             val mileage = vehicleValue?.odometer ?: 0
             // 3. 油耗+能耗
             // 调用计算器
-            val result = EnergyCalculator.calculate(
+            var result = EnergyCalculator.calculate(
                 fuelRange = fuelRange.toDouble(),
                 fuelCapacity = fuelCapacity,
                 fuelLevel = fuelLevel.toDouble(),
@@ -458,10 +279,13 @@ open class MGWidget : AppWidgetProvider() {
                 batteryPackPrc = batteryPackPrc.toDouble()
             ).displayText
             if (layoutId == R.layout.mg_widget) {
-                views.setTextViewText(R.id.tv_total_mileage, "总里程: ${mileage}km / ${result}")
+                if (result != "") result = " / "+result
+                views.setTextViewText(R.id.tv_total_mileage, "总里程: ${mileage}km${result}")
             } else if (layoutId == R.layout.mg_widget_icon) {
                 views.setTextViewText(R.id.tv_total_mileage, "${mileage}km")
+                views.setViewVisibility(R.id.tv_capacity,if(result == "") View.GONE else View.VISIBLE)
                 views.setTextViewText(R.id.capacity, "${result}")
+
 
             }
 
@@ -680,6 +504,8 @@ open class MGWidget : AppWidgetProvider() {
          * 功能：全量驱动 40 个车辆视觉部件。
          * 实现目的：按照用户提供的 FrameLayout 布局层级，将所有传感器数据精准映射到小组件 UI。
          */
+
+
         private fun updateUltimateVisuals(views: RemoteViews, data: VehicleData?) {
             val state = data?.vehicle_state
             val value = data?.vehicle_value
@@ -692,39 +518,11 @@ open class MGWidget : AppWidgetProvider() {
             val rlP = (value?.rear_left_tyre_pressure ?: 0) / 100.0
             val rrP = (value?.rear_right_tyre_pressure ?: 0) / 100.0
 
-            // 逻辑：胎压正常(2.0-3.0)显示绿色发光，异常显示红色轮毂 (假设红色ID已添加)
-            views.setViewVisibility(
-                R.id.iv_wheel_fl_green,
-                if (flP in 2.0..3.5) View.VISIBLE else View.GONE
-            )
-            views.setViewVisibility(
-                R.id.iv_wheel_fr_green,
-                if (frP in 2.0..3.5) View.VISIBLE else View.GONE
-            )
-            views.setViewVisibility(
-                R.id.iv_wheel_rl_green,
-                if (rlP in 2.0..3.5) View.VISIBLE else View.GONE
-            )
-            views.setViewVisibility(
-                R.id.iv_wheel_rr_green,
-                if (rrP in 2.0..3.5) View.VISIBLE else View.GONE
-            )
-            views.setViewVisibility(
-                R.id.iv_wheel_fl_red,
-                if (flP !in 2.0..3.0 ) View.GONE else View.VISIBLE
-            )
-            views.setViewVisibility(
-                R.id.iv_wheel_fr_red,
-                if (frP !in 2.0..3.0) View.GONE else View.VISIBLE
-            )
-            views.setViewVisibility(
-                R.id.iv_wheel_rl_red,
-                if (rlP !in 2.0..3.0) View.GONE else View.VISIBLE
-            )
-            views.setViewVisibility(
-                R.id.iv_wheel_rr_red,
-                if (rrP !in 2.0..3.0) View.GONE else View.VISIBLE
-            )
+            // 逻辑：胎压正常(2.0-3.8)显示绿色，异常显示红色
+            updateWheel(views,R.id.iv_wheel_fl_green,R.id.iv_wheel_fl_red,flP)
+            updateWheel(views,R.id.iv_wheel_fr_green,R.id.iv_wheel_fr_red,frP)
+            updateWheel(views,R.id.iv_wheel_rl_green,R.id.iv_wheel_rl_red,rlP)
+            updateWheel(views,R.id.iv_wheel_rr_green,R.id.iv_wheel_rr_red,rrP)
 
             // ============================================================
             // 2. 车门状态驱动 (Style A + Style B + 伴随车窗)
@@ -831,6 +629,12 @@ open class MGWidget : AppWidgetProvider() {
             )
         }
 
+        private fun updateWheel(views: RemoteViews,greenId: Int, redId: Int, pressure: Double) {
+            val isNormal = pressure in 2.0..3.8
+            views.setViewVisibility(greenId, if (isNormal) View.VISIBLE else View.GONE)
+            views.setViewVisibility(redId, if (isNormal) View.GONE else View.VISIBLE)
+        }
+
         private fun updateTirePressure(
             context: Context,
             views: RemoteViews,
@@ -859,32 +663,6 @@ open class MGWidget : AppWidgetProvider() {
             views.setTextViewText(textViewId, spannable)
         }
 
-        private fun formatAddressSmart(addr: Address): String {
-            val sb = StringBuilder()
-            val admin = addr.adminArea ?: ""
-            val city = addr.locality ?: ""
-            val district = addr.subLocality ?: ""
-
-            sb.append(admin)
-            if (city != admin) sb.append(city)
-            sb.append(district)
-
-            val road = addr.thoroughfare ?: ""
-            val feature = addr.featureName ?: ""
-
-            if (road.isNotEmpty()) {
-                sb.append(road)
-                if (feature.contains(road) && feature != road) {
-                    sb.append(feature.substringAfter(road))
-                } else if (feature != road && feature != district) {
-                    sb.append(feature)
-                }
-            } else {
-                if (feature != district) sb.append(feature)
-            }
-            val result = sb.toString()
-            return if (result.length < 3) addr.getAddressLine(0) ?: "未知地址" else result
-        }
 
         // ========================================================================
         // 字体与事件设置 (通用逻辑)

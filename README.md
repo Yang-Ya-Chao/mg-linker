@@ -62,7 +62,7 @@ mg-linker/
 ### 安装步骤
 
 1. **下载安装应用**
-   - 下载最新版本的[MG Linke](https://gitee.com/yangyachao-X/mg-linker/releases/download/2.9/MG%20Linker.apk)
+   - 下载最新版本的[MG Linke](https://gitee.com/yangyachao-X/mg-linker/releases/download/3.0/MG%20Linker.apk)
    - 在手机上允许安装未知来源应用后完成安装
 
 2. **准备抓包工具**
@@ -238,7 +238,7 @@ A: 调试版日志保存在 `Android/data/com.my.mg/files/logs/MGLinker_log.txt`
 
 | 版本  | 更新内容                    |
 |-----|-------------------------|
-| 2.9 | 最新稳定版本-1.增加锁动态显示；2.增加能耗 |
+| 3.0 | 最新稳定版本-1.增加锁动态显示；2.增加能耗 |
 | 1.0 | 初始版本，含调试版，包含详细日志输出      |
 
 完整版本历史请访问 [Gitee Releases](https://gitee.com/yangyachao-X/mg-linker/releases)
