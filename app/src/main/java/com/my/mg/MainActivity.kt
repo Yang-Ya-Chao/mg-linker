@@ -182,7 +182,7 @@ class MainActivity : ComponentActivity() {
 
     private var showUpdateDialog by mutableStateOf(false)
     private var releaseToUpdate by mutableStateOf<GiteeRelease?>(null)
-
+    private var isUpdateAvailable by mutableStateOf(false)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         // 进程启动时开始记录日志
@@ -191,13 +191,24 @@ class MainActivity : ComponentActivity() {
         }
         scheduleWidgetWork()
         enableEdgeToEdge()
+        // [新增] App 启动时自动静默检查更新
+        checkUpdate(manual = false)
         setContent {
             MGLinkerTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     MGConfigScreen(
                         modifier = Modifier.padding(innerPadding),
+                        // [新增] 传入是否由更新的状态
+                        isUpdateAvailable = isUpdateAvailable,
+                        // [修改] 检查更新的回调逻辑
                         onCheckUpdate = {
-                            checkUpdate(manual = true)
+                            if (isUpdateAvailable) {
+                                // 如果已有更新，点击直接显示弹窗
+                                showUpdateDialog = true
+                            } else {
+                                // 如果没有更新，点击手动检查
+                                checkUpdate(manual = true)
+                            }
                         }
                     )
                     // [新增状态]
@@ -235,7 +246,11 @@ class MainActivity : ComponentActivity() {
                                                     isDownloading = false
                                                     // 不需要 withContext，因为 observeDownloadProgress 内部已经切回主线程了
                                                     // 直接写 Toast 即可
-                                                    Toast.makeText(this@MainActivity, "下载失败", Toast.LENGTH_SHORT).show()
+                                                    Toast.makeText(
+                                                        this@MainActivity,
+                                                        "下载失败",
+                                                        Toast.LENGTH_SHORT
+                                                    ).show()
                                                 }
                                             )
                                         }
@@ -257,6 +272,7 @@ class MainActivity : ComponentActivity() {
         //checkUpdate(manual = false) // Automatic check
 
     }
+
     // 监听下载进度的挂起函数
     private suspend fun observeDownloadProgress(
         downloadId: Long,
@@ -273,7 +289,8 @@ class MainActivity : ComponentActivity() {
 
             if (cursor != null && cursor.moveToFirst()) {
                 // 检查列是否存在，避免异常
-                val downloadedIndex = cursor.getColumnIndex(DownloadManager.COLUMN_BYTES_DOWNLOADED_SO_FAR)
+                val downloadedIndex =
+                    cursor.getColumnIndex(DownloadManager.COLUMN_BYTES_DOWNLOADED_SO_FAR)
                 val totalIndex = cursor.getColumnIndex(DownloadManager.COLUMN_TOTAL_SIZE_BYTES)
                 val statusIndex = cursor.getColumnIndex(DownloadManager.COLUMN_STATUS)
 
@@ -312,6 +329,7 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+
     private fun scheduleWidgetWork() {
         val request = PeriodicWorkRequestBuilder<WidgetUpdateWorker>(
             30, TimeUnit.MINUTES
@@ -382,14 +400,23 @@ class MainActivity : ComponentActivity() {
                     )
 
 
+                    // [修改] 核心版本判断逻辑
                     if (isNewerVersion(latestVersion, currentVersion)) {
                         Log.d("UpdateCheck", "Newer version found.")
                         withContext(Dispatchers.Main) {
                             releaseToUpdate = release
-                            showUpdateDialog = true
+                            // 无论手动还是自动，都标记为有更新
+                            isUpdateAvailable = true
+                            // 只有手动检查时，才立即弹窗
+                            if (manual) {
+                                showUpdateDialog = true
+                            }
                         }
                     } else {
                         Log.d("UpdateCheck", "Already on the latest version.")
+                        withContext(Dispatchers.Main) {
+                            isUpdateAvailable = false
+                        }
                         if (manual) {
                             withContext(Dispatchers.Main) {
                                 Toast.makeText(
@@ -565,7 +592,11 @@ fun UpdateDialog(
 }
 
 @Composable
-fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
+fun MGConfigScreen(
+    modifier: Modifier = Modifier,
+    onCheckUpdate: () -> Unit,
+    isUpdateAvailable: Boolean = false// [新增参数] 默认为 false
+){
     val context = LocalContext.current
     val sharedPreferences =
         remember { context.getSharedPreferences("mg_config", Context.MODE_PRIVATE) }
@@ -576,323 +607,335 @@ fun MGConfigScreen(modifier: Modifier = Modifier, onCheckUpdate: () -> Unit) {
 
     // ================== 1. 状态定义 ==================
     // 远程配置数据状态
-    var carConfigList by remember { mutableStateOf<List<CarConfig>>(emptyList()) }
-    var isLoadingConfig by remember { mutableStateOf(true) }
+    var carConfigList
+    by
+    remember {
+    mutableStateOf<List<CarConfig>>(emptyList())
+}
 
-    //用户选择状态
-    var carBrand by remember {
-        mutableStateOf(
-            sharedPreferences.getString("car_brand", "名爵") ?: "名爵"
+var isLoadingConfig by remember { mutableStateOf(true) }
+
+//用户选择状态
+var carBrand by remember {
+    mutableStateOf(
+        sharedPreferences.getString("car_brand", "名爵") ?: "名爵"
+    )
+}
+var carModel by remember { mutableStateOf(sharedPreferences.getString("car_model", "") ?: "") }
+var carName by remember { mutableStateOf(sharedPreferences.getString("car_name", "") ?: "") }
+var vin by remember { mutableStateOf(sharedPreferences.getString("vin", "") ?: "") }
+var color by remember { mutableStateOf(sharedPreferences.getString("color", "") ?: "") }
+var plateNumber by remember {
+    mutableStateOf(
+        sharedPreferences.getString("plate_number", "") ?: ""
+    )
+}
+var accessToken by remember {
+    mutableStateOf(
+        sharedPreferences.getString("access_token", "") ?: ""
+    )
+}
+var isConfigured by remember {
+    mutableStateOf(
+        sharedPreferences.getBoolean(
+            "is_configured",
+            false
         )
-    }
-    var carModel by remember { mutableStateOf(sharedPreferences.getString("car_model", "") ?: "") }
-    var carName by remember { mutableStateOf(sharedPreferences.getString("car_name", "") ?: "") }
-    var vin by remember { mutableStateOf(sharedPreferences.getString("vin", "") ?: "") }
-    var color by remember { mutableStateOf(sharedPreferences.getString("color", "") ?: "") }
-    var plateNumber by remember {
-        mutableStateOf(
-            sharedPreferences.getString("plate_number", "") ?: ""
-        )
-    }
-    var accessToken by remember {
-        mutableStateOf(
-            sharedPreferences.getString("access_token", "") ?: ""
-        )
-    }
-    var isConfigured by remember {
-        mutableStateOf(
-            sharedPreferences.getBoolean(
-                "is_configured",
-                false
-            )
-        )
-    }
+    )
+}
 
-    val vinFocusRequester = remember { FocusRequester() }
-    val accessTokenFocusRequester = remember { FocusRequester() }
-    // VIN 校验状态
-    val isVinValid = vin.length == 17
-    // 当有输入但长度不对时，显示错误
-    val isVinError = vin.isNotEmpty() && !isVinValid
-    // ================== 2. 数据获取与处理逻辑 ==================
+val vinFocusRequester = remember { FocusRequester() }
+val accessTokenFocusRequester = remember { FocusRequester() }
 
-    // 初始化加载配置
-    LaunchedEffect(Unit) {
-        val config = fetchCarConfig(client, gson)
-        if (config != null) {
-            carConfigList = config
-        } else {
-            Toast.makeText(context, "获取车型配置失败，请检查网络", Toast.LENGTH_SHORT).show()
-        }
-        isLoadingConfig = false
+// VIN 校验状态
+val isVinValid = vin.length == 17
+
+// 当有输入但长度不对时，显示错误
+val isVinError = vin.isNotEmpty() && !isVinValid
+// ================== 2. 数据获取与处理逻辑 ==================
+
+// 初始化加载配置
+LaunchedEffect(Unit) {
+    val config = fetchCarConfig(client, gson)
+    if (config != null) {
+        carConfigList = config
+    } else {
+        Toast.makeText(context, "获取车型配置失败，请检查网络", Toast.LENGTH_SHORT).show()
     }
+    isLoadingConfig = false
+}
 
-    // 辅助函数：将中文品牌映射到 JSON 中的 brand 代码 ("MG", "RW")
-    fun getBrandCode(cnName: String): String {
-        return if (cnName == "名爵") "MG" else "RW"
+// 辅助函数：将中文品牌映射到 JSON 中的 brand 代码 ("MG", "RW")
+fun getBrandCode(cnName: String): String {
+    return if (cnName == "名爵") "MG" else "RW"
+}
+
+// 计算当前品牌下的所有车型
+val availableModels = remember(carBrand, carConfigList) {
+    val code = getBrandCode(carBrand)
+    carConfigList.filter { it.brand == code }.map { it.model }
+}
+
+// 计算当前车型下的所有颜色对象
+val currentModelConfig = remember(carBrand, carModel, carConfigList) {
+    val code = getBrandCode(carBrand)
+    carConfigList.find { it.brand == code && it.model == carModel }
+}
+
+val availableColors = remember(currentModelConfig) {
+    currentModelConfig?.colors?.map { it.name } ?: emptyList()
+}
+
+// 级联选择逻辑：品牌变了，重置车型；车型变了，重置颜色
+// 关键修复：加入 isLoadingConfig 判断，防止在数据加载前清空本地已保存的配置
+LaunchedEffect(availableModels, isLoadingConfig) {
+    // 如果正在加载配置，不要执行重置逻辑，保留 SharedPreferences 读取的值
+    if (isLoadingConfig) return@LaunchedEffect
+
+    if (carModel.isNotEmpty() && !availableModels.contains(carModel)) {
+        // 如果当前选中的车型不在列表中（且不是因为正在加载），则重置
+        carModel = availableModels.firstOrNull() ?: ""
+    } else if (carModel.isEmpty() && availableModels.isNotEmpty()) {
+        // 如果没选车型，默认选第一个
+        carModel = availableModels.firstOrNull() ?: ""
     }
+}
 
-    // 计算当前品牌下的所有车型
-    val availableModels = remember(carBrand, carConfigList) {
-        val code = getBrandCode(carBrand)
-        carConfigList.filter { it.brand == code }.map { it.model }
+LaunchedEffect(availableColors, isLoadingConfig) {
+    // 如果正在加载配置，不要执行重置逻辑
+    if (isLoadingConfig) return@LaunchedEffect
+
+    if (color.isNotEmpty() && !availableColors.contains(color)) {
+        // 如果当前选中的颜色不在列表中（且不是因为正在加载），则重置
+        color = availableColors.firstOrNull() ?: ""
+    } else if (color.isEmpty() && availableColors.isNotEmpty()) {
+        // 如果没选颜色，默认选第一个
+        color = availableColors.firstOrNull() ?: ""
     }
+}
 
-    // 计算当前车型下的所有颜色对象
-    val currentModelConfig = remember(carBrand, carModel, carConfigList) {
-        val code = getBrandCode(carBrand)
-        carConfigList.find { it.brand == code && it.model == carModel }
-    }
-
-    val availableColors = remember(currentModelConfig) {
-        currentModelConfig?.colors?.map { it.name } ?: emptyList()
-    }
-
-    // 级联选择逻辑：品牌变了，重置车型；车型变了，重置颜色
-    // 关键修复：加入 isLoadingConfig 判断，防止在数据加载前清空本地已保存的配置
-    LaunchedEffect(availableModels, isLoadingConfig) {
-        // 如果正在加载配置，不要执行重置逻辑，保留 SharedPreferences 读取的值
-        if (isLoadingConfig) return@LaunchedEffect
-
-        if (carModel.isNotEmpty() && !availableModels.contains(carModel)) {
-            // 如果当前选中的车型不在列表中（且不是因为正在加载），则重置
-            carModel = availableModels.firstOrNull() ?: ""
-        } else if (carModel.isEmpty() && availableModels.isNotEmpty()) {
-            // 如果没选车型，默认选第一个
-            carModel = availableModels.firstOrNull() ?: ""
-        }
-    }
-
-    LaunchedEffect(availableColors, isLoadingConfig) {
-        // 如果正在加载配置，不要执行重置逻辑
-        if (isLoadingConfig) return@LaunchedEffect
-
-        if (color.isNotEmpty() && !availableColors.contains(color)) {
-            // 如果当前选中的颜色不在列表中（且不是因为正在加载），则重置
-            color = availableColors.firstOrNull() ?: ""
-        } else if (color.isEmpty() && availableColors.isNotEmpty()) {
-            // 如果没选颜色，默认选第一个
-            color = availableColors.firstOrNull() ?: ""
-        }
-    }
-
-    // 获取滚动状态
-    val scrollState = rememberScrollState()
-    // 最外层容器
+// 获取滚动状态
+val scrollState = rememberScrollState()
+// 最外层容器
+Column(
+modifier = modifier
+.fillMaxSize()
+.padding(horizontal = 24.dp, vertical = 16.dp),
+horizontalAlignment = Alignment.CenterHorizontally
+) {
+    // ================== 1. 顶部固定区域 (Header) ==================
+    Text(
+        text = "上汽小组件配置",
+        fontSize = 22.sp,
+        fontWeight = FontWeight.Bold,
+        color = MaterialTheme.colorScheme.primary,
+        modifier = Modifier.padding(bottom = 8.dp)
+    )
+    // 品牌选择器放在这里，它就不会滚动了
+    BrandSelector(selectedBrand = carBrand, onBrandSelected = { carBrand = it })
+    // 加一条分割线或者间距，让视觉分离更明显（可选）
+    // Spacer(modifier = Modifier.height(4.dp))
+    // ================== 2. 中间滚动区域 (Content) ==================
     Column(
-        modifier = modifier
-            .fillMaxSize()
-            .padding(horizontal = 24.dp, vertical = 16.dp),
+        modifier = Modifier
+            .weight(1f) // 关键：占据上下固定区域之外的所有剩余空间
+            .fillMaxWidth()
+            .verticalScroll(scrollState), // 关键：只允许这一块滚动
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // ================== 1. 顶部固定区域 (Header) ==================
-        Text(
-            text = "上汽小组件配置",
-            fontSize = 22.sp,
-            fontWeight = FontWeight.Bold,
-            color = MaterialTheme.colorScheme.primary,
-            modifier = Modifier.padding(bottom = 8.dp)
-        )
-        // 品牌选择器放在这里，它就不会滚动了
-        BrandSelector(selectedBrand = carBrand, onBrandSelected = { carBrand = it })
-        // 加一条分割线或者间距，让视觉分离更明显（可选）
-        // Spacer(modifier = Modifier.height(4.dp))
-        // ================== 2. 中间滚动区域 (Content) ==================
-        Column(
-            modifier = Modifier
-                .weight(1f) // 关键：占据上下固定区域之外的所有剩余空间
-                .fillMaxWidth()
-                .verticalScroll(scrollState), // 关键：只允许这一块滚动
-            horizontalAlignment = Alignment.CenterHorizontally
-        ) {
-            if (isLoadingConfig) {
-                CircularProgressIndicator(modifier = Modifier.padding(16.dp))
-                Text(
-                    "正在加载车型数据...",
-                    fontSize = 12.sp,
-                    color = MaterialTheme.colorScheme.secondary
-                )
-            } else {
-                ModelDropdownField(
-                    label = "请选择车型",
-                    selectedModel = carModel,
-                    onModelSelected = { carModel = it },
-                    models = availableModels // 使用动态计算的列表
-                )
-            }
-
-            InputField(label = "车辆名称 (选填)", value = carName, onValueChange = { carName = it })
-
-            // *** VIN 输入框修改 ***
-            InputField(
-                label = "请输入您的车架号(VIN):",
-                value = vin,
-                onValueChange = { input ->
-                    // 1. 转大写
-                    // 2. 过滤非数字和非大写字母
-                    // 3. 限制长度为17
-                    val formatted = input.uppercase()
-                        .filter { it.isDigit() || it in 'A'..'Z' }
-                        .take(17)
-                    vin = formatted
-                },
-                modifier = Modifier.focusRequester(vinFocusRequester),
-                isError = isVinError,
-                supportingText = {
-                    if (isVinError) {
-                        Text(
-                            "需输入17位，当前: ${vin.length}",
-                            color = MaterialTheme.colorScheme.error
-                        )
-                    }
-                }
+        if (isLoadingConfig) {
+            CircularProgressIndicator(modifier = Modifier.padding(16.dp))
+            Text(
+                "正在加载车型数据...",
+                fontSize = 12.sp,
+                color = MaterialTheme.colorScheme.secondary
             )
-            ColorDropdownField(
-                label = "请选择车辆颜色:",
-                selectedColor = color,
-                onColorSelected = { color = it },
-                options = availableColors // 使用动态计算的列表
+        } else {
+            ModelDropdownField(
+                label = "请选择车型",
+                selectedModel = carModel,
+                onModelSelected = { carModel = it },
+                models = availableModels // 使用动态计算的列表
             )
-
-            InputField(
-                label = "请输入您的车牌号 (选填) :",
-                value = plateNumber,
-                onValueChange = { plateNumber = it })
-
-            InputField(
-                label = "请输入您的 ACCESS_TOKEN:",
-                value = accessToken,
-                onValueChange =  { input ->
-                    // 过滤空格/回车
-                    val formatted = input
-                        .filterNot { it == ' ' || it == '\n' || it == '\r' }
-                    accessToken = formatted
-                },
-                modifier = Modifier.focusRequester(accessTokenFocusRequester),
-                singleLine = false,
-                onHelpClick = {
-                    uriHandler.openUri("https://gitee.com/yangyachao-X/mg-linker/blob/master/README.md")
-                }
-            )
-            // 底部留一点空白，防止滚动到底时内容贴着按钮
-            Spacer(modifier = Modifier.height(8.dp))
         }
-        // ================== 3. 底部固定区域 (Footer) ==================
-        Column(
-            modifier = Modifier.fillMaxWidth(),
-            horizontalAlignment = Alignment.CenterHorizontally
-        ) {
-            // 给按钮上方加一点间距
-            Spacer(modifier = Modifier.height(2.dp))
-            Button(
-                onClick = {
-                    // *** 增加 VIN 校验 ***
-                    if (!isVinValid) {
-                        Toast.makeText(context, "请输入正确的17位车架号", Toast.LENGTH_SHORT).show()
-                        vinFocusRequester.requestFocus()
-                        return@Button
-                    }
-                    if (accessToken.isBlank()) {
-                        Toast.makeText(context, "请输入ACCESS_TOKEN", Toast.LENGTH_SHORT).show()
-                        accessTokenFocusRequester.requestFocus()
-                        return@Button
-                    }
-                    if (!accessToken.endsWith("-prod_SAIC")) {
-                        Toast.makeText(
-                            context,
-                            "ACCESS_TOKEN不正确，请点击输入框上方帮助按钮ⓘ查看抓包教程",
-                            Toast.LENGTH_SHORT
-                        ).show()
-                        accessTokenFocusRequester.requestFocus()
-                        return@Button
-                    }
-                    // *** 新增：查找并保存图片 URL ***
-                    val selectedColorObj = currentModelConfig?.colors?.find { it.name == color }
-                    val imageUrl = selectedColorObj?.imageUrl ?: ""
-                    // *** 新增：获取油箱和电池容量数据 ***
-                    // 默认为 0.0，防止空指针
-                    val fuelCapacity = currentModelConfig?.fuel ?: 0.0
-                    val batteryCapacity = currentModelConfig?.battery ?: 0.0
-                    // *** 新增：查找并保存油箱容积/电池容量 ***
-                    val editor = sharedPreferences.edit()
-                    editor.putString("car_brand", carBrand)
-                    editor.putString("car_model", carModel)
-                    editor.putString("car_name", carName)
-                    editor.putString("vin", vin)
-                    editor.putString("color", color)
-                    editor.putString("plate_number", plateNumber)
-                    editor.putString("access_token", accessToken)
-                    // 保存图片地址到本地
-                    editor.putString("car_image_url", imageUrl)
-                    editor.putBoolean("is_configured", true)
-                    // 建议转为 String 保存，避免 float/double 精度问题，读取时再 toDouble()
-                    editor.putString("car_fuel_capacity", fuelCapacity.toString())
-                    editor.putString("car_battery_capacity", batteryCapacity.toString())
-                    editor.apply()
-                    isConfigured = true
-                    // --- 新增代码开始 ---
-                    // 根据选择的品牌切换图标
-                    // 注意：切换图标可能会导致应用短暂退出或桌面刷新，这是系统机制
-                    try {
-                        val isMgBrand = carBrand == "名爵"
-                        changeAppIcon(context, isMgBrand)
-                    } catch (e: Exception) {
-                        e.printStackTrace()
-                        // 可以在这里加个 Toast 提示用户图标切换可能需要重启生效
-                    }
-                    // --- 新增代码结束 ---
 
-                    Toast.makeText(context, "保存成功，app将在稍后更新", Toast.LENGTH_SHORT).show()
-                    val appWidgetManager = AppWidgetManager.getInstance(context)
-                    val myProvider = ComponentName(context, MGWidget::class.java)
-                    if (appWidgetManager.getAppWidgetIds(myProvider).isEmpty()) {
-                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O && appWidgetManager.isRequestPinAppWidgetSupported) {
-                            try {
-                                appWidgetManager.requestPinAppWidget(myProvider, null, null)
-                            } catch (e: Exception) {
-                                // Handle exception
-                            }
+        InputField(label = "车辆名称 (选填)", value = carName, onValueChange = { carName = it })
+
+        // *** VIN 输入框修改 ***
+        InputField(
+            label = "请输入您的车架号(VIN):",
+            value = vin,
+            onValueChange = { input ->
+                // 1. 转大写
+                // 2. 过滤非数字和非大写字母
+                // 3. 限制长度为17
+                val formatted = input.uppercase()
+                    .filter { it.isDigit() || it in 'A'..'Z' }
+                    .take(17)
+                vin = formatted
+            },
+            modifier = Modifier.focusRequester(vinFocusRequester),
+            isError = isVinError,
+            supportingText = {
+                if (isVinError) {
+                    Text(
+                        "需输入17位，当前: ${vin.length}",
+                        color = MaterialTheme.colorScheme.error
+                    )
+                }
+            }
+        )
+        ColorDropdownField(
+            label = "请选择车辆颜色:",
+            selectedColor = color,
+            onColorSelected = { color = it },
+            options = availableColors // 使用动态计算的列表
+        )
+
+        InputField(
+            label = "请输入您的车牌号 (选填) :",
+            value = plateNumber,
+            onValueChange = { plateNumber = it })
+
+        InputField(
+            label = "请输入您的 ACCESS_TOKEN:",
+            value = accessToken,
+            onValueChange = { input ->
+                // 过滤空格/回车
+                val formatted = input
+                    .filterNot { it == ' ' || it == '\n' || it == '\r' }
+                accessToken = formatted
+            },
+            modifier = Modifier.focusRequester(accessTokenFocusRequester),
+            singleLine = false,
+            onHelpClick = {
+                uriHandler.openUri("https://gitee.com/yangyachao-X/mg-linker/blob/master/README.md")
+            }
+        )
+        // 底部留一点空白，防止滚动到底时内容贴着按钮
+        Spacer(modifier = Modifier.height(8.dp))
+    }
+    // ================== 3. 底部固定区域 (Footer) ==================
+    Column(
+        modifier = Modifier.fillMaxWidth(),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        // 给按钮上方加一点间距
+        Spacer(modifier = Modifier.height(2.dp))
+        Button(
+            onClick = {
+                // *** 增加 VIN 校验 ***
+                if (!isVinValid) {
+                    Toast.makeText(context, "请输入正确的17位车架号", Toast.LENGTH_SHORT).show()
+                    vinFocusRequester.requestFocus()
+                    return@Button
+                }
+                if (accessToken.isBlank()) {
+                    Toast.makeText(context, "请输入ACCESS_TOKEN", Toast.LENGTH_SHORT).show()
+                    accessTokenFocusRequester.requestFocus()
+                    return@Button
+                }
+                if (!accessToken.endsWith("-prod_SAIC")) {
+                    Toast.makeText(
+                        context,
+                        "ACCESS_TOKEN不正确，请点击输入框上方帮助按钮ⓘ查看抓包教程",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                    accessTokenFocusRequester.requestFocus()
+                    return@Button
+                }
+                // *** 新增：查找并保存图片 URL ***
+                val selectedColorObj = currentModelConfig?.colors?.find { it.name == color }
+                val imageUrl = selectedColorObj?.imageUrl ?: ""
+                // *** 新增：获取油箱和电池容量数据 ***
+                // 默认为 0.0，防止空指针
+                val fuelCapacity = currentModelConfig?.fuel ?: 0.0
+                val batteryCapacity = currentModelConfig?.battery ?: 0.0
+                // *** 新增：查找并保存油箱容积/电池容量 ***
+                val editor = sharedPreferences.edit()
+                editor.putString("car_brand", carBrand)
+                editor.putString("car_model", carModel)
+                editor.putString("car_name", carName)
+                editor.putString("vin", vin)
+                editor.putString("color", color)
+                editor.putString("plate_number", plateNumber)
+                editor.putString("access_token", accessToken)
+                // 保存图片地址到本地
+                editor.putString("car_image_url", imageUrl)
+                editor.putBoolean("is_configured", true)
+                // 建议转为 String 保存，避免 float/double 精度问题，读取时再 toDouble()
+                editor.putString("car_fuel_capacity", fuelCapacity.toString())
+                editor.putString("car_battery_capacity", batteryCapacity.toString())
+                editor.apply()
+                isConfigured = true
+                // --- 新增代码开始 ---
+                // 根据选择的品牌切换图标
+                // 注意：切换图标可能会导致应用短暂退出或桌面刷新，这是系统机制
+                try {
+                    val isMgBrand = carBrand == "名爵"
+                    changeAppIcon(context, isMgBrand)
+                } catch (e: Exception) {
+                    e.printStackTrace()
+                    // 可以在这里加个 Toast 提示用户图标切换可能需要重启生效
+                }
+                // --- 新增代码结束 ---
+
+                Toast.makeText(context, "保存成功，app将在稍后更新", Toast.LENGTH_SHORT).show()
+                val appWidgetManager = AppWidgetManager.getInstance(context)
+                val myProvider = ComponentName(context, MGWidget::class.java)
+                if (appWidgetManager.getAppWidgetIds(myProvider).isEmpty()) {
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O && appWidgetManager.isRequestPinAppWidgetSupported) {
+                        try {
+                            appWidgetManager.requestPinAppWidget(myProvider, null, null)
+                        } catch (e: Exception) {
+                            // Handle exception
                         }
                     }
-                    val intent = Intent(context, MGWidget::class.java).apply {
-                        action = AppWidgetManager.ACTION_APPWIDGET_UPDATE
-                    }
-                    val ids = AppWidgetManager.getInstance(context)
-                        .getAppWidgetIds(ComponentName(context, MGWidget::class.java))
-                    intent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS, ids)
-                    context.sendBroadcast(intent)
-                },
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .height(50.dp),
-            ) {
-                Text(text = "保存并更新小组件", fontSize = 16.sp)
-            }
-
-            Spacer(modifier = Modifier.height(8.dp))
-
-            Text(
-                text = "当前状态: ${if (isConfigured) "已配置" else "未配置"}",
-                modifier = Modifier.align(Alignment.Start),
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                fontSize = 12.sp
-            )
-
-            Spacer(modifier = Modifier.height(8.dp))
-
-            Text(
-                text = "Power By 杨家三郎\n点击检查更新",
-                textAlign = TextAlign.Center,
-                fontSize = 12.sp,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                lineHeight = 16.sp,
-                modifier = Modifier.clickable(
-                    interactionSource = remember { MutableInteractionSource() },
-                    indication = null
-                ) { onCheckUpdate() }
-            )
+                }
+                val intent = Intent(context, MGWidget::class.java).apply {
+                    action = AppWidgetManager.ACTION_APPWIDGET_UPDATE
+                }
+                val ids = AppWidgetManager.getInstance(context)
+                    .getAppWidgetIds(ComponentName(context, MGWidget::class.java))
+                intent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS, ids)
+                context.sendBroadcast(intent)
+            },
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(50.dp),
+        ) {
+            Text(text = "保存并更新小组件", fontSize = 16.sp)
         }
+
+        Spacer(modifier = Modifier.height(8.dp))
+
+        Text(
+            text = "当前状态: ${if (isConfigured) "已配置" else "未配置"}",
+            modifier = Modifier.align(Alignment.Start),
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+            fontSize = 12.sp
+        )
+
+        Spacer(modifier = Modifier.height(8.dp))
+        // [修改] 底部文字动态显示
+        val footerText = if (isUpdateAvailable) {
+            "Power By 杨家三郎\n发现更新，点击下载"
+        } else {
+            "Power By 杨家三郎\n纯属娱乐 请勿较真"
+        }
+        Text(
+            text = footerText,
+            textAlign = TextAlign.Center,
+            fontSize = 12.sp,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+            lineHeight = 16.sp,
+            modifier = Modifier.clickable(
+                interactionSource = remember { MutableInteractionSource() },
+                indication = null
+            ) { onCheckUpdate() }
+        )
     }
+}
 }
 @Composable
 fun BrandSelector(selectedBrand: String, onBrandSelected: (String) -> Unit) {
@@ -935,9 +978,11 @@ fun ModelDropdownField(
 ) {
     var expanded by remember { mutableStateOf(false) }
 
-    Column(modifier = Modifier
-        .fillMaxWidth()
-        .padding(vertical = 4.dp)) {
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(vertical = 4.dp)
+    ) {
         Text(
             text = label,
             fontSize = 14.sp,
