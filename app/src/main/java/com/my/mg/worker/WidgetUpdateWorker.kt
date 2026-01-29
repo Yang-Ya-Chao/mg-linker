@@ -6,6 +6,8 @@ import android.content.ComponentName
 import android.content.Context
 import android.util.Log
 import androidx.work.CoroutineWorker
+import androidx.work.OneTimeWorkRequest
+import androidx.work.WorkManager
 import androidx.work.WorkerParameters
 import com.my.mg.MGWidget
 import com.my.mg.MGWidgetIcon
@@ -27,6 +29,12 @@ import kotlinx.coroutines.withContext
  * 2. 自动化：自动查找每种组件的所有实例（1个或100个都能处理）。
  * 3. 高性能：所有组件并行刷新，互不阻塞。
  */
+
+fun startUpdateWorker(context: Context) {
+    val request = OneTimeWorkRequest.Builder(WidgetUpdateWorker::class.java).build()
+    WorkManager.getInstance(context).enqueue(request)
+}
+
 class WidgetUpdateWorker(
     context: Context, params: WorkerParameters
 ) : CoroutineWorker(context, params) {

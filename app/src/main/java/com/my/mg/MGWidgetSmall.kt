@@ -6,10 +6,8 @@ import android.content.Context
 import android.content.res.ColorStateList
 import android.view.View
 import android.widget.RemoteViews
-import androidx.work.OneTimeWorkRequest
-import androidx.work.WorkManager
 import com.my.mg.net.ImageWorker.loadCarImageSuspended
-import com.my.mg.worker.WidgetUpdateWorker
+import com.my.mg.worker.startUpdateWorker
 
 open class MGWidgetSmall : AppWidgetProvider() {
     override fun onUpdate(
@@ -18,8 +16,7 @@ open class MGWidgetSmall : AppWidgetProvider() {
         appWidgetIds: IntArray
     ) {
         // 同样使用 Worker 来触发更新
-        val request = OneTimeWorkRequest.Builder(WidgetUpdateWorker::class.java).build()
-        WorkManager.getInstance(context).enqueue(request)
+        startUpdateWorker(context)
     }
 
     companion object {

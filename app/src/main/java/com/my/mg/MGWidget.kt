@@ -7,12 +7,6 @@ import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.content.res.ColorStateList
-import android.graphics.Bitmap
-import android.graphics.BitmapFactory
-import android.location.Address
-import android.location.Geocoder
-import android.net.ConnectivityManager
-import android.net.NetworkCapabilities
 import android.os.Bundle
 import android.text.Spannable
 import android.text.SpannableString
@@ -21,26 +15,13 @@ import android.util.Log
 import android.util.TypedValue
 import android.view.View
 import android.widget.RemoteViews
-import androidx.work.OneTimeWorkRequest
-import androidx.work.WorkManager
-import com.google.gson.Gson
-import com.my.mg.MGWidget.Companion.log
 import com.my.mg.log.LogcatHelper
 import com.my.mg.net.ImageWorker.loadCarImageSuspended
 import com.my.mg.widget.data.EnergyCalculator
-import com.my.mg.worker.WidgetUpdateWorker
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.withContext
-import okhttp3.OkHttpClient
-import okhttp3.Request
-import java.io.File
-import java.io.FileOutputStream
-import java.net.URL
+import com.my.mg.worker.startUpdateWorker
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
-import java.util.concurrent.TimeUnit
-import kotlin.math.log
 
 /**
  * Power by 杨家三郎 & Optimized by Android Expert
@@ -131,10 +112,7 @@ open class MGWidget : AppWidgetProvider() {
     /**
      * 启动一次性后台任务来更新小组件
      */
-    private fun startUpdateWorker(context: Context) {
-        val request = OneTimeWorkRequest.Builder(WidgetUpdateWorker::class.java).build()
-        WorkManager.getInstance(context).enqueue(request)
-    }
+
 
     companion object {
         private const val PREFS_NAME = "mg_config"
