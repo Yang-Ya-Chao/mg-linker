@@ -44,13 +44,12 @@ mg-linker/
 │   ├── MainActivity.kt           # [核心入口] App主容器 / 负责 Compose 页面导航 (ViewPager) / 应用图标切换逻辑
 │   ├── MainViewModel.kt          # [架构-VM] MVVM ViewModel / 管理 UI 状态 (StateFlow) / 处理配置保存与更新检查
 │   ├── MGWidget*.kt              # [小组件] 桌面小组件提供者 (MGWidget, MGWidgetSmall, MGWidgetIcon) / 处理广播与点击事件
-│   ├── config/
-│   │   └── CarConfig.kt          # [配置] 静态车辆配置数据 (品牌、车型、颜色代码表)
 │   ├── data/
 │   │   ├── MainUIState.kt        # [模型] UI 状态数据类 (包含 Loading 状态、下载进度、车辆配置等)
 │   │   ├── VehicleData.kt        # [模型] 车辆核心数据实体 (续航、电量、胎压、门窗状态、定位等)
 │   │   ├── GiteeRelease.kt       # [模型] 软件更新 API 响应数据结构
 │   │   └── WidgetContextData.kt  # [模型] 传递给 Widget 用于渲染的上下文数据
+│   │   └── CarConfig.kt          # [模型] 静态车辆配置数据 (品牌、车型、颜色代码表)
 │   ├── log/
 │   │   └── LogcatHelper.kt       # [工具] 日志系统 / 负责执行 logcat 命令 / 维护录制状态流 / 文件写入
 │   ├── net/
