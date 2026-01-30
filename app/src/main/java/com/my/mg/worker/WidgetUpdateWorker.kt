@@ -139,6 +139,8 @@ class WidgetUpdateWorker(
         } else {
             null
         }
+        //计算油耗
+        processEnergyRecord(context, vehicleData, baseData)
 
         var address: String? = null
         if (vehicleData?.data?.vehicle_position != null) {

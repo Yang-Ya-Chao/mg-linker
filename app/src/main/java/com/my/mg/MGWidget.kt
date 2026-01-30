@@ -219,14 +219,15 @@ open class MGWidget : AppWidgetProvider() {
             val mileage = vehicleValue?.odometer ?: 0
             // 3. 油耗+能耗
             // 调用计算器
-            var result = EnergyCalculator.calculate(
-                fuelRange = fuelRange.toDouble(),
-                fuelCapacity = ctxData.fuelCapacity,
-                fuelLevel = fuelLevel.toDouble(),
-                batteryRange = batteryPackRange.toDouble(),
-                batteryCapacity = ctxData.batteryCapacity,
-                batteryPackPrc = batteryPackPrc.toDouble()
-            ).displayText
+//            var result = EnergyCalculator.calculate(
+//                fuelRange = fuelRange.toDouble(),
+//                fuelCapacity = ctxData.fuelCapacity,
+//                fuelLevel = fuelLevel.toDouble(),
+//                batteryRange = batteryPackRange.toDouble(),
+//                batteryCapacity = ctxData.batteryCapacity,
+//                batteryPackPrc = batteryPackPrc.toDouble()
+//            ).displayText
+            var result = data.data?.calculator
             if (layoutId == R.layout.mg_widget) {
                 if (result != "") result = " / " + result
                 views.setTextViewText(R.id.tv_total_mileage, "总里程: ${mileage}km${result}")
@@ -234,6 +235,10 @@ open class MGWidget : AppWidgetProvider() {
                 views.setTextViewText(R.id.tv_total_mileage, "${mileage}km")
                 views.setViewVisibility(
                     R.id.tv_capacity,
+                    if (result == "") View.GONE else View.VISIBLE
+                )
+                views.setViewVisibility(
+                    R.id.capacity,
                     if (result == "") View.GONE else View.VISIBLE
                 )
                 views.setTextViewText(R.id.capacity, "${result}")

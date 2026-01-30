@@ -12,7 +12,8 @@ import java.util.Locale
 object EnergyCalculator {
 
     // 物理常数：1升汽油约等于 8.9 kWh 能量
-    private const val KWH_PER_LITER_GASOLINE = 8.9
+    private const val ELECTRIC_TO_FUEL_RATIO = 0.31 // 1度电 ≈ 0.31L 油（工信部标准）
+
 
     data class ConsumptionResult(
         val displayText: String,   // UI显示文本 (例如 " / 5.6L/100km")
@@ -63,7 +64,7 @@ object EnergyCalculator {
         val elecCons = calculateElectricConsumption(batteryRange, batteryCapacity, batteryPackPrc)
 
         // 将电耗转化为“等效油耗”
-        val electricToFuelEquivalent = if (elecCons > 0) elecCons / KWH_PER_LITER_GASOLINE else 0.0
+        val electricToFuelEquivalent = if (elecCons > 0) elecCons * ELECTRIC_TO_FUEL_RATIO else 0.0
         val totalEquivalentConsumption = fuelCons + electricToFuelEquivalent
 
         return formatResult(totalEquivalentConsumption, "L/100km")

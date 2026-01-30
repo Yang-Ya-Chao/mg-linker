@@ -16,7 +16,8 @@ data class VehicleData(
     val vehicle_alerts: List<Any>?,
     val vehicle_value: VehicleValue?,
     val vehicle_state: VehicleState?,
-    val update_time: Long?
+    val update_time: Long?,
+    var calculator:String?
 )
 
 /**

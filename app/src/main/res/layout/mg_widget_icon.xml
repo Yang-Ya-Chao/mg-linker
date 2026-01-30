@@ -238,13 +238,13 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:gravity="center_vertical"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="14sp"
-                    android:layout_height="14sp"
-                    android:layout_marginTop="2dp"
+                    android:layout_height="12sp"
                     android:src="@drawable/odometer" />
 
                 <TextView
@@ -252,17 +252,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="2dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_weight="1"
                     android:text="0km"
                     android:textColor="@color/widget_text_color"
                     android:textSize="10sp" />
 
                 <ImageView
                     android:layout_width="14sp"
-                    android:layout_height="14sp"
+                    android:layout_height="12sp"
                     android:layout_marginStart="5dp"
-                    android:layout_marginTop="2dp"
                     android:src="@drawable/batterylevel" />
 
                 <TextView
@@ -270,17 +267,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="2dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_weight="1"
                     android:text="0%"
                     android:textColor="@color/widget_text_color"
                     android:textSize="10sp" />
 
                 <ImageView
                     android:layout_width="14sp"
-                    android:layout_height="14sp"
+                    android:layout_height="12sp"
                     android:layout_marginStart="5dp"
-                    android:layout_marginTop="2dp"
                     android:src="@drawable/batteryvoltage" />
 
                 <TextView
@@ -288,8 +282,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="2dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_weight="1"
                     android:text="0v"
                     android:textColor="@color/widget_text_color"
                     android:textSize="10sp" />
@@ -298,91 +290,82 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+
+                android:gravity="center_vertical"
                 android:layout_weight="1">
                 <TextView
                     android:id="@+id/tv_lock_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="2dp"
                     android:text="车锁"
                     android:textColor="@color/widget_text_color"
                     android:textSize="10sp" />
                 <ImageView
                     android:id="@+id/tv_lock_status"
-                    android:layout_width="16sp"
-                    android:layout_height="16sp"
+                    android:layout_width="14sp"
+                    android:layout_height="12sp"
                     android:layout_marginStart="2dp"
-                    android:layout_marginTop="1dp"
                     android:src="@drawable/lock" />
                 <TextView
                     android:id="@+id/tv_window_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="4dp"
-                    android:layout_marginTop="2dp"
                     android:text="车窗"
                     android:textColor="@color/widget_text_color"
                     android:textSize="10sp" />
                 <ImageView
                     android:id="@+id/tv_window_value"
-                    android:layout_width="16sp"
-                    android:layout_height="16dp"
+                    android:layout_width="14sp"
+                    android:layout_height="14dp"
                     android:layout_marginStart="2dp"
-                    android:layout_marginTop="2dp"
                     android:src="@drawable/windowclose" />
                 <TextView
                     android:id="@+id/tv_door_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="4dp"
-                    android:layout_marginTop="2dp"
                     android:text="车门"
                     android:textColor="@color/widget_text_color"
                     android:textSize="10sp" />
                 <ImageView
                     android:id="@+id/tv_door_value"
                     android:layout_width="14sp"
-                    android:layout_height="14dp"
+                    android:layout_height="12dp"
                     android:layout_marginStart="2dp"
-                    android:layout_marginTop="2dp"
                     android:src="@drawable/doorclose" />
             </LinearLayout>
             <LinearLayout
-                android:id="@+id/tv_capacity"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center_vertical"
                 android:layout_weight="1">
-                <ImageView
-                    android:layout_width="14sp"
-                    android:layout_height="12sp"
-                    android:layout_marginTop="4dp"
-                    android:src="@drawable/capacity" />
-                <TextView
-                    android:id="@+id/capacity"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="2dp"
-                    android:text=""
-                    android:textColor="@color/widget_text_color"
-                    android:textSize="12sp" />
                 <ImageView
                     android:id="@+id/tv_update"
                     android:layout_width="14sp"
                     android:layout_height="12sp"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginTop="4dp"
                     android:src="@drawable/update" />
                 <TextView
                     android:id="@+id/tv_update_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="2dp"
-                    android:layout_marginTop="2dp"
                     android:text=""
                     android:textColor="@color/widget_text_color"
                     android:textSize="12sp" />
-
-
+                <ImageView
+                    android:id="@+id/tv_capacity"
+                    android:layout_width="14sp"
+                    android:layout_height="12sp"
+                    android:layout_marginStart="4dp"
+                    android:src="@drawable/capacity" />
+                <TextView
+                    android:id="@+id/capacity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/widget_text_color"
+                    android:textSize="12sp" />
             </LinearLayout>
         </LinearLayout>
 
