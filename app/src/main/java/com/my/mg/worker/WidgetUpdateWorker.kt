@@ -9,14 +9,17 @@ import androidx.work.CoroutineWorker
 import androidx.work.OneTimeWorkRequest
 import androidx.work.WorkManager
 import androidx.work.WorkerParameters
+import com.my.mg.BuildConfig
 import com.my.mg.MGWidget
 import com.my.mg.MGWidgetIcon
 import com.my.mg.MGWidgetSmall
 import com.my.mg.MGWidgetStyle1
 import com.my.mg.MGWidgetStyle2
 import com.my.mg.VehicleStatusResponse
+import com.my.mg.log.LogcatHelper
 import com.my.mg.net.AddressWorker.getAddressSync
 import com.my.mg.net.VehicleDataWorker.fetchVehicleDataSuspended
+import com.my.mg.widget.data.WidgetContextData
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
@@ -31,6 +34,9 @@ import kotlinx.coroutines.withContext
  */
 
 fun startUpdateWorker(context: Context) {
+    if (BuildConfig.DEBUG) {
+        LogcatHelper.startRecording(context)
+    }
     val request = OneTimeWorkRequest.Builder(WidgetUpdateWorker::class.java).build()
     WorkManager.getInstance(context).enqueue(request)
 }
@@ -41,35 +47,53 @@ class WidgetUpdateWorker(
 
     // 定义一个简单的配置类，用来把 Widget类 和 它的更新方法 绑定在一起
     // 定义配置类，现在 updateAction 接收数据对象了
+    // [修改] UpdateAction 现在接收 WidgetContextData，包含所有所需数据
     private data class WidgetConfig(
         val widgetClass: Class<out AppWidgetProvider>,
-        // 核心变化：Lambda 接收 fetchedData 和 address
-        val updateAction: suspend (Context, AppWidgetManager, Int, VehicleStatusResponse?, String?) -> Unit
+        val updateAction: suspend (Context, AppWidgetManager, Int, WidgetContextData) -> Unit
     )
 
     override suspend fun doWork(): Result = withContext(Dispatchers.IO) {
 
         val context = applicationContext
         val appWidgetManager = AppWidgetManager.getInstance(context)
+        // 1. [优化] 在 Worker 开始时统一读取 SharedPreferences
+        // 避免在每个 Widget 更新时重复 IO 操作
         val prefs = context.getSharedPreferences("mg_config", Context.MODE_PRIVATE)
+        val vin = prefs.getString("vin", "") ?: ""
+        val token = prefs.getString("access_token", "") ?: ""
+
+        // 准备静态配置数据
+        val baseData = WidgetContextData(
+            carName = prefs.getString("car_name", "") ?: "",
+            carBrand = prefs.getString("car_brand", "名爵") ?: "名爵",
+            carModel = prefs.getString("car_model", "") ?: "",
+            plateNumber = prefs.getString("plate_number", "") ?: "",
+            carImageUrl = prefs.getString("car_image_url", "") ?: "",
+            // 默认值为 0.0，防止计算奔溃
+            fuelCapacity = prefs.getString("car_fuel_capacity", "0.0")?.toDoubleOrNull() ?: 0.0,
+            batteryCapacity = prefs.getString("car_battery_capacity", "0.0")?.toDoubleOrNull() ?: 0.0,
+            vehicleData = null,
+            address = null
+        )
         // =================================================================
         // 1. 定义支持的组件类型
         // =================================================================
         val widgetConfigs = listOf(
-            WidgetConfig(MGWidget::class.java) { ctx, mgr, id, data, addr ->
-                MGWidget.updateWidgetSynchronously(ctx, mgr, id, data, addr)
+            WidgetConfig(MGWidget::class.java) { ctx, mgr, id, data ->
+                MGWidget.updateWidgetSynchronously(ctx, mgr, id, data)
             },
-            WidgetConfig(MGWidgetIcon::class.java) { ctx, mgr, id, data, addr ->
-                MGWidget.updateWidgetSynchronously(ctx, mgr, id, data, addr)
+            WidgetConfig(MGWidgetIcon::class.java) { ctx, mgr, id, data ->
+                MGWidget.updateWidgetSynchronously(ctx, mgr, id, data)
             },
-            WidgetConfig(MGWidgetSmall::class.java) { ctx, mgr, id, data, addr ->
-                MGWidgetSmall.updateWidgetSynchronously(ctx, mgr, id, data, addr)
+            WidgetConfig(MGWidgetSmall::class.java) { ctx, mgr, id, data ->
+                MGWidgetSmall.updateWidgetSynchronously(ctx, mgr, id, data)
             },
-            WidgetConfig(MGWidgetStyle1::class.java) { ctx, mgr, id, data, addr ->
-                MGWidget.updateWidgetSynchronously(ctx, mgr, id, data, addr)
+            WidgetConfig(MGWidgetStyle1::class.java) { ctx, mgr, id, data ->
+                MGWidget.updateWidgetSynchronously(ctx, mgr, id, data)
             },
-            WidgetConfig(MGWidgetStyle2::class.java) { ctx, mgr, id, data, addr ->
-                MGWidget.updateWidgetSynchronously(ctx, mgr, id, data, addr)
+            WidgetConfig(MGWidgetStyle2::class.java) { ctx, mgr, id, data ->
+                MGWidget.updateWidgetSynchronously(ctx, mgr, id, data)
             }
             // 将来如果有中型组件，直接加：
             // WidgetConfig(MGWidgetMedium::class.java) { ctx, mgr, id, data, addr ->
@@ -112,26 +136,19 @@ class WidgetUpdateWorker(
 
         Log.d("WidgetUpdateWorker", "Found active widgets, starting data fetch...")
 
-        // =================================================================
-        // 4. 【生产者】执行唯一的网络请求 (因为前面通过了检查，说明肯定有组件需要数据)
-        // =================================================================
-        val vin = prefs.getString("vin", "") ?: ""
-        val token = prefs.getString("access_token", "") ?: ""
-
-        // 4.1 请求车辆数据
+        // 4. 执行网络请求 (仅当有活跃组件时)
         val vehicleData: VehicleStatusResponse? = if (vin.isNotEmpty() && token.isNotEmpty()) {
             fetchVehicleDataSuspended(vin, token)
         } else {
             null
         }
-        // 4.2 获取地理位置 (如果数据获取成功)
+
         var address: String? = null
         if (vehicleData?.data?.vehicle_position != null) {
             val pos = vehicleData.data.vehicle_position
             val lat = pos.latitude?.toDoubleOrNull()
             val lng = pos.longitude?.toDoubleOrNull()
             if (lat != null && lng != null) {
-                // 复用 MGWidget 中的地址解析逻辑 (需将 getAddressSync 设为 internal/public companion)
                 address = getAddressSync(context, lat, lng)
             }
         }
@@ -140,31 +157,24 @@ class WidgetUpdateWorker(
             "Data fetch complete. Success: ${vehicleData != null}, Address: $address"
         )
 
-
+        // 5. [关键] 组装最终的完整数据对象
+        val finalContextData = baseData.copy(
+            vehicleData = vehicleData,
+            address = address
+        )
 
 
         Log.d("WidgetUpdateWorker", "Starting update loop for ${activeWidgets.size} widget types")
 
-        // =================================================================
-        // 5. 【消费者】并发刷新 (只刷新 activeWidgets 中记录的 ID)
-        // =================================================================
+        // 6. 并发更新所有 Widget
         val updateJobs = activeWidgets.flatMap { (config, ids) ->
             ids.map { widgetId ->
                 async {
                     try {
-                        config.updateAction(
-                            context,
-                            appWidgetManager,
-                            widgetId,
-                            vehicleData,
-                            address
-                        )
+                        // 将准备好的数据传下去
+                        config.updateAction(context, appWidgetManager, widgetId, finalContextData)
                     } catch (e: Exception) {
-                        Log.e(
-                            "WidgetUpdateWorker",
-                            "Update error for ${config.widgetClass.simpleName} ID: $widgetId",
-                            e
-                        )
+                        e.printStackTrace()
                     }
                 }
             }

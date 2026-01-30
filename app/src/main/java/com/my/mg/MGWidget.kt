@@ -15,9 +15,9 @@ import android.util.Log
 import android.util.TypedValue
 import android.view.View
 import android.widget.RemoteViews
-import com.my.mg.log.LogcatHelper
 import com.my.mg.net.ImageWorker.loadCarImageSuspended
 import com.my.mg.widget.data.EnergyCalculator
+import com.my.mg.widget.data.WidgetContextData
 import com.my.mg.worker.startUpdateWorker
 import java.text.SimpleDateFormat
 import java.util.Date
@@ -41,10 +41,7 @@ open class MGWidget : AppWidgetProvider() {
     override fun onUpdate(
         context: Context, appWidgetManager: AppWidgetManager, appWidgetIds: IntArray
     ) {
-        if (BuildConfig.DEBUG) {
-            LogcatHelper.startRecording(context)
-        }
-        log(context, "onUpdate called for IDs: ${appWidgetIds.joinToString()}")
+        log("onUpdate called for IDs: ${appWidgetIds.joinToString()}")
 
         // 使用 WorkManager 触发更新，保证任务能够执行完成
         startUpdateWorker(context)
@@ -54,7 +51,7 @@ open class MGWidget : AppWidgetProvider() {
         context: Context, appWidgetManager: AppWidgetManager, appWidgetId: Int, newOptions: Bundle
     ) {
         super.onAppWidgetOptionsChanged(context, appWidgetManager, appWidgetId, newOptions)
-        log(context, "onAppWidgetOptionsChanged for ID: $appWidgetId")
+        log("onAppWidgetOptionsChanged for ID: $appWidgetId")
 
         // 尺寸变化时触发刷新以适配字体
         startUpdateWorker(context)
@@ -62,7 +59,7 @@ open class MGWidget : AppWidgetProvider() {
 
     override fun onReceive(context: Context, intent: Intent) {
         super.onReceive(context, intent)
-        log(context, "onReceive called with action: ${intent.action}")
+        log("onReceive called with action: ${intent.action}")
 
         val appWidgetManager = AppWidgetManager.getInstance(context)
 
@@ -115,15 +112,11 @@ open class MGWidget : AppWidgetProvider() {
 
 
     companion object {
-        private const val PREFS_NAME = "mg_config"
         private const val LOG_TAG = "MGWidget"
         private const val ACTION_REFRESH = "com.my.mg.ACTION_REFRESH"
         private const val ACTION_WIDGET_FLIP = "ACTION_WIDGET_FLIP"
 
-        private var fuelCapacity = 0.0
-        private var batteryCapacity = 0.0
-
-        private fun log(context: Context, message: String) {
+        private fun log(message: String) {
             Log.d(LOG_TAG, message)
         }
 
@@ -139,38 +132,29 @@ open class MGWidget : AppWidgetProvider() {
             context: Context,
             appWidgetManager: AppWidgetManager,
             appWidgetId: Int,
-            fetchedData: VehicleStatusResponse?, // 新增参数
-            fetchedAddress: String?              // 新增参数
+            ctxData: WidgetContextData // 使用封装的数据对象
         ) {
-            log(context, "updateWidgetSynchronously called for ID: $appWidgetId")
+            log("updateWidgetSynchronously called for ID: $appWidgetId")
             val providerInfo = appWidgetManager.getAppWidgetInfo(appWidgetId)
             if (providerInfo == null) {
-                log(context, "ProviderInfo is null for ID: $appWidgetId, skip.")
+                log("ProviderInfo is null for ID: $appWidgetId, skip.")
                 return
             }
 
             val layoutId = providerInfo.initialLayout
             val views = RemoteViews(context.packageName, layoutId)
-            val prefs = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
 
             // 1. 读取配置
-            val vin = prefs.getString("vin", "") ?: ""
-            val carBrand = prefs.getString("car_brand", "名爵") ?: "名爵"
-            val carModel = prefs.getString("car_model", "") ?: ""
-            val carName = prefs.getString("car_name", "") ?: ""
-            val plateNumber = prefs.getString("plate_number", "") ?: ""
-            val token = prefs.getString("access_token", "") ?: ""
-            val carImageUrl = prefs.getString("car_image_url", "") ?: ""
-            fuelCapacity = prefs.getString("car_fuel_capacity", null)?.toDoubleOrNull() ?: 0.0
-            batteryCapacity = prefs.getString("car_battery_capacity", null)?.toDoubleOrNull() ?: 0.0
+
             // 2. 设置静态 UI (车名、车牌、Logo)
             views.setTextViewText(
                 R.id.tv_car_name,
-                if (carName.isNullOrEmpty()) carModel else carName
+                if (ctxData.carName.isNullOrEmpty()) ctxData.carModel else ctxData.carName
             )
             if ((layoutId != R.layout.mg_widget_style1) || (layoutId != R.layout.mg_widget_style2)) {
-                views.setTextViewText(R.id.tv_plate_number, plateNumber)
-                val logoResId = if (carBrand == "荣威") R.drawable.rw_logo else R.drawable.mg_logo
+                views.setTextViewText(R.id.tv_plate_number, ctxData.plateNumber)
+                val logoResId =
+                    if (ctxData.carBrand == "荣威") R.drawable.rw_logo else R.drawable.mg_logo
                 views.setImageViewResource(R.id.iv_brand_logo, logoResId)
 
 
@@ -181,12 +165,12 @@ open class MGWidget : AppWidgetProvider() {
                 setupClickEvents(context, views, appWidgetId, layoutId)
 
                 // 5. 加载车辆图片 (挂起操作，含缓存和采样)
-                loadCarImageSuspended(context, views, carImageUrl)
+                loadCarImageSuspended(context, views, ctxData.carImageUrl)
             }
             // 5. 使用传入的数据更新 UI
-            if (fetchedData != null) {
+            if (ctxData.vehicleData != null) {
                 // 直接使用 Worker 传过来的地址
-                updateWidgetUI(context, views, fetchedData, fetchedAddress, layoutId)
+                updateWidgetUI(context, views, ctxData, layoutId)
             } else {
                 // 如果数据为空（比如无网络），显示提示或保持旧数据
                 // views.setTextViewText(R.id.tv_update_time, "等待更新...")
@@ -198,11 +182,6 @@ open class MGWidget : AppWidgetProvider() {
         }
 
 
-
-
-
-
-
         // ========================================================================
         // UI 更新逻辑 (完整保留)
         // ========================================================================
@@ -210,10 +189,10 @@ open class MGWidget : AppWidgetProvider() {
         private fun updateWidgetUI(
             context: Context,
             views: RemoteViews,
-            data: VehicleStatusResponse,
-            address: String?,
+            ctxData: WidgetContextData,
             layoutId: Int
         ) {
+            val data = ctxData.vehicleData ?: return
             val vehicleValue = data.data?.vehicle_value
             val vehicleState = data.data?.vehicle_state
             val updateTime = data.data?.update_time ?: System.currentTimeMillis()
@@ -236,7 +215,6 @@ open class MGWidget : AppWidgetProvider() {
             }
 
 
-
             // 3. 油量、电量、续航
             val fuelLevel = vehicleValue?.fuel_level_prc ?: 0
             val fuelRange = vehicleValue?.fuel_range ?: 0
@@ -250,18 +228,21 @@ open class MGWidget : AppWidgetProvider() {
             // 调用计算器
             var result = EnergyCalculator.calculate(
                 fuelRange = fuelRange.toDouble(),
-                fuelCapacity = fuelCapacity,
+                fuelCapacity = ctxData.fuelCapacity,
                 fuelLevel = fuelLevel.toDouble(),
                 batteryRange = batteryPackRange.toDouble(),
-                batteryCapacity = batteryCapacity,
+                batteryCapacity = ctxData.batteryCapacity,
                 batteryPackPrc = batteryPackPrc.toDouble()
             ).displayText
             if (layoutId == R.layout.mg_widget) {
-                if (result != "") result = " / "+result
+                if (result != "") result = " / " + result
                 views.setTextViewText(R.id.tv_total_mileage, "总里程: ${mileage}km${result}")
             } else if (layoutId == R.layout.mg_widget_icon) {
                 views.setTextViewText(R.id.tv_total_mileage, "${mileage}km")
-                views.setViewVisibility(R.id.tv_capacity,if(result == "") View.GONE else View.VISIBLE)
+                views.setViewVisibility(
+                    R.id.tv_capacity,
+                    if (result == "") View.GONE else View.VISIBLE
+                )
                 views.setTextViewText(R.id.capacity, "${result}")
 
 
@@ -472,8 +453,8 @@ open class MGWidget : AppWidgetProvider() {
             }
 
             // 9. 地址
-            if (!address.isNullOrEmpty()) {
-                views.setTextViewText(R.id.tv_location, address)
+            if (!ctxData.address.isNullOrEmpty()) {
+                views.setTextViewText(R.id.tv_location, ctxData.address)
             }
         }
 
@@ -497,10 +478,10 @@ open class MGWidget : AppWidgetProvider() {
             val rrP = (value?.rear_right_tyre_pressure ?: 0) / 100.0
 
             // 逻辑：胎压正常(2.0-3.8)显示绿色，异常显示红色
-            updateWheel(views,R.id.iv_wheel_fl_green,R.id.iv_wheel_fl_red,flP)
-            updateWheel(views,R.id.iv_wheel_fr_green,R.id.iv_wheel_fr_red,frP)
-            updateWheel(views,R.id.iv_wheel_rl_green,R.id.iv_wheel_rl_red,rlP)
-            updateWheel(views,R.id.iv_wheel_rr_green,R.id.iv_wheel_rr_red,rrP)
+            updateWheel(views, R.id.iv_wheel_fl_green, R.id.iv_wheel_fl_red, flP)
+            updateWheel(views, R.id.iv_wheel_fr_green, R.id.iv_wheel_fr_red, frP)
+            updateWheel(views, R.id.iv_wheel_rl_green, R.id.iv_wheel_rl_red, rlP)
+            updateWheel(views, R.id.iv_wheel_rr_green, R.id.iv_wheel_rr_red, rrP)
 
             // ============================================================
             // 2. 车门状态驱动 (Style A + Style B + 伴随车窗)
@@ -607,7 +588,7 @@ open class MGWidget : AppWidgetProvider() {
             )
         }
 
-        private fun updateWheel(views: RemoteViews,greenId: Int, redId: Int, pressure: Double) {
+        private fun updateWheel(views: RemoteViews, greenId: Int, redId: Int, pressure: Double) {
             val isNormal = pressure in 2.0..3.8
             views.setViewVisibility(greenId, if (isNormal) View.VISIBLE else View.GONE)
             views.setViewVisibility(redId, if (isNormal) View.GONE else View.VISIBLE)

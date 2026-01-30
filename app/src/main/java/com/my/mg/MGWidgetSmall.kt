@@ -7,6 +7,7 @@ import android.content.res.ColorStateList
 import android.view.View
 import android.widget.RemoteViews
 import com.my.mg.net.ImageWorker.loadCarImageSuspended
+import com.my.mg.widget.data.WidgetContextData
 import com.my.mg.worker.startUpdateWorker
 
 open class MGWidgetSmall : AppWidgetProvider() {
@@ -27,8 +28,7 @@ open class MGWidgetSmall : AppWidgetProvider() {
             context: Context,
             appWidgetManager: AppWidgetManager,
             appWidgetId: Int,
-            fetchedData: VehicleStatusResponse?, // 新增参数
-            fetchedAddress: String?              // 新增参数
+            ctxData: WidgetContextData // 使用封装的数据对象
         ) {
             val views = RemoteViews(context.packageName, R.layout.mg_widget_small)
 
@@ -37,16 +37,14 @@ open class MGWidgetSmall : AppWidgetProvider() {
             // 或者将这些逻辑抽取到单独的 Helper 类中。
             // 假设我们现在直接复用 MGWidget 的逻辑：
 
-            val prefs = context.getSharedPreferences("mg_config", Context.MODE_PRIVATE)
-            val carName = prefs.getString("car_name", "") ?: ""
-            val carImageUrl = prefs.getString("car_image_url", "") ?: ""
+
 
             // 1. 基础 UI
-            views.setTextViewText(R.id.tv_car_name, carName)
-            loadCarImageSuspended(context, views, carImageUrl)
+            views.setTextViewText(R.id.tv_car_name, ctxData.carName)
+            loadCarImageSuspended(context, views, ctxData.carImageUrl)
             // 2. 使用传入的数据
-            if (fetchedData != null) {
-                val vehicleValue = fetchedData?.data?.vehicle_value
+            if (ctxData.vehicleData != null) {
+                val vehicleValue = ctxData.vehicleData?.data?.vehicle_value
                 // 3. 油量、电量、续航
                 val fuelLevel = vehicleValue?.fuel_level_prc ?: 0
                 val fuelRange = vehicleValue?.fuel_range ?: 0
