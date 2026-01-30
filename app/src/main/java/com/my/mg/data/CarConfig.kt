@@ -1,4 +1,4 @@
-package com.my.mg.config
+package com.my.mg.data
 
 // ================== 新增：JSON 数据模型 ==================
 // 远程配置 JSON 数据的模型类

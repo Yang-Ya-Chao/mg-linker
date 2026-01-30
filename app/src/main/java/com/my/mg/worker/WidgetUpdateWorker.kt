@@ -19,7 +19,7 @@ import com.my.mg.VehicleStatusResponse
 import com.my.mg.log.LogcatHelper
 import com.my.mg.net.AddressWorker.getAddressSync
 import com.my.mg.net.VehicleDataWorker.fetchVehicleDataSuspended
-import com.my.mg.widget.data.WidgetContextData
+import com.my.mg.data.WidgetContextData
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll

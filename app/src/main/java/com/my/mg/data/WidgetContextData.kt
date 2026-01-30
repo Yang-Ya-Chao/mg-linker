@@ -1,4 +1,4 @@
-package com.my.mg.widget.data
+package com.my.mg.data
 
 
 import com.my.mg.VehicleStatusResponse

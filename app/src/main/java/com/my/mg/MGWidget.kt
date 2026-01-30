@@ -17,7 +17,7 @@ import android.view.View
 import android.widget.RemoteViews
 import com.my.mg.net.ImageWorker.loadCarImageSuspended
 import com.my.mg.widget.data.EnergyCalculator
-import com.my.mg.widget.data.WidgetContextData
+import com.my.mg.data.WidgetContextData
 import com.my.mg.worker.startUpdateWorker
 import java.text.SimpleDateFormat
 import java.util.Date
