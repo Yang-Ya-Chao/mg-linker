@@ -31,7 +31,7 @@
             android:layout_marginBottom="2dp"
             android:ellipsize="end"
             android:lines="1"
-            android:text="--"
+            android:text="-暂无地址"
             android:textColor="@color/widget_text_color"
             android:textSize="12sp" />
     </LinearLayout>
@@ -296,114 +296,57 @@
             </LinearLayout>
 
             <LinearLayout
-
-
                 android:layout_width="match_parent"
-
                 android:layout_height="wrap_content"
-
-
                 android:layout_weight="1">
-
                 <TextView
-
                     android:id="@+id/tv_lock_label"
-
                     android:layout_width="wrap_content"
-
                     android:layout_height="wrap_content"
-
                     android:layout_marginTop="2dp"
-
                     android:text="车锁"
-
                     android:textColor="@color/widget_text_color"
-
                     android:textSize="10sp" />
-
                 <ImageView
-
                     android:id="@+id/tv_lock_status"
-
                     android:layout_width="16sp"
-
                     android:layout_height="16sp"
-
                     android:layout_marginStart="2dp"
-
                     android:layout_marginTop="1dp"
-
                     android:src="@drawable/lock" />
-
                 <TextView
-
                     android:id="@+id/tv_window_label"
-
                     android:layout_width="wrap_content"
-
                     android:layout_height="wrap_content"
-
                     android:layout_marginStart="4dp"
-
                     android:layout_marginTop="2dp"
-
                     android:text="车窗"
-
                     android:textColor="@color/widget_text_color"
-
                     android:textSize="10sp" />
-
                 <ImageView
-
                     android:id="@+id/tv_window_value"
-
                     android:layout_width="16sp"
-
                     android:layout_height="16dp"
-
                     android:layout_marginStart="2dp"
-
                     android:layout_marginTop="2dp"
-
                     android:src="@drawable/windowclose" />
-
                 <TextView
-
                     android:id="@+id/tv_door_label"
-
                     android:layout_width="wrap_content"
-
                     android:layout_height="wrap_content"
-
                     android:layout_marginStart="4dp"
-
                     android:layout_marginTop="2dp"
-
                     android:text="车门"
-
                     android:textColor="@color/widget_text_color"
-
                     android:textSize="10sp" />
-
-
                 <ImageView
-
                     android:id="@+id/tv_door_value"
-
                     android:layout_width="14sp"
-
                     android:layout_height="14dp"
-
                     android:layout_marginStart="2dp"
-
                     android:layout_marginTop="2dp"
-
                     android:src="@drawable/doorclose" />
-
-
             </LinearLayout>
-
-
             <LinearLayout
                 android:id="@+id/tv_capacity"
                 android:layout_width="match_parent"

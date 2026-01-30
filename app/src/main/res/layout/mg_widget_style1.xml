@@ -54,7 +54,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
-            android:text="422"
+            android:text="0"
             android:textColor="@color/widget_text_color"
             android:textSize="28sp"
             android:textStyle="bold" />
@@ -87,7 +87,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
-            android:text="110"
+            android:text="0"
             android:textColor="@color/widget_text_color"
             android:textSize="14sp"
             android:textStyle="bold" />
@@ -105,7 +105,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
-            android:text="312"
+            android:text="0"
             android:textColor="@color/widget_text_color"
             android:textSize="14sp"
             android:textStyle="bold" />
@@ -134,7 +134,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
-                android:text="17813 km"
+                android:text="0 km"
                 android:textColor="@color/widget_text_color"
                 android:textSize="12sp" />
 
@@ -150,7 +150,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
-                android:text="13°C"
+                android:text="0°C"
                 android:textColor="@color/status_green"
                 android:textSize="12sp" />
         </LinearLayout>
@@ -171,7 +171,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
-                android:text="12.4 V"
+                android:text="0 V"
                 android:textColor="@color/widget_text_color"
                 android:textSize="12sp" />
 
@@ -196,7 +196,7 @@
                         android:id="@+id/tv_fl_p"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="2.5"
+                        android:text="0"
                         android:textColor="@color/widget_text_color"
                         android:textSize="10sp" />
 
@@ -204,7 +204,7 @@
                         android:id="@+id/tv_fr_p"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="2.4"
+                        android:text="0"
                         android:layout_marginStart="4dp"
                         android:textColor="@color/widget_text_color"
                         android:textSize="10sp" />
@@ -218,7 +218,7 @@
                         android:id="@+id/tv_rl_p"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="2.5"
+                        android:text="0"
                         android:textColor="@color/widget_text_color"
                         android:textSize="10sp" />
 
@@ -227,7 +227,7 @@
                         android:id="@+id/tv_rr_p"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="2.5"
+                        android:text="0"
                         android:layout_marginStart="4dp"
                         android:textColor="@color/widget_text_color"
                         android:textSize="10sp" />
@@ -302,7 +302,7 @@
             android:layout_toEndOf="@id/iv_loc_icon"
             android:ellipsize="end"
             android:maxLines="1"
-            android:text="四川省成都市温江区鹏程路1519号合能珍宝琥珀"
+            android:text="暂无地址"
             android:textColor="@color/widget_text_color"
             android:textSize="12sp" />
 
@@ -320,7 +320,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toStartOf="@+id/iv_update_time"
-            android:text="09:51"
+            android:text="0"
             android:textSize="12sp"
             android:textColor="@color/widget_text_color"/>
     </RelativeLayout>

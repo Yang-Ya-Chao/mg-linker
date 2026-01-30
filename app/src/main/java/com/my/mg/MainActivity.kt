@@ -17,7 +17,12 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.pager.HorizontalPager
+import androidx.compose.foundation.pager.rememberPagerState
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -31,11 +36,11 @@ import androidx.work.ExistingPeriodicWorkPolicy
 import androidx.work.NetworkType
 import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkManager
-import com.my.mg.log.LogcatHelper
+import com.my.mg.data.GiteeAsset
+import com.my.mg.ui.LogViewerScreen
 import com.my.mg.ui.MGConfigScreen
 import com.my.mg.ui.UpdateDialog
 import com.my.mg.ui.theme.MGLinkerTheme
-import com.my.mg.data.GiteeAsset
 import com.my.mg.worker.WidgetUpdateWorker
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
@@ -50,18 +55,36 @@ fun changeAppIcon(context: Context, isMg: Boolean) {
     val componentNameMG = ComponentName(context, "com.my.mg.MainActivityMG")
     val componentNameRW = ComponentName(context, "com.my.mg.MainActivityRW")
 
-    val isMgEnabled = pm.getComponentEnabledSetting(componentNameMG) == PackageManager.COMPONENT_ENABLED_STATE_ENABLED
-    val isRwEnabled = pm.getComponentEnabledSetting(componentNameRW) == PackageManager.COMPONENT_ENABLED_STATE_ENABLED
+    val isMgEnabled =
+        pm.getComponentEnabledSetting(componentNameMG) == PackageManager.COMPONENT_ENABLED_STATE_ENABLED
+    val isRwEnabled =
+        pm.getComponentEnabledSetting(componentNameRW) == PackageManager.COMPONENT_ENABLED_STATE_ENABLED
 
     if (isMg && isMgEnabled) return
     if (!isMg && isRwEnabled) return
 
     if (isMg) {
-        pm.setComponentEnabledSetting(componentNameMG, PackageManager.COMPONENT_ENABLED_STATE_ENABLED, PackageManager.DONT_KILL_APP)
-        pm.setComponentEnabledSetting(componentNameRW, PackageManager.COMPONENT_ENABLED_STATE_DISABLED, PackageManager.DONT_KILL_APP)
+        pm.setComponentEnabledSetting(
+            componentNameMG,
+            PackageManager.COMPONENT_ENABLED_STATE_ENABLED,
+            PackageManager.DONT_KILL_APP
+        )
+        pm.setComponentEnabledSetting(
+            componentNameRW,
+            PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
+            PackageManager.DONT_KILL_APP
+        )
     } else {
-        pm.setComponentEnabledSetting(componentNameRW, PackageManager.COMPONENT_ENABLED_STATE_ENABLED, PackageManager.DONT_KILL_APP)
-        pm.setComponentEnabledSetting(componentNameMG, PackageManager.COMPONENT_ENABLED_STATE_DISABLED, PackageManager.DONT_KILL_APP)
+        pm.setComponentEnabledSetting(
+            componentNameRW,
+            PackageManager.COMPONENT_ENABLED_STATE_ENABLED,
+            PackageManager.DONT_KILL_APP
+        )
+        pm.setComponentEnabledSetting(
+            componentNameMG,
+            PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
+            PackageManager.DONT_KILL_APP
+        )
     }
 }
 
@@ -71,47 +94,72 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        if (BuildConfig.DEBUG) {
-            LogcatHelper.startRecording(this)
-        }
         scheduleWidgetWork()
         enableEdgeToEdge()
 
         setContent {
             MGLinkerTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                Scaffold(
+                    modifier = Modifier.fillMaxSize(),
+                    containerColor = MaterialTheme.colorScheme.background // 确保背景色一致
+                ) { innerPadding ->
+
                     // 收集 ViewModel 状态
                     val uiState by viewModel.uiState.collectAsState()
                     var showDialog by remember { mutableStateOf(false) }
 
-                    // 如果有更新，且不是正在下载，且还没弹过窗（这里简化处理，手动检查时由按钮触发）
-                    // 实际逻辑由 onCheckUpdate 触发
+                    // --- Pager Setup ---
+                    val pagerState = rememberPagerState(pageCount = { 2 })
 
-                    MGConfigScreen(
-                        uiState = uiState,
-                        onUpdateInput = viewModel::updateInput,
-                        onSave = {
-                            if (viewModel.saveConfig(this)) {
-                                // 保存成功后的副作用：更新 Widget 和图标
-                                updateWidgetsAndIcon(uiState.carBrand == "名爵")
-                            }
-                        },
-                        onCheckUpdate = {
-                            if (uiState.isUpdateAvailable) {
-                                showDialog = true
-                            } else {
-                                viewModel.checkUpdate(manual = true)
+                    Box(
+                        modifier = Modifier
+                            .fillMaxSize()
+                            .padding(innerPadding)
+                    ) {
+
+                        // 1. 滑动页面主体
+                        HorizontalPager(
+                            state = pagerState,
+                            modifier = Modifier.fillMaxSize()
+                        ) { page ->
+                            when (page) {
+                                0 -> {
+                                    // 原始配置页面
+                                    MGConfigScreen(
+                                        uiState = uiState,
+                                        onUpdateInput = viewModel::updateInput,
+                                        onSave = {
+                                            if (viewModel.saveConfig(this@MainActivity)) {
+                                                updateWidgetsAndIcon(uiState.carBrand == "名爵")
+                                            }
+                                        },
+                                        onCheckUpdate = {
+                                            if (uiState.isUpdateAvailable) {
+                                                showDialog = true
+                                            } else {
+                                                viewModel.checkUpdate(manual = true)
+                                            }
+                                        }
+                                    )
+                                }
+
+                                1 -> {
+                                    // 新增日志页面
+                                    LogViewerScreen()
+                                }
                             }
                         }
-                    )
+                    }
 
+                    // 更新弹窗逻辑 (保持不变)
                     if (showDialog && uiState.releaseInfo != null) {
                         UpdateDialog(
                             release = uiState.releaseInfo!!,
                             isDownloading = uiState.isDownloading,
                             progress = uiState.downloadProgress,
                             onConfirm = {
-                                val apkAsset = uiState.releaseInfo!!.assets.firstOrNull { it.name.endsWith(".apk") }
+                                val apkAsset =
+                                    uiState.releaseInfo!!.assets.firstOrNull { it.name.endsWith(".apk") }
                                 if (apkAsset != null) {
                                     startDownload(apkAsset)
                                 }
@@ -139,7 +187,8 @@ class MainActivity : ComponentActivity() {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O && appWidgetManager.isRequestPinAppWidgetSupported) {
                 try {
                     appWidgetManager.requestPinAppWidget(myProvider, null, null)
-                } catch (e: Exception) {}
+                } catch (e: Exception) {
+                }
             }
         }
         val intent = Intent(this, MGWidget::class.java).apply {
@@ -162,7 +211,11 @@ class MainActivity : ComponentActivity() {
                 onFailed = {
                     viewModel.updateDownloadState(false, 0f)
                     lifecycleScope.launch(Dispatchers.Main) {
-                        Toast.makeText(this@MainActivity, "下载失败", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(
+                            this@MainActivity,
+                            "下载失败",
+                            Toast.LENGTH_SHORT
+                        ).show()
                     }
                 }
             )
@@ -170,9 +223,13 @@ class MainActivity : ComponentActivity() {
     }
 
     private fun scheduleWidgetWork() {
-        val request = PeriodicWorkRequestBuilder<WidgetUpdateWorker>(30, TimeUnit.MINUTES)
-            .setConstraints(Constraints.Builder().setRequiredNetworkType(NetworkType.CONNECTED).build())
-            .build()
+        val request =
+            PeriodicWorkRequestBuilder<WidgetUpdateWorker>(30, TimeUnit.MINUTES)
+                .setConstraints(
+                    Constraints.Builder().setRequiredNetworkType(NetworkType.CONNECTED)
+                        .build()
+                )
+                .build()
         WorkManager.getInstance(this).enqueueUniquePeriodicWork(
             "MGWidgetPeriodicUpdate", ExistingPeriodicWorkPolicy.UPDATE, request
         )
@@ -184,7 +241,8 @@ class MainActivity : ComponentActivity() {
         onFinish: () -> Unit,
         onFailed: (String) -> Unit
     ) {
-        val downloadManager = getSystemService(Context.DOWNLOAD_SERVICE) as DownloadManager
+        val downloadManager =
+            getSystemService(Context.DOWNLOAD_SERVICE) as DownloadManager
         var downloading = true
 
         while (downloading) {
@@ -192,8 +250,10 @@ class MainActivity : ComponentActivity() {
             val cursor = downloadManager.query(query)
 
             if (cursor != null && cursor.moveToFirst()) {
-                val downloadedIndex = cursor.getColumnIndex(DownloadManager.COLUMN_BYTES_DOWNLOADED_SO_FAR)
-                val totalIndex = cursor.getColumnIndex(DownloadManager.COLUMN_TOTAL_SIZE_BYTES)
+                val downloadedIndex =
+                    cursor.getColumnIndex(DownloadManager.COLUMN_BYTES_DOWNLOADED_SO_FAR)
+                val totalIndex =
+                    cursor.getColumnIndex(DownloadManager.COLUMN_TOTAL_SIZE_BYTES)
                 val statusIndex = cursor.getColumnIndex(DownloadManager.COLUMN_STATUS)
 
                 if (downloadedIndex != -1 && totalIndex != -1 && statusIndex != -1) {
@@ -212,7 +272,8 @@ class MainActivity : ComponentActivity() {
                         withContext(Dispatchers.Main) { onFailed("下载失败") }
                     } else {
                         if (bytesTotal > 0) {
-                            val progress = bytesDownloaded.toFloat() / bytesTotal.toFloat()
+                            val progress =
+                                bytesDownloaded.toFloat() / bytesTotal.toFloat()
                             withContext(Dispatchers.Main) { onProgress(progress) }
                         }
                     }
@@ -225,15 +286,22 @@ class MainActivity : ComponentActivity() {
 
     private fun downloadAndInstallApk(asset: GiteeAsset): Long {
         Toast.makeText(this, "开始下载更新...", Toast.LENGTH_SHORT).show()
-        val downloadManager = getSystemService(Context.DOWNLOAD_SERVICE) as DownloadManager
-        val destination = File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS), asset.name)
+        val downloadManager =
+            getSystemService(Context.DOWNLOAD_SERVICE) as DownloadManager
+        val destination = File(
+            Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS),
+            asset.name
+        )
         if (destination.exists()) destination.delete()
 
         val request = DownloadManager.Request(Uri.parse(asset.browser_download_url))
             .setTitle("MG Linker 更新")
             .setDescription("正在下载 ${asset.name}")
             .setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED)
-            .setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, asset.name)
+            .setDestinationInExternalPublicDir(
+                Environment.DIRECTORY_DOWNLOADS,
+                asset.name
+            )
             .setMimeType("application/vnd.android.package-archive")
 
         val downloadId = downloadManager.enqueue(request)
@@ -242,16 +310,26 @@ class MainActivity : ComponentActivity() {
             override fun onReceive(context: Context?, intent: Intent?) {
                 val id = intent?.getLongExtra(DownloadManager.EXTRA_DOWNLOAD_ID, -1)
                 if (id == downloadId) {
-                    try { unregisterReceiver(this) } catch (e: Exception) {}
+                    try {
+                        unregisterReceiver(this)
+                    } catch (e: Exception) {
+                    }
                     val uri = downloadManager.getUriForDownloadedFile(id)
                     if (uri != null) installApk(uri)
                 }
             }
         }
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            registerReceiver(onComplete, IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE), RECEIVER_EXPORTED)
+            registerReceiver(
+                onComplete,
+                IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE),
+                RECEIVER_EXPORTED
+            )
         } else {
-            registerReceiver(onComplete, IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE))
+            registerReceiver(
+                onComplete,
+                IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE)
+            )
         }
         return downloadId
     }

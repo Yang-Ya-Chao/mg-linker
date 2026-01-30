@@ -251,7 +251,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="2dp"
             android:lines="2"
-            android:text="四川省成都市温江区鹏程路1519号合能珍宝琥珀"
+            android:text="暂无地址"
             android:textColor="@color/widget_text_color"
             android:textSize="8sp" />
     </LinearLayout>

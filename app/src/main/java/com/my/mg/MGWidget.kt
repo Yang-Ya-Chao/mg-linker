@@ -15,9 +15,9 @@ import android.util.Log
 import android.util.TypedValue
 import android.view.View
 import android.widget.RemoteViews
+import com.my.mg.data.WidgetContextData
 import com.my.mg.net.ImageWorker.loadCarImageSuspended
 import com.my.mg.widget.data.EnergyCalculator
-import com.my.mg.data.WidgetContextData
 import com.my.mg.worker.startUpdateWorker
 import java.text.SimpleDateFormat
 import java.util.Date
@@ -73,7 +73,6 @@ open class MGWidget : AppWidgetProvider() {
                 val providerInfo = appWidgetManager.getAppWidgetInfo(appWidgetId)
                 if (providerInfo != null) {
                     val views = RemoteViews(context.packageName, providerInfo.initialLayout)
-
                     // 尝试执行翻页 (try-catch 防止某些布局没有 ViewFlipper)
                     try {
                         views.showNext(R.id.view_flipper_center)
@@ -84,24 +83,7 @@ open class MGWidget : AppWidgetProvider() {
                 }
             }
         } else if (ACTION_REFRESH == intent.action) {
-            // 处理手动刷新逻辑
-            // 1. 立即给用户反馈 "正在更新..."
-
-            // 【优化点2】使用 this.javaClass 获取当前实际的子类组件名 (如 MGWidget0, MGWidget1)
-            // 这样能确保我们获取到的是当前这一类组件的 ID 列表，而不是写死的父类
-            val componentName = ComponentName(context, this.javaClass)
-            val appWidgetIds = appWidgetManager.getAppWidgetIds(componentName)
-
-            for (id in appWidgetIds) {
-                // 【优化点3】循环中为每个 ID 单独获取它对应的布局
-                val providerInfo = appWidgetManager.getAppWidgetInfo(id) ?: continue
-                val views = RemoteViews(context.packageName, providerInfo.initialLayout)
-                // 设置反馈文字 (RemoteViews 会自动忽略不存在的 ID，所以很安全)
-                views.setTextViewText(R.id.tv_update_time, "正在更新...")
-                appWidgetManager.updateAppWidget(id, views)
-            }
-
-            // 2. 启动 Worker 进行真正的网络请求
+            // 启动 Worker 进行真正的网络请求
             startUpdateWorker(context)
         }
     }
@@ -144,7 +126,8 @@ open class MGWidget : AppWidgetProvider() {
             val layoutId = providerInfo.initialLayout
             val views = RemoteViews(context.packageName, layoutId)
 
-            // 1. 读取配置
+            // 1. 设置更新状态
+            views.setTextViewText(R.id.tv_update_time,"正在更新...")
 
             // 2. 设置静态 UI (车名、车牌、Logo)
             views.setTextViewText(
@@ -611,7 +594,7 @@ open class MGWidget : AppWidgetProvider() {
             val spannable = SpannableString(fullText)
 
             val colorRes =
-                if (pressure < 2.0 || pressure > 3.0) R.color.status_red else R.color.status_green
+                if (pressure < 2.0 || pressure > 3.8) R.color.status_red else R.color.status_green
             spannable.setSpan(
                 ForegroundColorSpan(context.getColor(colorRes)),
                 0,

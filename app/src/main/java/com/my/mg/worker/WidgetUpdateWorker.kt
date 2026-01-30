@@ -34,9 +34,6 @@ import kotlinx.coroutines.withContext
  */
 
 fun startUpdateWorker(context: Context) {
-    if (BuildConfig.DEBUG) {
-        LogcatHelper.startRecording(context)
-    }
     val request = OneTimeWorkRequest.Builder(WidgetUpdateWorker::class.java).build()
     WorkManager.getInstance(context).enqueue(request)
 }

@@ -76,7 +76,7 @@ mg-linker/
 ### 安装步骤
 
 1. **下载安装应用**
-   - 下载最新版本的[MG Linke](https://gitee.com/yangyachao-X/mg-linker/releases/download/3.0/MG%20Linker.apk)
+   - 下载最新版本的[MG Linke](https://gitee.com/yangyachao-X/mg-linker/releases/download/3.1/MG%20Linker.apk)
    - 在手机上允许安装未知来源应用后完成安装
 
 2. **准备抓包工具**

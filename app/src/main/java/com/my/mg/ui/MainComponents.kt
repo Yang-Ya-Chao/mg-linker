@@ -23,8 +23,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.em
 import androidx.compose.ui.unit.sp
-import com.my.mg.MainUiState
 import com.my.mg.data.GiteeRelease
+import com.my.mg.data.MainUiState
 
 @Composable
 fun MGConfigScreen(

@@ -8,8 +8,9 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.google.gson.Gson
 import com.my.mg.data.CarConfig
-import com.my.mg.data.RemoteConfig
 import com.my.mg.data.GiteeRelease
+import com.my.mg.data.MainUiState
+import com.my.mg.data.RemoteConfig
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -20,32 +21,15 @@ import kotlinx.coroutines.withContext
 import okhttp3.OkHttpClient
 import okhttp3.Request
 
-// UI 状态数据类
-data class MainUiState(
-    val isLoadingConfig: Boolean = true,
-    val carConfigList: List<CarConfig> = emptyList(),
-    // 用户输入相关
-    val carBrand: String = "名爵",
-    val carModel: String = "",
-    val carName: String = "",
-    val vin: String = "",
-    val color: String = "",
-    val plateNumber: String = "",
-    val accessToken: String = "",
-    val isConfigured: Boolean = false,
-    // 更新相关
-    val isUpdateAvailable: Boolean = false,
-    val releaseInfo: GiteeRelease? = null,
-    val isDownloading: Boolean = false,
-    val downloadProgress: Float = 0f
-)
+
 
 class MainViewModel(application: Application) : AndroidViewModel(application) {
 
     private val _uiState = MutableStateFlow(MainUiState())
     val uiState: StateFlow<MainUiState> = _uiState.asStateFlow()
 
-    private val prefs: SharedPreferences = application.getSharedPreferences("mg_config", Context.MODE_PRIVATE)
+    private val prefs: SharedPreferences =
+        application.getSharedPreferences("mg_config", Context.MODE_PRIVATE)
     private val client = OkHttpClient()
     private val gson = Gson()
 
@@ -75,7 +59,8 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     private fun fetchCarConfig() {
         viewModelScope.launch(Dispatchers.IO) {
             try {
-                val configUrl = "https://gitee.com/yangyachao-X/mg-linker/raw/master/other/config.json"
+                val configUrl =
+                    "https://gitee.com/yangyachao-X/mg-linker/raw/master/other/config.json"
                 val request = Request.Builder().url(configUrl).get().build()
                 val response = client.newCall(request).execute()
 
@@ -143,9 +128,11 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
         _uiState.update { state ->
             // 如果切换品牌，可能需要重置车型
             val nextBrand = brand ?: state.carBrand
-            val nextModel = if (brand != null && brand != state.carBrand) "" else (model ?: state.carModel)
+            val nextModel =
+                if (brand != null && brand != state.carBrand) "" else (model ?: state.carModel)
             // 如果切换车型，可能需要重置颜色
-            val nextColor = if (model != null && model != state.carModel) "" else (color ?: state.color)
+            val nextColor =
+                if (model != null && model != state.carModel) "" else (color ?: state.color)
 
             state.copy(
                 carBrand = nextBrand,
@@ -183,7 +170,8 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
 
         // 获取详细配置数据
         val brandCode = if (state.carBrand == "名爵") "MG" else "RW"
-        val modelConfig = state.carConfigList.find { it.brand == brandCode && it.model == state.carModel }
+        val modelConfig =
+            state.carConfigList.find { it.brand == brandCode && it.model == state.carModel }
         val colorConfig = modelConfig?.colors?.find { it.name == state.color }
 
         // 保存到 SP
@@ -213,7 +201,10 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
                 val url = "https://gitee.com/api/v5/repos/yangyachao-X/mg-linker/releases/latest"
                 val requestBuilder = Request.Builder().url(url).get()
                 if (BuildConfig.GITEE_API_TOKEN.isNotEmpty()) {
-                    requestBuilder.addHeader("Authorization", "token ${BuildConfig.GITEE_API_TOKEN}")
+                    requestBuilder.addHeader(
+                        "Authorization",
+                        "token ${BuildConfig.GITEE_API_TOKEN}"
+                    )
                 }
 
                 val response = client.newCall(requestBuilder.build()).execute()
@@ -222,7 +213,10 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
                     if (!body.isNullOrEmpty()) {
                         val release = gson.fromJson(body, GiteeRelease::class.java)
                         val currentVersion = getApplication<Application>().packageManager
-                            .getPackageInfo(getApplication<Application>().packageName, 0).versionName
+                            .getPackageInfo(
+                                getApplication<Application>().packageName,
+                                0
+                            ).versionName
 
                         if (isNewerVersion(release.tag_name, currentVersion)) {
                             withContext(Dispatchers.Main) {
@@ -233,7 +227,11 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
                             }
                         } else if (manual) {
                             withContext(Dispatchers.Main) {
-                                Toast.makeText(getApplication(), "已经是最新版本", Toast.LENGTH_SHORT).show()
+                                Toast.makeText(
+                                    getApplication(),
+                                    "已经是最新版本",
+                                    Toast.LENGTH_SHORT
+                                ).show()
                             }
                         }
                     }
@@ -245,7 +243,11 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
             } catch (e: Exception) {
                 if (manual) {
                     withContext(Dispatchers.Main) {
-                        Toast.makeText(getApplication(), "检查更新出错: ${e.message}", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(
+                            getApplication(),
+                            "检查更新出错: ${e.message}",
+                            Toast.LENGTH_SHORT
+                        ).show()
                     }
                 }
             }
