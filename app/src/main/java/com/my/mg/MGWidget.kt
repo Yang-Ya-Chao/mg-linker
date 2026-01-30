@@ -83,6 +83,16 @@ open class MGWidget : AppWidgetProvider() {
                 }
             }
         } else if (ACTION_REFRESH == intent.action) {
+            val componentName = ComponentName(context, this.javaClass)
+            val appWidgetIds = appWidgetManager.getAppWidgetIds(componentName)
+
+            for (id in appWidgetIds) {
+                val providerInfo = appWidgetManager.getAppWidgetInfo(id) ?: continue
+                val views = RemoteViews(context.packageName, providerInfo.initialLayout)
+                // 设置反馈文字 (RemoteViews 会自动忽略不存在的 ID，所以很安全)
+                views.setTextViewText(R.id.tv_update_time, "正在更新...")
+                appWidgetManager.updateAppWidget(id, views)
+            }
             // 启动 Worker 进行真正的网络请求
             startUpdateWorker(context)
         }
@@ -127,7 +137,7 @@ open class MGWidget : AppWidgetProvider() {
             val views = RemoteViews(context.packageName, layoutId)
 
             // 1. 设置更新状态
-            views.setTextViewText(R.id.tv_update_time,"正在更新...")
+            //views.setTextViewText(R.id.tv_update_time,"正在更新...")
 
             // 2. 设置静态 UI (车名、车牌、Logo)
             views.setTextViewText(
