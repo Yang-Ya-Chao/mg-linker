@@ -6,7 +6,7 @@ import com.my.mg.VehicleStatusResponse
 import com.my.mg.data.FuelRecord
 import com.my.mg.data.WidgetContextData
 import com.my.mg.util.FuelRecordStore
-import com.my.mg.util.RealEnergyCalculator
+import com.my.mg.util.EnergyCalculator
 
 suspend fun processEnergyRecord(
     context: Context,
@@ -55,7 +55,7 @@ suspend fun processEnergyRecord(
                 val r1 = list[i]
                 val r2 = list[i + 1]
 
-                val res = RealEnergyCalculator.calculate(
+                val res = EnergyCalculator.calculate(
                     prev = r1,
                     now = r2,
                     fuelCapacity = baseData.fuelCapacity,
