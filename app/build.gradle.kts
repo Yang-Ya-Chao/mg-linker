@@ -29,6 +29,7 @@ android {
 
         // Expose the Gitee API token to the app code
         buildConfigField("String", "GITEE_API_TOKEN", "\"${localProperties.getProperty("GITEE_API_TOKEN", "")}\"")
+        buildConfigField("String", "DS_API_KEY", "\"${localProperties.getProperty("DS_API_KEY", "")}\"")
     }
 
     buildTypes {
@@ -81,10 +82,11 @@ dependencies {
 
     // 协程
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    // Markdown 渲染库
+    implementation("com.github.jeziellago:compose-markdown:0.5.0")
 
     // 后台任务 WorkManager
     implementation(libs.work.runtime.ktx)
-
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
