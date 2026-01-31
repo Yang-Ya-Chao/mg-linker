@@ -30,6 +30,7 @@ android {
         // Expose the Gitee API token to the app code
         buildConfigField("String", "GITEE_API_TOKEN", "\"${localProperties.getProperty("GITEE_API_TOKEN", "")}\"")
         buildConfigField("String", "DS_API_KEY", "\"${localProperties.getProperty("DS_API_KEY", "")}\"")
+        buildConfigField("String", "ZP_API_KEY", "\"${localProperties.getProperty("ZP_API_KEY", "")}\"")
     }
 
     buildTypes {

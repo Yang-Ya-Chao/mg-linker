@@ -22,6 +22,7 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.AutoAwesome
 import androidx.compose.material.icons.filled.ContentCopy
 import androidx.compose.material.icons.filled.PlayArrow
@@ -33,6 +34,8 @@ import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.DropdownMenu
+import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -60,7 +63,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.em
 import androidx.compose.ui.unit.sp
 import com.my.mg.log.LogcatHelper
-import com.my.mg.net.DeepSeekService
+import com.my.mg.net.AiService
 import dev.jeziellago.compose.markdowntext.MarkdownText
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
@@ -93,7 +96,9 @@ fun LogViewerScreen(
     var showAnalysisDialog by remember { mutableStateOf(false) }
     var analysisResult by remember { mutableStateOf("") }
     var isAnalyzing by remember { mutableStateOf(false) }
-
+    // [新增] 控制模型选择菜单的状态
+    var showModelMenu by remember { mutableStateOf(false) }
+    var currentModelName by remember { mutableStateOf(AiService.currentModel.label) }
     // 自动刷新逻辑
     LaunchedEffect(isRecording) {
         if (isRecording) {
@@ -132,19 +137,19 @@ fun LogViewerScreen(
 
         showAnalysisDialog = true
         isAnalyzing = true
-        analysisResult = "正在请求 DeepSeek 分析车辆状态..."
+        analysisResult = "正在请求 [${AiService.currentModel.label}] 生成完整报告，请稍候..."
 
         scope.launch {
             try {
                 // 2. 构建 Prompt
                 val prompt = """
                     $lastMatch
-                    请帮我写一份这个数据的完整翻译
+                    上方数据是上汽集团旗下名爵/荣威的车辆实时数据信息，请帮我写一份这个数据的完整翻译与分析
                 """.trimIndent()
 
                 // 3. [修改]：调用独立的 Service 模块
                 // 所有的网络细节都被封装在 DeepSeekService 中
-                val responseText = DeepSeekService.chat(prompt)
+                val responseText = AiService.chat(prompt)
 
                 analysisResult = responseText
             } catch (e: Exception) {
@@ -223,7 +228,32 @@ fun LogViewerScreen(
                 }
 
                 Row {
-                    // Gemini 分析按钮
+                    // [新增]：AI 助手切换按钮 (点击显示下拉菜单)
+                    Box {
+                        TextButton(onClick = { showModelMenu = true }) {
+                            Text(text = currentModelName, fontSize = 12.sp)
+                            Icon(Icons.Default.ArrowDropDown, contentDescription = null)
+                        }
+
+                        DropdownMenu(
+                            expanded = showModelMenu,
+                            onDismissRequest = { showModelMenu = false }
+                        ) {
+                            AiService.AiModel.values().forEach { model ->
+                                DropdownMenuItem(
+                                    text = { Text(model.label) },
+                                    onClick = {
+                                        AiService.currentModel = model
+                                        currentModelName = model.label
+                                        showModelMenu = false
+                                        // 切换后可以自动触发个 Toast 提示
+                                        Toast.makeText(context, "已切换为: ${model.label}", Toast.LENGTH_SHORT).show()
+                                    }
+                                )
+                            }
+                        }
+                    }
+                    // 分析按钮
                     IconButton(onClick = { analyzeLogs() }) {
                         Icon(
                             imageVector = Icons.Default.AutoAwesome,

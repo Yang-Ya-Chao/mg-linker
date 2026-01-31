@@ -184,7 +184,7 @@ mg-linker/
 │   │   │   └── LogcatHelper.kt       # [工具] 日志系统 / 抓取 Logcat、写入文件及 UI 实时流展示
 │   │   ├── net/
 │   │   │   ├── VehicleDataWorker.kt  # [网络] 车辆 API 服务 / SAIC 接口鉴权与数据获取
-│   │   │   ├── DeepSeekService.kt    # [网络] AI 服务 / DeepSeek 流式对话接口封装 [新增]
+│   │   │   ├── AiService.kt          # [网络] AI 服务 / AI对话接口封装
 │   │   │   ├── AddressWorker.kt      # [网络] 逆地理编码 / GPS 坐标转中文地址
 │   │   │   └── ImageWorker.kt        # [网络] 图片服务 / 车辆渲染图下载与缓存
 │   │   ├── ui/
