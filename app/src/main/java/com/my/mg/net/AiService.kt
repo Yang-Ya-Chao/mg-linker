@@ -23,7 +23,7 @@ object AiService {
     enum class AiModel(val label: String, val apiKey: String, val apiUrl: String, val modelName: String) {
         // 1. 硅基流动 - DeepSeek V3
         DeepSeek(
-            label = "DeepSeek V3 (硅基)",
+            label = "DeepSeek V3",
             apiKey = BuildConfig.DS_API_KEY, // ⚠️ 请替换为你的 Key
             apiUrl = "https://api.siliconflow.cn/v1/chat/completions",
             modelName = "deepseek-ai/DeepSeek-V3"
@@ -31,7 +31,7 @@ object AiService {
 
         // 2. 硅基流动 - 通义千问 Qwen2.5 (免费)
         Qwen(
-            label = "通义千问 Qwen2.5",
+            label = "通义千问 2.5",
             apiKey =  BuildConfig.DS_API_KEY, // ⚠️ 请替换为你的 Key
             apiUrl = "https://api.siliconflow.cn/v1/chat/completions",
             modelName = "Qwen/Qwen2.5-72B-Instruct"
@@ -39,7 +39,7 @@ object AiService {
 
         // 3. 智谱清言 - GLM-4-Flash (免费)
         ZhipuGLM(
-            label = "智谱 GLM-4-Flash",
+            label = "智谱 GLM-4",
             apiKey = BuildConfig.ZP_API_KEY, // ⚠️ 请替换为你的 Key
             apiUrl = "https://open.bigmodel.cn/api/paas/v4/chat/completions",
             modelName = "glm-4-flash"
