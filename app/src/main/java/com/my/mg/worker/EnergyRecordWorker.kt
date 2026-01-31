@@ -68,8 +68,10 @@ suspend fun processEnergyRecord(
             if (results.isNotEmpty()) {
                 val avg = results.average()
                 Log.d("WidgetUpdateWorker", "真实总能耗（5 次平均）= $avg L/100km")
-                vehicleData.data.calculator = " / $avg L/100km"
-                //prefs.edit().putFloat("real_energy_consumption", avg.toFloat()).apply()
+                // 如果 avg > 0.0，则进行格式化并赋值
+                if (avg > 0.0) {
+                     vehicleData.data.calculator = "%.1f L/100km".format(avg)
+                }
             }
         }
 
