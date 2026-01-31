@@ -201,7 +201,7 @@ open class MGWidget : AppWidgetProvider() {
             } else if (layoutId == R.layout.mg_widget_icon) {
                 views.setTextViewText(
                     R.id.tv_update_time,
-                    "${displaySdf.format(updateDate)}"
+                    "更新于${displaySdf.format(updateDate)}"
                 )
 
             }
