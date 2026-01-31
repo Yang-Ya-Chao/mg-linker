@@ -143,7 +143,7 @@ open class MGWidget : AppWidgetProvider() {
                 R.id.tv_car_name,
                 if (ctxData.carName.isNullOrEmpty()) ctxData.carModel else ctxData.carName
             )
-            if ((layoutId != R.layout.mg_widget_style1) || (layoutId != R.layout.mg_widget_style2)) {
+            if ((layoutId != R.layout.mg_widget_style1) && (layoutId != R.layout.mg_widget_style2)) {
                 views.setTextViewText(R.id.tv_plate_number, ctxData.plateNumber)
                 val logoResId =
                     if (ctxData.carBrand == "荣威") R.drawable.rw_logo else R.drawable.mg_logo
@@ -157,7 +157,13 @@ open class MGWidget : AppWidgetProvider() {
                 setupClickEvents(context, views, appWidgetId, layoutId)
 
                 // 5. 加载车辆图片 (挂起操作，含缓存和采样)
-                loadCarImageSuspended(context, views, ctxData.carImageUrl)
+                try {
+                    loadCarImageSuspended(context, views, ctxData.carImageUrl)
+                } catch (e: Exception) {
+                    Log.e(LOG_TAG, "Image load failed for widget $appWidgetId: ${e.message}")
+                    // 可选：加载失败时显示默认图或隐藏
+                    // views.setImageViewResource(R.id.iv_car, R.drawable.default_car)
+                }
             }
             // 5. 使用传入的数据更新 UI
             if (ctxData.vehicleData != null) {

@@ -4,6 +4,7 @@ import android.appwidget.AppWidgetManager
 import android.appwidget.AppWidgetProvider
 import android.content.Context
 import android.content.res.ColorStateList
+import android.util.Log
 import android.view.View
 import android.widget.RemoteViews
 import com.my.mg.net.ImageWorker.loadCarImageSuspended
@@ -41,7 +42,14 @@ open class MGWidgetSmall : AppWidgetProvider() {
 
             // 1. 基础 UI
             views.setTextViewText(R.id.tv_car_name, ctxData.carName)
-            loadCarImageSuspended(context, views, ctxData.carImageUrl)
+
+            try {
+                loadCarImageSuspended(context, views, ctxData.carImageUrl)
+            } catch (e: Exception) {
+                Log.e("MGWidget", "Image load failed for widgetSmall $appWidgetId: ${e.message}")
+                // 可选：加载失败时显示默认图或隐藏
+                // views.setImageViewResource(R.id.iv_car, R.drawable.default_car)
+            }
             // 2. 使用传入的数据
             if (ctxData.vehicleData != null) {
                 val vehicleValue = ctxData.vehicleData?.data?.vehicle_value
