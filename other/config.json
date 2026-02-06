@@ -131,6 +131,30 @@
           "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2024/4438d8b27bb843bf9dad7d7de76bbd09.png"
         }
       ]
+    },
+    {
+      "brand": "RW",
+      "model": "RX5",
+      "fuel": 55.0,
+      "battery": 0.0,
+      "colors": [
+        {
+          "name": "丝绒银",
+          "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/saicmall/25f107ba626d488c9741d42be5979bd5.png"
+        },
+        {
+          "name": "珠光白",
+          "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/saicmall/acb115d3b30040c6ae2fac48224185a6.png"
+        },
+        {
+          "name": "珠光黑",
+          "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/saicmall/d70197284dc949439afbd681e7a8924f.png"
+        },
+        {
+          "name": "云锦灰",
+          "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/saicmall/b05b82f3f87a4c99bed607c183b82f2a.png"
+        }
+      ]
     }
   ]
 }
