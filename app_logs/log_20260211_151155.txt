@@ -1,0 +1,41 @@
+--- Log Capture Start: 20260211_151155 ---
+15:11:30.738 D/MG_NET_LOG: ┌────── 请求开始 ──────
+15:11:30.738 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+15:11:30.738 D/MG_NET_LOG: │ Method: POST
+15:11:30.739 D/MG_NET_LOG: │ Params: data={"userId":"15100000797060","appId":"MG","brandCode":"2","nonce":"542503F77EB442179262771EC583013A","timestamp":"1770822690736","token":"8649bfafda704f969891a0cba7c0b0c3-prod_SAIC"}
+15:11:30.739 D/MG_NET_LOG: └──────────────────────
+15:11:30.989 D/MG_NET_LOG: ┌────── 响应结束 (200 / 249ms) ──────
+15:11:30.989 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+15:11:30.989 D/MG_NET_LOG: │ Result: {"req_id":"19c4d41e08eafde61bc","err_resp":{"msg":"登录态失效，请重新登录","code":"14101","desc":"登录态失效，请重新登录"}}
+15:11:30.989 D/MG_NET_LOG: └──────────────────────────────────────────────────
+15:11:31.395 D/MGWidget: onUpdate called for IDs: 16
+15:11:31.396 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+15:11:31.964 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+15:11:31.966 D/MG_NET_LOG: ┌────── 请求开始 ──────
+15:11:31.966 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+15:11:31.966 D/MG_NET_LOG: │ Method: POST
+15:11:31.966 D/MG_NET_LOG: │ Params: data={"vin":"LSJWJ4U64PZ281592","appId":"MG","brandCode":"2","nonce":"74CCCF9C370E484DBC0EF1852AD2917D","timestamp":"1770822691964","token":"8649bfafda704f969891a0cba7c0b0c3-prod_SAIC"}
+15:11:31.966 D/MG_NET_LOG: └──────────────────────
+15:11:32.179 D/MG_NET_LOG: ┌────── 响应结束 (200 / 213ms) ──────
+15:11:32.179 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+15:11:32.179 D/MG_NET_LOG: │ Result: {"req_id":"19c4d41e54280c2976","err_resp":{"msg":"登录态失效，请重新登录","code":"14101","desc":"登录态失效，请重新登录"}}
+15:11:32.179 D/MG_NET_LOG: └──────────────────────────────────────────────────
+15:11:32.183 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: null
+15:11:32.183 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+15:11:32.183 D/MGWidget: updateWidgetSynchronously called for ID: 16
+15:11:44.929 D/MGWidget: onReceive called with action: ACTION_BLUEBOOTH
+15:11:45.321 E/BleUnlockWorker: 未预期的异常: 蓝牙配置信息不完整，请先在主页设置。
+15:11:45.321 E/BleUnlockWorker: java.lang.IllegalStateException: 蓝牙配置信息不完整，请先在主页设置。
+15:11:45.321 E/BleUnlockWorker: at com.my.mg.bluetooh.BluetoothManage.initialize(Bluetoothmanager.kt:431)
+15:11:45.321 E/BleUnlockWorker: at com.my.mg.bluetooh.BluetoothManage.access$initialize(Bluetoothmanager.kt:49)
+15:11:45.321 E/BleUnlockWorker: at com.my.mg.bluetooh.BluetoothManage$Companion.getInstance(Bluetoothmanager.kt:1215)
+15:11:45.321 E/BleUnlockWorker: at com.my.mg.worker.BleUnlockWorker$doWork$2.invokeSuspend(BleUnlockWorker.kt:72)
+15:11:45.321 E/BleUnlockWorker: at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+15:11:45.321 E/BleUnlockWorker: at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+15:11:45.321 E/BleUnlockWorker: at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115)
+15:11:45.321 E/BleUnlockWorker: at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)
+15:11:45.321 E/BleUnlockWorker: at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+15:11:45.321 E/BleUnlockWorker: at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+15:11:45.321 E/BleUnlockWorker: at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+15:11:45.321 E/BleUnlockWorker: at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+15:11:45.397 D/BleUnlockWorker: 清理资源
