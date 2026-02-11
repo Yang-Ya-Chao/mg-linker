@@ -1,0 +1,785 @@
+--- Log Capture Start: 20260211_233757 ---
+23:35:37.580 D/MG_NET_LOG: ┌────── 请求开始 ──────
+23:35:37.580 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+23:35:37.580 D/MG_NET_LOG: │ Method: POST
+23:35:37.581 D/MG_NET_LOG: │ Params: data={"userId":"15100002089071","appId":"Roewe","brandCode":"1","nonce":"5747D83482164A0483AAF07AEF4AE88D","timestamp":"1770824137578","token":"ac774c18318f430f953b1c1e2acb778a-prod_SAIC"}
+23:35:37.581 D/MG_NET_LOG: └──────────────────────
+23:35:37.987 D/MG_NET_LOG: ┌────── 响应结束 (200 / 405ms) ──────
+23:35:37.987 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+23:35:37.987 D/MG_NET_LOG: │ Result: {"req_id":"19c4d57fe2e60f1b16d","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":"晋CF13521","secret_key":"1608469491869940","key_end_time":1772277611000,"mobile":null,"key_start_time":1764501611000,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":26894873,"owner_name":null,"owner_mobile":"18635376266","enable":true,"tbox_mac":"CFF24C33CCB5","vin":"LSJWM6395RZ654043","aes_key":"6031200637069581","status":3}]}}
+23:35:37.987 D/MG_NET_LOG: └──────────────────────────────────────────────────
+23:35:38.006 D/MGWidget: onUpdate called for IDs: 1215
+23:35:38.006 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+23:35:38.010 D/BleProximity: 连接状态变更: DISCONNECTED
+23:35:38.010 D/BleProximity: 启动靠近解锁服务...
+23:35:38.010 D/BleProximity: 连接状态变更: CONNECTING
+23:35:38.018 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+23:35:38.018 D/MG_NET_LOG: ┌────── 请求开始 ──────
+23:35:38.018 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+23:35:38.018 D/MG_NET_LOG: │ Method: POST
+23:35:38.018 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6395RZ654043","appId":"Roewe","brandCode":"1","nonce":"78518C4606ED46238BFADE83C3E78549","timestamp":"1770824138018","token":"ac774c18318f430f953b1c1e2acb778a-prod_SAIC"}
+23:35:38.018 D/MG_NET_LOG: └──────────────────────
+23:35:38.050 D/BleProximity: 发现设备: CC:B5:4C:33:CF:F2, RSSI: -67
+23:35:38.053 D/BleProximity: 连接状态变更: CONNECTING
+23:35:38.424 D/BleProximity: 连接状态变更: CONNECTED
+23:35:38.429 D/BleProximity: RSSI:-72
+23:35:38.429 D/BleProximity: 正在收集信号样本: 1/5
+23:35:38.629 D/BleProximity: RSSI:-70
+23:35:38.629 D/BleProximity: 正在收集信号样本: 2/5
+23:35:38.835 D/BleProximity: RSSI:-70
+23:35:38.835 D/BleProximity: 正在收集信号样本: 3/5
+23:35:39.032 D/BleProximity: RSSI:-72
+23:35:39.032 D/BleProximity: 正在收集信号样本: 4/5
+23:35:39.183 D/MG_NET_LOG: ┌────── 响应结束 (200 / 1164ms) ──────
+23:35:39.183 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+23:35:39.183 D/MG_NET_LOG: │ Result: {"req_id":"19c4d5800cf3be2bff1","data":{"vehicle_position":{"satellites":9,"altitude":1266,"latitude":"37.891354","gps_status":2,"update_time":1770798137000,"gps_time":1770823979000,"hdop":60,"longitude":"113.509921"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":false,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":127,"battery_pack_range":20,"power_mode":0,"engine_status":0,"exterior_temperature":1,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":15,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":16294,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1410,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":1,"front_right_tyre_pressure":264,"battery_pack_prc":158,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":127,"current_journey_id":1549,"pwr_lftgt_pos_v":null,"interior_temperature":15,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1770824029000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":268,"vehicle_battery_prc":1000,"battery_type":0,"fuel_level_disp":2,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1770824029000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1770824029000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+23:35:39.183 D/MG_NET_LOG: └──────────────────────────────────────────────────
+23:35:39.189 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 山西省阳泉市矿区矿山路38号
+23:35:39.189 D/WidgetUpdateWorker: Starting update loop for 2 widget types
+23:35:39.189 D/MGWidget: updateWidgetSynchronously called for ID: 1215
+23:35:39.234 D/BleProximity: RSSI:-68
+23:35:39.435 D/BleProximity: RSSI:-73
+23:35:39.635 D/BleProximity: RSSI:-79
+23:35:39.835 D/BleProximity: RSSI:-81
+23:35:40.037 D/BleProximity: RSSI:-79
+23:35:40.237 D/BleProximity: RSSI:-79
+23:35:40.439 D/BleProximity: RSSI:-80
+23:35:40.641 D/BleProximity: RSSI:-81
+23:35:40.732 D/BleProximity: 连接状态变更: AUTHENTICATED
+23:35:40.844 D/BleProximity: RSSI:-81
+23:35:41.043 D/BleProximity: RSSI:-80
+23:35:41.245 D/BleProximity: RSSI:-81
+23:35:41.446 D/BleProximity: RSSI:-79
+23:35:41.647 D/BleProximity: RSSI:-79
+23:35:41.849 D/BleProximity: RSSI:-78
+23:35:42.051 D/BleProximity: RSSI:-79
+23:35:42.255 D/BleProximity: RSSI:-78
+23:35:42.457 D/BleProximity: RSSI:-77
+23:35:42.657 D/BleProximity: RSSI:-77
+23:35:42.859 D/BleProximity: RSSI:-77
+23:35:43.059 D/BleProximity: RSSI:-77
+23:35:43.264 D/BleProximity: RSSI:-75
+23:35:43.465 D/BleProximity: RSSI:-75
+23:35:43.668 D/BleProximity: RSSI:-76
+23:35:43.870 D/BleProximity: RSSI:-78
+23:35:44.073 D/BleProximity: RSSI:-77
+23:35:44.276 D/BleProximity: RSSI:-76
+23:35:44.480 D/BleProximity: RSSI:-78
+23:35:44.683 D/BleProximity: RSSI:-78
+23:35:44.883 D/BleProximity: RSSI:-78
+23:35:45.084 D/BleProximity: RSSI:-77
+23:35:45.283 D/BleProximity: RSSI:-77
+23:35:45.486 D/BleProximity: RSSI:-77
+23:35:45.689 D/BleProximity: RSSI:-77
+23:35:45.893 D/BleProximity: RSSI:-77
+23:35:46.100 D/BleProximity: RSSI:-77
+23:35:46.315 D/BleProximity: RSSI:-78
+23:35:46.515 D/BleProximity: RSSI:-76
+23:35:46.717 D/BleProximity: RSSI:-76
+23:35:46.919 D/BleProximity: RSSI:-76
+23:35:47.121 D/BleProximity: RSSI:-79
+23:35:47.322 D/BleProximity: RSSI:-78
+23:35:47.524 D/BleProximity: RSSI:-76
+23:35:47.725 D/BleProximity: RSSI:-77
+23:35:47.928 D/BleProximity: RSSI:-77
+23:35:48.129 D/BleProximity: RSSI:-76
+23:35:48.330 D/BleProximity: RSSI:-77
+23:35:48.533 D/BleProximity: RSSI:-76
+23:35:48.734 D/BleProximity: RSSI:-75
+23:35:48.935 D/BleProximity: RSSI:-79
+23:35:49.139 D/BleProximity: RSSI:-80
+23:35:49.338 D/BleProximity: RSSI:-77
+23:35:49.541 D/BleProximity: RSSI:-76
+23:35:49.740 D/BleProximity: RSSI:-72
+23:35:49.740 D/BleProximity: >>> 触发解锁 <<<
+23:35:49.740 D/BleProximity: 原因: 信号均值(-76) > 阈值(-87) 且 正在靠近(趋势值+5.5)
+23:35:49.741 D/BleProximity: 解锁结果: IN_PROGRESS
+23:35:49.943 D/BleProximity: RSSI:-73
+23:35:49.943 D/BleProximity: 正在收集信号样本: 1/5
+23:35:50.145 D/BleProximity: RSSI:-75
+23:35:50.145 D/BleProximity: 正在收集信号样本: 2/5
+23:35:50.348 D/BleProximity: RSSI:-73
+23:35:50.348 D/BleProximity: 正在收集信号样本: 3/5
+23:35:50.551 D/BleProximity: RSSI:-72
+23:35:50.551 D/BleProximity: 正在收集信号样本: 4/5
+23:35:50.752 D/BleProximity: RSSI:-74
+23:35:50.953 D/BleProximity: RSSI:-79
+23:35:51.027 D/BleProximity: 解锁结果: SUCCESS
+23:35:51.155 D/BleProximity: RSSI:-75
+23:35:51.355 D/BleProximity: RSSI:-78
+23:35:51.556 D/BleProximity: RSSI:-75
+23:35:51.758 D/BleProximity: RSSI:-75
+23:35:51.959 D/BleProximity: RSSI:-73
+23:35:52.162 D/BleProximity: RSSI:-67
+23:35:52.362 D/BleProximity: RSSI:-67
+23:35:52.567 D/BleProximity: RSSI:-69
+23:35:52.767 D/BleProximity: RSSI:-70
+23:35:52.971 D/BleProximity: RSSI:-64
+23:35:53.171 D/BleProximity: RSSI:-68
+23:35:53.374 D/BleProximity: RSSI:-72
+23:35:53.573 D/BleProximity: RSSI:-72
+23:35:53.777 D/BleProximity: RSSI:-72
+23:35:53.976 D/BleProximity: RSSI:-72
+23:35:54.179 D/BleProximity: RSSI:-70
+23:35:54.379 D/BleProximity: RSSI:-68
+23:35:54.582 D/BleProximity: RSSI:-68
+23:35:54.782 D/BleProximity: RSSI:-70
+23:35:54.984 D/BleProximity: RSSI:-68
+23:35:55.186 D/BleProximity: RSSI:-63
+23:35:55.387 D/BleProximity: RSSI:-66
+23:35:55.589 D/BleProximity: RSSI:-66
+23:35:55.791 D/BleProximity: RSSI:-66
+23:35:55.993 D/BleProximity: RSSI:-65
+23:35:56.194 D/BleProximity: RSSI:-65
+23:35:56.395 D/BleProximity: RSSI:-64
+23:35:56.597 D/BleProximity: RSSI:-64
+23:35:56.799 D/BleProximity: RSSI:-65
+23:35:57.000 D/BleProximity: RSSI:-62
+23:35:57.202 D/BleProximity: RSSI:-67
+23:35:57.405 D/BleProximity: RSSI:-63
+23:35:57.605 D/BleProximity: RSSI:-64
+23:35:57.808 D/BleProximity: RSSI:-62
+23:35:58.012 D/BleProximity: RSSI:-59
+23:35:58.216 D/BleProximity: RSSI:-65
+23:35:58.415 D/BleProximity: RSSI:-63
+23:35:58.620 D/BleProximity: RSSI:-66
+23:35:58.821 D/BleProximity: RSSI:-62
+23:35:59.022 D/BleProximity: RSSI:-61
+23:35:59.227 D/BleProximity: RSSI:-64
+23:35:59.429 D/BleProximity: RSSI:-62
+23:35:59.630 D/BleProximity: RSSI:-57
+23:35:59.833 D/BleProximity: RSSI:-59
+23:36:00.031 D/BleProximity: RSSI:-60
+23:36:00.234 D/BleProximity: RSSI:-57
+23:36:00.435 D/BleProximity: RSSI:-58
+23:36:00.636 D/BleProximity: RSSI:-60
+23:36:00.839 D/BleProximity: RSSI:-64
+23:36:01.040 D/BleProximity: RSSI:-66
+23:36:01.245 D/BleProximity: RSSI:-61
+23:36:01.443 D/BleProximity: RSSI:-59
+23:36:01.645 D/BleProximity: RSSI:-59
+23:36:01.847 D/BleProximity: RSSI:-65
+23:36:02.050 D/BleProximity: RSSI:-69
+23:36:02.251 D/BleProximity: RSSI:-68
+23:36:02.453 D/BleProximity: RSSI:-66
+23:36:02.654 D/BleProximity: RSSI:-70
+23:36:02.859 D/BleProximity: RSSI:-74
+23:36:03.055 D/BleProximity: RSSI:-75
+23:36:03.258 D/BleProximity: RSSI:-72
+23:36:03.460 D/BleProximity: RSSI:-72
+23:36:03.660 D/BleProximity: RSSI:-73
+23:36:03.862 D/BleProximity: RSSI:-74
+23:36:04.063 D/BleProximity: RSSI:-73
+23:36:04.265 D/BleProximity: RSSI:-75
+23:36:04.469 D/BleProximity: RSSI:-72
+23:36:04.672 D/BleProximity: RSSI:-69
+23:36:04.871 D/BleProximity: RSSI:-71
+23:36:05.073 D/BleProximity: RSSI:-74
+23:36:05.274 D/BleProximity: RSSI:-75
+23:36:05.476 D/BleProximity: RSSI:-74
+23:36:05.677 D/BleProximity: RSSI:-74
+23:36:05.880 D/BleProximity: RSSI:-73
+23:36:06.079 D/BleProximity: RSSI:-75
+23:36:06.281 D/BleProximity: RSSI:-73
+23:36:06.481 D/BleProximity: RSSI:-74
+23:36:06.682 D/BleProximity: RSSI:-73
+23:36:06.883 D/BleProximity: RSSI:-77
+23:36:07.084 D/BleProximity: RSSI:-76
+23:36:07.286 D/BleProximity: RSSI:-76
+23:36:07.487 D/BleProximity: RSSI:-76
+23:36:07.689 D/BleProximity: RSSI:-74
+23:36:07.890 D/BleProximity: RSSI:-75
+23:36:08.089 D/BleProximity: RSSI:-74
+23:36:08.290 D/BleProximity: RSSI:-73
+23:36:08.495 D/BleProximity: RSSI:-73
+23:36:08.696 D/BleProximity: RSSI:-75
+23:36:08.899 D/BleProximity: RSSI:-78
+23:36:09.097 D/BleProximity: RSSI:-74
+23:36:09.304 D/BleProximity: RSSI:-77
+23:36:09.503 D/BleProximity: RSSI:-77
+23:36:09.702 D/BleProximity: RSSI:-79
+23:36:09.903 D/BleProximity: RSSI:-79
+23:36:10.106 D/BleProximity: RSSI:-77
+23:36:10.308 D/BleProximity: RSSI:-79
+23:36:10.510 D/BleProximity: RSSI:-82
+23:36:10.711 D/BleProximity: RSSI:-81
+23:36:10.914 D/BleProximity: RSSI:-79
+23:36:11.116 D/BleProximity: RSSI:-77
+23:36:11.317 D/BleProximity: RSSI:-78
+23:36:11.518 D/BleProximity: RSSI:-78
+23:36:11.718 D/BleProximity: RSSI:-77
+23:36:11.925 D/BleProximity: RSSI:-74
+23:36:12.122 D/BleProximity: RSSI:-74
+23:36:12.325 D/BleProximity: RSSI:-74
+23:36:12.526 D/BleProximity: RSSI:-76
+23:36:12.728 D/BleProximity: RSSI:-80
+23:36:12.928 D/BleProximity: RSSI:-81
+23:36:13.133 D/BleProximity: RSSI:-81
+23:36:13.332 D/BleProximity: RSSI:-83
+23:36:13.534 D/BleProximity: RSSI:-82
+23:36:13.735 D/BleProximity: RSSI:-82
+23:36:13.939 D/BleProximity: RSSI:-79
+23:36:14.138 D/BleProximity: RSSI:-84
+23:36:14.339 D/BleProximity: RSSI:-84
+23:36:14.541 D/BleProximity: RSSI:-85
+23:36:14.742 D/BleProximity: RSSI:-87
+23:36:14.942 D/BleProximity: RSSI:-86
+23:36:15.142 D/BleProximity: RSSI:-87
+23:36:15.344 D/BleProximity: RSSI:-86
+23:36:15.547 D/BleProximity: RSSI:-85
+23:36:15.748 D/BleProximity: RSSI:-85
+23:36:15.951 D/BleProximity: RSSI:-85
+23:36:16.153 D/BleProximity: RSSI:-84
+23:36:16.354 D/BleProximity: RSSI:-81
+23:36:16.554 D/BleProximity: RSSI:-80
+23:36:16.756 D/BleProximity: RSSI:-81
+23:36:16.959 D/BleProximity: RSSI:-82
+23:36:17.159 D/BleProximity: RSSI:-83
+23:36:17.362 D/BleProximity: RSSI:-83
+23:36:17.563 D/BleProximity: RSSI:-83
+23:36:17.765 D/BleProximity: RSSI:-83
+23:36:17.967 D/BleProximity: RSSI:-83
+23:36:18.169 D/BleProximity: RSSI:-83
+23:36:18.370 D/BleProximity: RSSI:-84
+23:36:18.571 D/BleProximity: RSSI:-84
+23:36:18.775 D/BleProximity: RSSI:-85
+23:36:18.976 D/BleProximity: RSSI:-85
+23:36:19.176 D/BleProximity: RSSI:-85
+23:36:19.379 D/BleProximity: RSSI:-85
+23:36:19.580 D/BleProximity: RSSI:-86
+23:36:19.783 D/BleProximity: RSSI:-87
+23:36:19.985 D/BleProximity: RSSI:-87
+23:36:20.187 D/BleProximity: RSSI:-86
+23:36:20.389 D/BleProximity: RSSI:-86
+23:36:20.590 D/BleProximity: RSSI:-86
+23:36:20.794 D/BleProximity: RSSI:-86
+23:36:20.994 D/BleProximity: RSSI:-87
+23:36:21.199 D/BleProximity: RSSI:-87
+23:36:21.397 D/BleProximity: RSSI:-87
+23:36:21.599 D/BleProximity: RSSI:-87
+23:36:21.801 D/BleProximity: RSSI:-87
+23:36:22.004 D/BleProximity: RSSI:-81
+23:36:22.207 D/BleProximity: RSSI:-79
+23:36:22.409 D/BleProximity: RSSI:-75
+23:36:22.611 D/BleProximity: RSSI:-75
+23:36:22.812 D/BleProximity: RSSI:-76
+23:36:23.013 D/BleProximity: RSSI:-79
+23:36:23.215 D/BleProximity: RSSI:-78
+23:36:23.417 D/BleProximity: RSSI:-79
+23:36:23.627 D/BleProximity: RSSI:-80
+23:36:23.834 D/BleProximity: RSSI:-79
+23:36:24.036 D/BleProximity: RSSI:-79
+23:36:24.239 D/BleProximity: RSSI:-78
+23:36:24.441 D/BleProximity: RSSI:-74
+23:36:24.649 D/BleProximity: RSSI:-75
+23:36:24.854 D/BleProximity: RSSI:-76
+23:36:25.057 D/BleProximity: RSSI:-77
+23:36:25.264 D/BleProximity: RSSI:-78
+23:36:25.472 D/BleProximity: RSSI:-79
+23:36:25.679 D/BleProximity: RSSI:-80
+23:36:25.881 D/BleProximity: RSSI:-79
+23:36:26.082 D/BleProximity: RSSI:-81
+23:36:26.284 D/BleProximity: RSSI:-82
+23:36:26.485 D/BleProximity: RSSI:-80
+23:36:26.687 D/BleProximity: RSSI:-81
+23:36:26.888 D/BleProximity: RSSI:-83
+23:36:27.089 D/BleProximity: RSSI:-85
+23:36:27.291 D/BleProximity: RSSI:-84
+23:36:27.493 D/BleProximity: RSSI:-84
+23:36:27.695 D/BleProximity: RSSI:-82
+23:36:27.898 D/BleProximity: RSSI:-83
+23:36:28.099 D/BleProximity: RSSI:-83
+23:36:28.304 D/BleProximity: RSSI:-83
+23:36:28.504 D/BleProximity: RSSI:-84
+23:36:28.706 D/BleProximity: RSSI:-84
+23:36:28.905 D/BleProximity: RSSI:-85
+23:36:29.107 D/BleProximity: RSSI:-91
+23:36:29.308 D/BleProximity: RSSI:-89
+23:36:29.512 D/BleProximity: RSSI:-89
+23:36:29.711 D/BleProximity: RSSI:-90
+23:36:29.911 D/BleProximity: RSSI:-90
+23:36:30.112 D/BleProximity: RSSI:-90
+23:36:30.316 D/BleProximity: RSSI:-90
+23:36:30.516 D/BleProximity: RSSI:-89
+23:36:30.717 D/BleProximity: RSSI:-89
+23:36:30.919 D/BleProximity: RSSI:-90
+23:36:31.122 D/BleProximity: RSSI:-90
+23:36:31.321 D/BleProximity: RSSI:-89
+23:36:31.524 D/BleProximity: RSSI:-89
+23:36:31.725 D/BleProximity: RSSI:-90
+23:36:31.928 D/BleProximity: RSSI:-92
+23:36:32.027 D/MG_NET_LOG: ┌────── 请求开始 ──────
+23:36:32.027 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+23:36:32.027 D/MG_NET_LOG: │ Method: POST
+23:36:32.028 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6395RZ654043","appId":"Roewe","brandCode":"1","nonce":"B89D18A29C384B8DA4726AFB008C8575","timestamp":"1770824192026","token":"ac774c18318f430f953b1c1e2acb778a-prod_SAIC"}
+23:36:32.028 D/MG_NET_LOG: └──────────────────────
+23:36:32.127 D/ControlActivity: RSSI:-92
+23:36:32.127 D/BleProximity: RSSI:-92
+23:36:32.127 D/BleProximity: <<< 触发上锁 <<<
+23:36:32.127 D/BleProximity: 原因: 信号均值(-90) < 阈值(-87) 且 正在远离(趋势值-3.0)
+23:36:32.127 D/ControlActivity: 命令已加入队列: BASE_DOOR_LOCK, 队列长度: 1
+23:36:32.127 D/ControlActivity: 开始执行命令: BASE_DOOR_LOCK
+23:36:32.127 D/ControlActivity: 执行上锁命令，参数: 1
+23:36:32.127 D/ControlActivity: 上锁命令已发送
+23:36:32.127 D/BleProximity: 上锁结果: IN_PROGRESS
+23:36:32.129 D/ControlActivity: 特征写入成功: ab896523-501d-4891-b378-410adce842e4
+23:36:32.258 D/ControlActivity: 收到认证挑战
+23:36:32.258 D/ControlActivity: 处理认证挑战: 343938383933306666343532
+23:36:32.258 D/ControlActivity: 认证响应已发送
+23:36:32.261 D/ControlActivity: 特征写入成功: 830919a8-a465-466a-9ff1-33da4dd7e39c
+23:36:32.261 D/ControlActivity: 认证响应发送完成
+23:36:32.328 D/ControlActivity: RSSI:-92
+23:36:32.328 D/BleProximity: RSSI:-92
+23:36:32.328 D/BleProximity: 正在收集信号样本: 1/5
+23:36:32.529 D/ControlActivity: RSSI:-92
+23:36:32.529 D/BleProximity: RSSI:-92
+23:36:32.529 D/BleProximity: 正在收集信号样本: 2/5
+23:36:32.731 D/ControlActivity: RSSI:-92
+23:36:32.731 D/BleProximity: RSSI:-92
+23:36:32.731 D/BleProximity: 正在收集信号样本: 3/5
+23:36:32.918 D/MG_NET_LOG: ┌────── 响应结束 (200 / 887ms) ──────
+23:36:32.918 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+23:36:32.918 D/MG_NET_LOG: │ Result: {"req_id":"19c4d58d28a67231849","data":{"vehicle_position":{"satellites":8,"altitude":1267,"gps_status":2,"latitude":"37.89136","update_time":1770798137000,"gps_time":1770824099000,"hdop":60,"longitude":"113.509953"},"vehicle_security":{"position_authorization_status":false,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":127,"battery_pack_range":20,"power_mode":0,"engine_status":0,"exterior_temperature":1,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":15,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":16294,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1410,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":1,"front_right_tyre_pressure":264,"battery_pack_prc":158,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":127,"current_journey_id":1549,"pwr_lftgt_pos_v":null,"interior_temperature":15,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1770824029000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":268,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":1000,"fuel_level_disp":2,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1770824029000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1770824029000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+23:36:32.918 D/MG_NET_LOG: └──────────────────────────────────────────────────
+23:36:32.937 D/ControlActivity: RSSI:-91
+23:36:32.937 D/BleProximity: RSSI:-91
+23:36:32.937 D/BleProximity: 正在收集信号样本: 4/5
+23:36:33.140 D/ControlActivity: RSSI:-90
+23:36:33.140 D/BleProximity: RSSI:-90
+23:36:33.341 D/ControlActivity: RSSI:-90
+23:36:33.341 D/BleProximity: RSSI:-90
+23:36:33.449 D/ControlActivity: 上锁成功（LOCK_STATUS）
+23:36:33.449 D/BleProximity: 上锁结果: SUCCESS
+23:36:33.453 D/ControlActivity: 命令执行完成，队列剩余: 0
+23:36:33.476 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+23:36:33.478 D/MG_NET_LOG: ┌────── 请求开始 ──────
+23:36:33.478 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+23:36:33.478 D/MG_NET_LOG: │ Method: POST
+23:36:33.478 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6395RZ654043","appId":"Roewe","brandCode":"1","nonce":"9C15CBC88CB545509E0F00765375BF6F","timestamp":"1770824193476","token":"ac774c18318f430f953b1c1e2acb778a-prod_SAIC"}
+23:36:33.478 D/MG_NET_LOG: └──────────────────────
+23:36:33.544 D/ControlActivity: RSSI:-90
+23:36:33.544 D/BleProximity: RSSI:-90
+23:36:33.569 D/ControlActivity: 命令队列为空
+23:36:33.746 D/ControlActivity: RSSI:-90
+23:36:33.746 D/BleProximity: RSSI:-90
+23:36:33.946 D/ControlActivity: RSSI:-90
+23:36:33.947 D/BleProximity: RSSI:-90
+23:36:34.146 D/ControlActivity: RSSI:-90
+23:36:34.146 D/BleProximity: RSSI:-90
+23:36:34.348 D/ControlActivity: RSSI:-89
+23:36:34.348 D/BleProximity: RSSI:-89
+23:36:34.411 D/MG_NET_LOG: ┌────── 响应结束 (200 / 932ms) ──────
+23:36:34.411 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+23:36:34.411 D/MG_NET_LOG: │ Result: {"req_id":"19c4d58d83d87bc2f29","data":{"vehicle_position":{"satellites":8,"altitude":1267,"latitude":"37.89136","gps_status":2,"update_time":1770798137000,"gps_time":1770824099000,"hdop":60,"longitude":"113.509953"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":false,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":127,"battery_pack_range":20,"power_mode":0,"engine_status":0,"exterior_temperature":1,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":15,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":16294,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1410,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":1,"front_right_tyre_pressure":264,"battery_pack_prc":158,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":127,"current_journey_id":1549,"pwr_lftgt_pos_v":null,"interior_temperature":15,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1770824029000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":268,"vehicle_battery_prc":1000,"battery_type":0,"fuel_level_disp":2,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1770824029000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1770824029000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+23:36:34.411 D/MG_NET_LOG: └──────────────────────────────────────────────────
+23:36:34.428 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 山西省阳泉市矿区矿山路38号
+23:36:34.428 D/WidgetUpdateWorker: Starting update loop for 2 widget types
+23:36:34.429 D/MGWidget: updateWidgetSynchronously called for ID: 1215
+23:36:34.551 D/ControlActivity: RSSI:-89
+23:36:34.551 D/BleProximity: RSSI:-89
+23:36:34.752 D/ControlActivity: RSSI:-88
+23:36:34.752 D/BleProximity: RSSI:-88
+23:36:34.954 D/ControlActivity: RSSI:-88
+23:36:34.954 D/BleProximity: RSSI:-88
+23:36:35.155 D/ControlActivity: RSSI:-90
+23:36:35.155 D/BleProximity: RSSI:-90
+23:36:35.357 D/ControlActivity: RSSI:-89
+23:36:35.357 D/BleProximity: RSSI:-89
+23:36:35.559 D/ControlActivity: RSSI:-89
+23:36:35.559 D/BleProximity: RSSI:-89
+23:36:35.761 D/ControlActivity: RSSI:-88
+23:36:35.761 D/BleProximity: RSSI:-88
+23:36:35.961 D/ControlActivity: RSSI:-89
+23:36:35.961 D/BleProximity: RSSI:-89
+23:36:36.163 D/ControlActivity: RSSI:-87
+23:36:36.163 D/BleProximity: RSSI:-87
+23:36:36.370 D/ControlActivity: RSSI:-88
+23:36:36.370 D/BleProximity: RSSI:-88
+23:36:36.569 D/ControlActivity: RSSI:-88
+23:36:36.569 D/BleProximity: RSSI:-88
+23:36:36.770 D/ControlActivity: RSSI:-88
+23:36:36.770 D/BleProximity: RSSI:-88
+23:36:36.972 D/ControlActivity: RSSI:-88
+23:36:36.972 D/BleProximity: RSSI:-88
+23:36:37.172 D/ControlActivity: RSSI:-88
+23:36:37.172 D/BleProximity: RSSI:-88
+23:36:37.373 D/ControlActivity: RSSI:-89
+23:36:37.373 D/BleProximity: RSSI:-89
+23:36:37.579 D/ControlActivity: RSSI:-89
+23:36:37.579 D/BleProximity: RSSI:-89
+23:36:37.778 D/ControlActivity: RSSI:-89
+23:36:37.778 D/BleProximity: RSSI:-89
+23:36:37.979 D/ControlActivity: RSSI:-89
+23:36:37.979 D/BleProximity: RSSI:-89
+23:36:38.181 D/ControlActivity: RSSI:-89
+23:36:38.181 D/BleProximity: RSSI:-89
+23:36:38.383 D/ControlActivity: RSSI:-89
+23:36:38.383 D/BleProximity: RSSI:-89
+23:36:38.586 D/ControlActivity: RSSI:-88
+23:36:38.586 D/BleProximity: RSSI:-88
+23:36:38.786 D/ControlActivity: RSSI:-87
+23:36:38.786 D/BleProximity: RSSI:-87
+23:36:38.988 D/ControlActivity: RSSI:-88
+23:36:38.988 D/BleProximity: RSSI:-88
+23:36:39.188 D/ControlActivity: RSSI:-88
+23:36:39.188 D/BleProximity: RSSI:-88
+23:36:39.390 D/ControlActivity: RSSI:-88
+23:36:39.390 D/BleProximity: RSSI:-88
+23:36:39.590 D/ControlActivity: RSSI:-88
+23:36:39.590 D/BleProximity: RSSI:-88
+23:36:39.791 D/ControlActivity: RSSI:-88
+23:36:39.791 D/BleProximity: RSSI:-88
+23:36:39.992 D/ControlActivity: RSSI:-88
+23:36:39.992 D/BleProximity: RSSI:-88
+23:36:40.086 D/BleProximity: 连接状态变更: DISCONNECTED
+23:36:40.087 D/ControlActivity: 已断开连接
+23:36:42.087 D/BleProximity: 连接状态变更: CONNECTING
+23:36:42.087 D/ControlActivity: 开始扫描蓝牙设备，服务UUID: a830005f-88c0-4369-844a-f2cf334cb5cc
+23:36:42.883 D/ControlActivity: 发现设备: CC:B5:4C:33:CF:F2, RSSI: -81
+23:36:42.883 D/BleProximity: 发现设备: CC:B5:4C:33:CF:F2, RSSI: -81
+23:36:42.887 D/ControlActivity: 停止扫描
+23:36:42.887 D/ControlActivity: 准备连接设备：CC:B5:4C:33:CF:F2
+23:36:42.887 D/ControlActivity: 正在连接设备: CC:B5:4C:33:CF:F2
+23:36:42.887 D/BleProximity: 连接状态变更: CONNECTING
+23:36:43.888 D/BleProximity: 连接状态变更: CONNECTED
+23:36:43.888 D/ControlActivity: 设备连接成功
+23:36:43.891 D/ControlActivity: RSSI:-79
+23:36:43.891 D/BleProximity: RSSI:-79
+23:36:43.891 D/BleProximity: >>> 触发解锁 <<<
+23:36:43.891 D/BleProximity: 原因: 信号均值(-86) > 阈值(-87) 且 正在靠近(趋势值+4.5)
+23:36:44.093 D/ControlActivity: RSSI:-78
+23:36:44.093 D/BleProximity: RSSI:-78
+23:36:44.093 D/BleProximity: >>> 触发解锁 <<<
+23:36:44.093 D/BleProximity: 原因: 信号均值(-84) > 阈值(-87) 且 正在靠近(趋势值+9.5)
+23:36:44.294 D/ControlActivity: RSSI:-75
+23:36:44.294 D/BleProximity: RSSI:-75
+23:36:44.294 D/BleProximity: >>> 触发解锁 <<<
+23:36:44.294 D/BleProximity: 原因: 信号均值(-81) > 阈值(-87) 且 正在靠近(趋势值+11.5)
+23:36:44.494 D/ControlActivity: RSSI:-72
+23:36:44.494 D/BleProximity: RSSI:-72
+23:36:44.495 D/BleProximity: >>> 触发解锁 <<<
+23:36:44.495 D/BleProximity: 原因: 信号均值(-78) > 阈值(-87) 且 正在靠近(趋势值+10.0)
+23:36:44.698 D/ControlActivity: RSSI:-77
+23:36:44.698 D/BleProximity: RSSI:-77
+23:36:44.698 D/BleProximity: >>> 触发解锁 <<<
+23:36:44.698 D/BleProximity: 原因: 信号均值(-76) > 阈值(-87) 且 正在靠近(趋势值+4.0)
+23:36:44.898 D/ControlActivity: RSSI:-75
+23:36:44.898 D/BleProximity: RSSI:-75
+23:36:45.101 D/ControlActivity: RSSI:-81
+23:36:45.101 D/BleProximity: RSSI:-81
+23:36:45.111 D/ControlActivity: 服务发现成功
+23:36:45.111 D/ControlActivity: 特征初始化完成
+23:36:45.122 D/ControlActivity: MTU设置成功: 65
+23:36:45.122 D/ControlActivity: 开始认证流程
+23:36:45.138 D/ControlActivity: 描述符写入成功
+23:36:45.138 D/ControlActivity: 已启用 1/5 个通知
+23:36:45.160 D/ControlActivity: 描述符写入成功
+23:36:45.160 D/ControlActivity: 已启用 2/5 个通知
+23:36:45.175 D/ControlActivity: 描述符写入成功
+23:36:45.175 D/ControlActivity: 已启用 3/5 个通知
+23:36:45.237 D/ControlActivity: 描述符写入成功
+23:36:45.237 D/ControlActivity: 已启用 4/5 个通知
+23:36:45.300 D/ControlActivity: RSSI:-79
+23:36:45.300 D/BleProximity: RSSI:-79
+23:36:45.332 D/ControlActivity: 描述符写入成功
+23:36:45.332 D/ControlActivity: 已启用 5/5 个通知
+23:36:45.427 D/ControlActivity: 描述符写入成功
+23:36:45.427 D/ControlActivity: 已启用 6/5 个通知
+23:36:45.429 D/ControlActivity: 发送Booking ID: 019A6219
+23:36:45.430 D/ControlActivity: 特征写入成功: 50b4a892-81d3-4285-8adb-3ecde57678d9
+23:36:45.430 D/ControlActivity: Booking ID发送完成
+23:36:45.502 D/ControlActivity: RSSI:-75
+23:36:45.503 D/BleProximity: RSSI:-75
+23:36:45.522 D/ControlActivity: 收到认证挑战
+23:36:45.522 D/ControlActivity: 处理认证挑战: 393663323965396430623433
+23:36:45.523 D/ControlActivity: 认证响应已发送
+23:36:45.523 D/ControlActivity: 特征写入成功: 830919a8-a465-466a-9ff1-33da4dd7e39c
+23:36:45.523 D/ControlActivity: 认证响应发送完成
+23:36:45.618 D/ControlActivity: 收到认证挑战
+23:36:45.618 D/ControlActivity: 处理认证挑战: 393663323965396430623433
+23:36:45.619 D/ControlActivity: 认证响应已发送
+23:36:45.620 D/ControlActivity: 特征写入成功: 830919a8-a465-466a-9ff1-33da4dd7e39c
+23:36:45.620 D/ControlActivity: 认证响应发送完成
+23:36:45.707 D/ControlActivity: RSSI:-72
+23:36:45.707 D/BleProximity: RSSI:-72
+23:36:45.714 D/BleProximity: >>> 触发解锁 <<<
+23:36:45.714 D/BleProximity: 原因: 信号均值(-76) > 阈值(-87) 且 正在靠近(趋势值+4.5)
+23:36:45.714 D/ControlActivity: 收到认证挑战
+23:36:45.714 D/ControlActivity: 处理认证挑战: 393663323965396430623433
+23:36:45.715 D/ControlActivity: 认证响应已发送
+23:36:45.716 D/ControlActivity: 特征写入成功: 830919a8-a465-466a-9ff1-33da4dd7e39c
+23:36:45.716 D/ControlActivity: 认证响应发送完成
+23:36:45.807 D/ControlActivity: 认证失败
+23:36:45.905 D/ControlActivity: RSSI:-75
+23:36:45.905 D/BleProximity: RSSI:-75
+23:36:45.905 D/BleProximity: >>> 触发解锁 <<<
+23:36:45.905 D/BleProximity: 原因: 信号均值(-76) > 阈值(-87) 且 正在靠近(趋势值+6.5)
+23:36:46.108 D/ControlActivity: RSSI:-76
+23:36:46.108 D/BleProximity: RSSI:-76
+23:36:46.310 D/ControlActivity: RSSI:-74
+23:36:46.310 D/BleProximity: RSSI:-74
+23:36:46.512 D/ControlActivity: RSSI:-72
+23:36:46.512 D/BleProximity: RSSI:-72
+23:36:46.715 D/ControlActivity: RSSI:-69
+23:36:46.715 D/BleProximity: RSSI:-69
+23:36:46.715 D/BleProximity: >>> 触发解锁 <<<
+23:36:46.715 D/BleProximity: 原因: 信号均值(-73) > 阈值(-87) 且 正在靠近(趋势值+5.0)
+23:36:46.916 D/ControlActivity: RSSI:-71
+23:36:46.916 D/BleProximity: RSSI:-71
+23:36:46.916 D/BleProximity: >>> 触发解锁 <<<
+23:36:46.916 D/BleProximity: 原因: 信号均值(-72) > 阈值(-87) 且 正在靠近(趋势值+5.0)
+23:36:47.119 D/ControlActivity: RSSI:-71
+23:36:47.119 D/BleProximity: RSSI:-71
+23:36:47.320 D/ControlActivity: RSSI:-71
+23:36:47.320 D/BleProximity: RSSI:-71
+23:36:47.521 D/ControlActivity: RSSI:-71
+23:36:47.521 D/BleProximity: RSSI:-71
+23:36:47.724 D/ControlActivity: RSSI:-72
+23:36:47.724 D/BleProximity: RSSI:-72
+23:36:47.925 D/ControlActivity: RSSI:-70
+23:36:47.926 D/BleProximity: RSSI:-70
+23:36:48.126 D/ControlActivity: RSSI:-70
+23:36:48.126 D/BleProximity: RSSI:-70
+23:36:48.329 D/ControlActivity: RSSI:-72
+23:36:48.330 D/BleProximity: RSSI:-72
+23:36:48.532 D/ControlActivity: RSSI:-75
+23:36:48.532 D/BleProximity: RSSI:-75
+23:36:48.733 D/ControlActivity: RSSI:-75
+23:36:48.733 D/BleProximity: RSSI:-75
+23:36:48.935 D/ControlActivity: RSSI:-74
+23:36:48.935 D/BleProximity: RSSI:-74
+23:36:49.139 D/ControlActivity: RSSI:-75
+23:36:49.139 D/BleProximity: RSSI:-75
+23:36:49.342 D/ControlActivity: RSSI:-75
+23:36:49.342 D/BleProximity: RSSI:-75
+23:36:49.545 D/ControlActivity: RSSI:-74
+23:36:49.546 D/BleProximity: RSSI:-74
+23:36:49.746 D/ControlActivity: RSSI:-74
+23:36:49.746 D/BleProximity: RSSI:-74
+23:36:49.948 D/ControlActivity: RSSI:-75
+23:36:49.948 D/BleProximity: RSSI:-75
+23:36:50.150 D/ControlActivity: RSSI:-74
+23:36:50.150 D/BleProximity: RSSI:-74
+23:36:50.351 D/ControlActivity: RSSI:-74
+23:36:50.351 D/BleProximity: RSSI:-74
+23:36:50.552 D/ControlActivity: RSSI:-77
+23:36:50.552 D/BleProximity: RSSI:-77
+23:36:50.752 D/ControlActivity: RSSI:-79
+23:36:50.752 D/BleProximity: RSSI:-79
+23:36:50.954 D/ControlActivity: RSSI:-76
+23:36:50.954 D/BleProximity: RSSI:-76
+23:36:51.155 D/ControlActivity: RSSI:-77
+23:36:51.155 D/BleProximity: RSSI:-77
+23:36:51.357 D/ControlActivity: RSSI:-76
+23:36:51.357 D/BleProximity: RSSI:-76
+23:36:51.562 D/ControlActivity: RSSI:-76
+23:36:51.562 D/BleProximity: RSSI:-76
+23:36:51.762 D/ControlActivity: RSSI:-71
+23:36:51.762 D/BleProximity: RSSI:-71
+23:36:51.762 D/BleProximity: >>> 触发解锁 <<<
+23:36:51.762 D/BleProximity: 原因: 信号均值(-75) > 阈值(-87) 且 正在靠近(趋势值+3.0)
+23:36:51.962 D/ControlActivity: RSSI:-75
+23:36:51.962 D/BleProximity: RSSI:-75
+23:36:51.962 D/BleProximity: >>> 触发解锁 <<<
+23:36:51.962 D/BleProximity: 原因: 信号均值(-75) > 阈值(-87) 且 正在靠近(趋势值+3.5)
+23:36:52.162 D/ControlActivity: RSSI:-73
+23:36:52.162 D/BleProximity: RSSI:-73
+23:36:52.365 D/ControlActivity: RSSI:-71
+23:36:52.365 D/BleProximity: RSSI:-71
+23:36:52.566 D/ControlActivity: RSSI:-74
+23:36:52.566 D/BleProximity: RSSI:-74
+23:36:52.767 D/ControlActivity: RSSI:-75
+23:36:52.767 D/BleProximity: RSSI:-75
+23:36:52.968 D/ControlActivity: RSSI:-76
+23:36:52.968 D/BleProximity: RSSI:-76
+23:36:53.168 D/ControlActivity: RSSI:-75
+23:36:53.168 D/BleProximity: RSSI:-75
+23:36:53.371 D/ControlActivity: RSSI:-72
+23:36:53.371 D/BleProximity: RSSI:-72
+23:36:53.576 D/ControlActivity: RSSI:-75
+23:36:53.576 D/BleProximity: RSSI:-75
+23:36:53.777 D/ControlActivity: RSSI:-80
+23:36:53.777 D/BleProximity: RSSI:-80
+23:36:53.979 D/ControlActivity: RSSI:-78
+23:36:53.979 D/BleProximity: RSSI:-78
+23:36:54.181 D/ControlActivity: RSSI:-76
+23:36:54.181 D/BleProximity: RSSI:-76
+23:36:54.381 D/ControlActivity: RSSI:-77
+23:36:54.381 D/BleProximity: RSSI:-77
+23:36:54.583 D/ControlActivity: RSSI:-77
+23:36:54.583 D/BleProximity: RSSI:-77
+23:36:54.784 D/ControlActivity: RSSI:-77
+23:36:54.784 D/BleProximity: RSSI:-77
+23:36:54.986 D/ControlActivity: RSSI:-76
+23:36:54.986 D/BleProximity: RSSI:-76
+23:36:55.188 D/ControlActivity: RSSI:-77
+23:36:55.188 D/BleProximity: RSSI:-77
+23:36:55.390 D/ControlActivity: RSSI:-75
+23:36:55.390 D/BleProximity: RSSI:-75
+23:36:55.593 D/ControlActivity: RSSI:-75
+23:36:55.593 D/BleProximity: RSSI:-75
+23:36:55.795 D/ControlActivity: RSSI:-75
+23:36:55.795 D/BleProximity: RSSI:-75
+23:36:55.997 D/ControlActivity: RSSI:-78
+23:36:55.997 D/BleProximity: RSSI:-78
+23:36:56.195 D/ControlActivity: RSSI:-76
+23:36:56.195 D/BleProximity: RSSI:-76
+23:36:56.398 D/ControlActivity: RSSI:-77
+23:36:56.398 D/BleProximity: RSSI:-77
+23:36:56.597 D/ControlActivity: RSSI:-78
+23:36:56.597 D/BleProximity: RSSI:-78
+23:36:56.799 D/ControlActivity: RSSI:-78
+23:36:56.799 D/BleProximity: RSSI:-78
+23:36:57.004 D/ControlActivity: RSSI:-78
+23:36:57.004 D/BleProximity: RSSI:-78
+23:36:57.205 D/ControlActivity: RSSI:-76
+23:36:57.205 D/BleProximity: RSSI:-76
+23:36:57.408 D/ControlActivity: RSSI:-75
+23:36:57.408 D/BleProximity: RSSI:-75
+23:36:57.610 D/ControlActivity: RSSI:-79
+23:36:57.610 D/BleProximity: RSSI:-79
+23:36:57.810 D/ControlActivity: RSSI:-78
+23:36:57.810 D/BleProximity: RSSI:-78
+23:36:58.013 D/ControlActivity: RSSI:-79
+23:36:58.013 D/BleProximity: RSSI:-79
+23:36:58.214 D/ControlActivity: RSSI:-79
+23:36:58.215 D/BleProximity: RSSI:-79
+23:36:58.418 D/ControlActivity: RSSI:-78
+23:36:58.418 D/BleProximity: RSSI:-78
+23:36:58.620 D/ControlActivity: RSSI:-76
+23:36:58.620 D/BleProximity: RSSI:-76
+23:36:58.822 D/ControlActivity: RSSI:-74
+23:36:58.822 D/BleProximity: RSSI:-74
+23:36:58.822 D/BleProximity: >>> 触发解锁 <<<
+23:36:58.822 D/BleProximity: 原因: 信号均值(-77) > 阈值(-87) 且 正在靠近(趋势值+4.0)
+23:36:59.023 D/ControlActivity: RSSI:-72
+23:36:59.023 D/BleProximity: RSSI:-72
+23:36:59.024 D/BleProximity: >>> 触发解锁 <<<
+23:36:59.024 D/BleProximity: 原因: 信号均值(-75) > 阈值(-87) 且 正在靠近(趋势值+5.5)
+23:36:59.226 D/ControlActivity: RSSI:-72
+23:36:59.226 D/BleProximity: RSSI:-72
+23:36:59.227 D/BleProximity: >>> 触发解锁 <<<
+23:36:59.227 D/BleProximity: 原因: 信号均值(-74) > 阈值(-87) 且 正在靠近(趋势值+5.0)
+23:36:59.425 D/ControlActivity: RSSI:-71
+23:36:59.425 D/BleProximity: RSSI:-71
+23:36:59.425 D/BleProximity: >>> 触发解锁 <<<
+23:36:59.425 D/BleProximity: 原因: 信号均值(-73) > 阈值(-87) 且 正在靠近(趋势值+3.5)
+23:36:59.626 D/ControlActivity: RSSI:-73
+23:36:59.626 D/BleProximity: RSSI:-73
+23:36:59.827 D/ControlActivity: RSSI:-70
+23:36:59.827 D/BleProximity: RSSI:-70
+23:37:00.028 D/ControlActivity: RSSI:-71
+23:37:00.028 D/BleProximity: RSSI:-71
+23:37:00.232 D/ControlActivity: RSSI:-74
+23:37:00.232 D/BleProximity: RSSI:-74
+23:37:00.435 D/ControlActivity: RSSI:-74
+23:37:00.435 D/BleProximity: RSSI:-74
+23:37:00.641 D/ControlActivity: RSSI:-74
+23:37:00.641 D/BleProximity: RSSI:-74
+23:37:00.842 D/ControlActivity: RSSI:-75
+23:37:00.842 D/BleProximity: RSSI:-75
+23:37:01.041 D/ControlActivity: RSSI:-76
+23:37:01.041 D/BleProximity: RSSI:-76
+23:37:01.242 D/ControlActivity: RSSI:-75
+23:37:01.242 D/BleProximity: RSSI:-75
+23:37:01.444 D/ControlActivity: RSSI:-72
+23:37:01.444 D/BleProximity: RSSI:-72
+23:37:01.648 D/ControlActivity: RSSI:-74
+23:37:01.648 D/BleProximity: RSSI:-74
+23:37:01.851 D/ControlActivity: RSSI:-71
+23:37:01.851 D/BleProximity: RSSI:-71
+23:37:01.851 D/BleProximity: >>> 触发解锁 <<<
+23:37:01.851 D/BleProximity: 原因: 信号均值(-73) > 阈值(-87) 且 正在靠近(趋势值+3.0)
+23:37:02.051 D/ControlActivity: RSSI:-73
+23:37:02.051 D/BleProximity: RSSI:-73
+23:37:02.253 D/ControlActivity: RSSI:-72
+23:37:02.253 D/BleProximity: RSSI:-72
+23:37:02.455 D/ControlActivity: RSSI:-72
+23:37:02.455 D/BleProximity: RSSI:-72
+23:37:02.657 D/ControlActivity: RSSI:-72
+23:37:02.657 D/BleProximity: RSSI:-72
+23:37:02.860 D/ControlActivity: RSSI:-71
+23:37:02.860 D/BleProximity: RSSI:-71
+23:37:03.061 D/ControlActivity: RSSI:-72
+23:37:03.061 D/BleProximity: RSSI:-72
+23:37:03.263 D/ControlActivity: RSSI:-71
+23:37:03.263 D/BleProximity: RSSI:-71
+23:37:03.464 D/ControlActivity: RSSI:-72
+23:37:03.464 D/BleProximity: RSSI:-72
+23:37:03.662 D/BleProximity: RSSI:-70
+23:37:03.863 D/BleProximity: RSSI:-70
+23:37:04.062 D/BleProximity: RSSI:-70
+23:37:04.263 D/BleProximity: RSSI:-70
+23:37:04.465 D/BleProximity: RSSI:-69
+23:37:04.666 D/BleProximity: RSSI:-71
+23:37:04.866 D/BleProximity: RSSI:-72
+23:37:05.072 D/BleProximity: RSSI:-68
+23:37:05.274 D/BleProximity: RSSI:-68
+23:37:05.480 D/BleProximity: RSSI:-65
+23:37:05.480 D/BleProximity: >>> 触发解锁 <<<
+23:37:05.480 D/BleProximity: 原因: 信号均值(-68) > 阈值(-87) 且 正在靠近(趋势值+5.0)
+23:37:05.684 D/BleProximity: RSSI:-65
+23:37:05.684 D/BleProximity: >>> 触发解锁 <<<
+23:37:05.684 D/BleProximity: 原因: 信号均值(-67) > 阈值(-87) 且 正在靠近(趋势值+5.0)
+23:37:05.881 D/BleProximity: RSSI:-62
+23:37:05.881 D/BleProximity: >>> 触发解锁 <<<
+23:37:05.881 D/BleProximity: 原因: 信号均值(-65) > 阈值(-87) 且 正在靠近(趋势值+4.5)
+23:37:06.083 D/BleProximity: RSSI:-67
+23:37:06.283 D/BleProximity: RSSI:-70
+23:37:06.484 D/BleProximity: RSSI:-70
+23:37:06.685 D/BleProximity: RSSI:-66
+23:37:06.887 D/BleProximity: RSSI:-64
+23:37:06.887 D/BleProximity: >>> 触发解锁 <<<
+23:37:06.887 D/BleProximity: 原因: 信号均值(-67) > 阈值(-87) 且 正在靠近(趋势值+3.5)
+23:37:07.087 D/BleProximity: RSSI:-64
+23:37:07.087 D/BleProximity: >>> 触发解锁 <<<
+23:37:07.087 D/BleProximity: 原因: 信号均值(-66) > 阈值(-87) 且 正在靠近(趋势值+6.0)
+23:37:07.289 D/BleProximity: RSSI:-63
+23:37:07.289 D/BleProximity: >>> 触发解锁 <<<
+23:37:07.289 D/BleProximity: 原因: 信号均值(-65) > 阈值(-87) 且 正在靠近(趋势值+4.5)
+23:37:07.491 D/BleProximity: RSSI:-68
+23:37:07.693 D/BleProximity: RSSI:-68
+23:37:07.896 D/BleProximity: RSSI:-66
+23:37:08.101 D/BleProximity: RSSI:-65
+23:37:08.302 D/BleProximity: RSSI:-64
+23:37:08.302 D/BleProximity: >>> 触发解锁 <<<
+23:37:08.302 D/BleProximity: 原因: 信号均值(-66) > 阈值(-87) 且 正在靠近(趋势值+3.5)
+23:37:08.503 D/BleProximity: RSSI:-64
+23:37:08.503 D/BleProximity: >>> 触发解锁 <<<
+23:37:08.503 D/BleProximity: 原因: 信号均值(-65) > 阈值(-87) 且 正在靠近(趋势值+3.0)
+23:37:08.704 D/BleProximity: RSSI:-69
+23:37:08.905 D/BleProximity: RSSI:-67
+23:37:09.105 D/BleProximity: RSSI:-66
+23:37:09.311 D/BleProximity: RSSI:-66
+23:37:09.518 D/BleProximity: RSSI:-66
+23:37:09.716 D/BleProximity: RSSI:-66
+23:37:09.919 D/BleProximity: RSSI:-67
+23:37:10.119 D/BleProximity: RSSI:-67
+23:37:10.321 D/BleProximity: RSSI:-66
+23:37:10.520 D/BleProximity: RSSI:-64
+23:37:10.721 D/BleProximity: RSSI:-67
+23:37:10.922 D/BleProximity: RSSI:-67
+23:37:11.124 D/BleProximity: RSSI:-67
+23:37:11.325 D/BleProximity: RSSI:-63
+23:37:11.529 D/BleProximity: RSSI:-63
+23:37:11.529 D/BleProximity: >>> 触发解锁 <<<
+23:37:11.529 D/BleProximity: 原因: 信号均值(-65) > 阈值(-87) 且 正在靠近(趋势值+4.0)
+23:37:11.728 D/BleProximity: RSSI:-67
+23:37:11.932 D/BleProximity: RSSI:-66
+23:37:12.131 D/BleProximity: RSSI:-70
+23:37:12.334 D/BleProximity: RSSI:-71
+23:37:12.535 D/BleProximity: RSSI:-68
+23:37:12.736 D/BleProximity: RSSI:-69
+23:37:12.935 D/BleProximity: RSSI:-68
+23:37:13.139 D/BleProximity: RSSI:-67
+23:37:13.340 D/BleProximity: RSSI:-66
+23:37:13.542 D/BleProximity: RSSI:-68
+23:37:13.746 D/BleProximity: RSSI:-68
+23:37:13.947 D/BleProximity: RSSI:-67
+23:37:14.148 D/BleProximity: RSSI:-65
+23:37:14.350 D/BleProximity: RSSI:-68
+23:37:14.552 D/BleProximity: RSSI:-67
+23:37:14.754 D/BleProximity: RSSI:-66
+23:37:14.956 D/BleProximity: RSSI:-68
+23:37:15.157 D/BleProximity: RSSI:-68
+23:37:15.361 D/BleProximity: RSSI:-64
