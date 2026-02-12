@@ -1,0 +1,37 @@
+--- Log Capture Start: 20260212_232653 ---
+23:21:01.088 D/MG_NET_LOG: ┌────── 请求开始 ──────
+23:21:01.088 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/uais/1.1/graphicVerificationV2
+23:21:01.088 D/MG_NET_LOG: │ Method: POST
+23:21:01.088 D/MG_NET_LOG: │ Header: timestamp: 1770909661085
+23:21:01.088 D/MG_NET_LOG: │ Header: app-type: mgapp
+23:21:01.088 D/MG_NET_LOG: │ Header: sign: YiBphtHPNRnqRtrZOMf6FmXzprV0ZUcf7axelW4zsX4=
+23:21:01.088 D/MG_NET_LOG: │ Params: data={"mobilePhone":"15103366337","NECaptchaValidate":"CN31_Eg*y1L2FC*HqfrFNwoZQtB16_UwW*KeaInKip3MuhNN_MFd1De*UKv480Q60A_kADaR6YynlqOhzx4z8ZESYASo2GwfGOrAo*NF2rkox_0TMfpta1bh.MBPpi8cGooKQ3ubkkkNfwms_4JNsyktDNo08Dc3wgjccio95g**Un.IlvvOjrD.jy_WvhI2Znsp3hHGN0mVl5.br0n3M_uDAQoIdfjLR1yw8Inf.50tN_VSQUNRqWHTKuXDn5TU00pDgjTvUe0_uttzMCI0Vpvw.YPyJop3TypfFCh0urX0wtEYW381r1NNZUNIC*5rGZ0_YblFSM02Dv8fZp6kPXfbNBWeIRFVhnXW2bZ9wQRaUjZ_Tlm0lA2mKREkRv6l09ZQKvGjpHgRWn0ZCXFendvfj_BpQL2L_ObdU8AY1qBWdofs8jJIUT2sbrcohGShku2qa1J2HrCd2*uOHyxkB6nXqYUlKu9FgVUpjZxG30CHrct9ipSzdYLyUF3DS0Q5pviPc88yBqX77_v_i_1","captchaId":"b4800c43901c4113856a95938560ae0a","brandCode":"2"}
+23:21:01.088 D/MG_NET_LOG: └──────────────────────
+23:21:04.457 D/MG_NET_LOG: ┌────── 响应结束 (200 / 3368ms) ──────
+23:21:04.458 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/uais/1.1/graphicVerificationV2
+23:21:04.458 D/MG_NET_LOG: │ Result: {"req_id":"19c5270f6cfb2227f85","err_resp":{"msg":"请求超时，请稍后再试","code":"14803","desc":"请求超时，请稍后再试"}}
+23:21:04.458 D/MG_NET_LOG: └──────────────────────────────────────────────────
+23:24:31.944 D/MG_NET_LOG: ┌────── 请求开始 ──────
+23:24:31.944 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/uais/1.1/graphicVerificationV2
+23:24:31.944 D/MG_NET_LOG: │ Method: POST
+23:24:31.944 D/MG_NET_LOG: │ Header: timestamp: 1770909871941
+23:24:31.944 D/MG_NET_LOG: │ Header: app-type: mgapp
+23:24:31.944 D/MG_NET_LOG: │ Header: sign: UWp4W+WFH11nzSC4OM2g+21xrgNzxk0aX6mJmhd1eKk=
+23:24:31.945 D/MG_NET_LOG: │ Params: data={"mobilePhone":"15103366337","NECaptchaValidate":"CN31_hD*l2_RYLMApMEauo6dJTInEhhq5WZDcf2I10ohsKe_Hb9vDvXVt*lw.Ds21QWK0cQAksSRKuxLV8gUPkSkTMrlMfa8SXx1oKzQfwQDifJQrg9cq*UJWOEat6ZS0OvuQQVCUoy9OUTjEnzzGhLPSeEhaLnIpiaNR1gNyvjEUsD_Pi4bLaP88gfCukjSU9pPpjFdzD20HKreDdhUdF*.fqvbeqp9rblWOoGQSY1t9y0AeYXlLEZC0gU92QpPicHp*jVMKT.pDp901AGii6AynYePecQ2Gdw0V4Rm31dG4HQ1zXtKAA5Y9nCV0oMpcV*vL8KJAtm8U6jBYYbAk3usqMtAdQnr0GF4eLbQpOorRGloWfAYmzY6hurs2G.1iGF4VTGjRaaB8k.kWt3FVgEAo_8FGoT86F81B.gMOFTXvKa1g21ykIDGSZxluYvsGZgJJBFOUfTmWhkv9elwHhmW8.lTQ9xYykV3RCs2toSY1xelZG12SDdb4boqhCr5dju9KZ1V.JM77_v_i_1","captchaId":"9bf804b38df4489bb1cf95901e6f7679","brandCode":"1"}
+23:24:31.945 D/MG_NET_LOG: └──────────────────────
+23:24:32.377 D/MG_NET_LOG: ┌────── 响应结束 (200 / 431ms) ──────
+23:24:32.377 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/uais/1.1/graphicVerificationV2
+23:24:32.377 D/MG_NET_LOG: │ Result: {"req_id":"19c52742e66799d8c61","err_resp":{"msg":"校验失败","code":"21102","desc":"校验失败"}}
+23:24:32.377 D/MG_NET_LOG: └──────────────────────────────────────────────────
+23:26:45.758 D/MG_NET_LOG: ┌────── 请求开始 ──────
+23:26:45.758 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/uais/1.1/graphicVerificationV2
+23:26:45.758 D/MG_NET_LOG: │ Method: POST
+23:26:45.758 D/MG_NET_LOG: │ Header: timestamp: 1770910005754
+23:26:45.758 D/MG_NET_LOG: │ Header: app-type: mgapp
+23:26:45.758 D/MG_NET_LOG: │ Header: sign: ODCGKRo+dDi4T6+1UjXvqsJqtxqLoNfUpe7yprzqZ1E=
+23:26:45.758 D/MG_NET_LOG: │ Params: data={"mobilePhone":"15103366337","NECaptchaValidate":"CN31_4tKOZQWZAkU.OZjl3k4*Pp4xlRVSLy8l1RW6RetF.xZNd_2XSdwwPUDBwJFDQSQA1*eildXOq1qPXwi5DM4Y*NVGXDXcirHprq92pZAW6gY5MVHc666bOXxsJWFC0qzauDKKJ.VSf64Li5_kPqf.*1Di0SzUhLoZPDCu8heb4q_6fGSmzA_szaGIWTzHM6SbtmFyD5EXZkbSc3Cfn_q9r3_60oVkAKHvnikBoXCbwRKk.eR4kJiFzSKK1rlmKrbXX0JD9X43suG_0Q2jnoeqWmJi9zDgZgV2mSrej8kclCYc6l6qkkfAkUbdz*GuoB8pUs6i4ChmisEEtdO_5lH*qXS52_fLaXgnx0QFUiajzAxCsr0zmArqnALMwKS5_MT1ld1FrxwNnqz9NYVbFYj1*cPHTK5JQpTCKjfr80n312P_BWQEnY1ibyCC8VAIQDyNOz1Wbtde*tP8Y.hbo4Nz8hZZV0GC8.uGrj*.GREBMW.GGaFBDS.gnzQedOJddV.Vxz2pNg77_v_i_1","captchaId":"9bf804b38df4489bb1cf95901e6f7679","brandCode":"1"}
+23:26:45.759 D/MG_NET_LOG: └──────────────────────
+23:26:46.369 D/MG_NET_LOG: ┌────── 响应结束 (200 / 609ms) ──────
+23:26:46.369 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/uais/1.1/graphicVerificationV2
+23:26:46.369 D/MG_NET_LOG: │ Result: {"req_id":"19c5276392ceb7c5fed","err_resp":{"msg":"校验失败","code":"21102","desc":"校验失败"}}
+23:26:46.369 D/MG_NET_LOG: └──────────────────────────────────────────────────
