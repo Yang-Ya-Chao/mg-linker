@@ -1,0 +1,27 @@
+--- Log Capture Start: 20260213_021104 ---
+02:10:46.278 D/MGWidget: onReceive called with action: com.my.mg.ACTION_REFRESH
+02:10:46.308 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02:10:46.314 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02:10:46.314 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/requestVehicleStatus
+02:10:46.314 D/MG_NET_LOG: │ Method: POST
+02:10:46.314 D/MG_NET_LOG: │ Header: timestamp: 1770919846308
+02:10:46.314 D/MG_NET_LOG: │ Header: app-type: roewe
+02:10:46.314 D/MG_NET_LOG: │ Header: sign: CX94Kms5MKfscSFRzGeG-Q5TbZsmICQ8dSt5T1rOKOg
+02:10:46.316 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6398RZ660211","appId":"Roewe","brandCode":"1","nonce":"EF5020DD15464B85B93C0382130E2A43","timestamp":"1770919846308","token":"d8ca75c70ecc4e0fad5461e5fbd4e1bd-prod_SAIC"}
+02:10:46.317 D/MG_NET_LOG: └──────────────────────
+02:10:46.723 D/MG_NET_LOG: ┌────── 响应结束 (200 / 407ms) ──────
+02:10:46.723 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/requestVehicleStatus
+02:10:46.723 D/MG_NET_LOG: │ Result: {"req_id":"19c530c637717027c51","err_resp":{"msg":"登录态失效，请重新登录","code":"14101","desc":"登录态失效，请重新登录"}}
+02:10:46.723 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02:10:49.726 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02:10:49.727 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02:10:49.727 D/MG_NET_LOG: │ Method: POST
+02:10:49.727 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6398RZ660211","appId":"Roewe","brandCode":"1","nonce":"5072DE48D16A48128EEF659F294B4C65","timestamp":"1770919849725","token":"d8ca75c70ecc4e0fad5461e5fbd4e1bd-prod_SAIC"}
+02:10:49.727 D/MG_NET_LOG: └──────────────────────
+02:10:50.130 D/MG_NET_LOG: ┌────── 响应结束 (200 / 401ms) ──────
+02:10:50.136 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02:10:50.136 D/MG_NET_LOG: │ Result: {"req_id":"19c530c70d349d597be","err_resp":{"msg":"登录态失效，请重新登录","code":"14101","desc":"登录态失效，请重新登录"}}
+02:10:50.136 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02:10:50.139 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: null
+02:10:50.139 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02:10:50.143 D/MGWidget: updateWidgetSynchronously called for ID: 22
