@@ -1,0 +1,85 @@
+--- Log Capture Start: 20260212_231855 ---
+23:18:06.642 D/MG_NET_LOG: ┌────── 请求开始 ──────
+23:18:06.642 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/uais/1.1/graphicVerificationV2
+23:18:06.643 D/MG_NET_LOG: │ Method: POST
+23:18:06.643 D/MG_NET_LOG: │ Header: timestamp: 1770909486639
+23:18:06.643 D/MG_NET_LOG: │ Header: app-type: mgapp
+23:18:06.643 D/MG_NET_LOG: │ Header: sign: bz0C8RZipyfqu2ZuHS7b2Ch3C2EXO5HSJ8R4MFegB5k=
+23:18:06.643 D/MG_NET_LOG: │ Params: data={"mobilePhone":"15399551333","NECaptchaValidate":"CN31_IJpZCF8_6j0KhHj2QUPMDslc2sL3zehA.tvPJRiVJ_2DmbkodgIs9Dyo3AmKhq4a4fi2IGcXc_CA6azUxk18XWBVsotcz18e5ICabQHY2VmQAv*VlOwkCOTCTJv43XXpzwWx2SadeErLiCjKX_2dGoPKV*x9SB4RKnSth8agEgDq9WsJHB1S18BifOiuQGKWIFJgcwLGEj.ef5NDZMPlt5dMy90KhtyeRmp0btEj0ygV*bylzs5pOq01MzRYyTsiyQluK2darMjGqJJR3rMQP13wBjreJm3eH0P2kgqlHFk.QGuK8JV8ePCujhCY0Fwc5ClvwhQPo9GejZ0HSP8OqGKVZRaaUaoeQIAPpCVWa1URluey_CPT3AZkU.rq.vwulyeotC9b.W95Od2b2p0.L*C5B_X80UJcmtDZaFk5N9Cis1w8ckn5scTMTVcldprnPP0Wr5mN.5ETj1qWgZdsJk9cRChB9BD8iGLVcxqB0kue3szbfrVqOQ5phTIPHYbNWIXajM77_v_i_1","captchaId":"b4800c43901c4113856a95938560ae0a","brandCode":"2"}
+23:18:06.643 D/MG_NET_LOG: └──────────────────────
+23:18:07.083 D/MG_NET_LOG: ┌────── 响应结束 (200 / 439ms) ──────
+23:18:07.084 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/uais/1.1/graphicVerificationV2
+23:18:07.084 D/MG_NET_LOG: │ Result: {"req_id":"19c526e51de2f909404","data":{"send":"true"}}
+23:18:07.084 D/MG_NET_LOG: └──────────────────────────────────────────────────
+23:18:27.757 D/MG_NET_LOG: ┌────── 请求开始 ──────
+23:18:27.758 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/uais/1.0/quickLoginByVcodeV2
+23:18:27.758 D/MG_NET_LOG: │ Method: POST
+23:18:27.759 D/MG_NET_LOG: │ Header: timestamp: 1770909507754
+23:18:27.759 D/MG_NET_LOG: │ Header: app-type: mgapp
+23:18:27.759 D/MG_NET_LOG: │ Header: sign: Z9L+J7A+R0XkKf1sZhaY6eF/0JzVhQrp4kCwcuCCoQo=
+23:18:27.759 D/MG_NET_LOG: │ Params: data={"app_version":"MG Live_2.1.3","mobile_type":"23113RKC6C","os_version":"14","platformType":"android","mobile_brand":"Redmi","uuid":"21ac35bad1ab808c","deviceId":"21ac35bad1ab808c","vcode":"059812","sid":"","phone":"15399551333","appType":"MG","phoneName":"","brandCode":"2"}
+23:18:27.760 D/MG_NET_LOG: └──────────────────────
+23:18:28.109 D/MG_NET_LOG: ┌────── 响应结束 (200 / 351ms) ──────
+23:18:28.109 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/uais/1.0/quickLoginByVcodeV2
+23:18:28.109 D/MG_NET_LOG: │ Result: {"req_id":"19c526ea482d4b798b8","data":{"pass":"true","isDulp":"false","mv_code":"a3fcb4481b4df92b0108f31204d70023"}}
+23:18:28.110 D/MG_NET_LOG: └──────────────────────────────────────────────────
+23:18:39.161 D/MG_NET_LOG: ┌────── 请求开始 ──────
+23:18:39.161 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/uais/1.0/quickLoginByVcodeV2
+23:18:39.162 D/MG_NET_LOG: │ Method: POST
+23:18:39.162 D/MG_NET_LOG: │ Header: timestamp: 1770909519154
+23:18:39.162 D/MG_NET_LOG: │ Header: app-type: mgapp
+23:18:39.163 D/MG_NET_LOG: │ Header: sign: gPGGq+p49IQdh7/PwFGqh66+dGrjEtw0FlbMS3CoTuM=
+23:18:39.163 D/MG_NET_LOG: │ Params: data={"app_version":"MG Live_2.1.3","mobile_type":"23113RKC6C","os_version":"14","platformType":"android","mobile_brand":"Redmi","uuid":"21ac35bad1ab808c","deviceId":"21ac35bad1ab808c","vcode":"059812","sid":"","phone":"15399551333","appType":"MG","phoneName":"","brandCode":"2"}
+23:18:39.163 D/MG_NET_LOG: └──────────────────────
+23:18:39.466 D/MG_NET_LOG: ┌────── 响应结束 (200 / 304ms) ──────
+23:18:39.466 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/uais/1.0/quickLoginByVcodeV2
+23:18:39.466 D/MG_NET_LOG: │ Result: {"req_id":"19c526ed0e3f40e2dc","err_resp":{"msg":"验证码有误，请重试","code":"14680","desc":"验证码有误，请重试"}}
+23:18:39.466 D/MG_NET_LOG: └──────────────────────────────────────────────────
+23:18:42.626 D/MG_NET_LOG: ┌────── 请求开始 ──────
+23:18:42.626 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/uais/1.0/quickLoginByVcodeV2
+23:18:42.626 D/MG_NET_LOG: │ Method: POST
+23:18:42.626 D/MG_NET_LOG: │ Header: timestamp: 1770909522619
+23:18:42.626 D/MG_NET_LOG: │ Header: app-type: mgapp
+23:18:42.626 D/MG_NET_LOG: │ Header: sign: Lg0KX9S/FBUrFUHrdE2imeuzazam/AOSoDQSYmDa/bQ=
+23:18:42.627 D/MG_NET_LOG: │ Params: data={"app_version":"MG Live_2.1.3","mobile_type":"23113RKC6C","os_version":"14","platformType":"android","mobile_brand":"Redmi","uuid":"21ac35bad1ab808c","deviceId":"21ac35bad1ab808c","vcode":"059812","sid":"","phone":"15399551333","appType":"MG","phoneName":"","brandCode":"1"}
+23:18:42.627 D/MG_NET_LOG: └──────────────────────
+23:18:42.975 D/MG_NET_LOG: ┌────── 响应结束 (200 / 348ms) ──────
+23:18:42.976 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/uais/1.0/quickLoginByVcodeV2
+23:18:42.976 D/MG_NET_LOG: │ Result: {"req_id":"19c526ede9387237fae","err_resp":{"msg":"验证码有误，请重试","code":"14680","desc":"验证码有误，请重试"}}
+23:18:42.976 D/MG_NET_LOG: └──────────────────────────────────────────────────
+23:18:44.775 D/MG_NET_LOG: ┌────── 请求开始 ──────
+23:18:44.775 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/uais/1.0/quickLoginByVcodeV2
+23:18:44.775 D/MG_NET_LOG: │ Method: POST
+23:18:44.776 D/MG_NET_LOG: │ Header: timestamp: 1770909524773
+23:18:44.776 D/MG_NET_LOG: │ Header: app-type: mgapp
+23:18:44.776 D/MG_NET_LOG: │ Header: sign: ZOWc8w7NQVtSvPIli7jLJsy/Oj8xty1IPVCwXP1CuUw=
+23:18:44.776 D/MG_NET_LOG: │ Params: data={"app_version":"MG Live_2.1.3","mobile_type":"23113RKC6C","os_version":"14","platformType":"android","mobile_brand":"Redmi","uuid":"21ac35bad1ab808c","deviceId":"21ac35bad1ab808c","vcode":"059812","sid":"","phone":"15399551333","appType":"MG","phoneName":"","brandCode":"1"}
+23:18:44.776 D/MG_NET_LOG: └──────────────────────
+23:18:45.092 D/MG_NET_LOG: ┌────── 响应结束 (200 / 315ms) ──────
+23:18:45.092 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/uais/1.0/quickLoginByVcodeV2
+23:18:45.092 D/MG_NET_LOG: │ Result: {"req_id":"19c526ee6d1e0eb8d30","err_resp":{"msg":"验证码有误，请重试","code":"14680","desc":"验证码有误，请重试"}}
+23:18:45.092 D/MG_NET_LOG: └──────────────────────────────────────────────────
+23:18:45.867 D/MG_NET_LOG: ┌────── 请求开始 ──────
+23:18:45.867 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/uais/1.0/quickLoginByVcodeV2
+23:18:45.867 D/MG_NET_LOG: │ Method: POST
+23:18:45.867 D/MG_NET_LOG: │ Header: timestamp: 1770909525864
+23:18:45.867 D/MG_NET_LOG: │ Header: app-type: mgapp
+23:18:45.867 D/MG_NET_LOG: │ Header: sign: YOYhKwnpu4ZFhXuuGyXpA7sC9pfoE2MVvS0+p0rzgbk=
+23:18:45.868 D/MG_NET_LOG: │ Params: data={"app_version":"MG Live_2.1.3","mobile_type":"23113RKC6C","os_version":"14","platformType":"android","mobile_brand":"Redmi","uuid":"21ac35bad1ab808c","deviceId":"21ac35bad1ab808c","vcode":"059812","sid":"","phone":"15399551333","appType":"MG","phoneName":"","brandCode":"1"}
+23:18:45.868 D/MG_NET_LOG: └──────────────────────
+23:18:46.197 D/MG_NET_LOG: ┌────── 响应结束 (200 / 328ms) ──────
+23:18:46.197 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/uais/1.0/quickLoginByVcodeV2
+23:18:46.197 D/MG_NET_LOG: │ Result: {"req_id":"19c526eeb226b86c855","err_resp":{"msg":"验证码输入错误超过3次，请10分钟后重试","code":"14682","desc":"验证码输入错误超过3次，请10分钟后重试"}}
+23:18:46.197 D/MG_NET_LOG: └──────────────────────────────────────────────────
+23:18:49.281 D/MG_NET_LOG: ┌────── 请求开始 ──────
+23:18:49.281 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/uais/1.0/quickLoginByVcodeV2
+23:18:49.281 D/MG_NET_LOG: │ Method: POST
+23:18:49.281 D/MG_NET_LOG: │ Header: timestamp: 1770909529278
+23:18:49.281 D/MG_NET_LOG: │ Header: app-type: mgapp
+23:18:49.281 D/MG_NET_LOG: │ Header: sign: VES9DcQ+2+fk1O+OUcn3TT1hHjTmXdJXyNCnIJVNtU0=
+23:18:49.281 D/MG_NET_LOG: │ Params: data={"app_version":"MG Live_2.1.3","mobile_type":"23113RKC6C","os_version":"14","platformType":"android","mobile_brand":"Redmi","uuid":"21ac35bad1ab808c","deviceId":"21ac35bad1ab808c","vcode":"059812","sid":"","phone":"15399551333","appType":"MG","phoneName":"","brandCode":"1"}
+23:18:49.281 D/MG_NET_LOG: └──────────────────────
+23:18:49.700 D/MG_NET_LOG: ┌────── 响应结束 (200 / 418ms) ──────
+23:18:49.701 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/uais/1.0/quickLoginByVcodeV2
+23:18:49.701 D/MG_NET_LOG: │ Result: {"req_id":"19c526ef8dc22f5178b","err_resp":{"msg":"验证码输入错误超过3次，请10分钟后重试","code":"14682","desc":"验证码输入错误超过3次，请10分钟后重试"}}
+23:18:49.701 D/MG_NET_LOG: └──────────────────────────────────────────────────
