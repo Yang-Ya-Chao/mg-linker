@@ -1,0 +1,213 @@
+--- Log Capture Start: 20260212_120654 ---
+12:01:17.216 D/BleProximity: 连接状态变更: DISCONNECTED
+12:01:19.217 D/BleProximity: 连接状态变更: CONNECTING
+12:01:49.970 D/MGWidget: onReceive called with action: ACTION_BLUEBOOTH
+12:01:49.989 D/BleUnlockWorker: 开始扫描蓝牙设备
+12:01:49.989 D/BleUnlockWorker: 正在扫描中...
+12:02:04.223 D/BleUnlockWorker: 停止扫描
+12:02:04.223 D/BleProximity: 连接状态变更: DISCONNECTED
+12:02:04.223 D/BleUnlockWorker: 扫描完成: success=false, isCompleted=false
+12:02:04.223 W/BleUnlockWorker: 扫描失败，准备停止扫描
+12:02:04.223 D/BleUnlockWorker: 尝试完成失败: 连接失败 - 未发现车辆蓝牙信号, isCompleted=false
+12:02:04.226 D/BleUnlockWorker: 失败结果已提交
+12:02:04.226 D/BleUnlockWorker: 扫描超时
+12:02:04.227 D/BleUnlockWorker: 清理资源
+12:02:05.000 D/MG_NET_LOG: ┌────── 请求开始 ──────
+12:02:05.000 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+12:02:05.000 D/MG_NET_LOG: │ Method: POST
+12:02:05.000 D/MG_NET_LOG: │ Params: data={"userId":"15100002159874","appId":"Roewe","brandCode":"1","nonce":"96DE6DA4249A43ED9FF1132EE58AD36F","timestamp":"1770868924999","token":"b50f0328b7c94ad487c3f4e3ca768ad4-prod_SAIC"}
+12:02:05.000 D/MG_NET_LOG: └──────────────────────
+12:02:05.339 D/MG_NET_LOG: ┌────── 响应结束 (200 / 337ms) ──────
+12:02:05.339 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+12:02:05.339 D/MG_NET_LOG: │ Result: {"req_id":"19c50036234b38421b1","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":"苏BFN7866","secret_key":"4172838695966907","key_end_time":1774626405000,"mobile":null,"key_start_time":1766850405000,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":27198339,"owner_name":null,"owner_mobile":"15316354915","enable":true,"tbox_mac":"ABB94C2FCCB5","vin":"LSJWM6397RZ740356","aes_key":"2223974783165843","status":3}]}}
+12:02:05.339 D/MG_NET_LOG: └──────────────────────────────────────────────────
+12:02:05.346 D/MGWidget: onUpdate called for IDs: 2056
+12:02:05.346 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+12:02:05.358 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+12:02:05.358 D/MG_NET_LOG: ┌────── 请求开始 ──────
+12:02:05.358 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+12:02:05.358 D/MG_NET_LOG: │ Method: POST
+12:02:05.358 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6397RZ740356","appId":"Roewe","brandCode":"1","nonce":"559BDF59EB204377A7BB0D52B62BF3DF","timestamp":"1770868925358","token":"b50f0328b7c94ad487c3f4e3ca768ad4-prod_SAIC"}
+12:02:05.358 D/MG_NET_LOG: └──────────────────────
+12:02:06.091 D/MG_NET_LOG: ┌────── 响应结束 (200 / 729ms) ──────
+12:02:06.091 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+12:02:06.091 D/MG_NET_LOG: │ Result: {"req_id":"19c50036358a2ddb264","data":{"vehicle_position":{"satellites":7,"altitude":19,"latitude":"32.987155","gps_status":2,"update_time":1770868851000,"gps_time":1770868913000,"hdop":6,"longitude":"117.399514"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":276,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":566,"battery_pack_range":43,"power_mode":2,"engine_status":0,"exterior_temperature":14,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":52,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7439,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":25623,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1320,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":284,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":284,"battery_pack_prc":343,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":566,"current_journey_id":0,"pwr_lftgt_pos_v":null,"interior_temperature":24,"localfront_right_seat_heat_level":null,"heading":359,"battery_alarm_value":[50,200,500],"update_time":1770868848000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":0,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":284,"vehicle_battery_prc":928,"battery_type":0,"fuel_level_disp":5,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1770868848000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":false,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":true,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1770868848000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+12:02:06.091 D/MG_NET_LOG: └──────────────────────────────────────────────────
+12:02:06.101 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 安徽省蚌埠市淮上区龙华路30号院
+12:02:06.101 D/WidgetUpdateWorker: Starting update loop for 2 widget types
+12:02:06.101 D/MGWidget: updateWidgetSynchronously called for ID: 1861
+12:02:06.101 D/MGWidget: updateWidgetSynchronously called for ID: 2056
+12:02:06.223 D/BleProximity: 连接状态变更: CONNECTING
+12:02:51.236 D/BleProximity: 连接状态变更: DISCONNECTED
+12:02:53.235 D/BleProximity: 连接状态变更: CONNECTING
+12:03:38.245 D/BleProximity: 连接状态变更: DISCONNECTED
+12:03:40.248 D/BleProximity: 连接状态变更: CONNECTING
+12:04:21.996 D/ControlActivity: 联动触发：检测到上锁指令，正在启动后台关窗任务
+12:04:22.017 D/MG_NET_LOG: ┌────── 请求开始 ──────
+12:04:22.017 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken?token=b50f0328b7c94ad487c3f4e3ca768ad4-prod_SAIC
+12:04:22.017 D/MG_NET_LOG: │ Method: GET
+12:04:22.017 D/MG_NET_LOG: │ Params: (无 Body 参数)
+12:04:22.017 D/MG_NET_LOG: └──────────────────────
+12:04:22.018 D/MG_NET_LOG: ┌────── 请求开始 ──────
+12:04:22.018 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken?token=b50f0328b7c94ad487c3f4e3ca768ad4-prod_SAIC
+12:04:22.018 D/MG_NET_LOG: │ Method: GET
+12:04:22.018 D/MG_NET_LOG: │ Params: (无 Body 参数)
+12:04:22.018 D/MG_NET_LOG: └──────────────────────
+12:04:22.265 D/MG_NET_LOG: ┌────── 响应结束 (200 / 247ms) ──────
+12:04:22.266 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken?token=b50f0328b7c94ad487c3f4e3ca768ad4-prod_SAIC
+12:04:22.266 D/MG_NET_LOG: │ Result: {"req_id":"19c5005794cd293feec","data":{"rav_code":"U3uDl4"}}
+12:04:22.266 D/MG_NET_LOG: └──────────────────────────────────────────────────
+12:04:22.266 D/MG_NET_LOG: ┌────── 请求开始 ──────
+12:04:22.266 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+12:04:22.266 D/MG_NET_LOG: │ Method: POST
+12:04:22.266 D/MG_NET_LOG: │ Params: data={"pin":"a65c6b952deb94c59f9eb5f026014454112fd1f3","vin":"LSJWM6397RZ740356","nonce":"0AC57D9D7429EEDBA0B36F003882436C","timestamp":"1770869062266","token":"b50f0328b7c94ad487c3f4e3ca768ad4-prod_SAIC"}
+12:04:22.266 D/MG_NET_LOG: └──────────────────────
+12:04:22.338 D/MG_NET_LOG: ┌────── 响应结束 (200 / 320ms) ──────
+12:04:22.338 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken?token=b50f0328b7c94ad487c3f4e3ca768ad4-prod_SAIC
+12:04:22.338 D/MG_NET_LOG: │ Result: {"req_id":"19c5005796581087706","data":{"rav_code":"U3uDl4"}}
+12:04:22.338 D/MG_NET_LOG: └──────────────────────────────────────────────────
+12:04:22.339 D/MG_NET_LOG: ┌────── 请求开始 ──────
+12:04:22.339 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+12:04:22.339 D/MG_NET_LOG: │ Method: POST
+12:04:22.339 D/MG_NET_LOG: │ Params: data={"pin":"a65c6b952deb94c59f9eb5f026014454112fd1f3","vin":"LSJWM6397RZ740356","nonce":"86914EC347DE14195953AEDF1A3BFCAF","timestamp":"1770869062339","token":"b50f0328b7c94ad487c3f4e3ca768ad4-prod_SAIC"}
+12:04:22.339 D/MG_NET_LOG: └──────────────────────
+12:04:22.378 D/MG_NET_LOG: ┌────── 响应结束 (200 / 111ms) ──────
+12:04:22.378 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+12:04:22.378 D/MG_NET_LOG: │ Result: {"req_id":"19c50057983594c036a","data":{"isRight":"true","errorCode":null,"pvCode":"ac1eceef969ee9dcc4a1e0eed9637445","pinStatusList":[{"configStatus":0,"configType":1,"userId":15100002159874,"deviceId":"1a1ae1dd83c1f5c73bea13975f8f19e8a046d573"},{"configStatus":-1,"configType":0,"userId":null,"deviceId":""}]}}
+12:04:22.378 D/MG_NET_LOG: └──────────────────────────────────────────────────
+12:04:22.379 D/MG_NET_LOG: ┌────── 请求开始 ──────
+12:04:22.379 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.1/requestLock
+12:04:22.379 D/MG_NET_LOG: │ Method: POST
+12:04:22.379 D/MG_NET_LOG: │ Header: timestamp: 1770869062378
+12:04:22.379 D/MG_NET_LOG: │ Header: app-type: roewe
+12:04:22.379 D/MG_NET_LOG: │ Header: sign: hkwk8-2TpYuDw6hfW9kgnOuZSSb9G4foj0jiCevcKKE
+12:04:22.379 D/MG_NET_LOG: │ Params: data={"auth_type":"2","appId":"Roewe","vin":"LSJWM6397RZ740356","nonce":"B90551EAA48DB3C7C43ACA890DFD0A44","brandCode":"1","timestamp":"1770869062378","token":"b50f0328b7c94ad487c3f4e3ca768ad4-prod_SAIC","auth_code":"ac1eceef969ee9dcc4a1e0eed9637445"}
+12:04:22.379 D/MG_NET_LOG: └──────────────────────
+12:04:22.403 D/MG_NET_LOG: ┌────── 响应结束 (200 / 64ms) ──────
+12:04:22.403 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+12:04:22.403 D/MG_NET_LOG: │ Result: {"req_id":"19c500579d0a7d869d1","err_resp":{"msg":"用户未登录无法获取deviceId","code":"14734","desc":"用户未登录无法获取deviceId"}}
+12:04:22.403 D/MG_NET_LOG: └──────────────────────────────────────────────────
+12:04:22.474 D/MG_NET_LOG: ┌────── 响应结束 (200 / 94ms) ──────
+12:04:22.474 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.1/requestLock
+12:04:22.474 D/MG_NET_LOG: │ Result: {"req_id":"19c500579f1d49b5c36","data":{"command_id":319940204}}
+12:04:22.474 D/MG_NET_LOG: └──────────────────────────────────────────────────
+12:04:22.475 D/MG_NET_LOG: ┌────── 请求开始 ──────
+12:04:22.475 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+12:04:22.475 D/MG_NET_LOG: │ Method: POST
+12:04:22.475 D/MG_NET_LOG: │ Params: data={"command_id":"319940204","appId":"Roewe","vin":"LSJWM6397RZ740356","nonce":"489908B1AAEDF8A8F4C384CE9CB203AC","brandCode":"1","timestamp":"1770869062475","token":"b50f0328b7c94ad487c3f4e3ca768ad4-prod_SAIC"}
+12:04:22.475 D/MG_NET_LOG: └──────────────────────
+12:04:22.546 D/MG_NET_LOG: ┌────── 响应结束 (200 / 71ms) ──────
+12:04:22.546 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+12:04:22.546 D/MG_NET_LOG: │ Result: {"req_id":"19c50057a5edb195357","data":{"command_result":0,"command_status":"99","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+12:04:22.547 D/MG_NET_LOG: └──────────────────────────────────────────────────
+12:04:25.259 D/BleProximity: 连接状态变更: DISCONNECTED
+12:04:25.547 D/MG_NET_LOG: ┌────── 请求开始 ──────
+12:04:25.547 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+12:04:25.547 D/MG_NET_LOG: │ Method: POST
+12:04:25.547 D/MG_NET_LOG: │ Params: data={"command_id":"319940204","appId":"Roewe","vin":"LSJWM6397RZ740356","nonce":"814DCAF4D3D0A9F7C17A81328BCD636A","brandCode":"1","timestamp":"1770869065547","token":"b50f0328b7c94ad487c3f4e3ca768ad4-prod_SAIC"}
+12:04:25.547 D/MG_NET_LOG: └──────────────────────
+12:04:25.601 D/MG_NET_LOG: ┌────── 响应结束 (200 / 53ms) ──────
+12:04:25.601 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+12:04:25.601 D/MG_NET_LOG: │ Result: {"req_id":"19c50058651bec0bfbd","data":{"command_result":0,"command_status":"01","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+12:04:25.601 D/MG_NET_LOG: └──────────────────────────────────────────────────
+12:04:27.260 D/BleProximity: 连接状态变更: CONNECTING
+12:04:28.601 D/MG_NET_LOG: ┌────── 请求开始 ──────
+12:04:28.601 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+12:04:28.601 D/MG_NET_LOG: │ Method: POST
+12:04:28.601 D/MG_NET_LOG: │ Params: data={"command_id":"319940204","appId":"Roewe","vin":"LSJWM6397RZ740356","nonce":"B6FC9922A6D2CC4DFEC68531EDBBA849","brandCode":"1","timestamp":"1770869068601","token":"b50f0328b7c94ad487c3f4e3ca768ad4-prod_SAIC"}
+12:04:28.601 D/MG_NET_LOG: └──────────────────────
+12:04:28.651 D/MG_NET_LOG: ┌────── 响应结束 (200 / 47ms) ──────
+12:04:28.651 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+12:04:28.651 D/MG_NET_LOG: │ Result: {"req_id":"19c5005923c230ecf51","data":{"command_result":1,"command_status":"02","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+12:04:28.651 D/MG_NET_LOG: └──────────────────────────────────────────────────
+12:04:36.706 D/MG_NET_LOG: ┌────── 请求开始 ──────
+12:04:36.706 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken?token=b50f0328b7c94ad487c3f4e3ca768ad4-prod_SAIC
+12:04:36.706 D/MG_NET_LOG: │ Method: GET
+12:04:36.706 D/MG_NET_LOG: │ Params: (无 Body 参数)
+12:04:36.706 D/MG_NET_LOG: └──────────────────────
+12:04:36.975 D/MG_NET_LOG: ┌────── 响应结束 (200 / 268ms) ──────
+12:04:36.975 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken?token=b50f0328b7c94ad487c3f4e3ca768ad4-prod_SAIC
+12:04:36.975 D/MG_NET_LOG: │ Result: {"req_id":"19c5005b2c9561ad1ba","data":{"rav_code":"7I937m"}}
+12:04:36.975 D/MG_NET_LOG: └──────────────────────────────────────────────────
+12:04:36.978 D/MG_NET_LOG: ┌────── 请求开始 ──────
+12:04:36.978 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+12:04:36.978 D/MG_NET_LOG: │ Method: POST
+12:04:36.978 D/MG_NET_LOG: │ Params: data={"pin":"b0fa5d3b3ff958c5e99d9158419315fdacd2502d","vin":"LSJWM6397RZ740356","nonce":"A03B29A59C1561ED1DC5D34AE1FEB409","timestamp":"1770869076977","token":"b50f0328b7c94ad487c3f4e3ca768ad4-prod_SAIC"}
+12:04:36.978 D/MG_NET_LOG: └──────────────────────
+12:04:37.066 D/MG_NET_LOG: ┌────── 响应结束 (200 / 84ms) ──────
+12:04:37.066 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+12:04:37.066 D/MG_NET_LOG: │ Result: {"req_id":"19c5005b2fb8b12e626","data":{"isRight":"true","errorCode":null,"pvCode":"571932c88637f07d9cce426c6fad152a","pinStatusList":[{"configStatus":0,"configType":1,"userId":15100002159874,"deviceId":"1a1ae1dd83c1f5c73bea13975f8f19e8a046d573"},{"configStatus":-1,"configType":0,"userId":null,"deviceId":""}]}}
+12:04:37.066 D/MG_NET_LOG: └──────────────────────────────────────────────────
+12:04:37.067 D/MG_NET_LOG: ┌────── 请求开始 ──────
+12:04:37.067 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.1/requestUnlockVehicle
+12:04:37.067 D/MG_NET_LOG: │ Method: POST
+12:04:37.067 D/MG_NET_LOG: │ Header: timestamp: 1770869077067
+12:04:37.067 D/MG_NET_LOG: │ Header: app-type: roewe
+12:04:37.067 D/MG_NET_LOG: │ Header: sign: hxB0wCBPLzV_2sataGAH7LKTOoARAQT2T97HKwSc-KE
+12:04:37.067 D/MG_NET_LOG: │ Params: data={"auth_type":"2","appId":"Roewe","vin":"LSJWM6397RZ740356","nonce":"A250BDECA308107167594D90C4C9E060","brandCode":"1","timestamp":"1770869077067","token":"b50f0328b7c94ad487c3f4e3ca768ad4-prod_SAIC","auth_code":"571932c88637f07d9cce426c6fad152a"}
+12:04:37.067 D/MG_NET_LOG: └──────────────────────
+12:04:37.181 D/MG_NET_LOG: ┌────── 响应结束 (200 / 114ms) ──────
+12:04:37.181 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.1/requestUnlockVehicle
+12:04:37.181 D/MG_NET_LOG: │ Result: {"req_id":"19c5005b34fedc84fc4","data":{"command_id":319940251}}
+12:04:37.181 D/MG_NET_LOG: └──────────────────────────────────────────────────
+12:04:37.184 D/MG_NET_LOG: ┌────── 请求开始 ──────
+12:04:37.184 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+12:04:37.184 D/MG_NET_LOG: │ Method: POST
+12:04:37.184 D/MG_NET_LOG: │ Params: data={"command_id":"319940251","appId":"Roewe","vin":"LSJWM6397RZ740356","nonce":"DEB3539509B46E8BFA347D03B3AE7ABB","brandCode":"1","timestamp":"1770869077183","token":"b50f0328b7c94ad487c3f4e3ca768ad4-prod_SAIC"}
+12:04:37.184 D/MG_NET_LOG: └──────────────────────
+12:04:37.237 D/MG_NET_LOG: ┌────── 响应结束 (200 / 53ms) ──────
+12:04:37.237 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+12:04:37.237 D/MG_NET_LOG: │ Result: {"req_id":"19c5005b3c5ae97b97c","data":{"command_result":0,"command_status":"99","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+12:04:37.237 D/MG_NET_LOG: └──────────────────────────────────────────────────
+12:04:39.752 D/MGWidget: onReceive called with action: ACTION_BLUEBOOTH
+12:04:40.239 D/MG_NET_LOG: ┌────── 请求开始 ──────
+12:04:40.239 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+12:04:40.239 D/MG_NET_LOG: │ Method: POST
+12:04:40.240 D/MG_NET_LOG: │ Params: data={"command_id":"319940251","appId":"Roewe","vin":"LSJWM6397RZ740356","nonce":"A8C40DAFAFCA4AA7270B91174A899F99","brandCode":"1","timestamp":"1770869080239","token":"b50f0328b7c94ad487c3f4e3ca768ad4-prod_SAIC"}
+12:04:40.240 D/MG_NET_LOG: └──────────────────────
+12:04:40.292 D/MG_NET_LOG: ┌────── 响应结束 (200 / 52ms) ──────
+12:04:40.292 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+12:04:40.292 D/MG_NET_LOG: │ Result: {"req_id":"19c5005bfb2d8841e8a","data":{"command_result":0,"command_status":"01","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+12:04:40.292 D/MG_NET_LOG: └──────────────────────────────────────────────────
+12:04:41.460 D/MG_NET_LOG: ┌────── 请求开始 ──────
+12:04:41.460 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+12:04:41.460 D/MG_NET_LOG: │ Method: POST
+12:04:41.460 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6397RZ740356","appId":"Roewe","brandCode":"1","nonce":"46D311826E9348F1BE94E43A6FB119FD","timestamp":"1770869081460","token":"b50f0328b7c94ad487c3f4e3ca768ad4-prod_SAIC"}
+12:04:41.460 D/MG_NET_LOG: └──────────────────────
+12:04:42.307 D/MG_NET_LOG: ┌────── 响应结束 (200 / 845ms) ──────
+12:04:42.307 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+12:04:42.307 D/MG_NET_LOG: │ Result: {"req_id":"19c5005c557e7ed92c3","data":{"vehicle_position":{"satellites":8,"altitude":219,"gps_status":2,"latitude":"32.987158","update_time":1770869080000,"gps_time":1770869080000,"hdop":6,"longitude":"117.399501"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":276,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":566,"battery_pack_range":43,"power_mode":0,"engine_status":0,"exterior_temperature":14,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":52,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7439,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":25623,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1230,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":284,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":284,"battery_pack_prc":342,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":566,"current_journey_id":0,"pwr_lftgt_pos_v":null,"interior_temperature":24,"localfront_right_seat_heat_level":null,"heading":359,"battery_alarm_value":[50,200,500],"update_time":1770869076000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":0,"rear_left_tyre_pressure":284,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":928,"fuel_level_disp":5,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1770869076000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":false,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1770869076000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+12:04:42.307 D/MG_NET_LOG: └──────────────────────────────────────────────────
+12:04:43.293 D/MG_NET_LOG: ┌────── 请求开始 ──────
+12:04:43.293 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+12:04:43.293 D/MG_NET_LOG: │ Method: POST
+12:04:43.293 D/MG_NET_LOG: │ Params: data={"command_id":"319940251","appId":"Roewe","vin":"LSJWM6397RZ740356","nonce":"C3E26FE0E33D6B5AF486F1AB6BDE3EEC","brandCode":"1","timestamp":"1770869083293","token":"b50f0328b7c94ad487c3f4e3ca768ad4-prod_SAIC"}
+12:04:43.293 D/MG_NET_LOG: └──────────────────────
+12:04:43.348 D/MG_NET_LOG: ┌────── 响应结束 (200 / 55ms) ──────
+12:04:43.348 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+12:04:43.348 D/MG_NET_LOG: │ Result: {"req_id":"19c5005cba27178a7d0","data":{"command_result":1,"command_status":"02","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+12:04:43.348 D/MG_NET_LOG: └──────────────────────────────────────────────────
+12:05:12.269 D/ControlActivity: 停止扫描
+12:05:12.269 D/BleProximity: 连接状态变更: DISCONNECTED
+12:05:12.273 D/ControlActivity: 扫描超时
+12:05:14.270 D/BleProximity: 连接状态变更: CONNECTING
+12:05:14.270 D/ControlActivity: 开始扫描蓝牙设备，服务UUID: a830005f-88c0-4369-844a-b9ab2f4cb5cc
+12:05:57.684 D/MG_NET_LOG: ┌────── 请求开始 ──────
+12:05:57.684 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+12:05:57.684 D/MG_NET_LOG: │ Method: POST
+12:05:57.684 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6397RZ740356","appId":"Roewe","brandCode":"1","nonce":"1FAAFF0D10A04FFF84D003079A3DA9B9","timestamp":"1770869157683","token":"b50f0328b7c94ad487c3f4e3ca768ad4-prod_SAIC"}
+12:05:57.684 D/MG_NET_LOG: └──────────────────────
+12:05:58.512 D/MG_NET_LOG: ┌────── 响应结束 (200 / 827ms) ──────
+12:05:58.512 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+12:05:58.512 D/MG_NET_LOG: │ Result: {"req_id":"19c5006ef08d0b1e5e0","data":{"vehicle_position":{"satellites":8,"altitude":22,"latitude":"32.987172","gps_status":2,"update_time":1770869093000,"gps_time":1770869123000,"hdop":6,"longitude":"117.399495"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":276,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":566,"battery_pack_range":43,"power_mode":0,"engine_status":0,"exterior_temperature":14,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":52,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7439,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":25623,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1230,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":284,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":284,"battery_pack_prc":342,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":566,"current_journey_id":0,"pwr_lftgt_pos_v":null,"interior_temperature":24,"localfront_right_seat_heat_level":null,"heading":76,"battery_alarm_value":[50,200,500],"update_time":1770869076000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":0,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":284,"vehicle_battery_prc":928,"battery_type":0,"fuel_level_disp":5,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1770869094000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":false,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1770869076000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+12:05:58.512 D/MG_NET_LOG: └──────────────────────────────────────────────────
+12:05:59.282 D/ControlActivity: 停止扫描
+12:05:59.282 D/BleProximity: 连接状态变更: DISCONNECTED
+12:05:59.288 D/ControlActivity: 扫描超时
+12:06:01.283 D/BleProximity: 连接状态变更: CONNECTING
+12:06:01.284 D/ControlActivity: 开始扫描蓝牙设备，服务UUID: a830005f-88c0-4369-844a-b9ab2f4cb5cc
+12:06:46.294 D/ControlActivity: 停止扫描
+12:06:46.294 D/BleProximity: 连接状态变更: DISCONNECTED
+12:06:46.297 D/ControlActivity: 扫描超时
+12:06:48.294 D/BleProximity: 连接状态变更: CONNECTING
+12:06:48.294 D/ControlActivity: 开始扫描蓝牙设备，服务UUID: a830005f-88c0-4369-844a-b9ab2f4cb5cc
