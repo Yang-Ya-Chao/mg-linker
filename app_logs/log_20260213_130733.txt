@@ -1,0 +1,249 @@
+--- Log Capture Start: 20260213_130733 ---
+13:06:48.358 D/MG_NET_LOG: ┌────── 请求开始 ──────
+13:06:48.358 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+13:06:48.358 D/MG_NET_LOG: │ Method: POST
+13:06:48.359 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6394RZ712966","appId":"Roewe","brandCode":"1","nonce":"E13491B4FFE84D159CC33E26DBE33932","timestamp":"1770959208353","token":"8bd0c1fd39f241aa9fba3f896c74d15a-prod_SAIC"}
+13:06:48.359 D/MG_NET_LOG: └──────────────────────
+13:06:48.362 D/ControlActivity: ➕ 添加监听器: callback_3_1770959208362 (总数: 2)
+13:06:48.362 D/ControlActivity: ➕ 添加监听器: callback_3_1770959208362 (总数: 2)
+13:06:49.282 D/MG_NET_LOG: ┌────── 响应结束 (200 / 921ms) ──────
+13:06:49.282 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+13:06:49.282 D/MG_NET_LOG: │ Result: {"req_id":"19c556500fa6605759f","data":{"vehicle_position":{"satellites":8,"altitude":117,"latitude":"31.746287","gps_status":2,"update_time":1770951067000,"gps_time":1770958784000,"hdop":8,"longitude":"113.684040"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":268,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":3,"driving_range":126,"battery_pack_range":125,"power_mode":0,"engine_status":0,"exterior_temperature":0,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":11,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":8206,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1230,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":272,"battery_pack_prc":1000,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":126,"current_journey_id":683,"pwr_lftgt_pos_v":null,"interior_temperature":8,"localfront_right_seat_heat_level":null,"heading":266,"battery_alarm_value":[50,200,500],"update_time":1770950845000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":268,"vehicle_battery_prc":700,"battery_type":0,"fuel_level_disp":2,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1770951067000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1770950845000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+13:06:49.282 D/MG_NET_LOG: └──────────────────────────────────────────────────
+13:06:49.594 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_4_1770959209594 (总数: 3)
+13:06:49.594 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_4_1770959209594 (总数: 3)
+13:06:49.601 D/ControlActivity: ➕ 添加监听器: callback_4_1770959209601 (总数: 3)
+13:06:49.601 D/ControlActivity: ➕ 添加监听器: callback_4_1770959209601 (总数: 3)
+13:06:49.601 D/ControlActivity: ➕ 添加监听器: callback_4_1770959209601 (总数: 3)
+13:07:00.880 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_5_1770959220880 (总数: 4)
+13:07:00.880 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_5_1770959220880 (总数: 4)
+13:07:00.880 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_5_1770959220880 (总数: 4)
+13:07:00.887 D/ControlActivity: ➕ 添加监听器: callback_5_1770959220887 (总数: 4)
+13:07:00.887 D/ControlActivity: ➕ 添加监听器: callback_5_1770959220887 (总数: 4)
+13:07:00.887 D/ControlActivity: ➕ 添加监听器: callback_5_1770959220887 (总数: 4)
+13:07:00.887 D/ControlActivity: ➕ 添加监听器: callback_5_1770959220887 (总数: 4)
+13:07:09.622 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_6_1770959229622 (总数: 5)
+13:07:09.622 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_6_1770959229622 (总数: 5)
+13:07:09.622 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_6_1770959229622 (总数: 5)
+13:07:09.622 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_6_1770959229622 (总数: 5)
+13:07:09.627 D/ControlActivity: ➕ 添加监听器: callback_6_1770959229627 (总数: 5)
+13:07:09.627 D/ControlActivity: ➕ 添加监听器: callback_6_1770959229627 (总数: 5)
+13:07:09.627 D/ControlActivity: ➕ 添加监听器: callback_6_1770959229627 (总数: 5)
+13:07:09.627 D/ControlActivity: ➕ 添加监听器: callback_6_1770959229627 (总数: 5)
+13:07:09.627 D/ControlActivity: ➕ 添加监听器: callback_6_1770959229627 (总数: 5)
+13:07:14.399 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_7_1770959234399 (总数: 6)
+13:07:14.400 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_7_1770959234399 (总数: 6)
+13:07:14.400 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_7_1770959234399 (总数: 6)
+13:07:14.400 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_7_1770959234399 (总数: 6)
+13:07:14.400 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_7_1770959234399 (总数: 6)
+13:07:14.405 D/ControlActivity: ➕ 添加监听器: callback_7_1770959234405 (总数: 6)
+13:07:14.405 D/ControlActivity: ➕ 添加监听器: callback_7_1770959234405 (总数: 6)
+13:07:14.405 D/ControlActivity: ➕ 添加监听器: callback_7_1770959234405 (总数: 6)
+13:07:14.405 D/ControlActivity: ➕ 添加监听器: callback_7_1770959234405 (总数: 6)
+13:07:14.405 D/ControlActivity: ➕ 添加监听器: callback_7_1770959234405 (总数: 6)
+13:07:14.405 D/ControlActivity: ➕ 添加监听器: callback_7_1770959234405 (总数: 6)
+13:07:14.681 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_8_1770959234681 (总数: 7)
+13:07:14.681 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_8_1770959234681 (总数: 7)
+13:07:14.681 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_8_1770959234681 (总数: 7)
+13:07:14.681 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_8_1770959234681 (总数: 7)
+13:07:14.681 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_8_1770959234681 (总数: 7)
+13:07:14.681 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_8_1770959234681 (总数: 7)
+13:07:14.691 D/ControlActivity: ➕ 添加监听器: callback_8_1770959234691 (总数: 7)
+13:07:14.691 D/ControlActivity: ➕ 添加监听器: callback_8_1770959234691 (总数: 7)
+13:07:14.691 D/ControlActivity: ➕ 添加监听器: callback_8_1770959234691 (总数: 7)
+13:07:14.691 D/ControlActivity: ➕ 添加监听器: callback_8_1770959234691 (总数: 7)
+13:07:14.691 D/ControlActivity: ➕ 添加监听器: callback_8_1770959234691 (总数: 7)
+13:07:14.691 D/ControlActivity: ➕ 添加监听器: callback_8_1770959234691 (总数: 7)
+13:07:14.691 D/ControlActivity: ➕ 添加监听器: callback_8_1770959234691 (总数: 7)
+13:07:16.518 D/MGWidget: onReceive called with action: ACTION_BLUEBOOTH
+13:07:16.647 D/ControlActivity: 🎫 [BleUnlockWorker] 获取 Session: session_BleUnlockWorker_9_1770959236647 (总数: 8)
+13:07:16.647 D/ControlActivity: 🎫 [BleUnlockWorker] 获取 Session: session_BleUnlockWorker_9_1770959236647 (总数: 8)
+13:07:16.647 D/ControlActivity: 🎫 [BleUnlockWorker] 获取 Session: session_BleUnlockWorker_9_1770959236647 (总数: 8)
+13:07:16.647 D/ControlActivity: 🎫 [BleUnlockWorker] 获取 Session: session_BleUnlockWorker_9_1770959236647 (总数: 8)
+13:07:16.647 D/ControlActivity: 🎫 [BleUnlockWorker] 获取 Session: session_BleUnlockWorker_9_1770959236647 (总数: 8)
+13:07:16.647 D/ControlActivity: 🎫 [BleUnlockWorker] 获取 Session: session_BleUnlockWorker_9_1770959236647 (总数: 8)
+13:07:16.647 D/ControlActivity: 🎫 [BleUnlockWorker] 获取 Session: session_BleUnlockWorker_9_1770959236647 (总数: 8)
+13:07:16.648 D/ControlActivity: ➕ 添加监听器: callback_9_1770959236647 (总数: 8)
+13:07:16.648 D/BleUnlockWorker: ➕ 添加监听器: callback_9_1770959236647 (总数: 8)
+13:07:16.648 D/ControlActivity: ➕ 添加监听器: callback_9_1770959236647 (总数: 8)
+13:07:16.648 D/BleUnlockWorker: ➕ 添加监听器: callback_9_1770959236647 (总数: 8)
+13:07:16.648 D/ControlActivity: ➕ 添加监听器: callback_9_1770959236647 (总数: 8)
+13:07:16.648 D/BleUnlockWorker: ➕ 添加监听器: callback_9_1770959236647 (总数: 8)
+13:07:16.648 D/ControlActivity: ➕ 添加监听器: callback_9_1770959236647 (总数: 8)
+13:07:16.648 D/BleUnlockWorker: ➕ 添加监听器: callback_9_1770959236647 (总数: 8)
+13:07:16.648 D/ControlActivity: ➕ 添加监听器: callback_9_1770959236647 (总数: 8)
+13:07:16.648 D/BleUnlockWorker: ➕ 添加监听器: callback_9_1770959236647 (总数: 8)
+13:07:16.649 D/ControlActivity: ➕ 添加监听器: callback_9_1770959236647 (总数: 8)
+13:07:16.649 D/BleUnlockWorker: ➕ 添加监听器: callback_9_1770959236647 (总数: 8)
+13:07:16.649 D/ControlActivity: ➕ 添加监听器: callback_9_1770959236647 (总数: 8)
+13:07:16.650 D/BleUnlockWorker: ➕ 添加监听器: callback_9_1770959236647 (总数: 8)
+13:07:16.650 D/ControlActivity: ➕ 添加监听器: callback_9_1770959236647 (总数: 8)
+13:07:16.650 D/BleUnlockWorker: ➕ 添加监听器: callback_9_1770959236647 (总数: 8)
+13:07:16.650 D/BleUnlockWorker: 开始扫描蓝牙设备
+13:07:16.650 D/ControlActivity: ➕ 添加监听器: callback_10_1770959236650 (总数: 9)
+13:07:16.650 D/BleUnlockWorker: ➕ 添加监听器: callback_10_1770959236650 (总数: 9)
+13:07:16.650 D/ControlActivity: ➕ 添加监听器: callback_10_1770959236650 (总数: 9)
+13:07:16.650 D/BleUnlockWorker: ➕ 添加监听器: callback_10_1770959236650 (总数: 9)
+13:07:16.650 D/ControlActivity: ➕ 添加监听器: callback_10_1770959236650 (总数: 9)
+13:07:16.650 D/BleUnlockWorker: ➕ 添加监听器: callback_10_1770959236650 (总数: 9)
+13:07:16.650 D/ControlActivity: ➕ 添加监听器: callback_10_1770959236650 (总数: 9)
+13:07:16.650 D/BleUnlockWorker: ➕ 添加监听器: callback_10_1770959236650 (总数: 9)
+13:07:16.650 D/ControlActivity: ➕ 添加监听器: callback_10_1770959236650 (总数: 9)
+13:07:16.650 D/BleUnlockWorker: ➕ 添加监听器: callback_10_1770959236650 (总数: 9)
+13:07:16.650 D/ControlActivity: ➕ 添加监听器: callback_10_1770959236650 (总数: 9)
+13:07:16.650 D/BleUnlockWorker: ➕ 添加监听器: callback_10_1770959236650 (总数: 9)
+13:07:16.650 D/ControlActivity: ➕ 添加监听器: callback_10_1770959236650 (总数: 9)
+13:07:16.650 D/BleUnlockWorker: ➕ 添加监听器: callback_10_1770959236650 (总数: 9)
+13:07:16.650 D/ControlActivity: ➕ 添加监听器: callback_10_1770959236650 (总数: 9)
+13:07:16.650 D/BleUnlockWorker: ➕ 添加监听器: callback_10_1770959236650 (总数: 9)
+13:07:16.650 D/ControlActivity: ➕ 添加监听器: callback_10_1770959236650 (总数: 9)
+13:07:16.650 D/BleUnlockWorker: ➕ 添加监听器: callback_10_1770959236650 (总数: 9)
+13:07:16.691 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_8_1770959234681 (剩余: 7)
+13:07:16.691 D/BleUnlockWorker: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_8_1770959234681 (剩余: 7)
+13:07:16.691 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_8_1770959234681 (剩余: 7)
+13:07:16.691 D/BleUnlockWorker: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_8_1770959234681 (剩余: 7)
+13:07:16.691 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_8_1770959234681 (剩余: 7)
+13:07:16.691 D/BleUnlockWorker: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_8_1770959234681 (剩余: 7)
+13:07:16.691 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_8_1770959234681 (剩余: 7)
+13:07:16.691 D/BleUnlockWorker: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_8_1770959234681 (剩余: 7)
+13:07:16.691 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_8_1770959234681 (剩余: 7)
+13:07:16.691 D/BleUnlockWorker: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_8_1770959234681 (剩余: 7)
+13:07:16.691 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_8_1770959234681 (剩余: 7)
+13:07:16.691 D/BleUnlockWorker: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_8_1770959234681 (剩余: 7)
+13:07:16.691 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_8_1770959234681 (剩余: 7)
+13:07:16.691 D/BleUnlockWorker: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_8_1770959234681 (剩余: 7)
+13:07:16.691 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_8_1770959234681 (剩余: 7)
+13:07:16.691 D/BleUnlockWorker: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_8_1770959234681 (剩余: 7)
+13:07:16.691 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_8_1770959234681 (剩余: 7)
+13:07:16.691 D/BleUnlockWorker: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_8_1770959234681 (剩余: 7)
+13:07:16.691 D/ControlActivity: ➖ 移除监听器: callback_3_1770959208362 
+13:07:16.691 D/BleUnlockWorker: ➖ 移除监听器: callback_3_1770959208362 
+13:07:16.691 D/ControlActivity: ➖ 移除监听器: callback_3_1770959208362 
+13:07:16.691 D/BleUnlockWorker: ➖ 移除监听器: callback_3_1770959208362 
+13:07:16.691 D/ControlActivity: ➖ 移除监听器: callback_3_1770959208362 
+13:07:16.691 D/BleUnlockWorker: ➖ 移除监听器: callback_3_1770959208362 
+13:07:16.691 D/ControlActivity: ➖ 移除监听器: callback_3_1770959208362 
+13:07:16.691 D/BleUnlockWorker: ➖ 移除监听器: callback_3_1770959208362 
+13:07:16.691 D/ControlActivity: ➖ 移除监听器: callback_3_1770959208362 
+13:07:16.691 D/BleUnlockWorker: ➖ 移除监听器: callback_3_1770959208362 
+13:07:16.692 D/ControlActivity: ➖ 移除监听器: callback_3_1770959208362 
+13:07:16.692 D/BleUnlockWorker: ➖ 移除监听器: callback_3_1770959208362 
+13:07:16.692 D/ControlActivity: ➖ 移除监听器: callback_3_1770959208362 
+13:07:16.692 D/BleUnlockWorker: ➖ 移除监听器: callback_3_1770959208362 
+13:07:16.692 D/ControlActivity: ➖ 移除监听器: callback_3_1770959208362 
+13:07:16.692 D/BleUnlockWorker: ➖ 移除监听器: callback_3_1770959208362 
+13:07:16.692 D/ControlActivity: ➖ 移除监听器: callback_3_1770959208362 
+13:07:16.692 D/BleUnlockWorker: ➖ 移除监听器: callback_3_1770959208362 
+13:07:24.425 D/MG_NET_LOG: ┌────── 请求开始 ──────
+13:07:24.425 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+13:07:24.425 D/MG_NET_LOG: │ Method: POST
+13:07:24.425 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6394RZ712966","appId":"Roewe","brandCode":"1","nonce":"FB4AAD9B3E7349D49D249CD52F374797","timestamp":"1770959244421","token":"8bd0c1fd39f241aa9fba3f896c74d15a-prod_SAIC"}
+13:07:24.426 D/MG_NET_LOG: └──────────────────────
+13:07:24.428 D/BleUnlockWorker: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_10_1770959244428 (总数: 8)
+13:07:24.429 D/BleUnlockWorker: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_10_1770959244428 (总数: 8)
+13:07:24.429 D/BleUnlockWorker: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_10_1770959244428 (总数: 8)
+13:07:24.429 D/BleUnlockWorker: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_10_1770959244428 (总数: 8)
+13:07:24.429 D/BleUnlockWorker: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_10_1770959244428 (总数: 8)
+13:07:24.429 D/BleUnlockWorker: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_10_1770959244428 (总数: 8)
+13:07:24.429 D/BleUnlockWorker: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_10_1770959244428 (总数: 8)
+13:07:24.429 D/BleUnlockWorker: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_10_1770959244428 (总数: 8)
+13:07:24.429 D/BleUnlockWorker: ➕ 添加监听器: callback_11_1770959244429 (总数: 9)
+13:07:24.429 D/ControlActivity: ➕ 添加监听器: callback_11_1770959244429 (总数: 9)
+13:07:24.429 D/BleUnlockWorker: ➕ 添加监听器: callback_11_1770959244429 (总数: 9)
+13:07:24.429 D/ControlActivity: ➕ 添加监听器: callback_11_1770959244429 (总数: 9)
+13:07:24.429 D/BleUnlockWorker: ➕ 添加监听器: callback_11_1770959244429 (总数: 9)
+13:07:24.429 D/ControlActivity: ➕ 添加监听器: callback_11_1770959244429 (总数: 9)
+13:07:24.429 D/BleUnlockWorker: ➕ 添加监听器: callback_11_1770959244429 (总数: 9)
+13:07:24.429 D/ControlActivity: ➕ 添加监听器: callback_11_1770959244429 (总数: 9)
+13:07:24.429 D/BleUnlockWorker: ➕ 添加监听器: callback_11_1770959244429 (总数: 9)
+13:07:24.429 D/ControlActivity: ➕ 添加监听器: callback_11_1770959244429 (总数: 9)
+13:07:24.429 D/BleUnlockWorker: ➕ 添加监听器: callback_11_1770959244429 (总数: 9)
+13:07:24.429 D/ControlActivity: ➕ 添加监听器: callback_11_1770959244429 (总数: 9)
+13:07:24.429 D/BleUnlockWorker: ➕ 添加监听器: callback_11_1770959244429 (总数: 9)
+13:07:24.429 D/ControlActivity: ➕ 添加监听器: callback_11_1770959244429 (总数: 9)
+13:07:24.429 D/BleUnlockWorker: ➕ 添加监听器: callback_11_1770959244429 (总数: 9)
+13:07:24.429 D/ControlActivity: ➕ 添加监听器: callback_11_1770959244429 (总数: 9)
+13:07:24.429 D/BleUnlockWorker: ➕ 添加监听器: callback_11_1770959244429 (总数: 9)
+13:07:24.429 D/ControlActivity: ➕ 添加监听器: callback_11_1770959244429 (总数: 9)
+13:07:25.415 D/BleUnlockWorker: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_11_1770959245415 (总数: 9)
+13:07:25.415 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_11_1770959245415 (总数: 9)
+13:07:25.415 D/BleUnlockWorker: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_11_1770959245415 (总数: 9)
+13:07:25.415 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_11_1770959245415 (总数: 9)
+13:07:25.415 D/BleUnlockWorker: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_11_1770959245415 (总数: 9)
+13:07:25.415 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_11_1770959245415 (总数: 9)
+13:07:25.415 D/BleUnlockWorker: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_11_1770959245415 (总数: 9)
+13:07:25.415 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_11_1770959245415 (总数: 9)
+13:07:25.415 D/BleUnlockWorker: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_11_1770959245415 (总数: 9)
+13:07:25.415 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_11_1770959245415 (总数: 9)
+13:07:25.415 D/BleUnlockWorker: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_11_1770959245415 (总数: 9)
+13:07:25.415 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_11_1770959245415 (总数: 9)
+13:07:25.415 D/BleUnlockWorker: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_11_1770959245415 (总数: 9)
+13:07:25.415 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_11_1770959245415 (总数: 9)
+13:07:25.415 D/BleUnlockWorker: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_11_1770959245415 (总数: 9)
+13:07:25.415 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_11_1770959245415 (总数: 9)
+13:07:25.415 D/BleUnlockWorker: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_11_1770959245415 (总数: 9)
+13:07:25.416 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_11_1770959245415 (总数: 9)
+13:07:25.421 D/BleUnlockWorker: ➕ 添加监听器: callback_12_1770959245420 (总数: 10)
+13:07:25.421 D/ControlActivity: ➕ 添加监听器: callback_12_1770959245420 (总数: 10)
+13:07:25.421 D/BleUnlockWorker: ➕ 添加监听器: callback_12_1770959245420 (总数: 10)
+13:07:25.421 D/ControlActivity: ➕ 添加监听器: callback_12_1770959245420 (总数: 10)
+13:07:25.421 D/BleUnlockWorker: ➕ 添加监听器: callback_12_1770959245420 (总数: 10)
+13:07:25.421 D/ControlActivity: ➕ 添加监听器: callback_12_1770959245420 (总数: 10)
+13:07:25.421 D/BleUnlockWorker: ➕ 添加监听器: callback_12_1770959245420 (总数: 10)
+13:07:25.421 D/ControlActivity: ➕ 添加监听器: callback_12_1770959245420 (总数: 10)
+13:07:25.421 D/BleUnlockWorker: ➕ 添加监听器: callback_12_1770959245420 (总数: 10)
+13:07:25.421 D/ControlActivity: ➕ 添加监听器: callback_12_1770959245420 (总数: 10)
+13:07:25.421 D/BleUnlockWorker: ➕ 添加监听器: callback_12_1770959245420 (总数: 10)
+13:07:25.421 D/ControlActivity: ➕ 添加监听器: callback_12_1770959245420 (总数: 10)
+13:07:25.421 D/BleUnlockWorker: ➕ 添加监听器: callback_12_1770959245420 (总数: 10)
+13:07:25.421 D/ControlActivity: ➕ 添加监听器: callback_12_1770959245420 (总数: 10)
+13:07:25.421 D/BleUnlockWorker: ➕ 添加监听器: callback_12_1770959245420 (总数: 10)
+13:07:25.421 D/ControlActivity: ➕ 添加监听器: callback_12_1770959245420 (总数: 10)
+13:07:25.421 D/BleUnlockWorker: ➕ 添加监听器: callback_12_1770959245420 (总数: 10)
+13:07:25.421 D/ControlActivity: ➕ 添加监听器: callback_12_1770959245420 (总数: 10)
+13:07:25.421 D/BleUnlockWorker: ➕ 添加监听器: callback_12_1770959245420 (总数: 10)
+13:07:25.421 D/ControlActivity: ➕ 添加监听器: callback_12_1770959245420 (总数: 10)
+13:07:25.635 D/MG_NET_LOG: ┌────── 响应结束 (200 / 1209ms) ──────
+13:07:25.635 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+13:07:25.635 D/MG_NET_LOG: │ Result: {"req_id":"19c55658dde8c292e48","data":{"vehicle_position":{"satellites":8,"altitude":117,"gps_status":2,"latitude":"31.746287","update_time":1770951067000,"gps_time":1770958784000,"hdop":8,"longitude":"113.684040"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":268,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":3,"driving_range":126,"battery_pack_range":125,"power_mode":0,"engine_status":0,"exterior_temperature":0,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":11,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":8206,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1230,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":272,"battery_pack_prc":1000,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":126,"current_journey_id":683,"pwr_lftgt_pos_v":null,"interior_temperature":8,"localfront_right_seat_heat_level":null,"heading":266,"battery_alarm_value":[50,200,500],"update_time":1770950845000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":268,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":700,"fuel_level_disp":2,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1770951067000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1770950845000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+13:07:25.635 D/MG_NET_LOG: └──────────────────────────────────────────────────
+13:07:28.984 D/BleUnlockWorker: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_11_1770959245415 (剩余: 8)
+13:07:28.984 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_11_1770959245415 (剩余: 8)
+13:07:28.984 D/BleUnlockWorker: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_11_1770959245415 (剩余: 8)
+13:07:28.984 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_11_1770959245415 (剩余: 8)
+13:07:28.985 D/BleUnlockWorker: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_11_1770959245415 (剩余: 8)
+13:07:28.985 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_11_1770959245415 (剩余: 8)
+13:07:28.985 D/BleUnlockWorker: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_11_1770959245415 (剩余: 8)
+13:07:28.985 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_11_1770959245415 (剩余: 8)
+13:07:28.985 D/BleUnlockWorker: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_11_1770959245415 (剩余: 8)
+13:07:28.985 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_11_1770959245415 (剩余: 8)
+13:07:28.985 D/BleUnlockWorker: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_11_1770959245415 (剩余: 8)
+13:07:28.985 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_11_1770959245415 (剩余: 8)
+13:07:28.985 D/BleUnlockWorker: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_11_1770959245415 (剩余: 8)
+13:07:28.985 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_11_1770959245415 (剩余: 8)
+13:07:28.986 D/BleUnlockWorker: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_11_1770959245415 (剩余: 8)
+13:07:28.986 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_11_1770959245415 (剩余: 8)
+13:07:28.986 D/BleUnlockWorker: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_11_1770959245415 (剩余: 8)
+13:07:28.986 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_11_1770959245415 (剩余: 8)
+13:07:28.986 D/BleUnlockWorker: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_11_1770959245415 (剩余: 8)
+13:07:28.986 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_11_1770959245415 (剩余: 8)
+13:07:28.986 D/BleUnlockWorker: ➖ 移除监听器: callback_11_1770959244429 
+13:07:28.986 D/ControlActivity: ➖ 移除监听器: callback_11_1770959244429 
+13:07:28.986 D/BleUnlockWorker: ➖ 移除监听器: callback_11_1770959244429 
+13:07:28.986 D/ControlActivity: ➖ 移除监听器: callback_11_1770959244429 
+13:07:28.986 D/BleUnlockWorker: ➖ 移除监听器: callback_11_1770959244429 
+13:07:28.987 D/ControlActivity: ➖ 移除监听器: callback_11_1770959244429 
+13:07:28.987 D/BleUnlockWorker: ➖ 移除监听器: callback_11_1770959244429 
+13:07:28.987 D/ControlActivity: ➖ 移除监听器: callback_11_1770959244429 
+13:07:28.987 D/BleUnlockWorker: ➖ 移除监听器: callback_11_1770959244429 
+13:07:28.987 D/ControlActivity: ➖ 移除监听器: callback_11_1770959244429 
+13:07:28.987 D/BleUnlockWorker: ➖ 移除监听器: callback_11_1770959244429 
+13:07:28.987 D/ControlActivity: ➖ 移除监听器: callback_11_1770959244429 
+13:07:28.987 D/BleUnlockWorker: ➖ 移除监听器: callback_11_1770959244429 
+13:07:28.987 D/ControlActivity: ➖ 移除监听器: callback_11_1770959244429 
+13:07:28.987 D/BleUnlockWorker: ➖ 移除监听器: callback_11_1770959244429 
+13:07:28.987 D/ControlActivity: ➖ 移除监听器: callback_11_1770959244429 
+13:07:28.988 D/BleUnlockWorker: ➖ 移除监听器: callback_11_1770959244429 
+13:07:28.988 D/ControlActivity: ➖ 移除监听器: callback_11_1770959244429 
+13:07:28.988 D/BleUnlockWorker: ➖ 移除监听器: callback_11_1770959244429 
+13:07:28.988 D/ControlActivity: ➖ 移除监听器: callback_11_1770959244429 
