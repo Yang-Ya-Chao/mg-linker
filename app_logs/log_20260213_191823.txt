@@ -1,0 +1,1001 @@
+--- Log Capture Start: 20260213_191823 ---
+02-13 19:10:21.348 D/BleProximity: 📶 RSSI: -93
+02-13 19:10:21.649 D/BleProximity: 📶 RSSI: -96
+02-13 19:10:21.951 D/BleProximity: 📶 RSSI: -95
+02-13 19:10:24.370 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:24.671 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:24.974 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:25.273 D/BleProximity: 📶 RSSI: -93
+02-13 19:10:25.574 D/BleProximity: 📶 RSSI: -93
+02-13 19:10:25.875 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:26.176 D/BleProximity: 📶 RSSI: -93
+02-13 19:10:26.476 D/BleProximity: 📶 RSSI: -93
+02-13 19:10:26.778 D/BleProximity: 📶 RSSI: -93
+02-13 19:10:27.082 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:27.383 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:27.683 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:27.983 D/BleProximity: 📶 RSSI: -92
+02-13 19:10:28.294 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:28.589 D/BleProximity: 📶 RSSI: -93
+02-13 19:10:28.893 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:29.196 D/BleProximity: 📶 RSSI: -93
+02-13 19:10:29.496 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:29.796 D/BleProximity: 📶 RSSI: -93
+02-13 19:10:30.098 D/BleProximity: 📶 RSSI: -93
+02-13 19:10:30.398 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:30.701 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:31.005 D/BleProximity: 📶 RSSI: -93
+02-13 19:10:31.013 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-13 19:10:31.013 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-13 19:10:31.013 D/MG_NET_LOG: │ Method: POST
+02-13 19:10:31.014 D/MG_NET_LOG: │ Params: data={"userId":"15100000797060","appId":"MG","brandCode":"2","nonce":"3022D7E9BA3940E792B308391D75D9AC","timestamp":"1770981031010","token":"3b7f235dcdf9436086d3ecb10beb1c70-prod_SAIC"}
+02-13 19:10:31.014 D/MG_NET_LOG: └──────────────────────
+02-13 19:10:31.308 D/BleProximity: 📶 RSSI: -92
+02-13 19:10:31.611 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:31.919 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:32.221 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:32.521 D/BleProximity: 📶 RSSI: -93
+02-13 19:10:32.822 D/BleProximity: 📶 RSSI: -93
+02-13 19:10:33.122 D/BleProximity: 📶 RSSI: -93
+02-13 19:10:33.423 D/BleProximity: 📶 RSSI: -91
+02-13 19:10:33.726 D/BleProximity: 📶 RSSI: -92
+02-13 19:10:34.027 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:34.328 D/BleProximity: 📶 RSSI: -95
+02-13 19:10:34.641 D/BleProximity: 📶 RSSI: -93
+02-13 19:10:34.943 D/BleProximity: 📶 RSSI: -95
+02-13 19:10:35.029 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-13 19:10:35.029 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-13 19:10:35.029 D/MG_NET_LOG: │ Method: POST
+02-13 19:10:35.029 D/MG_NET_LOG: │ Params: data={"userId":"15100000797060","appId":"MG","brandCode":"2","nonce":"B1AD6E3F54B14AE6B984552F9CA191EE","timestamp":"1770981035025","token":"3b7f235dcdf9436086d3ecb10beb1c70-prod_SAIC"}
+02-13 19:10:35.029 D/MG_NET_LOG: └──────────────────────
+02-13 19:10:35.246 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:35.546 D/BleProximity: 📶 RSSI: -93
+02-13 19:10:35.850 D/BleProximity: 📶 RSSI: -93
+02-13 19:10:36.152 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:36.450 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:36.751 D/BleProximity: 📶 RSSI: -91
+02-13 19:10:37.052 D/BleProximity: 📶 RSSI: -92
+02-13 19:10:37.354 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:37.664 D/BleProximity: 📶 RSSI: -95
+02-13 19:10:37.974 D/BleProximity: 📶 RSSI: -93
+02-13 19:10:38.279 D/BleProximity: 📶 RSSI: -96
+02-13 19:10:38.528 E/MG_NET_LOG: ❌ 请求异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+02-13 19:10:38.543 D/MGWidget: onUpdate called for IDs: 5204
+02-13 19:10:38.544 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+02-13 19:10:38.547 D/BleProximity: 🔧 初始化 BleProximityManager
+02-13 19:10:38.547 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+02-13 19:10:38.547 D/BleProximity: 🧹 清理资源...
+02-13 19:10:38.547 D/BleProximity: 🛑 停止服务
+02-13 19:10:38.547 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_2_1770980945706 (剩余: 0)
+02-13 19:10:38.547 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+02-13 19:10:38.547 D/BleProximity: ✅ Session 已释放
+02-13 19:10:38.549 D/BleProximity: ➖ 移除监听器: callback_2_1770980945706 
+02-13 19:10:38.549 D/BleProximity: ✅ 已移除回调: callback_2_1770980945706
+02-13 19:10:38.549 D/BleProximity: ✅ 资源清理完成
+02-13 19:10:38.549 D/BleProximity: ➕ 添加监听器: callback_3_1770981038549 (总数: 1)
+02-13 19:10:38.549 D/BleProximity: ✅ 初始化完成，回调ID: callback_3_1770981038549 ,DistanceMeters:-87.0
+02-13 19:10:38.549 D/BleProximity: 🚀 启动靠近解锁服务...
+02-13 19:10:38.549 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_3_1770981038549 (总数: 1)
+02-13 19:10:38.549 D/BleProximity: 🎫 Session 已获取: true
+02-13 19:10:38.549 D/BleProximity: ✅ 服务启动时，设备已处于连接状态
+02-13 19:10:38.561 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-13 19:10:38.562 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-13 19:10:38.562 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-13 19:10:38.562 D/MG_NET_LOG: │ Method: POST
+02-13 19:10:38.562 D/MG_NET_LOG: │ Params: data={"vin":"LSJWJ4U64PZ281592","appId":"MG","brandCode":"2","nonce":"E586AB9340CF4658BD8864DFD0246F68","timestamp":"1770981038561","token":"3b7f235dcdf9436086d3ecb10beb1c70-prod_SAIC"}
+02-13 19:10:38.562 D/MG_NET_LOG: └──────────────────────
+02-13 19:10:38.563 E/MG_NET_LOG: ❌ 请求异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+02-13 19:10:38.572 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+02-13 19:10:38.572 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-13 19:10:38.572 D/MGWidget: updateWidgetSynchronously called for ID: 5204
+02-13 19:10:38.583 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:38.583 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-13 19:10:38.888 D/BleProximity: 📶 RSSI: -95
+02-13 19:10:38.888 D/BleProximity: 📊 正在收集信号样本: 2/5
+02-13 19:10:39.191 D/BleProximity: 📶 RSSI: -95
+02-13 19:10:39.191 D/BleProximity: 📊 正在收集信号样本: 3/5
+02-13 19:10:39.494 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:39.495 D/BleProximity: 📊 正在收集信号样本: 4/5
+02-13 19:10:39.798 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:40.102 D/BleProximity: 📶 RSSI: -93
+02-13 19:10:40.402 D/BleProximity: 📶 RSSI: -95
+02-13 19:10:40.703 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:41.005 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:41.306 D/BleProximity: 📶 RSSI: -92
+02-13 19:10:41.616 D/BleProximity: 📶 RSSI: -96
+02-13 19:10:41.922 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:42.226 D/BleProximity: 📶 RSSI: -93
+02-13 19:10:42.528 D/BleProximity: 📶 RSSI: -95
+02-13 19:10:42.830 D/BleProximity: 📶 RSSI: -95
+02-13 19:10:43.133 D/BleProximity: 📶 RSSI: -98
+02-13 19:10:43.436 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:43.741 D/BleProximity: 📶 RSSI: -98
+02-13 19:10:44.045 D/BleProximity: 📶 RSSI: -95
+02-13 19:10:44.350 D/BleProximity: 📶 RSSI: -96
+02-13 19:10:44.653 D/BleProximity: 📶 RSSI: -95
+02-13 19:10:44.957 D/BleProximity: 📶 RSSI: -95
+02-13 19:10:45.260 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:45.564 D/BleProximity: 📶 RSSI: -91
+02-13 19:10:45.866 D/BleProximity: 📶 RSSI: -93
+02-13 19:10:46.040 E/MG_NET_LOG: ❌ 请求异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+02-13 19:10:46.054 D/MGWidget: onUpdate called for IDs: 5204
+02-13 19:10:46.054 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+02-13 19:10:46.056 D/BleProximity: 🔧 初始化 BleProximityManager
+02-13 19:10:46.056 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+02-13 19:10:46.056 D/BleProximity: 🧹 清理资源...
+02-13 19:10:46.056 D/BleProximity: 🛑 停止服务
+02-13 19:10:46.056 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_3_1770981038549 (剩余: 0)
+02-13 19:10:46.056 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+02-13 19:10:46.056 D/BleProximity: ✅ Session 已释放
+02-13 19:10:46.058 D/BleProximity: ➖ 移除监听器: callback_3_1770981038549 
+02-13 19:10:46.059 D/BleProximity: ✅ 已移除回调: callback_3_1770981038549
+02-13 19:10:46.059 D/BleProximity: ✅ 资源清理完成
+02-13 19:10:46.059 D/BleProximity: ➕ 添加监听器: callback_4_1770981046059 (总数: 1)
+02-13 19:10:46.059 D/BleProximity: ✅ 初始化完成，回调ID: callback_4_1770981046059 ,DistanceMeters:-87.0
+02-13 19:10:46.059 D/BleProximity: 🚀 启动靠近解锁服务...
+02-13 19:10:46.059 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_4_1770981046059 (总数: 1)
+02-13 19:10:46.059 D/BleProximity: 🎫 Session 已获取: true
+02-13 19:10:46.059 D/BleProximity: ✅ 服务启动时，设备已处于连接状态
+02-13 19:10:46.068 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-13 19:10:46.069 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-13 19:10:46.069 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-13 19:10:46.069 D/MG_NET_LOG: │ Method: POST
+02-13 19:10:46.069 D/MG_NET_LOG: │ Params: data={"vin":"LSJWJ4U64PZ281592","appId":"MG","brandCode":"2","nonce":"C1507567BAB64CC7A1159C3207158175","timestamp":"1770981046068","token":"3b7f235dcdf9436086d3ecb10beb1c70-prod_SAIC"}
+02-13 19:10:46.069 D/MG_NET_LOG: └──────────────────────
+02-13 19:10:46.070 E/MG_NET_LOG: ❌ 请求异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+02-13 19:10:46.070 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+02-13 19:10:46.070 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-13 19:10:46.071 D/MGWidget: updateWidgetSynchronously called for ID: 5204
+02-13 19:10:46.167 D/BleProximity: 📶 RSSI: -89
+02-13 19:10:46.167 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-13 19:10:46.469 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:46.470 D/BleProximity: 📊 正在收集信号样本: 2/5
+02-13 19:10:46.771 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:46.771 D/BleProximity: 📊 正在收集信号样本: 3/5
+02-13 19:10:47.073 D/BleProximity: 📶 RSSI: -95
+02-13 19:10:47.073 D/BleProximity: 📊 正在收集信号样本: 4/5
+02-13 19:10:47.374 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:47.677 D/BleProximity: 📶 RSSI: -92
+02-13 19:10:47.982 D/BleProximity: 📶 RSSI: -91
+02-13 19:10:48.285 D/BleProximity: 📶 RSSI: -91
+02-13 19:10:48.589 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:48.889 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:49.192 D/BleProximity: 📶 RSSI: -95
+02-13 19:10:49.499 D/BleProximity: 📶 RSSI: -94
+02-13 19:10:49.803 D/BleProximity: 📶 RSSI: -88
+02-13 19:10:50.102 D/BleProximity: 📶 RSSI: -88
+02-13 19:10:50.403 D/BleProximity: 📶 RSSI: -88
+02-13 19:10:50.706 D/BleProximity: 📶 RSSI: -90
+02-13 19:10:51.009 D/BleProximity: 📶 RSSI: -89
+02-13 19:10:51.310 D/BleProximity: 📶 RSSI: -88
+02-13 19:10:51.612 D/BleProximity: 📶 RSSI: -87
+02-13 19:10:51.912 D/BleProximity: 📶 RSSI: -88
+02-13 19:10:52.213 D/BleProximity: 📶 RSSI: -89
+02-13 19:10:52.513 D/BleProximity: 📶 RSSI: -89
+02-13 19:10:52.816 D/BleProximity: 📶 RSSI: -90
+02-13 19:10:53.119 D/BleProximity: 📶 RSSI: -88
+02-13 19:10:53.419 D/BleProximity: 📶 RSSI: -86
+02-13 19:10:53.720 D/BleProximity: 📶 RSSI: -85
+02-13 19:10:54.022 D/BleProximity: 📶 RSSI: -83
+02-13 19:10:54.022 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-13 19:10:54.022 D/BleProximity: 原因: 信号均值(-86) > 阈值(-87.0) 且 正在靠近(趋势值+5.0)
+02-13 19:10:54.324 D/BleProximity: 📶 RSSI: -86
+02-13 19:10:54.625 D/BleProximity: 📶 RSSI: -88
+02-13 19:10:54.926 D/BleProximity: 📶 RSSI: -91
+02-13 19:10:55.231 D/BleProximity: 📶 RSSI: -91
+02-13 19:10:55.530 D/BleProximity: 📶 RSSI: -88
+02-13 19:10:55.831 D/BleProximity: 📶 RSSI: -86
+02-13 19:10:56.132 D/BleProximity: 📶 RSSI: -87
+02-13 19:10:56.433 D/BleProximity: 📶 RSSI: -87
+02-13 19:10:56.735 D/BleProximity: 📶 RSSI: -87
+02-13 19:10:57.037 D/BleProximity: 📶 RSSI: -85
+02-13 19:10:57.337 D/BleProximity: 📶 RSSI: -86
+02-13 19:10:57.638 D/BleProximity: 📶 RSSI: -89
+02-13 19:10:57.941 D/BleProximity: 📶 RSSI: -85
+02-13 19:10:58.243 D/BleProximity: 📶 RSSI: -86
+02-13 19:10:58.544 D/BleProximity: 📶 RSSI: -84
+02-13 19:10:58.849 D/BleProximity: 📶 RSSI: -87
+02-13 19:10:59.151 D/BleProximity: 📶 RSSI: -86
+02-13 19:10:59.454 D/BleProximity: 📶 RSSI: -85
+02-13 19:10:59.755 D/BleProximity: 📶 RSSI: -83
+02-13 19:11:00.056 D/BleProximity: 📶 RSSI: -82
+02-13 19:11:00.373 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:00.671 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:00.973 D/BleProximity: 📶 RSSI: -82
+02-13 19:11:01.275 D/BleProximity: 📶 RSSI: -80
+02-13 19:11:01.577 D/BleProximity: 📶 RSSI: -80
+02-13 19:11:01.879 D/BleProximity: 📶 RSSI: -80
+02-13 19:11:01.999 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-13 19:11:01.999 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-13 19:11:01.999 D/MG_NET_LOG: │ Method: POST
+02-13 19:11:01.999 D/MG_NET_LOG: │ Params: data={"userId":"15100000797060","appId":"MG","brandCode":"2","nonce":"7C1F7962BFB84AA58E3F565368454701","timestamp":"1770981061997","token":"3b7f235dcdf9436086d3ecb10beb1c70-prod_SAIC"}
+02-13 19:11:01.999 D/MG_NET_LOG: └──────────────────────
+02-13 19:11:02.001 E/MG_NET_LOG: ❌ 请求异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+02-13 19:11:02.015 D/MGWidget: onUpdate called for IDs: 5204
+02-13 19:11:02.016 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+02-13 19:11:02.016 D/BleProximity: 🛑 停止服务
+02-13 19:11:02.016 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_4_1770981046059 (剩余: 0)
+02-13 19:11:02.016 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+02-13 19:11:02.016 D/BleProximity: ✅ Session 已释放
+02-13 19:11:02.034 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-13 19:11:02.035 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-13 19:11:02.035 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-13 19:11:02.035 D/MG_NET_LOG: │ Method: POST
+02-13 19:11:02.035 D/MG_NET_LOG: │ Params: data={"vin":"LSJWJ4U64PZ281592","appId":"MG","brandCode":"2","nonce":"3AFC48E8179C49A7AFBE730E6942F5D6","timestamp":"1770981062034","token":"3b7f235dcdf9436086d3ecb10beb1c70-prod_SAIC"}
+02-13 19:11:02.035 D/MG_NET_LOG: └──────────────────────
+02-13 19:11:02.035 E/MG_NET_LOG: ❌ 请求异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+02-13 19:11:02.036 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+02-13 19:11:02.036 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-13 19:11:02.036 D/MGWidget: updateWidgetSynchronously called for ID: 5204
+02-13 19:11:02.516 D/BleProximity: ✂️ 断开连接
+02-13 19:11:02.516 D/BleProximity: ⏹️ 停止扫描
+02-13 19:11:02.521 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 0)
+02-13 19:11:02.521 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-13 19:11:05.146 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-13 19:11:05.146 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-13 19:11:05.147 D/MG_NET_LOG: │ Method: POST
+02-13 19:11:05.147 D/MG_NET_LOG: │ Params: data={"userId":"15100000797060","appId":"MG","brandCode":"2","nonce":"E673155706294895ADB21DFB7730DE56","timestamp":"1770981065145","token":"3b7f235dcdf9436086d3ecb10beb1c70-prod_SAIC"}
+02-13 19:11:05.147 D/MG_NET_LOG: └──────────────────────
+02-13 19:11:05.149 E/MG_NET_LOG: ❌ 请求异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+02-13 19:11:05.169 D/MGWidget: onUpdate called for IDs: 5204
+02-13 19:11:05.172 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+02-13 19:11:05.181 D/BleProximity: 🔧 初始化 BleProximityManager
+02-13 19:11:05.181 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+02-13 19:11:05.181 D/BleProximity: 🧹 清理资源...
+02-13 19:11:05.181 D/BleProximity: ➖ 移除监听器: callback_4_1770981046059 
+02-13 19:11:05.181 D/BleProximity: ✅ 已移除回调: callback_4_1770981046059
+02-13 19:11:05.181 D/BleProximity: ✅ 资源清理完成
+02-13 19:11:05.182 D/BleProximity: ➕ 添加监听器: callback_5_1770981065181 (总数: 1)
+02-13 19:11:05.182 D/BleProximity: ✅ 初始化完成，回调ID: callback_5_1770981065181 ,DistanceMeters:-74.0
+02-13 19:11:05.182 D/BleProximity: 🚀 启动靠近解锁服务...
+02-13 19:11:05.182 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_5_1770981065182 (总数: 1)
+02-13 19:11:05.182 D/BleProximity: 🔍 开始扫描
+02-13 19:11:05.182 D/BleProximity: 🔍 开始扫描 (尝试次数: 0)
+02-13 19:11:05.187 D/BleProximity: 🎫 Session 已获取: true
+02-13 19:11:05.187 D/BleProximity: ⏳ 服务已启动，正在后台搜索设备...
+02-13 19:11:05.191 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-13 19:11:05.192 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-13 19:11:05.192 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-13 19:11:05.192 D/MG_NET_LOG: │ Method: POST
+02-13 19:11:05.192 D/MG_NET_LOG: │ Params: data={"vin":"LSJWJ4U64PZ281592","appId":"MG","brandCode":"2","nonce":"557E7F99159C49AAA5F25A25EA266BCF","timestamp":"1770981065191","token":"3b7f235dcdf9436086d3ecb10beb1c70-prod_SAIC"}
+02-13 19:11:05.192 D/MG_NET_LOG: └──────────────────────
+02-13 19:11:05.193 E/MG_NET_LOG: ❌ 请求异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+02-13 19:11:05.193 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+02-13 19:11:05.193 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-13 19:11:05.193 D/MGWidget: updateWidgetSynchronously called for ID: 5204
+02-13 19:11:05.907 D/BleProximity: 📱 发现设备: 74:B8:39:D4:39:AA, RSSI: -77
+02-13 19:11:05.907 D/BleProximity: 📱 发现设备: 74:B8:39:D4:39:AA, RSSI: -77
+02-13 19:11:05.910 D/BleProximity: ⏹️ 停止扫描
+02-13 19:11:05.915 D/BleProximity: ⏹️ 停止扫描
+02-13 19:11:05.915 D/BleProximity: 🔗 连接设备: 74:B8:39:D4:39:AA
+02-13 19:11:05.915 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+02-13 19:11:05.915 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+02-13 19:11:07.627 D/BleProximity: ✅ 已连接，开始发现服务
+02-13 19:11:07.628 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-13 19:11:07.628 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-13 19:11:08.460 D/BleProximity: ✅ 特征初始化完成
+02-13 19:11:08.473 D/BleProximity: MTU 生效: 65
+02-13 19:11:08.474 D/BleProximity: 🔐 开始认证流程
+02-13 19:11:08.475 D/BleCommandManager: ⚡ 执行操作: [开启通知: 4af4]
+02-13 19:11:08.477 D/BleProximity: 📤 准备发送Booking ID: 0198C3CA (进入串行队列)
+02-13 19:11:08.488 I/BleCommandManager: 🎉 操作成功: [开启通知: 4af4]
+02-13 19:11:08.539 D/BleCommandManager: ⚡ 执行操作: [开启通知: 23a8]
+02-13 19:11:08.593 I/BleCommandManager: 🎉 操作成功: [开启通知: 23a8]
+02-13 19:11:08.644 D/BleCommandManager: ⚡ 执行操作: [开启通知: 267e]
+02-13 19:11:08.684 I/BleCommandManager: 🎉 操作成功: [开启通知: 267e]
+02-13 19:11:08.734 D/BleCommandManager: ⚡ 执行操作: [开启通知: 71ed]
+02-13 19:11:08.773 I/BleCommandManager: 🎉 操作成功: [开启通知: 71ed]
+02-13 19:11:08.824 D/BleCommandManager: ⚡ 执行操作: [开启通知: a37b]
+02-13 19:11:08.864 I/BleCommandManager: 🎉 操作成功: [开启通知: a37b]
+02-13 19:11:08.914 D/BleCommandManager: ⚡ 执行操作: [开启通知: 9d21]
+02-13 19:11:08.955 I/BleCommandManager: 🎉 操作成功: [开启通知: 9d21]
+02-13 19:11:08.977 D/BleProximity: 📤 准备发送Booking ID: 0198C3CA (进入串行队列)
+02-13 19:11:09.006 D/BleCommandManager: ⚡ 执行操作: [发送 BookingID]
+02-13 19:11:09.008 I/BleCommandManager: 🎉 操作成功: [发送 BookingID]
+02-13 19:11:09.046 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 890b5746785a
+02-13 19:11:09.046 D/BleProximity: 🔐 处理认证挑战: 383930623537343637383561
+02-13 19:11:09.059 D/BleCommandManager: ⚡ 执行操作: [发送 BookingID]
+02-13 19:11:09.061 I/BleCommandManager: 🎉 操作成功: [发送 BookingID]
+02-13 19:11:09.106 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 890b5746785a
+02-13 19:11:09.106 D/BleProximity: 🔐 处理认证挑战: 383930623537343637383561
+02-13 19:11:09.111 D/BleCommandManager: ⚡ 执行操作: [发送认证响应]
+02-13 19:11:09.112 I/BleCommandManager: 🎉 操作成功: [发送认证响应]
+02-13 19:11:09.164 D/BleCommandManager: ⚡ 执行操作: [发送认证响应]
+02-13 19:11:09.164 D/BleProximity: 收到认证挑战：uuid: 31457EDC-878A-4A15-8554-3568DE71A37B, value: 01
+02-13 19:11:09.164 D/BleProximity: ✅ 认证成功
+02-13 19:11:09.164 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 1, Session: 1)
+02-13 19:11:09.164 D/BleProximity: 📡 连接状态: AUTHENTICATED (isConnected: true)
+02-13 19:11:09.170 I/BleCommandManager: 🎉 操作成功: [发送认证响应]
+02-13 19:11:09.173 D/BleProximity: 📶 RSSI: -80
+02-13 19:11:09.173 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-13 19:11:09.474 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:09.474 D/BleProximity: 📊 正在收集信号样本: 2/5
+02-13 19:11:09.776 D/BleProximity: 📶 RSSI: -82
+02-13 19:11:09.776 D/BleProximity: 📊 正在收集信号样本: 3/5
+02-13 19:11:10.079 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:10.079 D/BleProximity: 📊 正在收集信号样本: 4/5
+02-13 19:11:10.379 D/BleProximity: 📶 RSSI: -82
+02-13 19:11:10.681 D/BleProximity: 📶 RSSI: -82
+02-13 19:11:10.983 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:11.286 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:11.590 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:11.894 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:12.196 D/BleProximity: 📶 RSSI: -83
+02-13 19:11:12.495 D/BleProximity: 📶 RSSI: -82
+02-13 19:11:12.796 D/BleProximity: 📶 RSSI: -82
+02-13 19:11:13.098 D/BleProximity: 📶 RSSI: -83
+02-13 19:11:13.399 D/BleProximity: 📶 RSSI: -82
+02-13 19:11:13.702 D/BleProximity: 📶 RSSI: -84
+02-13 19:11:14.003 D/BleProximity: 📶 RSSI: -82
+02-13 19:11:14.310 D/BleProximity: 📶 RSSI: -83
+02-13 19:11:14.610 D/BleProximity: 📶 RSSI: -83
+02-13 19:11:14.911 D/BleProximity: 📶 RSSI: -83
+02-13 19:11:15.214 D/BleProximity: 📶 RSSI: -87
+02-13 19:11:15.516 D/BleProximity: 📶 RSSI: -86
+02-13 19:11:15.817 D/BleProximity: 📶 RSSI: -83
+02-13 19:11:16.118 D/BleProximity: 📶 RSSI: -83
+02-13 19:11:16.420 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:16.724 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:17.023 D/BleProximity: 📶 RSSI: -80
+02-13 19:11:17.323 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:17.625 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:17.928 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:18.228 D/BleProximity: 📶 RSSI: -80
+02-13 19:11:18.530 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:18.833 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:19.136 D/BleProximity: 📶 RSSI: -78
+02-13 19:11:19.438 D/BleProximity: 📶 RSSI: -79
+02-13 19:11:19.739 D/BleProximity: 📶 RSSI: -79
+02-13 19:11:20.040 D/BleProximity: 📶 RSSI: -78
+02-13 19:11:20.375 D/BleProximity: 📶 RSSI: -78
+02-13 19:11:20.677 D/BleProximity: 📶 RSSI: -79
+02-13 19:11:20.977 D/BleProximity: 📶 RSSI: -79
+02-13 19:11:21.282 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:21.582 D/BleProximity: 📶 RSSI: -82
+02-13 19:11:21.886 D/BleProximity: 📶 RSSI: -83
+02-13 19:11:22.186 D/BleProximity: 📶 RSSI: -82
+02-13 19:11:22.487 D/BleProximity: 📶 RSSI: -84
+02-13 19:11:22.791 D/BleProximity: 📶 RSSI: -84
+02-13 19:11:23.091 D/BleProximity: 📶 RSSI: -84
+02-13 19:11:23.394 D/BleProximity: 📶 RSSI: -83
+02-13 19:11:23.695 D/BleProximity: 📶 RSSI: -82
+02-13 19:11:23.998 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:24.301 D/BleProximity: 📶 RSSI: -84
+02-13 19:11:24.605 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:24.912 D/BleProximity: 📶 RSSI: -83
+02-13 19:11:25.204 D/BleProximity: 📶 RSSI: -84
+02-13 19:11:25.506 D/BleProximity: 📶 RSSI: -83
+02-13 19:11:25.806 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:26.107 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:26.408 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:26.709 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:27.012 D/BleProximity: 📶 RSSI: -82
+02-13 19:11:27.314 D/BleProximity: 📶 RSSI: -82
+02-13 19:11:27.615 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:27.917 D/BleProximity: 📶 RSSI: -80
+02-13 19:11:28.218 D/BleProximity: 📶 RSSI: -82
+02-13 19:11:28.538 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:28.841 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:29.144 D/BleProximity: 📶 RSSI: -82
+02-13 19:11:29.446 D/BleProximity: 📶 RSSI: -82
+02-13 19:11:29.745 D/BleProximity: 📶 RSSI: -82
+02-13 19:11:30.049 D/BleProximity: 📶 RSSI: -80
+02-13 19:11:30.350 D/BleProximity: 📶 RSSI: -80
+02-13 19:11:30.655 D/BleProximity: 📶 RSSI: -82
+02-13 19:11:30.953 D/BleProximity: 📶 RSSI: -80
+02-13 19:11:31.257 D/BleProximity: 📶 RSSI: -80
+02-13 19:11:31.560 D/BleProximity: 📶 RSSI: -82
+02-13 19:11:31.860 D/BleProximity: 📶 RSSI: -82
+02-13 19:11:32.162 D/BleProximity: 📶 RSSI: -80
+02-13 19:11:32.465 D/BleProximity: 📶 RSSI: -80
+02-13 19:11:32.767 D/BleProximity: 📶 RSSI: -80
+02-13 19:11:33.068 D/BleProximity: 📶 RSSI: -83
+02-13 19:11:33.370 D/BleProximity: 📶 RSSI: -83
+02-13 19:11:33.674 D/BleProximity: 📶 RSSI: -83
+02-13 19:11:33.976 D/BleProximity: 📶 RSSI: -80
+02-13 19:11:34.276 D/BleProximity: 📶 RSSI: -83
+02-13 19:11:34.578 D/BleProximity: 📶 RSSI: -84
+02-13 19:11:34.878 D/BleProximity: 📶 RSSI: -90
+02-13 19:11:35.179 D/BleProximity: 📶 RSSI: -90
+02-13 19:11:35.481 D/BleProximity: 📶 RSSI: -87
+02-13 19:11:35.782 D/BleProximity: 📶 RSSI: -90
+02-13 19:11:36.084 D/BleProximity: 📶 RSSI: -90
+02-13 19:11:36.386 D/BleProximity: 📶 RSSI: -86
+02-13 19:11:36.686 D/BleProximity: 📶 RSSI: -90
+02-13 19:11:36.988 D/BleProximity: 📶 RSSI: -90
+02-13 19:11:37.289 D/BleProximity: 📶 RSSI: -84
+02-13 19:11:37.591 D/BleProximity: 📶 RSSI: -91
+02-13 19:11:37.894 D/BleProximity: 📶 RSSI: -91
+02-13 19:11:38.195 D/BleProximity: 📶 RSSI: -86
+02-13 19:11:38.800 D/BleProximity: 📶 RSSI: -88
+02-13 19:11:39.102 D/BleProximity: 📶 RSSI: -89
+02-13 19:11:39.402 D/BleProximity: 📶 RSSI: -85
+02-13 19:11:39.702 D/BleProximity: 📶 RSSI: -84
+02-13 19:11:40.003 D/BleProximity: 📶 RSSI: -86
+02-13 19:11:40.305 D/BleProximity: 📶 RSSI: -83
+02-13 19:11:40.607 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:40.908 D/BleProximity: 📶 RSSI: -80
+02-13 19:11:41.210 D/BleProximity: 📶 RSSI: -83
+02-13 19:11:41.510 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:41.811 D/BleProximity: 📶 RSSI: -81
+02-13 19:11:42.112 D/BleProximity: 📶 RSSI: -83
+02-13 19:11:42.412 D/BleProximity: 📶 RSSI: -87
+02-13 19:11:42.715 D/BleProximity: 📶 RSSI: -92
+02-13 19:11:43.016 D/BleProximity: 📶 RSSI: -90
+02-13 19:11:43.326 D/BleProximity: 📶 RSSI: -93
+02-13 19:11:43.627 D/BleProximity: 📶 RSSI: -94
+02-13 19:11:43.932 D/BleProximity: 📶 RSSI: -94
+02-13 19:11:44.233 D/BleProximity: 📶 RSSI: -93
+02-13 19:11:44.535 D/BleProximity: 📶 RSSI: -93
+02-13 19:11:44.840 D/BleProximity: 📶 RSSI: -97
+02-13 19:11:45.142 D/BleProximity: 📶 RSSI: -99
+02-13 19:11:45.445 D/BleProximity: 📶 RSSI: -97
+02-13 19:11:45.748 D/BleProximity: 📶 RSSI: -96
+02-13 19:11:46.051 D/BleProximity: 📶 RSSI: -95
+02-13 19:11:46.355 D/BleProximity: 📶 RSSI: -99
+02-13 19:11:46.657 D/BleProximity: 📶 RSSI: -96
+02-13 19:11:46.961 D/BleProximity: 📶 RSSI: -97
+02-13 19:11:47.263 D/BleProximity: 📶 RSSI: -99
+02-13 19:11:47.563 D/BleProximity: 📶 RSSI: -99
+02-13 19:11:47.866 D/BleProximity: 📶 RSSI: -95
+02-13 19:11:48.169 D/BleProximity: 📶 RSSI: -99
+02-13 19:11:48.473 D/BleProximity: 📶 RSSI: -98
+02-13 19:11:48.773 D/BleProximity: 📶 RSSI: -99
+02-13 19:11:49.074 D/BleProximity: 📶 RSSI: -100
+02-13 19:11:49.379 D/BleProximity: 📶 RSSI: -99
+02-13 19:11:49.682 D/BleProximity: 📶 RSSI: -98
+02-13 19:11:49.986 D/BleProximity: 📶 RSSI: -99
+02-13 19:11:50.287 D/BleProximity: 📶 RSSI: -101
+02-13 19:11:50.588 D/BleProximity: 📶 RSSI: -101
+02-13 19:11:50.892 D/BleProximity: 📶 RSSI: -102
+02-13 19:11:51.192 D/BleProximity: 📶 RSSI: -98
+02-13 19:11:51.493 D/BleProximity: 📶 RSSI: -100
+02-13 19:11:51.794 D/BleProximity: 📶 RSSI: -100
+02-13 19:11:52.096 D/BleProximity: 📶 RSSI: -100
+02-13 19:11:52.398 D/BleProximity: 📶 RSSI: -98
+02-13 19:11:52.700 D/BleProximity: 📶 RSSI: -101
+02-13 19:11:53.001 D/BleProximity: 📶 RSSI: -102
+02-13 19:11:53.304 D/BleProximity: 📶 RSSI: -102
+02-13 19:11:53.607 D/BleProximity: 📶 RSSI: -101
+02-13 19:11:53.909 D/BleProximity: 📶 RSSI: -102
+02-13 19:11:54.208 D/BleProximity: 📶 RSSI: -102
+02-13 19:11:54.510 D/BleProximity: 📶 RSSI: -102
+02-13 19:11:54.813 D/BleProximity: 📶 RSSI: -102
+02-13 19:11:55.115 D/BleProximity: 📶 RSSI: -103
+02-13 19:11:55.416 D/BleProximity: 📶 RSSI: -103
+02-13 19:11:55.721 D/BleProximity: 📶 RSSI: -104
+02-13 19:11:56.020 D/BleProximity: 📶 RSSI: -104
+02-13 19:11:56.319 D/BleProximity: 📶 RSSI: -105
+02-13 19:11:56.622 D/BleProximity: 📶 RSSI: -103
+02-13 19:11:56.926 D/BleProximity: 📶 RSSI: -103
+02-13 19:11:57.227 D/BleProximity: 📶 RSSI: -102
+02-13 19:11:57.529 D/BleProximity: 📶 RSSI: -102
+02-13 19:11:57.832 D/BleProximity: 📶 RSSI: -102
+02-13 19:11:58.134 D/BleProximity: 📶 RSSI: -102
+02-13 19:11:58.435 D/BleProximity: 📶 RSSI: -102
+02-13 19:11:58.737 D/BleProximity: 📶 RSSI: -103
+02-13 19:11:59.041 D/BleProximity: 📶 RSSI: -103
+02-13 19:11:59.343 D/BleProximity: 📶 RSSI: -104
+02-13 19:11:59.645 D/BleProximity: 📶 RSSI: -104
+02-13 19:11:59.945 D/BleProximity: 📶 RSSI: -104
+02-13 19:12:00.251 D/BleProximity: 📶 RSSI: -104
+02-13 19:12:00.550 D/BleProximity: 📶 RSSI: -103
+02-13 19:12:00.855 D/BleProximity: 📶 RSSI: -103
+02-13 19:12:01.158 D/BleProximity: 📶 RSSI: -104
+02-13 19:12:01.460 D/BleProximity: 📶 RSSI: -104
+02-13 19:12:01.762 D/BleProximity: 📶 RSSI: -104
+02-13 19:12:02.068 D/BleProximity: 📶 RSSI: -103
+02-13 19:12:02.371 D/BleProximity: 📶 RSSI: -103
+02-13 19:12:02.675 D/BleProximity: 📶 RSSI: -103
+02-13 19:12:02.978 D/BleProximity: 📶 RSSI: -103
+02-13 19:12:03.280 D/BleProximity: 📶 RSSI: -104
+02-13 19:12:03.584 D/BleProximity: 📶 RSSI: -104
+02-13 19:12:03.885 D/BleProximity: 📶 RSSI: -104
+02-13 19:12:04.192 D/BleProximity: 📶 RSSI: -104
+02-13 19:12:04.493 D/BleProximity: 📶 RSSI: -104
+02-13 19:12:04.797 D/BleProximity: 📶 RSSI: -105
+02-13 19:12:05.100 D/BleProximity: 📶 RSSI: -104
+02-13 19:12:05.402 D/BleProximity: 📶 RSSI: -104
+02-13 19:12:05.705 D/BleProximity: 📶 RSSI: -105
+02-13 19:12:06.007 D/BleProximity: 📶 RSSI: -105
+02-13 19:12:06.312 D/BleProximity: 📶 RSSI: -105
+02-13 19:12:06.614 D/BleProximity: 📶 RSSI: -105
+02-13 19:12:06.917 D/BleProximity: 📶 RSSI: -104
+02-13 19:12:07.220 D/BleProximity: 📶 RSSI: -104
+02-13 19:12:07.523 D/BleProximity: 📶 RSSI: -105
+02-13 19:12:07.825 D/BleProximity: 📶 RSSI: -104
+02-13 19:12:08.126 D/BleProximity: 📶 RSSI: -104
+02-13 19:12:08.430 D/BleProximity: 📶 RSSI: -104
+02-13 19:12:08.734 D/BleProximity: 📶 RSSI: -105
+02-13 19:12:09.033 D/BleProximity: 📶 RSSI: -104
+02-13 19:12:09.335 D/BleProximity: 📶 RSSI: -103
+02-13 19:12:09.638 D/BleProximity: 📶 RSSI: -104
+02-13 19:12:09.938 D/BleProximity: 📶 RSSI: -104
+02-13 19:12:10.239 D/BleProximity: 📶 RSSI: -103
+02-13 19:12:10.542 D/BleProximity: 📶 RSSI: -104
+02-13 19:12:10.846 D/BleProximity: 📶 RSSI: -103
+02-13 19:12:11.148 D/BleProximity: 📶 RSSI: -102
+02-13 19:12:11.453 D/BleProximity: 📶 RSSI: -102
+02-13 19:12:11.752 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:12.055 D/BleProximity: 📶 RSSI: -102
+02-13 19:12:12.355 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:12.659 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:12.962 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:13.263 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:13.563 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:13.866 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:14.167 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:14.468 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:14.771 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:15.075 D/BleProximity: 📶 RSSI: -102
+02-13 19:12:15.380 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:15.682 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:15.984 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:16.285 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:16.590 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:16.893 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:17.192 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:17.496 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:17.797 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:18.099 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:18.401 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:18.702 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:19.003 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:19.305 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:19.606 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:19.912 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:20.216 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:20.519 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:20.822 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:21.127 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:21.429 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:21.733 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:22.037 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:22.338 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:22.642 D/BleProximity: 📶 RSSI: -102
+02-13 19:12:22.944 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:23.247 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:23.551 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:23.853 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:24.157 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:24.460 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:24.763 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:25.066 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:25.368 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:25.670 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:25.974 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:26.279 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:26.577 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:26.879 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:27.182 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:27.485 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:27.788 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:28.089 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:28.389 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:28.692 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:28.993 D/BleProximity: 📶 RSSI: -102
+02-13 19:12:29.297 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:29.598 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:29.900 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:30.202 D/BleProximity: 📶 RSSI: -102
+02-13 19:12:30.506 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:30.808 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:31.108 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:31.412 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:31.711 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:32.015 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:32.317 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:32.619 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:32.923 D/BleProximity: 📶 RSSI: -102
+02-13 19:12:33.221 D/BleProximity: 📶 RSSI: -103
+02-13 19:12:33.522 D/BleProximity: 📶 RSSI: -102
+02-13 19:12:33.824 D/BleProximity: 📶 RSSI: -102
+02-13 19:12:34.125 D/BleProximity: 📶 RSSI: -103
+02-13 19:12:34.426 D/BleProximity: 📶 RSSI: -102
+02-13 19:12:34.728 D/BleProximity: 📶 RSSI: -102
+02-13 19:12:35.030 D/BleProximity: 📶 RSSI: -102
+02-13 19:12:35.330 D/BleProximity: 📶 RSSI: -99
+02-13 19:12:35.632 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:35.935 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:36.234 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:36.536 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:36.841 D/BleProximity: 📶 RSSI: -97
+02-13 19:12:37.139 D/BleProximity: 📶 RSSI: -97
+02-13 19:12:37.441 D/BleProximity: 📶 RSSI: -96
+02-13 19:12:37.742 D/BleProximity: 📶 RSSI: -95
+02-13 19:12:38.046 D/BleProximity: 📶 RSSI: -99
+02-13 19:12:38.349 D/BleProximity: 📶 RSSI: -97
+02-13 19:12:38.652 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:38.952 D/BleProximity: 📶 RSSI: -101
+02-13 19:12:39.255 D/BleProximity: 📶 RSSI: -102
+02-13 19:12:39.556 D/BleProximity: 📶 RSSI: -99
+02-13 19:12:39.856 D/BleProximity: 📶 RSSI: -97
+02-13 19:12:40.158 D/BleProximity: 📶 RSSI: -97
+02-13 19:12:40.458 D/BleProximity: 📶 RSSI: -94
+02-13 19:12:40.760 D/BleProximity: 📶 RSSI: -94
+02-13 19:12:41.061 D/BleProximity: 📶 RSSI: -94
+02-13 19:12:41.363 D/BleProximity: 📶 RSSI: -98
+02-13 19:12:41.664 D/BleProximity: 📶 RSSI: -99
+02-13 19:12:41.965 D/BleProximity: 📶 RSSI: -99
+02-13 19:12:42.268 D/BleProximity: 📶 RSSI: -99
+02-13 19:12:42.568 D/BleProximity: 📶 RSSI: -99
+02-13 19:12:42.869 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:43.171 D/BleProximity: 📶 RSSI: -103
+02-13 19:12:43.473 D/BleProximity: 📶 RSSI: -99
+02-13 19:12:43.778 D/BleProximity: 📶 RSSI: -99
+02-13 19:12:44.081 D/BleProximity: 📶 RSSI: -99
+02-13 19:12:44.381 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:44.684 D/BleProximity: 📶 RSSI: -98
+02-13 19:12:44.985 D/BleProximity: 📶 RSSI: -98
+02-13 19:12:45.286 D/BleProximity: 📶 RSSI: -96
+02-13 19:12:45.587 D/BleProximity: 📶 RSSI: -97
+02-13 19:12:45.889 D/BleProximity: 📶 RSSI: -99
+02-13 19:12:46.189 D/BleProximity: 📶 RSSI: -97
+02-13 19:12:47.096 D/BleProximity: 📶 RSSI: -96
+02-13 19:12:47.396 D/BleProximity: 📶 RSSI: -94
+02-13 19:12:47.697 D/BleProximity: 📶 RSSI: -95
+02-13 19:12:47.997 D/BleProximity: 📶 RSSI: -94
+02-13 19:12:48.304 D/BleProximity: 📶 RSSI: -95
+02-13 19:12:48.605 D/BleProximity: 📶 RSSI: -94
+02-13 19:12:48.908 D/BleProximity: 📶 RSSI: -98
+02-13 19:12:49.207 D/BleProximity: 📶 RSSI: -98
+02-13 19:12:49.513 D/BleProximity: 📶 RSSI: -99
+02-13 19:12:49.815 D/BleProximity: 📶 RSSI: -99
+02-13 19:12:50.119 D/BleProximity: 📶 RSSI: -100
+02-13 19:12:50.419 D/BleProximity: 📶 RSSI: -98
+02-13 19:12:50.724 D/BleProximity: 📶 RSSI: -95
+02-13 19:12:51.026 D/BleProximity: 📶 RSSI: -94
+02-13 19:12:51.329 D/BleProximity: 📶 RSSI: -95
+02-13 19:12:51.634 D/BleProximity: 📶 RSSI: -94
+02-13 19:12:51.932 D/BleProximity: 📶 RSSI: -95
+02-13 19:12:52.233 D/BleProximity: 📶 RSSI: -97
+02-13 19:12:52.535 D/BleProximity: 📶 RSSI: -98
+02-13 19:12:52.837 D/BleProximity: 📶 RSSI: -93
+02-13 19:12:53.139 D/BleProximity: 📶 RSSI: -93
+02-13 19:12:53.441 D/BleProximity: 📶 RSSI: -96
+02-13 19:12:53.743 D/BleProximity: 📶 RSSI: -95
+02-13 19:12:54.045 D/BleProximity: 📶 RSSI: -94
+02-13 19:12:54.347 D/BleProximity: 📶 RSSI: -94
+02-13 19:12:54.650 D/BleProximity: 📶 RSSI: -95
+02-13 19:12:54.950 D/BleProximity: 📶 RSSI: -97
+02-13 19:12:55.252 D/BleProximity: 📶 RSSI: -95
+02-13 19:12:55.553 D/BleProximity: 📶 RSSI: -95
+02-13 19:12:55.855 D/BleProximity: 📶 RSSI: -93
+02-13 19:12:56.156 D/BleProximity: 📶 RSSI: -93
+02-13 19:12:56.458 D/BleProximity: 📶 RSSI: -91
+02-13 19:12:56.759 D/BleProximity: 📶 RSSI: -91
+02-13 19:12:57.061 D/BleProximity: 📶 RSSI: -90
+02-13 19:12:57.362 D/BleProximity: 📶 RSSI: -92
+02-13 19:12:57.665 D/BleProximity: 📶 RSSI: -91
+02-13 19:12:57.967 D/BleProximity: 📶 RSSI: -96
+02-13 19:12:58.269 D/BleProximity: 📶 RSSI: -93
+02-13 19:12:58.569 D/BleProximity: 📶 RSSI: -91
+02-13 19:12:58.870 D/BleProximity: 📶 RSSI: -91
+02-13 19:12:59.173 D/BleProximity: 📶 RSSI: -91
+02-13 19:12:59.473 D/BleProximity: 📶 RSSI: -89
+02-13 19:12:59.775 D/BleProximity: 📶 RSSI: -92
+02-13 19:13:00.077 D/BleProximity: 📶 RSSI: -96
+02-13 19:13:00.381 D/BleProximity: 📶 RSSI: -93
+02-13 19:13:00.683 D/BleProximity: 📶 RSSI: -90
+02-13 19:13:00.985 D/BleProximity: 📶 RSSI: -89
+02-13 19:13:01.287 D/BleProximity: 📶 RSSI: -88
+02-13 19:13:01.592 D/BleProximity: 📶 RSSI: -89
+02-13 19:13:01.894 D/BleProximity: 📶 RSSI: -85
+02-13 19:13:02.197 D/BleProximity: 📶 RSSI: -85
+02-13 19:13:02.499 D/BleProximity: 📶 RSSI: -84
+02-13 19:13:02.801 D/BleProximity: 📶 RSSI: -84
+02-13 19:13:03.105 D/BleProximity: 📶 RSSI: -84
+02-13 19:13:03.406 D/BleProximity: 📶 RSSI: -84
+02-13 19:13:03.708 D/BleProximity: 📶 RSSI: -84
+02-13 19:13:04.011 D/BleProximity: 📶 RSSI: -84
+02-13 19:13:04.311 D/BleProximity: 📶 RSSI: -87
+02-13 19:13:04.613 D/BleProximity: 📶 RSSI: -84
+02-13 19:13:04.916 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:05.218 D/BleProximity: 📶 RSSI: -87
+02-13 19:13:05.517 D/BleProximity: 📶 RSSI: -87
+02-13 19:13:05.821 D/BleProximity: 📶 RSSI: -85
+02-13 19:13:06.123 D/BleProximity: 📶 RSSI: -84
+02-13 19:13:06.426 D/BleProximity: 📶 RSSI: -86
+02-13 19:13:06.728 D/BleProximity: 📶 RSSI: -86
+02-13 19:13:07.030 D/BleProximity: 📶 RSSI: -87
+02-13 19:13:07.332 D/BleProximity: 📶 RSSI: -85
+02-13 19:13:07.635 D/BleProximity: 📶 RSSI: -85
+02-13 19:13:07.937 D/BleProximity: 📶 RSSI: -81
+02-13 19:13:08.239 D/BleProximity: 📶 RSSI: -86
+02-13 19:13:08.542 D/BleProximity: 📶 RSSI: -87
+02-13 19:13:08.844 D/BleProximity: 📶 RSSI: -87
+02-13 19:13:09.150 D/BleProximity: 📶 RSSI: -85
+02-13 19:13:09.453 D/BleProximity: 📶 RSSI: -85
+02-13 19:13:09.753 D/BleProximity: 📶 RSSI: -86
+02-13 19:13:10.055 D/BleProximity: 📶 RSSI: -84
+02-13 19:13:10.362 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:10.664 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:10.964 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:11.265 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:11.567 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:11.870 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:12.173 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:12.475 D/BleProximity: 📶 RSSI: -82
+02-13 19:13:12.777 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:13.079 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:13.380 D/BleProximity: 📶 RSSI: -82
+02-13 19:13:13.684 D/BleProximity: 📶 RSSI: -81
+02-13 19:13:13.988 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:14.290 D/BleProximity: 📶 RSSI: -82
+02-13 19:13:14.593 D/BleProximity: 📶 RSSI: -82
+02-13 19:13:14.896 D/BleProximity: 📶 RSSI: -82
+02-13 19:13:15.197 D/BleProximity: 📶 RSSI: -82
+02-13 19:13:15.502 D/BleProximity: 📶 RSSI: -82
+02-13 19:13:15.806 D/BleProximity: 📶 RSSI: -82
+02-13 19:13:16.109 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:16.411 D/BleProximity: 📶 RSSI: -84
+02-13 19:13:16.714 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:17.017 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:17.318 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:17.621 D/BleProximity: 📶 RSSI: -82
+02-13 19:13:17.925 D/BleProximity: 📶 RSSI: -82
+02-13 19:13:18.228 D/BleProximity: 📶 RSSI: -82
+02-13 19:13:18.532 D/BleProximity: 📶 RSSI: -84
+02-13 19:13:18.834 D/BleProximity: 📶 RSSI: -82
+02-13 19:13:19.137 D/BleProximity: 📶 RSSI: -82
+02-13 19:13:19.436 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:19.740 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:20.043 D/BleProximity: 📶 RSSI: -82
+02-13 19:13:20.346 D/BleProximity: 📶 RSSI: -82
+02-13 19:13:20.647 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:20.951 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:21.253 D/BleProximity: 📶 RSSI: -82
+02-13 19:13:21.557 D/BleProximity: 📶 RSSI: -82
+02-13 19:13:21.858 D/BleProximity: 📶 RSSI: -82
+02-13 19:13:22.162 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:22.464 D/BleProximity: 📶 RSSI: -82
+02-13 19:13:22.768 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:23.070 D/BleProximity: 📶 RSSI: -84
+02-13 19:13:23.372 D/BleProximity: 📶 RSSI: -82
+02-13 19:13:23.675 D/BleProximity: 📶 RSSI: -81
+02-13 19:13:23.977 D/BleProximity: 📶 RSSI: -81
+02-13 19:13:24.289 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:24.592 D/BleProximity: 📶 RSSI: -82
+02-13 19:13:24.900 D/BleProximity: 📶 RSSI: -78
+02-13 19:13:25.199 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:25.499 D/BleProximity: 📶 RSSI: -84
+02-13 19:13:25.799 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:26.102 D/BleProximity: 📶 RSSI: -84
+02-13 19:13:26.415 D/BleProximity: 📶 RSSI: -82
+02-13 19:13:26.715 D/BleProximity: 📶 RSSI: -80
+02-13 19:13:27.019 D/BleProximity: 📶 RSSI: -82
+02-13 19:13:27.324 D/BleProximity: 📶 RSSI: -80
+02-13 19:13:27.626 D/BleProximity: 📶 RSSI: -81
+02-13 19:13:27.935 D/BleProximity: 📶 RSSI: -81
+02-13 19:13:28.234 D/BleProximity: 📶 RSSI: -84
+02-13 19:13:28.536 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:28.840 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:29.142 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:29.443 D/BleProximity: 📶 RSSI: -85
+02-13 19:13:29.745 D/BleProximity: 📶 RSSI: -85
+02-13 19:13:30.046 D/BleProximity: 📶 RSSI: -85
+02-13 19:13:30.349 D/BleProximity: 📶 RSSI: -87
+02-13 19:13:30.649 D/BleProximity: 📶 RSSI: -85
+02-13 19:13:30.951 D/BleProximity: 📶 RSSI: -85
+02-13 19:13:31.255 D/BleProximity: 📶 RSSI: -84
+02-13 19:13:31.557 D/BleProximity: 📶 RSSI: -85
+02-13 19:13:31.862 D/BleProximity: 📶 RSSI: -85
+02-13 19:13:32.162 D/BleProximity: 📶 RSSI: -86
+02-13 19:13:32.465 D/BleProximity: 📶 RSSI: -85
+02-13 19:13:32.765 D/BleProximity: 📶 RSSI: -85
+02-13 19:13:33.068 D/BleProximity: 📶 RSSI: -86
+02-13 19:13:33.373 D/BleProximity: 📶 RSSI: -87
+02-13 19:13:33.673 D/BleProximity: 📶 RSSI: -86
+02-13 19:13:33.975 D/BleProximity: 📶 RSSI: -84
+02-13 19:13:34.278 D/BleProximity: 📶 RSSI: -86
+02-13 19:13:34.580 D/BleProximity: 📶 RSSI: -85
+02-13 19:13:34.886 D/BleProximity: 📶 RSSI: -85
+02-13 19:13:35.189 D/BleProximity: 📶 RSSI: -86
+02-13 19:13:35.491 D/BleProximity: 📶 RSSI: -86
+02-13 19:13:35.795 D/BleProximity: 📶 RSSI: -87
+02-13 19:13:36.095 D/BleProximity: 📶 RSSI: -83
+02-13 19:13:36.395 D/BleProximity: 📶 RSSI: -80
+02-13 19:13:36.697 D/BleProximity: 📶 RSSI: -81
+02-13 19:13:36.998 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:37.302 D/BleProximity: 📶 RSSI: -74
+02-13 19:13:37.605 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:37.909 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:38.211 D/BleProximity: 📶 RSSI: -77
+02-13 19:13:38.513 D/BleProximity: 📶 RSSI: -72
+02-13 19:13:38.817 D/BleProximity: 📶 RSSI: -75
+02-13 19:13:39.118 D/BleProximity: 📶 RSSI: -75
+02-13 19:13:39.421 D/BleProximity: 📶 RSSI: -74
+02-13 19:13:39.724 D/BleProximity: 📶 RSSI: -78
+02-13 19:13:40.024 D/BleProximity: 📶 RSSI: -77
+02-13 19:13:40.328 D/BleProximity: 📶 RSSI: -73
+02-13 19:13:40.631 D/BleProximity: 📶 RSSI: -74
+02-13 19:13:40.934 D/BleProximity: 📶 RSSI: -77
+02-13 19:13:41.238 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:41.538 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:41.843 D/BleProximity: 📶 RSSI: -77
+02-13 19:13:42.144 D/BleProximity: 📶 RSSI: -75
+02-13 19:13:42.445 D/BleProximity: 📶 RSSI: -75
+02-13 19:13:42.747 D/BleProximity: 📶 RSSI: -77
+02-13 19:13:43.048 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:43.349 D/BleProximity: 📶 RSSI: -75
+02-13 19:13:43.651 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:43.953 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:44.253 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:44.558 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:44.862 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:45.165 D/BleProximity: 📶 RSSI: -77
+02-13 19:13:45.468 D/BleProximity: 📶 RSSI: -75
+02-13 19:13:45.771 D/BleProximity: 📶 RSSI: -75
+02-13 19:13:46.074 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:46.376 D/BleProximity: 📶 RSSI: -77
+02-13 19:13:46.678 D/BleProximity: 📶 RSSI: -75
+02-13 19:13:46.981 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:47.286 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:47.589 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:47.896 D/BleProximity: 📶 RSSI: -75
+02-13 19:13:48.198 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:48.500 D/BleProximity: 📶 RSSI: -77
+02-13 19:13:48.804 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:49.107 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:49.411 D/BleProximity: 📶 RSSI: -77
+02-13 19:13:49.713 D/BleProximity: 📶 RSSI: -77
+02-13 19:13:50.015 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:50.316 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:50.620 D/BleProximity: 📶 RSSI: -77
+02-13 19:13:50.922 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:51.226 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:51.528 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:51.831 D/BleProximity: 📶 RSSI: -78
+02-13 19:13:52.133 D/BleProximity: 📶 RSSI: -75
+02-13 19:13:52.436 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:52.740 D/BleProximity: 📶 RSSI: -77
+02-13 19:13:53.044 D/BleProximity: 📶 RSSI: -77
+02-13 19:13:53.347 D/BleProximity: 📶 RSSI: -77
+02-13 19:13:53.650 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:53.952 D/BleProximity: 📶 RSSI: -78
+02-13 19:13:54.255 D/BleProximity: 📶 RSSI: -77
+02-13 19:13:54.556 D/BleProximity: 📶 RSSI: -75
+02-13 19:13:54.861 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:55.166 D/BleProximity: 📶 RSSI: -78
+02-13 19:13:55.468 D/BleProximity: 📶 RSSI: -77
+02-13 19:13:55.766 D/BleProximity: 📶 RSSI: -77
+02-13 19:13:56.067 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:56.369 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:56.670 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:56.972 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:57.276 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:57.578 D/BleProximity: 📶 RSSI: -75
+02-13 19:13:57.882 D/BleProximity: 📶 RSSI: -74
+02-13 19:13:58.186 D/BleProximity: 📶 RSSI: -75
+02-13 19:13:58.490 D/BleProximity: 📶 RSSI: -75
+02-13 19:13:58.793 D/BleProximity: 📶 RSSI: -75
+02-13 19:13:59.097 D/BleProximity: 📶 RSSI: -74
+02-13 19:13:59.401 D/BleProximity: 📶 RSSI: -76
+02-13 19:13:59.704 D/BleProximity: 📶 RSSI: -75
+02-13 19:14:00.009 D/BleProximity: 📶 RSSI: -74
+02-13 19:14:00.313 D/BleProximity: 📶 RSSI: -80
+02-13 19:14:00.616 D/BleProximity: 📶 RSSI: -80
+02-13 19:14:00.919 D/BleProximity: 📶 RSSI: -75
+02-13 19:14:01.221 D/BleProximity: 📶 RSSI: -84
+02-13 19:14:01.526 D/BleProximity: 📶 RSSI: -89
+02-13 19:14:01.830 D/BleProximity: 📶 RSSI: -83
+02-13 19:14:02.133 D/BleProximity: 📶 RSSI: -84
+02-13 19:14:02.438 D/BleProximity: 📶 RSSI: -84
+02-13 19:14:02.742 D/BleProximity: 📶 RSSI: -84
+02-13 19:14:03.044 D/BleProximity: 📶 RSSI: -84
+02-13 19:14:03.348 D/BleProximity: 📶 RSSI: -87
+02-13 19:14:03.651 D/BleProximity: 📶 RSSI: -88
+02-13 19:14:03.955 D/BleProximity: 📶 RSSI: -91
+02-13 19:14:04.258 D/BleProximity: 📶 RSSI: -88
+02-13 19:14:04.560 D/BleProximity: 📶 RSSI: -87
+02-13 19:14:04.865 D/BleProximity: 📶 RSSI: -88
+02-13 19:14:05.169 D/BleProximity: 📶 RSSI: -91
+02-13 19:14:05.473 D/BleProximity: 📶 RSSI: -91
+02-13 19:14:05.776 D/BleProximity: 📶 RSSI: -94
+02-13 19:14:06.080 D/BleProximity: 📶 RSSI: -93
+02-13 19:14:06.378 D/BleProximity: 📶 RSSI: -97
+02-13 19:14:06.681 D/BleProximity: 📶 RSSI: -93
+02-13 19:14:06.986 D/BleProximity: 📶 RSSI: -93
+02-13 19:14:07.286 D/BleProximity: 📶 RSSI: -94
+02-13 19:14:07.587 D/BleProximity: 📶 RSSI: -94
+02-13 19:14:07.888 D/BleProximity: 📶 RSSI: -97
+02-13 19:14:08.191 D/BleProximity: 📶 RSSI: -98
+02-13 19:14:08.494 D/BleProximity: 📶 RSSI: -100
+02-13 19:14:08.800 D/BleProximity: 📶 RSSI: -97
+02-13 19:14:09.101 D/BleProximity: 📶 RSSI: -97
+02-13 19:14:09.402 D/BleProximity: 📶 RSSI: -96
+02-13 19:14:09.703 D/BleProximity: 📶 RSSI: -96
+02-13 19:14:10.004 D/BleProximity: 📶 RSSI: -97
+02-13 19:14:10.308 D/BleProximity: 📶 RSSI: -97
+02-13 19:14:10.609 D/BleProximity: 📶 RSSI: -99
+02-13 19:14:10.913 D/BleProximity: 📶 RSSI: -97
+02-13 19:14:11.215 D/BleProximity: 📶 RSSI: -97
+02-13 19:14:11.518 D/BleProximity: 📶 RSSI: -98
+02-13 19:14:11.822 D/BleProximity: 📶 RSSI: -97
+02-13 19:14:12.125 D/BleProximity: 📶 RSSI: -98
+02-13 19:14:12.426 D/BleProximity: 📶 RSSI: -98
+02-13 19:14:12.728 D/BleProximity: 📶 RSSI: -100
+02-13 19:14:13.031 D/BleProximity: 📶 RSSI: -101
+02-13 19:14:13.333 D/BleProximity: 📶 RSSI: -100
+02-13 19:14:13.635 D/BleProximity: 📶 RSSI: -97
+02-13 19:14:13.937 D/BleProximity: 📶 RSSI: -100
+02-13 19:14:14.240 D/BleProximity: 📶 RSSI: -101
+02-13 19:14:14.542 D/BleProximity: 📶 RSSI: -100
+02-13 19:14:14.844 D/BleProximity: 📶 RSSI: -100
+02-13 19:14:15.145 D/BleProximity: 📶 RSSI: -100
+02-13 19:14:15.447 D/BleProximity: 📶 RSSI: -102
+02-13 19:14:15.750 D/BleProximity: 📶 RSSI: -102
+02-13 19:14:16.051 D/BleProximity: 📶 RSSI: -101
+02-13 19:14:16.354 D/BleProximity: 📶 RSSI: -101
+02-13 19:14:16.657 D/BleProximity: 📶 RSSI: -103
+02-13 19:14:16.961 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:17.263 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:17.567 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:17.869 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:18.173 D/BleProximity: 📶 RSSI: -103
+02-13 19:14:18.476 D/BleProximity: 📶 RSSI: -103
+02-13 19:14:18.777 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:19.080 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:19.383 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:19.685 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:19.989 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:20.293 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:20.598 D/BleProximity: 📶 RSSI: -103
+02-13 19:14:20.900 D/BleProximity: 📶 RSSI: -102
+02-13 19:14:21.203 D/BleProximity: 📶 RSSI: -103
+02-13 19:14:21.505 D/BleProximity: 📶 RSSI: -103
+02-13 19:14:21.806 D/BleProximity: 📶 RSSI: -103
+02-13 19:14:22.106 D/BleProximity: 📶 RSSI: -103
+02-13 19:14:22.407 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:22.709 D/BleProximity: 📶 RSSI: -103
+02-13 19:14:23.011 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:23.313 D/BleProximity: 📶 RSSI: -105
+02-13 19:14:23.615 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:23.916 D/BleProximity: 📶 RSSI: -105
+02-13 19:14:24.218 D/BleProximity: 📶 RSSI: -105
+02-13 19:14:24.519 D/BleProximity: 📶 RSSI: -105
+02-13 19:14:24.823 D/BleProximity: 📶 RSSI: -105
+02-13 19:14:25.128 D/BleProximity: 📶 RSSI: -106
+02-13 19:14:25.429 D/BleProximity: 📶 RSSI: -105
+02-13 19:14:25.732 D/BleProximity: 📶 RSSI: -105
+02-13 19:14:26.035 D/BleProximity: 📶 RSSI: -105
+02-13 19:14:26.339 D/BleProximity: 📶 RSSI: -105
+02-13 19:14:26.640 D/BleProximity: 📶 RSSI: -106
+02-13 19:14:26.944 D/BleProximity: 📶 RSSI: -106
+02-13 19:14:27.247 D/BleProximity: 📶 RSSI: -106
+02-13 19:14:27.551 D/BleProximity: 📶 RSSI: -106
+02-13 19:14:27.850 D/BleProximity: 📶 RSSI: -106
+02-13 19:14:28.151 D/BleProximity: 📶 RSSI: -106
+02-13 19:14:28.452 D/BleProximity: 📶 RSSI: -106
+02-13 19:14:28.753 D/BleProximity: 📶 RSSI: -106
+02-13 19:14:29.056 D/BleProximity: 📶 RSSI: -106
+02-13 19:14:29.357 D/BleProximity: 📶 RSSI: -105
+02-13 19:14:29.658 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:29.959 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:30.262 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:30.565 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:30.867 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:31.167 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:31.471 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:31.771 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:32.073 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:32.377 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:32.682 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:32.984 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:33.287 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:33.592 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:33.895 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:34.198 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:34.498 D/BleProximity: 📶 RSSI: -104
+02-13 19:14:34.623 D/BleProximity: ❌ 已断开
+02-13 19:14:34.623 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+02-13 19:14:34.623 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-13 19:14:34.623 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-13 19:14:34.623 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+02-13 19:14:36.623 D/BleProximity: 🔍 开始扫描
+02-13 19:14:36.623 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+02-13 19:15:06.631 D/BleProximity: ⌛ 扫描周期结束(30s)，未发现设备
+02-13 19:15:06.632 D/BleProximity: ⏹️ 停止扫描
+02-13 19:15:06.637 D/BleProximity: 🔄 仍有活跃 Session，将在 4 秒后重新扫描...
+02-13 19:15:10.639 D/BleProximity: 🔍 开始扫描
+02-13 19:15:10.639 D/BleProximity: 🔍 开始扫描 (尝试次数: 2)
