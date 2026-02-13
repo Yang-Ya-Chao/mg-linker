@@ -1,0 +1,205 @@
+--- Log Capture Start: 20260213_161401 ---
+02-13 16:12:41.243 D/BleProximity: 📱 发现设备: 68:23:B0:95:40:C8, RSSI: -95
+02-13 16:12:41.244 D/BleProximity: 📱 发现设备: 68:23:B0:95:40:C8, RSSI: -95
+02-13 16:12:41.249 D/BleProximity: ⏹️ 停止扫描
+02-13 16:12:41.252 D/BleProximity: ⏹️ 停止扫描
+02-13 16:12:41.252 D/BleProximity: 🔗 连接设备: 68:23:B0:95:40:C8
+02-13 16:12:41.252 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+02-13 16:12:41.252 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+02-13 16:12:43.043 D/BleProximity: ✅ 已连接，开始发现服务
+02-13 16:12:43.043 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-13 16:12:43.043 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-13 16:12:44.053 D/BleProximity: ✅ 特征初始化完成
+02-13 16:12:44.071 D/BleProximity: MTU 生效: 96
+02-13 16:12:44.071 D/BleProximity: 🔐 开始认证流程
+02-13 16:12:44.074 D/BleCommandManager: ⚡ 执行操作: [开启通知: 4af4]
+02-13 16:12:44.107 I/BleCommandManager: 🎉 操作成功: [开启通知: 4af4]
+02-13 16:12:44.158 D/BleCommandManager: ⚡ 执行操作: [开启通知: 23a8]
+02-13 16:12:44.195 I/BleCommandManager: 🎉 操作成功: [开启通知: 23a8]
+02-13 16:12:44.246 D/BleCommandManager: ⚡ 执行操作: [开启通知: 267e]
+02-13 16:12:44.317 I/BleCommandManager: 🎉 操作成功: [开启通知: 267e]
+02-13 16:12:44.368 D/BleCommandManager: ⚡ 执行操作: [开启通知: 71ed]
+02-13 16:12:44.405 I/BleCommandManager: 🎉 操作成功: [开启通知: 71ed]
+02-13 16:12:44.456 D/BleCommandManager: ⚡ 执行操作: [开启通知: a37b]
+02-13 16:12:44.496 I/BleCommandManager: 🎉 操作成功: [开启通知: a37b]
+02-13 16:12:44.547 D/BleCommandManager: ⚡ 执行操作: [开启通知: 9d21]
+02-13 16:12:44.587 I/BleCommandManager: 🎉 操作成功: [开启通知: 9d21]
+02-13 16:12:44.638 D/BleCommandManager: ⚡ 执行操作: [发送 BookingID]
+02-13 16:12:44.647 I/BleCommandManager: 🎉 操作成功: [发送 BookingID]
+02-13 16:12:47.967 D/BleProximity: ❌ 已断开
+02-13 16:12:47.967 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+02-13 16:12:47.967 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-13 16:12:47.967 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-13 16:12:47.967 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+02-13 16:12:49.969 D/BleProximity: 🔍 开始扫描
+02-13 16:12:49.969 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+02-13 16:12:50.278 D/BleProximity: 📱 发现设备: 68:23:B0:95:40:C8, RSSI: -94
+02-13 16:12:50.278 D/BleProximity: 📱 发现设备: 68:23:B0:95:40:C8, RSSI: -94
+02-13 16:12:50.283 D/BleProximity: ⏹️ 停止扫描
+02-13 16:12:50.286 D/BleProximity: ⏹️ 停止扫描
+02-13 16:12:50.287 D/BleProximity: 🔗 连接设备: 68:23:B0:95:40:C8
+02-13 16:12:50.287 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+02-13 16:12:50.287 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+02-13 16:12:51.304 D/BleProximity: ✅ 已连接，开始发现服务
+02-13 16:12:51.304 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-13 16:12:51.304 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-13 16:12:52.242 D/BleProximity: ✅ 特征初始化完成
+02-13 16:12:52.258 D/BleProximity: MTU 生效: 96
+02-13 16:12:52.258 D/BleProximity: 🔐 开始认证流程
+02-13 16:12:52.259 D/BleCommandManager: ⚡ 执行操作: [开启通知: 4af4]
+02-13 16:12:52.272 I/BleCommandManager: 🎉 操作成功: [开启通知: 4af4]
+02-13 16:12:52.322 D/BleCommandManager: ⚡ 执行操作: [开启通知: 23a8]
+02-13 16:12:52.385 I/BleCommandManager: 🎉 操作成功: [开启通知: 23a8]
+02-13 16:12:52.436 D/BleCommandManager: ⚡ 执行操作: [开启通知: 267e]
+02-13 16:12:52.473 I/BleCommandManager: 🎉 操作成功: [开启通知: 267e]
+02-13 16:12:52.524 D/BleCommandManager: ⚡ 执行操作: [开启通知: 71ed]
+02-13 16:12:52.563 I/BleCommandManager: 🎉 操作成功: [开启通知: 71ed]
+02-13 16:12:52.614 D/BleCommandManager: ⚡ 执行操作: [开启通知: a37b]
+02-13 16:12:52.654 I/BleCommandManager: 🎉 操作成功: [开启通知: a37b]
+02-13 16:12:52.705 D/BleCommandManager: ⚡ 执行操作: [开启通知: 9d21]
+02-13 16:12:52.743 I/BleCommandManager: 🎉 操作成功: [开启通知: 9d21]
+02-13 16:12:52.794 D/BleCommandManager: ⚡ 执行操作: [发送 BookingID]
+02-13 16:12:52.799 I/BleCommandManager: 🎉 操作成功: [发送 BookingID]
+02-13 16:12:55.439 D/BleProximity: ❌ 已断开
+02-13 16:12:55.439 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+02-13 16:12:55.439 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-13 16:12:55.439 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-13 16:12:55.439 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+02-13 16:12:57.441 D/BleProximity: 🔍 开始扫描
+02-13 16:12:57.441 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+02-13 16:12:58.533 D/BleProximity: 📱 发现设备: 68:23:B0:95:40:C8, RSSI: -88
+02-13 16:12:58.533 D/BleProximity: 📱 发现设备: 68:23:B0:95:40:C8, RSSI: -88
+02-13 16:12:58.538 D/BleProximity: ⏹️ 停止扫描
+02-13 16:12:58.543 D/BleProximity: ⏹️ 停止扫描
+02-13 16:12:58.543 D/BleProximity: 🔗 连接设备: 68:23:B0:95:40:C8
+02-13 16:12:58.543 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+02-13 16:12:58.543 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+02-13 16:12:59.081 D/BleProximity: ❌ 认证超时
+02-13 16:12:59.081 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-13 16:12:59.081 D/BleProximity: 持有者: [BleProximityManager]
+02-13 16:12:59.526 D/BleProximity: ✅ 已连接，开始发现服务
+02-13 16:12:59.526 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-13 16:12:59.526 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-13 16:13:00.452 D/BleProximity: ✅ 特征初始化完成
+02-13 16:13:00.476 D/BleProximity: MTU 生效: 96
+02-13 16:13:00.476 D/BleProximity: 🔐 开始认证流程
+02-13 16:13:00.479 D/BleCommandManager: ⚡ 执行操作: [开启通知: 4af4]
+02-13 16:13:00.506 I/BleCommandManager: 🎉 操作成功: [开启通知: 4af4]
+02-13 16:13:00.557 D/BleCommandManager: ⚡ 执行操作: [开启通知: 23a8]
+02-13 16:13:00.603 I/BleCommandManager: 🎉 操作成功: [开启通知: 23a8]
+02-13 16:13:00.653 D/BleCommandManager: ⚡ 执行操作: [开启通知: 267e]
+02-13 16:13:00.693 I/BleCommandManager: 🎉 操作成功: [开启通知: 267e]
+02-13 16:13:00.743 D/BleCommandManager: ⚡ 执行操作: [开启通知: 71ed]
+02-13 16:13:00.815 I/BleCommandManager: 🎉 操作成功: [开启通知: 71ed]
+02-13 16:13:00.866 D/BleCommandManager: ⚡ 执行操作: [开启通知: a37b]
+02-13 16:13:00.903 I/BleCommandManager: 🎉 操作成功: [开启通知: a37b]
+02-13 16:13:00.954 D/BleCommandManager: ⚡ 执行操作: [开启通知: 9d21]
+02-13 16:13:00.995 I/BleCommandManager: 🎉 操作成功: [开启通知: 9d21]
+02-13 16:13:01.047 D/BleCommandManager: ⚡ 执行操作: [发送 BookingID]
+02-13 16:13:01.056 I/BleCommandManager: 🎉 操作成功: [发送 BookingID]
+02-13 16:13:03.739 D/BleProximity: ❌ 已断开
+02-13 16:13:03.739 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+02-13 16:13:03.739 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-13 16:13:03.739 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-13 16:13:03.739 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+02-13 16:13:05.741 D/BleProximity: 🔍 开始扫描
+02-13 16:13:05.741 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+02-13 16:13:06.869 D/BleProximity: 📱 发现设备: 68:23:B0:95:40:C8, RSSI: -95
+02-13 16:13:06.869 D/BleProximity: 📱 发现设备: 68:23:B0:95:40:C8, RSSI: -95
+02-13 16:13:06.874 D/BleProximity: ⏹️ 停止扫描
+02-13 16:13:06.878 D/BleProximity: ⏹️ 停止扫描
+02-13 16:13:06.878 D/BleProximity: 🔗 连接设备: 68:23:B0:95:40:C8
+02-13 16:13:06.878 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+02-13 16:13:06.878 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+02-13 16:13:07.264 D/BleProximity: ❌ 认证超时
+02-13 16:13:07.264 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-13 16:13:07.264 D/BleProximity: 持有者: [BleProximityManager]
+02-13 16:13:07.933 D/BleProximity: ✅ 已连接，开始发现服务
+02-13 16:13:07.933 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-13 16:13:07.933 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-13 16:13:08.833 D/BleProximity: ✅ 特征初始化完成
+02-13 16:13:08.849 D/BleProximity: MTU 生效: 96
+02-13 16:13:08.849 D/BleProximity: 🔐 开始认证流程
+02-13 16:13:08.851 D/BleCommandManager: ⚡ 执行操作: [开启通知: 4af4]
+02-13 16:13:08.869 I/BleCommandManager: 🎉 操作成功: [开启通知: 4af4]
+02-13 16:13:08.920 D/BleCommandManager: ⚡ 执行操作: [开启通知: 23a8]
+02-13 16:13:08.974 I/BleCommandManager: 🎉 操作成功: [开启通知: 23a8]
+02-13 16:13:09.026 D/BleCommandManager: ⚡ 执行操作: [开启通知: 267e]
+02-13 16:13:09.064 I/BleCommandManager: 🎉 操作成功: [开启通知: 267e]
+02-13 16:13:09.115 D/BleCommandManager: ⚡ 执行操作: [开启通知: 71ed]
+02-13 16:13:09.153 I/BleCommandManager: 🎉 操作成功: [开启通知: 71ed]
+02-13 16:13:09.204 D/BleCommandManager: ⚡ 执行操作: [开启通知: a37b]
+02-13 16:13:09.243 I/BleCommandManager: 🎉 操作成功: [开启通知: a37b]
+02-13 16:13:09.294 D/BleCommandManager: ⚡ 执行操作: [开启通知: 9d21]
+02-13 16:13:09.333 I/BleCommandManager: 🎉 操作成功: [开启通知: 9d21]
+02-13 16:13:09.384 D/BleCommandManager: ⚡ 执行操作: [发送 BookingID]
+02-13 16:13:09.388 I/BleCommandManager: 🎉 操作成功: [发送 BookingID]
+02-13 16:13:12.019 D/BleProximity: ❌ 已断开
+02-13 16:13:12.019 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+02-13 16:13:12.019 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-13 16:13:12.019 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-13 16:13:12.020 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+02-13 16:13:14.021 D/BleProximity: 🔍 开始扫描
+02-13 16:13:14.022 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+02-13 16:13:15.498 D/BleProximity: ❌ 认证超时
+02-13 16:13:15.498 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-13 16:13:15.498 D/BleProximity: 持有者: [BleProximityManager]
+02-13 16:13:15.915 D/BleProximity: 📱 发现设备: 68:23:B0:95:40:C8, RSSI: -86
+02-13 16:13:15.915 D/BleProximity: 📱 发现设备: 68:23:B0:95:40:C8, RSSI: -86
+02-13 16:13:15.920 D/BleProximity: ⏹️ 停止扫描
+02-13 16:13:15.924 D/BleProximity: ⏹️ 停止扫描
+02-13 16:13:15.924 D/BleProximity: 🔗 连接设备: 68:23:B0:95:40:C8
+02-13 16:13:15.924 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+02-13 16:13:15.924 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+02-13 16:13:16.903 D/BleProximity: ✅ 已连接，开始发现服务
+02-13 16:13:16.903 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-13 16:13:16.903 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-13 16:13:17.808 D/BleProximity: ✅ 特征初始化完成
+02-13 16:13:17.832 D/BleProximity: MTU 生效: 96
+02-13 16:13:17.832 D/BleProximity: 🔐 开始认证流程
+02-13 16:13:17.833 D/BleCommandManager: ⚡ 执行操作: [开启通知: 4af4]
+02-13 16:13:17.847 I/BleCommandManager: 🎉 操作成功: [开启通知: 4af4]
+02-13 16:13:17.897 D/BleCommandManager: ⚡ 执行操作: [开启通知: 23a8]
+02-13 16:13:17.946 I/BleCommandManager: 🎉 操作成功: [开启通知: 23a8]
+02-13 16:13:17.996 D/BleCommandManager: ⚡ 执行操作: [开启通知: 267e]
+02-13 16:13:18.034 I/BleCommandManager: 🎉 操作成功: [开启通知: 267e]
+02-13 16:13:18.085 D/BleCommandManager: ⚡ 执行操作: [开启通知: 71ed]
+02-13 16:13:18.124 I/BleCommandManager: 🎉 操作成功: [开启通知: 71ed]
+02-13 16:13:18.175 D/BleCommandManager: ⚡ 执行操作: [开启通知: a37b]
+02-13 16:13:18.214 I/BleCommandManager: 🎉 操作成功: [开启通知: a37b]
+02-13 16:13:18.264 D/BleCommandManager: ⚡ 执行操作: [开启通知: 9d21]
+02-13 16:13:18.304 I/BleCommandManager: 🎉 操作成功: [开启通知: 9d21]
+02-13 16:13:18.355 D/BleCommandManager: ⚡ 执行操作: [发送 BookingID]
+02-13 16:13:18.360 I/BleCommandManager: 🎉 操作成功: [发送 BookingID]
+02-13 16:13:20.977 D/BleProximity: ❌ 已断开
+02-13 16:13:20.977 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+02-13 16:13:20.977 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-13 16:13:20.977 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-13 16:13:20.977 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+02-13 16:13:22.977 D/BleProximity: 🔍 开始扫描
+02-13 16:13:22.978 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+02-13 16:13:23.855 D/BleProximity: ❌ 认证超时
+02-13 16:13:23.856 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-13 16:13:23.856 D/BleProximity: 持有者: [BleProximityManager]
+02-13 16:13:24.881 D/BleProximity: 📱 发现设备: 68:23:B0:95:40:C8, RSSI: -71
+02-13 16:13:24.881 D/BleProximity: 📱 发现设备: 68:23:B0:95:40:C8, RSSI: -71
+02-13 16:13:24.886 D/BleProximity: ⏹️ 停止扫描
+02-13 16:13:24.890 D/BleProximity: ⏹️ 停止扫描
+02-13 16:13:24.890 D/BleProximity: 🔗 连接设备: 68:23:B0:95:40:C8
+02-13 16:13:24.890 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+02-13 16:13:24.890 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+02-13 16:13:25.843 D/BleProximity: ✅ 已连接，开始发现服务
+02-13 16:13:25.843 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-13 16:13:25.843 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-13 16:13:26.743 D/BleProximity: ✅ 特征初始化完成
+02-13 16:13:26.756 D/BleProximity: MTU 生效: 96
+02-13 16:13:26.756 D/BleProximity: 🔐 开始认证流程
+02-13 16:13:26.757 D/BleCommandManager: ⚡ 执行操作: [开启通知: 4af4]
+02-13 16:13:26.771 I/BleCommandManager: 🎉 操作成功: [开启通知: 4af4]
+02-13 16:13:26.822 D/BleCommandManager: ⚡ 执行操作: [开启通知: 23a8]
+02-13 16:13:26.853 I/BleCommandManager: 🎉 操作成功: [开启通知: 23a8]
+02-13 16:13:26.903 D/BleCommandManager: ⚡ 执行操作: [开启通知: 267e]
+02-13 16:13:26.943 I/BleCommandManager: 🎉 操作成功: [开启通知: 267e]
+02-13 16:13:26.993 D/BleCommandManager: ⚡ 执行操作: [开启通知: 71ed]
+02-13 16:13:27.034 I/BleCommandManager: 🎉 操作成功: [开启通知: 71ed]
+02-13 16:13:27.085 D/BleCommandManager: ⚡ 执行操作: [开启通知: a37b]
