@@ -1,0 +1,541 @@
+--- Log Capture Start: 20260213_094610 ---
+09:43:39.639 D/MG_NET_LOG: ┌────── 请求开始 ──────
+09:43:39.639 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+09:43:39.639 D/MG_NET_LOG: │ Method: POST
+09:43:39.640 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6393RZ654963","appId":"Roewe","brandCode":"1","nonce":"DE68CF6E75FD4C6ABD07338A61D544E8","timestamp":"1770947019637","token":"c6bf1a264e1d4c20a30faa9480102958-prod_SAIC"}
+09:43:39.640 D/MG_NET_LOG: └──────────────────────
+09:43:39.652 D/BleProximity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_10_1770947019652 (总数: 5)
+09:43:39.652 D/BleProximity: ➕ 添加监听器: callback_14_1770947019652 (总数: 4)
+09:43:39.652 D/ControlActivity: ➕ 添加监听器: callback_14_1770947019652 (总数: 4)
+09:43:40.487 D/MG_NET_LOG: ┌────── 响应结束 (200 / 847ms) ──────
+09:43:40.487 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+09:43:40.487 D/MG_NET_LOG: │ Result: {"req_id":"19c54ab047f4eeed29c","data":{"vehicle_position":{"satellites":8,"altitude":91,"latitude":"37.074184","gps_status":2,"update_time":1770946994000,"gps_time":1770947001000,"hdop":7,"longitude":"114.446693"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":260,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":3,"driving_range":527,"battery_pack_range":111,"power_mode":0,"engine_status":0,"exterior_temperature":0,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":80,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":40252,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":240,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":248,"battery_pack_prc":889,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":527,"current_journey_id":2824,"pwr_lftgt_pos_v":null,"interior_temperature":5,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1770946994000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":240,"vehicle_battery_prc":700,"battery_type":0,"fuel_level_disp":7,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1770946994000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1770946994000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+09:43:40.487 D/MG_NET_LOG: └──────────────────────────────────────────────────
+09:43:40.834 D/BleProximity: ⏰ ensureConnected 超时 (BleProximityManager)
+09:43:40.834 D/ControlActivity: ⏰ ensureConnected 超时 (BleProximityManager)
+09:43:40.834 D/BleProximity: ➖ 移除监听器: callback_11_1770947005833 
+09:43:40.834 D/ControlActivity: ➖ 移除监听器: callback_11_1770947005833 
+09:43:40.834 D/BleProximity: ⚠️ 连接失败，但服务会自动重试
+09:43:40.876 D/BleProximity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_11_1770947020876 (总数: 6)
+09:43:40.876 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_11_1770947020876 (总数: 6)
+09:43:40.884 D/BleProximity: ➕ 添加监听器: callback_15_1770947020884 (总数: 4)
+09:43:40.884 D/ControlActivity: ➕ 添加监听器: callback_15_1770947020884 (总数: 4)
+09:43:40.884 D/BleProximity: ⏳ 正在连接中，Session等待结果... (ControlActivity)
+09:43:40.884 D/ControlActivity: ⏳ 正在连接中，Session等待结果... (ControlActivity)
+09:43:45.545 D/BleProximity: ⏰ ensureConnected 超时 (BleProximityManager)
+09:43:45.546 D/ControlActivity: ⏰ ensureConnected 超时 (BleProximityManager)
+09:43:45.546 D/BleProximity: ➖ 移除监听器: callback_13_1770947010543 
+09:43:45.546 D/ControlActivity: ➖ 移除监听器: callback_13_1770947010543 
+09:43:45.546 D/BleProximity: ⚠️ 连接失败，但服务会自动重试
+09:43:48.039 D/BleProximity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_12_1770947028039 (总数: 7)
+09:43:48.039 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_12_1770947028039 (总数: 7)
+09:43:48.060 D/BleProximity: ➕ 添加监听器: callback_16_1770947028060 (总数: 4)
+09:43:48.060 D/ControlActivity: ➕ 添加监听器: callback_16_1770947028060 (总数: 4)
+09:43:48.060 D/BleProximity: ⏳ 正在连接中，Session等待结果... (ControlActivity)
+09:43:48.060 D/ControlActivity: ⏳ 正在连接中，Session等待结果... (ControlActivity)
+09:43:53.476 D/BleProximity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_12_1770947028039 (剩余: 6)
+09:43:53.476 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_12_1770947028039 (剩余: 6)
+09:43:53.476 D/BleProximity: ➖ 移除监听器: callback_14_1770947019652 
+09:43:53.476 D/ControlActivity: ➖ 移除监听器: callback_14_1770947019652 
+09:43:55.095 D/MG_NET_LOG: ┌────── 请求开始 ──────
+09:43:55.095 D/MG_NET_LOG: │ URL: https://gitee.com/yangyachao-X/mg-linker/raw/master/other/config.json
+09:43:55.095 D/MG_NET_LOG: │ Method: GET
+09:43:55.095 D/MG_NET_LOG: │ Params: (无 Body 参数)
+09:43:55.095 D/MG_NET_LOG: └──────────────────────
+09:43:55.096 D/MG_NET_LOG: ┌────── 请求开始 ──────
+09:43:55.096 D/MG_NET_LOG: │ URL: https://gitee.com/api/v5/repos/yangyachao-X/mg-linker/releases/latest
+09:43:55.096 D/MG_NET_LOG: │ Method: GET
+09:43:55.096 D/MG_NET_LOG: │ Header: Authorization: token 387f0d958834d479dcdc778fcf2ae326
+09:43:55.096 D/MG_NET_LOG: │ Params: (无 Body 参数)
+09:43:55.096 D/MG_NET_LOG: └──────────────────────
+09:43:55.301 D/MG_NET_LOG: ┌────── 响应结束 (200 / 205ms) ──────
+09:43:55.301 D/MG_NET_LOG: │ URL: https://gitee.com/yangyachao-X/mg-linker/raw/master/other/config.json
+09:43:55.301 D/MG_NET_LOG: │ Result: {
+09:43:55.301 D/MG_NET_LOG: "saic": [
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "brand": "MG",
+09:43:55.301 D/MG_NET_LOG: "model": "MG7",
+09:43:55.301 D/MG_NET_LOG: "fuel": 65.0,
+09:43:55.301 D/MG_NET_LOG: "battery": 0.0,
+09:43:55.301 D/MG_NET_LOG: "colors": [
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "冰岛蓝",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-sales.risingauto.com/bcc-websales_0d3f08025b194cb085fb933ebce85cff.png"
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "翡冷翠",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-sales.risingauto.com/bcc-websales_a487a2f0a1ac4385978cd56a2ee152b8.png"
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "釉瓷白",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-sales.risingauto.com/bcc-websales_68d315e36ac74c3a9ef5ce73ce4e711d.png"
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "墨玉黑",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-sales.risingauto.com/bcc-websales_07c082ba526647769c82167bf419c44e.png"
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "雾凇灰",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-sales.risingauto.com/bcc-websales_e74e9a6c73a4453cbb28809356f42eda.png"
+09:43:55.301 D/MG_NET_LOG: }
+09:43:55.301 D/MG_NET_LOG: ]
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "brand": "MG",
+09:43:55.301 D/MG_NET_LOG: "model": "MG4",
+09:43:55.301 D/MG_NET_LOG: "fuel": 0.0,
+09:43:55.301 D/MG_NET_LOG: "battery": 53.95,
+09:43:55.301 D/MG_NET_LOG: "colors": [
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "东来紫",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-sales.risingauto.com/bcc-websales_5923651100c2415a8ce19edaf83a7f6e.png"
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "清波翠",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-sales.risingauto.com/bcc-websales_f9cb3c4097bc45faab06b4c264a1ffda.png"
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "海岛蓝",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-sales.risingauto.com/bcc-websales_529d78f80fca4aeb83d05f5e323fa6d9.png"
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "珊瑚红",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-sales.risingauto.com/bcc-websales_3628431f4a184266a104fe9fcca8ddd0.png"
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "星野灰",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-sales.risingauto.com/bcc-websales_0c08fffead3f4e4ba5e232d8545ac081.png"
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "月光白",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-sales.risingauto.com/bcc-websales_5d2cde1449a84ab0818ca2f4cf751e0e.png"
+09:43:55.301 D/MG_NET_LOG: }
+09:43:55.301 D/MG_NET_LOG: ]
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "brand": "MG",
+09:43:55.301 D/MG_NET_LOG: "model": "MG5",
+09:43:55.301 D/MG_NET_LOG: "fuel": 50.0,
+09:43:55.301 D/MG_NET_LOG: "battery": 0.0,
+09:43:55.301 D/MG_NET_LOG: "colors": [
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "赤焰红",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2025/36e77ae6f7774cd2a10464cd6c5fd137.png"
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "安第斯灰",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2025/2b9a2d93f1144c5dbf8607c6f1b6b2f2.png"
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "雪山白",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2025/737e7781f2fe497fbebb8b9712923f3b.png"
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "气泡橙",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2025/b44f5b4511824a8eb097ed8518c4bcc5.png"
+09:43:55.301 D/MG_NET_LOG: }
+09:43:55.301 D/MG_NET_LOG: ]
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "brand": "RW",
+09:43:55.301 D/MG_NET_LOG: "model": "D7 DMH",
+09:43:55.301 D/MG_NET_LOG: "fuel": 55.0,
+09:43:55.301 D/MG_NET_LOG: "battery": 19.7,
+09:43:55.301 D/MG_NET_LOG: "colors": [
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "光速银",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2024/9bd111b1606944fe9eb0041fa0de52e1.png"
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "安第斯灰",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2024/f1321ec360d64f19959652bd223e4a50.png"
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "晨曦金",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2024/50eee98a25d34bf4badbf68be0d28c2a.png"
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "亮白",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2024/4fffc04e829544cb82643ab40f940948.png"
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "珠光黑",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2024/9d12e8fa09c3428fab71804d43499eda.png"
+09:43:55.301 D/MG_NET_LOG: }
+09:43:55.301 D/MG_NET_LOG: ]
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "brand": "RW",
+09:43:55.301 D/MG_NET_LOG: "model": "D5X DMH",
+09:43:55.301 D/MG_NET_LOG: "fuel": 55.0,
+09:43:55.301 D/MG_NET_LOG: "battery": 21.4,
+09:43:55.301 D/MG_NET_LOG: "colors": [
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "皎月白",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2024/42fbb15cd8e549979e1972cb8b03cb4b.png"
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "雾凇银",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2024/57e9684c56db4207b0d7ad50ff99a2ad.png"
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "沧浪灰",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2024/4438d8b27bb843bf9dad7d7de76bbd09.png"
+09:43:55.301 D/MG_NET_LOG: }
+09:43:55.301 D/MG_NET_LOG: ]
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "brand": "RW",
+09:43:55.301 D/MG_NET_LOG: "model": "RX5",
+09:43:55.301 D/MG_NET_LOG: "fuel": 55.0,
+09:43:55.301 D/MG_NET_LOG: "battery": 0.0,
+09:43:55.301 D/MG_NET_LOG: "colors": [
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "丝绒银",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/saicmall/25f107ba626d488c9741d42be5979bd5.png"
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "珠光白",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/saicmall/acb115d3b30040c6ae2fac48224185a6.png"
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "珠光黑",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/saicmall/d70197284dc949439afbd681e7a8924f.png"
+09:43:55.301 D/MG_NET_LOG: },
+09:43:55.301 D/MG_NET_LOG: {
+09:43:55.301 D/MG_NET_LOG: "name": "云锦灰",
+09:43:55.301 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/saicmall/b05b82f3f87a4c99bed607c183b82f2a.png"
+09:43:55.301 D/MG_NET_LOG: }
+09:43:55.301 D/MG_NET_LOG: ]
+09:43:55.301 D/MG_NET_LOG: }
+09:43:55.301 D/MG_NET_LOG: ]
+09:43:55.301 D/MG_NET_LOG: }
+09:43:55.301 D/MG_NET_LOG: └──────────────────────────────────────────────────
+09:43:55.388 D/MG_NET_LOG: ┌────── 响应结束 (200 / 291ms) ──────
+09:43:55.388 D/MG_NET_LOG: │ URL: https://gitee.com/api/v5/repos/yangyachao-X/mg-linker/releases/latest
+09:43:55.388 D/MG_NET_LOG: │ Result: {"id":579117,"tag_name":"4.8","target_commitish":"1c3f0752411b66d9fafe92b0cbbdaface8fb0380","prerelease":false,"name":"增加登录","body":"增加登录","author":{"id":8784824,"login":"yangyachao-X","name":"YangYachao","avatar_url":"https://foruda.gitee.com/avatar/1677149462712290355/8784824_yangyachao-x_1645510740.png","url":"https://gitee.com/api/v5/users/yangyachao-X","html_url":"https://gitee.com/yangyachao-X","remark":"","followers_url":"https://gitee.com/api/v5/users/yangyachao-X/followers","following_url":"https://gitee.com/api/v5/users/yangyachao-X/following_url{/other_user}","gists_url":"https://gitee.com/api/v5/users/yangyachao-X/gists{/gist_id}","starred_url":"https://gitee.com/api/v5/users/yangyachao-X/starred{/owner}{/repo}","subscriptions_url":"https://gitee.com/api/v5/users/yangyachao-X/subscriptions","organizations_url":"https://gitee.com/api/v5/users/yangyachao-X/orgs","repos_url":"https://gitee.com/api/v5/users/yangyachao-X/repos","events_url":"https://gitee.com/api/v5/users/yangyachao-X/events{/privacy}","received_events_url":"https://gitee.com/api/v5/users/yangyachao-X/received_events","type":"User"},"created_at":"2026-02-12T23:11:53+08:00","assets":[{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/releases/download/4.8/MG%20Linker.apk","name":"MG Linker.apk"},{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/archive/refs/tags/4.8.zip","name":"4.8.zip"},{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/archive/refs/tags/4.8.tar.gz","name":"4.8.tar.gz"}]}
+09:43:55.388 D/MG_NET_LOG: └──────────────────────────────────────────────────
+09:43:55.885 D/BleProximity: ⏰ ensureConnected 超时 (ControlActivity)
+09:43:55.885 D/BleProximity: ➖ 移除监听器: callback_15_1770947020884 
+09:44:03.061 D/BleProximity: ⏰ ensureConnected 超时 (ControlActivity)
+09:44:03.061 D/BleProximity: ➖ 移除监听器: callback_16_1770947028060 
+09:44:51.689 D/MG_NET_LOG: ┌────── 请求开始 ──────
+09:44:51.689 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+09:44:51.689 D/MG_NET_LOG: │ Method: POST
+09:44:51.690 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6393RZ654963","appId":"Roewe","brandCode":"1","nonce":"25CE831879D24FD0803E75C5081798B7","timestamp":"1770947091686","token":"c6bf1a264e1d4c20a30faa9480102958-prod_SAIC"}
+09:44:51.690 D/MG_NET_LOG: └──────────────────────
+09:44:51.700 D/BleProximity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_13_1770947091699 (总数: 7)
+09:44:51.700 D/BleProximity: ➕ 添加监听器: callback_17_1770947091700 (总数: 2)
+09:44:51.700 D/ControlActivity: ➕ 添加监听器: callback_17_1770947091700 (总数: 2)
+09:44:52.526 D/BleProximity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_14_1770947092525 (总数: 8)
+09:44:52.526 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_14_1770947092525 (总数: 8)
+09:44:52.536 D/BleProximity: ➕ 添加监听器: callback_18_1770947092536 (总数: 3)
+09:44:52.536 D/ControlActivity: ➕ 添加监听器: callback_18_1770947092536 (总数: 3)
+09:44:52.536 D/BleProximity: ⏳ 正在连接中，Session等待结果... (ControlActivity)
+09:44:52.536 D/ControlActivity: ⏳ 正在连接中，Session等待结果... (ControlActivity)
+09:44:52.620 D/MG_NET_LOG: ┌────── 响应结束 (200 / 930ms) ──────
+09:44:52.620 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+09:44:52.620 D/MG_NET_LOG: │ Result: {"req_id":"19c54ac1dffc45bf9ec","data":{"vehicle_position":{"satellites":7,"altitude":91,"gps_status":2,"latitude":"37.074184","update_time":1770946994000,"gps_time":1770947010000,"hdop":7,"longitude":"114.446694"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":260,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":3,"driving_range":527,"battery_pack_range":111,"power_mode":0,"engine_status":0,"exterior_temperature":0,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":80,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":40252,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":240,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":248,"battery_pack_prc":889,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":527,"current_journey_id":2824,"pwr_lftgt_pos_v":null,"interior_temperature":5,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1770946994000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":240,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":700,"fuel_level_disp":7,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1770946994000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1770946994000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+09:44:52.620 D/MG_NET_LOG: └──────────────────────────────────────────────────
+09:45:06.088 D/ControlActivity: 使用远程网络通道执行: com.my.mg.action.UNLOCK
+09:45:06.151 D/MG_NET_LOG: ┌────── 请求开始 ──────
+09:45:06.151 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken?token=c6bf1a264e1d4c20a30faa9480102958-prod_SAIC
+09:45:06.151 D/MG_NET_LOG: │ Method: GET
+09:45:06.151 D/MG_NET_LOG: │ Params: (无 Body 参数)
+09:45:06.151 D/MG_NET_LOG: └──────────────────────
+09:45:06.481 D/MG_NET_LOG: ┌────── 响应结束 (200 / 329ms) ──────
+09:45:06.482 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken?token=c6bf1a264e1d4c20a30faa9480102958-prod_SAIC
+09:45:06.482 D/MG_NET_LOG: │ Result: {"req_id":"19c54ac5683895585b","data":{"rav_code":"obRDg2"}}
+09:45:06.482 D/MG_NET_LOG: └──────────────────────────────────────────────────
+09:45:06.492 D/MG_NET_LOG: ┌────── 请求开始 ──────
+09:45:06.492 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+09:45:06.492 D/MG_NET_LOG: │ Method: POST
+09:45:06.493 D/MG_NET_LOG: │ Params: data={"pin":"db645c37970a0d2e98f8a71ffa363c6497a3f582","vin":"LSJWM6393RZ654963","nonce":"ABDE02AE774BBF1F92C405666626CE46","timestamp":"1770947106488","token":"c6bf1a264e1d4c20a30faa9480102958-prod_SAIC"}
+09:45:06.493 D/MG_NET_LOG: └──────────────────────
+09:45:07.212 D/MG_NET_LOG: ┌────── 响应结束 (200 / 718ms) ──────
+09:45:07.212 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+09:45:07.212 D/MG_NET_LOG: │ Result: {"req_id":"19c54ac56e25f44d8f5","data":{"isRight":"true","errorCode":null,"pvCode":"655da0cdaa70bf7ae2c6d463d2d1ebdf","pinStatusList":[{"configStatus":-1,"configType":0,"userId":null,"deviceId":""},{"configStatus":-1,"configType":1,"userId":null,"deviceId":""}]}}
+09:45:07.212 D/MG_NET_LOG: └──────────────────────────────────────────────────
+09:45:07.227 D/MG_NET_LOG: ┌────── 请求开始 ──────
+09:45:07.227 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.1/requestUnlockVehicle
+09:45:07.227 D/MG_NET_LOG: │ Method: POST
+09:45:07.227 D/MG_NET_LOG: │ Header: timestamp: 1770947107222
+09:45:07.227 D/MG_NET_LOG: │ Header: app-type: roewe
+09:45:07.227 D/MG_NET_LOG: │ Header: sign: afv27_Y83rJO-Ij3J26aIyIrxyUt65N3vIgqQfRRghQ
+09:45:07.229 D/MG_NET_LOG: │ Params: data={"auth_type":"2","appId":"Roewe","vin":"LSJWM6393RZ654963","nonce":"40691302DB5651ECC5D6986E297DA88F","brandCode":"1","timestamp":"1770947107222","token":"c6bf1a264e1d4c20a30faa9480102958-prod_SAIC","auth_code":"655da0cdaa70bf7ae2c6d463d2d1ebdf"}
+09:45:07.229 D/MG_NET_LOG: └──────────────────────
+09:45:07.351 D/MG_NET_LOG: ┌────── 响应结束 (200 / 122ms) ──────
+09:45:07.351 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.1/requestUnlockVehicle
+09:45:07.351 D/MG_NET_LOG: │ Result: {"req_id":"19c54ac59c7a74ddfab","data":{"command_id":320105519}}
+09:45:07.351 D/MG_NET_LOG: └──────────────────────────────────────────────────
+09:45:07.362 D/MG_NET_LOG: ┌────── 请求开始 ──────
+09:45:07.362 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+09:45:07.362 D/MG_NET_LOG: │ Method: POST
+09:45:07.362 D/MG_NET_LOG: │ Params: data={"command_id":"320105519","appId":"Roewe","vin":"LSJWM6393RZ654963","nonce":"5320474A5218048F547A5D0E3E10186A","brandCode":"1","timestamp":"1770947107359","token":"c6bf1a264e1d4c20a30faa9480102958-prod_SAIC"}
+09:45:07.363 D/MG_NET_LOG: └──────────────────────
+09:45:07.439 D/MG_NET_LOG: ┌────── 响应结束 (200 / 75ms) ──────
+09:45:07.439 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+09:45:07.439 D/MG_NET_LOG: │ Result: {"req_id":"19c54ac5a3f42a6cf55","data":{"command_result":0,"command_status":"99","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+09:45:07.440 D/MG_NET_LOG: └──────────────────────────────────────────────────
+09:45:07.536 D/BleProximity: ⏰ ensureConnected 超时 (ControlActivity)
+09:45:07.536 D/ControlActivity: ⏰ ensureConnected 超时 (ControlActivity)
+09:45:07.536 D/BleProximity: ➖ 移除监听器: callback_18_1770947092536 
+09:45:07.536 D/ControlActivity: ➖ 移除监听器: callback_18_1770947092536 
+09:45:07.548 D/BleProximity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_14_1770947092525 (剩余: 7)
+09:45:07.548 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_14_1770947092525 (剩余: 7)
+09:45:10.447 D/MG_NET_LOG: ┌────── 请求开始 ──────
+09:45:10.447 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+09:45:10.447 D/MG_NET_LOG: │ Method: POST
+09:45:10.447 D/MG_NET_LOG: │ Params: data={"command_id":"320105519","appId":"Roewe","vin":"LSJWM6393RZ654963","nonce":"6D39CC1B0D4C39072B41FDEA336252D4","brandCode":"1","timestamp":"1770947110445","token":"c6bf1a264e1d4c20a30faa9480102958-prod_SAIC"}
+09:45:10.447 D/MG_NET_LOG: └──────────────────────
+09:45:10.533 D/MG_NET_LOG: ┌────── 响应结束 (200 / 85ms) ──────
+09:45:10.533 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+09:45:10.533 D/MG_NET_LOG: │ Result: {"req_id":"19c54ac665d9de1b84c","data":{"command_result":0,"command_status":"01","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+09:45:10.533 D/MG_NET_LOG: └──────────────────────────────────────────────────
+09:45:13.538 D/MG_NET_LOG: ┌────── 请求开始 ──────
+09:45:13.538 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+09:45:13.538 D/MG_NET_LOG: │ Method: POST
+09:45:13.538 D/MG_NET_LOG: │ Params: data={"command_id":"320105519","appId":"Roewe","vin":"LSJWM6393RZ654963","nonce":"639B2252A53A8C52EE917D1D5E481DE5","brandCode":"1","timestamp":"1770947113536","token":"c6bf1a264e1d4c20a30faa9480102958-prod_SAIC"}
+09:45:13.538 D/MG_NET_LOG: └──────────────────────
+09:45:13.631 D/MG_NET_LOG: ┌────── 响应结束 (200 / 92ms) ──────
+09:45:13.631 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+09:45:13.631 D/MG_NET_LOG: │ Result: {"req_id":"19c54ac726e92508497","data":{"command_result":1,"command_status":"02","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+09:45:13.631 D/MG_NET_LOG: └──────────────────────────────────────────────────
+09:45:13.853 D/BleProximity: ➖ 移除监听器: callback_17_1770947091700 
+09:45:13.854 D/ControlActivity: ➖ 移除监听器: callback_17_1770947091700 
+09:45:13.911 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+09:45:13.915 D/MG_NET_LOG: ┌────── 请求开始 ──────
+09:45:13.915 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+09:45:13.915 D/MG_NET_LOG: │ Method: POST
+09:45:13.915 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6393RZ654963","appId":"Roewe","brandCode":"1","nonce":"8588ADAE41034A6FBA9DA3AC035D071E","timestamp":"1770947113911","token":"c6bf1a264e1d4c20a30faa9480102958-prod_SAIC"}
+09:45:13.915 D/MG_NET_LOG: └──────────────────────
+09:45:14.744 D/MG_NET_LOG: ┌────── 响应结束 (200 / 827ms) ──────
+09:45:14.744 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+09:45:14.745 D/MG_NET_LOG: │ Result: {"req_id":"19c54ac74ce8be61b7d","data":{"vehicle_position":{"satellites":8,"altitude":925,"latitude":"37.074184","gps_status":2,"update_time":1770947110000,"gps_time":1770947110000,"hdop":6,"longitude":"114.446692"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":260,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":527,"battery_pack_range":111,"power_mode":0,"engine_status":0,"exterior_temperature":0,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":80,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":40252,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1230,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":240,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":248,"battery_pack_prc":889,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":527,"current_journey_id":0,"pwr_lftgt_pos_v":null,"interior_temperature":7,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1770947107000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":0,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":240,"vehicle_battery_prc":988,"battery_type":0,"fuel_level_disp":7,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1770947107000,"vehicle_state":{"door":true,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":true,"lock":false,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1770947107000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+09:45:14.745 D/MG_NET_LOG: └──────────────────────────────────────────────────
+09:45:14.775 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 河北省邢台市信都区崇文街318号
+09:45:14.775 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+09:45:14.777 D/MGWidget: updateWidgetSynchronously called for ID: 1545
+09:45:20.630 D/MG_NET_LOG: ┌────── 请求开始 ──────
+09:45:20.630 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+09:45:20.630 D/MG_NET_LOG: │ Method: POST
+09:45:20.630 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6393RZ654963","appId":"Roewe","brandCode":"1","nonce":"ACEF2244718D41DABC525073FF72DF49","timestamp":"1770947120626","token":"c6bf1a264e1d4c20a30faa9480102958-prod_SAIC"}
+09:45:20.630 D/MG_NET_LOG: └──────────────────────
+09:45:20.655 D/BleProximity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_15_1770947120655 (总数: 8)
+09:45:20.655 D/BleProximity: ➕ 添加监听器: callback_19_1770947120655 (总数: 2)
+09:45:20.655 D/ControlActivity: ➕ 添加监听器: callback_19_1770947120655 (总数: 2)
+09:45:21.527 D/MG_NET_LOG: ┌────── 响应结束 (200 / 897ms) ──────
+09:45:21.527 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+09:45:21.527 D/MG_NET_LOG: │ Result: {"req_id":"19c54ac8f11a3d122a1","data":{"vehicle_position":{"satellites":8,"altitude":925,"gps_status":2,"latitude":"37.074184","update_time":1770947110000,"gps_time":1770947110000,"hdop":6,"longitude":"114.446692"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":260,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":527,"battery_pack_range":111,"power_mode":0,"engine_status":0,"exterior_temperature":0,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":80,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":40252,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1230,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":240,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":248,"battery_pack_prc":889,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":527,"current_journey_id":0,"pwr_lftgt_pos_v":null,"interior_temperature":7,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1770947107000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":0,"rear_left_tyre_pressure":240,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":988,"fuel_level_disp":7,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1770947107000,"vehicle_state":{"gnss_ant_connected":false,"door":true,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":true,"lock":false,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1770947107000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+09:45:21.527 D/MG_NET_LOG: └──────────────────────────────────────────────────
+09:45:21.736 D/BleProximity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_16_1770947121736 (总数: 9)
+09:45:21.737 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_16_1770947121736 (总数: 9)
+09:45:21.744 D/BleProximity: ➕ 添加监听器: callback_20_1770947121744 (总数: 3)
+09:45:21.744 D/ControlActivity: ➕ 添加监听器: callback_20_1770947121744 (总数: 3)
+09:45:21.744 D/BleProximity: ⏳ 正在连接中，Session等待结果... (ControlActivity)
+09:45:21.744 D/ControlActivity: ⏳ 正在连接中，Session等待结果... (ControlActivity)
+09:45:32.620 D/BleProximity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_17_1770947132619 (总数: 10)
+09:45:32.620 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_17_1770947132619 (总数: 10)
+09:45:32.634 D/BleProximity: ➕ 添加监听器: callback_21_1770947132634 (总数: 4)
+09:45:32.634 D/ControlActivity: ➕ 添加监听器: callback_21_1770947132634 (总数: 4)
+09:45:32.635 D/BleProximity: ⏳ 正在连接中，Session等待结果... (ControlActivity)
+09:45:32.635 D/ControlActivity: ⏳ 正在连接中，Session等待结果... (ControlActivity)
+09:45:36.745 D/BleProximity: ⏰ ensureConnected 超时 (ControlActivity)
+09:45:36.745 D/ControlActivity: ⏰ ensureConnected 超时 (ControlActivity)
+09:45:36.745 D/BleProximity: ➖ 移除监听器: callback_20_1770947121744 
+09:45:36.745 D/ControlActivity: ➖ 移除监听器: callback_20_1770947121744 
+09:45:36.758 D/BleProximity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_17_1770947132619 (剩余: 9)
+09:45:36.758 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_17_1770947132619 (剩余: 9)
+09:45:46.850 D/BleProximity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_18_1770947146849 (总数: 10)
+09:45:46.850 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_18_1770947146849 (总数: 10)
+09:45:46.863 D/BleProximity: ➕ 添加监听器: callback_22_1770947146863 (总数: 4)
+09:45:46.864 D/ControlActivity: ➕ 添加监听器: callback_22_1770947146863 (总数: 4)
+09:45:46.864 D/BleProximity: ⏳ 正在连接中，Session等待结果... (ControlActivity)
+09:45:46.864 D/ControlActivity: ⏳ 正在连接中，Session等待结果... (ControlActivity)
+09:45:47.635 D/BleProximity: ⏰ ensureConnected 超时 (ControlActivity)
+09:45:47.635 D/ControlActivity: ⏰ ensureConnected 超时 (ControlActivity)
+09:45:47.636 D/BleProximity: ➖ 移除监听器: callback_21_1770947132634 
+09:45:47.636 D/ControlActivity: ➖ 移除监听器: callback_21_1770947132634 
+09:45:47.649 D/BleProximity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_18_1770947146849 (剩余: 9)
+09:45:47.649 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_18_1770947146849 (剩余: 9)
+09:45:50.192 D/BleProximity: ➖ 移除监听器: callback_19_1770947120655 
+09:45:50.192 D/ControlActivity: ➖ 移除监听器: callback_19_1770947120655 
+09:45:52.232 D/MG_NET_LOG: ┌────── 请求开始 ──────
+09:45:52.232 D/MG_NET_LOG: │ URL: https://gitee.com/yangyachao-X/mg-linker/raw/master/other/config.json
+09:45:52.232 D/MG_NET_LOG: │ Method: GET
+09:45:52.232 D/MG_NET_LOG: │ Params: (无 Body 参数)
+09:45:52.232 D/MG_NET_LOG: └──────────────────────
+09:45:52.236 D/MG_NET_LOG: ┌────── 请求开始 ──────
+09:45:52.236 D/MG_NET_LOG: │ URL: https://gitee.com/api/v5/repos/yangyachao-X/mg-linker/releases/latest
+09:45:52.236 D/MG_NET_LOG: │ Method: GET
+09:45:52.236 D/MG_NET_LOG: │ Header: Authorization: token 387f0d958834d479dcdc778fcf2ae326
+09:45:52.236 D/MG_NET_LOG: │ Params: (无 Body 参数)
+09:45:52.236 D/MG_NET_LOG: └──────────────────────
+09:45:52.420 D/MG_NET_LOG: ┌────── 响应结束 (200 / 187ms) ──────
+09:45:52.420 D/MG_NET_LOG: │ URL: https://gitee.com/yangyachao-X/mg-linker/raw/master/other/config.json
+09:45:52.420 D/MG_NET_LOG: │ Result: {
+09:45:52.420 D/MG_NET_LOG: "saic": [
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "brand": "MG",
+09:45:52.420 D/MG_NET_LOG: "model": "MG7",
+09:45:52.420 D/MG_NET_LOG: "fuel": 65.0,
+09:45:52.420 D/MG_NET_LOG: "battery": 0.0,
+09:45:52.420 D/MG_NET_LOG: "colors": [
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "冰岛蓝",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-sales.risingauto.com/bcc-websales_0d3f08025b194cb085fb933ebce85cff.png"
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "翡冷翠",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-sales.risingauto.com/bcc-websales_a487a2f0a1ac4385978cd56a2ee152b8.png"
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "釉瓷白",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-sales.risingauto.com/bcc-websales_68d315e36ac74c3a9ef5ce73ce4e711d.png"
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "墨玉黑",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-sales.risingauto.com/bcc-websales_07c082ba526647769c82167bf419c44e.png"
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "雾凇灰",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-sales.risingauto.com/bcc-websales_e74e9a6c73a4453cbb28809356f42eda.png"
+09:45:52.420 D/MG_NET_LOG: }
+09:45:52.420 D/MG_NET_LOG: ]
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "brand": "MG",
+09:45:52.420 D/MG_NET_LOG: "model": "MG4",
+09:45:52.420 D/MG_NET_LOG: "fuel": 0.0,
+09:45:52.420 D/MG_NET_LOG: "battery": 53.95,
+09:45:52.420 D/MG_NET_LOG: "colors": [
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "东来紫",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-sales.risingauto.com/bcc-websales_5923651100c2415a8ce19edaf83a7f6e.png"
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "清波翠",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-sales.risingauto.com/bcc-websales_f9cb3c4097bc45faab06b4c264a1ffda.png"
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "海岛蓝",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-sales.risingauto.com/bcc-websales_529d78f80fca4aeb83d05f5e323fa6d9.png"
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "珊瑚红",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-sales.risingauto.com/bcc-websales_3628431f4a184266a104fe9fcca8ddd0.png"
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "星野灰",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-sales.risingauto.com/bcc-websales_0c08fffead3f4e4ba5e232d8545ac081.png"
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "月光白",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-sales.risingauto.com/bcc-websales_5d2cde1449a84ab0818ca2f4cf751e0e.png"
+09:45:52.420 D/MG_NET_LOG: }
+09:45:52.420 D/MG_NET_LOG: ]
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "brand": "MG",
+09:45:52.420 D/MG_NET_LOG: "model": "MG5",
+09:45:52.420 D/MG_NET_LOG: "fuel": 50.0,
+09:45:52.420 D/MG_NET_LOG: "battery": 0.0,
+09:45:52.420 D/MG_NET_LOG: "colors": [
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "赤焰红",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2025/36e77ae6f7774cd2a10464cd6c5fd137.png"
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "安第斯灰",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2025/2b9a2d93f1144c5dbf8607c6f1b6b2f2.png"
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "雪山白",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2025/737e7781f2fe497fbebb8b9712923f3b.png"
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "气泡橙",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2025/b44f5b4511824a8eb097ed8518c4bcc5.png"
+09:45:52.420 D/MG_NET_LOG: }
+09:45:52.420 D/MG_NET_LOG: ]
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "brand": "RW",
+09:45:52.420 D/MG_NET_LOG: "model": "D7 DMH",
+09:45:52.420 D/MG_NET_LOG: "fuel": 55.0,
+09:45:52.420 D/MG_NET_LOG: "battery": 19.7,
+09:45:52.420 D/MG_NET_LOG: "colors": [
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "光速银",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2024/9bd111b1606944fe9eb0041fa0de52e1.png"
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "安第斯灰",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2024/f1321ec360d64f19959652bd223e4a50.png"
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "晨曦金",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2024/50eee98a25d34bf4badbf68be0d28c2a.png"
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "亮白",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2024/4fffc04e829544cb82643ab40f940948.png"
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "珠光黑",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2024/9d12e8fa09c3428fab71804d43499eda.png"
+09:45:52.420 D/MG_NET_LOG: }
+09:45:52.420 D/MG_NET_LOG: ]
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "brand": "RW",
+09:45:52.420 D/MG_NET_LOG: "model": "D5X DMH",
+09:45:52.420 D/MG_NET_LOG: "fuel": 55.0,
+09:45:52.420 D/MG_NET_LOG: "battery": 21.4,
+09:45:52.420 D/MG_NET_LOG: "colors": [
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "皎月白",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2024/42fbb15cd8e549979e1972cb8b03cb4b.png"
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "雾凇银",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2024/57e9684c56db4207b0d7ad50ff99a2ad.png"
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "沧浪灰",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/protocolAdapter/2024/4438d8b27bb843bf9dad7d7de76bbd09.png"
+09:45:52.420 D/MG_NET_LOG: }
+09:45:52.420 D/MG_NET_LOG: ]
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "brand": "RW",
+09:45:52.420 D/MG_NET_LOG: "model": "RX5",
+09:45:52.420 D/MG_NET_LOG: "fuel": 55.0,
+09:45:52.420 D/MG_NET_LOG: "battery": 0.0,
+09:45:52.420 D/MG_NET_LOG: "colors": [
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "丝绒银",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/saicmall/25f107ba626d488c9741d42be5979bd5.png"
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "珠光白",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/saicmall/acb115d3b30040c6ae2fac48224185a6.png"
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "珠光黑",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/saicmall/d70197284dc949439afbd681e7a8924f.png"
+09:45:52.420 D/MG_NET_LOG: },
+09:45:52.420 D/MG_NET_LOG: {
+09:45:52.420 D/MG_NET_LOG: "name": "云锦灰",
+09:45:52.420 D/MG_NET_LOG: "imageUrl": "https://oss-prd-sh-toc-order.oss-cn-shanghai.aliyuncs.com/saicmall/b05b82f3f87a4c99bed607c183b82f2a.png"
+09:45:52.420 D/MG_NET_LOG: }
+09:45:52.420 D/MG_NET_LOG: ]
+09:45:52.420 D/MG_NET_LOG: }
+09:45:52.420 D/MG_NET_LOG: ]
+09:45:52.420 D/MG_NET_LOG: }
+09:45:52.420 D/MG_NET_LOG: └──────────────────────────────────────────────────
+09:45:52.514 D/MG_NET_LOG: ┌────── 响应结束 (200 / 277ms) ──────
+09:45:52.514 D/MG_NET_LOG: │ URL: https://gitee.com/api/v5/repos/yangyachao-X/mg-linker/releases/latest
+09:45:52.514 D/MG_NET_LOG: │ Result: {"id":579117,"tag_name":"4.8","target_commitish":"1c3f0752411b66d9fafe92b0cbbdaface8fb0380","prerelease":false,"name":"增加登录","body":"增加登录","author":{"id":8784824,"login":"yangyachao-X","name":"YangYachao","avatar_url":"https://foruda.gitee.com/avatar/1677149462712290355/8784824_yangyachao-x_1645510740.png","url":"https://gitee.com/api/v5/users/yangyachao-X","html_url":"https://gitee.com/yangyachao-X","remark":"","followers_url":"https://gitee.com/api/v5/users/yangyachao-X/followers","following_url":"https://gitee.com/api/v5/users/yangyachao-X/following_url{/other_user}","gists_url":"https://gitee.com/api/v5/users/yangyachao-X/gists{/gist_id}","starred_url":"https://gitee.com/api/v5/users/yangyachao-X/starred{/owner}{/repo}","subscriptions_url":"https://gitee.com/api/v5/users/yangyachao-X/subscriptions","organizations_url":"https://gitee.com/api/v5/users/yangyachao-X/orgs","repos_url":"https://gitee.com/api/v5/users/yangyachao-X/repos","events_url":"https://gitee.com/api/v5/users/yangyachao-X/events{/privacy}","received_events_url":"https://gitee.com/api/v5/users/yangyachao-X/received_events","type":"User"},"created_at":"2026-02-12T23:11:53+08:00","assets":[{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/releases/download/4.8/MG%20Linker.apk","name":"MG Linker.apk"},{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/archive/refs/tags/4.8.zip","name":"4.8.zip"},{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/archive/refs/tags/4.8.tar.gz","name":"4.8.tar.gz"}]}
+09:45:52.514 D/MG_NET_LOG: └──────────────────────────────────────────────────
+09:46:01.864 D/BleProximity: ⏰ ensureConnected 超时 (ControlActivity)
