@@ -1,0 +1,57 @@
+--- Log Capture Start: 20260213_201343 ---
+02-13 20:10:35.963 D/BleProximity: 📱 发现设备: 74:B8:39:D4:39:AA, RSSI: -101
+02-13 20:10:35.964 D/BleProximity: 📱 发现设备: 74:B8:39:D4:39:AA, RSSI: -101
+02-13 20:10:35.970 D/BleProximity: ⏹️ 停止扫描
+02-13 20:10:35.974 D/BleProximity: ⏹️ 停止扫描
+02-13 20:10:35.974 D/BleProximity: 🔗 连接设备: 74:B8:39:D4:39:AA
+02-13 20:10:35.974 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+02-13 20:10:35.976 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+02-13 20:10:38.483 D/BleProximity: ✅ 已连接，开始发现服务
+02-13 20:10:38.483 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-13 20:10:38.483 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-13 20:10:39.536 D/BleProximity: ✅ 特征初始化完成
+02-13 20:10:39.555 D/BleProximity: MTU 生效: 65
+02-13 20:10:39.556 D/BleProximity: 🔐 开始认证流程
+02-13 20:10:40.060 D/BleProximity: 📤 准备发送Booking ID: 0198C3CA (进入串行队列)
+02-13 20:10:41.988 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: f5cdef65a96c
+02-13 20:10:41.988 D/BleProximity: 🔐 处理认证挑战: 663563646566363561393663
+02-13 20:10:42.535 D/BleProximity: 收到认证挑战：uuid: 31457EDC-878A-4A15-8554-3568DE71A37B, value: 01
+02-13 20:10:42.536 D/BleProximity: ✅ 认证成功
+02-13 20:10:42.536 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 1, Session: 1)
+02-13 20:10:42.536 D/BleProximity: 📡 连接状态: AUTHENTICATED (isConnected: true)
+02-13 20:10:42.541 D/BleProximity: 📶 RSSI: -94
+02-13 20:10:42.541 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-13 20:10:42.842 D/BleProximity: 📶 RSSI: -98
+02-13 20:10:42.842 D/BleProximity: 📊 正在收集信号样本: 2/5
+02-13 20:10:43.146 D/BleProximity: 📶 RSSI: -100
+02-13 20:10:43.146 D/BleProximity: 📊 正在收集信号样本: 3/5
+02-13 20:10:43.447 D/BleProximity: 📶 RSSI: -101
+02-13 20:10:43.447 D/BleProximity: 📊 正在收集信号样本: 4/5
+02-13 20:10:43.749 D/BleProximity: 📶 RSSI: -102
+02-13 20:10:44.050 D/BleProximity: 📶 RSSI: -98
+02-13 20:10:44.353 D/BleProximity: 📶 RSSI: -95
+02-13 20:10:44.654 D/BleProximity: 📶 RSSI: -98
+02-13 20:10:44.957 D/BleProximity: 📶 RSSI: -95
+02-13 20:10:45.259 D/BleProximity: 📶 RSSI: -96
+02-13 20:10:45.563 D/BleProximity: 📶 RSSI: -98
+02-13 20:10:45.865 D/BleProximity: 📶 RSSI: -98
+02-13 20:10:46.166 D/BleProximity: 📶 RSSI: -98
+02-13 20:10:46.469 D/BleProximity: 📶 RSSI: -98
+02-13 20:10:46.773 D/BleProximity: 📶 RSSI: -99
+02-13 20:10:47.073 D/BleProximity: 📶 RSSI: -99
+02-13 20:10:47.378 D/BleProximity: 📶 RSSI: -98
+02-13 20:10:47.680 D/BleProximity: 📶 RSSI: -97
+02-13 20:10:47.983 D/BleProximity: 📶 RSSI: -96
+02-13 20:10:48.287 D/BleProximity: 📶 RSSI: -95
+02-13 20:10:48.589 D/BleProximity: 📶 RSSI: -96
+02-13 20:10:48.897 D/BleProximity: 📶 RSSI: -97
+02-13 20:10:49.202 D/BleProximity: 📶 RSSI: -97
+02-13 20:10:49.503 D/BleProximity: 📶 RSSI: -97
+02-13 20:10:49.808 D/BleProximity: 📶 RSSI: -98
+02-13 20:10:50.135 D/BleProximity: 📶 RSSI: -97
+02-13 20:10:50.432 D/BleProximity: 📶 RSSI: -93
+02-13 20:10:50.731 D/BleProximity: 📶 RSSI: -95
+02-13 20:10:51.039 D/BleProximity: 📶 RSSI: -95
+02-13 20:10:51.338 D/BleProximity: 📶 RSSI: -96
+02-13 20:10:51.637 D/BleProximity: 📶 RSSI: -94
+02-13 20:10:51.941 D/BleProximity: 📶 RSSI: -92
