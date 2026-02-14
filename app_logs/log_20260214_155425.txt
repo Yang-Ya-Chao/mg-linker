@@ -1,0 +1,2491 @@
+--- Log Capture Start: 20260214_155425 ---
+02-14 13:35:01.433 D/BleProximity: 📶 RSSI: -59
+02-14 13:35:01.733 D/BleProximity: 📶 RSSI: -59
+02-14 13:35:02.034 D/BleProximity: 📶 RSSI: -55
+02-14 13:35:02.334 D/BleProximity: 📶 RSSI: -56
+02-14 13:35:02.642 D/BleProximity: 📶 RSSI: -57
+02-14 13:35:02.941 D/BleProximity: 📶 RSSI: -53
+02-14 13:35:02.957 D/BleProximity: 💡 检测到屏幕点亮/解锁，立即激活扫描！
+02-14 13:35:03.239 D/BleProximity: 📶 RSSI: -57
+02-14 13:35:03.544 D/BleProximity: 📶 RSSI: -57
+02-14 13:35:03.842 D/BleProximity: 📶 RSSI: -56
+02-14 13:35:04.147 D/BleProximity: 📶 RSSI: -52
+02-14 13:35:04.443 D/BleProximity: 📶 RSSI: -54
+02-14 13:35:04.748 D/BleProximity: 📶 RSSI: -54
+02-14 13:35:05.048 D/BleProximity: 📶 RSSI: -56
+02-14 13:35:05.358 D/BleProximity: 📶 RSSI: -53
+02-14 13:35:05.648 D/BleProximity: 📶 RSSI: -51
+02-14 13:35:05.976 D/BleProximity: 📶 RSSI: -52
+02-14 13:35:06.275 D/BleProximity: 📶 RSSI: -51
+02-14 13:35:06.575 D/BleProximity: 📶 RSSI: -51
+02-14 13:35:06.876 D/BleProximity: 📶 RSSI: -52
+02-14 13:35:07.176 D/BleProximity: 📶 RSSI: -52
+02-14 13:35:07.479 D/BleProximity: 📶 RSSI: -52
+02-14 13:35:07.782 D/BleProximity: 📶 RSSI: -51
+02-14 13:35:08.083 D/BleProximity: 📶 RSSI: -51
+02-14 13:35:08.385 D/BleProximity: 📶 RSSI: -52
+02-14 13:35:08.686 D/BleProximity: 📶 RSSI: -51
+02-14 13:35:08.989 D/BleProximity: 📶 RSSI: -52
+02-14 13:35:09.288 D/BleProximity: 📶 RSSI: -52
+02-14 13:35:09.592 D/BleProximity: 📶 RSSI: -53
+02-14 13:35:09.890 D/BleProximity: 📶 RSSI: -51
+02-14 13:35:10.202 D/BleProximity: 📶 RSSI: -52
+02-14 13:35:10.491 D/BleProximity: 📶 RSSI: -51
+02-14 13:35:10.802 D/BleProximity: 📶 RSSI: -51
+02-14 13:35:11.104 D/BleProximity: 📶 RSSI: -51
+02-14 13:35:11.394 D/BleProximity: 📶 RSSI: -52
+02-14 13:35:11.695 D/BleProximity: 📶 RSSI: -52
+02-14 13:35:11.998 D/BleProximity: 📶 RSSI: -51
+02-14 13:35:12.298 D/BleProximity: 📶 RSSI: -52
+02-14 13:35:12.603 D/BleProximity: 📶 RSSI: -53
+02-14 13:35:12.899 D/BleProximity: 📶 RSSI: -53
+02-14 13:35:13.204 D/BleProximity: 📶 RSSI: -54
+02-14 13:35:13.506 D/BleProximity: 📶 RSSI: -52
+02-14 13:35:13.807 D/BleProximity: 📶 RSSI: -51
+02-14 13:35:14.118 D/BleProximity: 📶 RSSI: -52
+02-14 13:35:14.408 D/BleProximity: 📶 RSSI: -51
+02-14 13:35:14.709 D/BleProximity: 📶 RSSI: -51
+02-14 13:35:15.009 D/BleProximity: 📶 RSSI: -51
+02-14 13:35:15.310 D/BleProximity: 📶 RSSI: -51
+02-14 13:35:15.615 D/BleProximity: 📶 RSSI: -51
+02-14 13:35:15.921 D/BleProximity: 📶 RSSI: -52
+02-14 13:35:16.217 D/BleProximity: 📶 RSSI: -53
+02-14 13:35:16.517 D/BleProximity: 📶 RSSI: -51
+02-14 13:35:16.813 D/BleProximity: 📶 RSSI: -52
+02-14 13:35:17.114 D/BleProximity: 📶 RSSI: -53
+02-14 13:35:17.419 D/BleProximity: 📶 RSSI: -53
+02-14 13:35:17.716 D/BleProximity: 📶 RSSI: -51
+02-14 13:35:18.021 D/BleProximity: 📶 RSSI: -50
+02-14 13:35:18.321 D/BleProximity: 📶 RSSI: -51
+02-14 13:35:18.622 D/BleProximity: 📶 RSSI: -55
+02-14 13:35:18.922 D/BleProximity: 📶 RSSI: -50
+02-14 13:35:19.222 D/BleProximity: 📶 RSSI: -50
+02-14 13:35:19.524 D/BleProximity: 📶 RSSI: -50
+02-14 13:35:19.825 D/BleProximity: 📶 RSSI: -50
+02-14 13:35:20.130 D/BleProximity: 📶 RSSI: -50
+02-14 13:35:20.431 D/BleProximity: 📶 RSSI: -52
+02-14 13:35:20.732 D/BleProximity: 📶 RSSI: -52
+02-14 13:35:21.032 D/BleProximity: 📶 RSSI: -52
+02-14 13:35:21.329 D/BleProximity: 📶 RSSI: -51
+02-14 13:35:21.630 D/BleProximity: 📶 RSSI: -51
+02-14 13:35:21.932 D/BleProximity: 📶 RSSI: -54
+02-14 13:35:22.232 D/BleProximity: 📶 RSSI: -53
+02-14 13:35:22.537 D/BleProximity: 📶 RSSI: -56
+02-14 13:35:22.835 D/BleProximity: 📶 RSSI: -55
+02-14 13:35:23.138 D/BleProximity: 📶 RSSI: -57
+02-14 14:40:37.085 D/BleProximity: 📶 RSSI: -52
+02-14 14:40:37.387 D/BleProximity: 📶 RSSI: -55
+02-14 14:40:37.689 D/BleProximity: 📶 RSSI: -61
+02-14 14:40:37.995 D/BleProximity: 📶 RSSI: -59
+02-14 14:40:38.289 D/BleProximity: 📶 RSSI: -59
+02-14 14:40:38.591 D/BleProximity: 📶 RSSI: -59
+02-14 14:40:38.894 D/BleProximity: 📶 RSSI: -62
+02-14 14:40:39.196 D/BleProximity: 📶 RSSI: -60
+02-14 14:40:39.498 D/BleProximity: 📶 RSSI: -60
+02-14 14:40:39.802 D/BleProximity: 📶 RSSI: -59
+02-14 14:40:40.101 D/BleProximity: 📶 RSSI: -60
+02-14 14:40:40.402 D/BleProximity: 📶 RSSI: -60
+02-14 14:40:40.704 D/BleProximity: 📶 RSSI: -60
+02-14 14:40:41.005 D/BleProximity: 📶 RSSI: -67
+02-14 14:40:41.308 D/BleProximity: 📶 RSSI: -63
+02-14 14:40:41.611 D/BleProximity: 📶 RSSI: -62
+02-14 14:40:41.917 D/BleProximity: 📶 RSSI: -65
+02-14 14:40:42.219 D/BleProximity: 📶 RSSI: -64
+02-14 14:40:42.521 D/BleProximity: 📶 RSSI: -65
+02-14 14:40:42.820 D/BleProximity: 📶 RSSI: -67
+02-14 14:40:43.121 D/BleProximity: 📶 RSSI: -65
+02-14 14:40:43.423 D/BleProximity: 📶 RSSI: -63
+02-14 14:40:43.725 D/BleProximity: 📶 RSSI: -63
+02-14 14:40:44.026 D/BleProximity: 📶 RSSI: -62
+02-14 14:40:44.333 D/BleProximity: 📶 RSSI: -62
+02-14 14:40:44.631 D/BleProximity: 📶 RSSI: -61
+02-14 14:40:44.938 D/BleProximity: 📶 RSSI: -63
+02-14 14:40:45.237 D/BleProximity: 📶 RSSI: -62
+02-14 14:40:45.537 D/BleProximity: 📶 RSSI: -62
+02-14 14:40:45.840 D/BleProximity: 📶 RSSI: -64
+02-14 14:40:46.145 D/BleProximity: 📶 RSSI: -63
+02-14 14:40:46.447 D/BleProximity: 📶 RSSI: -66
+02-14 14:40:46.745 D/BleProximity: 📶 RSSI: -63
+02-14 14:40:47.047 D/BleProximity: 📶 RSSI: -61
+02-14 14:40:47.352 D/BleProximity: 📶 RSSI: -58
+02-14 14:40:47.651 D/BleProximity: 📶 RSSI: -58
+02-14 14:40:47.954 D/BleProximity: 📶 RSSI: -56
+02-14 14:40:48.256 D/BleProximity: 📶 RSSI: -56
+02-14 14:40:48.563 D/BleProximity: 📶 RSSI: -51
+02-14 14:40:48.855 D/BleProximity: 📶 RSSI: -55
+02-14 14:40:49.163 D/BleProximity: 📶 RSSI: -55
+02-14 14:40:49.461 D/BleProximity: 📶 RSSI: -57
+02-14 14:40:49.766 D/BleProximity: 📶 RSSI: -56
+02-14 14:40:50.063 D/BleProximity: 📶 RSSI: -55
+02-14 14:40:50.367 D/BleProximity: 📶 RSSI: -55
+02-14 14:40:50.667 D/BleProximity: 📶 RSSI: -50
+02-14 14:40:50.967 D/BleProximity: 📶 RSSI: -51
+02-14 14:40:51.270 D/BleProximity: 📶 RSSI: -55
+02-14 14:40:51.577 D/BleProximity: 📶 RSSI: -58
+02-14 14:40:51.878 D/BleProximity: 📶 RSSI: -57
+02-14 14:40:52.176 D/BleProximity: 📶 RSSI: -60
+02-14 14:40:52.476 D/BleProximity: 📶 RSSI: -63
+02-14 14:40:52.782 D/BleProximity: 📶 RSSI: -62
+02-14 14:40:53.082 D/BleProximity: 📶 RSSI: -57
+02-14 14:40:53.392 D/BleProximity: 📶 RSSI: -53
+02-14 14:40:53.692 D/BleProximity: 📶 RSSI: -50
+02-14 14:40:53.996 D/BleProximity: 📶 RSSI: -53
+02-14 14:40:54.294 D/BleProximity: 📶 RSSI: -52
+02-14 14:40:54.598 D/BleProximity: 📶 RSSI: -52
+02-14 14:40:54.898 D/BleProximity: 📶 RSSI: -54
+02-14 14:40:55.201 D/BleProximity: 📶 RSSI: -53
+02-14 14:40:55.504 D/BleProximity: 📶 RSSI: -54
+02-14 14:40:55.807 D/BleProximity: 📶 RSSI: -53
+02-14 14:40:56.108 D/BleProximity: 📶 RSSI: -54
+02-14 14:40:56.409 D/BleProximity: 📶 RSSI: -53
+02-14 14:40:56.711 D/BleProximity: 📶 RSSI: -54
+02-14 14:40:57.012 D/BleProximity: 📶 RSSI: -58
+02-14 14:40:57.313 D/BleProximity: 📶 RSSI: -64
+02-14 14:40:57.614 D/BleProximity: 📶 RSSI: -64
+02-14 14:40:57.916 D/BleProximity: 📶 RSSI: -59
+02-14 14:40:58.222 D/BleProximity: 📶 RSSI: -58
+02-14 14:40:58.522 D/BleProximity: 📶 RSSI: -56
+02-14 14:40:58.824 D/BleProximity: 📶 RSSI: -55
+02-14 14:40:59.124 D/BleProximity: 📶 RSSI: -54
+02-14 14:40:59.426 D/BleProximity: 📶 RSSI: -55
+02-14 14:40:59.727 D/BleProximity: 📶 RSSI: -53
+02-14 14:41:00.026 D/BleProximity: 📶 RSSI: -53
+02-14 14:41:00.326 D/BleProximity: 📶 RSSI: -54
+02-14 14:41:00.629 D/BleProximity: 📶 RSSI: -54
+02-14 14:41:00.936 D/BleProximity: 📶 RSSI: -55
+02-14 14:41:01.239 D/BleProximity: 📶 RSSI: -57
+02-14 14:41:01.542 D/BleProximity: 📶 RSSI: -63
+02-14 14:41:01.841 D/BleProximity: 📶 RSSI: -58
+02-14 14:41:02.143 D/BleProximity: 📶 RSSI: -58
+02-14 14:41:02.451 D/BleProximity: 📶 RSSI: -54
+02-14 14:41:02.754 D/BleProximity: 📶 RSSI: -57
+02-14 14:41:03.053 D/BleProximity: 📶 RSSI: -56
+02-14 14:41:03.356 D/BleProximity: 📶 RSSI: -56
+02-14 14:41:03.657 D/BleProximity: 📶 RSSI: -56
+02-14 14:41:03.956 D/BleProximity: 📶 RSSI: -58
+02-14 14:41:04.259 D/BleProximity: 📶 RSSI: -57
+02-14 14:41:04.564 D/BleProximity: 📶 RSSI: -57
+02-14 14:41:04.866 D/BleProximity: 📶 RSSI: -56
+02-14 14:41:05.169 D/BleProximity: 📶 RSSI: -56
+02-14 14:41:05.471 D/BleProximity: 📶 RSSI: -57
+02-14 14:41:05.772 D/BleProximity: 📶 RSSI: -58
+02-14 14:41:06.072 D/BleProximity: 📶 RSSI: -57
+02-14 14:41:06.372 D/BleProximity: 📶 RSSI: -56
+02-14 14:41:06.674 D/BleProximity: 📶 RSSI: -57
+02-14 14:41:06.976 D/BleProximity: 📶 RSSI: -56
+02-14 14:41:07.279 D/BleProximity: 📶 RSSI: -56
+02-14 14:41:07.583 D/BleProximity: 📶 RSSI: -55
+02-14 14:41:07.886 D/BleProximity: 📶 RSSI: -56
+02-14 14:41:08.187 D/BleProximity: 📶 RSSI: -56
+02-14 14:41:08.485 D/BleProximity: 📶 RSSI: -56
+02-14 14:41:08.789 D/BleProximity: 📶 RSSI: -57
+02-14 14:41:09.091 D/BleProximity: 📶 RSSI: -58
+02-14 14:41:09.394 D/BleProximity: 📶 RSSI: -58
+02-14 14:41:09.700 D/BleProximity: 📶 RSSI: -59
+02-14 14:41:10.001 D/BleProximity: 📶 RSSI: -59
+02-14 14:41:10.302 D/BleProximity: 📶 RSSI: -59
+02-14 14:41:10.604 D/BleProximity: 📶 RSSI: -61
+02-14 14:41:10.910 D/BleProximity: 📶 RSSI: -61
+02-14 14:41:11.211 D/BleProximity: 📶 RSSI: -60
+02-14 14:41:11.514 D/BleProximity: 📶 RSSI: -61
+02-14 14:41:11.813 D/BleProximity: 📶 RSSI: -62
+02-14 14:41:12.116 D/BleProximity: 📶 RSSI: -62
+02-14 14:41:12.417 D/BleProximity: 📶 RSSI: -64
+02-14 14:41:12.717 D/BleProximity: 📶 RSSI: -64
+02-14 14:41:13.019 D/BleProximity: 📶 RSSI: -63
+02-14 14:41:13.325 D/BleProximity: 📶 RSSI: -65
+02-14 14:41:13.628 D/BleProximity: 📶 RSSI: -64
+02-14 14:41:13.924 D/BleProximity: 📶 RSSI: -64
+02-14 14:41:14.230 D/BleProximity: 📶 RSSI: -64
+02-14 14:41:14.533 D/BleProximity: 📶 RSSI: -64
+02-14 14:41:14.832 D/BleProximity: 📶 RSSI: -64
+02-14 14:41:15.133 D/BleProximity: 📶 RSSI: -63
+02-14 14:41:15.447 D/BleProximity: 📶 RSSI: -65
+02-14 14:41:15.746 D/BleProximity: 📶 RSSI: -64
+02-14 14:41:16.049 D/BleProximity: 📶 RSSI: -66
+02-14 14:41:16.358 D/BleProximity: 📶 RSSI: -65
+02-14 14:41:16.659 D/BleProximity: 📶 RSSI: -65
+02-14 14:41:16.957 D/BleProximity: 📶 RSSI: -63
+02-14 14:41:17.262 D/BleProximity: 📶 RSSI: -63
+02-14 14:41:17.562 D/BleProximity: 📶 RSSI: -62
+02-14 14:41:17.863 D/BleProximity: 📶 RSSI: -62
+02-14 14:41:18.170 D/BleProximity: 📶 RSSI: -62
+02-14 14:41:18.473 D/BleProximity: 📶 RSSI: -61
+02-14 14:41:18.770 D/BleProximity: 📶 RSSI: -60
+02-14 14:41:19.075 D/BleProximity: 📶 RSSI: -60
+02-14 14:41:19.372 D/BleProximity: 📶 RSSI: -62
+02-14 14:41:19.678 D/BleProximity: 📶 RSSI: -61
+02-14 14:41:19.977 D/BleProximity: 📶 RSSI: -60
+02-14 14:41:20.280 D/BleProximity: 📶 RSSI: -61
+02-14 14:41:20.586 D/BleProximity: 📶 RSSI: -61
+02-14 14:41:20.888 D/BleProximity: 📶 RSSI: -61
+02-14 14:41:21.190 D/BleProximity: 📶 RSSI: -63
+02-14 14:41:21.491 D/BleProximity: 📶 RSSI: -62
+02-14 14:41:21.791 D/BleProximity: 📶 RSSI: -59
+02-14 14:41:22.093 D/BleProximity: 📶 RSSI: -61
+02-14 14:41:22.394 D/BleProximity: 📶 RSSI: -58
+02-14 14:41:22.700 D/BleProximity: 📶 RSSI: -58
+02-14 14:41:22.998 D/BleProximity: 📶 RSSI: -56
+02-14 14:41:23.304 D/BleProximity: 📶 RSSI: -57
+02-14 14:41:23.604 D/BleProximity: 📶 RSSI: -57
+02-14 14:41:23.907 D/BleProximity: 📶 RSSI: -57
+02-14 14:41:24.208 D/BleProximity: 📶 RSSI: -57
+02-14 14:41:24.516 D/BleProximity: 📶 RSSI: -59
+02-14 14:41:24.812 D/BleProximity: 📶 RSSI: -59
+02-14 14:41:25.116 D/BleProximity: 📶 RSSI: -59
+02-14 14:41:25.418 D/BleProximity: 📶 RSSI: -61
+02-14 14:41:25.731 D/BleProximity: 📶 RSSI: -53
+02-14 14:41:26.020 D/BleProximity: 📶 RSSI: -64
+02-14 14:41:26.321 D/BleProximity: 📶 RSSI: -58
+02-14 14:41:26.634 D/BleProximity: 📶 RSSI: -55
+02-14 14:41:26.935 D/BleProximity: 📶 RSSI: -51
+02-14 14:41:27.232 D/BleProximity: 📶 RSSI: -51
+02-14 14:41:27.537 D/BleProximity: 📶 RSSI: -51
+02-14 14:41:27.837 D/BleProximity: 📶 RSSI: -52
+02-14 14:41:28.137 D/BleProximity: 📶 RSSI: -52
+02-14 14:41:28.440 D/BleProximity: 📶 RSSI: -51
+02-14 14:41:28.741 D/BleProximity: 📶 RSSI: -52
+02-14 14:41:29.039 D/BleProximity: 📶 RSSI: -51
+02-14 14:41:29.340 D/BleProximity: 📶 RSSI: -52
+02-14 14:41:29.641 D/BleProximity: 📶 RSSI: -53
+02-14 14:41:29.941 D/BleProximity: 📶 RSSI: -53
+02-14 14:41:30.242 D/BleProximity: 📶 RSSI: -52
+02-14 14:41:30.542 D/BleProximity: 📶 RSSI: -54
+02-14 14:41:30.844 D/BleProximity: 📶 RSSI: -52
+02-14 14:41:31.146 D/BleProximity: 📶 RSSI: -52
+02-14 14:41:31.448 D/BleProximity: 📶 RSSI: -52
+02-14 14:41:31.748 D/BleProximity: 📶 RSSI: -52
+02-14 14:41:32.048 D/BleProximity: 📶 RSSI: -52
+02-14 14:41:32.349 D/BleProximity: 📶 RSSI: -52
+02-14 14:41:32.649 D/BleProximity: 📶 RSSI: -53
+02-14 14:41:32.952 D/BleProximity: 📶 RSSI: -52
+02-14 14:41:33.251 D/BleProximity: 📶 RSSI: -53
+02-14 14:41:33.551 D/BleProximity: 📶 RSSI: -52
+02-14 14:41:33.851 D/BleProximity: 📶 RSSI: -55
+02-14 14:41:34.151 D/BleProximity: 📶 RSSI: -53
+02-14 14:41:34.451 D/BleProximity: 📶 RSSI: -53
+02-14 14:41:34.752 D/BleProximity: 📶 RSSI: -58
+02-14 14:41:35.053 D/BleProximity: 📶 RSSI: -63
+02-14 14:41:35.353 D/BleProximity: 📶 RSSI: -57
+02-14 14:41:35.655 D/BleProximity: 📶 RSSI: -58
+02-14 14:41:35.957 D/BleProximity: 📶 RSSI: -60
+02-14 14:41:36.260 D/BleProximity: 📶 RSSI: -53
+02-14 14:41:36.561 D/BleProximity: 📶 RSSI: -52
+02-14 14:41:36.862 D/BleProximity: 📶 RSSI: -49
+02-14 14:41:37.169 D/BleProximity: 📶 RSSI: -48
+02-14 14:41:37.465 D/BleProximity: 📶 RSSI: -46
+02-14 14:41:37.765 D/BleProximity: 📶 RSSI: -52
+02-14 14:41:38.067 D/BleProximity: 📶 RSSI: -47
+02-14 14:41:38.370 D/BleProximity: 📶 RSSI: -47
+02-14 14:41:38.674 D/BleProximity: 📶 RSSI: -47
+02-14 14:41:38.971 D/BleProximity: 📶 RSSI: -56
+02-14 14:41:39.276 D/BleProximity: 📶 RSSI: -58
+02-14 14:41:39.576 D/BleProximity: 📶 RSSI: -61
+02-14 14:41:39.877 D/BleProximity: 📶 RSSI: -62
+02-14 14:41:40.173 D/BleProximity: 📶 RSSI: -61
+02-14 14:41:40.475 D/BleProximity: 📶 RSSI: -61
+02-14 14:41:40.779 D/BleProximity: 📶 RSSI: -60
+02-14 14:41:41.080 D/BleProximity: 📶 RSSI: -61
+02-14 14:41:41.381 D/BleProximity: 📶 RSSI: -62
+02-14 14:41:41.681 D/BleProximity: 📶 RSSI: -58
+02-14 14:41:41.981 D/BleProximity: 📶 RSSI: -58
+02-14 14:41:42.281 D/BleProximity: 📶 RSSI: -59
+02-14 14:41:42.581 D/BleProximity: 📶 RSSI: -59
+02-14 14:41:42.881 D/BleProximity: 📶 RSSI: -59
+02-14 14:41:43.183 D/BleProximity: 📶 RSSI: -60
+02-14 14:41:43.491 D/BleProximity: 📶 RSSI: -60
+02-14 14:41:43.790 D/BleProximity: 📶 RSSI: -59
+02-14 14:41:44.087 D/BleProximity: 📶 RSSI: -57
+02-14 14:41:44.392 D/BleProximity: 📶 RSSI: -56
+02-14 14:41:44.689 D/BleProximity: 📶 RSSI: -57
+02-14 14:41:44.995 D/BleProximity: 📶 RSSI: -56
+02-14 14:41:45.293 D/BleProximity: 📶 RSSI: -58
+02-14 14:41:45.595 D/BleProximity: 📶 RSSI: -59
+02-14 14:41:45.896 D/BleProximity: 📶 RSSI: -59
+02-14 14:41:46.201 D/BleProximity: 📶 RSSI: -57
+02-14 14:41:46.499 D/BleProximity: 📶 RSSI: -60
+02-14 14:41:46.799 D/BleProximity: 📶 RSSI: -61
+02-14 14:41:47.101 D/BleProximity: 📶 RSSI: -61
+02-14 14:41:47.406 D/BleProximity: 📶 RSSI: -61
+02-14 14:41:47.706 D/BleProximity: 📶 RSSI: -62
+02-14 14:41:48.007 D/BleProximity: 📶 RSSI: -61
+02-14 14:41:48.310 D/BleProximity: 📶 RSSI: -58
+02-14 14:41:48.611 D/BleProximity: 📶 RSSI: -56
+02-14 14:41:48.912 D/BleProximity: 📶 RSSI: -57
+02-14 14:41:49.211 D/BleProximity: 📶 RSSI: -58
+02-14 14:41:49.511 D/BleProximity: 📶 RSSI: -64
+02-14 14:41:49.811 D/BleProximity: 📶 RSSI: -62
+02-14 14:41:50.114 D/BleProximity: 📶 RSSI: -61
+02-14 14:41:50.415 D/BleProximity: 📶 RSSI: -61
+02-14 14:41:50.720 D/BleProximity: 📶 RSSI: -58
+02-14 14:41:51.024 D/BleProximity: 📶 RSSI: -59
+02-14 14:41:51.323 D/BleProximity: 📶 RSSI: -58
+02-14 14:41:51.625 D/BleProximity: 📶 RSSI: -60
+02-14 14:41:51.926 D/BleProximity: 📶 RSSI: -58
+02-14 14:41:52.228 D/BleProximity: 📶 RSSI: -59
+02-14 14:41:52.526 D/BleProximity: 📶 RSSI: -57
+02-14 14:41:52.826 D/BleProximity: 📶 RSSI: -56
+02-14 14:41:53.127 D/BleProximity: 📶 RSSI: -56
+02-14 14:41:53.428 D/BleProximity: 📶 RSSI: -59
+02-14 14:41:53.729 D/BleProximity: 📶 RSSI: -61
+02-14 14:41:54.034 D/BleProximity: 📶 RSSI: -54
+02-14 14:41:54.331 D/BleProximity: 📶 RSSI: -61
+02-14 14:41:54.636 D/BleProximity: 📶 RSSI: -59
+02-14 14:41:54.932 D/BleProximity: 📶 RSSI: -55
+02-14 14:41:55.232 D/BleProximity: 📶 RSSI: -59
+02-14 14:41:55.532 D/BleProximity: 📶 RSSI: -64
+02-14 14:41:55.833 D/BleProximity: 📶 RSSI: -64
+02-14 14:41:56.144 D/BleProximity: 📶 RSSI: -61
+02-14 14:41:56.440 D/BleProximity: 📶 RSSI: -60
+02-14 14:41:56.739 D/BleProximity: 📶 RSSI: -60
+02-14 14:41:57.041 D/BleProximity: 📶 RSSI: -58
+02-14 14:41:57.341 D/BleProximity: 📶 RSSI: -59
+02-14 14:41:57.641 D/BleProximity: 📶 RSSI: -57
+02-14 14:41:57.944 D/BleProximity: 📶 RSSI: -56
+02-14 14:41:58.244 D/BleProximity: 📶 RSSI: -56
+02-14 14:41:58.545 D/BleProximity: 📶 RSSI: -56
+02-14 14:41:58.845 D/BleProximity: 📶 RSSI: -58
+02-14 14:41:59.151 D/BleProximity: 📶 RSSI: -56
+02-14 14:41:59.451 D/BleProximity: 📶 RSSI: -61
+02-14 14:41:59.754 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:00.052 D/BleProximity: 📶 RSSI: -59
+02-14 14:42:00.353 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:00.653 D/BleProximity: 📶 RSSI: -59
+02-14 14:42:00.954 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:01.257 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:01.558 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:01.857 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:02.159 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:02.460 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:02.763 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:03.065 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:03.366 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:03.668 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:03.970 D/BleProximity: 📶 RSSI: -59
+02-14 14:42:04.269 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:04.571 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:04.874 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:05.180 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:05.483 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:05.777 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:06.079 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:06.380 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:06.682 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:06.983 D/BleProximity: 📶 RSSI: -59
+02-14 14:42:07.284 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:07.585 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:07.885 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:08.185 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:08.489 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:08.790 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:09.093 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:09.393 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:09.698 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:09.999 D/BleProximity: 📶 RSSI: -59
+02-14 14:42:10.301 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:10.601 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:10.900 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:11.201 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:11.501 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:11.804 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:12.103 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:12.406 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:12.707 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:13.010 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:13.312 D/BleProximity: 📶 RSSI: -59
+02-14 14:42:13.613 D/BleProximity: 📶 RSSI: -60
+02-14 14:42:13.917 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:14.219 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:14.520 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:14.823 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:15.124 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:15.429 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:15.730 D/BleProximity: 📶 RSSI: -55
+02-14 14:42:16.031 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:16.330 D/BleProximity: 📶 RSSI: -53
+02-14 14:42:16.631 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:16.935 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:17.235 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:17.537 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:17.843 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:18.139 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:18.439 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:18.741 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:19.043 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:19.345 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:19.645 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:19.948 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:20.249 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:20.551 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:20.852 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:21.152 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:21.454 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:21.755 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:22.060 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:22.358 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:22.662 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:22.962 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:23.263 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:23.564 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:23.869 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:24.169 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:24.472 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:24.768 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:25.075 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:25.371 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:25.671 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:25.972 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:26.276 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:26.575 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:26.877 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:27.179 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:27.480 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:27.781 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:28.082 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:28.382 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:28.685 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:28.988 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:29.290 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:29.587 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:29.891 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:30.192 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:30.492 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:30.794 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:31.095 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:31.397 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:31.697 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:31.998 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:32.302 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:32.604 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:32.906 D/BleProximity: 📶 RSSI: -55
+02-14 14:42:33.202 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:33.507 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:33.805 D/BleProximity: 📶 RSSI: -59
+02-14 14:42:34.105 D/BleProximity: 📶 RSSI: -59
+02-14 14:42:34.406 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:34.709 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:35.011 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:35.312 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:35.615 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:35.917 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:36.218 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:36.519 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:36.821 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:37.121 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:37.423 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:37.723 D/BleProximity: 📶 RSSI: -59
+02-14 14:42:38.025 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:38.331 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:38.630 D/BleProximity: 📶 RSSI: -59
+02-14 14:42:38.936 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:39.233 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:39.537 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:39.835 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:40.138 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:40.439 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:40.741 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:41.043 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:41.348 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:41.647 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:41.951 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:42.249 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:42.551 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:42.853 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:43.155 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:43.459 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:43.761 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:44.059 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:44.360 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:44.661 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:44.963 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:45.264 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:45.565 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:45.868 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:46.169 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:46.469 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:46.771 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:47.077 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:47.375 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:47.676 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:47.981 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:48.282 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:48.582 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:48.880 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:49.183 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:49.484 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:49.785 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:50.088 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:50.390 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:50.691 D/BleProximity: 📶 RSSI: -55
+02-14 14:42:50.992 D/BleProximity: 📶 RSSI: -54
+02-14 14:42:51.292 D/BleProximity: 📶 RSSI: -53
+02-14 14:42:51.592 D/BleProximity: 📶 RSSI: -53
+02-14 14:42:51.893 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:52.193 D/BleProximity: 📶 RSSI: -58
+02-14 14:42:52.496 D/BleProximity: 📶 RSSI: -55
+02-14 14:42:52.796 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:53.096 D/BleProximity: 📶 RSSI: -55
+02-14 14:42:53.396 D/BleProximity: 📶 RSSI: -54
+02-14 14:42:53.698 D/BleProximity: 📶 RSSI: -53
+02-14 14:42:53.997 D/BleProximity: 📶 RSSI: -53
+02-14 14:42:54.298 D/BleProximity: 📶 RSSI: -55
+02-14 14:42:54.598 D/BleProximity: 📶 RSSI: -53
+02-14 14:42:54.900 D/BleProximity: 📶 RSSI: -54
+02-14 14:42:55.200 D/BleProximity: 📶 RSSI: -55
+02-14 14:42:55.501 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:55.804 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:56.106 D/BleProximity: 📶 RSSI: -55
+02-14 14:42:56.408 D/BleProximity: 📶 RSSI: -54
+02-14 14:42:56.708 D/BleProximity: 📶 RSSI: -55
+02-14 14:42:57.011 D/BleProximity: 📶 RSSI: -55
+02-14 14:42:57.313 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:57.614 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:57.914 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:58.224 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:58.523 D/BleProximity: 📶 RSSI: -54
+02-14 14:42:58.824 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:59.124 D/BleProximity: 📶 RSSI: -56
+02-14 14:42:59.426 D/BleProximity: 📶 RSSI: -57
+02-14 14:42:59.727 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:00.027 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:00.333 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:00.633 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:00.938 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:01.240 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:01.543 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:01.844 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:02.145 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:02.445 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:02.751 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:03.050 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:03.356 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:03.656 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:03.958 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:04.258 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:04.559 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:04.862 D/BleProximity: 📶 RSSI: -52
+02-14 14:43:05.163 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:05.465 D/BleProximity: 📶 RSSI: -57
+02-14 14:43:05.774 D/BleProximity: 📶 RSSI: -57
+02-14 14:43:06.071 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:06.374 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:06.679 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:06.981 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:07.281 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:07.581 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:07.882 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:08.183 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:08.486 D/BleProximity: 📶 RSSI: -59
+02-14 14:43:08.789 D/BleProximity: 📶 RSSI: -57
+02-14 14:43:09.092 D/BleProximity: 📶 RSSI: -57
+02-14 14:43:09.397 D/BleProximity: 📶 RSSI: -57
+02-14 14:43:09.697 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:09.998 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:10.301 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:10.601 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:10.902 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:11.203 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:11.509 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:11.811 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:12.112 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:12.412 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:12.713 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:13.013 D/BleProximity: 📶 RSSI: -53
+02-14 14:43:13.313 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:13.611 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:13.914 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:14.219 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:14.519 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:14.816 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:15.124 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:15.427 D/BleProximity: 📶 RSSI: -53
+02-14 14:43:15.729 D/BleProximity: 📶 RSSI: -53
+02-14 14:43:16.028 D/BleProximity: 📶 RSSI: -53
+02-14 14:43:16.331 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:16.631 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:16.933 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:17.232 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:17.541 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:17.836 D/BleProximity: 📶 RSSI: -53
+02-14 14:43:18.146 D/BleProximity: 📶 RSSI: -52
+02-14 14:43:18.444 D/BleProximity: 📶 RSSI: -52
+02-14 14:43:18.738 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:19.039 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:19.340 D/BleProximity: 📶 RSSI: -53
+02-14 14:43:19.640 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:19.941 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:20.244 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:20.545 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:20.844 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:21.147 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:21.447 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:21.748 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:22.050 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:22.353 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:22.661 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:22.955 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:23.259 D/BleProximity: 📶 RSSI: -53
+02-14 14:43:23.561 D/BleProximity: 📶 RSSI: -53
+02-14 14:43:23.860 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:24.161 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:24.461 D/BleProximity: 📶 RSSI: -53
+02-14 14:43:24.764 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:25.070 D/BleProximity: 📶 RSSI: -53
+02-14 14:43:25.366 D/BleProximity: 📶 RSSI: -53
+02-14 14:43:25.673 D/BleProximity: 📶 RSSI: -52
+02-14 14:43:25.973 D/BleProximity: 📶 RSSI: -52
+02-14 14:43:26.277 D/BleProximity: 📶 RSSI: -52
+02-14 14:43:26.577 D/BleProximity: 📶 RSSI: -52
+02-14 14:43:26.878 D/BleProximity: 📶 RSSI: -52
+02-14 14:43:27.180 D/BleProximity: 📶 RSSI: -53
+02-14 14:43:27.484 D/BleProximity: 📶 RSSI: -53
+02-14 14:43:27.787 D/BleProximity: 📶 RSSI: -52
+02-14 14:43:28.085 D/BleProximity: 📶 RSSI: -52
+02-14 14:43:28.391 D/BleProximity: 📶 RSSI: -52
+02-14 14:43:28.692 D/BleProximity: 📶 RSSI: -52
+02-14 14:43:28.992 D/BleProximity: 📶 RSSI: -52
+02-14 14:43:29.295 D/BleProximity: 📶 RSSI: -52
+02-14 14:43:29.598 D/BleProximity: 📶 RSSI: -53
+02-14 14:43:29.904 D/BleProximity: 📶 RSSI: -57
+02-14 14:43:30.202 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:30.507 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:30.808 D/BleProximity: 📶 RSSI: -52
+02-14 14:43:31.115 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:31.416 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:31.718 D/BleProximity: 📶 RSSI: -57
+02-14 14:43:32.016 D/BleProximity: 📶 RSSI: -53
+02-14 14:43:32.322 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:32.621 D/BleProximity: 📶 RSSI: -57
+02-14 14:43:32.923 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:33.226 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:33.528 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:33.830 D/BleProximity: 📶 RSSI: -53
+02-14 14:43:34.136 D/BleProximity: 📶 RSSI: -58
+02-14 14:43:34.435 D/BleProximity: 📶 RSSI: -60
+02-14 14:43:34.743 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:35.038 D/BleProximity: 📶 RSSI: -58
+02-14 14:43:35.346 D/BleProximity: 📶 RSSI: -57
+02-14 14:43:35.650 D/BleProximity: 📶 RSSI: -57
+02-14 14:43:35.948 D/BleProximity: 📶 RSSI: -58
+02-14 14:43:36.245 D/BleProximity: 📶 RSSI: -59
+02-14 14:43:36.550 D/BleProximity: 📶 RSSI: -60
+02-14 14:43:36.849 D/BleProximity: 📶 RSSI: -58
+02-14 14:43:37.150 D/BleProximity: 📶 RSSI: -58
+02-14 14:43:37.452 D/BleProximity: 📶 RSSI: -58
+02-14 14:43:37.754 D/BleProximity: 📶 RSSI: -57
+02-14 14:43:38.058 D/BleProximity: 📶 RSSI: -58
+02-14 14:43:38.359 D/BleProximity: 📶 RSSI: -57
+02-14 14:43:38.660 D/BleProximity: 📶 RSSI: -57
+02-14 14:43:38.962 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:39.264 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:39.567 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:39.872 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:40.172 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:40.474 D/BleProximity: 📶 RSSI: -58
+02-14 14:43:40.780 D/BleProximity: 📶 RSSI: -57
+02-14 14:43:41.084 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:41.382 D/BleProximity: 📶 RSSI: -57
+02-14 14:43:41.684 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:41.990 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:42.288 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:42.595 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:42.896 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:43.197 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:43.497 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:43.798 D/BleProximity: 📶 RSSI: -57
+02-14 14:43:44.099 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:44.407 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:44.709 D/BleProximity: 📶 RSSI: -53
+02-14 14:43:45.012 D/BleProximity: 📶 RSSI: -60
+02-14 14:43:45.312 D/BleProximity: 📶 RSSI: -63
+02-14 14:43:45.612 D/BleProximity: 📶 RSSI: -68
+02-14 14:43:45.917 D/BleProximity: 📶 RSSI: -68
+02-14 14:43:46.222 D/BleProximity: 📶 RSSI: -65
+02-14 14:43:46.521 D/BleProximity: 📶 RSSI: -67
+02-14 14:43:46.827 D/BleProximity: 📶 RSSI: -65
+02-14 14:43:47.127 D/BleProximity: 📶 RSSI: -65
+02-14 14:43:47.427 D/BleProximity: 📶 RSSI: -69
+02-14 14:43:47.729 D/BleProximity: 📶 RSSI: -68
+02-14 14:43:48.030 D/BleProximity: 📶 RSSI: -66
+02-14 14:43:48.335 D/BleProximity: 📶 RSSI: -65
+02-14 14:43:48.638 D/BleProximity: 📶 RSSI: -61
+02-14 14:43:48.940 D/BleProximity: 📶 RSSI: -62
+02-14 14:43:49.239 D/BleProximity: 📶 RSSI: -61
+02-14 14:43:49.541 D/BleProximity: 📶 RSSI: -62
+02-14 14:43:49.841 D/BleProximity: 📶 RSSI: -63
+02-14 14:43:50.143 D/BleProximity: 📶 RSSI: -63
+02-14 14:43:50.451 D/BleProximity: 📶 RSSI: -64
+02-14 14:43:50.753 D/BleProximity: 📶 RSSI: -63
+02-14 14:43:51.050 D/BleProximity: 📶 RSSI: -63
+02-14 14:43:51.356 D/BleProximity: 📶 RSSI: -63
+02-14 14:43:51.657 D/BleProximity: 📶 RSSI: -64
+02-14 14:43:51.957 D/BleProximity: 📶 RSSI: -64
+02-14 14:43:52.258 D/BleProximity: 📶 RSSI: -65
+02-14 14:43:52.565 D/BleProximity: 📶 RSSI: -64
+02-14 14:43:52.867 D/BleProximity: 📶 RSSI: -65
+02-14 14:43:53.168 D/BleProximity: 📶 RSSI: -64
+02-14 14:43:53.469 D/BleProximity: 📶 RSSI: -63
+02-14 14:43:53.770 D/BleProximity: 📶 RSSI: -63
+02-14 14:43:54.072 D/BleProximity: 📶 RSSI: -62
+02-14 14:43:54.372 D/BleProximity: 📶 RSSI: -61
+02-14 14:43:54.669 D/BleProximity: 📶 RSSI: -62
+02-14 14:43:54.971 D/BleProximity: 📶 RSSI: -61
+02-14 14:43:55.272 D/BleProximity: 📶 RSSI: -59
+02-14 14:43:55.575 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:55.881 D/BleProximity: 📶 RSSI: -53
+02-14 14:43:56.182 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:56.481 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:56.783 D/BleProximity: 📶 RSSI: -53
+02-14 14:43:57.085 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:57.389 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:57.690 D/BleProximity: 📶 RSSI: -56
+02-14 14:43:57.991 D/BleProximity: 📶 RSSI: -57
+02-14 14:43:58.290 D/BleProximity: 📶 RSSI: -55
+02-14 14:43:58.590 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:58.894 D/BleProximity: 📶 RSSI: -53
+02-14 14:43:59.197 D/BleProximity: 📶 RSSI: -54
+02-14 14:43:59.498 D/BleProximity: 📶 RSSI: -52
+02-14 14:43:59.801 D/BleProximity: 📶 RSSI: -52
+02-14 14:44:00.101 D/BleProximity: 📶 RSSI: -52
+02-14 14:44:00.401 D/BleProximity: 📶 RSSI: -51
+02-14 14:44:00.710 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:01.004 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:01.305 D/BleProximity: 📶 RSSI: -58
+02-14 14:44:01.607 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:01.909 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:02.211 D/BleProximity: 📶 RSSI: -53
+02-14 14:44:02.510 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:02.810 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:03.114 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:03.417 D/BleProximity: 📶 RSSI: -53
+02-14 14:44:03.718 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:04.025 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:04.326 D/BleProximity: 📶 RSSI: -58
+02-14 14:44:04.627 D/BleProximity: 📶 RSSI: -58
+02-14 14:44:04.929 D/BleProximity: 📶 RSSI: -58
+02-14 14:44:05.229 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:05.530 D/BleProximity: 📶 RSSI: -55
+02-14 14:44:05.832 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:06.132 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:06.431 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:06.729 D/BleProximity: 📶 RSSI: -55
+02-14 14:44:07.031 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:07.331 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:07.633 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:07.933 D/BleProximity: 📶 RSSI: -59
+02-14 14:44:08.239 D/BleProximity: 📶 RSSI: -59
+02-14 14:44:08.537 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:08.842 D/BleProximity: 📶 RSSI: -59
+02-14 14:44:09.143 D/BleProximity: 📶 RSSI: -58
+02-14 14:44:09.445 D/BleProximity: 📶 RSSI: -58
+02-14 14:44:09.742 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:10.046 D/BleProximity: 📶 RSSI: -58
+02-14 14:44:10.347 D/BleProximity: 📶 RSSI: -58
+02-14 14:44:10.655 D/BleProximity: 📶 RSSI: -58
+02-14 14:44:10.949 D/BleProximity: 📶 RSSI: -58
+02-14 14:44:11.248 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:11.548 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:11.850 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:12.155 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:12.458 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:12.759 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:13.059 D/BleProximity: 📶 RSSI: -58
+02-14 14:44:13.355 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:13.660 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:13.958 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:14.262 D/BleProximity: 📶 RSSI: -58
+02-14 14:44:14.564 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:14.864 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:15.170 D/BleProximity: 📶 RSSI: -58
+02-14 14:44:15.472 D/BleProximity: 📶 RSSI: -58
+02-14 14:44:15.768 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:16.074 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:16.372 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:16.680 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:16.975 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:17.283 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:17.580 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:17.885 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:18.182 D/BleProximity: 📶 RSSI: -59
+02-14 14:44:18.484 D/BleProximity: 📶 RSSI: -58
+02-14 14:44:18.787 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:19.092 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:19.391 D/BleProximity: 📶 RSSI: -53
+02-14 14:44:19.691 D/BleProximity: 📶 RSSI: -53
+02-14 14:44:19.993 D/BleProximity: 📶 RSSI: -53
+02-14 14:44:20.294 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:20.592 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:20.893 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:21.196 D/BleProximity: 📶 RSSI: -53
+02-14 14:44:21.496 D/BleProximity: 📶 RSSI: -53
+02-14 14:44:21.798 D/BleProximity: 📶 RSSI: -53
+02-14 14:44:22.099 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:22.400 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:22.703 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:23.004 D/BleProximity: 📶 RSSI: -53
+02-14 14:44:23.306 D/BleProximity: 📶 RSSI: -53
+02-14 14:44:23.606 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:23.907 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:24.208 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:24.509 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:24.812 D/BleProximity: 📶 RSSI: -53
+02-14 14:44:25.114 D/BleProximity: 📶 RSSI: -53
+02-14 14:44:25.415 D/BleProximity: 📶 RSSI: -53
+02-14 14:44:25.719 D/BleProximity: 📶 RSSI: -55
+02-14 14:44:26.023 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:26.321 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:26.625 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:26.932 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:27.228 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:27.532 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:27.839 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:28.146 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:28.447 D/BleProximity: 📶 RSSI: -53
+02-14 14:44:28.749 D/BleProximity: 📶 RSSI: -53
+02-14 14:44:29.051 D/BleProximity: 📶 RSSI: -52
+02-14 14:44:29.351 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:29.651 D/BleProximity: 📶 RSSI: -53
+02-14 14:44:29.951 D/BleProximity: 📶 RSSI: -52
+02-14 14:44:30.251 D/BleProximity: 📶 RSSI: -53
+02-14 14:44:30.552 D/BleProximity: 📶 RSSI: -52
+02-14 14:44:30.852 D/BleProximity: 📶 RSSI: -52
+02-14 14:44:31.179 D/BleProximity: 📶 RSSI: -53
+02-14 14:44:31.471 D/BleProximity: 📶 RSSI: -53
+02-14 14:44:31.777 D/BleProximity: 📶 RSSI: -52
+02-14 14:44:32.074 D/BleProximity: 📶 RSSI: -52
+02-14 14:44:32.379 D/BleProximity: 📶 RSSI: -52
+02-14 14:44:32.682 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:32.979 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:33.277 D/BleProximity: 📶 RSSI: -58
+02-14 14:44:33.579 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:33.880 D/BleProximity: 📶 RSSI: -59
+02-14 14:44:34.180 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:34.481 D/BleProximity: 📶 RSSI: -59
+02-14 14:44:34.784 D/BleProximity: 📶 RSSI: -58
+02-14 14:44:35.083 D/BleProximity: 📶 RSSI: -58
+02-14 14:44:35.384 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:35.687 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:35.990 D/BleProximity: 📶 RSSI: -55
+02-14 14:44:36.291 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:36.597 D/BleProximity: 📶 RSSI: -55
+02-14 14:44:36.894 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:37.196 D/BleProximity: 📶 RSSI: -55
+02-14 14:44:37.498 D/BleProximity: 📶 RSSI: -55
+02-14 14:44:37.805 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:38.100 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:38.403 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:38.709 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:39.012 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:39.312 D/BleProximity: 📶 RSSI: -58
+02-14 14:44:39.611 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:39.911 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:40.213 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:40.521 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:40.823 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:41.124 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:41.426 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:41.727 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:42.026 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:42.326 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:42.627 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:42.928 D/BleProximity: 📶 RSSI: -59
+02-14 14:44:43.229 D/BleProximity: 📶 RSSI: -59
+02-14 14:44:43.531 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:43.832 D/BleProximity: 📶 RSSI: -59
+02-14 14:44:44.137 D/BleProximity: 📶 RSSI: -59
+02-14 14:44:44.438 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:44.739 D/BleProximity: 📶 RSSI: -55
+02-14 14:44:45.041 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:45.337 D/BleProximity: 📶 RSSI: -61
+02-14 14:44:45.642 D/BleProximity: 📶 RSSI: -54
+02-14 14:44:45.942 D/BleProximity: 📶 RSSI: -59
+02-14 14:44:46.243 D/BleProximity: 📶 RSSI: -62
+02-14 14:44:46.544 D/BleProximity: 📶 RSSI: -64
+02-14 14:44:46.851 D/BleProximity: 📶 RSSI: -63
+02-14 14:44:47.146 D/BleProximity: 📶 RSSI: -63
+02-14 14:44:47.450 D/BleProximity: 📶 RSSI: -59
+02-14 14:44:47.751 D/BleProximity: 📶 RSSI: -61
+02-14 14:44:48.050 D/BleProximity: 📶 RSSI: -60
+02-14 14:44:48.351 D/BleProximity: 📶 RSSI: -59
+02-14 14:44:48.654 D/BleProximity: 📶 RSSI: -63
+02-14 14:44:48.956 D/BleProximity: 📶 RSSI: -62
+02-14 14:44:49.259 D/BleProximity: 📶 RSSI: -61
+02-14 14:44:49.560 D/BleProximity: 📶 RSSI: -60
+02-14 14:44:49.859 D/BleProximity: 📶 RSSI: -61
+02-14 14:44:50.162 D/BleProximity: 📶 RSSI: -60
+02-14 14:44:50.469 D/BleProximity: 📶 RSSI: -60
+02-14 14:44:50.767 D/BleProximity: 📶 RSSI: -59
+02-14 14:44:51.071 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:51.372 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:51.672 D/BleProximity: 📶 RSSI: -58
+02-14 14:44:51.974 D/BleProximity: 📶 RSSI: -59
+02-14 14:44:52.280 D/BleProximity: 📶 RSSI: -58
+02-14 14:44:52.582 D/BleProximity: 📶 RSSI: -59
+02-14 14:44:52.882 D/BleProximity: 📶 RSSI: -64
+02-14 14:44:53.183 D/BleProximity: 📶 RSSI: -64
+02-14 14:44:53.487 D/BleProximity: 📶 RSSI: -59
+02-14 14:44:53.785 D/BleProximity: 📶 RSSI: -61
+02-14 14:44:54.085 D/BleProximity: 📶 RSSI: -65
+02-14 14:44:54.387 D/BleProximity: 📶 RSSI: -59
+02-14 14:44:54.688 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:54.995 D/BleProximity: 📶 RSSI: -59
+02-14 14:44:55.295 D/BleProximity: 📶 RSSI: -59
+02-14 14:44:55.597 D/BleProximity: 📶 RSSI: -60
+02-14 14:44:55.899 D/BleProximity: 📶 RSSI: -62
+02-14 14:44:56.201 D/BleProximity: 📶 RSSI: -62
+02-14 14:44:56.501 D/BleProximity: 📶 RSSI: -63
+02-14 14:44:56.801 D/BleProximity: 📶 RSSI: -60
+02-14 14:44:57.103 D/BleProximity: 📶 RSSI: -59
+02-14 14:44:57.409 D/BleProximity: 📶 RSSI: -58
+02-14 14:44:57.711 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:58.009 D/BleProximity: 📶 RSSI: -56
+02-14 14:44:58.312 D/BleProximity: 📶 RSSI: -58
+02-14 14:44:58.616 D/BleProximity: 📶 RSSI: -58
+02-14 14:44:58.916 D/BleProximity: 📶 RSSI: -58
+02-14 14:44:59.216 D/BleProximity: 📶 RSSI: -57
+02-14 14:44:59.518 D/BleProximity: 📶 RSSI: -60
+02-14 14:44:59.816 D/BleProximity: 📶 RSSI: -56
+02-14 14:45:00.117 D/BleProximity: 📶 RSSI: -56
+02-14 14:45:00.419 D/BleProximity: 📶 RSSI: -56
+02-14 14:45:00.720 D/BleProximity: 📶 RSSI: -55
+02-14 14:45:01.026 D/BleProximity: 📶 RSSI: -54
+02-14 14:45:01.329 D/BleProximity: 📶 RSSI: -54
+02-14 14:45:01.629 D/BleProximity: 📶 RSSI: -55
+02-14 14:45:01.930 D/BleProximity: 📶 RSSI: -54
+02-14 14:45:02.231 D/BleProximity: 📶 RSSI: -54
+02-14 14:45:02.532 D/BleProximity: 📶 RSSI: -54
+02-14 14:45:02.831 D/BleProximity: 📶 RSSI: -54
+02-14 14:45:03.134 D/BleProximity: 📶 RSSI: -53
+02-14 14:45:03.441 D/BleProximity: 📶 RSSI: -53
+02-14 14:45:03.743 D/BleProximity: 📶 RSSI: -54
+02-14 14:45:04.044 D/BleProximity: 📶 RSSI: -54
+02-14 14:45:04.341 D/BleProximity: 📶 RSSI: -53
+02-14 14:45:04.644 D/BleProximity: 📶 RSSI: -53
+02-14 14:45:04.946 D/BleProximity: 📶 RSSI: -55
+02-14 14:45:05.246 D/BleProximity: 📶 RSSI: -53
+02-14 14:45:05.545 D/BleProximity: 📶 RSSI: -54
+02-14 14:45:05.847 D/BleProximity: 📶 RSSI: -53
+02-14 14:45:06.149 D/BleProximity: 📶 RSSI: -53
+02-14 14:45:06.455 D/BleProximity: 📶 RSSI: -54
+02-14 14:45:06.755 D/BleProximity: 📶 RSSI: -55
+02-14 14:45:07.058 D/BleProximity: 📶 RSSI: -54
+02-14 14:45:07.358 D/BleProximity: 📶 RSSI: -54
+02-14 14:45:07.660 D/BleProximity: 📶 RSSI: -55
+02-14 14:45:07.958 D/BleProximity: 📶 RSSI: -55
+02-14 14:45:08.262 D/BleProximity: 📶 RSSI: -56
+02-14 14:45:08.562 D/BleProximity: 📶 RSSI: -53
+02-14 14:45:08.864 D/BleProximity: 📶 RSSI: -53
+02-14 14:45:09.167 D/BleProximity: 📶 RSSI: -54
+02-14 14:45:09.474 D/BleProximity: 📶 RSSI: -54
+02-14 14:45:09.770 D/BleProximity: 📶 RSSI: -54
+02-14 14:45:10.074 D/BleProximity: 📶 RSSI: -54
+02-14 14:45:10.376 D/BleProximity: 📶 RSSI: -54
+02-14 14:45:10.676 D/BleProximity: 📶 RSSI: -53
+02-14 14:45:10.974 D/BleProximity: 📶 RSSI: -54
+02-14 14:45:11.277 D/BleProximity: 📶 RSSI: -55
+02-14 14:45:11.579 D/BleProximity: 📶 RSSI: -54
+02-14 14:45:11.884 D/BleProximity: 📶 RSSI: -53
+02-14 14:45:12.181 D/BleProximity: 📶 RSSI: -54
+02-14 14:45:12.486 D/BleProximity: 📶 RSSI: -54
+02-14 14:45:12.791 D/BleProximity: 📶 RSSI: -53
+02-14 14:45:13.091 D/BleProximity: 📶 RSSI: -51
+02-14 14:45:13.388 D/BleProximity: 📶 RSSI: -53
+02-14 14:45:13.691 D/BleProximity: 📶 RSSI: -52
+02-14 14:45:13.990 D/BleProximity: 📶 RSSI: -51
+02-14 14:45:14.291 D/BleProximity: 📶 RSSI: -53
+02-14 14:45:14.593 D/BleProximity: 📶 RSSI: -52
+02-14 14:45:14.893 D/BleProximity: 📶 RSSI: -53
+02-14 14:45:15.193 D/BleProximity: 📶 RSSI: -52
+02-14 14:45:15.501 D/BleProximity: 📶 RSSI: -56
+02-14 14:45:15.801 D/BleProximity: 📶 RSSI: -56
+02-14 14:45:16.099 D/BleProximity: 📶 RSSI: -58
+02-14 15:53:14.132 D/BleProximity: 📶 RSSI: -57
+02-14 15:53:14.417 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:14.417 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:14.417 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:14.418 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:14.425 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:14.429 D/BleProximity: 📶 RSSI: -57
+02-14 15:53:14.429 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:14.429 D/BleProximity: 原因: 信号均值(-57) > 阈值(-65.0) 
+02-14 15:53:14.430 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:14.476 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: ab8250be91bc
+02-14 15:53:14.477 D/BleProximity: 🔐 处理认证挑战: 616238323530626539316263
+02-14 15:53:14.732 D/BleProximity: 📶 RSSI: -57
+02-14 15:53:15.017 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:15.018 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:15.018 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:15.019 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:15.027 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:15.031 D/BleProximity: 📶 RSSI: -57
+02-14 15:53:15.032 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:15.032 D/BleProximity: 原因: 信号均值(-56) > 阈值(-65.0) 
+02-14 15:53:15.032 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:15.076 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: d924c7a26b6c
+02-14 15:53:15.076 D/BleProximity: 🔐 处理认证挑战: 643932346337613236623663
+02-14 15:53:15.334 D/BleProximity: 📶 RSSI: -60
+02-14 15:53:15.617 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:15.618 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:15.618 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:15.619 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:15.626 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:15.636 D/BleProximity: 📶 RSSI: -59
+02-14 15:53:15.636 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:15.637 D/BleProximity: 原因: 信号均值(-58) > 阈值(-65.0) 
+02-14 15:53:15.637 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:15.676 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 06c63e85451c
+02-14 15:53:15.677 D/BleProximity: 🔐 处理认证挑战: 303663363365383534353163
+02-14 15:53:15.939 D/BleProximity: 📶 RSSI: -59
+02-14 15:53:16.217 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:16.217 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:16.218 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:16.218 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:16.227 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:16.239 D/BleProximity: 📶 RSSI: -59
+02-14 15:53:16.239 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:16.240 D/BleProximity: 原因: 信号均值(-58) > 阈值(-65.0) 
+02-14 15:53:16.240 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:16.277 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 06c63e85451c
+02-14 15:53:16.277 D/BleProximity: 🔐 处理认证挑战: 303663363365383534353163
+02-14 15:53:16.542 D/BleProximity: 📶 RSSI: -60
+02-14 15:53:16.817 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:16.818 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:16.818 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:16.819 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:16.826 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:16.843 D/BleProximity: 📶 RSSI: -59
+02-14 15:53:16.844 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:16.844 D/BleProximity: 原因: 信号均值(-59) > 阈值(-65.0) 
+02-14 15:53:16.844 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:16.907 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 3368b56920cc
+02-14 15:53:16.907 D/BleProximity: 🔐 处理认证挑战: 333336386235363932306363
+02-14 15:53:17.146 D/BleProximity: 📶 RSSI: -60
+02-14 15:53:17.448 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:17.448 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:17.449 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:17.449 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:17.457 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:17.457 D/BleProximity: 📶 RSSI: -57
+02-14 15:53:17.458 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:17.458 D/BleProximity: 原因: 信号均值(-59) > 阈值(-65.0) 
+02-14 15:53:17.458 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:17.506 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 3368b56920cc
+02-14 15:53:17.507 D/BleProximity: 🔐 处理认证挑战: 333336386235363932306363
+02-14 15:53:17.750 D/BleProximity: 📶 RSSI: -57
+02-14 15:53:18.046 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:18.046 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:18.046 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:18.046 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:18.050 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:18.052 D/BleProximity: 📶 RSSI: -57
+02-14 15:53:18.052 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:18.052 D/BleProximity: 原因: 信号均值(-58) > 阈值(-65.0) 
+02-14 15:53:18.052 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:18.105 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 610a2c4cfa7c
+02-14 15:53:18.106 D/BleProximity: 🔐 处理认证挑战: 363130613263346366613763
+02-14 15:53:18.355 D/BleProximity: 📶 RSSI: -56
+02-14 15:53:18.647 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:18.647 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:18.648 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:18.648 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:18.656 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:18.659 D/BleProximity: 📶 RSSI: -58
+02-14 15:53:18.659 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:18.660 D/BleProximity: 原因: 信号均值(-57) > 阈值(-65.0) 
+02-14 15:53:18.660 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:18.721 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 8eaca330d42c
+02-14 15:53:18.721 D/BleProximity: 🔐 处理认证挑战: 386561636133333064343263
+02-14 15:53:18.967 D/BleProximity: 📶 RSSI: -57
+02-14 15:53:19.262 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:19.262 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:19.263 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:19.263 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:19.270 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:19.273 D/BleProximity: 📶 RSSI: -57
+02-14 15:53:19.273 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:19.273 D/BleProximity: 原因: 信号均值(-57) > 阈值(-65.0) 
+02-14 15:53:19.274 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:19.336 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 8eaca330d42c
+02-14 15:53:19.337 D/BleProximity: 🔐 处理认证挑战: 386561636133333064343263
+02-14 15:53:19.577 D/BleProximity: 📶 RSSI: -58
+02-14 15:53:19.878 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:19.878 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:19.879 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:19.879 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:19.888 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:19.888 D/BleProximity: 📶 RSSI: -58
+02-14 15:53:19.888 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:19.889 D/BleProximity: 原因: 信号均值(-57) > 阈值(-65.0) 
+02-14 15:53:19.889 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:19.936 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: bb4e1a13afdc
+02-14 15:53:19.937 D/BleProximity: 🔐 处理认证挑战: 626234653161313361666463
+02-14 15:53:20.181 D/BleProximity: 📶 RSSI: -56
+02-14 15:53:20.476 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:20.477 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:20.477 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:20.477 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:20.486 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:20.490 D/BleProximity: 📶 RSSI: -58
+02-14 15:53:20.490 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:20.490 D/BleProximity: 原因: 信号均值(-57) > 阈值(-65.0) 
+02-14 15:53:20.491 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:20.536 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: bb4e1a13afdc
+02-14 15:53:20.537 D/BleProximity: 🔐 处理认证挑战: 626234653161313361666463
+02-14 15:53:20.791 D/BleProximity: 📶 RSSI: -57
+02-14 15:53:21.077 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:21.078 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:21.078 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:21.078 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:21.087 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:21.091 D/BleProximity: 📶 RSSI: -59
+02-14 15:53:21.091 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:21.092 D/BleProximity: 原因: 信号均值(-57) > 阈值(-65.0) 
+02-14 15:53:21.092 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:21.152 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: e9f091f7898c
+02-14 15:53:21.152 D/BleProximity: 🔐 处理认证挑战: 653966303931663738393863
+02-14 15:53:21.398 D/BleProximity: 📶 RSSI: -56
+02-14 15:53:21.693 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:21.695 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:21.696 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:21.696 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:21.705 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:21.705 D/BleProximity: 📶 RSSI: -54
+02-14 15:53:21.705 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:21.706 D/BleProximity: 原因: 信号均值(-56) > 阈值(-65.0) 
+02-14 15:53:21.706 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:21.767 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 169208db643c
+02-14 15:53:21.768 D/BleProximity: 🔐 处理认证挑战: 313639323038646236343363
+02-14 15:53:21.997 D/BleProximity: 📶 RSSI: -56
+02-14 15:53:22.299 D/BleProximity: 📶 RSSI: -56
+02-14 15:53:22.306 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:22.307 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:22.307 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:22.307 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:22.319 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:22.601 D/BleProximity: 📶 RSSI: -61
+02-14 15:53:22.602 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:22.602 D/BleProximity: 原因: 信号均值(-56) > 阈值(-65.0) 
+02-14 15:53:22.603 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:22.667 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 43347fbe3eec
+02-14 15:53:22.667 D/BleProximity: 🔐 处理认证挑战: 343333343766626533656563
+02-14 15:53:22.903 D/BleProximity: 📶 RSSI: -65
+02-14 15:53:23.207 D/BleProximity: 📶 RSSI: -63
+02-14 15:53:23.208 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:23.208 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:23.209 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:23.209 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:23.218 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:23.513 D/BleProximity: 📶 RSSI: -62
+02-14 15:53:23.513 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:23.513 D/BleProximity: 原因: 信号均值(-61) > 阈值(-65.0) 
+02-14 15:53:23.514 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:23.567 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 70d6f6a2189d
+02-14 15:53:23.567 D/BleProximity: 🔐 处理认证挑战: 373064366636613231383964
+02-14 15:53:23.810 D/BleProximity: 📶 RSSI: -63
+02-14 15:53:24.107 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:24.108 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:24.108 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:24.109 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:24.118 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:24.121 D/BleProximity: 📶 RSSI: -61
+02-14 15:53:24.122 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:24.122 D/BleProximity: 原因: 信号均值(-62) > 阈值(-65.0) 
+02-14 15:53:24.122 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:24.167 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 70d6f6a2189d
+02-14 15:53:24.167 D/BleProximity: 🔐 处理认证挑战: 373064366636613231383964
+02-14 15:53:24.428 D/BleProximity: 📶 RSSI: -62
+02-14 15:53:24.707 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:24.708 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:24.708 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:24.708 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:24.717 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:24.735 D/BleProximity: 📶 RSSI: -62
+02-14 15:53:24.736 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:24.736 D/BleProximity: 原因: 信号均值(-62) > 阈值(-65.0) 
+02-14 15:53:24.737 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:24.797 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 9e786c85f34d
+02-14 15:53:24.797 D/BleProximity: 🔐 处理认证挑战: 396537383663383566333464
+02-14 15:53:25.027 D/BleProximity: 📶 RSSI: -62
+02-14 15:53:25.336 D/BleProximity: 📶 RSSI: -61
+02-14 15:53:25.337 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:25.338 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:25.338 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:25.338 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:25.345 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:25.634 D/BleProximity: 📶 RSSI: -61
+02-14 15:53:25.635 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:25.635 D/BleProximity: 原因: 信号均值(-61) > 阈值(-65.0) 
+02-14 15:53:25.636 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:25.697 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: cb1ae369cdfd
+02-14 15:53:25.697 D/BleProximity: 🔐 处理认证挑战: 636231616533363963646664
+02-14 15:53:25.935 D/BleProximity: 📶 RSSI: -62
+02-14 15:53:26.233 D/BleProximity: 📶 RSSI: -63
+02-14 15:53:26.235 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:26.236 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:26.236 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:26.236 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:26.243 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:26.537 D/BleProximity: 📶 RSSI: -64
+02-14 15:53:26.538 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:26.538 D/BleProximity: 原因: 信号均值(-62) > 阈值(-65.0) 
+02-14 15:53:26.538 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:26.600 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: f8bc5a4ca7ad
+02-14 15:53:26.601 D/BleProximity: 🔐 处理认证挑战: 663862633561346361376164
+02-14 15:53:26.838 D/BleProximity: 📶 RSSI: -61
+02-14 15:53:27.138 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:27.139 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:27.139 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:27.140 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:27.149 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:27.149 D/BleProximity: 📶 RSSI: -63
+02-14 15:53:27.149 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:27.150 D/BleProximity: 原因: 信号均值(-62) > 阈值(-65.0) 
+02-14 15:53:27.151 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:27.196 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: f8bc5a4ca7ad
+02-14 15:53:27.197 D/BleProximity: 🔐 处理认证挑战: 663862633561346361376164
+02-14 15:53:27.442 D/BleProximity: 📶 RSSI: -61
+02-14 15:53:27.738 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:27.739 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:27.739 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:27.739 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:27.749 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:27.753 D/BleProximity: 📶 RSSI: -62
+02-14 15:53:27.753 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:27.753 D/BleProximity: 原因: 信号均值(-62) > 阈值(-65.0) 
+02-14 15:53:27.754 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:27.797 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 265ed130825d
+02-14 15:53:27.797 D/BleProximity: 🔐 处理认证挑战: 323635656431333038323564
+02-14 15:53:28.061 D/BleProximity: 📶 RSSI: -60
+02-14 15:53:28.337 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:28.338 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:28.338 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:28.339 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:28.349 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:28.356 D/BleProximity: 📶 RSSI: -60
+02-14 15:53:28.356 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:28.357 D/BleProximity: 原因: 信号均值(-61) > 阈值(-65.0) 
+02-14 15:53:28.357 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:28.397 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 265ed130825d
+02-14 15:53:28.398 D/BleProximity: 🔐 处理认证挑战: 323635656431333038323564
+02-14 15:53:28.656 D/BleProximity: 📶 RSSI: -54
+02-14 15:53:28.938 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:28.939 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:28.939 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:28.939 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:28.948 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:28.958 D/BleProximity: 📶 RSSI: -56
+02-14 15:53:28.958 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:28.959 D/BleProximity: 原因: 信号均值(-58) > 阈值(-65.0) 
+02-14 15:53:28.959 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:29.007 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 530048145c0d
+02-14 15:53:29.007 D/BleProximity: 🔐 处理认证挑战: 353330303438313435633064
+02-14 15:53:29.259 D/BleProximity: 📶 RSSI: -53
+02-14 15:53:29.551 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:29.551 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:29.552 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:29.552 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:29.557 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:29.561 D/BleProximity: 📶 RSSI: -54
+02-14 15:53:29.561 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:29.561 D/BleProximity: 原因: 信号均值(-55) > 阈值(-65.0) 
+02-14 15:53:29.562 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:29.596 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 80a2bff736bd
+02-14 15:53:29.596 D/BleProximity: 🔐 处理认证挑战: 383061326266663733366264
+02-14 15:53:29.863 D/BleProximity: 📶 RSSI: -54
+02-14 15:53:30.137 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:30.138 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:30.138 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:30.138 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:30.145 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:30.165 D/BleProximity: 📶 RSSI: -53
+02-14 15:53:30.165 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:30.166 D/BleProximity: 原因: 信号均值(-54) > 阈值(-65.0) 
+02-14 15:53:30.166 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:30.226 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 80a2bff736bd
+02-14 15:53:30.226 D/BleProximity: 🔐 处理认证挑战: 383061326266663733366264
+02-14 15:53:30.466 D/BleProximity: 📶 RSSI: -53
+02-14 15:53:30.767 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:30.768 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:30.768 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:30.768 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:30.774 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:30.775 D/BleProximity: 📶 RSSI: -53
+02-14 15:53:30.775 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:30.775 D/BleProximity: 原因: 信号均值(-53) > 阈值(-65.0) 
+02-14 15:53:30.775 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:30.826 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: ae4436db116d
+02-14 15:53:30.826 D/BleProximity: 🔐 处理认证挑战: 616534343336646231313664
+02-14 15:53:31.067 D/BleProximity: 📶 RSSI: -52
+02-14 15:53:31.369 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:31.370 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:31.370 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:31.370 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:31.378 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:31.379 D/BleProximity: 📶 RSSI: -53
+02-14 15:53:31.379 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:31.379 D/BleProximity: 原因: 信号均值(-52) > 阈值(-65.0) 
+02-14 15:53:31.379 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:31.427 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: ae4436db116d
+02-14 15:53:31.427 D/BleProximity: 🔐 处理认证挑战: 616534343336646231313664
+02-14 15:53:31.672 D/BleProximity: 📶 RSSI: -52
+02-14 15:53:31.967 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:31.968 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:31.968 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:31.969 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:31.981 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:31.984 D/BleProximity: 📶 RSSI: -53
+02-14 15:53:31.985 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:31.985 D/BleProximity: 原因: 信号均值(-52) > 阈值(-65.0) 
+02-14 15:53:31.985 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:32.031 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: dbe6adbeeb1d
+02-14 15:53:32.032 D/BleProximity: 🔐 处理认证挑战: 646265366164626565623164
+02-14 15:53:32.291 D/BleProximity: 📶 RSSI: -52
+02-14 15:53:32.568 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:32.568 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:32.568 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:32.569 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:32.578 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:32.589 D/BleProximity: 📶 RSSI: -52
+02-14 15:53:32.589 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:32.589 D/BleProximity: 原因: 信号均值(-52) > 阈值(-65.0) 
+02-14 15:53:32.590 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:32.626 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 088824a2c5cd
+02-14 15:53:32.627 D/BleProximity: 🔐 处理认证挑战: 303838383234613263356364
+02-14 15:53:32.894 D/BleProximity: 📶 RSSI: -52
+02-14 15:53:33.167 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:33.168 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:33.168 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:33.169 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:33.178 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:33.192 D/BleProximity: 📶 RSSI: -53
+02-14 15:53:33.193 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:33.193 D/BleProximity: 原因: 信号均值(-52) > 阈值(-65.0) 
+02-14 15:53:33.193 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:33.268 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 088824a2c5cd
+02-14 15:53:33.269 D/BleProximity: 🔐 处理认证挑战: 303838383234613263356364
+02-14 15:53:33.495 D/BleProximity: 📶 RSSI: -54
+02-14 15:53:33.794 D/BleProximity: 📶 RSSI: -56
+02-14 15:53:33.811 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:33.811 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:33.811 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:33.811 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:33.815 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:34.097 D/BleProximity: 📶 RSSI: -58
+02-14 15:53:34.098 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:34.098 D/BleProximity: 原因: 信号均值(-54) > 阈值(-65.0) 
+02-14 15:53:34.099 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:34.157 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 352a9b85a07d
+02-14 15:53:34.157 D/BleProximity: 🔐 处理认证挑战: 333532613962383561303764
+02-14 15:53:34.398 D/BleProximity: 📶 RSSI: -56
+02-14 15:53:34.697 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:34.698 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:34.698 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:34.698 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:34.705 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:34.706 D/BleProximity: 📶 RSSI: -56
+02-14 15:53:34.706 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:34.706 D/BleProximity: 原因: 信号均值(-56) > 阈值(-65.0) 
+02-14 15:53:34.706 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:34.756 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 63cc12697a2d
+02-14 15:53:34.756 D/BleProximity: 🔐 处理认证挑战: 363363633132363937613264
+02-14 15:53:35.002 D/BleProximity: 📶 RSSI: -55
+02-14 15:53:35.297 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:35.297 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:35.297 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:35.298 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:35.305 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:35.308 D/BleProximity: 📶 RSSI: -56
+02-14 15:53:35.309 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:35.309 D/BleProximity: 原因: 信号均值(-56) > 阈值(-65.0) 
+02-14 15:53:35.309 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:35.357 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 63cc12697a2d
+02-14 15:53:35.357 D/BleProximity: 🔐 处理认证挑战: 363363633132363937613264
+02-14 15:53:35.611 D/BleProximity: 📶 RSSI: -55
+02-14 15:53:35.897 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:35.898 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:35.898 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:35.898 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:35.906 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:35.913 D/BleProximity: 📶 RSSI: -55
+02-14 15:53:35.913 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:35.913 D/BleProximity: 原因: 信号均值(-55) > 阈值(-65.0) 
+02-14 15:53:35.914 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:35.957 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 906e894d54dd
+02-14 15:53:35.957 D/BleProximity: 🔐 处理认证挑战: 393036653839346435346464
+02-14 15:53:36.219 D/BleProximity: 📶 RSSI: -55
+02-14 15:53:36.497 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:36.497 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:36.497 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:36.498 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:36.504 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:36.534 D/BleProximity: 📶 RSSI: -55
+02-14 15:53:36.535 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:36.535 D/BleProximity: 原因: 信号均值(-55) > 阈值(-65.0) 
+02-14 15:53:36.535 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:36.587 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: bd1000302f8d
+02-14 15:53:36.588 D/BleProximity: 🔐 处理认证挑战: 626431303030333032663864
+02-14 15:53:36.824 D/BleProximity: 📶 RSSI: -55
+02-14 15:53:37.126 D/BleProximity: 📶 RSSI: -54
+02-14 15:53:37.127 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:37.127 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:37.127 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:37.127 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:37.133 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:37.432 D/BleProximity: 📶 RSSI: -56
+02-14 15:53:37.433 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:37.433 D/BleProximity: 原因: 信号均值(-55) > 阈值(-65.0) 
+02-14 15:53:37.434 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:37.487 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: bd1000302f8d
+02-14 15:53:37.488 D/BleProximity: 🔐 处理认证挑战: 626431303030333032663864
+02-14 15:53:37.728 D/BleProximity: 📶 RSSI: -60
+02-14 15:53:38.029 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:38.030 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:38.030 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:38.031 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:38.040 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:38.040 D/BleProximity: 📶 RSSI: -55
+02-14 15:53:38.040 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:38.041 D/BleProximity: 原因: 信号均值(-56) > 阈值(-65.0) 
+02-14 15:53:38.041 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:38.087 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: ebb27714093d
+02-14 15:53:38.087 D/BleProximity: 🔐 处理认证挑战: 656262323737313430393364
+02-14 15:53:38.333 D/BleProximity: 📶 RSSI: -55
+02-14 15:53:38.627 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:38.627 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:38.627 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:38.627 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:38.633 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:38.635 D/BleProximity: 📶 RSSI: -56
+02-14 15:53:38.635 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:38.635 D/BleProximity: 原因: 信号均值(-56) > 阈值(-65.0) 
+02-14 15:53:38.635 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:38.686 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 1854eef7e3ee
+02-14 15:53:38.687 D/BleProximity: 🔐 处理认证挑战: 313835346565663765336565
+02-14 15:53:38.936 D/BleProximity: 📶 RSSI: -56
+02-14 15:53:39.227 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:39.227 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:39.227 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:39.227 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:39.233 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:39.237 D/BleProximity: 📶 RSSI: -56
+02-14 15:53:39.237 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:39.237 D/BleProximity: 原因: 信号均值(-55) > 阈值(-65.0) 
+02-14 15:53:39.237 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:39.286 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 1854eef7e3ee
+02-14 15:53:39.286 D/BleProximity: 🔐 处理认证挑战: 313835346565663765336565
+02-14 15:53:39.539 D/BleProximity: 📶 RSSI: -55
+02-14 15:53:39.826 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:39.827 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:39.827 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:39.827 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:39.830 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:39.839 D/BleProximity: 📶 RSSI: -53
+02-14 15:53:39.839 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:39.839 D/BleProximity: 原因: 信号均值(-55) > 阈值(-65.0) 
+02-14 15:53:39.839 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:39.886 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 45f665dbbe9e
+02-14 15:53:39.886 D/BleProximity: 🔐 处理认证挑战: 343566363635646262653965
+02-14 15:53:40.147 D/BleProximity: ➕ 添加监听器: callback_10_1771055620147 (总数: 2)
+02-14 15:53:40.147 D/ControlActivity: ➕ 添加监听器: callback_10_1771055620147 (总数: 2)
+02-14 15:53:40.147 D/ControlActivity: ✅ 蓝牙回调注册成功 ID: callback_10_1771055620147
+02-14 15:53:40.148 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-14 15:53:40.149 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-14 15:53:40.149 D/MG_NET_LOG: │ Method: POST
+02-14 15:53:40.149 D/MG_NET_LOG: │ Params: data={"vin":"LSJW94U91NG069728","appId":"Roewe","brandCode":"1","nonce":"3DFDC65278834D538D27F77DAFE2D07A","timestamp":"1771055620144","token":"a6a6e6f150d64dbe945ae5ea01c45860-prod_SAIC"}
+02-14 15:53:40.149 D/MG_NET_LOG: └──────────────────────
+02-14 15:53:40.171 D/BleProximity: 📶 RSSI: -53
+02-14 15:53:40.426 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:40.427 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:40.427 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:40.427 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:40.427 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:40.427 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:40.427 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:40.434 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:40.449 D/BleProximity: 📶 RSSI: -53
+02-14 15:53:40.449 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:40.449 D/BleProximity: 原因: 信号均值(-54) > 阈值(-65.0) 
+02-14 15:53:40.450 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:40.450 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:40.486 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 45f665dbbe9e
+02-14 15:53:40.486 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 45f665dbbe9e
+02-14 15:53:40.486 D/BleProximity: 🔐 处理认证挑战: 343566363635646262653965
+02-14 15:53:40.486 D/ControlActivity: 🔐 处理认证挑战: 343566363635646262653965
+02-14 15:53:40.755 D/BleProximity: 📶 RSSI: -56
+02-14 15:53:41.027 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:41.028 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:41.028 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:41.029 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:41.029 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:41.029 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:41.029 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:41.040 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:41.053 D/BleProximity: 📶 RSSI: -56
+02-14 15:53:41.054 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:41.054 D/BleProximity: 原因: 信号均值(-54) > 阈值(-65.0) 
+02-14 15:53:41.055 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:41.055 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:41.117 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 7398dcbe984e
+02-14 15:53:41.117 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 7398dcbe984e
+02-14 15:53:41.118 D/BleProximity: 🔐 处理认证挑战: 373339386463626539383465
+02-14 15:53:41.118 D/ControlActivity: 🔐 处理认证挑战: 373339386463626539383465
+02-14 15:53:41.353 D/BleProximity: 📶 RSSI: -56
+02-14 15:53:41.397 D/MG_NET_LOG: ┌────── 响应结束 (200 / 1248ms) ──────
+02-14 15:53:41.397 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-14 15:53:41.397 D/MG_NET_LOG: │ Result: {"req_id":"19c5b2424545be729ef","data":{"vehicle_position":{"satellites":7,"altitude":1102,"gps_status":2,"latitude":"39.307113","update_time":1771054964000,"gps_time":1771055602000,"hdop":7,"longitude":"112.405986"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":240,"battery_pack_fault_status":null,"charge_door_position_status":null,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":3,"driving_range":349,"battery_pack_range":0,"power_mode":0,"engine_status":0,"exterior_temperature":-3,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":56,"localfront_left_seat_heat_level":null,"interior_pm25":508,"odometer":29340,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":119,"chrgng_rmnng_time_v":null,"exterior_pm25":508,"front_left_tyre_pressure":240,"charge_status":0,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":236,"battery_pack_prc":0,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":349,"current_journey_id":0,"pwr_lftgt_pos_v":null,"interior_temperature":15,"localfront_right_seat_heat_level":null,"heading":179,"battery_alarm_value":[50,200,500],"update_time":1771043868000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":228,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":700,"fuel_level_disp":0,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1771054964000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1771043868000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-14 15:53:41.398 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-14 15:53:41.620 D/BleProximity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_8_1771055621619 (总数: 2)
+02-14 15:53:41.620 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_8_1771055621619 (总数: 2)
+02-14 15:53:41.661 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:41.661 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:41.661 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:41.662 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:41.662 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:41.662 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:41.662 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:41.670 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:41.671 D/BleProximity: 📶 RSSI: -57
+02-14 15:53:41.671 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:41.671 D/BleProximity: 原因: 信号均值(-55) > 阈值(-65.0) 
+02-14 15:53:41.671 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:41.671 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:41.716 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: a03a53a272fe
+02-14 15:53:41.716 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: a03a53a272fe
+02-14 15:53:41.716 D/BleProximity: 🔐 处理认证挑战: 613033613533613237326665
+02-14 15:53:41.717 D/ControlActivity: 🔐 处理认证挑战: 613033613533613237326665
+02-14 15:53:41.959 D/BleProximity: 📶 RSSI: -57
+02-14 15:53:42.258 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:42.259 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:42.259 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:42.260 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:42.260 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:42.261 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:42.261 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:42.269 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:42.269 D/BleProximity: 📶 RSSI: -57
+02-14 15:53:42.269 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:42.269 D/BleProximity: 原因: 信号均值(-56) > 阈值(-65.0) 
+02-14 15:53:42.269 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:42.270 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:42.317 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: a03a53a272fe
+02-14 15:53:42.318 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: a03a53a272fe
+02-14 15:53:42.318 D/BleProximity: 🔐 处理认证挑战: 613033613533613237326665
+02-14 15:53:42.318 D/ControlActivity: 🔐 处理认证挑战: 613033613533613237326665
+02-14 15:53:42.562 D/BleProximity: 📶 RSSI: -57
+02-14 15:53:42.857 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:42.858 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:42.859 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:42.859 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:42.860 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:42.860 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:42.860 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:42.868 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:42.871 D/BleProximity: 📶 RSSI: -57
+02-14 15:53:42.871 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:42.871 D/BleProximity: 原因: 信号均值(-57) > 阈值(-65.0) 
+02-14 15:53:42.872 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:42.872 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:42.918 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: cddcca864dae
+02-14 15:53:42.919 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: cddcca864dae
+02-14 15:53:42.919 D/BleProximity: 🔐 处理认证挑战: 636464636361383634646165
+02-14 15:53:42.919 D/ControlActivity: 🔐 处理认证挑战: 636464636361383634646165
+02-14 15:53:43.179 D/BleProximity: 📶 RSSI: -56
+02-14 15:53:43.457 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:43.458 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:43.458 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:43.459 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:43.459 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:43.460 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:43.460 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:43.471 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:43.475 D/BleProximity: 📶 RSSI: -56
+02-14 15:53:43.475 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:43.476 D/BleProximity: 原因: 信号均值(-56) > 阈值(-65.0) 
+02-14 15:53:43.476 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:43.476 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:43.516 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: cddcca864dae
+02-14 15:53:43.516 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: cddcca864dae
+02-14 15:53:43.516 D/BleProximity: 🔐 处理认证挑战: 636464636361383634646165
+02-14 15:53:43.516 D/ControlActivity: 🔐 处理认证挑战: 636464636361383634646165
+02-14 15:53:43.779 D/BleProximity: 📶 RSSI: -56
+02-14 15:53:44.057 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:44.057 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:44.057 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:44.057 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:44.057 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:44.058 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:44.058 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:44.065 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:44.078 D/BleProximity: 📶 RSSI: -56
+02-14 15:53:44.078 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:44.078 D/BleProximity: 原因: 信号均值(-56) > 阈值(-65.0) 
+02-14 15:53:44.079 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:44.079 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:44.117 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: fa7e4069275e
+02-14 15:53:44.117 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: fa7e4069275e
+02-14 15:53:44.117 D/BleProximity: 🔐 处理认证挑战: 666137653430363932373565
+02-14 15:53:44.118 D/ControlActivity: 🔐 处理认证挑战: 666137653430363932373565
+02-14 15:53:44.382 D/BleProximity: 📶 RSSI: -56
+02-14 15:53:44.560 D/BleProximity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_8_1771055621619 (剩余: 1)
+02-14 15:53:44.561 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_8_1771055621619 (剩余: 1)
+02-14 15:53:44.656 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:44.657 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:44.657 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:44.657 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:44.657 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:44.658 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:44.658 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:44.666 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:44.680 D/BleProximity: 📶 RSSI: -58
+02-14 15:53:44.680 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:44.681 D/BleProximity: 原因: 信号均值(-56) > 阈值(-65.0) 
+02-14 15:53:44.681 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:44.681 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:44.747 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 2820b74d010e
+02-14 15:53:44.747 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 2820b74d010e
+02-14 15:53:44.747 D/BleProximity: 🔐 处理认证挑战: 323832306237346430313065
+02-14 15:53:44.747 D/ControlActivity: 🔐 处理认证挑战: 323832306237346430313065
+02-14 15:53:44.982 D/BleProximity: 📶 RSSI: -58
+02-14 15:53:45.283 D/BleProximity: 📶 RSSI: -57
+02-14 15:53:45.285 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:45.285 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:45.285 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:45.285 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:45.285 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:45.285 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:45.285 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:45.290 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:45.584 D/BleProximity: 📶 RSSI: -57
+02-14 15:53:45.584 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:45.584 D/BleProximity: 原因: 信号均值(-57) > 阈值(-65.0) 
+02-14 15:53:45.584 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:45.584 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:45.646 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 55c22e30dcbe
+02-14 15:53:45.646 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 55c22e30dcbe
+02-14 15:53:45.646 D/BleProximity: 🔐 处理认证挑战: 353563323265333064636265
+02-14 15:53:45.646 D/ControlActivity: 🔐 处理认证挑战: 353563323265333064636265
+02-14 15:53:45.885 D/BleProximity: 📶 RSSI: -55
+02-14 15:53:46.187 D/BleProximity: 📶 RSSI: -55
+02-14 15:53:46.187 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:46.188 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:46.188 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:46.188 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:46.188 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:46.188 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:46.189 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:46.198 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:46.486 D/BleProximity: 📶 RSSI: -52
+02-14 15:53:46.486 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:46.486 D/BleProximity: 原因: 信号均值(-55) > 阈值(-65.0) 
+02-14 15:53:46.487 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:46.487 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:46.546 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 55c22e30dcbe
+02-14 15:53:46.546 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 55c22e30dcbe
+02-14 15:53:46.546 D/BleProximity: 🔐 处理认证挑战: 353563323265333064636265
+02-14 15:53:46.546 D/ControlActivity: 🔐 处理认证挑战: 353563323265333064636265
+02-14 15:53:46.794 D/BleProximity: 📶 RSSI: -50
+02-14 15:53:47.088 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:47.088 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:47.088 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:47.089 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:47.089 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:47.090 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:47.091 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:47.098 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:47.098 D/BleProximity: 📶 RSSI: -52
+02-14 15:53:47.099 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:47.099 D/BleProximity: 原因: 信号均值(-52) > 阈值(-65.0) 
+02-14 15:53:47.099 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:47.099 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:47.147 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 8264a514b66e
+02-14 15:53:47.147 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 8264a514b66e
+02-14 15:53:47.148 D/BleProximity: 🔐 处理认证挑战: 383236346135313462363665
+02-14 15:53:47.148 D/ControlActivity: 🔐 处理认证挑战: 383236346135313462363665
+02-14 15:53:47.392 D/BleProximity: 📶 RSSI: -54
+02-14 15:53:47.687 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:47.688 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:47.688 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:47.688 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:47.689 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:47.689 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:47.689 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:47.699 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:47.702 D/BleProximity: 📶 RSSI: -54
+02-14 15:53:47.703 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:47.703 D/BleProximity: 原因: 信号均值(-52) > 阈值(-65.0) 
+02-14 15:53:47.703 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:47.703 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:47.747 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: b0061cf7901e
+02-14 15:53:47.747 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: b0061cf7901e
+02-14 15:53:47.748 D/BleProximity: 🔐 处理认证挑战: 623030363163663739303165
+02-14 15:53:47.748 D/ControlActivity: 🔐 处理认证挑战: 623030363163663739303165
+02-14 15:53:48.009 D/BleProximity: 📶 RSSI: -53
+02-14 15:53:48.288 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:48.288 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:48.288 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:48.288 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:48.289 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:48.289 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:48.289 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:48.299 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:48.316 D/BleProximity: 📶 RSSI: -53
+02-14 15:53:48.316 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:48.316 D/BleProximity: 原因: 信号均值(-53) > 阈值(-65.0) 
+02-14 15:53:48.316 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:48.317 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:48.377 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: b0061cf7901e
+02-14 15:53:48.377 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: b0061cf7901e
+02-14 15:53:48.378 D/BleProximity: 🔐 处理认证挑战: 623030363163663739303165
+02-14 15:53:48.378 D/ControlActivity: 🔐 处理认证挑战: 623030363163663739303165
+02-14 15:53:48.618 D/BleProximity: 📶 RSSI: -54
+02-14 15:53:48.918 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:48.918 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:48.919 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:48.919 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:48.919 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:48.920 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:48.920 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:48.930 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:48.930 D/BleProximity: 📶 RSSI: -54
+02-14 15:53:48.931 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:48.931 D/BleProximity: 原因: 信号均值(-53) > 阈值(-65.0) 
+02-14 15:53:48.931 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:48.931 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:48.977 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: dda893db6bce
+02-14 15:53:48.977 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: dda893db6bce
+02-14 15:53:48.977 D/BleProximity: 🔐 处理认证挑战: 646461383933646236626365
+02-14 15:53:48.977 D/ControlActivity: 🔐 处理认证挑战: 646461383933646236626365
+02-14 15:53:49.222 D/BleProximity: 📶 RSSI: -53
+02-14 15:53:49.517 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:49.518 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:49.518 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:49.519 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:49.519 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:49.519 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:49.519 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:49.529 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:49.533 D/BleProximity: 📶 RSSI: -54
+02-14 15:53:49.534 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:49.534 D/BleProximity: 原因: 信号均值(-53) > 阈值(-65.0) 
+02-14 15:53:49.535 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:49.535 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:49.592 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 0a4a0abf457e
+02-14 15:53:49.592 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 0a4a0abf457e
+02-14 15:53:49.593 D/BleProximity: 🔐 处理认证挑战: 306134613061626634353765
+02-14 15:53:49.593 D/ControlActivity: 🔐 处理认证挑战: 306134613061626634353765
+02-14 15:53:49.836 D/BleProximity: 📶 RSSI: -52
+02-14 15:53:50.132 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:50.133 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:50.133 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:50.133 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:50.133 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:50.134 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:50.134 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:50.143 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:50.147 D/BleProximity: 📶 RSSI: -52
+02-14 15:53:50.147 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:50.147 D/BleProximity: 原因: 信号均值(-53) > 阈值(-65.0) 
+02-14 15:53:50.148 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:50.148 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:50.207 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 0a4a0abf457e
+02-14 15:53:50.207 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 0a4a0abf457e
+02-14 15:53:50.207 D/BleProximity: 🔐 处理认证挑战: 306134613061626634353765
+02-14 15:53:50.208 D/ControlActivity: 🔐 处理认证挑战: 306134613061626634353765
+02-14 15:53:50.449 D/BleProximity: 📶 RSSI: -51
+02-14 15:53:50.750 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:50.751 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:50.751 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:50.751 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:50.752 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:50.752 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:50.752 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:50.764 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:50.765 D/BleProximity: 📶 RSSI: -51
+02-14 15:53:50.765 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:50.766 D/BleProximity: 原因: 信号均值(-52) > 阈值(-65.0) 
+02-14 15:53:50.766 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:50.766 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:50.806 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 38ec81a21f2e
+02-14 15:53:50.806 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 38ec81a21f2e
+02-14 15:53:50.806 D/BleProximity: 🔐 处理认证挑战: 333865633831613231663265
+02-14 15:53:50.806 D/ControlActivity: 🔐 处理认证挑战: 333865633831613231663265
+02-14 15:53:51.054 D/BleProximity: 📶 RSSI: -51
+02-14 15:53:51.348 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:51.348 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:51.348 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:51.349 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:51.349 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:51.349 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:51.350 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:51.360 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:51.363 D/BleProximity: 📶 RSSI: -49
+02-14 15:53:51.363 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:51.364 D/BleProximity: 原因: 信号均值(-50) > 阈值(-65.0) 
+02-14 15:53:51.364 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:51.364 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:51.406 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 38ec81a21f2e
+02-14 15:53:51.407 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 38ec81a21f2e
+02-14 15:53:51.407 D/BleProximity: 🔐 处理认证挑战: 333865633831613231663265
+02-14 15:53:51.407 D/ControlActivity: 🔐 处理认证挑战: 333865633831613231663265
+02-14 15:53:51.670 D/BleProximity: 📶 RSSI: -44
+02-14 15:53:51.949 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:51.949 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:51.949 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:51.950 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:51.950 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:51.950 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:51.951 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:51.960 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:51.967 D/BleProximity: 📶 RSSI: -46
+02-14 15:53:51.968 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:51.968 D/BleProximity: 原因: 信号均值(-48) > 阈值(-65.0) 
+02-14 15:53:51.968 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:51.968 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:52.007 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 658ef886fade
+02-14 15:53:52.007 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 658ef886fade
+02-14 15:53:52.008 D/BleProximity: 🔐 处理认证挑战: 363538656638383666616465
+02-14 15:53:52.008 D/ControlActivity: 🔐 处理认证挑战: 363538656638383666616465
+02-14 15:53:52.272 D/BleProximity: 📶 RSSI: -50
+02-14 15:53:52.547 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:52.547 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:52.547 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:52.547 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:52.547 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:52.547 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:52.547 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:52.552 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:52.571 D/BleProximity: 📶 RSSI: -52
+02-14 15:53:52.571 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:52.572 D/BleProximity: 原因: 信号均值(-48) > 阈值(-65.0) 
+02-14 15:53:52.572 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:52.572 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:52.606 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 92306f69d48e
+02-14 15:53:52.607 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 92306f69d48e
+02-14 15:53:52.607 D/BleProximity: 🔐 处理认证挑战: 393233303666363964343865
+02-14 15:53:52.607 D/ControlActivity: 🔐 处理认证挑战: 393233303666363964343865
+02-14 15:53:52.873 D/BleProximity: 📶 RSSI: -55
+02-14 15:53:53.148 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:53.148 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:53.148 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:53.148 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:53.148 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:53.149 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:53.149 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:53.154 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:53.174 D/BleProximity: 📶 RSSI: -55
+02-14 15:53:53.175 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:53.175 D/BleProximity: 原因: 信号均值(-51) > 阈值(-65.0) 
+02-14 15:53:53.175 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:53.176 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:53.237 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 92306f69d48e
+02-14 15:53:53.237 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 92306f69d48e
+02-14 15:53:53.237 D/BleProximity: 🔐 处理认证挑战: 393233303666363964343865
+02-14 15:53:53.237 D/ControlActivity: 🔐 处理认证挑战: 393233303666363964343865
+02-14 15:53:53.474 D/BleProximity: 📶 RSSI: -56
+02-14 15:53:53.787 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:53.788 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:53.788 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:53.788 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:53.789 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:53.789 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:53.789 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:53.801 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:53.802 D/BleProximity: 📶 RSSI: -55
+02-14 15:53:53.802 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:53.802 D/BleProximity: 原因: 信号均值(-54) > 阈值(-65.0) 
+02-14 15:53:53.802 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:53.803 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:53.867 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: bfd2e64dae3f
+02-14 15:53:53.867 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: bfd2e64dae3f
+02-14 15:53:53.868 D/BleProximity: 🔐 处理认证挑战: 626664326536346461653366
+02-14 15:53:53.868 D/ControlActivity: 🔐 处理认证挑战: 626664326536346461653366
+02-14 15:53:54.087 D/BleProximity: 📶 RSSI: -55
+02-14 15:53:54.385 D/BleProximity: 📶 RSSI: -54
+02-14 15:53:54.406 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:54.406 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:54.406 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:54.406 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:54.406 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:54.406 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:54.406 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:54.416 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:54.687 D/BleProximity: 📶 RSSI: -53
+02-14 15:53:54.687 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:54.687 D/BleProximity: 原因: 信号均值(-54) > 阈值(-65.0) 
+02-14 15:53:54.687 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:54.688 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:54.736 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: ed745d3089ef
+02-14 15:53:54.737 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: ed745d3089ef
+02-14 15:53:54.737 D/BleProximity: 🔐 处理认证挑战: 656437343564333038396566
+02-14 15:53:54.737 D/ControlActivity: 🔐 处理认证挑战: 656437343564333038396566
+02-14 15:53:54.984 D/BleProximity: 📶 RSSI: -53
+02-14 15:53:55.277 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:55.277 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:55.278 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:55.278 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:55.278 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:55.278 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:55.279 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:55.288 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:55.292 D/BleProximity: 📶 RSSI: -55
+02-14 15:53:55.293 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:55.293 D/BleProximity: 原因: 信号均值(-54) > 阈值(-65.0) 
+02-14 15:53:55.293 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:55.293 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:55.339 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: ed745d3089ef
+02-14 15:53:55.340 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: ed745d3089ef
+02-14 15:53:55.340 D/BleProximity: 🔐 处理认证挑战: 656437343564333038396566
+02-14 15:53:55.340 D/ControlActivity: 🔐 处理认证挑战: 656437343564333038396566
+02-14 15:53:55.595 D/BleProximity: 📶 RSSI: -54
+02-14 15:53:55.877 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:55.878 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:55.878 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:55.878 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:55.879 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:55.879 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:55.879 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:55.891 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:55.895 D/BleProximity: 📶 RSSI: -53
+02-14 15:53:55.895 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:55.895 D/BleProximity: 原因: 信号均值(-53) > 阈值(-65.0) 
+02-14 15:53:55.895 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:55.895 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:55.936 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 1a16d414639f
+02-14 15:53:55.937 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 1a16d414639f
+02-14 15:53:55.937 D/BleProximity: 🔐 处理认证挑战: 316131366434313436333966
+02-14 15:53:55.938 D/ControlActivity: 🔐 处理认证挑战: 316131366434313436333966
+02-14 15:53:56.199 D/BleProximity: 📶 RSSI: -53
+02-14 15:53:56.477 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:56.477 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:56.477 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:56.477 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:56.477 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:56.478 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:56.478 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:56.484 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:56.498 D/BleProximity: 📶 RSSI: -53
+02-14 15:53:56.498 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:56.498 D/BleProximity: 原因: 信号均值(-53) > 阈值(-65.0) 
+02-14 15:53:56.498 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:56.498 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:56.536 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 1a16d414639f
+02-14 15:53:56.536 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 1a16d414639f
+02-14 15:53:56.536 D/BleProximity: 🔐 处理认证挑战: 316131366434313436333966
+02-14 15:53:56.536 D/ControlActivity: 🔐 处理认证挑战: 316131366434313436333966
+02-14 15:53:56.804 D/BleProximity: 📶 RSSI: -53
+02-14 15:53:57.077 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:57.077 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:57.077 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:57.077 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:57.077 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:57.077 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:57.078 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:57.083 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:57.103 D/BleProximity: 📶 RSSI: -53
+02-14 15:53:57.104 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:57.104 D/BleProximity: 原因: 信号均值(-53) > 阈值(-65.0) 
+02-14 15:53:57.104 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:57.104 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:57.167 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 47b84bf83d4f
+02-14 15:53:57.167 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 47b84bf83d4f
+02-14 15:53:57.168 D/BleProximity: 🔐 处理认证挑战: 343762383462663833643466
+02-14 15:53:57.168 D/ControlActivity: 🔐 处理认证挑战: 343762383462663833643466
+02-14 15:53:57.403 D/BleProximity: 📶 RSSI: -52
+02-14 15:53:57.707 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:57.708 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:57.708 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:57.708 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:57.708 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:57.708 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:57.709 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:57.717 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:57.718 D/BleProximity: 📶 RSSI: -52
+02-14 15:53:57.718 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:57.718 D/BleProximity: 原因: 信号均值(-52) > 阈值(-65.0) 
+02-14 15:53:57.718 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:57.719 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:57.766 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 755bc2db18ff
+02-14 15:53:57.767 D/ControlActivity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 755bc2db18ff
+02-14 15:53:57.767 D/BleProximity: 🔐 处理认证挑战: 373535626332646231386666
+02-14 15:53:57.767 D/ControlActivity: 🔐 处理认证挑战: 373535626332646231386666
+02-14 15:53:58.008 D/BleProximity: 📶 RSSI: -52
+02-14 15:53:58.306 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:58.307 D/ControlActivity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:58.307 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:58.307 D/ControlActivity: 解锁失败原因: 01
+02-14 15:53:58.307 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:58.307 D/ControlActivity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:58.307 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:58.312 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:58.312 D/BleProximity: 📶 RSSI: -53
+02-14 15:53:58.312 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:58.312 D/BleProximity: 原因: 信号均值(-52) > 阈值(-65.0) 
+02-14 15:53:58.312 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:58.312 D/ControlActivity: 📤 发送指令: 解锁车门
+02-14 15:53:58.324 D/BleProximity: ➖ 移除监听器: callback_10_1771055620147 
+02-14 15:53:58.324 D/ControlActivity: ➖ 移除监听器: callback_10_1771055620147 
+02-14 15:53:58.404 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 755bc2db18ff
+02-14 15:53:58.404 D/BleProximity: 🔐 处理认证挑战: 373535626332646231386666
+02-14 15:53:58.609 D/BleProximity: 📶 RSSI: -53
+02-14 15:53:58.914 D/BleProximity: 📶 RSSI: -54
+02-14 15:53:58.936 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:58.937 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:58.937 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:58.937 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:58.945 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:59.215 D/BleProximity: 📶 RSSI: -54
+02-14 15:53:59.216 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:59.216 D/BleProximity: 原因: 信号均值(-53) > 阈值(-65.0) 
+02-14 15:53:59.217 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:59.266 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: a2fd39bff2af
+02-14 15:53:59.267 D/BleProximity: 🔐 处理认证挑战: 613266643339626666326166
+02-14 15:53:59.512 D/BleProximity: 📶 RSSI: -53
+02-14 15:53:59.807 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:53:59.808 D/BleProximity: 解锁失败原因: 01
+02-14 15:53:59.808 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:53:59.809 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:53:59.817 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:53:59.821 D/BleProximity: 📶 RSSI: -53
+02-14 15:53:59.821 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:53:59.821 D/BleProximity: 原因: 信号均值(-53) > 阈值(-65.0) 
+02-14 15:53:59.821 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:53:59.866 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: cf9fb0a2cc5f
+02-14 15:53:59.867 D/BleProximity: 🔐 处理认证挑战: 636639666230613263633566
+02-14 15:54:00.120 D/BleProximity: 📶 RSSI: -53
+02-14 15:54:00.407 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:00.408 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:00.408 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:00.408 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:00.415 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:00.422 D/BleProximity: 📶 RSSI: -52
+02-14 15:54:00.422 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:00.422 D/BleProximity: 原因: 信号均值(-53) > 阈值(-65.0) 
+02-14 15:54:00.423 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:00.482 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: cf9fb0a2cc5f
+02-14 15:54:00.482 D/BleProximity: 🔐 处理认证挑战: 636639666230613263633566
+02-14 15:54:00.722 D/BleProximity: 📶 RSSI: -52
+02-14 15:54:01.022 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:01.023 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:01.023 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:01.023 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:01.032 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:01.032 D/BleProximity: 📶 RSSI: -52
+02-14 15:54:01.032 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:01.032 D/BleProximity: 原因: 信号均值(-52) > 阈值(-65.0) 
+02-14 15:54:01.033 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:01.109 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: fd412786a70f
+02-14 15:54:01.109 D/BleProximity: 🔐 处理认证挑战: 666434313237383661373066
+02-14 15:54:01.327 D/BleProximity: 📶 RSSI: -53
+02-14 15:54:01.627 D/BleProximity: 📶 RSSI: -53
+02-14 15:54:01.652 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:01.652 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:01.652 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:01.653 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:01.663 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:01.935 D/BleProximity: 📶 RSSI: -53
+02-14 15:54:01.936 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:01.936 D/BleProximity: 原因: 信号均值(-52) > 阈值(-65.0) 
+02-14 15:54:01.936 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:01.997 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 2ae39d6981bf
+02-14 15:54:01.998 D/BleProximity: 🔐 处理认证挑战: 326165333964363938316266
+02-14 15:54:02.231 D/BleProximity: 📶 RSSI: -54
+02-14 15:54:02.534 D/BleProximity: 📶 RSSI: -53
+02-14 15:54:02.536 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:02.537 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:02.537 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:02.537 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:02.546 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:02.835 D/BleProximity: 📶 RSSI: -54
+02-14 15:54:02.836 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:02.836 D/BleProximity: 原因: 信号均值(-53) > 阈值(-65.0) 
+02-14 15:54:02.836 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:02.898 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 5785144d5b6f
+02-14 15:54:02.899 D/BleProximity: 🔐 处理认证挑战: 353738353134346435623666
+02-14 15:54:03.135 D/BleProximity: 📶 RSSI: -53
+02-14 15:54:03.438 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:03.439 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:03.439 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:03.439 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:03.446 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:03.447 D/BleProximity: 📶 RSSI: -53
+02-14 15:54:03.447 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:03.447 D/BleProximity: 原因: 信号均值(-53) > 阈值(-65.0) 
+02-14 15:54:03.447 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:03.497 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 5785144d5b6f
+02-14 15:54:03.497 D/BleProximity: 🔐 处理认证挑战: 353738353134346435623666
+02-14 15:54:03.737 D/BleProximity: 📶 RSSI: -53
+02-14 15:54:04.037 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:04.038 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:04.038 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:04.038 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:04.046 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:04.047 D/BleProximity: 📶 RSSI: -53
+02-14 15:54:04.047 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:04.047 D/BleProximity: 原因: 信号均值(-53) > 阈值(-65.0) 
+02-14 15:54:04.047 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:04.097 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 84278b31361f
+02-14 15:54:04.097 D/BleProximity: 🔐 处理认证挑战: 383432373862333133363166
+02-14 15:54:04.341 D/BleProximity: 📶 RSSI: -53
+02-14 15:54:04.637 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:04.638 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:04.639 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:04.639 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:04.649 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:04.654 D/BleProximity: 📶 RSSI: -54
+02-14 15:54:04.654 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:04.655 D/BleProximity: 原因: 信号均值(-53) > 阈值(-65.0) 
+02-14 15:54:04.656 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:04.698 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: b2c9021410cf
+02-14 15:54:04.698 D/BleProximity: 🔐 处理认证挑战: 623263393032313431306366
+02-14 15:54:04.960 D/BleProximity: 📶 RSSI: -53
+02-14 15:54:05.237 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:05.237 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:05.238 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:05.238 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:05.246 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:05.256 D/BleProximity: 📶 RSSI: -52
+02-14 15:54:05.257 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:05.257 D/BleProximity: 原因: 信号均值(-53) > 阈值(-65.0) 
+02-14 15:54:05.257 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:05.296 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: b2c9021410cf
+02-14 15:54:05.297 D/BleProximity: 🔐 处理认证挑战: 623263393032313431306366
+02-14 15:54:05.561 D/BleProximity: 📶 RSSI: -53
+02-14 15:54:05.837 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:05.837 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:05.838 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:05.838 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:05.845 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:05.857 D/BleProximity: 📶 RSSI: -52
+02-14 15:54:05.857 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:05.858 D/BleProximity: 原因: 信号均值(-52) > 阈值(-65.0) 
+02-14 15:54:05.858 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:05.897 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: df6b79f8ea7f
+02-14 15:54:05.897 D/BleProximity: 🔐 处理认证挑战: 646636623739663865613766
+02-14 15:54:06.164 D/BleProximity: 📶 RSSI: -54
+02-14 15:54:06.437 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:06.438 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:06.439 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:06.439 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:06.448 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:06.460 D/BleProximity: 📶 RSSI: -52
+02-14 15:54:06.460 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:06.461 D/BleProximity: 原因: 信号均值(-52) > 阈值(-65.0) 
+02-14 15:54:06.461 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:06.527 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: df6b79f8ea7f
+02-14 15:54:06.527 D/BleProximity: 🔐 处理认证挑战: 646636623739663865613766
+02-14 15:54:06.762 D/BleProximity: 📶 RSSI: -52
+02-14 15:54:07.064 D/BleProximity: 📶 RSSI: -52
+02-14 15:54:07.067 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:07.067 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:07.068 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:07.068 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:07.075 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:07.366 D/BleProximity: 📶 RSSI: -52
+02-14 15:54:07.367 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:07.367 D/BleProximity: 原因: 信号均值(-52) > 阈值(-65.0) 
+02-14 15:54:07.367 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:07.427 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 0c0df0dbc52f
+02-14 15:54:07.427 D/BleProximity: 🔐 处理认证挑战: 306330646630646263353266
+02-14 15:54:07.666 D/BleProximity: 📶 RSSI: -53
+02-14 15:54:07.967 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:07.968 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:07.968 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:07.968 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:07.976 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:07.977 D/BleProximity: 📶 RSSI: -52
+02-14 15:54:07.977 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:07.977 D/BleProximity: 原因: 信号均值(-52) > 阈值(-65.0) 
+02-14 15:54:07.977 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:08.026 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 3aaf67bf9fdf
+02-14 15:54:08.026 D/BleProximity: 🔐 处理认证挑战: 336161663637626639666466
+02-14 15:54:08.269 D/BleProximity: 📶 RSSI: -52
+02-14 15:54:08.568 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:08.569 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:08.569 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:08.569 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:08.575 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:08.575 D/BleProximity: 📶 RSSI: -52
+02-14 15:54:08.575 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:08.576 D/BleProximity: 原因: 信号均值(-52) > 阈值(-65.0) 
+02-14 15:54:08.576 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:08.635 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 6751dea27990
+02-14 15:54:08.635 D/BleProximity: 🔐 处理认证挑战: 363735316465613237393930
+02-14 15:54:08.877 D/BleProximity: 📶 RSSI: -53
+02-14 15:54:09.166 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:09.167 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:09.167 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:09.167 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:09.175 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:09.177 D/BleProximity: 📶 RSSI: -54
+02-14 15:54:09.177 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:09.177 D/BleProximity: 原因: 信号均值(-52) > 阈值(-65.0) 
+02-14 15:54:09.177 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:09.241 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 6751dea27990
+02-14 15:54:09.241 D/BleProximity: 🔐 处理认证挑战: 363735316465613237393930
+02-14 15:54:09.481 D/BleProximity: 📶 RSSI: -54
+02-14 15:54:09.792 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:09.793 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:09.793 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:09.793 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:09.797 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:09.797 D/BleProximity: 📶 RSSI: -53
+02-14 15:54:09.797 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:09.797 D/BleProximity: 原因: 信号均值(-53) > 阈值(-65.0) 
+02-14 15:54:09.797 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:09.857 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 94f355865440
+02-14 15:54:09.857 D/BleProximity: 🔐 处理认证挑战: 393466333535383635343430
+02-14 15:54:10.084 D/BleProximity: 📶 RSSI: -53
+02-14 15:54:10.390 D/BleProximity: 📶 RSSI: -52
+02-14 15:54:10.397 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:10.397 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:10.397 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:10.398 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:10.404 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:10.692 D/BleProximity: 📶 RSSI: -53
+02-14 15:54:10.693 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:10.693 D/BleProximity: 原因: 信号均值(-53) > 阈值(-65.0) 
+02-14 15:54:10.693 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:10.757 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c195cc6a2ef0
+02-14 15:54:10.758 D/BleProximity: 🔐 处理认证挑战: 633139356363366132656630
+02-14 15:54:10.993 D/BleProximity: 📶 RSSI: -53
+02-14 15:54:11.296 D/BleProximity: 📶 RSSI: -54
+02-14 15:54:11.296 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:11.296 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:11.297 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:11.297 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:11.305 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:11.597 D/BleProximity: 📶 RSSI: -54
+02-14 15:54:11.597 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:11.598 D/BleProximity: 原因: 信号均值(-53) > 阈值(-65.0) 
+02-14 15:54:11.598 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:11.657 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: ef37434d08a0
+02-14 15:54:11.657 D/BleProximity: 🔐 处理认证挑战: 656633373433346430386130
+02-14 15:54:11.911 D/BleProximity: 📶 RSSI: -54
+02-14 15:54:12.197 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:12.198 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:12.199 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:12.199 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:12.208 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:12.212 D/BleProximity: 📶 RSSI: -54
+02-14 15:54:12.212 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:12.213 D/BleProximity: 原因: 信号均值(-53) > 阈值(-65.0) 
+02-14 15:54:12.213 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:12.256 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: ef37434d08a0
+02-14 15:54:12.257 D/BleProximity: 🔐 处理认证挑战: 656633373433346430386130
+02-14 15:54:12.514 D/BleProximity: 📶 RSSI: -54
+02-14 15:54:12.797 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:12.798 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:12.798 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:12.799 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:12.808 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:12.815 D/BleProximity: 📶 RSSI: -56
+02-14 15:54:12.815 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:12.816 D/BleProximity: 原因: 信号均值(-54) > 阈值(-65.0) 
+02-14 15:54:12.816 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:12.872 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 1cd9ba31e350
+02-14 15:54:12.872 D/BleProximity: 🔐 处理认证挑战: 316364396261333165333530
+02-14 15:54:13.118 D/BleProximity: 📶 RSSI: -56
+02-14 15:54:13.413 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:13.413 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:13.414 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:13.414 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:13.425 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:13.428 D/BleProximity: 📶 RSSI: -55
+02-14 15:54:13.428 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:13.428 D/BleProximity: 原因: 信号均值(-55) > 阈值(-65.0) 
+02-14 15:54:13.429 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:13.487 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 1cd9ba31e350
+02-14 15:54:13.487 D/BleProximity: 🔐 处理认证挑战: 316364396261333165333530
+02-14 15:54:13.730 D/BleProximity: 📶 RSSI: -56
+02-14 15:54:14.026 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:14.026 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:14.026 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:14.027 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:14.031 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:14.032 D/BleProximity: 📶 RSSI: -57
+02-14 15:54:14.032 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:14.032 D/BleProximity: 原因: 信号均值(-56) > 阈值(-65.0) 
+02-14 15:54:14.032 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:14.085 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 497b3114bd00
+02-14 15:54:14.086 D/BleProximity: 🔐 处理认证挑战: 343937623331313462643030
+02-14 15:54:14.336 D/BleProximity: 📶 RSSI: -56
+02-14 15:54:14.627 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:14.628 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:14.628 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:14.629 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:14.638 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:14.657 D/BleProximity: 📶 RSSI: -58
+02-14 15:54:14.657 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:14.657 D/BleProximity: 原因: 信号均值(-56) > 阈值(-65.0) 
+02-14 15:54:14.657 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:14.716 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 771da8f897b0
+02-14 15:54:14.717 D/BleProximity: 🔐 处理认证挑战: 373731646138663839376230
+02-14 15:54:14.944 D/BleProximity: 📶 RSSI: -58
+02-14 15:54:15.249 D/BleProximity: 📶 RSSI: -57
+02-14 15:54:15.258 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:15.258 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:15.258 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:15.259 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:15.268 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:15.552 D/BleProximity: 📶 RSSI: -57
+02-14 15:54:15.552 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:15.553 D/BleProximity: 原因: 信号均值(-57) > 阈值(-65.0) 
+02-14 15:54:15.553 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:15.616 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: a4bf1fdb7260
+02-14 15:54:15.617 D/BleProximity: 🔐 处理认证挑战: 613462663166646237323630
+02-14 15:54:15.849 D/BleProximity: 📶 RSSI: -56
+02-14 15:54:16.154 D/BleProximity: 📶 RSSI: -58
+02-14 15:54:16.156 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:16.156 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:16.157 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:16.157 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:16.166 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:16.453 D/BleProximity: 📶 RSSI: -57
+02-14 15:54:16.453 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:16.453 D/BleProximity: 原因: 信号均值(-57) > 阈值(-65.0) 
+02-14 15:54:16.453 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:16.517 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: a4bf1fdb7260
+02-14 15:54:16.518 D/BleProximity: 🔐 处理认证挑战: 613462663166646237323630
+02-14 15:54:16.752 D/BleProximity: 📶 RSSI: -57
+02-14 15:54:17.053 D/BleProximity: 📶 RSSI: -58
+02-14 15:54:17.056 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:17.057 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:17.057 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:17.057 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:17.068 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:17.355 D/BleProximity: 📶 RSSI: -58
+02-14 15:54:17.355 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:17.356 D/BleProximity: 原因: 信号均值(-57) > 阈值(-65.0) 
+02-14 15:54:17.356 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:17.432 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: d16196bf4c10
+02-14 15:54:17.432 D/BleProximity: 🔐 处理认证挑战: 643136313936626634633130
+02-14 15:54:17.672 D/BleProximity: 📶 RSSI: -60
+02-14 15:54:17.969 D/BleProximity: 📶 RSSI: -59
+02-14 15:54:17.971 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:17.972 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:17.972 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:17.972 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:17.982 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:18.270 D/BleProximity: 📶 RSSI: -58
+02-14 15:54:18.273 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:18.273 D/BleProximity: 原因: 信号均值(-58) > 阈值(-65.0) 
+02-14 15:54:18.274 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:18.316 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: ff030da326c0
+02-14 15:54:18.317 D/BleProximity: 🔐 处理认证挑战: 666630333064613332366330
+02-14 15:54:18.570 D/BleProximity: 📶 RSSI: -54
+02-14 15:54:18.857 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:18.858 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:18.858 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:18.858 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:18.867 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:18.871 D/BleProximity: 📶 RSSI: -54
+02-14 15:54:18.872 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:18.872 D/BleProximity: 原因: 信号均值(-57) > 阈值(-65.0) 
+02-14 15:54:18.872 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:18.929 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 2ca584860170
+02-14 15:54:18.930 D/BleProximity: 🔐 处理认证挑战: 326361353834383630313730
+02-14 15:54:19.179 D/BleProximity: 📶 RSSI: -55
+02-14 15:54:19.474 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:19.474 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:19.474 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:19.475 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:19.483 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:19.487 D/BleProximity: 📶 RSSI: -54
+02-14 15:54:19.487 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:19.488 D/BleProximity: 原因: 信号均值(-55) > 阈值(-65.0) 
+02-14 15:54:19.488 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:19.547 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 2ca584860170
+02-14 15:54:19.547 D/BleProximity: 🔐 处理认证挑战: 326361353834383630313730
+02-14 15:54:19.789 D/BleProximity: 📶 RSSI: -55
+02-14 15:54:20.089 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:20.090 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:20.090 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:20.091 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:20.099 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:20.100 D/BleProximity: 📶 RSSI: -55
+02-14 15:54:20.100 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:20.100 D/BleProximity: 原因: 信号均值(-54) > 阈值(-65.0) 
+02-14 15:54:20.100 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:20.147 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 5947fb6adb20
+02-14 15:54:20.147 D/BleProximity: 🔐 处理认证挑战: 353934376662366164623230
+02-14 15:54:20.393 D/BleProximity: 📶 RSSI: -56
+02-14 15:54:20.687 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:20.688 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:20.688 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:20.688 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:20.697 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:20.701 D/BleProximity: 📶 RSSI: -56
+02-14 15:54:20.702 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:20.702 D/BleProximity: 原因: 信号均值(-55) > 阈值(-65.0) 
+02-14 15:54:20.702 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:20.747 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 86e9714db5d0
+02-14 15:54:20.747 D/BleProximity: 🔐 处理认证挑战: 383665393731346462356430
+02-14 15:54:21.008 D/BleProximity: 📶 RSSI: -56
+02-14 15:54:21.288 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:21.288 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:21.289 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:21.289 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:21.298 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:21.304 D/BleProximity: 📶 RSSI: -55
+02-14 15:54:21.304 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:21.305 D/BleProximity: 原因: 信号均值(-55) > 阈值(-65.0) 
+02-14 15:54:21.305 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:21.362 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 86e9714db5d0
+02-14 15:54:21.363 D/BleProximity: 🔐 处理认证挑战: 383665393731346462356430
+02-14 15:54:21.606 D/BleProximity: 📶 RSSI: -48
+02-14 15:54:21.903 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:21.903 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:21.903 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:21.904 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:21.912 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:21.931 D/BleProximity: 📶 RSSI: -48
+02-14 15:54:21.931 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:21.932 D/BleProximity: 原因: 信号均值(-52) > 阈值(-65.0) 
+02-14 15:54:21.932 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:21.992 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: b48be8319080
+02-14 15:54:21.992 D/BleProximity: 🔐 处理认证挑战: 623438626538333139303830
+02-14 15:54:22.217 D/BleProximity: 📶 RSSI: -48
+02-14 15:54:22.519 D/BleProximity: 📶 RSSI: -51
+02-14 15:54:22.530 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:22.530 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:22.531 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:22.531 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:22.533 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:22.824 D/BleProximity: 📶 RSSI: -55
+02-14 15:54:22.825 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:22.825 D/BleProximity: 原因: 信号均值(-50) > 阈值(-65.0) 
+02-14 15:54:22.825 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:22.876 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: e12d5f146a31
+02-14 15:54:22.877 D/BleProximity: 🔐 处理认证挑战: 653132643566313436613331
+02-14 15:54:23.125 D/BleProximity: 📶 RSSI: -56
+02-14 15:54:23.418 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:23.419 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:23.419 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:23.419 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:23.429 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:23.445 D/BleProximity: 📶 RSSI: -56
+02-14 15:54:23.446 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:23.446 D/BleProximity: 原因: 信号均值(-53) > 阈值(-65.0) 
+02-14 15:54:23.447 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:23.507 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: e12d5f146a31
+02-14 15:54:23.507 D/BleProximity: 🔐 处理认证挑战: 653132643566313436613331
+02-14 15:54:23.736 D/BleProximity: 📶 RSSI: -56
+02-14 15:54:24.040 D/BleProximity: 📶 RSSI: -57
+02-14 15:54:24.050 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:24.051 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:24.051 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:24.051 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:24.060 D/BleProximity: ⚠️ 解锁未成功: FAILED
+02-14 15:54:24.341 D/BleProximity: 📶 RSSI: -55
+02-14 15:54:24.342 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-14 15:54:24.343 D/BleProximity: 原因: 信号均值(-56) > 阈值(-65.0) 
+02-14 15:54:24.343 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 15:54:24.407 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 0ecfd6f844e1
+02-14 15:54:24.408 D/BleProximity: 🔐 处理认证挑战: 306563666436663834346531
+02-14 15:54:24.643 D/BleProximity: 📶 RSSI: -56
+02-14 15:54:24.958 D/BleProximity: 📶 RSSI: -55
+02-14 15:54:24.958 D/BleProximity: 收到认证挑战：uuid: 4ED175C6-1533-491D-864D-2A8A4BBB23A8, value: 01
+02-14 15:54:24.959 D/BleProximity: 解锁失败原因: 01
+02-14 15:54:24.959 D/BleProximity: 📊 指令出队: 解锁车门 -> FAILED
+02-14 15:54:24.959 D/BleProximity: 🔓 解锁结果: FAILED
+02-14 15:54:24.967 D/BleProximity: ⚠️ 解锁未成功: FAILED
