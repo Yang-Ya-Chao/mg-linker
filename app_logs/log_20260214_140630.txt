@@ -1,0 +1,40 @@
+--- Log Capture Start: 20260214_140630 ---
+02-14 14:01:16.908 D/MGWidget: onReceive called with action: com.my.mg.ACTION_REFRESH
+02-14 14:01:16.962 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-14 14:01:16.973 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-14 14:01:16.974 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/requestVehicleStatus
+02-14 14:01:16.975 D/MG_NET_LOG: │ Method: POST
+02-14 14:01:16.976 D/MG_NET_LOG: │ Header: timestamp: 1771048876963
+02-14 14:01:16.976 D/MG_NET_LOG: │ Header: app-type: roewe
+02-14 14:01:16.976 D/MG_NET_LOG: │ Header: sign: z_9HjOTx4axPeMWMeJdKL-D_pfWWeCwtA-zCGei31Gc
+02-14 14:01:16.977 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6398RZ660211","appId":"Roewe","brandCode":"1","nonce":"D110D17FA0E740EDA5D7794716001CDF","timestamp":"1771048876963","token":"9ce02c58255749bb9e3d920ce45790d5-prod_SAIC"}
+02-14 14:01:16.977 D/MG_NET_LOG: └──────────────────────
+02-14 14:01:17.439 D/MG_NET_LOG: ┌────── 响应结束 (200 / 465ms) ──────
+02-14 14:01:17.441 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/requestVehicleStatus
+02-14 14:01:17.442 D/MG_NET_LOG: │ Result: {"req_id":"19c5abd3d836704ed80","data":null}
+02-14 14:01:17.443 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-14 14:01:20.448 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-14 14:01:20.449 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-14 14:01:20.450 D/MG_NET_LOG: │ Method: POST
+02-14 14:01:20.451 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6398RZ660211","appId":"Roewe","brandCode":"1","nonce":"7C362905B27D4467A124A37F9C7FD2C2","timestamp":"1771048880445","token":"9ce02c58255749bb9e3d920ce45790d5-prod_SAIC"}
+02-14 14:01:20.451 D/MG_NET_LOG: └──────────────────────
+02-14 14:01:21.251 D/MG_NET_LOG: ┌────── 响应结束 (200 / 801ms) ──────
+02-14 14:01:21.252 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-14 14:01:21.254 D/MG_NET_LOG: │ Result: {"req_id":"19c5abd4adbc57ec127","data":{"vehicle_position":{"satellites":11,"altitude":71,"gps_status":2,"latitude":"37.124179","update_time":1771048880000,"gps_time":1771048880000,"hdop":6,"longitude":"114.490047"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":260,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":844,"battery_pack_range":27,"power_mode":2,"engine_status":0,"exterior_temperature":17,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":78,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":23296,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":29564,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1400,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":20,"vehicle_battery_dev":2,"front_right_tyre_pressure":272,"battery_pack_prc":217,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":844,"current_journey_id":3124,"pwr_lftgt_pos_v":null,"interior_temperature":21,"localfront_right_seat_heat_level":null,"heading":35,"battery_alarm_value":[50,200,500],"update_time":1771048880000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":0,"rear_left_tyre_pressure":268,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":820,"fuel_level_disp":7,"monitor_status":null,"battery_type":1,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1771048880000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":true,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1771048880000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":true,"rear_left_window":false,"main_beam":false}}}
+02-14 14:01:21.254 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-14 14:01:21.450 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 河北省邢台市信都区兴达路
+02-14 14:01:21.451 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-14 14:01:21.452 D/MGWidget: updateWidgetSynchronously called for ID: 28
+02-14 14:01:32.842 D/BleProximity: 💤 屏幕关闭，保持默认退避策略
+02-14 14:01:35.966 D/BleProximity: ⌛ 扫描周期结束(30s)，未发现设备
+02-14 14:01:35.969 D/BleProximity: ⏹️ 停止扫描
+02-14 14:01:35.985 D/BleProximity: 🔄 仍有活跃 Session，将在 1 秒后重新扫描...
+02-14 14:01:36.987 D/BleProximity: 🔍 开始扫描
+02-14 14:01:36.989 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+02-14 14:06:21.831 D/BleProximity: ⌛ 扫描周期结束(30s)，未发现设备
+02-14 14:06:21.870 D/BleProximity: ⏹️ 停止扫描
+02-14 14:06:22.030 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+02-14 14:06:22.767 D/BleProximity: 💡 检测到屏幕点亮/解锁，立即激活扫描！
+02-14 14:06:22.768 D/BleProximity: ⚡ 触发高优先级扫描 (屏幕点亮/解锁)
+02-14 14:06:22.773 D/BleProximity: 🔍 开始扫描
+02-14 14:06:22.774 D/BleProximity: 🔍 开始扫描 (尝试次数: 0)
