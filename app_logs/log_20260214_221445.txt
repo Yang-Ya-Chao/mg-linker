@@ -1,0 +1,379 @@
+--- Log Capture Start: 20260214_221445 ---
+02-14 21:06:04.995 D/MGWidget: onReceive called with action: com.my.mg.ACTION_REFRESH
+02-14 21:06:05.026 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-14 21:06:05.028 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-14 21:06:05.028 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-14 21:06:05.029 D/MG_NET_LOG: │ Method: POST
+02-14 21:06:05.029 D/MG_NET_LOG: │ Params: data={"vin":"LSJEB4098SG147682","appId":"MG","brandCode":"2","nonce":"8D469E5B5FA94A4391DE5EEA33DC7779","timestamp":"1771074365026","token":"7db434c257214823aaeb8a27deb75e13-prod_SAIC"}
+02-14 21:06:05.029 D/MG_NET_LOG: └──────────────────────
+02-14 21:06:06.025 D/MG_NET_LOG: ┌────── 响应结束 (200 / 996ms) ──────
+02-14 21:06:06.026 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-14 21:06:06.027 D/MG_NET_LOG: │ Result: {"req_id":"19c5c42287e6b5b7d80","data":{"vehicle_position":{"satellites":5,"altitude":231,"latitude":"34.731985","gps_status":3,"update_time":1771070151000,"gps_time":1771072742000,"hdop":7,"longitude":"112.355877"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":0,"inst_fuel_consumption":null,"rear_right_tyre_pressure":296,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":4,"driving_range":0,"battery_pack_range":337,"power_mode":0,"engine_status":0,"exterior_temperature":17,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":0,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":4447,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":0,"rmt_seat_vent_flr_rsn":0,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":0,"rmt_a_c_abot_rsn":0,"vehicle_battery":1230,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":304,"charge_status":1009,"localfront_right_seat_vent_level":0,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":304,"battery_pack_prc":854,"interior_temperature_v":null,"steer_heat_failure_reason":0,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":0,"fuel_range":0,"current_journey_id":478,"pwr_lftgt_pos_v":0,"interior_temperature":24,"localfront_right_seat_heat_level":0,"heading":357,"battery_alarm_value":[50,200,500],"update_time":1771059574000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":0,"veh_intlgnt_scene_md":0,"rear_left_tyre_pressure":300,"vehicle_battery_prc":980,"battery_type":0,"fuel_level_disp":0,"monitor_status":null,"localfront_left_seat_vent_level":0,"chrgng_rmnng_time":1023},"update_time":1771070150000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":true,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":false,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1771059574000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-14 21:06:06.028 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-14 21:06:06.039 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 河南省洛阳市西工区机场路大张会员超市(郁金香店)洛阳郁金香牡丹园
+02-14 21:06:06.040 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-14 21:06:06.041 D/MGWidget: updateWidgetSynchronously called for ID: 3865
+02-14 21:16:47.483 D/BleProximity: ➕ 添加监听器: callback_5_1771075007483 (总数: 2)
+02-14 21:16:47.483 D/ControlActivity: ➕ 添加监听器: callback_5_1771075007483 (总数: 2)
+02-14 21:16:47.483 D/ControlActivity: ✅ 蓝牙回调注册成功 ID: callback_5_1771075007483
+02-14 21:16:47.483 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-14 21:16:47.484 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-14 21:16:47.485 D/MG_NET_LOG: │ Method: POST
+02-14 21:16:47.485 D/MG_NET_LOG: │ Params: data={"vin":"LSJEB4098SG147682","appId":"MG","brandCode":"2","nonce":"3D5DF1EBE94C480AABB4ADE47922F46F","timestamp":"1771075007479","token":"7db434c257214823aaeb8a27deb75e13-prod_SAIC"}
+02-14 21:16:47.485 D/MG_NET_LOG: └──────────────────────
+02-14 21:16:47.537 D/BleProximity: ❌ 认证超时
+02-14 21:16:47.537 D/ControlActivity: ❌ 认证超时
+02-14 21:16:47.537 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-14 21:16:47.538 D/ControlActivity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-14 21:16:47.538 D/BleProximity: 持有者: [BleProximityManager]
+02-14 21:16:47.538 D/ControlActivity: 持有者: [BleProximityManager]
+02-14 21:16:49.570 D/MG_NET_LOG: ┌────── 响应结束 (200 / 2086ms) ──────
+02-14 21:16:49.570 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-14 21:16:49.571 D/MG_NET_LOG: │ Result: {"req_id":"19c5c4bf5f17b3683e","data":{"vehicle_position":{"satellites":6,"altitude":239,"latitude":"34.731988","gps_status":3,"update_time":1771074429000,"gps_time":1771074562000,"hdop":8,"longitude":"112.355892"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":0,"inst_fuel_consumption":null,"rear_right_tyre_pressure":284,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":4,"driving_range":0,"battery_pack_range":304,"power_mode":0,"engine_status":0,"exterior_temperature":0,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":0,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":0,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":0,"rmt_seat_vent_flr_rsn":0,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":0,"rmt_a_c_abot_rsn":0,"vehicle_battery":1270,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":288,"charge_status":1009,"localfront_right_seat_vent_level":0,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":288,"battery_pack_prc":769,"interior_temperature_v":null,"steer_heat_failure_reason":0,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":0,"fuel_range":0,"current_journey_id":481,"pwr_lftgt_pos_v":0,"interior_temperature":23,"localfront_right_seat_heat_level":0,"heading":272,"battery_alarm_value":[50,200,500],"update_time":1771074429000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":0,"rear_left_tyre_pressure":288,"vehicle_battery_prc":1000,"battery_type":1,"fuel_level_disp":0,"monitor_status":null,"localfront_left_seat_vent_level":0,"chrgng_rmnng_time":1023},"update_time":1771074429000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":true,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1771074429000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-14 21:16:49.572 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-14 21:16:51.797 D/BleProximity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_4_1771075011796 (总数: 2)
+02-14 21:16:51.798 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_4_1771075011796 (总数: 2)
+02-14 21:16:51.805 D/BleProximity: ➕ 添加监听器: callback_6_1771075011805 (总数: 3)
+02-14 21:16:51.805 D/ControlActivity: ➕ 添加监听器: callback_6_1771075011805 (总数: 3)
+02-14 21:16:51.805 D/BleProximity: ⏳ 正在连接中，Session等待结果... (ControlActivity)
+02-14 21:16:51.806 D/ControlActivity: ⏳ 正在连接中，Session等待结果... (ControlActivity)
+02-14 21:16:55.456 D/BleProximity: ❌ 已断开
+02-14 21:16:55.457 D/ControlActivity: ❌ 已断开
+02-14 21:16:55.458 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 3, Session: 2)
+02-14 21:16:55.459 D/ControlActivity: 📡 状态变更: DISCONNECTED (监听器: 3, Session: 2)
+02-14 21:16:55.459 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-14 21:16:55.469 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-14 21:16:55.469 D/BleProximity: ❌ ensureConnected 失败: 连接断开 (ControlActivity)
+02-14 21:16:55.470 D/ControlActivity: ❌ ensureConnected 失败: 连接断开 (ControlActivity)
+02-14 21:16:55.470 D/BleProximity: ➖ 移除监听器: callback_6_1771075011805 
+02-14 21:16:55.471 D/ControlActivity: ➖ 移除监听器: callback_6_1771075011805 
+02-14 21:16:55.476 D/BleProximity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_4_1771075011796 (剩余: 1)
+02-14 21:16:55.476 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_4_1771075011796 (剩余: 1)
+02-14 21:16:55.477 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+02-14 21:16:55.477 D/ControlActivity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+02-14 21:16:57.188 D/BleProximity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_5_1771075017188 (总数: 2)
+02-14 21:16:57.189 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_5_1771075017188 (总数: 2)
+02-14 21:16:57.189 D/BleProximity: 🔍 开始扫描
+02-14 21:16:57.190 D/ControlActivity: 🔍 开始扫描
+02-14 21:16:57.190 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+02-14 21:16:57.191 D/ControlActivity: 🔍 开始扫描 (尝试次数: 1)
+02-14 21:16:57.198 D/BleProximity: ➕ 添加监听器: callback_7_1771075017198 (总数: 3)
+02-14 21:16:57.199 D/ControlActivity: ➕ 添加监听器: callback_7_1771075017198 (总数: 3)
+02-14 21:16:57.199 D/BleProximity: 🚀 Session触发连接请求 (ControlActivity)
+02-14 21:16:57.199 D/ControlActivity: 🚀 Session触发连接请求 (ControlActivity)
+02-14 21:16:57.200 D/BleProximity: 🔍 开始扫描
+02-14 21:16:57.200 D/ControlActivity: 🔍 开始扫描
+02-14 21:16:57.200 D/BleProximity: ⚠️ 已在扫描中
+02-14 21:16:57.200 D/ControlActivity: ⚠️ 已在扫描中
+02-14 21:16:57.460 D/BleProximity: 📱 发现设备: D4:06:0F:D0:06:83, RSSI: -68
+02-14 21:16:57.461 D/ControlActivity: 📱 发现设备: D4:06:0F:D0:06:83, RSSI: -68
+02-14 21:16:57.461 D/BleProximity: 📱 发现设备: D4:06:0F:D0:06:83, RSSI: -68
+02-14 21:16:57.467 D/BleProximity: ⏹️ 停止扫描
+02-14 21:16:57.467 D/ControlActivity: ⏹️ 停止扫描
+02-14 21:16:57.470 D/BleProximity: ⏹️ 停止扫描
+02-14 21:16:57.470 D/ControlActivity: ⏹️ 停止扫描
+02-14 21:16:57.470 D/BleProximity: 🔗 连接设备: D4:06:0F:D0:06:83
+02-14 21:16:57.471 D/ControlActivity: 🔗 连接设备: D4:06:0F:D0:06:83
+02-14 21:16:57.471 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 3, Session: 2)
+02-14 21:16:57.471 D/ControlActivity: 📡 状态变更: CONNECTING (监听器: 3, Session: 2)
+02-14 21:16:57.471 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+02-14 21:17:00.134 D/BleProximity: ✅ 已连接，开始发现服务
+02-14 21:17:00.135 D/ControlActivity: ✅ 已连接，开始发现服务
+02-14 21:17:00.135 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 3, Session: 2)
+02-14 21:17:00.135 D/ControlActivity: 📡 状态变更: CONNECTED (监听器: 3, Session: 2)
+02-14 21:17:00.135 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-14 21:17:01.217 D/BleProximity: ✅ 特征初始化完成
+02-14 21:17:01.218 D/ControlActivity: ✅ 特征初始化完成
+02-14 21:17:01.250 D/BleProximity: MTU 生效: 65
+02-14 21:17:01.251 D/ControlActivity: MTU 生效: 65
+02-14 21:17:01.252 D/BleProximity: 🔐 开始认证流程
+02-14 21:17:01.253 D/ControlActivity: 🔐 开始认证流程
+02-14 21:17:01.774 D/BleProximity: 📤 准备发送Booking ID: 0198D93E (进入串行队列)
+02-14 21:17:01.776 D/ControlActivity: 📤 准备发送Booking ID: 0198D93E (进入串行队列)
+02-14 21:17:12.212 D/BleProximity: ⏰ ensureConnected 超时 (ControlActivity)
+02-14 21:17:12.215 D/ControlActivity: ⏰ ensureConnected 超时 (ControlActivity)
+02-14 21:17:12.217 D/BleProximity: ➖ 移除监听器: callback_7_1771075017198 
+02-14 21:17:12.218 D/ControlActivity: ➖ 移除监听器: callback_7_1771075017198 
+02-14 21:17:12.230 D/BleProximity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_5_1771075017188 (剩余: 1)
+02-14 21:17:12.231 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_5_1771075017188 (剩余: 1)
+02-14 21:17:16.270 D/BleProximity: ❌ 认证超时
+02-14 21:17:16.274 D/ControlActivity: ❌ 认证超时
+02-14 21:17:16.277 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-14 21:17:16.278 D/ControlActivity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-14 21:17:16.280 D/BleProximity: 持有者: [BleProximityManager]
+02-14 21:17:16.282 D/ControlActivity: 持有者: [BleProximityManager]
+02-14 21:17:24.211 D/BleProximity: ❌ 已断开
+02-14 21:17:24.212 D/ControlActivity: ❌ 已断开
+02-14 21:17:24.212 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 2, Session: 1)
+02-14 21:17:24.213 D/ControlActivity: 📡 状态变更: DISCONNECTED (监听器: 2, Session: 1)
+02-14 21:17:24.213 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-14 21:17:24.221 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-14 21:17:24.221 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+02-14 21:17:24.221 D/ControlActivity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+02-14 21:17:26.222 D/BleProximity: 🔍 开始扫描
+02-14 21:17:26.224 D/ControlActivity: 🔍 开始扫描
+02-14 21:17:26.226 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+02-14 21:17:26.228 D/ControlActivity: 🔍 开始扫描 (尝试次数: 1)
+02-14 21:17:26.720 D/BleProximity: 📱 发现设备: D4:06:0F:D0:06:83, RSSI: -71
+02-14 21:17:26.722 D/ControlActivity: 📱 发现设备: D4:06:0F:D0:06:83, RSSI: -71
+02-14 21:17:26.722 D/BleProximity: 📱 发现设备: D4:06:0F:D0:06:83, RSSI: -71
+02-14 21:17:26.735 D/BleProximity: ⏹️ 停止扫描
+02-14 21:17:26.736 D/ControlActivity: ⏹️ 停止扫描
+02-14 21:17:26.740 D/BleProximity: ⏹️ 停止扫描
+02-14 21:17:26.740 D/ControlActivity: ⏹️ 停止扫描
+02-14 21:17:26.741 D/BleProximity: 🔗 连接设备: D4:06:0F:D0:06:83
+02-14 21:17:26.741 D/ControlActivity: 🔗 连接设备: D4:06:0F:D0:06:83
+02-14 21:17:26.741 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 2, Session: 1)
+02-14 21:17:26.741 D/ControlActivity: 📡 状态变更: CONNECTING (监听器: 2, Session: 1)
+02-14 21:17:26.741 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+02-14 21:17:29.442 D/BleProximity: ✅ 已连接，开始发现服务
+02-14 21:17:29.443 D/ControlActivity: ✅ 已连接，开始发现服务
+02-14 21:17:29.443 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 2, Session: 1)
+02-14 21:17:29.444 D/ControlActivity: 📡 状态变更: CONNECTED (监听器: 2, Session: 1)
+02-14 21:17:29.444 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-14 21:17:30.538 D/BleProximity: ✅ 特征初始化完成
+02-14 21:17:30.541 D/ControlActivity: ✅ 特征初始化完成
+02-14 21:17:30.583 D/BleProximity: MTU 生效: 65
+02-14 21:17:30.584 D/ControlActivity: MTU 生效: 65
+02-14 21:17:30.584 D/BleProximity: 🔐 开始认证流程
+02-14 21:17:30.585 D/ControlActivity: 🔐 开始认证流程
+02-14 21:17:31.095 D/BleProximity: 📤 准备发送Booking ID: 0198D93E (进入串行队列)
+02-14 21:17:31.095 D/ControlActivity: 📤 准备发送Booking ID: 0198D93E (进入串行队列)
+02-14 21:21:26.956 D/BleProximity: ❌ 认证超时
+02-14 21:21:26.956 D/ControlActivity: ❌ 认证超时
+02-14 21:21:26.957 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-14 21:21:26.957 D/ControlActivity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-14 21:21:26.958 D/BleProximity: 持有者: [BleProximityManager]
+02-14 21:21:26.959 D/ControlActivity: 持有者: [BleProximityManager]
+02-14 21:21:34.892 D/BleProximity: ❌ 已断开
+02-14 21:21:34.893 D/ControlActivity: ❌ 已断开
+02-14 21:21:34.893 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 2, Session: 1)
+02-14 21:21:34.893 D/ControlActivity: 📡 状态变更: DISCONNECTED (监听器: 2, Session: 1)
+02-14 21:21:34.893 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-14 21:21:34.901 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-14 21:21:34.902 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+02-14 21:21:34.902 D/ControlActivity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+02-14 21:21:36.904 D/BleProximity: 🔍 开始扫描
+02-14 21:21:36.906 D/ControlActivity: 🔍 开始扫描
+02-14 21:21:36.908 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+02-14 21:21:36.909 D/ControlActivity: 🔍 开始扫描 (尝试次数: 1)
+02-14 21:21:38.470 D/BleProximity: 📱 发现设备: D4:06:0F:D0:06:83, RSSI: -67
+02-14 21:21:38.471 D/ControlActivity: 📱 发现设备: D4:06:0F:D0:06:83, RSSI: -67
+02-14 21:21:38.471 D/BleProximity: 📱 发现设备: D4:06:0F:D0:06:83, RSSI: -67
+02-14 21:21:38.488 D/BleProximity: ⏹️ 停止扫描
+02-14 21:21:38.488 D/ControlActivity: ⏹️ 停止扫描
+02-14 21:21:38.495 D/BleProximity: ⏹️ 停止扫描
+02-14 21:21:38.496 D/ControlActivity: ⏹️ 停止扫描
+02-14 21:21:38.497 D/BleProximity: 🔗 连接设备: D4:06:0F:D0:06:83
+02-14 21:21:38.497 D/ControlActivity: 🔗 连接设备: D4:06:0F:D0:06:83
+02-14 21:21:38.498 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 2, Session: 1)
+02-14 21:21:38.498 D/ControlActivity: 📡 状态变更: CONNECTING (监听器: 2, Session: 1)
+02-14 21:21:38.499 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+02-14 21:21:38.798 D/BleProximity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_7_1771075298798 (总数: 2)
+02-14 21:21:38.799 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_7_1771075298798 (总数: 2)
+02-14 21:21:38.803 D/BleProximity: ➕ 添加监听器: callback_10_1771075298803 (总数: 3)
+02-14 21:21:38.803 D/ControlActivity: ➕ 添加监听器: callback_10_1771075298803 (总数: 3)
+02-14 21:21:38.803 D/BleProximity: ⏳ 正在连接中，Session等待结果... (ControlActivity)
+02-14 21:21:38.804 D/ControlActivity: ⏳ 正在连接中，Session等待结果... (ControlActivity)
+02-14 21:21:41.732 D/BleProximity: ✅ 已连接，开始发现服务
+02-14 21:21:41.732 D/ControlActivity: ✅ 已连接，开始发现服务
+02-14 21:21:41.733 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 3, Session: 2)
+02-14 21:21:41.733 D/ControlActivity: 📡 状态变更: CONNECTED (监听器: 3, Session: 2)
+02-14 21:21:41.733 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-14 21:21:42.832 D/BleProximity: ✅ 特征初始化完成
+02-14 21:21:42.833 D/ControlActivity: ✅ 特征初始化完成
+02-14 21:21:42.857 D/BleProximity: MTU 生效: 65
+02-14 21:21:42.858 D/ControlActivity: MTU 生效: 65
+02-14 21:21:42.858 D/BleProximity: 🔐 开始认证流程
+02-14 21:21:42.859 D/ControlActivity: 🔐 开始认证流程
+02-14 21:21:43.381 D/BleProximity: 📤 准备发送Booking ID: 0198D93E (进入串行队列)
+02-14 21:21:43.383 D/ControlActivity: 📤 准备发送Booking ID: 0198D93E (进入串行队列)
+02-14 21:21:53.817 D/BleProximity: ⏰ ensureConnected 超时 (ControlActivity)
+02-14 21:21:53.820 D/ControlActivity: ⏰ ensureConnected 超时 (ControlActivity)
+02-14 21:21:53.822 D/BleProximity: ➖ 移除监听器: callback_10_1771075298803 
+02-14 21:21:53.823 D/ControlActivity: ➖ 移除监听器: callback_10_1771075298803 
+02-14 21:21:53.835 D/BleProximity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_7_1771075298798 (剩余: 1)
+02-14 21:21:53.836 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_7_1771075298798 (剩余: 1)
+02-14 21:21:57.875 D/BleProximity: ❌ 认证超时
+02-14 21:21:57.876 D/ControlActivity: ❌ 认证超时
+02-14 21:21:57.877 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-14 21:21:57.877 D/ControlActivity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-14 21:21:57.878 D/BleProximity: 持有者: [BleProximityManager]
+02-14 21:21:57.878 D/ControlActivity: 持有者: [BleProximityManager]
+02-14 21:22:05.713 D/BleProximity: ❌ 已断开
+02-14 21:22:05.713 D/ControlActivity: ❌ 已断开
+02-14 21:22:05.713 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 2, Session: 1)
+02-14 21:22:05.713 D/ControlActivity: 📡 状态变更: DISCONNECTED (监听器: 2, Session: 1)
+02-14 21:22:05.713 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-14 21:22:05.719 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-14 21:22:05.719 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+02-14 21:22:05.719 D/ControlActivity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+02-14 21:22:07.721 D/BleProximity: 🔍 开始扫描
+02-14 21:22:07.723 D/ControlActivity: 🔍 开始扫描
+02-14 21:22:07.724 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+02-14 21:22:07.726 D/ControlActivity: 🔍 开始扫描 (尝试次数: 1)
+02-14 21:22:08.732 D/BleProximity: 📱 发现设备: D4:06:0F:D0:06:83, RSSI: -46
+02-14 21:22:08.733 D/ControlActivity: 📱 发现设备: D4:06:0F:D0:06:83, RSSI: -46
+02-14 21:22:08.733 D/BleProximity: 📱 发现设备: D4:06:0F:D0:06:83, RSSI: -46
+02-14 21:22:08.750 D/BleProximity: ⏹️ 停止扫描
+02-14 21:22:08.751 D/ControlActivity: ⏹️ 停止扫描
+02-14 21:22:08.760 D/BleProximity: ⏹️ 停止扫描
+02-14 21:22:08.760 D/ControlActivity: ⏹️ 停止扫描
+02-14 21:22:08.761 D/BleProximity: 🔗 连接设备: D4:06:0F:D0:06:83
+02-14 21:22:08.761 D/ControlActivity: 🔗 连接设备: D4:06:0F:D0:06:83
+02-14 21:22:08.762 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 2, Session: 1)
+02-14 21:22:08.763 D/ControlActivity: 📡 状态变更: CONNECTING (监听器: 2, Session: 1)
+02-14 21:22:08.763 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+02-14 21:22:09.426 D/BleProximity: ✅ 已连接，开始发现服务
+02-14 21:22:09.426 D/ControlActivity: ✅ 已连接，开始发现服务
+02-14 21:22:09.427 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 2, Session: 1)
+02-14 21:22:09.427 D/ControlActivity: 📡 状态变更: CONNECTED (监听器: 2, Session: 1)
+02-14 21:22:09.427 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-14 21:22:10.506 D/BleProximity: ✅ 特征初始化完成
+02-14 21:22:10.508 D/ControlActivity: ✅ 特征初始化完成
+02-14 21:22:10.529 D/BleProximity: MTU 生效: 65
+02-14 21:22:10.530 D/ControlActivity: MTU 生效: 65
+02-14 21:22:10.532 D/BleProximity: 🔐 开始认证流程
+02-14 21:22:10.533 D/ControlActivity: 🔐 开始认证流程
+02-14 21:22:11.052 D/BleProximity: 📤 准备发送Booking ID: 0198D93E (进入串行队列)
+02-14 21:22:11.053 D/ControlActivity: 📤 准备发送Booking ID: 0198D93E (进入串行队列)
+02-14 21:56:09.401 D/BleProximity: ❌ 认证超时
+02-14 21:56:09.402 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-14 21:56:09.405 D/BleProximity: 持有者: [BleProximityManager]
+02-14 21:56:16.666 D/BleProximity: ❌ 已断开
+02-14 21:56:16.667 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+02-14 21:56:16.667 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-14 21:56:16.679 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-14 21:56:16.680 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+02-14 21:56:18.682 D/BleProximity: 🔍 开始扫描
+02-14 21:56:18.685 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+02-14 21:56:20.157 D/BleProximity: 📱 发现设备: D4:06:0F:D0:06:83, RSSI: -72
+02-14 21:56:20.158 D/BleProximity: 📱 发现设备: D4:06:0F:D0:06:83, RSSI: -72
+02-14 21:56:20.166 D/BleProximity: ⏹️ 停止扫描
+02-14 21:56:20.173 D/BleProximity: ⏹️ 停止扫描
+02-14 21:56:20.174 D/BleProximity: 🔗 连接设备: D4:06:0F:D0:06:83
+02-14 21:56:20.175 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+02-14 21:56:20.176 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+02-14 21:56:21.865 D/BleProximity: ✅ 已连接，开始发现服务
+02-14 21:56:21.865 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-14 21:56:21.865 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-14 21:56:22.951 D/BleProximity: ✅ 特征初始化完成
+02-14 21:56:22.976 D/BleProximity: MTU 生效: 65
+02-14 21:56:22.976 D/BleProximity: 🔐 开始认证流程
+02-14 21:56:23.054 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-14 21:56:23.060 D/BleProximity: ➕ 添加监听器: callback_11_1771077383060 (总数: 2)
+02-14 21:56:23.060 D/ControlActivity: ➕ 添加监听器: callback_11_1771077383060 (总数: 2)
+02-14 21:56:23.060 D/ControlActivity: ✅ 蓝牙回调注册成功 ID: callback_11_1771077383060
+02-14 21:56:23.062 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-14 21:56:23.062 D/MG_NET_LOG: │ Method: POST
+02-14 21:56:23.062 D/MG_NET_LOG: │ Params: data={"vin":"LSJEB4098SG147682","appId":"MG","brandCode":"2","nonce":"7C77E5A0DC55406AAA2469FA631010D0","timestamp":"1771077383053","token":"7db434c257214823aaeb8a27deb75e13-prod_SAIC"}
+02-14 21:56:23.063 D/MG_NET_LOG: └──────────────────────
+02-14 21:56:23.483 D/BleProximity: 📤 准备发送Booking ID: 0198D93E (进入串行队列)
+02-14 21:56:23.483 D/ControlActivity: 📤 准备发送Booking ID: 0198D93E (进入串行队列)
+02-14 21:56:23.959 D/MG_NET_LOG: ┌────── 响应结束 (200 / 903ms) ──────
+02-14 21:56:23.960 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-14 21:56:23.961 D/MG_NET_LOG: │ Result: {"req_id":"19c5c7035bc33ca44bc","data":{"vehicle_position":{"satellites":5,"altitude":176,"gps_status":3,"latitude":"34.694469","update_time":1771075388000,"gps_time":1771077356000,"hdop":10,"longitude":"112.403954"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":0,"inst_fuel_consumption":null,"rear_right_tyre_pressure":284,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":4,"driving_range":0,"battery_pack_range":304,"power_mode":0,"engine_status":0,"exterior_temperature":0,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":0,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":4456,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":0,"rmt_seat_vent_flr_rsn":0,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":0,"rmt_a_c_abot_rsn":0,"vehicle_battery":1270,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":288,"charge_status":1009,"localfront_right_seat_vent_level":0,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":288,"battery_pack_prc":769,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":0,"clstr_elec_rng_to_eptv":0,"fuel_range":0,"current_journey_id":481,"pwr_lftgt_pos_v":0,"interior_temperature":23,"localfront_right_seat_heat_level":0,"heading":70,"battery_alarm_value":[50,200,500],"update_time":1771074429000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":288,"veh_intlgnt_scene_md":0,"vehicle_battery_prc":1000,"fuel_level_disp":0,"monitor_status":null,"battery_type":1,"chrgng_rmnng_time":1023,"localfront_left_seat_vent_level":0},"update_time":1771075387000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":true,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1771074429000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-14 21:56:23.962 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-14 21:56:24.132 D/BleProximity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_8_1771077384132 (总数: 2)
+02-14 21:56:24.132 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_8_1771077384132 (总数: 2)
+02-14 21:56:24.134 D/BleProximity: ➕ 添加监听器: callback_12_1771077384134 (总数: 3)
+02-14 21:56:24.134 D/ControlActivity: ➕ 添加监听器: callback_12_1771077384134 (总数: 3)
+02-14 21:56:24.135 D/BleProximity: ⏳ 正在连接中，Session等待结果... (ControlActivity)
+02-14 21:56:24.135 D/ControlActivity: ⏳ 正在连接中，Session等待结果... (ControlActivity)
+02-14 21:56:32.173 D/BleProximity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_8_1771077384132 (剩余: 1)
+02-14 21:56:32.174 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_8_1771077384132 (剩余: 1)
+02-14 21:56:34.004 D/BleProximity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_9_1771077394004 (总数: 2)
+02-14 21:56:34.005 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_9_1771077394004 (总数: 2)
+02-14 21:56:34.010 D/BleProximity: ➕ 添加监听器: callback_13_1771077394010 (总数: 4)
+02-14 21:56:34.010 D/ControlActivity: ➕ 添加监听器: callback_13_1771077394010 (总数: 4)
+02-14 21:56:34.010 D/BleProximity: ⏳ 正在连接中，Session等待结果... (ControlActivity)
+02-14 21:56:34.011 D/ControlActivity: ⏳ 正在连接中，Session等待结果... (ControlActivity)
+02-14 21:56:37.987 D/BleProximity: ❌ 认证超时
+02-14 21:56:37.990 D/ControlActivity: ❌ 认证超时
+02-14 21:56:37.990 D/BleProximity: ⚠️ 仍有 2 个活跃 Session，不执行断开
+02-14 21:56:37.991 D/ControlActivity: ⚠️ 仍有 2 个活跃 Session，不执行断开
+02-14 21:56:37.992 D/BleProximity: 持有者: [ControlActivity, BleProximityManager]
+02-14 21:56:37.993 D/ControlActivity: 持有者: [ControlActivity, BleProximityManager]
+02-14 21:56:39.136 D/BleProximity: ⏰ ensureConnected 超时 (ControlActivity)
+02-14 21:56:39.137 D/ControlActivity: ⏰ ensureConnected 超时 (ControlActivity)
+02-14 21:56:39.138 D/BleProximity: ➖ 移除监听器: callback_12_1771077384134 
+02-14 21:56:39.139 D/ControlActivity: ➖ 移除监听器: callback_12_1771077384134 
+02-14 21:56:39.147 D/BleProximity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_9_1771077394004 (剩余: 1)
+02-14 21:56:39.147 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_9_1771077394004 (剩余: 1)
+02-14 21:56:41.190 D/BleProximity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_10_1771077401189 (总数: 2)
+02-14 21:56:41.190 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_10_1771077401189 (总数: 2)
+02-14 21:56:41.194 D/BleProximity: ➕ 添加监听器: callback_14_1771077401194 (总数: 4)
+02-14 21:56:41.194 D/ControlActivity: ➕ 添加监听器: callback_14_1771077401194 (总数: 4)
+02-14 21:56:41.194 D/BleProximity: ⏳ 正在连接中，Session等待结果... (ControlActivity)
+02-14 21:56:41.194 D/ControlActivity: ⏳ 正在连接中，Session等待结果... (ControlActivity)
+02-14 21:56:45.893 D/BleProximity: ❌ 已断开
+02-14 21:56:45.894 D/ControlActivity: ❌ 已断开
+02-14 21:56:45.894 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 4, Session: 2)
+02-14 21:56:45.895 D/ControlActivity: 📡 状态变更: DISCONNECTED (监听器: 4, Session: 2)
+02-14 21:56:45.895 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-14 21:56:45.903 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-14 21:56:45.903 D/BleProximity: ➖ 移除监听器: callback_13_1771077394010 
+02-14 21:56:45.903 D/ControlActivity: ➖ 移除监听器: callback_13_1771077394010 
+02-14 21:56:45.904 D/BleProximity: ❌ ensureConnected 失败: 连接断开 (ControlActivity)
+02-14 21:56:45.905 D/ControlActivity: ❌ ensureConnected 失败: 连接断开 (ControlActivity)
+02-14 21:56:45.905 D/BleProximity: ➖ 移除监听器: callback_14_1771077401194 
+02-14 21:56:45.906 D/ControlActivity: ➖ 移除监听器: callback_14_1771077401194 
+02-14 21:56:45.912 D/BleProximity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_10_1771077401189 (剩余: 1)
+02-14 21:56:45.912 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_10_1771077401189 (剩余: 1)
+02-14 21:56:45.912 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+02-14 21:56:45.913 D/ControlActivity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+02-14 21:56:47.429 D/BleProximity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_11_1771077407429 (总数: 2)
+02-14 21:56:47.430 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_11_1771077407429 (总数: 2)
+02-14 21:56:47.430 D/BleProximity: 🔍 开始扫描
+02-14 21:56:47.430 D/ControlActivity: 🔍 开始扫描
+02-14 21:56:47.431 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+02-14 21:56:47.432 D/ControlActivity: 🔍 开始扫描 (尝试次数: 1)
+02-14 21:56:47.444 D/BleProximity: ➕ 添加监听器: callback_15_1771077407444 (总数: 3)
+02-14 21:56:47.445 D/ControlActivity: ➕ 添加监听器: callback_15_1771077407444 (总数: 3)
+02-14 21:56:47.445 D/BleProximity: 🚀 Session触发连接请求 (ControlActivity)
+02-14 21:56:47.445 D/ControlActivity: 🚀 Session触发连接请求 (ControlActivity)
+02-14 21:56:47.446 D/BleProximity: 🔍 开始扫描
+02-14 21:56:47.446 D/ControlActivity: 🔍 开始扫描
+02-14 21:56:47.446 D/BleProximity: ⚠️ 已在扫描中
+02-14 21:56:47.446 D/ControlActivity: ⚠️ 已在扫描中
+02-14 21:56:47.914 D/BleProximity: 🔍 开始扫描
+02-14 21:56:47.917 D/ControlActivity: 🔍 开始扫描
+02-14 21:56:47.918 D/BleProximity: ⚠️ 已在扫描中
+02-14 21:56:47.919 D/ControlActivity: ⚠️ 已在扫描中
+02-14 21:56:47.940 D/BleProximity: 📱 发现设备: D4:06:0F:D0:06:83, RSSI: -68
+02-14 21:56:47.941 D/ControlActivity: 📱 发现设备: D4:06:0F:D0:06:83, RSSI: -68
+02-14 21:56:47.941 D/BleProximity: 📱 发现设备: D4:06:0F:D0:06:83, RSSI: -68
+02-14 21:56:47.946 D/BleProximity: ⏹️ 停止扫描
+02-14 21:56:47.946 D/ControlActivity: ⏹️ 停止扫描
+02-14 21:56:47.949 D/BleProximity: ⏹️ 停止扫描
+02-14 21:56:47.949 D/ControlActivity: ⏹️ 停止扫描
+02-14 21:56:47.949 D/BleProximity: 🔗 连接设备: D4:06:0F:D0:06:83
+02-14 21:56:47.950 D/ControlActivity: 🔗 连接设备: D4:06:0F:D0:06:83
+02-14 21:56:47.950 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 3, Session: 2)
+02-14 21:56:47.950 D/ControlActivity: 📡 状态变更: CONNECTING (监听器: 3, Session: 2)
+02-14 21:56:47.950 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+02-14 21:56:53.150 D/BleProximity: ✅ 已连接，开始发现服务
+02-14 21:56:53.151 D/ControlActivity: ✅ 已连接，开始发现服务
+02-14 21:56:53.151 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 3, Session: 2)
+02-14 21:56:53.151 D/ControlActivity: 📡 状态变更: CONNECTED (监听器: 3, Session: 2)
+02-14 21:56:53.152 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-14 21:56:54.258 D/BleProximity: ✅ 特征初始化完成
+02-14 21:56:54.260 D/ControlActivity: ✅ 特征初始化完成
+02-14 21:56:54.291 D/BleProximity: MTU 生效: 65
+02-14 21:56:54.292 D/ControlActivity: MTU 生效: 65
+02-14 21:56:54.292 D/BleProximity: 🔐 开始认证流程
+02-14 21:56:54.292 D/ControlActivity: 🔐 开始认证流程
+02-14 21:56:54.807 D/BleProximity: 📤 准备发送Booking ID: 0198D93E (进入串行队列)
+02-14 21:56:54.808 D/ControlActivity: 📤 准备发送Booking ID: 0198D93E (进入串行队列)
+02-14 21:57:02.447 D/BleProximity: ⏰ ensureConnected 超时 (ControlActivity)
+02-14 21:57:02.448 D/ControlActivity: ⏰ ensureConnected 超时 (ControlActivity)
+02-14 21:57:02.449 D/BleProximity: ➖ 移除监听器: callback_15_1771077407444 
+02-14 21:57:02.450 D/ControlActivity: ➖ 移除监听器: callback_15_1771077407444 
+02-14 21:57:02.458 D/BleProximity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_11_1771077407429 (剩余: 1)
+02-14 21:57:02.459 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_11_1771077407429 (剩余: 1)
+02-14 21:57:09.300 D/BleProximity: ❌ 认证超时
+02-14 21:57:09.301 D/ControlActivity: ❌ 认证超时
+02-14 21:57:09.301 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-14 21:57:09.301 D/ControlActivity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-14 21:57:09.301 D/BleProximity: 持有者: [BleProximityManager]
+02-14 21:57:09.301 D/ControlActivity: 持有者: [BleProximityManager]
