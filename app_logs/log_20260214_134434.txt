@@ -1,0 +1,182 @@
+--- Log Capture Start: 20260214_134434 ---
+02-14 13:44:01.862 D/BleProximity: 📶 RSSI: -86
+02-14 13:44:02.163 D/BleProximity: 📶 RSSI: -86
+02-14 13:44:02.465 D/BleProximity: 📶 RSSI: -87
+02-14 13:44:02.763 D/BleProximity: 📶 RSSI: -86
+02-14 13:44:03.070 D/BleProximity: 📶 RSSI: -85
+02-14 13:44:03.373 D/BleProximity: 📶 RSSI: -87
+02-14 13:44:03.672 D/BleProximity: 📶 RSSI: -85
+02-14 13:44:03.967 D/BleProximity: 📶 RSSI: -86
+02-14 13:44:04.269 D/BleProximity: 📶 RSSI: -88
+02-14 13:44:04.571 D/BleProximity: 📶 RSSI: -87
+02-14 13:44:04.898 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-14 13:44:04.898 D/MG_NET_LOG: │ URL: https://gitee.com/api/v5/repos/yangyachao-X/mg-linker/releases/latest
+02-14 13:44:04.898 D/MG_NET_LOG: │ Method: GET
+02-14 13:44:04.899 D/MG_NET_LOG: │ Header: Authorization: token 387f0d958834d479dcdc778fcf2ae326
+02-14 13:44:04.900 D/MG_NET_LOG: │ Params: (无 Body 参数)
+02-14 13:44:04.900 D/MG_NET_LOG: └──────────────────────
+02-14 13:44:04.928 D/BleProximity: 📶 RSSI: -86
+02-14 13:44:05.196 D/BleProximity: 📶 RSSI: -86
+02-14 13:44:05.473 D/MG_NET_LOG: ┌────── 响应结束 (200 / 574ms) ──────
+02-14 13:44:05.473 D/MG_NET_LOG: │ URL: https://gitee.com/api/v5/repos/yangyachao-X/mg-linker/releases/latest
+02-14 13:44:05.473 D/MG_NET_LOG: │ Result: {"id":579453,"tag_name":"5.2","target_commitish":"72fcb6f4c2f8d073856fb0fb6e0610f39716b607","prerelease":false,"name":"蓝牙服务优化","body":"1.蓝牙服务增加锁屏退让策略以及亮屏解锁优先\r\n2.增加隐藏最新任务","author":{"id":8784824,"login":"yangyachao-X","name":"YangYachao","avatar_url":"https://foruda.gitee.com/avatar/1677149462712290355/8784824_yangyachao-x_1645510740.png","url":"https://gitee.com/api/v5/users/yangyachao-X","html_url":"https://gitee.com/yangyachao-X","remark":"","followers_url":"https://gitee.com/api/v5/users/yangyachao-X/followers","following_url":"https://gitee.com/api/v5/users/yangyachao-X/following_url{/other_user}","gists_url":"https://gitee.com/api/v5/users/yangyachao-X/gists{/gist_id}","starred_url":"https://gitee.com/api/v5/users/yangyachao-X/starred{/owner}{/repo}","subscriptions_url":"https://gitee.com/api/v5/users/yangyachao-X/subscriptions","organizations_url":"https://gitee.com/api/v5/users/yangyachao-X/orgs","repos_url":"https://gitee.com/api/v5/users/yangyachao-X/repos","events_url":"https://gitee.com/api/v5/users/yangyachao-X/events{/privacy}","received_events_url":"https://gitee.com/api/v5/users/yangyachao-X/received_events","type":"User"},"created_at":"2026-02-14T11:53:43+08:00","assets":[{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/releases/download/5.2/MG%20Linker.apk","name":"MG Linker.apk"},{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/archive/refs/tags/5.2.zip","name":"5.2.zip"},{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/archive/refs/tags/5.2.tar.gz","name":"5.2.tar.gz"}]}
+02-14 13:44:05.473 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-14 13:44:05.500 D/BleProximity: 📶 RSSI: -88
+02-14 13:44:05.798 D/BleProximity: 📶 RSSI: -87
+02-14 13:44:06.104 D/BleProximity: 📶 RSSI: -87
+02-14 13:44:06.404 D/BleProximity: 📶 RSSI: -87
+02-14 13:44:06.706 D/BleProximity: 📶 RSSI: -86
+02-14 13:44:07.007 D/BleProximity: 📶 RSSI: -87
+02-14 13:44:07.305 D/BleProximity: 📶 RSSI: -86
+02-14 13:44:07.607 D/BleProximity: 📶 RSSI: -87
+02-14 13:44:07.908 D/BleProximity: 📶 RSSI: -87
+02-14 13:44:08.209 D/BleProximity: 📶 RSSI: -86
+02-14 13:44:08.507 D/BleProximity: 📶 RSSI: -86
+02-14 13:44:08.808 D/BleProximity: 📶 RSSI: -85
+02-14 13:44:09.109 D/BleProximity: 📶 RSSI: -84
+02-14 13:44:09.417 D/BleProximity: 📶 RSSI: -85
+02-14 13:44:09.717 D/BleProximity: 📶 RSSI: -88
+02-14 13:44:10.015 D/BleProximity: 📶 RSSI: -87
+02-14 13:44:10.315 D/BleProximity: 📶 RSSI: -86
+02-14 13:44:10.619 D/BleProximity: 📶 RSSI: -85
+02-14 13:44:10.922 D/BleProximity: 📶 RSSI: -85
+02-14 13:44:11.072 D/MGWidget: onReceive called with action: ACTION_BLUEBOOTH
+02-14 13:44:11.087 D/BleProximity: 🎫 [BleUnlockWorker] 获取 Session: session_BleUnlockWorker_9_1771047851087 (总数: 2)
+02-14 13:44:11.087 D/BleProximity: ➕ 添加监听器: callback_7_1771047851087 (总数: 2)
+02-14 13:44:11.087 D/BleUnlockWorker: ➕ 添加监听器: callback_7_1771047851087 (总数: 2)
+02-14 13:44:11.088 D/BleUnlockWorker: 开始扫描蓝牙设备
+02-14 13:44:11.089 D/BleProximity: 📤 发送指令: 解锁车门
+02-14 13:44:11.089 D/BleUnlockWorker: 📤 发送指令: 解锁车门
+02-14 13:44:11.134 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 5fd333b0ddae
+02-14 13:44:11.135 D/BleUnlockWorker: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 5fd333b0ddae
+02-14 13:44:11.135 D/BleProximity: 🔐 处理认证挑战: 356664333333623064646165
+02-14 13:44:11.135 D/BleUnlockWorker: 🔐 处理认证挑战: 356664333333623064646165
+02-14 13:44:11.219 D/BleProximity: 📶 RSSI: -87
+02-14 13:44:11.522 D/BleProximity: 📶 RSSI: -81
+02-14 13:44:11.823 D/BleProximity: 📶 RSSI: -80
+02-14 13:44:12.129 D/BleProximity: 📶 RSSI: -81
+02-14 13:44:12.431 D/BleProximity: 📶 RSSI: -83
+02-14 13:44:12.545 D/BleProximity: 收到认证挑战：uuid: 6CB493E3-7D21-46FB-A7F6-003E2464267E, value: 01
+02-14 13:44:12.546 D/BleUnlockWorker: 收到认证挑战：uuid: 6CB493E3-7D21-46FB-A7F6-003E2464267E, value: 01
+02-14 13:44:12.547 D/BleProximity: 解锁成功
+02-14 13:44:12.547 D/BleUnlockWorker: 解锁成功
+02-14 13:44:12.547 D/BleProximity: 📊 指令出队: 解锁车门 -> SUCCESS
+02-14 13:44:12.547 D/BleUnlockWorker: 📊 指令出队: 解锁车门 -> SUCCESS
+02-14 13:44:12.548 D/BleProximity: 🔓 解锁结果: SUCCESS
+02-14 13:44:12.548 D/BleProximity: 🔄 同步状态: 车辆已解锁
+02-14 13:44:12.551 D/BleUnlockWorker: 解锁结果: SUCCESS
+02-14 13:44:12.551 D/BleProximity: 🔗 链式触发: 120秒打火
+02-14 13:44:12.552 D/BleUnlockWorker: 🔗 链式触发: 120秒打火
+02-14 13:44:12.733 D/BleProximity: 📶 RSSI: -80
+02-14 13:44:12.734 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-14 13:44:13.034 D/BleProximity: 📶 RSSI: -78
+02-14 13:44:13.034 D/BleProximity: 📊 正在收集信号样本: 2/5
+02-14 13:44:13.052 D/BleProximity: 📤 发送指令: 120秒打火
+02-14 13:44:13.053 D/BleUnlockWorker: 📤 发送指令: 120秒打火
+02-14 13:44:13.114 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: b9172177910e
+02-14 13:44:13.115 D/BleUnlockWorker: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: b9172177910e
+02-14 13:44:13.115 D/BleProximity: 🔐 处理认证挑战: 623931373231373739313065
+02-14 13:44:13.115 D/BleUnlockWorker: 🔐 处理认证挑战: 623931373231373739313065
+02-14 13:44:13.330 D/BleProximity: 📶 RSSI: -78
+02-14 13:44:13.331 D/BleProximity: 📊 正在收集信号样本: 3/5
+02-14 13:44:13.634 D/BleProximity: 📶 RSSI: -76
+02-14 13:44:13.635 D/BleProximity: 📊 正在收集信号样本: 4/5
+02-14 13:44:13.933 D/BleProximity: 📶 RSSI: -78
+02-14 13:44:14.237 D/BleProximity: 📶 RSSI: -76
+02-14 13:44:14.535 D/BleProximity: 📶 RSSI: -75
+02-14 13:44:14.838 D/BleProximity: 📶 RSSI: -74
+02-14 13:44:15.139 D/BleProximity: 📶 RSSI: -77
+02-14 13:44:15.439 D/BleProximity: 📶 RSSI: -78
+02-14 13:44:15.745 D/BleProximity: 📶 RSSI: -77
+02-14 13:44:16.047 D/BleProximity: 📶 RSSI: -79
+02-14 13:44:16.055 D/BleProximity: ⏱️ 指令超时无响应: 120秒打火
+02-14 13:44:16.055 D/BleUnlockWorker: ⏱️ 指令超时无响应: 120秒打火
+02-14 13:44:16.056 D/BleProximity: 📊 指令出队: 120秒打火 -> TIMEOUT
+02-14 13:44:16.056 D/BleUnlockWorker: 📊 指令出队: 120秒打火 -> TIMEOUT
+02-14 13:44:16.056 D/BleUnlockWorker: 打火结果: TIMEOUT
+02-14 13:44:16.060 D/BleUnlockWorker: 尝试完成成功: 操作成功 - 蓝牙解锁已执行（打火失败）, isCompleted=false
+02-14 13:44:16.062 D/BleUnlockWorker: 成功结果已提交
+02-14 13:44:16.062 D/BleUnlockWorker: 清理资源
+02-14 13:44:16.062 D/BleProximity: 🎫 [BleUnlockWorker] 释放 Session: session_BleUnlockWorker_9_1771047851087 (剩余: 1)
+02-14 13:44:16.063 D/BleUnlockWorker: 🎫 [BleUnlockWorker] 释放 Session: session_BleUnlockWorker_9_1771047851087 (剩余: 1)
+02-14 13:44:16.063 D/BleProximity: ➖ 移除监听器: callback_7_1771047851087 
+02-14 13:44:16.063 D/BleUnlockWorker: ➖ 移除监听器: callback_7_1771047851087 
+02-14 13:44:16.349 D/BleProximity: 📶 RSSI: -76
+02-14 13:44:16.650 D/BleProximity: 📶 RSSI: -77
+02-14 13:44:16.952 D/BleProximity: 📶 RSSI: -74
+02-14 13:44:17.251 D/BleProximity: 📶 RSSI: -70
+02-14 13:44:17.552 D/BleProximity: 📶 RSSI: -70
+02-14 13:44:17.852 D/BleProximity: 📶 RSSI: -69
+02-14 13:44:18.155 D/BleProximity: 📶 RSSI: -69
+02-14 13:44:18.459 D/BleProximity: 📶 RSSI: -69
+02-14 13:44:18.759 D/BleProximity: 📶 RSSI: -71
+02-14 13:44:19.063 D/BleProximity: 📶 RSSI: -74
+02-14 13:44:19.362 D/BleProximity: 📶 RSSI: -83
+02-14 13:44:19.664 D/BleProximity: 📶 RSSI: -83
+02-14 13:44:19.965 D/BleProximity: 📶 RSSI: -85
+02-14 13:44:20.267 D/BleProximity: 📶 RSSI: -86
+02-14 13:44:20.566 D/BleProximity: 📶 RSSI: -85
+02-14 13:44:20.866 D/BleProximity: 📶 RSSI: -86
+02-14 13:44:21.166 D/BleProximity: 📶 RSSI: -86
+02-14 13:44:21.466 D/BleProximity: 📶 RSSI: -89
+02-14 13:44:21.766 D/BleProximity: 📶 RSSI: -87
+02-14 13:44:22.066 D/BleProximity: 📶 RSSI: -84
+02-14 13:44:22.367 D/BleProximity: 📶 RSSI: -87
+02-14 13:44:22.667 D/BleProximity: 📶 RSSI: -86
+02-14 13:44:22.668 D/BleProximity: 🔒 <<< 触发上锁 <<<
+02-14 13:44:22.668 D/BleProximity: 原因: 信号均值(-86) < 阈值(-0.5) 
+02-14 13:44:22.668 D/BleProximity: 📤 发送指令: 锁车门
+02-14 13:44:22.714 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 7e6bc75b19ef
+02-14 13:44:22.714 D/BleProximity: 🔐 处理认证挑战: 376536626337356231396566
+02-14 13:44:22.968 D/BleProximity: 📶 RSSI: -84
+02-14 13:44:23.268 D/BleProximity: 📶 RSSI: -87
+02-14 13:44:23.568 D/BleProximity: 📶 RSSI: -88
+02-14 13:44:23.854 D/BleProximity: 收到认证挑战：uuid: 6CB493E3-7D21-46FB-A7F6-003E2464267E, value: 02
+02-14 13:44:23.854 D/BleProximity: 上锁成功
+02-14 13:44:23.854 D/BleProximity: 📊 指令出队: 锁车门 -> SUCCESS
+02-14 13:44:23.855 D/BleProximity: 🔒 上锁结果: SUCCESS
+02-14 13:44:23.855 D/BleProximity: 🔄 同步状态: 车辆已上锁
+02-14 13:44:23.868 D/BleProximity: 📶 RSSI: -88
+02-14 13:44:23.868 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-14 13:44:24.175 D/BleProximity: 📶 RSSI: -91
+02-14 13:44:24.176 D/BleProximity: 📊 正在收集信号样本: 2/5
+02-14 13:44:24.475 D/BleProximity: 📶 RSSI: -89
+02-14 13:44:24.477 D/BleProximity: 📊 正在收集信号样本: 3/5
+02-14 13:44:24.773 D/BleProximity: 📶 RSSI: -88
+02-14 13:44:24.774 D/BleProximity: 📊 正在收集信号样本: 4/5
+02-14 13:44:25.075 D/BleProximity: 📶 RSSI: -87
+02-14 13:44:25.379 D/BleProximity: 📶 RSSI: -84
+02-14 13:44:25.680 D/BleProximity: 📶 RSSI: -85
+02-14 13:44:25.980 D/BleProximity: 📶 RSSI: -86
+02-14 13:44:26.281 D/BleProximity: 📶 RSSI: -87
+02-14 13:44:26.461 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-14 13:44:26.461 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-14 13:44:26.461 D/MG_NET_LOG: │ Method: POST
+02-14 13:44:26.461 D/MG_NET_LOG: │ Params: data={"vin":"LSJWJ4W95RZ203431","appId":"MG","brandCode":"2","nonce":"6A5BE28178844EFA80B65E2E6AC8706F","timestamp":"1771047866459","token":"e51dfbc051e746e29e3b104e6236f19b-prod_SAIC"}
+02-14 13:44:26.462 D/MG_NET_LOG: └──────────────────────
+02-14 13:44:26.472 D/BleProximity: ➕ 添加监听器: callback_8_1771047866472 (总数: 2)
+02-14 13:44:26.472 D/ControlActivity: ➕ 添加监听器: callback_8_1771047866472 (总数: 2)
+02-14 13:44:26.472 D/ControlActivity: ✅ 蓝牙回调注册成功 ID: callback_8_1771047866472
+02-14 13:44:26.581 D/BleProximity: 📶 RSSI: -90
+02-14 13:44:26.882 D/BleProximity: 📶 RSSI: -88
+02-14 13:44:27.180 D/BleProximity: 📶 RSSI: -89
+02-14 13:44:27.483 D/BleProximity: 📶 RSSI: -88
+02-14 13:44:27.596 D/MG_NET_LOG: ┌────── 响应结束 (200 / 1134ms) ──────
+02-14 13:44:27.597 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-14 13:44:27.598 D/MG_NET_LOG: │ Result: {"req_id":"19c5aadd2d5c6b4e852","data":{"vehicle_position":{"satellites":6,"altitude":198,"latitude":"29.081665","gps_status":2,"update_time":1770982600000,"gps_time":1771047448000,"hdop":13,"longitude":"113.783770"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":244,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":3,"driving_range":302,"battery_pack_range":0,"power_mode":0,"engine_status":0,"exterior_temperature":9,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":44,"localfront_left_seat_heat_level":null,"interior_pm25":506,"odometer":19412,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":127,"chrgng_rmnng_time_v":null,"exterior_pm25":508,"front_left_tyre_pressure":248,"charge_status":0,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":244,"battery_pack_prc":0,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":302,"current_journey_id":26,"pwr_lftgt_pos_v":null,"interior_temperature":21,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1770986328000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":240,"vehicle_battery_prc":700,"battery_type":0,"fuel_level_disp":0,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1770986328000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1770986328000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-14 13:44:27.598 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-14 13:44:27.782 D/BleProximity: 📶 RSSI: -89
+02-14 13:44:27.794 D/BleProximity: ➖ 移除监听器: callback_8_1771047866472 
+02-14 13:44:27.794 D/ControlActivity: ➖ 移除监听器: callback_8_1771047866472 
+02-14 13:44:28.083 D/BleProximity: 📶 RSSI: -89
+02-14 13:44:28.389 D/BleProximity: 📶 RSSI: -90
+02-14 13:44:28.694 D/BleProximity: 📶 RSSI: -90
+02-14 13:44:28.991 D/BleProximity: 📶 RSSI: -90
+02-14 13:44:29.299 D/BleProximity: 📶 RSSI: -91
+02-14 13:44:29.595 D/BleProximity: 📶 RSSI: -92
+02-14 13:44:29.897 D/BleProximity: 📶 RSSI: -90
+02-14 13:44:30.196 D/BleProximity: 📶 RSSI: -91
+02-14 13:44:30.497 D/BleProximity: 📶 RSSI: -91
+02-14 13:44:30.803 D/BleProximity: 📶 RSSI: -91
+02-14 13:44:31.109 D/BleProximity: 📶 RSSI: -90
+02-14 13:44:31.407 D/BleProximity: 📶 RSSI: -92
