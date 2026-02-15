@@ -1,0 +1,885 @@
+--- Log Capture Start: 20260215_163624 ---
+02-15 16:36:02.416 D/BleProximity: ✅ 已连接，开始发现服务
+02-15 16:36:02.418 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-15 16:36:02.419 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-15 16:36:02.425 D/BleProximity: ✅ 已连接，开始发现服务
+02-15 16:36:02.426 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-15 16:36:02.427 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-15 16:36:02.432 D/BleProximity: MTU 生效: 96
+02-15 16:36:02.433 D/BleProximity: 🔐 开始认证流程
+02-15 16:36:02.439 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: dcb0ca437645
+02-15 16:36:02.440 D/BleProximity: 🔐 处理认证挑战: 646362306361343337363435
+02-15 16:36:02.440 D/BleProximity: MTU 生效: 96
+02-15 16:36:02.440 D/BleProximity: 🔐 开始认证流程
+02-15 16:36:02.448 D/BleProximity: ✅ 已连接，开始发现服务
+02-15 16:36:02.448 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-15 16:36:02.448 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-15 16:36:02.452 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: dcb0ca437645
+02-15 16:36:02.453 D/BleProximity: 🔐 处理认证挑战: 646362306361343337363435
+02-15 16:36:02.453 D/BleProximity: ✅ 已连接，开始发现服务
+02-15 16:36:02.453 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-15 16:36:02.453 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-15 16:36:02.460 D/BleProximity: MTU 生效: 96
+02-15 16:36:02.460 D/BleProximity: 🔐 开始认证流程
+02-15 16:36:02.463 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: dcb0ca437645
+02-15 16:36:02.463 D/BleProximity: 🔐 处理认证挑战: 646362306361343337363435
+02-15 16:36:02.463 D/BleProximity: ✅ 已连接，开始发现服务
+02-15 16:36:02.464 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-15 16:36:02.464 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-15 16:36:02.472 D/BleProximity: MTU 生效: 96
+02-15 16:36:02.472 D/BleProximity: 🔐 开始认证流程
+02-15 16:36:02.476 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: dcb0ca437645
+02-15 16:36:02.476 D/BleProximity: 🔐 处理认证挑战: 646362306361343337363435
+02-15 16:36:02.476 D/BleProximity: MTU 生效: 96
+02-15 16:36:02.476 D/BleProximity: 🔐 开始认证流程
+02-15 16:36:02.480 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: dcb0ca437645
+02-15 16:36:02.480 D/BleProximity: 🔐 处理认证挑战: 646362306361343337363435
+02-15 16:36:02.481 D/BleProximity: ✅ 已连接，开始发现服务
+02-15 16:36:02.481 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-15 16:36:02.481 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-15 16:36:02.484 D/BleProximity: MTU 生效: 96
+02-15 16:36:02.484 D/BleProximity: 🔐 开始认证流程
+02-15 16:36:02.488 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: dcb0ca437645
+02-15 16:36:02.488 D/BleProximity: 🔐 处理认证挑战: 646362306361343337363435
+02-15 16:36:02.488 D/BleProximity: ✅ 已连接，开始发现服务
+02-15 16:36:02.489 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-15 16:36:02.489 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-15 16:36:02.492 D/BleProximity: ✅ 已连接，开始发现服务
+02-15 16:36:02.492 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-15 16:36:02.492 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-15 16:36:02.495 D/BleProximity: ✅ 已连接，开始发现服务
+02-15 16:36:02.495 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-15 16:36:02.496 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-15 16:36:02.499 D/BleProximity: MTU 生效: 96
+02-15 16:36:02.499 D/BleProximity: 🔐 开始认证流程
+02-15 16:36:02.503 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: dcb0ca437645
+02-15 16:36:02.503 D/BleProximity: 🔐 处理认证挑战: 646362306361343337363435
+02-15 16:36:02.505 D/BleProximity: MTU 生效: 96
+02-15 16:36:02.505 D/BleProximity: 🔐 开始认证流程
+02-15 16:36:02.508 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: dcb0ca437645
+02-15 16:36:02.508 D/BleProximity: 🔐 处理认证挑战: 646362306361343337363435
+02-15 16:36:02.508 D/BleProximity: MTU 生效: 96
+02-15 16:36:02.508 D/BleProximity: 🔐 开始认证流程
+02-15 16:36:02.511 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: dcb0ca437645
+02-15 16:36:02.511 D/BleProximity: 🔐 处理认证挑战: 646362306361343337363435
+02-15 16:36:02.512 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: dcb0ca437645
+02-15 16:36:02.512 D/BleProximity: 🔐 处理认证挑战: 646362306361343337363435
+02-15 16:36:02.512 D/BleProximity: ✅ 已连接，开始发现服务
+02-15 16:36:02.512 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-15 16:36:02.512 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-15 16:36:02.514 D/BleProximity: MTU 生效: 96
+02-15 16:36:02.515 D/BleProximity: 🔐 开始认证流程
+02-15 16:36:02.517 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: dcb0ca437645
+02-15 16:36:02.517 D/BleProximity: 🔐 处理认证挑战: 646362306361343337363435
+02-15 16:36:02.518 D/BleProximity: ✅ 特征初始化完成
+02-15 16:36:02.518 D/BleProximity: ✅ 特征初始化完成
+02-15 16:36:02.519 D/BleProximity: ✅ 特征初始化完成
+02-15 16:36:02.519 D/BleProximity: ✅ 特征初始化完成
+02-15 16:36:02.520 D/BleProximity: ✅ 特征初始化完成
+02-15 16:36:02.521 D/BleProximity: ✅ 特征初始化完成
+02-15 16:36:02.521 D/BleProximity: ✅ 特征初始化完成
+02-15 16:36:02.522 D/BleProximity: ✅ 特征初始化完成
+02-15 16:36:02.522 D/BleProximity: ✅ 特征初始化完成
+02-15 16:36:02.566 D/BleProximity: ✅ 特征初始化完成
+02-15 16:36:02.664 D/BleProximity: MTU 生效: 96
+02-15 16:36:02.664 D/BleProximity: 🔐 开始认证流程
+02-15 16:36:02.790 D/BleProximity: MTU 生效: 96
+02-15 16:36:02.790 D/BleProximity: 🔐 开始认证流程
+02-15 16:36:02.864 D/BleProximity: MTU 生效: 96
+02-15 16:36:02.864 D/BleProximity: 🔐 开始认证流程
+02-15 16:36:02.938 D/BleProximity: 📤 准备发送Booking ID: 01A638E1 (进入串行队列)
+02-15 16:36:02.944 D/BleProximity: 📤 准备发送Booking ID: 01A638E1 (进入串行队列)
+02-15 16:36:02.963 D/BleProximity: 📤 准备发送Booking ID: 01A638E1 (进入串行队列)
+02-15 16:36:02.964 D/BleProximity: MTU 生效: 96
+02-15 16:36:02.964 D/BleProximity: 🔐 开始认证流程
+02-15 16:36:02.976 D/BleProximity: 📤 准备发送Booking ID: 01A638E1 (进入串行队列)
+02-15 16:36:02.979 D/BleProximity: 📤 准备发送Booking ID: 01A638E1 (进入串行队列)
+02-15 16:36:02.988 D/BleProximity: 📤 准备发送Booking ID: 01A638E1 (进入串行队列)
+02-15 16:36:03.003 D/BleProximity: 📤 准备发送Booking ID: 01A638E1 (进入串行队列)
+02-15 16:36:03.008 D/BleProximity: 📤 准备发送Booking ID: 01A638E1 (进入串行队列)
+02-15 16:36:03.011 D/BleProximity: 📤 准备发送Booking ID: 01A638E1 (进入串行队列)
+02-15 16:36:03.036 D/BleProximity: 📤 准备发送Booking ID: 01A638E1 (进入串行队列)
+02-15 16:36:03.066 D/BleProximity: MTU 生效: 96
+02-15 16:36:03.067 D/BleProximity: 🔐 开始认证流程
+02-15 16:36:03.165 D/BleProximity: MTU 生效: 96
+02-15 16:36:03.165 D/BleProximity: 🔐 开始认证流程
+02-15 16:36:03.171 D/BleProximity: 📤 准备发送Booking ID: 01A638E1 (进入串行队列)
+02-15 16:36:03.264 D/BleProximity: MTU 生效: 96
+02-15 16:36:03.265 D/BleProximity: 🔐 开始认证流程
+02-15 16:36:03.294 D/BleProximity: 📤 准备发送Booking ID: 01A638E1 (进入串行队列)
+02-15 16:36:03.367 D/BleProximity: MTU 生效: 96
+02-15 16:36:03.368 D/BleProximity: 🔐 开始认证流程
+02-15 16:36:03.377 D/BleProximity: 📤 准备发送Booking ID: 01A638E1 (进入串行队列)
+02-15 16:36:03.465 D/BleProximity: MTU 生效: 96
+02-15 16:36:03.466 D/BleProximity: 🔐 开始认证流程
+02-15 16:36:03.474 D/BleProximity: 📤 准备发送Booking ID: 01A638E1 (进入串行队列)
+02-15 16:36:03.566 D/BleProximity: MTU 生效: 96
+02-15 16:36:03.568 D/BleProximity: 🔐 开始认证流程
+02-15 16:36:03.575 D/BleProximity: 📤 准备发送Booking ID: 01A638E1 (进入串行队列)
+02-15 16:36:03.669 D/BleProximity: 📤 准备发送Booking ID: 01A638E1 (进入串行队列)
+02-15 16:36:03.769 D/BleProximity: 📤 准备发送Booking ID: 01A638E1 (进入串行队列)
+02-15 16:36:03.878 D/BleProximity: 📤 准备发送Booking ID: 01A638E1 (进入串行队列)
+02-15 16:36:03.973 D/BleProximity: 📤 准备发送Booking ID: 01A638E1 (进入串行队列)
+02-15 16:36:04.075 D/BleProximity: 📤 准备发送Booking ID: 01A638E1 (进入串行队列)
+02-15 16:36:04.095 D/BleProximity: 收到认证挑战：uuid: 31457EDC-878A-4A15-8554-3568DE71A37B, value: 01
+02-15 16:36:04.096 D/BleProximity: ✅ 认证成功
+02-15 16:36:04.097 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 1, Session: 1)
+02-15 16:36:04.098 D/BleProximity: 📡 连接状态: AUTHENTICATED (isConnected: true)
+02-15 16:36:04.103 D/BleProximity: 收到认证挑战：uuid: 31457EDC-878A-4A15-8554-3568DE71A37B, value: 01
+02-15 16:36:04.103 D/BleProximity: ✅ 认证成功
+02-15 16:36:04.104 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 1, Session: 1)
+02-15 16:36:04.104 D/BleProximity: 📡 连接状态: AUTHENTICATED (isConnected: true)
+02-15 16:36:04.112 D/BleProximity: 收到认证挑战：uuid: 31457EDC-878A-4A15-8554-3568DE71A37B, value: 01
+02-15 16:36:04.113 D/BleProximity: ✅ 认证成功
+02-15 16:36:04.113 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 1, Session: 1)
+02-15 16:36:04.113 D/BleProximity: 📡 连接状态: AUTHENTICATED (isConnected: true)
+02-15 16:36:04.120 D/BleProximity: 收到认证挑战：uuid: 31457EDC-878A-4A15-8554-3568DE71A37B, value: 01
+02-15 16:36:04.120 D/BleProximity: ✅ 认证成功
+02-15 16:36:04.121 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 1, Session: 1)
+02-15 16:36:04.121 D/BleProximity: 📡 连接状态: AUTHENTICATED (isConnected: true)
+02-15 16:36:04.125 D/BleProximity: 收到认证挑战：uuid: 31457EDC-878A-4A15-8554-3568DE71A37B, value: 01
+02-15 16:36:04.126 D/BleProximity: ✅ 认证成功
+02-15 16:36:04.126 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 1, Session: 1)
+02-15 16:36:04.126 D/BleProximity: 📡 连接状态: AUTHENTICATED (isConnected: true)
+02-15 16:36:04.135 D/BleProximity: 收到认证挑战：uuid: 31457EDC-878A-4A15-8554-3568DE71A37B, value: 01
+02-15 16:36:04.136 D/BleProximity: ✅ 认证成功
+02-15 16:36:04.136 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 1, Session: 1)
+02-15 16:36:04.136 D/BleProximity: 📡 连接状态: AUTHENTICATED (isConnected: true)
+02-15 16:36:04.140 D/BleProximity: 收到认证挑战：uuid: 31457EDC-878A-4A15-8554-3568DE71A37B, value: 01
+02-15 16:36:04.141 D/BleProximity: ✅ 认证成功
+02-15 16:36:04.141 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 1, Session: 1)
+02-15 16:36:04.141 D/BleProximity: 📡 连接状态: AUTHENTICATED (isConnected: true)
+02-15 16:36:04.147 D/BleProximity: 收到认证挑战：uuid: 31457EDC-878A-4A15-8554-3568DE71A37B, value: 01
+02-15 16:36:04.148 D/BleProximity: ✅ 认证成功
+02-15 16:36:04.148 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 1, Session: 1)
+02-15 16:36:04.148 D/BleProximity: 📡 连接状态: AUTHENTICATED (isConnected: true)
+02-15 16:36:04.151 D/BleProximity: 收到认证挑战：uuid: 31457EDC-878A-4A15-8554-3568DE71A37B, value: 01
+02-15 16:36:04.151 D/BleProximity: ✅ 认证成功
+02-15 16:36:04.151 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 1, Session: 1)
+02-15 16:36:04.152 D/BleProximity: 📡 连接状态: AUTHENTICATED (isConnected: true)
+02-15 16:36:04.154 D/BleProximity: 收到认证挑战：uuid: 31457EDC-878A-4A15-8554-3568DE71A37B, value: 01
+02-15 16:36:04.154 D/BleProximity: ✅ 认证成功
+02-15 16:36:04.154 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 1, Session: 1)
+02-15 16:36:04.155 D/BleProximity: 📡 连接状态: AUTHENTICATED (isConnected: true)
+02-15 16:36:04.157 D/BleProximity: 收到认证挑战：uuid: 31457EDC-878A-4A15-8554-3568DE71A37B, value: 01
+02-15 16:36:04.157 D/BleProximity: ✅ 认证成功
+02-15 16:36:04.157 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 1, Session: 1)
+02-15 16:36:04.157 D/BleProximity: 📡 连接状态: AUTHENTICATED (isConnected: true)
+02-15 16:36:04.168 D/BleProximity: 📶 RSSI: -54
+02-15 16:36:04.168 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-15 16:36:04.466 D/BleProximity: 📶 RSSI: -54
+02-15 16:36:04.467 D/BleProximity: 📊 正在收集信号样本: 2/5
+02-15 16:36:04.771 D/BleProximity: 📶 RSSI: -60
+02-15 16:36:04.772 D/BleProximity: 📊 正在收集信号样本: 3/5
+02-15 16:36:05.072 D/BleProximity: 📶 RSSI: -57
+02-15 16:36:05.073 D/BleProximity: 📊 正在收集信号样本: 4/5
+02-15 16:36:05.372 D/BleProximity: 📶 RSSI: -49
+02-15 16:36:05.373 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-15 16:36:05.373 D/BleProximity: 原因: 信号均值(-54) > 阈值(-61.0) 
+02-15 16:36:05.374 D/BleProximity: 📤 发送指令: 解锁车门
+02-15 16:36:05.672 D/BleProximity: 📶 RSSI: -51
+02-15 16:36:05.974 D/BleProximity: 📶 RSSI: -55
+02-15 16:36:06.277 D/BleProximity: 📶 RSSI: -47
+02-15 16:36:06.580 D/BleProximity: 📶 RSSI: -49
+02-15 16:36:06.881 D/BleProximity: 📶 RSSI: -57
+02-15 16:36:07.182 D/BleProximity: 📶 RSSI: -48
+02-15 16:36:07.485 D/BleProximity: 📶 RSSI: -49
+02-15 16:36:07.789 D/BleProximity: 📶 RSSI: -56
+02-15 16:36:08.091 D/BleProximity: 📶 RSSI: -48
+02-15 16:36:08.375 D/BleProximity: ⏱️ 指令超时无响应: 解锁车门
+02-15 16:36:08.377 D/BleProximity: 📊 指令出队: 解锁车门 -> TIMEOUT
+02-15 16:36:08.377 D/BleProximity: 🔓 解锁结果: TIMEOUT
+02-15 16:36:08.385 D/BleProximity: ⚠️ 解锁未成功: TIMEOUT
+02-15 16:36:08.394 D/BleProximity: 📶 RSSI: -57
+02-15 16:36:08.395 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-15 16:36:08.395 D/BleProximity: 原因: 信号均值(-51) > 阈值(-61.0) 
+02-15 16:36:08.396 D/BleProximity: 📤 发送指令: 解锁车门
+02-15 16:36:08.695 D/BleProximity: 📶 RSSI: -56
+02-15 16:36:08.998 D/BleProximity: 📶 RSSI: -48
+02-15 16:36:09.303 D/BleProximity: 📶 RSSI: -60
+02-15 16:36:09.602 D/BleProximity: 📶 RSSI: -48
+02-15 16:36:09.906 D/BleProximity: 📶 RSSI: -50
+02-15 16:36:10.207 D/BleProximity: 📶 RSSI: -48
+02-15 16:36:10.519 D/BleProximity: 📶 RSSI: -48
+02-15 16:36:10.814 D/BleProximity: 📶 RSSI: -48
+02-15 16:36:11.117 D/BleProximity: 📶 RSSI: -49
+02-15 16:36:11.398 D/BleProximity: ⏱️ 指令超时无响应: 解锁车门
+02-15 16:36:11.400 D/BleProximity: 📊 指令出队: 解锁车门 -> TIMEOUT
+02-15 16:36:11.401 D/BleProximity: 🔓 解锁结果: TIMEOUT
+02-15 16:36:11.409 D/BleProximity: ⚠️ 解锁未成功: TIMEOUT
+02-15 16:36:11.424 D/BleProximity: 📶 RSSI: -49
+02-15 16:36:11.425 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-15 16:36:11.425 D/BleProximity: 原因: 信号均值(-48) > 阈值(-61.0) 
+02-15 16:36:11.426 D/BleProximity: 📤 发送指令: 解锁车门
+02-15 16:36:11.601 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 412fbcf7a40c
+02-15 16:36:11.602 D/BleProximity: 🔐 处理认证挑战: 343132666263663761343063
+02-15 16:36:11.605 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 412fbcf7a40c
+02-15 16:36:11.606 D/BleProximity: 🔐 处理认证挑战: 343132666263663761343063
+02-15 16:36:11.606 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 412fbcf7a40c
+02-15 16:36:11.607 D/BleProximity: 🔐 处理认证挑战: 343132666263663761343063
+02-15 16:36:11.607 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 412fbcf7a40c
+02-15 16:36:11.608 D/BleProximity: 🔐 处理认证挑战: 343132666263663761343063
+02-15 16:36:11.609 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 412fbcf7a40c
+02-15 16:36:11.609 D/BleProximity: 🔐 处理认证挑战: 343132666263663761343063
+02-15 16:36:11.610 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 412fbcf7a40c
+02-15 16:36:11.610 D/BleProximity: 🔐 处理认证挑战: 343132666263663761343063
+02-15 16:36:11.610 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 412fbcf7a40c
+02-15 16:36:11.611 D/BleProximity: 🔐 处理认证挑战: 343132666263663761343063
+02-15 16:36:11.611 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 412fbcf7a40c
+02-15 16:36:11.612 D/BleProximity: 🔐 处理认证挑战: 343132666263663761343063
+02-15 16:36:11.612 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 412fbcf7a40c
+02-15 16:36:11.613 D/BleProximity: 🔐 处理认证挑战: 343132666263663761343063
+02-15 16:36:11.613 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 412fbcf7a40c
+02-15 16:36:11.613 D/BleProximity: 🔐 处理认证挑战: 343132666263663761343063
+02-15 16:36:11.614 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 412fbcf7a40c
+02-15 16:36:11.614 D/BleProximity: 🔐 处理认证挑战: 343132666263663761343063
+02-15 16:36:11.656 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: f959f03f5783
+02-15 16:36:11.657 D/BleProximity: 🔐 处理认证挑战: 663935396630336635373833
+02-15 16:36:11.659 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: f959f03f5783
+02-15 16:36:11.659 D/BleProximity: 🔐 处理认证挑战: 663935396630336635373833
+02-15 16:36:11.660 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: f959f03f5783
+02-15 16:36:11.661 D/BleProximity: 🔐 处理认证挑战: 663935396630336635373833
+02-15 16:36:11.661 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: f959f03f5783
+02-15 16:36:11.662 D/BleProximity: 🔐 处理认证挑战: 663935396630336635373833
+02-15 16:36:11.662 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: f959f03f5783
+02-15 16:36:11.663 D/BleProximity: 🔐 处理认证挑战: 663935396630336635373833
+02-15 16:36:11.663 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: f959f03f5783
+02-15 16:36:11.664 D/BleProximity: 🔐 处理认证挑战: 663935396630336635373833
+02-15 16:36:11.664 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: f959f03f5783
+02-15 16:36:11.665 D/BleProximity: 🔐 处理认证挑战: 663935396630336635373833
+02-15 16:36:11.665 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: f959f03f5783
+02-15 16:36:11.666 D/BleProximity: 🔐 处理认证挑战: 663935396630336635373833
+02-15 16:36:11.666 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: f959f03f5783
+02-15 16:36:11.667 D/BleProximity: 🔐 处理认证挑战: 663935396630336635373833
+02-15 16:36:11.668 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: f959f03f5783
+02-15 16:36:11.668 D/BleProximity: 🔐 处理认证挑战: 663935396630336635373833
+02-15 16:36:11.669 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: f959f03f5783
+02-15 16:36:11.670 D/BleProximity: 🔐 处理认证挑战: 663935396630336635373833
+02-15 16:36:11.686 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 3667ac023e56
+02-15 16:36:11.686 D/BleProximity: 🔐 处理认证挑战: 333636376163303233653536
+02-15 16:36:11.687 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 3667ac023e56
+02-15 16:36:11.687 D/BleProximity: 🔐 处理认证挑战: 333636376163303233653536
+02-15 16:36:11.688 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 3667ac023e56
+02-15 16:36:11.688 D/BleProximity: 🔐 处理认证挑战: 333636376163303233653536
+02-15 16:36:11.688 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 3667ac023e56
+02-15 16:36:11.689 D/BleProximity: 🔐 处理认证挑战: 333636376163303233653536
+02-15 16:36:11.689 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 3667ac023e56
+02-15 16:36:11.690 D/BleProximity: 🔐 处理认证挑战: 333636376163303233653536
+02-15 16:36:11.690 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 3667ac023e56
+02-15 16:36:11.690 D/BleProximity: 🔐 处理认证挑战: 333636376163303233653536
+02-15 16:36:11.691 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 3667ac023e56
+02-15 16:36:11.691 D/BleProximity: 🔐 处理认证挑战: 333636376163303233653536
+02-15 16:36:11.692 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 3667ac023e56
+02-15 16:36:11.692 D/BleProximity: 🔐 处理认证挑战: 333636376163303233653536
+02-15 16:36:11.692 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 3667ac023e56
+02-15 16:36:11.692 D/BleProximity: 🔐 处理认证挑战: 333636376163303233653536
+02-15 16:36:11.693 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 3667ac023e56
+02-15 16:36:11.693 D/BleProximity: 🔐 处理认证挑战: 333636376163303233653536
+02-15 16:36:11.694 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 3667ac023e56
+02-15 16:36:11.694 D/BleProximity: 🔐 处理认证挑战: 333636376163303233653536
+02-15 16:36:11.721 D/BleProximity: 📶 RSSI: -50
+02-15 16:36:12.025 D/BleProximity: 📶 RSSI: -50
+02-15 16:36:12.255 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c173a27959f1
+02-15 16:36:12.255 D/BleProximity: 🔐 处理认证挑战: 633137336132373935396631
+02-15 16:36:12.258 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c173a27959f1
+02-15 16:36:12.258 D/BleProximity: 🔐 处理认证挑战: 633137336132373935396631
+02-15 16:36:12.259 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c173a27959f1
+02-15 16:36:12.259 D/BleProximity: 🔐 处理认证挑战: 633137336132373935396631
+02-15 16:36:12.259 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c173a27959f1
+02-15 16:36:12.260 D/BleProximity: 🔐 处理认证挑战: 633137336132373935396631
+02-15 16:36:12.260 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c173a27959f1
+02-15 16:36:12.261 D/BleProximity: 🔐 处理认证挑战: 633137336132373935396631
+02-15 16:36:12.263 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c173a27959f1
+02-15 16:36:12.263 D/BleProximity: 🔐 处理认证挑战: 633137336132373935396631
+02-15 16:36:12.264 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c173a27959f1
+02-15 16:36:12.264 D/BleProximity: 🔐 处理认证挑战: 633137336132373935396631
+02-15 16:36:12.265 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c173a27959f1
+02-15 16:36:12.265 D/BleProximity: 🔐 处理认证挑战: 633137336132373935396631
+02-15 16:36:12.266 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c173a27959f1
+02-15 16:36:12.267 D/BleProximity: 🔐 处理认证挑战: 633137336132373935396631
+02-15 16:36:12.267 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c173a27959f1
+02-15 16:36:12.268 D/BleProximity: 🔐 处理认证挑战: 633137336132373935396631
+02-15 16:36:12.269 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c173a27959f1
+02-15 16:36:12.269 D/BleProximity: 🔐 处理认证挑战: 633137336132373935396631
+02-15 16:36:12.314 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: fae904407232
+02-15 16:36:12.315 D/BleProximity: 🔐 处理认证挑战: 666165393034343037323332
+02-15 16:36:12.315 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: fae904407232
+02-15 16:36:12.316 D/BleProximity: 🔐 处理认证挑战: 666165393034343037323332
+02-15 16:36:12.316 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: fae904407232
+02-15 16:36:12.317 D/BleProximity: 🔐 处理认证挑战: 666165393034343037323332
+02-15 16:36:12.318 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: fae904407232
+02-15 16:36:12.319 D/BleProximity: 🔐 处理认证挑战: 666165393034343037323332
+02-15 16:36:12.319 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: fae904407232
+02-15 16:36:12.319 D/BleProximity: 🔐 处理认证挑战: 666165393034343037323332
+02-15 16:36:12.320 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: fae904407232
+02-15 16:36:12.320 D/BleProximity: 🔐 处理认证挑战: 666165393034343037323332
+02-15 16:36:12.320 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: fae904407232
+02-15 16:36:12.320 D/BleProximity: 🔐 处理认证挑战: 666165393034343037323332
+02-15 16:36:12.322 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: fae904407232
+02-15 16:36:12.322 D/BleProximity: 🔐 处理认证挑战: 666165393034343037323332
+02-15 16:36:12.323 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: fae904407232
+02-15 16:36:12.324 D/BleProximity: 🔐 处理认证挑战: 666165393034343037323332
+02-15 16:36:12.324 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: fae904407232
+02-15 16:36:12.324 D/BleProximity: 🔐 处理认证挑战: 666165393034343037323332
+02-15 16:36:12.342 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: fae904407232
+02-15 16:36:12.343 D/BleProximity: 🔐 处理认证挑战: 666165393034343037323332
+02-15 16:36:12.355 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: b943ed81bfcd
+02-15 16:36:12.355 D/BleProximity: 🔐 处理认证挑战: 623934336564383162666364
+02-15 16:36:12.355 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: b943ed81bfcd
+02-15 16:36:12.356 D/BleProximity: 🔐 处理认证挑战: 623934336564383162666364
+02-15 16:36:12.356 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: b943ed81bfcd
+02-15 16:36:12.356 D/BleProximity: 🔐 处理认证挑战: 623934336564383162666364
+02-15 16:36:12.357 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: b943ed81bfcd
+02-15 16:36:12.357 D/BleProximity: 🔐 处理认证挑战: 623934336564383162666364
+02-15 16:36:12.357 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: b943ed81bfcd
+02-15 16:36:12.358 D/BleProximity: 🔐 处理认证挑战: 623934336564383162666364
+02-15 16:36:12.358 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: b943ed81bfcd
+02-15 16:36:12.359 D/BleProximity: 🔐 处理认证挑战: 623934336564383162666364
+02-15 16:36:12.360 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: b943ed81bfcd
+02-15 16:36:12.360 D/BleProximity: 🔐 处理认证挑战: 623934336564383162666364
+02-15 16:36:12.360 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: b943ed81bfcd
+02-15 16:36:12.361 D/BleProximity: 🔐 处理认证挑战: 623934336564383162666364
+02-15 16:36:12.361 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: b943ed81bfcd
+02-15 16:36:12.362 D/BleProximity: 🔐 处理认证挑战: 623934336564383162666364
+02-15 16:36:12.362 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: b943ed81bfcd
+02-15 16:36:12.363 D/BleProximity: 🔐 处理认证挑战: 623934336564383162666364
+02-15 16:36:12.363 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: b943ed81bfcd
+02-15 16:36:12.364 D/BleProximity: 🔐 处理认证挑战: 623934336564383162666364
+02-15 16:36:12.365 D/BleProximity: 📶 RSSI: -50
+02-15 16:36:12.376 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 3f4054c8ad45
+02-15 16:36:12.376 D/BleProximity: 🔐 处理认证挑战: 336634303534633861643435
+02-15 16:36:12.377 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 3f4054c8ad45
+02-15 16:36:12.377 D/BleProximity: 🔐 处理认证挑战: 336634303534633861643435
+02-15 16:36:12.378 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 3f4054c8ad45
+02-15 16:36:12.378 D/BleProximity: 🔐 处理认证挑战: 336634303534633861643435
+02-15 16:36:12.378 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 3f4054c8ad45
+02-15 16:36:12.378 D/BleProximity: 🔐 处理认证挑战: 336634303534633861643435
+02-15 16:36:12.378 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 3f4054c8ad45
+02-15 16:36:12.378 D/BleProximity: 🔐 处理认证挑战: 336634303534633861643435
+02-15 16:36:12.379 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 3f4054c8ad45
+02-15 16:36:12.379 D/BleProximity: 🔐 处理认证挑战: 336634303534633861643435
+02-15 16:36:12.379 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 3f4054c8ad45
+02-15 16:36:12.379 D/BleProximity: 🔐 处理认证挑战: 336634303534633861643435
+02-15 16:36:12.379 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 3f4054c8ad45
+02-15 16:36:12.380 D/BleProximity: 🔐 处理认证挑战: 336634303534633861643435
+02-15 16:36:12.380 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 3f4054c8ad45
+02-15 16:36:12.380 D/BleProximity: 🔐 处理认证挑战: 336634303534633861643435
+02-15 16:36:12.380 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 3f4054c8ad45
+02-15 16:36:12.380 D/BleProximity: 🔐 处理认证挑战: 336634303534633861643435
+02-15 16:36:12.380 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 3f4054c8ad45
+02-15 16:36:12.381 D/BleProximity: 🔐 处理认证挑战: 336634303534633861643435
+02-15 16:36:12.405 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 95d807a51988
+02-15 16:36:12.406 D/BleProximity: 🔐 处理认证挑战: 393564383037613531393838
+02-15 16:36:12.406 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 95d807a51988
+02-15 16:36:12.407 D/BleProximity: 🔐 处理认证挑战: 393564383037613531393838
+02-15 16:36:12.407 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 95d807a51988
+02-15 16:36:12.408 D/BleProximity: 🔐 处理认证挑战: 393564383037613531393838
+02-15 16:36:12.408 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 95d807a51988
+02-15 16:36:12.409 D/BleProximity: 🔐 处理认证挑战: 393564383037613531393838
+02-15 16:36:12.409 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 95d807a51988
+02-15 16:36:12.409 D/BleProximity: 🔐 处理认证挑战: 393564383037613531393838
+02-15 16:36:12.410 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 95d807a51988
+02-15 16:36:12.410 D/BleProximity: 🔐 处理认证挑战: 393564383037613531393838
+02-15 16:36:12.411 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 95d807a51988
+02-15 16:36:12.414 D/BleProximity: 🔐 处理认证挑战: 393564383037613531393838
+02-15 16:36:12.414 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 95d807a51988
+02-15 16:36:12.415 D/BleProximity: 🔐 处理认证挑战: 393564383037613531393838
+02-15 16:36:12.415 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 95d807a51988
+02-15 16:36:12.416 D/BleProximity: 🔐 处理认证挑战: 393564383037613531393838
+02-15 16:36:12.416 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 5432f1e66624
+02-15 16:36:12.417 D/BleProximity: 🔐 处理认证挑战: 353433326631653636363234
+02-15 16:36:12.418 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 5432f1e66624
+02-15 16:36:12.418 D/BleProximity: 🔐 处理认证挑战: 353433326631653636363234
+02-15 16:36:12.418 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 5432f1e66624
+02-15 16:36:12.419 D/BleProximity: 🔐 处理认证挑战: 353433326631653636363234
+02-15 16:36:12.419 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 5432f1e66624
+02-15 16:36:12.419 D/BleProximity: 🔐 处理认证挑战: 353433326631653636363234
+02-15 16:36:12.420 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 95d807a51988
+02-15 16:36:12.420 D/BleProximity: 🔐 处理认证挑战: 393564383037613531393838
+02-15 16:36:12.420 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 5432f1e66624
+02-15 16:36:12.421 D/BleProximity: 🔐 处理认证挑战: 353433326631653636363234
+02-15 16:36:12.421 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 5432f1e66624
+02-15 16:36:12.421 D/BleProximity: 🔐 处理认证挑战: 353433326631653636363234
+02-15 16:36:12.422 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 5432f1e66624
+02-15 16:36:12.422 D/BleProximity: 🔐 处理认证挑战: 353433326631653636363234
+02-15 16:36:12.423 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 5432f1e66624
+02-15 16:36:12.423 D/BleProximity: 🔐 处理认证挑战: 353433326631653636363234
+02-15 16:36:12.423 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 5432f1e66624
+02-15 16:36:12.424 D/BleProximity: 🔐 处理认证挑战: 353433326631653636363234
+02-15 16:36:12.424 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 95d807a51988
+02-15 16:36:12.424 D/BleProximity: 🔐 处理认证挑战: 393564383037613531393838
+02-15 16:36:12.425 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 5432f1e66624
+02-15 16:36:12.425 D/BleProximity: 🔐 处理认证挑战: 353433326631653636363234
+02-15 16:36:12.426 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 5432f1e66624
+02-15 16:36:12.426 D/BleProximity: 🔐 处理认证挑战: 353433326631653636363234
+02-15 16:36:12.436 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 138dda27b3bf
+02-15 16:36:12.437 D/BleProximity: 🔐 处理认证挑战: 313338646461323762336266
+02-15 16:36:12.439 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 138dda27b3bf
+02-15 16:36:12.440 D/BleProximity: 🔐 处理认证挑战: 313338646461323762336266
+02-15 16:36:12.440 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 138dda27b3bf
+02-15 16:36:12.440 D/BleProximity: 🔐 处理认证挑战: 313338646461323762336266
+02-15 16:36:12.441 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 138dda27b3bf
+02-15 16:36:12.441 D/BleProximity: 🔐 处理认证挑战: 313338646461323762336266
+02-15 16:36:12.442 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 138dda27b3bf
+02-15 16:36:12.442 D/BleProximity: 🔐 处理认证挑战: 313338646461323762336266
+02-15 16:36:12.443 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 138dda27b3bf
+02-15 16:36:12.443 D/BleProximity: 🔐 处理认证挑战: 313338646461323762336266
+02-15 16:36:12.444 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 138dda27b3bf
+02-15 16:36:12.444 D/BleProximity: 🔐 处理认证挑战: 313338646461323762336266
+02-15 16:36:12.444 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 138dda27b3bf
+02-15 16:36:12.445 D/BleProximity: 🔐 处理认证挑战: 313338646461323762336266
+02-15 16:36:12.445 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 138dda27b3bf
+02-15 16:36:12.446 D/BleProximity: 🔐 处理认证挑战: 313338646461323762336266
+02-15 16:36:12.446 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 138dda27b3bf
+02-15 16:36:12.447 D/BleProximity: 🔐 处理认证挑战: 313338646461323762336266
+02-15 16:36:12.447 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 138dda27b3bf
+02-15 16:36:12.447 D/BleProximity: 🔐 处理认证挑战: 313338646461323762336266
+02-15 16:36:12.652 D/BleProximity: 📶 RSSI: -54
+02-15 16:36:12.951 D/BleProximity: 📶 RSSI: -50
+02-15 16:36:13.254 D/BleProximity: 📶 RSSI: -56
+02-15 16:36:13.455 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 30d47c0d821c
+02-15 16:36:13.457 D/BleProximity: 🔐 处理认证挑战: 333064343763306438323163
+02-15 16:36:13.457 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 30d47c0d821c
+02-15 16:36:13.458 D/BleProximity: 🔐 处理认证挑战: 333064343763306438323163
+02-15 16:36:13.458 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 30d47c0d821c
+02-15 16:36:13.458 D/BleProximity: 🔐 处理认证挑战: 333064343763306438323163
+02-15 16:36:13.459 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 30d47c0d821c
+02-15 16:36:13.459 D/BleProximity: 🔐 处理认证挑战: 333064343763306438323163
+02-15 16:36:13.460 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 30d47c0d821c
+02-15 16:36:13.460 D/BleProximity: 🔐 处理认证挑战: 333064343763306438323163
+02-15 16:36:13.461 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 30d47c0d821c
+02-15 16:36:13.462 D/BleProximity: 🔐 处理认证挑战: 333064343763306438323163
+02-15 16:36:13.462 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 30d47c0d821c
+02-15 16:36:13.463 D/BleProximity: 🔐 处理认证挑战: 333064343763306438323163
+02-15 16:36:13.463 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 30d47c0d821c
+02-15 16:36:13.464 D/BleProximity: 🔐 处理认证挑战: 333064343763306438323163
+02-15 16:36:13.464 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 30d47c0d821c
+02-15 16:36:13.465 D/BleProximity: 🔐 处理认证挑战: 333064343763306438323163
+02-15 16:36:13.465 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 30d47c0d821c
+02-15 16:36:13.466 D/BleProximity: 🔐 处理认证挑战: 333064343763306438323163
+02-15 16:36:13.466 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 30d47c0d821c
+02-15 16:36:13.466 D/BleProximity: 🔐 处理认证挑战: 333064343763306438323163
+02-15 16:36:13.554 D/BleProximity: 📶 RSSI: -49
+02-15 16:36:13.856 D/BleProximity: 📶 RSSI: -48
+02-15 16:36:14.026 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: bbe072849cb7
+02-15 16:36:14.026 D/BleProximity: 🔐 处理认证挑战: 626265303732383439636237
+02-15 16:36:14.030 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: bbe072849cb7
+02-15 16:36:14.030 D/BleProximity: 🔐 处理认证挑战: 626265303732383439636237
+02-15 16:36:14.031 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: bbe072849cb7
+02-15 16:36:14.032 D/BleProximity: 🔐 处理认证挑战: 626265303732383439636237
+02-15 16:36:14.032 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: bbe072849cb7
+02-15 16:36:14.033 D/BleProximity: 🔐 处理认证挑战: 626265303732383439636237
+02-15 16:36:14.033 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: bbe072849cb7
+02-15 16:36:14.034 D/BleProximity: 🔐 处理认证挑战: 626265303732383439636237
+02-15 16:36:14.034 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: bbe072849cb7
+02-15 16:36:14.035 D/BleProximity: 🔐 处理认证挑战: 626265303732383439636237
+02-15 16:36:14.035 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: bbe072849cb7
+02-15 16:36:14.036 D/BleProximity: 🔐 处理认证挑战: 626265303732383439636237
+02-15 16:36:14.037 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: bbe072849cb7
+02-15 16:36:14.037 D/BleProximity: 🔐 处理认证挑战: 626265303732383439636237
+02-15 16:36:14.038 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: bbe072849cb7
+02-15 16:36:14.039 D/BleProximity: 🔐 处理认证挑战: 626265303732383439636237
+02-15 16:36:14.039 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: bbe072849cb7
+02-15 16:36:14.040 D/BleProximity: 🔐 处理认证挑战: 626265303732383439636237
+02-15 16:36:14.040 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: bbe072849cb7
+02-15 16:36:14.041 D/BleProximity: 🔐 处理认证挑战: 626265303732383439636237
+02-15 16:36:14.158 D/BleProximity: 📶 RSSI: -49
+02-15 16:36:14.429 D/BleProximity: ⏱️ 指令超时无响应: 解锁车门
+02-15 16:36:14.430 D/BleProximity: 📊 指令出队: 解锁车门 -> TIMEOUT
+02-15 16:36:14.430 D/BleProximity: 🔓 解锁结果: TIMEOUT
+02-15 16:36:14.436 D/BleProximity: ⚠️ 解锁未成功: TIMEOUT
+02-15 16:36:14.462 D/BleProximity: 📶 RSSI: -56
+02-15 16:36:14.462 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-15 16:36:14.463 D/BleProximity: 原因: 信号均值(-51) > 阈值(-61.0) 
+02-15 16:36:14.463 D/BleProximity: 📤 发送指令: 解锁车门
+02-15 16:36:14.626 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 82fa24be9e26
+02-15 16:36:14.627 D/BleProximity: 🔐 处理认证挑战: 383266613234626539653236
+02-15 16:36:14.627 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 82fa24be9e26
+02-15 16:36:14.628 D/BleProximity: 🔐 处理认证挑战: 383266613234626539653236
+02-15 16:36:14.628 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 82fa24be9e26
+02-15 16:36:14.628 D/BleProximity: 🔐 处理认证挑战: 383266613234626539653236
+02-15 16:36:14.629 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 82fa24be9e26
+02-15 16:36:14.629 D/BleProximity: 🔐 处理认证挑战: 383266613234626539653236
+02-15 16:36:14.630 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 82fa24be9e26
+02-15 16:36:14.630 D/BleProximity: 🔐 处理认证挑战: 383266613234626539653236
+02-15 16:36:14.630 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 82fa24be9e26
+02-15 16:36:14.631 D/BleProximity: 🔐 处理认证挑战: 383266613234626539653236
+02-15 16:36:14.631 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 82fa24be9e26
+02-15 16:36:14.631 D/BleProximity: 🔐 处理认证挑战: 383266613234626539653236
+02-15 16:36:14.632 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 82fa24be9e26
+02-15 16:36:14.632 D/BleProximity: 🔐 处理认证挑战: 383266613234626539653236
+02-15 16:36:14.632 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 82fa24be9e26
+02-15 16:36:14.633 D/BleProximity: 🔐 处理认证挑战: 383266613234626539653236
+02-15 16:36:14.633 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 82fa24be9e26
+02-15 16:36:14.634 D/BleProximity: 🔐 处理认证挑战: 383266613234626539653236
+02-15 16:36:14.634 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 82fa24be9e26
+02-15 16:36:14.634 D/BleProximity: 🔐 处理认证挑战: 383266613234626539653236
+02-15 16:36:14.765 D/BleProximity: 📶 RSSI: -48
+02-15 16:36:15.068 D/BleProximity: 📶 RSSI: -47
+02-15 16:36:15.285 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c5304f7e6c38
+02-15 16:36:15.285 D/BleProximity: 🔐 处理认证挑战: 633533303466376536633338
+02-15 16:36:15.286 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c5304f7e6c38
+02-15 16:36:15.287 D/BleProximity: 🔐 处理认证挑战: 633533303466376536633338
+02-15 16:36:15.288 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c5304f7e6c38
+02-15 16:36:15.288 D/BleProximity: 🔐 处理认证挑战: 633533303466376536633338
+02-15 16:36:15.289 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c5304f7e6c38
+02-15 16:36:15.289 D/BleProximity: 🔐 处理认证挑战: 633533303466376536633338
+02-15 16:36:15.290 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c5304f7e6c38
+02-15 16:36:15.291 D/BleProximity: 🔐 处理认证挑战: 633533303466376536633338
+02-15 16:36:15.292 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c5304f7e6c38
+02-15 16:36:15.293 D/BleProximity: 🔐 处理认证挑战: 633533303466376536633338
+02-15 16:36:15.293 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c5304f7e6c38
+02-15 16:36:15.294 D/BleProximity: 🔐 处理认证挑战: 633533303466376536633338
+02-15 16:36:15.295 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c5304f7e6c38
+02-15 16:36:15.295 D/BleProximity: 🔐 处理认证挑战: 633533303466376536633338
+02-15 16:36:15.296 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c5304f7e6c38
+02-15 16:36:15.296 D/BleProximity: 🔐 处理认证挑战: 633533303466376536633338
+02-15 16:36:15.297 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c5304f7e6c38
+02-15 16:36:15.297 D/BleProximity: 🔐 处理认证挑战: 633533303466376536633338
+02-15 16:36:15.297 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c5304f7e6c38
+02-15 16:36:15.297 D/BleProximity: 🔐 处理认证挑战: 633533303466376536633338
+02-15 16:36:15.367 D/BleProximity: 📶 RSSI: -56
+02-15 16:36:15.672 D/BleProximity: 📶 RSSI: -51
+02-15 16:36:15.915 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: ca58bd7a5479
+02-15 16:36:15.916 D/BleProximity: 🔐 处理认证挑战: 636135386264376135343739
+02-15 16:36:15.918 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: ca58bd7a5479
+02-15 16:36:15.918 D/BleProximity: 🔐 处理认证挑战: 636135386264376135343739
+02-15 16:36:15.919 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: ca58bd7a5479
+02-15 16:36:15.919 D/BleProximity: 🔐 处理认证挑战: 636135386264376135343739
+02-15 16:36:15.920 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: ca58bd7a5479
+02-15 16:36:15.920 D/BleProximity: 🔐 处理认证挑战: 636135386264376135343739
+02-15 16:36:15.923 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: ca58bd7a5479
+02-15 16:36:15.923 D/BleProximity: 🔐 处理认证挑战: 636135386264376135343739
+02-15 16:36:15.923 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: ca58bd7a5479
+02-15 16:36:15.924 D/BleProximity: 🔐 处理认证挑战: 636135386264376135343739
+02-15 16:36:15.924 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: ca58bd7a5479
+02-15 16:36:15.925 D/BleProximity: 🔐 处理认证挑战: 636135386264376135343739
+02-15 16:36:15.925 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: ca58bd7a5479
+02-15 16:36:15.926 D/BleProximity: 🔐 处理认证挑战: 636135386264376135343739
+02-15 16:36:15.926 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: ca58bd7a5479
+02-15 16:36:15.927 D/BleProximity: 🔐 处理认证挑战: 636135386264376135343739
+02-15 16:36:15.928 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: ca58bd7a5479
+02-15 16:36:15.929 D/BleProximity: 🔐 处理认证挑战: 636135386264376135343739
+02-15 16:36:15.931 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: ca58bd7a5479
+02-15 16:36:15.932 D/BleProximity: 🔐 处理认证挑战: 636135386264376135343739
+02-15 16:36:15.971 D/BleProximity: 📶 RSSI: -50
+02-15 16:36:15.974 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 44743500211e
+02-15 16:36:15.975 D/BleProximity: 🔐 处理认证挑战: 343437343335303032313165
+02-15 16:36:15.975 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 44743500211e
+02-15 16:36:15.976 D/BleProximity: 🔐 处理认证挑战: 343437343335303032313165
+02-15 16:36:15.978 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 44743500211e
+02-15 16:36:15.978 D/BleProximity: 🔐 处理认证挑战: 343437343335303032313165
+02-15 16:36:15.979 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 44743500211e
+02-15 16:36:15.979 D/BleProximity: 🔐 处理认证挑战: 343437343335303032313165
+02-15 16:36:15.980 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 44743500211e
+02-15 16:36:15.980 D/BleProximity: 🔐 处理认证挑战: 343437343335303032313165
+02-15 16:36:15.982 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 44743500211e
+02-15 16:36:15.982 D/BleProximity: 🔐 处理认证挑战: 343437343335303032313165
+02-15 16:36:15.982 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 44743500211e
+02-15 16:36:15.983 D/BleProximity: 🔐 处理认证挑战: 343437343335303032313165
+02-15 16:36:15.984 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 44743500211e
+02-15 16:36:15.985 D/BleProximity: 🔐 处理认证挑战: 343437343335303032313165
+02-15 16:36:15.985 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 44743500211e
+02-15 16:36:15.987 D/BleProximity: 🔐 处理认证挑战: 343437343335303032313165
+02-15 16:36:15.988 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 44743500211e
+02-15 16:36:15.989 D/BleProximity: 🔐 处理认证挑战: 343437343335303032313165
+02-15 16:36:15.990 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 44743500211e
+02-15 16:36:15.990 D/BleProximity: 🔐 处理认证挑战: 343437343335303032313165
+02-15 16:36:16.006 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 03ce1f416eb9
+02-15 16:36:16.007 D/BleProximity: 🔐 处理认证挑战: 303363653166343136656239
+02-15 16:36:16.009 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 03ce1f416eb9
+02-15 16:36:16.010 D/BleProximity: 🔐 处理认证挑战: 303363653166343136656239
+02-15 16:36:16.012 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 03ce1f416eb9
+02-15 16:36:16.013 D/BleProximity: 🔐 处理认证挑战: 303363653166343136656239
+02-15 16:36:16.016 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 03ce1f416eb9
+02-15 16:36:16.017 D/BleProximity: 🔐 处理认证挑战: 303363653166343136656239
+02-15 16:36:16.019 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 03ce1f416eb9
+02-15 16:36:16.020 D/BleProximity: 🔐 处理认证挑战: 303363653166343136656239
+02-15 16:36:16.020 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 03ce1f416eb9
+02-15 16:36:16.021 D/BleProximity: 🔐 处理认证挑战: 303363653166343136656239
+02-15 16:36:16.021 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 03ce1f416eb9
+02-15 16:36:16.021 D/BleProximity: 🔐 处理认证挑战: 303363653166343136656239
+02-15 16:36:16.022 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 03ce1f416eb9
+02-15 16:36:16.022 D/BleProximity: 🔐 处理认证挑战: 303363653166343136656239
+02-15 16:36:16.022 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 03ce1f416eb9
+02-15 16:36:16.022 D/BleProximity: 🔐 处理认证挑战: 303363653166343136656239
+02-15 16:36:16.023 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 03ce1f416eb9
+02-15 16:36:16.023 D/BleProximity: 🔐 处理认证挑战: 303363653166343136656239
+02-15 16:36:16.023 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 03ce1f416eb9
+02-15 16:36:16.023 D/BleProximity: 🔐 处理认证挑战: 303363653166343136656239
+02-15 16:36:16.035 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c2280882ba54
+02-15 16:36:16.036 D/BleProximity: 🔐 处理认证挑战: 633232383038383262613534
+02-15 16:36:16.038 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c2280882ba54
+02-15 16:36:16.038 D/BleProximity: 🔐 处理认证挑战: 633232383038383262613534
+02-15 16:36:16.038 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c2280882ba54
+02-15 16:36:16.039 D/BleProximity: 🔐 处理认证挑战: 633232383038383262613534
+02-15 16:36:16.039 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c2280882ba54
+02-15 16:36:16.040 D/BleProximity: 🔐 处理认证挑战: 633232383038383262613534
+02-15 16:36:16.041 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c2280882ba54
+02-15 16:36:16.042 D/BleProximity: 🔐 处理认证挑战: 633232383038383262613534
+02-15 16:36:16.043 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c2280882ba54
+02-15 16:36:16.044 D/BleProximity: 🔐 处理认证挑战: 633232383038383262613534
+02-15 16:36:16.046 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c2280882ba54
+02-15 16:36:16.046 D/BleProximity: 🔐 处理认证挑战: 633232383038383262613534
+02-15 16:36:16.047 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c2280882ba54
+02-15 16:36:16.048 D/BleProximity: 🔐 处理认证挑战: 633232383038383262613534
+02-15 16:36:16.050 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c2280882ba54
+02-15 16:36:16.050 D/BleProximity: 🔐 处理认证挑战: 633232383038383262613534
+02-15 16:36:16.052 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c2280882ba54
+02-15 16:36:16.052 D/BleProximity: 🔐 处理认证挑战: 633232383038383262613534
+02-15 16:36:16.053 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: c2280882ba54
+02-15 16:36:16.053 D/BleProximity: 🔐 处理认证挑战: 633232383038383262613534
+02-15 16:36:16.115 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 8182f1c307f0
+02-15 16:36:16.116 D/BleProximity: 🔐 处理认证挑战: 383138326631633330376630
+02-15 16:36:16.116 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 8182f1c307f0
+02-15 16:36:16.116 D/BleProximity: 🔐 处理认证挑战: 383138326631633330376630
+02-15 16:36:16.117 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 8182f1c307f0
+02-15 16:36:16.117 D/BleProximity: 🔐 处理认证挑战: 383138326631633330376630
+02-15 16:36:16.118 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 8182f1c307f0
+02-15 16:36:16.118 D/BleProximity: 🔐 处理认证挑战: 383138326631633330376630
+02-15 16:36:16.119 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 8182f1c307f0
+02-15 16:36:16.119 D/BleProximity: 🔐 处理认证挑战: 383138326631633330376630
+02-15 16:36:16.120 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 8182f1c307f0
+02-15 16:36:16.120 D/BleProximity: 🔐 处理认证挑战: 383138326631633330376630
+02-15 16:36:16.121 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 8182f1c307f0
+02-15 16:36:16.122 D/BleProximity: 🔐 处理认证挑战: 383138326631633330376630
+02-15 16:36:16.123 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 8182f1c307f0
+02-15 16:36:16.124 D/BleProximity: 🔐 处理认证挑战: 383138326631633330376630
+02-15 16:36:16.124 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 8182f1c307f0
+02-15 16:36:16.124 D/BleProximity: 🔐 处理认证挑战: 383138326631633330376630
+02-15 16:36:16.125 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 8182f1c307f0
+02-15 16:36:16.125 D/BleProximity: 🔐 处理认证挑战: 383138326631633330376630
+02-15 16:36:16.126 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 8182f1c307f0
+02-15 16:36:16.126 D/BleProximity: 🔐 处理认证挑战: 383138326631633330376630
+02-15 16:36:16.216 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: be90ad86eec2
+02-15 16:36:16.216 D/BleProximity: 🔐 处理认证挑战: 626539306164383665656332
+02-15 16:36:16.219 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: be90ad86eec2
+02-15 16:36:16.220 D/BleProximity: 🔐 处理认证挑战: 626539306164383665656332
+02-15 16:36:16.220 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: be90ad86eec2
+02-15 16:36:16.220 D/BleProximity: 🔐 处理认证挑战: 626539306164383665656332
+02-15 16:36:16.222 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: be90ad86eec2
+02-15 16:36:16.223 D/BleProximity: 🔐 处理认证挑战: 626539306164383665656332
+02-15 16:36:16.224 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: be90ad86eec2
+02-15 16:36:16.225 D/BleProximity: 🔐 处理认证挑战: 626539306164383665656332
+02-15 16:36:16.226 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: be90ad86eec2
+02-15 16:36:16.227 D/BleProximity: 🔐 处理认证挑战: 626539306164383665656332
+02-15 16:36:16.228 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: be90ad86eec2
+02-15 16:36:16.229 D/BleProximity: 🔐 处理认证挑战: 626539306164383665656332
+02-15 16:36:16.230 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: be90ad86eec2
+02-15 16:36:16.230 D/BleProximity: 🔐 处理认证挑战: 626539306164383665656332
+02-15 16:36:16.231 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: be90ad86eec2
+02-15 16:36:16.231 D/BleProximity: 🔐 处理认证挑战: 626539306164383665656332
+02-15 16:36:16.233 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: be90ad86eec2
+02-15 16:36:16.234 D/BleProximity: 🔐 处理认证挑战: 626539306164383665656332
+02-15 16:36:16.234 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: be90ad86eec2
+02-15 16:36:16.235 D/BleProximity: 🔐 处理认证挑战: 626539306164383665656332
+02-15 16:36:16.272 D/BleProximity: 📶 RSSI: -50
+02-15 16:36:16.457 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 60c845b1e95a
+02-15 16:36:16.458 D/BleProximity: 🔐 处理认证挑战: 363063383435623165393561
+02-15 16:36:16.461 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 60c845b1e95a
+02-15 16:36:16.461 D/BleProximity: 🔐 处理认证挑战: 363063383435623165393561
+02-15 16:36:16.462 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 60c845b1e95a
+02-15 16:36:16.463 D/BleProximity: 🔐 处理认证挑战: 363063383435623165393561
+02-15 16:36:16.464 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 60c845b1e95a
+02-15 16:36:16.465 D/BleProximity: 🔐 处理认证挑战: 363063383435623165393561
+02-15 16:36:16.465 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 60c845b1e95a
+02-15 16:36:16.466 D/BleProximity: 🔐 处理认证挑战: 363063383435623165393561
+02-15 16:36:16.468 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 60c845b1e95a
+02-15 16:36:16.468 D/BleProximity: 🔐 处理认证挑战: 363063383435623165393561
+02-15 16:36:16.470 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 60c845b1e95a
+02-15 16:36:16.470 D/BleProximity: 🔐 处理认证挑战: 363063383435623165393561
+02-15 16:36:16.471 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 60c845b1e95a
+02-15 16:36:16.471 D/BleProximity: 🔐 处理认证挑战: 363063383435623165393561
+02-15 16:36:16.473 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 60c845b1e95a
+02-15 16:36:16.473 D/BleProximity: 🔐 处理认证挑战: 363063383435623165393561
+02-15 16:36:16.474 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 60c845b1e95a
+02-15 16:36:16.474 D/BleProximity: 🔐 处理认证挑战: 363063383435623165393561
+02-15 16:36:16.476 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: 60c845b1e95a
+02-15 16:36:16.476 D/BleProximity: 🔐 处理认证挑战: 363063383435623165393561
+02-15 16:36:16.574 D/BleProximity: 📶 RSSI: -51
+02-15 16:36:16.725 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: f8060f4d0702
+02-15 16:36:16.726 D/BleProximity: 🔐 处理认证挑战: 663830363066346430373032
+02-15 16:36:16.728 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: f8060f4d0702
+02-15 16:36:16.728 D/BleProximity: 🔐 处理认证挑战: 663830363066346430373032
+02-15 16:36:16.729 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: f8060f4d0702
+02-15 16:36:16.729 D/BleProximity: 🔐 处理认证挑战: 663830363066346430373032
+02-15 16:36:16.730 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: f8060f4d0702
+02-15 16:36:16.730 D/BleProximity: 🔐 处理认证挑战: 663830363066346430373032
+02-15 16:36:16.731 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: f8060f4d0702
+02-15 16:36:16.731 D/BleProximity: 🔐 处理认证挑战: 663830363066346430373032
+02-15 16:36:16.733 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: f8060f4d0702
+02-15 16:36:16.733 D/BleProximity: 🔐 处理认证挑战: 663830363066346430373032
+02-15 16:36:16.734 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: f8060f4d0702
+02-15 16:36:16.734 D/BleProximity: 🔐 处理认证挑战: 663830363066346430373032
+02-15 16:36:16.736 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: f8060f4d0702
+02-15 16:36:16.736 D/BleProximity: 🔐 处理认证挑战: 663830363066346430373032
+02-15 16:36:16.738 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: f8060f4d0702
+02-15 16:36:16.738 D/BleProximity: 🔐 处理认证挑战: 663830363066346430373032
+02-15 16:36:16.739 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: f8060f4d0702
+02-15 16:36:16.739 D/BleProximity: 🔐 处理认证挑战: 663830363066346430373032
+02-15 16:36:16.741 D/BleProximity: 收到认证挑战：uuid: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, value: f8060f4d0702
+02-15 16:36:16.741 D/BleProximity: 🔐 处理认证挑战: 663830363066346430373032
+02-15 16:36:16.874 D/BleProximity: 📶 RSSI: -55
+02-15 16:36:16.965 D/BleProximity: 收到认证挑战：uuid: 31457EDC-878A-4A15-8554-3568DE71A37B, value: 00
+02-15 16:36:16.966 D/BleProximity: ❌ 认证失败: 00
+02-15 16:36:16.966 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:16.967 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:16.967 D/BleProximity: 收到认证挑战：uuid: 31457EDC-878A-4A15-8554-3568DE71A37B, value: 00
+02-15 16:36:16.967 D/BleProximity: ❌ 认证失败: 00
+02-15 16:36:16.968 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:16.968 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:16.969 D/BleProximity: 收到认证挑战：uuid: 31457EDC-878A-4A15-8554-3568DE71A37B, value: 00
+02-15 16:36:16.969 D/BleProximity: ❌ 认证失败: 00
+02-15 16:36:16.970 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:16.970 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:16.970 D/BleProximity: 收到认证挑战：uuid: 31457EDC-878A-4A15-8554-3568DE71A37B, value: 00
+02-15 16:36:16.971 D/BleProximity: ❌ 认证失败: 00
+02-15 16:36:16.972 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:16.972 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:16.973 D/BleProximity: 收到认证挑战：uuid: 31457EDC-878A-4A15-8554-3568DE71A37B, value: 00
+02-15 16:36:16.973 D/BleProximity: ❌ 认证失败: 00
+02-15 16:36:16.974 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:16.974 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:16.974 D/BleProximity: 收到认证挑战：uuid: 31457EDC-878A-4A15-8554-3568DE71A37B, value: 00
+02-15 16:36:16.975 D/BleProximity: ❌ 认证失败: 00
+02-15 16:36:16.975 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:16.976 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:16.976 D/BleProximity: 收到认证挑战：uuid: 31457EDC-878A-4A15-8554-3568DE71A37B, value: 00
+02-15 16:36:16.977 D/BleProximity: ❌ 认证失败: 00
+02-15 16:36:16.977 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:16.978 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:16.978 D/BleProximity: 收到认证挑战：uuid: 31457EDC-878A-4A15-8554-3568DE71A37B, value: 00
+02-15 16:36:16.979 D/BleProximity: ❌ 认证失败: 00
+02-15 16:36:16.979 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:16.980 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:16.980 D/BleProximity: 收到认证挑战：uuid: 31457EDC-878A-4A15-8554-3568DE71A37B, value: 00
+02-15 16:36:16.980 D/BleProximity: ❌ 认证失败: 00
+02-15 16:36:16.981 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:16.981 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:16.982 D/BleProximity: 收到认证挑战：uuid: 31457EDC-878A-4A15-8554-3568DE71A37B, value: 00
+02-15 16:36:16.982 D/BleProximity: ❌ 认证失败: 00
+02-15 16:36:16.982 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:16.983 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:16.983 D/BleProximity: 收到认证挑战：uuid: 31457EDC-878A-4A15-8554-3568DE71A37B, value: 00
+02-15 16:36:16.984 D/BleProximity: ❌ 认证失败: 00
+02-15 16:36:16.984 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:16.985 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:17.200 D/BleProximity: ❌ 已断开
+02-15 16:36:17.201 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+02-15 16:36:17.201 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-15 16:36:17.208 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-15 16:36:17.208 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+02-15 16:36:17.209 D/BleProximity: ❌ 已断开
+02-15 16:36:17.209 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+02-15 16:36:17.209 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-15 16:36:17.214 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-15 16:36:17.216 D/BleProximity: 🔄 仍有活跃 Session，将在 4 秒后重新扫描...
+02-15 16:36:17.218 D/BleProximity: ❌ 已断开
+02-15 16:36:17.219 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+02-15 16:36:17.220 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-15 16:36:17.226 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-15 16:36:17.227 D/BleProximity: 🔄 仍有活跃 Session，将在 8 秒后重新扫描...
+02-15 16:36:17.227 D/BleProximity: ❌ 已断开
+02-15 16:36:17.228 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+02-15 16:36:17.228 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-15 16:36:17.235 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-15 16:36:17.235 D/BleProximity: 🔄 仍有活跃 Session，将在 16 秒后重新扫描...
+02-15 16:36:17.236 D/BleProximity: ❌ 已断开
+02-15 16:36:17.236 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+02-15 16:36:17.236 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-15 16:36:17.247 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-15 16:36:17.248 D/BleProximity: 🔄 仍有活跃 Session，将在 32 秒后重新扫描...
+02-15 16:36:17.249 D/BleProximity: ❌ 已断开
+02-15 16:36:17.249 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+02-15 16:36:17.250 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-15 16:36:17.257 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-15 16:36:17.258 D/BleProximity: 🔄 仍有活跃 Session，将在 64 秒后重新扫描...
+02-15 16:36:17.258 D/BleProximity: ❌ 已断开
+02-15 16:36:17.258 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+02-15 16:36:17.259 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-15 16:36:17.267 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-15 16:36:17.267 D/BleProximity: 🔄 仍有活跃 Session，将在 120 秒后重新扫描...
+02-15 16:36:17.267 D/BleProximity: ❌ 已断开
+02-15 16:36:17.268 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+02-15 16:36:17.268 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-15 16:36:17.271 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-15 16:36:17.272 D/BleProximity: 🔄 仍有活跃 Session，将在 120 秒后重新扫描...
+02-15 16:36:17.272 D/BleProximity: ❌ 已断开
+02-15 16:36:17.272 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+02-15 16:36:17.273 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-15 16:36:17.285 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-15 16:36:17.286 D/BleProximity: 🔄 仍有活跃 Session，将在 120 秒后重新扫描...
+02-15 16:36:17.287 D/BleProximity: ❌ 已断开
+02-15 16:36:17.288 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+02-15 16:36:17.288 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-15 16:36:17.292 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-15 16:36:17.293 D/BleProximity: 🔄 仍有活跃 Session，将在 120 秒后重新扫描...
+02-15 16:36:17.293 D/BleProximity: ❌ 已断开
+02-15 16:36:17.293 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+02-15 16:36:17.294 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-15 16:36:17.297 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-15 16:36:17.297 D/BleProximity: 🔄 仍有活跃 Session，将在 120 秒后重新扫描...
+02-15 16:36:17.439 D/BleProximity: ❌ 认证超时
+02-15 16:36:17.440 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:17.440 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:17.446 D/BleProximity: ❌ 认证超时
+02-15 16:36:17.447 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:17.447 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:17.464 D/BleProximity: ❌ 认证超时
+02-15 16:36:17.465 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:17.465 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:17.466 D/BleProximity: ⏱️ 指令超时无响应: 解锁车门
+02-15 16:36:17.467 D/BleProximity: 📊 指令出队: 解锁车门 -> TIMEOUT
+02-15 16:36:17.467 D/BleProximity: 🔓 解锁结果: TIMEOUT
+02-15 16:36:17.474 D/BleProximity: ⚠️ 解锁未成功: TIMEOUT
+02-15 16:36:17.476 D/BleProximity: ❌ 认证超时
+02-15 16:36:17.477 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:17.477 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:17.479 D/BleProximity: ❌ 认证超时
+02-15 16:36:17.480 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:17.480 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:17.489 D/BleProximity: ❌ 认证超时
+02-15 16:36:17.489 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:17.489 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:17.503 D/BleProximity: ❌ 认证超时
+02-15 16:36:17.504 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:17.505 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:17.507 D/BleProximity: ❌ 认证超时
+02-15 16:36:17.508 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:17.508 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:17.511 D/BleProximity: ❌ 认证超时
+02-15 16:36:17.512 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:17.512 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:17.518 D/BleProximity: ❌ 认证超时
+02-15 16:36:17.518 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:17.519 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:17.671 D/BleProximity: ❌ 认证超时
+02-15 16:36:17.672 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:17.672 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:17.794 D/BleProximity: ❌ 认证超时
+02-15 16:36:17.795 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:17.796 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:17.884 D/BleProximity: ❌ 认证超时
+02-15 16:36:17.885 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:17.885 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:17.970 D/BleProximity: ❌ 认证超时
+02-15 16:36:17.971 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:17.972 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:18.073 D/BleProximity: ❌ 认证超时
+02-15 16:36:18.073 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:18.074 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:18.169 D/BleProximity: ❌ 认证超时
+02-15 16:36:18.170 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:18.170 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:18.268 D/BleProximity: ❌ 认证超时
+02-15 16:36:18.269 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:18.270 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:18.388 D/BleProximity: ❌ 认证超时
+02-15 16:36:18.388 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:18.389 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:18.475 D/BleProximity: ❌ 认证超时
+02-15 16:36:18.476 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:18.477 D/BleProximity: 持有者: [BleProximityManager]
+02-15 16:36:18.575 D/BleProximity: ❌ 认证超时
+02-15 16:36:18.575 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-15 16:36:18.576 D/BleProximity: 持有者: [BleProximityManager]
