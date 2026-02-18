@@ -1,0 +1,41 @@
+--- Log Capture Start: 20260218_131934 ---
+02-18 13:19:12.475 D/BleUnlockWorker: 📱 发现设备: 74:B8:39:D4:39:AA, RSSI: -92
+02-18 13:19:12.476 D/BleUnlockWorker: ⏹️ 停止扫描
+02-18 13:19:12.479 D/BleUnlockWorker: ⏹️ 停止扫描
+02-18 13:19:12.479 D/BleUnlockWorker: 🔗 连接设备: 74:B8:39:D4:39:AA
+02-18 13:19:12.479 D/BleUnlockWorker: 📡 状态变更: CONNECTING (监听器: 2, Session: 1)
+02-18 13:19:15.055 D/BleUnlockWorker: ✅ 已连接，开始发现服务
+02-18 13:19:15.056 D/BleUnlockWorker: 📡 状态变更: CONNECTED (监听器: 2, Session: 1)
+02-18 13:19:15.916 D/BleUnlockWorker: ⚠️ 车端不支持characteristicDeviceCharacterRead
+02-18 13:19:15.916 D/BleUnlockWorker: ⚠️ 车端不支持characteristicDeviceCharacterWrite
+02-18 13:19:15.917 D/BleUnlockWorker: ✅ 特征初始化完成
+02-18 13:19:15.938 D/BleUnlockWorker: MTU 生效: 65
+02-18 13:19:15.939 D/BleUnlockWorker: 🔐 开始认证流程
+02-18 13:19:15.941 D/BleUnlockWorker: 🔔 启用通知: 4af4, 结果: true
+02-18 13:19:15.944 D/BleUnlockWorker: 🔔 启用通知: 23a8, 结果: true
+02-18 13:19:15.946 D/BleUnlockWorker: 🔔 启用通知: 267e, 结果: true
+02-18 13:19:15.948 D/BleUnlockWorker: 🔔 启用通知: 71ed, 结果: true
+02-18 13:19:15.949 D/BleUnlockWorker: 🔔 启用通知: a37b, 结果: true
+02-18 13:19:15.951 D/BleUnlockWorker: 🔔 启用通知: 9d21, 结果: true
+02-18 13:19:16.451 D/BleUnlockWorker: 📤 准备发送Booking ID: 0198C3CA (进入串行队列)
+02-18 13:19:18.214 D/BleUnlockWorker: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 346430663265366166613439
+02-18 13:19:18.215 D/BleUnlockWorker: 🔐 处理认证挑战: 346430663265366166613439
+02-18 13:19:18.756 D/BleUnlockWorker: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3031
+02-18 13:19:18.757 D/BleUnlockWorker: ✅ 认证成功
+02-18 13:19:18.757 D/BleUnlockWorker: 📡 状态变更: AUTHENTICATED (监听器: 2, Session: 1)
+02-18 13:19:18.758 D/BleUnlockWorker: ✅ ensureConnected 成功 (BleUnlockWorker)
+02-18 13:19:18.758 D/BleUnlockWorker: ➖ 移除监听器: callback_2_1771391944886 
+02-18 13:19:18.759 D/BleUnlockWorker: 📤 发送指令: 解锁车门
+02-18 13:19:18.816 D/BleUnlockWorker: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 613835333163333161666139
+02-18 13:19:18.817 D/BleUnlockWorker: 🔐 处理认证挑战: 613835333163333161666139
+02-18 13:19:20.243 D/BleUnlockWorker: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+02-18 13:19:20.243 D/BleUnlockWorker: 解锁成功
+02-18 13:19:20.244 D/BleUnlockWorker: 📊 指令出队: 解锁车门 -> SUCCESS
+02-18 13:19:20.245 D/BleUnlockWorker: 解锁结果: SUCCESS
+02-18 13:19:20.245 D/BleUnlockWorker: 尝试完成成功: 操作成功 - 蓝牙解锁已执行, isCompleted=false
+02-18 13:19:20.249 D/BleUnlockWorker: 成功结果已提交
+02-18 13:19:20.249 D/BleUnlockWorker: 清理资源
+02-18 13:19:20.250 D/BleUnlockWorker: 🎫 [BleUnlockWorker] 释放 Session: session_BleUnlockWorker_1_1771391944876 (剩余: 0)
+02-18 13:19:20.250 D/BleUnlockWorker: 🔗 链式触发: 120秒打火
+02-18 13:19:20.250 D/BleUnlockWorker: ✂️ 所有 Session 已释放，准备断开连接
+02-18 13:19:20.251 D/BleUnlockWorker: ➖ 移除监听器: callback_1_1771391944886 
