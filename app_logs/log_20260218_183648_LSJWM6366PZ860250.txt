@@ -1,0 +1,135 @@
+--- Log Capture Start: 20260218_183648 ---
+02-18 18:35:31.367 D/BleProximity: 📶 RSSI: -68
+02-18 18:35:31.671 D/BleProximity: 📶 RSSI: -67
+02-18 18:35:31.963 D/BleProximity: 📶 RSSI: -67
+02-18 18:35:32.275 D/BleProximity: 📶 RSSI: -66
+02-18 18:35:32.577 D/BleProximity: 📶 RSSI: -67
+02-18 18:35:32.880 D/BleProximity: 📶 RSSI: -68
+02-18 18:35:33.183 D/BleProximity: 📶 RSSI: -68
+02-18 18:35:33.487 D/BleProximity: 📶 RSSI: -68
+02-18 18:35:33.789 D/BleProximity: 📶 RSSI: -68
+02-18 18:35:34.092 D/BleProximity: 📶 RSSI: -73
+02-18 18:35:34.393 D/BleProximity: 📶 RSSI: -76
+02-18 18:35:34.697 D/BleProximity: 📶 RSSI: -73
+02-18 18:35:35.001 D/BleProximity: 📶 RSSI: -72
+02-18 18:35:35.304 D/BleProximity: 📶 RSSI: -70
+02-18 18:35:35.608 D/BleProximity: 📶 RSSI: -72
+02-18 18:35:35.914 D/BleProximity: 📶 RSSI: -73
+02-18 18:35:36.216 D/BleProximity: 📶 RSSI: -73
+02-18 18:35:36.523 D/BleProximity: 📶 RSSI: -73
+02-18 18:35:36.825 D/BleProximity: 📶 RSSI: -72
+02-18 18:35:37.128 D/BleProximity: 📶 RSSI: -72
+02-18 18:35:37.424 D/BleProximity: 📶 RSSI: -74
+02-18 18:35:37.733 D/BleProximity: 📶 RSSI: -75
+02-18 18:35:38.034 D/BleProximity: 📶 RSSI: -78
+02-18 18:35:38.340 D/BleProximity: 📶 RSSI: -81
+02-18 18:35:38.638 D/BleProximity: 📶 RSSI: -84
+02-18 18:35:38.943 D/BleProximity: 📶 RSSI: -84
+02-18 18:35:39.249 D/BleProximity: 📶 RSSI: -89
+02-18 18:35:39.553 D/BleProximity: 📶 RSSI: -87
+02-18 18:35:39.857 D/BleProximity: 📶 RSSI: -86
+02-18 18:35:40.161 D/BleProximity: 📶 RSSI: -87
+02-18 18:35:40.464 D/BleProximity: 📶 RSSI: -87
+02-18 18:35:40.764 D/BleProximity: 📶 RSSI: -87
+02-18 18:35:41.067 D/BleProximity: 📶 RSSI: -88
+02-18 18:35:41.376 D/BleProximity: 📶 RSSI: -87
+02-18 18:35:41.680 D/BleProximity: 📶 RSSI: -87
+02-18 18:35:41.981 D/BleProximity: 📶 RSSI: -85
+02-18 18:35:42.285 D/BleProximity: 📶 RSSI: -87
+02-18 18:35:42.586 D/BleProximity: 📶 RSSI: -88
+02-18 18:35:42.890 D/BleProximity: 📶 RSSI: -89
+02-18 18:35:43.192 D/BleProximity: 📶 RSSI: -89
+02-18 18:35:43.493 D/BleProximity: 📶 RSSI: -90
+02-18 18:35:43.799 D/BleProximity: 📶 RSSI: -90
+02-18 18:35:44.098 D/BleProximity: 📶 RSSI: -90
+02-18 18:35:44.402 D/BleProximity: 📶 RSSI: -88
+02-18 18:35:44.705 D/BleProximity: 📶 RSSI: -89
+02-18 18:35:45.008 D/BleProximity: 📶 RSSI: -89
+02-18 18:35:45.309 D/BleProximity: 📶 RSSI: -90
+02-18 18:35:45.611 D/BleProximity: 📶 RSSI: -91
+02-18 18:35:45.915 D/BleProximity: 📶 RSSI: -91
+02-18 18:35:46.217 D/BleProximity: 📶 RSSI: -92
+02-18 18:35:46.521 D/BleProximity: 📶 RSSI: -90
+02-18 18:35:46.823 D/BleProximity: 📶 RSSI: -91
+02-18 18:35:47.125 D/BleProximity: 📶 RSSI: -91
+02-18 18:35:47.429 D/BleProximity: 📶 RSSI: -91
+02-18 18:35:47.731 D/BleProximity: 📶 RSSI: -91
+02-18 18:35:48.033 D/BleProximity: 📶 RSSI: -91
+02-18 18:35:48.337 D/BleProximity: 📶 RSSI: -91
+02-18 18:35:48.643 D/BleProximity: 📶 RSSI: -92
+02-18 18:35:48.945 D/BleProximity: 📶 RSSI: -93
+02-18 18:35:49.249 D/BleProximity: 📶 RSSI: -91
+02-18 18:35:49.550 D/BleProximity: 📶 RSSI: -92
+02-18 18:35:49.853 D/BleProximity: 📶 RSSI: -90
+02-18 18:35:50.173 D/BleProximity: 📶 RSSI: -90
+02-18 18:35:50.477 D/BleProximity: 📶 RSSI: -88
+02-18 18:35:50.782 D/BleProximity: 📶 RSSI: -88
+02-18 18:35:51.087 D/BleProximity: 📶 RSSI: -88
+02-18 18:35:51.393 D/BleProximity: 📶 RSSI: -87
+02-18 18:35:51.697 D/BleProximity: 📶 RSSI: -87
+02-18 18:35:52.000 D/BleProximity: 📶 RSSI: -87
+02-18 18:35:52.304 D/BleProximity: 📶 RSSI: -89
+02-18 18:35:52.609 D/BleProximity: 📶 RSSI: -89
+02-18 18:35:52.915 D/BleProximity: 📶 RSSI: -89
+02-18 18:35:53.213 D/BleProximity: 📶 RSSI: -89
+02-18 18:35:53.515 D/BleProximity: 📶 RSSI: -89
+02-18 18:35:53.817 D/BleProximity: 📶 RSSI: -89
+02-18 18:35:55.516 D/BleProximity: 📶 RSSI: -89
+02-18 18:35:55.521 D/BleProximity: 💡 检测到屏幕点亮/解锁，立即激活扫描！
+02-18 18:35:55.522 D/MGWidget: onUpdate called for IDs: 64
+02-18 18:35:55.522 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+02-18 18:35:55.529 D/BleProximity: 📶 RSSI: -90
+02-18 18:35:55.538 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-18 18:35:55.540 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-18 18:35:55.541 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-18 18:35:55.541 D/MG_NET_LOG: │ Method: POST
+02-18 18:35:55.542 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6366PZ860250","appId":"Roewe","brandCode":"1","nonce":"3231EE3FABCC41FEB3524BE0E3D86C52","timestamp":"1771410955539","token":"c5c2016bc1704395a7d16f73992be153-prod_SAIC"}
+02-18 18:35:55.543 D/MG_NET_LOG: └──────────────────────
+02-18 18:35:55.825 D/BleProximity: 📶 RSSI: -90
+02-18 18:35:56.128 D/BleProximity: 📶 RSSI: -90
+02-18 18:35:56.429 D/BleProximity: 📶 RSSI: -90
+02-18 18:35:56.648 D/MG_NET_LOG: ┌────── 响应结束 (200 / 1107ms) ──────
+02-18 18:35:56.655 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-18 18:35:56.656 D/MG_NET_LOG: │ Result: {"req_id":"19c70522135676164ac","data":{"vehicle_position":{"satellites":8,"altitude":41,"gps_status":2,"latitude":"34.858935","update_time":1771410321000,"gps_time":1771410841000,"hdop":6,"longitude":"115.883627"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":272,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":619,"battery_pack_range":41,"power_mode":0,"engine_status":0,"exterior_temperature":9,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":56,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":31700,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":8876,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":272,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":272,"battery_pack_prc":326,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":619,"current_journey_id":3798,"pwr_lftgt_pos_v":null,"interior_temperature":20,"localfront_right_seat_heat_level":null,"heading":342,"battery_alarm_value":[50,200,500],"update_time":1771410321000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":0,"rear_left_tyre_pressure":268,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":880,"fuel_level_disp":5,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1771410321000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":false,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1771410321000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-18 18:35:56.657 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-18 18:35:56.663 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 山东省菏泽市成武县天宫庙镇东申楼
+02-18 18:35:56.665 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-18 18:35:56.666 D/MGWidget: updateWidgetSynchronously called for ID: 64
+02-18 18:35:56.733 D/BleProximity: 📶 RSSI: -87
+02-18 18:35:56.733 D/BleProximity: 🔒 <<< 触发上锁 <<<
+02-18 18:35:56.734 D/BleProximity: 原因: 信号均值(-89) < 阈值(-83.0) 
+02-18 18:35:56.734 D/BleProximity: 📤 发送指令: 锁车门
+02-18 18:35:56.763 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 326335316262613364393232
+02-18 18:35:56.767 D/BleProximity: 🔐 处理认证挑战: 326335316262613364393232
+02-18 18:35:57.036 D/BleProximity: 📶 RSSI: -86
+02-18 18:35:57.341 D/BleProximity: 📶 RSSI: -86
+02-18 18:35:57.644 D/BleProximity: 📶 RSSI: -86
+02-18 18:35:57.947 D/BleProximity: 📶 RSSI: -87
+02-18 18:35:58.072 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3032
+02-18 18:35:58.077 D/BleProximity: 上锁成功
+02-18 18:35:58.078 D/BleProximity: 📊 指令出队: 锁车门 -> SUCCESS
+02-18 18:35:58.079 D/BleProximity: 🔒 上锁结果: SUCCESS
+02-18 18:35:58.080 D/BleProximity: 🔄 同步状态: 车辆已上锁
+02-18 18:35:58.261 D/BleProximity: 📶 RSSI: -86
+02-18 18:35:58.262 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-18 18:35:58.577 D/BleProximity: 📶 RSSI: -87
+02-18 18:35:58.578 D/BleProximity: 📊 正在收集信号样本: 2/5
+02-18 18:35:58.895 D/BleProximity: 📶 RSSI: -87
+02-18 18:35:58.897 D/BleProximity: 📊 正在收集信号样本: 3/5
+02-18 18:35:59.211 D/BleProximity: 📶 RSSI: -87
+02-18 18:35:59.213 D/BleProximity: 📊 正在收集信号样本: 4/5
+02-18 18:35:59.527 D/BleProximity: 📶 RSSI: -86
+02-18 18:35:59.833 D/BleProximity: 📶 RSSI: -87
+02-18 18:36:00.135 D/BleProximity: 📶 RSSI: -87
+02-18 18:36:00.439 D/BleProximity: 📶 RSSI: -88
+02-18 18:36:00.741 D/BleProximity: 📶 RSSI: -88
+02-18 18:36:01.043 D/BleProximity: 📶 RSSI: -87
+02-18 18:36:01.346 D/BleProximity: 📶 RSSI: -87
+02-18 18:36:01.650 D/BleProximity: 📶 RSSI: -88
+02-18 18:36:01.952 D/BleProximity: 📶 RSSI: -87
+02-18 18:36:02.254 D/BleProximity: 📶 RSSI: -87
+02-18 18:36:02.567 D/BleProximity: 📶 RSSI: -87
+02-18 18:36:02.878 D/BleProximity: 📶 RSSI: -86
+02-18 18:36:03.179 D/BleProximity: 📶 RSSI: -86
+02-18 18:36:03.481 D/BleProximity: 📶 RSSI: -86
+02-18 18:36:03.785 D/BleProximity: 📶 RSSI: -87
