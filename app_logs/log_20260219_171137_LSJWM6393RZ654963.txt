@@ -1,0 +1,4 @@
+--- Log Capture Start: 20260219_171137 ---
+02-19 17:11:25.550 D/BleProximity: ❌ 认证超时
+02-19 17:11:25.553 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-19 17:11:25.555 D/BleProximity: 持有者: [BleProximityManager]
