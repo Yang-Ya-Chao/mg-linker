@@ -1,0 +1,235 @@
+--- Log Capture Start: 20260219_171228 ---
+02-19 17:11:25.550 D/BleProximity: ❌ 认证超时
+02-19 17:11:25.553 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-19 17:11:25.555 D/BleProximity: 持有者: [BleProximityManager]
+02-19 17:11:44.866 D/BleProximity: ❌ 已断开
+02-19 17:11:44.866 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+02-19 17:11:44.867 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-19 17:11:44.872 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-19 17:11:44.872 D/BleProximity: 🔄 仍有活跃 Session，将在 4 秒后重新扫描...
+02-19 17:11:45.091 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-19 17:11:45.092 D/MG_NET_LOG: │ URL: https://gitee.com/api/v5/repos/yangyachao-X/mg-linker/releases/latest
+02-19 17:11:45.092 D/MG_NET_LOG: │ Method: GET
+02-19 17:11:45.093 D/MG_NET_LOG: │ Params: (无 Body 参数)
+02-19 17:11:45.093 D/MG_NET_LOG: └──────────────────────
+02-19 17:11:45.358 D/MG_NET_LOG: ┌────── 响应结束 (200 / 266ms) ──────
+02-19 17:11:45.358 D/MG_NET_LOG: │ URL: https://gitee.com/api/v5/repos/yangyachao-X/mg-linker/releases/latest
+02-19 17:11:45.358 D/MG_NET_LOG: │ Result: {"id":580118,"tag_name":"5.3","target_commitish":"b9e53a54591cebb86c8b9f6b50b7b5d0964c0447","prerelease":false,"name":"优化后台服务蓝牙解锁","body":"优化蓝牙后台解锁","author":{"id":8784824,"login":"yangyachao-X","name":"YangYachao","avatar_url":"https://foruda.gitee.com/avatar/1677149462712290355/8784824_yangyachao-x_1645510740.png","url":"https://gitee.com/api/v5/users/yangyachao-X","html_url":"https://gitee.com/yangyachao-X","remark":"","followers_url":"https://gitee.com/api/v5/users/yangyachao-X/followers","following_url":"https://gitee.com/api/v5/users/yangyachao-X/following_url{/other_user}","gists_url":"https://gitee.com/api/v5/users/yangyachao-X/gists{/gist_id}","starred_url":"https://gitee.com/api/v5/users/yangyachao-X/starred{/owner}{/repo}","subscriptions_url":"https://gitee.com/api/v5/users/yangyachao-X/subscriptions","organizations_url":"https://gitee.com/api/v5/users/yangyachao-X/orgs","repos_url":"https://gitee.com/api/v5/users/yangyachao-X/repos","events_url":"https://gitee.com/api/v5/users/yangyachao-X/events{/privacy}","received_events_url":"https://gitee.com/api/v5/users/yangyachao-X/received_events","type":"User"},"created_at":"2026-02-18T10:27:46+08:00","assets":[{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/releases/download/5.3/MG%20Linker.apk","name":"MG Linker.apk"},{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/archive/refs/tags/5.3.zip","name":"5.3.zip"},{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/archive/refs/tags/5.3.tar.gz","name":"5.3.tar.gz"}]}
+02-19 17:11:45.358 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-19 17:11:48.874 D/BleProximity: 🔍 开始扫描
+02-19 17:11:48.875 D/BleProximity: 🔍 开始扫描 (尝试次数: 2)
+02-19 17:11:49.353 D/BleProximity: 📱 发现设备: CC:B5:4C:58:B7:F7, RSSI: -83
+02-19 17:11:49.354 D/BleProximity: 📱 发现设备: CC:B5:4C:58:B7:F7, RSSI: -83
+02-19 17:11:49.358 D/BleProximity: ⏹️ 停止扫描
+02-19 17:11:49.367 D/BleProximity: ⏹️ 停止扫描
+02-19 17:11:49.368 D/BleProximity: 🔗 连接设备: CC:B5:4C:58:B7:F7
+02-19 17:11:49.368 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+02-19 17:11:49.368 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+02-19 17:11:49.688 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-19 17:11:49.689 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-19 17:11:49.690 D/MG_NET_LOG: │ Method: POST
+02-19 17:11:49.690 D/MG_NET_LOG: │ Params: data={"userId":"15100001150481","appId":"Roewe","brandCode":"1","nonce":"735FEDF80CA443F68BFE637FA07B03F5","timestamp":"1771492309685","token":"c6bf1a264e1d4c20a30faa9480102958-prod_SAIC"}
+02-19 17:11:49.691 D/MG_NET_LOG: └──────────────────────
+02-19 17:11:50.133 D/MG_NET_LOG: ┌────── 响应结束 (200 / 444ms) ──────
+02-19 17:11:50.134 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-19 17:11:50.135 D/MG_NET_LOG: │ Result: {"req_id":"19c752b7bc98cba3c08","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":null,"secret_key":"7127636257094055","key_end_time":1771480829000,"mobile":null,"key_start_time":1763532029000,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":24936196,"owner_name":null,"owner_mobile":"16630903587","enable":true,"tbox_mac":"B7F74C58CCB5","vin":"LSJWM6393RZ654963","aes_key":"2568376995612711","status":3}]}}
+02-19 17:11:50.135 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-19 17:11:50.156 D/MGWidget: onUpdate called for IDs: 1545
+02-19 17:11:50.156 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+02-19 17:11:50.163 D/BleProximity: 🔧 初始化 BleProximityManager
+02-19 17:11:50.164 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+02-19 17:11:50.164 D/BleProximity: 🧹 清理资源...
+02-19 17:11:50.164 D/BleProximity: 🛑 停止服务
+02-19 17:11:50.164 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_1_1771462316846 (剩余: 0)
+02-19 17:11:50.165 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+02-19 17:11:50.165 D/BleProximity: ✅ Session 已释放
+02-19 17:11:50.168 D/BleProximity: ✅ 屏幕状态监听已注销
+02-19 17:11:50.172 D/BleProximity: ➖ 移除监听器: callback_1_1771462316845 
+02-19 17:11:50.172 D/BleProximity: ✅ 已移除回调: callback_1_1771462316845
+02-19 17:11:50.172 D/BleProximity: ✅ 资源清理完成
+02-19 17:11:50.172 D/BleProximity: ➕ 添加监听器: callback_2_1771492310172 (总数: 1)
+02-19 17:11:50.173 D/BleProximity: ✅ 初始化完成，回调ID: callback_2_1771492310172 ,DistanceMeters:-90.0
+02-19 17:11:50.173 D/BleProximity: 🚀 启动靠近解锁服务...
+02-19 17:11:50.173 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_2_1771492310173 (总数: 1)
+02-19 17:11:50.173 D/BleProximity: 🎫 Session 已获取: true
+02-19 17:11:50.173 D/BleProximity: ⏳ 服务已启动，正在后台搜索设备...
+02-19 17:11:50.183 D/BleProximity: ✅ 屏幕状态监听已注册
+02-19 17:11:50.192 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-19 17:11:50.195 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-19 17:11:50.195 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-19 17:11:50.195 D/MG_NET_LOG: │ Method: POST
+02-19 17:11:50.196 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6393RZ654963","appId":"Roewe","brandCode":"1","nonce":"DF218B10C2D049769B69EC9AF4DE87E4","timestamp":"1771492310192","token":"c6bf1a264e1d4c20a30faa9480102958-prod_SAIC"}
+02-19 17:11:50.196 D/MG_NET_LOG: └──────────────────────
+02-19 17:11:51.037 D/MG_NET_LOG: ┌────── 响应结束 (200 / 839ms) ──────
+02-19 17:11:51.039 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-19 17:11:51.041 D/MG_NET_LOG: │ Result: {"req_id":"19c752b7dd1112a225c","data":{"vehicle_position":{"satellites":6,"altitude":69,"gps_status":2,"latitude":"37.061769","update_time":1771476909000,"gps_time":1771492253000,"hdop":7,"longitude":"114.506625"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":260,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":576,"battery_pack_range":88,"power_mode":0,"engine_status":0,"exterior_temperature":17,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":72,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":40698,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1410,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":240,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":248,"battery_pack_prc":704,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":576,"current_journey_id":2868,"pwr_lftgt_pos_v":null,"interior_temperature":20,"localfront_right_seat_heat_level":null,"heading":357,"battery_alarm_value":[50,200,500],"update_time":1771476909000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":240,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":948,"fuel_level_disp":7,"monitor_status":null,"battery_type":1,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1771476909000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1771476909000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-19 17:11:51.043 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-19 17:11:51.060 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 河北省邢台市襄都区顺德南路289号旭景家园
+02-19 17:11:51.061 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-19 17:11:51.062 D/MGWidget: updateWidgetSynchronously called for ID: 1545
+02-19 17:11:52.988 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-19 17:11:52.989 D/MG_NET_LOG: │ URL: https://gitee.com/api/v5/repos/yangyachao-X/mg-linker/releases/latest
+02-19 17:11:52.990 D/MG_NET_LOG: │ Method: GET
+02-19 17:11:52.991 D/MG_NET_LOG: │ Params: (无 Body 参数)
+02-19 17:11:52.992 D/MG_NET_LOG: └──────────────────────
+02-19 17:11:53.226 D/MG_NET_LOG: ┌────── 响应结束 (200 / 237ms) ──────
+02-19 17:11:53.226 D/MG_NET_LOG: │ URL: https://gitee.com/api/v5/repos/yangyachao-X/mg-linker/releases/latest
+02-19 17:11:53.227 D/MG_NET_LOG: │ Result: {"id":580118,"tag_name":"5.3","target_commitish":"b9e53a54591cebb86c8b9f6b50b7b5d0964c0447","prerelease":false,"name":"优化后台服务蓝牙解锁","body":"优化蓝牙后台解锁","author":{"id":8784824,"login":"yangyachao-X","name":"YangYachao","avatar_url":"https://foruda.gitee.com/avatar/1677149462712290355/8784824_yangyachao-x_1645510740.png","url":"https://gitee.com/api/v5/users/yangyachao-X","html_url":"https://gitee.com/yangyachao-X","remark":"","followers_url":"https://gitee.com/api/v5/users/yangyachao-X/followers","following_url":"https://gitee.com/api/v5/users/yangyachao-X/following_url{/other_user}","gists_url":"https://gitee.com/api/v5/users/yangyachao-X/gists{/gist_id}","starred_url":"https://gitee.com/api/v5/users/yangyachao-X/starred{/owner}{/repo}","subscriptions_url":"https://gitee.com/api/v5/users/yangyachao-X/subscriptions","organizations_url":"https://gitee.com/api/v5/users/yangyachao-X/orgs","repos_url":"https://gitee.com/api/v5/users/yangyachao-X/repos","events_url":"https://gitee.com/api/v5/users/yangyachao-X/events{/privacy}","received_events_url":"https://gitee.com/api/v5/users/yangyachao-X/received_events","type":"User"},"created_at":"2026-02-18T10:27:46+08:00","assets":[{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/releases/download/5.3/MG%20Linker.apk","name":"MG Linker.apk"},{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/archive/refs/tags/5.3.zip","name":"5.3.zip"},{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/archive/refs/tags/5.3.tar.gz","name":"5.3.tar.gz"}]}
+02-19 17:11:53.227 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-19 17:11:53.641 D/BleProximity: ✅ 已连接，开始发现服务
+02-19 17:11:53.642 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-19 17:11:53.642 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-19 17:11:54.866 D/BleProximity: ⚠️ 车端不支持characteristicDeviceCharacterRead
+02-19 17:11:54.866 D/BleProximity: ⚠️ 车端不支持characteristicDeviceCharacterWrite
+02-19 17:11:54.866 D/BleProximity: ✅ 特征初始化完成
+02-19 17:11:54.891 D/BleProximity: MTU 生效: 65
+02-19 17:11:54.891 D/BleProximity: 🔐 开始认证流程
+02-19 17:11:54.893 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+02-19 17:11:54.894 D/BleProximity: 🔔 启用通知: 23a8, 结果: true
+02-19 17:11:54.895 D/BleProximity: 🔔 启用通知: 267e, 结果: true
+02-19 17:11:54.896 D/BleProximity: 🔔 启用通知: 71ed, 结果: true
+02-19 17:11:54.897 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+02-19 17:11:54.898 D/BleProximity: 🔔 启用通知: 9d21, 结果: true
+02-19 17:11:55.398 D/BleProximity: 📤 准备发送Booking ID: 01987EDC (进入串行队列)
+02-19 17:11:55.928 D/BleProximity: ❌ 已断开
+02-19 17:11:55.929 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+02-19 17:11:55.930 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-19 17:11:55.974 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-19 17:11:55.974 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+02-19 17:11:57.975 D/BleProximity: 🔍 开始扫描
+02-19 17:11:57.976 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+02-19 17:11:59.015 D/BleProximity: 📱 发现设备: CC:B5:4C:58:B7:F7, RSSI: -79
+02-19 17:11:59.016 D/BleProximity: 📱 发现设备: CC:B5:4C:58:B7:F7, RSSI: -79
+02-19 17:11:59.034 D/BleProximity: ⏹️ 停止扫描
+02-19 17:11:59.046 D/BleProximity: ⏹️ 停止扫描
+02-19 17:11:59.047 D/BleProximity: 🔗 连接设备: CC:B5:4C:58:B7:F7
+02-19 17:11:59.047 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+02-19 17:11:59.049 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+02-19 17:12:00.840 D/BleProximity: ✅ 已连接，开始发现服务
+02-19 17:12:00.843 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-19 17:12:00.847 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-19 17:12:01.697 D/BleProximity: ⚠️ 车端不支持characteristicDeviceCharacterRead
+02-19 17:12:01.700 D/BleProximity: ⚠️ 车端不支持characteristicDeviceCharacterWrite
+02-19 17:12:01.701 D/BleProximity: ✅ 特征初始化完成
+02-19 17:12:01.726 D/BleProximity: MTU 生效: 65
+02-19 17:12:01.728 D/BleProximity: 🔐 开始认证流程
+02-19 17:12:01.734 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+02-19 17:12:01.745 D/BleProximity: 🔔 启用通知: 23a8, 结果: true
+02-19 17:12:01.751 D/BleProximity: 🔔 启用通知: 267e, 结果: true
+02-19 17:12:01.757 D/BleProximity: 🔔 启用通知: 71ed, 结果: true
+02-19 17:12:01.763 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+02-19 17:12:01.767 D/BleProximity: 🔔 启用通知: 9d21, 结果: true
+02-19 17:12:02.269 D/BleProximity: 📤 准备发送Booking ID: 01987EDC (进入串行队列)
+02-19 17:12:02.838 D/BleProximity: ❌ 已断开
+02-19 17:12:02.840 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+02-19 17:12:02.842 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-19 17:12:02.881 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-19 17:12:02.885 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+02-19 17:12:04.888 D/BleProximity: 🔍 开始扫描
+02-19 17:12:04.891 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+02-19 17:12:07.504 D/BleProximity: 📱 发现设备: CC:B5:4C:58:B7:F7, RSSI: -74
+02-19 17:12:07.507 D/BleProximity: 📱 发现设备: CC:B5:4C:58:B7:F7, RSSI: -74
+02-19 17:12:07.524 D/BleProximity: ⏹️ 停止扫描
+02-19 17:12:07.537 D/BleProximity: ⏹️ 停止扫描
+02-19 17:12:07.541 D/BleProximity: 🔗 连接设备: CC:B5:4C:58:B7:F7
+02-19 17:12:07.543 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+02-19 17:12:07.545 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+02-19 17:12:08.543 D/BleProximity: ✅ 已连接，开始发现服务
+02-19 17:12:08.544 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-19 17:12:08.545 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-19 17:12:09.392 D/BleProximity: ⚠️ 车端不支持characteristicDeviceCharacterRead
+02-19 17:12:09.395 D/BleProximity: ⚠️ 车端不支持characteristicDeviceCharacterWrite
+02-19 17:12:09.397 D/BleProximity: ✅ 特征初始化完成
+02-19 17:12:09.421 D/BleProximity: MTU 生效: 65
+02-19 17:12:09.424 D/BleProximity: 🔐 开始认证流程
+02-19 17:12:09.430 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+02-19 17:12:09.440 D/BleProximity: 🔔 启用通知: 23a8, 结果: true
+02-19 17:12:09.445 D/BleProximity: 🔔 启用通知: 267e, 结果: true
+02-19 17:12:09.449 D/BleProximity: 🔔 启用通知: 71ed, 结果: true
+02-19 17:12:09.454 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+02-19 17:12:09.458 D/BleProximity: 🔔 启用通知: 9d21, 结果: true
+02-19 17:12:09.900 D/BleProximity: ❌ 认证超时
+02-19 17:12:09.903 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-19 17:12:09.905 D/BleProximity: 持有者: [BleProximityManager]
+02-19 17:12:09.960 D/BleProximity: 📤 准备发送Booking ID: 01987EDC (进入串行队列)
+02-19 17:12:10.490 D/BleProximity: ❌ 已断开
+02-19 17:12:10.492 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+02-19 17:12:10.495 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-19 17:12:10.559 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-19 17:12:10.564 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+02-19 17:12:12.571 D/BleProximity: 🔍 开始扫描
+02-19 17:12:12.574 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+02-19 17:12:14.382 D/BleProximity: 📱 发现设备: CC:B5:4C:58:B7:F7, RSSI: -81
+02-19 17:12:14.384 D/BleProximity: 📱 发现设备: CC:B5:4C:58:B7:F7, RSSI: -81
+02-19 17:12:14.403 D/BleProximity: ⏹️ 停止扫描
+02-19 17:12:14.418 D/BleProximity: ⏹️ 停止扫描
+02-19 17:12:14.420 D/BleProximity: 🔗 连接设备: CC:B5:4C:58:B7:F7
+02-19 17:12:14.422 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+02-19 17:12:14.424 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+02-19 17:12:15.423 D/BleProximity: ✅ 已连接，开始发现服务
+02-19 17:12:15.426 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-19 17:12:15.428 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-19 17:12:16.256 D/BleProximity: ⚠️ 车端不支持characteristicDeviceCharacterRead
+02-19 17:12:16.258 D/BleProximity: ⚠️ 车端不支持characteristicDeviceCharacterWrite
+02-19 17:12:16.260 D/BleProximity: ✅ 特征初始化完成
+02-19 17:12:16.291 D/BleProximity: MTU 生效: 65
+02-19 17:12:16.293 D/BleProximity: 🔐 开始认证流程
+02-19 17:12:16.300 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+02-19 17:12:16.311 D/BleProximity: 🔔 启用通知: 23a8, 结果: true
+02-19 17:12:16.318 D/BleProximity: 🔔 启用通知: 267e, 结果: true
+02-19 17:12:16.325 D/BleProximity: 🔔 启用通知: 71ed, 结果: true
+02-19 17:12:16.331 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+02-19 17:12:16.338 D/BleProximity: 🔔 启用通知: 9d21, 结果: true
+02-19 17:12:16.770 D/BleProximity: ❌ 认证超时
+02-19 17:12:16.772 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-19 17:12:16.775 D/BleProximity: 持有者: [BleProximityManager]
+02-19 17:12:16.841 D/BleProximity: 📤 准备发送Booking ID: 01987EDC (进入串行队列)
+02-19 17:12:17.368 D/BleProximity: ❌ 已断开
+02-19 17:12:17.370 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+02-19 17:12:17.372 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-19 17:12:17.420 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-19 17:12:17.424 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+02-19 17:12:19.426 D/BleProximity: 🔍 开始扫描
+02-19 17:12:19.429 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+02-19 17:12:21.248 D/BleProximity: 📱 发现设备: CC:B5:4C:58:B7:F7, RSSI: -66
+02-19 17:12:21.250 D/BleProximity: 📱 发现设备: CC:B5:4C:58:B7:F7, RSSI: -66
+02-19 17:12:21.267 D/BleProximity: ⏹️ 停止扫描
+02-19 17:12:21.281 D/BleProximity: ⏹️ 停止扫描
+02-19 17:12:21.283 D/BleProximity: 🔗 连接设备: CC:B5:4C:58:B7:F7
+02-19 17:12:21.286 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+02-19 17:12:21.287 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+02-19 17:12:22.299 D/BleProximity: ✅ 已连接，开始发现服务
+02-19 17:12:22.302 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-19 17:12:22.308 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-19 17:12:23.132 D/BleProximity: ⚠️ 车端不支持characteristicDeviceCharacterRead
+02-19 17:12:23.134 D/BleProximity: ⚠️ 车端不支持characteristicDeviceCharacterWrite
+02-19 17:12:23.136 D/BleProximity: ✅ 特征初始化完成
+02-19 17:12:23.161 D/BleProximity: MTU 生效: 65
+02-19 17:12:23.164 D/BleProximity: 🔐 开始认证流程
+02-19 17:12:23.170 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+02-19 17:12:23.180 D/BleProximity: 🔔 启用通知: 23a8, 结果: true
+02-19 17:12:23.187 D/BleProximity: 🔔 启用通知: 267e, 结果: true
+02-19 17:12:23.193 D/BleProximity: 🔔 启用通知: 71ed, 结果: true
+02-19 17:12:23.199 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+02-19 17:12:23.205 D/BleProximity: 🔔 启用通知: 9d21, 结果: true
+02-19 17:12:23.708 D/BleProximity: 📤 准备发送Booking ID: 01987EDC (进入串行队列)
+02-19 17:12:24.258 D/BleProximity: ❌ 已断开
+02-19 17:12:24.259 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+02-19 17:12:24.261 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-19 17:12:24.305 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-19 17:12:24.307 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+02-19 17:12:24.460 D/BleProximity: ❌ 认证超时
+02-19 17:12:24.463 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+02-19 17:12:24.466 D/BleProximity: 持有者: [BleProximityManager]
+02-19 17:12:26.310 D/BleProximity: 🔍 开始扫描
+02-19 17:12:26.312 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+02-19 17:12:26.567 D/BleProximity: 📱 发现设备: CC:B5:4C:58:B7:F7, RSSI: -65
+02-19 17:12:26.571 D/BleProximity: 📱 发现设备: CC:B5:4C:58:B7:F7, RSSI: -65
+02-19 17:12:26.583 D/BleProximity: ⏹️ 停止扫描
+02-19 17:12:26.595 D/BleProximity: ⏹️ 停止扫描
+02-19 17:12:26.600 D/BleProximity: 🔗 连接设备: CC:B5:4C:58:B7:F7
+02-19 17:12:26.602 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+02-19 17:12:26.602 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+02-19 17:12:27.612 D/BleProximity: ✅ 已连接，开始发现服务
+02-19 17:12:27.616 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-19 17:12:27.621 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
