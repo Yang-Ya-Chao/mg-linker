@@ -1,6 +1,0 @@
---- Log Capture Start: 20260214_085518 ---
-02-14 08:55:12.884 D/BleProximity: ⌛ 扫描周期结束(30s)，未发现设备
-02-14 08:55:12.886 D/BleProximity: ⏹️ 停止扫描
-02-14 08:55:12.892 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
-02-14 08:55:14.894 D/BleProximity: 🔍 开始扫描
-02-14 08:55:14.895 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)

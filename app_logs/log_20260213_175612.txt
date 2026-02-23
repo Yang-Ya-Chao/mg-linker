@@ -1,2 +1,0 @@
---- Log Capture Start: 20260213_175612 ---
-02-13 17:44:47.628 D/BleProximity: 📶 RSSI: -72
