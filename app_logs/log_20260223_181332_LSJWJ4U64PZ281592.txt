@@ -1,0 +1,68 @@
+--- Log Capture Start: 20260223_181332 ---
+02-23 18:13:11.236 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-23 18:13:11.236 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-23 18:13:11.237 D/MG_NET_LOG: │ Method: POST
+02-23 18:13:11.237 D/MG_NET_LOG: │ Params: data={"vin":"LSJWJ4U64PZ281592","appId":"MG","brandCode":"2","nonce":"FC7844AFB4E84858BD6E7D75E86A8562","timestamp":"1771841591235","token":"60c6fa35b9aa4a498649ef9c32ae0730-prod_SAIC"}
+02-23 18:13:11.238 D/MG_NET_LOG: └──────────────────────
+02-23 18:13:11.265 D/ControlActivity: ➕ 添加监听器: callback_1_1771841591265 (总数: 1)
+02-23 18:13:11.265 D/ControlActivity: ✅ 蓝牙回调注册成功 ID: callback_1_1771841591265
+02-23 18:13:12.237 D/MG_NET_LOG: ┌────── 响应结束 (200 / 997ms) ──────
+02-23 18:13:12.238 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-23 18:13:12.238 D/MG_NET_LOG: │ Result: {"req_id":"19c89fd1a9d3dfefe67","data":{"vehicle_position":{"satellites":8,"altitude":517,"gps_status":2,"latitude":"30.676150","update_time":1771758596000,"gps_time":1771827111000,"hdop":10,"longitude":"103.886816"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"battery_pack_fault_status":null,"charge_door_position_status":null,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":3,"driving_range":398,"battery_pack_range":0,"power_mode":0,"engine_status":0,"exterior_temperature":17,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":42,"localfront_left_seat_heat_level":null,"interior_pm25":506,"odometer":32378,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":123,"chrgng_rmnng_time_v":null,"exterior_pm25":508,"front_left_tyre_pressure":260,"charge_status":0,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":252,"battery_pack_prc":0,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":398,"current_journey_id":55,"pwr_lftgt_pos_v":null,"interior_temperature":22,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1771841450000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":256,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":700,"fuel_level_disp":4,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1771841450000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1771841450000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-23 18:13:12.239 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-23 18:13:12.627 D/ControlActivity: 使用远程网络通道执行: com.my.mg.action.LOCK
+02-23 18:13:12.661 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-23 18:13:12.661 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken?token=60c6fa35b9aa4a498649ef9c32ae0730-prod_SAIC
+02-23 18:13:12.662 D/MG_NET_LOG: │ Method: GET
+02-23 18:13:12.662 D/MG_NET_LOG: │ Params: (无 Body 参数)
+02-23 18:13:12.662 D/MG_NET_LOG: └──────────────────────
+02-23 18:13:13.074 D/MG_NET_LOG: ┌────── 响应结束 (200 / 412ms) ──────
+02-23 18:13:13.075 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken?token=60c6fa35b9aa4a498649ef9c32ae0730-prod_SAIC
+02-23 18:13:13.075 D/MG_NET_LOG: │ Result: {"req_id":"19c89fd1fbcafa031f5","data":{"rav_code":"TWb80R"}}
+02-23 18:13:13.076 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-23 18:13:13.079 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-23 18:13:13.080 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+02-23 18:13:13.080 D/MG_NET_LOG: │ Method: POST
+02-23 18:13:13.081 D/MG_NET_LOG: │ Params: data={"pin":"693d0d55c537a5d3209aa3511f5b1e709eb5e462","vin":"LSJWJ4U64PZ281592","nonce":"678FCB20CBDA6A991E3D662C283295AE","timestamp":"1771841593078","token":"60c6fa35b9aa4a498649ef9c32ae0730-prod_SAIC"}
+02-23 18:13:13.081 D/MG_NET_LOG: └──────────────────────
+02-23 18:13:13.217 D/MG_NET_LOG: ┌────── 响应结束 (200 / 137ms) ──────
+02-23 18:13:13.217 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+02-23 18:13:13.218 D/MG_NET_LOG: │ Result: {"req_id":"19c89fd2013c1dfad01","data":{"isRight":"true","errorCode":null,"pvCode":"274efdd032c13847fec10c474597954d","pinStatusList":[{"configStatus":-1,"configType":0,"userId":null,"deviceId":""},{"configStatus":-1,"configType":1,"userId":null,"deviceId":""}]}}
+02-23 18:13:13.218 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-23 18:13:13.231 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-23 18:13:13.231 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.1/requestLock
+02-23 18:13:13.231 D/MG_NET_LOG: │ Method: POST
+02-23 18:13:13.232 D/MG_NET_LOG: │ Params: data={"auth_type":"2","appId":"MG","vin":"LSJWJ4U64PZ281592","nonce":"F36FEEC3C66A644065CBFA8271F77941","brandCode":"2","timestamp":"1771841593220","token":"60c6fa35b9aa4a498649ef9c32ae0730-prod_SAIC","auth_code":"274efdd032c13847fec10c474597954d"}
+02-23 18:13:13.232 D/MG_NET_LOG: └──────────────────────
+02-23 18:13:13.347 D/MG_NET_LOG: ┌────── 响应结束 (200 / 116ms) ──────
+02-23 18:13:13.348 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.1/requestLock
+02-23 18:13:13.348 D/MG_NET_LOG: │ Result: {"req_id":"19c89fd20b259fdf774","data":{"command_id":322051975}}
+02-23 18:13:13.348 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-23 18:13:13.351 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-23 18:13:13.351 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-23 18:13:13.351 D/MG_NET_LOG: │ Method: POST
+02-23 18:13:13.352 D/MG_NET_LOG: │ Params: data={"command_id":"322051975","appId":"MG","vin":"LSJWJ4U64PZ281592","nonce":"E39564FA31444A57DD298DF5BB2D4008","brandCode":"2","timestamp":"1771841593350","token":"60c6fa35b9aa4a498649ef9c32ae0730-prod_SAIC"}
+02-23 18:13:13.352 D/MG_NET_LOG: └──────────────────────
+02-23 18:13:13.468 D/MG_NET_LOG: ┌────── 响应结束 (200 / 117ms) ──────
+02-23 18:13:13.469 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-23 18:13:13.469 D/MG_NET_LOG: │ Result: {"req_id":"19c89fd21313023babe","data":{"command_result":0,"command_status":"99","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+02-23 18:13:13.469 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-23 18:13:16.473 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-23 18:13:16.474 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-23 18:13:16.475 D/MG_NET_LOG: │ Method: POST
+02-23 18:13:16.476 D/MG_NET_LOG: │ Params: data={"command_id":"322051975","appId":"MG","vin":"LSJWJ4U64PZ281592","nonce":"EE690D099F05355A61F0B1C8BD554985","brandCode":"2","timestamp":"1771841596472","token":"60c6fa35b9aa4a498649ef9c32ae0730-prod_SAIC"}
+02-23 18:13:16.477 D/MG_NET_LOG: └──────────────────────
+02-23 18:13:16.567 D/MG_NET_LOG: ┌────── 响应结束 (200 / 94ms) ──────
+02-23 18:13:16.568 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-23 18:13:16.569 D/MG_NET_LOG: │ Result: {"req_id":"19c89fd2d6570f1816b","data":{"command_result":0,"command_status":"01","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+02-23 18:13:16.570 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-23 18:13:19.574 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-23 18:13:19.575 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-23 18:13:19.575 D/MG_NET_LOG: │ Method: POST
+02-23 18:13:19.576 D/MG_NET_LOG: │ Params: data={"command_id":"322051975","appId":"MG","vin":"LSJWJ4U64PZ281592","nonce":"BDD2E52D9D7E9161409BF77D7F58A09A","brandCode":"2","timestamp":"1771841599573","token":"60c6fa35b9aa4a498649ef9c32ae0730-prod_SAIC"}
+02-23 18:13:19.576 D/MG_NET_LOG: └──────────────────────
+02-23 18:13:19.641 D/MG_NET_LOG: ┌────── 响应结束 (200 / 67ms) ──────
+02-23 18:13:19.642 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-23 18:13:19.643 D/MG_NET_LOG: │ Result: {"req_id":"19c89fd39744ff3f34b","data":{"command_result":1,"command_status":"02","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+02-23 18:13:19.643 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-23 18:13:19.792 D/ControlActivity: ➖ 移除监听器: callback_1_1771841591265 
