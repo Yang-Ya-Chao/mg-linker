@@ -1,0 +1,1104 @@
+--- Log Capture Start: 20260226_234556 ---
+02-26 23:44:07.986 D/BleProximity: 📶 RSSI: -85
+02-26 23:44:08.288 D/BleProximity: 📶 RSSI: -84
+02-26 23:44:08.589 D/BleProximity: 📶 RSSI: -84
+02-26 23:44:08.895 D/BleProximity: 📶 RSSI: -85
+02-26 23:44:09.197 D/BleProximity: 📶 RSSI: -85
+02-26 23:44:09.499 D/BleProximity: 📶 RSSI: -85
+02-26 23:44:09.798 D/BleProximity: 📶 RSSI: -85
+02-26 23:44:10.101 D/BleProximity: 📶 RSSI: -85
+02-26 23:44:10.402 D/BleProximity: 📶 RSSI: -85
+02-26 23:44:10.708 D/BleProximity: 📶 RSSI: -85
+02-26 23:44:11.011 D/BleProximity: 📶 RSSI: -85
+02-26 23:44:11.313 D/BleProximity: 📶 RSSI: -85
+02-26 23:44:11.613 D/BleProximity: 📶 RSSI: -85
+02-26 23:44:11.917 D/BleProximity: 📶 RSSI: -85
+02-26 23:44:12.220 D/BleProximity: 📶 RSSI: -85
+02-26 23:44:12.522 D/BleProximity: 📶 RSSI: -85
+02-26 23:44:12.823 D/BleProximity: 📶 RSSI: -85
+02-26 23:44:13.125 D/BleProximity: 📶 RSSI: -87
+02-26 23:44:13.427 D/BleProximity: 📶 RSSI: -87
+02-26 23:44:13.733 D/BleProximity: 📶 RSSI: -87
+02-26 23:44:14.037 D/BleProximity: 📶 RSSI: -89
+02-26 23:44:14.337 D/BleProximity: 📶 RSSI: -90
+02-26 23:44:14.641 D/BleProximity: 📶 RSSI: -91
+02-26 23:44:14.943 D/BleProximity: 📶 RSSI: -91
+02-26 23:44:15.244 D/BleProximity: 📶 RSSI: -91
+02-26 23:44:15.547 D/BleProximity: 📶 RSSI: -91
+02-26 23:44:15.849 D/BleProximity: 📶 RSSI: -90
+02-26 23:44:16.152 D/BleProximity: 📶 RSSI: -90
+02-26 23:44:16.450 D/BleProximity: 📶 RSSI: -91
+02-26 23:44:16.755 D/BleProximity: 📶 RSSI: -91
+02-26 23:44:16.756 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-26 23:44:16.756 D/BleProximity: 原因: 信号均值(-90) > 阈值(-100.0) 
+02-26 23:44:16.757 D/BleProximity: 📤 发送指令: 解锁车门
+02-26 23:44:16.826 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 633032396265383638303833
+02-26 23:44:16.834 D/BleProximity: 🔐 处理认证挑战: 633032396265383638303833
+02-26 23:44:17.057 D/BleProximity: 📶 RSSI: -91
+02-26 23:44:17.358 D/BleProximity: 📶 RSSI: -90
+02-26 23:44:17.537 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+02-26 23:44:17.538 D/BleProximity: 解锁成功
+02-26 23:44:17.539 D/BleProximity: 📊 指令出队: 解锁车门 -> SUCCESS
+02-26 23:44:17.539 D/BleProximity: 🔓 解锁结果: SUCCESS
+02-26 23:44:17.539 D/BleProximity: 🔄 同步状态: 车辆已解锁
+02-26 23:44:17.543 D/BleProximity: 🔗 链式触发: 120秒打火
+02-26 23:44:17.660 D/BleProximity: 📶 RSSI: -91
+02-26 23:44:17.661 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-26 23:44:17.966 D/BleProximity: 📶 RSSI: -90
+02-26 23:44:17.967 D/BleProximity: 📊 正在收集信号样本: 2/5
+02-26 23:44:18.044 D/BleProximity: 📤 发送指令: 120秒打火
+02-26 23:44:18.077 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 636137393962376634663034
+02-26 23:44:18.082 D/BleProximity: 🔐 处理认证挑战: 636137393962376634663034
+02-26 23:44:18.269 D/BleProximity: 📶 RSSI: -89
+02-26 23:44:18.271 D/BleProximity: 📊 正在收集信号样本: 3/5
+02-26 23:44:18.573 D/BleProximity: 📶 RSSI: -88
+02-26 23:44:18.575 D/BleProximity: 📊 正在收集信号样本: 4/5
+02-26 23:44:18.877 D/BleProximity: 📶 RSSI: -88
+02-26 23:44:19.182 D/BleProximity: 📶 RSSI: -88
+02-26 23:44:19.487 D/BleProximity: 📶 RSSI: -87
+02-26 23:44:19.802 D/BleProximity: 📶 RSSI: -87
+02-26 23:44:20.095 D/BleProximity: 📶 RSSI: -89
+02-26 23:44:20.392 D/BleProximity: 📶 RSSI: -89
+02-26 23:44:20.696 D/BleProximity: 📶 RSSI: -90
+02-26 23:44:21.008 D/BleProximity: 📶 RSSI: -91
+02-26 23:44:21.051 D/BleProximity: ℹ️ 打火指令已发送（协议无成功返回值），默认视为成功
+02-26 23:44:21.052 D/BleProximity: 📊 指令出队: 120秒打火 -> SUCCESS
+02-26 23:44:21.310 D/BleProximity: 📶 RSSI: -91
+02-26 23:44:21.609 D/BleProximity: 📶 RSSI: -92
+02-26 23:44:21.914 D/BleProximity: 📶 RSSI: -92
+02-26 23:44:22.217 D/BleProximity: 📶 RSSI: -92
+02-26 23:44:22.522 D/BleProximity: 📶 RSSI: -92
+02-26 23:44:22.828 D/BleProximity: 📶 RSSI: -92
+02-26 23:44:23.126 D/BleProximity: 📶 RSSI: -92
+02-26 23:44:23.434 D/BleProximity: 📶 RSSI: -92
+02-26 23:44:23.739 D/BleProximity: 📶 RSSI: -93
+02-26 23:44:24.043 D/BleProximity: 📶 RSSI: -93
+02-26 23:44:24.347 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:24.653 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:24.953 D/BleProximity: 📶 RSSI: -95
+02-26 23:44:25.259 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:25.563 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:25.868 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:26.176 D/BleProximity: 📶 RSSI: -95
+02-26 23:44:26.472 D/BleProximity: 📶 RSSI: -95
+02-26 23:44:26.775 D/BleProximity: 📶 RSSI: -95
+02-26 23:44:27.085 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:27.388 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:27.694 D/BleProximity: 📶 RSSI: -95
+02-26 23:44:27.997 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:28.304 D/BleProximity: 📶 RSSI: -95
+02-26 23:44:28.608 D/BleProximity: 📶 RSSI: -96
+02-26 23:44:28.912 D/BleProximity: 📶 RSSI: -96
+02-26 23:44:29.216 D/BleProximity: 📶 RSSI: -95
+02-26 23:44:29.517 D/BleProximity: 📶 RSSI: -95
+02-26 23:44:29.822 D/BleProximity: 📶 RSSI: -95
+02-26 23:44:30.127 D/BleProximity: 📶 RSSI: -96
+02-26 23:44:30.433 D/BleProximity: 📶 RSSI: -95
+02-26 23:44:30.738 D/BleProximity: 📶 RSSI: -93
+02-26 23:44:31.043 D/BleProximity: 📶 RSSI: -93
+02-26 23:44:31.348 D/BleProximity: 📶 RSSI: -93
+02-26 23:44:31.651 D/BleProximity: 📶 RSSI: -93
+02-26 23:44:31.957 D/BleProximity: 📶 RSSI: -93
+02-26 23:44:32.259 D/BleProximity: 📶 RSSI: -93
+02-26 23:44:32.566 D/BleProximity: 📶 RSSI: -91
+02-26 23:44:32.870 D/BleProximity: 📶 RSSI: -92
+02-26 23:44:33.177 D/BleProximity: 📶 RSSI: -92
+02-26 23:44:33.475 D/BleProximity: 📶 RSSI: -92
+02-26 23:44:33.783 D/BleProximity: 📶 RSSI: -93
+02-26 23:44:34.088 D/BleProximity: 📶 RSSI: -93
+02-26 23:44:34.395 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:34.698 D/BleProximity: 📶 RSSI: -95
+02-26 23:44:35.000 D/BleProximity: 📶 RSSI: -95
+02-26 23:44:35.301 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:35.607 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:35.909 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:36.213 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:36.515 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:36.818 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:37.120 D/BleProximity: 📶 RSSI: -92
+02-26 23:44:37.425 D/BleProximity: 📶 RSSI: -93
+02-26 23:44:37.747 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:38.061 D/BleProximity: 📶 RSSI: -95
+02-26 23:44:38.349 D/BleProximity: 📶 RSSI: -95
+02-26 23:44:38.650 D/BleProximity: 📶 RSSI: -95
+02-26 23:44:38.955 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:39.258 D/BleProximity: 📶 RSSI: -95
+02-26 23:44:39.562 D/BleProximity: 📶 RSSI: -95
+02-26 23:44:39.868 D/BleProximity: 📶 RSSI: -95
+02-26 23:44:40.168 D/BleProximity: 📶 RSSI: -96
+02-26 23:44:40.478 D/BleProximity: 📶 RSSI: -96
+02-26 23:44:40.783 D/BleProximity: 📶 RSSI: -96
+02-26 23:44:41.088 D/BleProximity: 📶 RSSI: -96
+02-26 23:44:41.388 D/BleProximity: 📶 RSSI: -97
+02-26 23:44:41.689 D/BleProximity: 📶 RSSI: -96
+02-26 23:44:41.724 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:41.724 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:41.725 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:41.726 D/MG_NET_LOG: │ Params: data={"userId":"15100002159744","appId":"Roewe","brandCode":"1","nonce":"FEDED41CB882439BBA4DF683B9C18315","timestamp":"1772120681721","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:41.726 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:41.992 D/BleProximity: 📶 RSSI: -97
+02-26 23:44:42.159 D/MG_NET_LOG: ┌────── 响应结束 (200 / 432ms) ──────
+02-26 23:44:42.160 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:42.161 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9fb21982c0844c","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":null,"secret_key":"5741774816616905","key_end_time":1774761678000,"mobile":null,"key_start_time":1766985678000,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":27215189,"owner_name":null,"owner_mobile":"15134422152","enable":true,"tbox_mac":"1CD38059C063","vin":"LSJWM6399SZ644783","aes_key":"1305299408587528","status":3}]}}
+02-26 23:44:42.162 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:42.184 D/MGWidget: onUpdate called for IDs: 32
+02-26 23:44:42.185 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+02-26 23:44:42.189 D/BleProximity: 🔧 初始化 BleProximityManager
+02-26 23:44:42.189 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+02-26 23:44:42.189 D/BleProximity: 🧹 清理资源...
+02-26 23:44:42.190 D/BleProximity: 🛑 停止服务
+02-26 23:44:42.190 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_27_1772120645811 (剩余: 0)
+02-26 23:44:42.190 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+02-26 23:44:42.190 D/BleProximity: ✅ Session 已释放
+02-26 23:44:42.190 D/BleProximity: ✅ 屏幕状态监听已注销
+02-26 23:44:42.191 D/BleProximity: ➖ 移除监听器: callback_27_1772120645811 
+02-26 23:44:42.191 D/BleProximity: ✅ 已移除回调: callback_27_1772120645811
+02-26 23:44:42.192 D/BleProximity: ✅ 资源清理完成
+02-26 23:44:42.192 D/BleProximity: ➕ 添加监听器: callback_28_1772120682192 (总数: 1)
+02-26 23:44:42.192 D/BleProximity: ✅ 初始化完成，回调ID: callback_28_1772120682192 ,DistanceMeters:-92.0
+02-26 23:44:42.192 D/BleProximity: 🚀 启动靠近解锁服务...
+02-26 23:44:42.192 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_28_1772120682192 (总数: 1)
+02-26 23:44:42.192 D/BleProximity: 🎫 Session 已获取: true
+02-26 23:44:42.192 D/BleProximity: ✅ 服务启动时，设备已处于连接状态
+02-26 23:44:42.193 D/BleProximity: ✅ 屏幕状态监听已注册
+02-26 23:44:42.201 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-26 23:44:42.201 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:42.201 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:42.202 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:42.202 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6399SZ644783","appId":"Roewe","brandCode":"1","nonce":"96BE40FE93934664821B127DC3A38384","timestamp":"1772120682201","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:42.202 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:42.269 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:42.270 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:42.270 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:42.270 D/MG_NET_LOG: │ Params: data={"userId":"15100002159744","appId":"Roewe","brandCode":"1","nonce":"06671C770D4441B2B78DA7725C300EE7","timestamp":"1772120682268","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:42.270 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:42.289 D/BleProximity: 📶 RSSI: -97
+02-26 23:44:42.289 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-26 23:44:42.452 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:42.452 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:42.452 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:42.453 D/MG_NET_LOG: │ Params: data={"userId":"15100002159744","appId":"Roewe","brandCode":"1","nonce":"F37A138AFE8A44E498518E6C27D7C77A","timestamp":"1772120682451","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:42.453 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:42.593 D/BleProximity: 📶 RSSI: -97
+02-26 23:44:42.593 D/BleProximity: 📊 正在收集信号样本: 2/5
+02-26 23:44:42.671 D/MG_NET_LOG: ┌────── 响应结束 (200 / 400ms) ──────
+02-26 23:44:42.672 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:42.672 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9fb41c18892690","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":null,"secret_key":"5741774816616905","key_end_time":1774761678000,"key_start_time":1766985678000,"mobile":null,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":27215189,"owner_name":null,"owner_mobile":"15134422152","enable":true,"tbox_mac":"1CD38059C063","vin":"LSJWM6399SZ644783","aes_key":"1305299408587528","status":3}]}}
+02-26 23:44:42.673 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:42.681 D/MGWidget: onUpdate called for IDs: 32
+02-26 23:44:42.682 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+02-26 23:44:42.683 D/BleProximity: 🔧 初始化 BleProximityManager
+02-26 23:44:42.683 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+02-26 23:44:42.683 D/BleProximity: 🧹 清理资源...
+02-26 23:44:42.683 D/BleProximity: 🛑 停止服务
+02-26 23:44:42.684 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_28_1772120682192 (剩余: 0)
+02-26 23:44:42.684 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+02-26 23:44:42.684 D/BleProximity: ✅ Session 已释放
+02-26 23:44:42.685 D/BleProximity: ✅ 屏幕状态监听已注销
+02-26 23:44:42.687 D/BleProximity: ➖ 移除监听器: callback_28_1772120682192 
+02-26 23:44:42.687 D/BleProximity: ✅ 已移除回调: callback_28_1772120682192
+02-26 23:44:42.687 D/BleProximity: ✅ 资源清理完成
+02-26 23:44:42.687 D/BleProximity: ➕ 添加监听器: callback_29_1772120682687 (总数: 1)
+02-26 23:44:42.687 D/BleProximity: ✅ 初始化完成，回调ID: callback_29_1772120682687 ,DistanceMeters:-92.0
+02-26 23:44:42.688 D/BleProximity: 🚀 启动靠近解锁服务...
+02-26 23:44:42.688 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_29_1772120682688 (总数: 1)
+02-26 23:44:42.690 D/BleProximity: 🎫 Session 已获取: true
+02-26 23:44:42.690 D/BleProximity: ✅ 服务启动时，设备已处于连接状态
+02-26 23:44:42.691 D/BleProximity: ✅ 屏幕状态监听已注册
+02-26 23:44:42.695 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-26 23:44:42.696 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:42.696 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:42.696 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:42.696 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6399SZ644783","appId":"Roewe","brandCode":"1","nonce":"F8C8ACE2B9E244F382662EC1F7E91ABA","timestamp":"1772120682695","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:42.696 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:42.843 D/MG_NET_LOG: ┌────── 响应结束 (200 / 390ms) ──────
+02-26 23:44:42.844 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:42.844 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9fb4cd6681f54a","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":null,"secret_key":"5741774816616905","key_end_time":1774761678000,"key_start_time":1766985678000,"mobile":null,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":27215189,"owner_name":null,"owner_mobile":"15134422152","enable":true,"tbox_mac":"1CD38059C063","vin":"LSJWM6399SZ644783","aes_key":"1305299408587528","status":3}]}}
+02-26 23:44:42.845 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:42.858 D/MGWidget: onUpdate called for IDs: 32
+02-26 23:44:42.859 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+02-26 23:44:42.865 D/BleProximity: 🔧 初始化 BleProximityManager
+02-26 23:44:42.865 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+02-26 23:44:42.865 D/BleProximity: 🧹 清理资源...
+02-26 23:44:42.865 D/BleProximity: 🛑 停止服务
+02-26 23:44:42.865 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_29_1772120682688 (剩余: 0)
+02-26 23:44:42.865 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+02-26 23:44:42.866 D/BleProximity: ✅ Session 已释放
+02-26 23:44:42.866 D/BleProximity: ✅ 屏幕状态监听已注销
+02-26 23:44:42.868 D/BleProximity: ➖ 移除监听器: callback_29_1772120682687 
+02-26 23:44:42.869 D/BleProximity: ✅ 已移除回调: callback_29_1772120682687
+02-26 23:44:42.869 D/BleProximity: ✅ 资源清理完成
+02-26 23:44:42.869 D/BleProximity: ➕ 添加监听器: callback_30_1772120682869 (总数: 1)
+02-26 23:44:42.869 D/BleProximity: ✅ 初始化完成，回调ID: callback_30_1772120682869 ,DistanceMeters:-92.0
+02-26 23:44:42.869 D/BleProximity: 🚀 启动靠近解锁服务...
+02-26 23:44:42.869 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_30_1772120682869 (总数: 1)
+02-26 23:44:42.869 D/BleProximity: 🎫 Session 已获取: true
+02-26 23:44:42.869 D/BleProximity: ✅ 服务启动时，设备已处于连接状态
+02-26 23:44:42.871 D/BleProximity: ✅ 屏幕状态监听已注册
+02-26 23:44:42.876 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-26 23:44:42.877 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:42.877 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:42.877 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:42.878 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6399SZ644783","appId":"Roewe","brandCode":"1","nonce":"E31CAA1A2F304980817D91A06FE1F182","timestamp":"1772120682877","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:42.878 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:42.894 D/BleProximity: 📶 RSSI: -96
+02-26 23:44:42.894 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-26 23:44:43.110 D/MG_NET_LOG: ┌────── 响应结束 (200 / 906ms) ──────
+02-26 23:44:43.110 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:43.110 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9fb3d935b2a8e1","data":{"vehicle_position":{"satellites":7,"altitude":204,"latitude":"43.872520","gps_status":3,"update_time":1772110217000,"gps_time":1772120663000,"hdop":10,"longitude":"125.336080"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":0,"rear_right_tyre_pressure":288,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":4,"driving_range":748,"battery_pack_range":70,"power_mode":0,"engine_status":0,"exterior_temperature":-6,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":78,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":19629,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1240,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":296,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":268,"battery_pack_prc":561,"interior_temperature_v":null,"steer_heat_failure_reason":0,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":0,"fuel_range":748,"current_journey_id":1296,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772110216000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":268,"vehicle_battery_prc":940,"battery_type":0,"fuel_level_disp":7,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":1023},"update_time":1772114737000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772110216000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-26 23:44:43.110 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:43.113 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 吉林省长春市南关区平泉路528号
+02-26 23:44:43.113 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-26 23:44:43.113 D/MGWidget: updateWidgetSynchronously called for ID: 32
+02-26 23:44:43.195 D/BleProximity: 📶 RSSI: -96
+02-26 23:44:43.195 D/BleProximity: 📊 正在收集信号样本: 2/5
+02-26 23:44:43.501 D/BleProximity: 📶 RSSI: -95
+02-26 23:44:43.502 D/BleProximity: 📊 正在收集信号样本: 3/5
+02-26 23:44:43.662 D/MG_NET_LOG: ┌────── 响应结束 (200 / 965ms) ──────
+02-26 23:44:43.663 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:43.663 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9fb5ebf23c7364","data":{"vehicle_position":{"satellites":7,"altitude":204,"gps_status":3,"latitude":"43.872520","update_time":1772110217000,"gps_time":1772120663000,"hdop":10,"longitude":"125.336080"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":0,"rear_right_tyre_pressure":288,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":4,"driving_range":748,"battery_pack_range":70,"power_mode":0,"engine_status":0,"exterior_temperature":-6,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":78,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":19629,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1240,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":296,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":268,"battery_pack_prc":561,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":0,"clstr_elec_rng_to_eptv":0,"fuel_range":748,"current_journey_id":1296,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772110216000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":268,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":940,"fuel_level_disp":7,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":1023,"localfront_left_seat_vent_level":null},"update_time":1772114737000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772110216000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-26 23:44:43.664 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:43.669 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 吉林省长春市南关区平泉路528号
+02-26 23:44:43.670 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-26 23:44:43.670 D/MGWidget: updateWidgetSynchronously called for ID: 32
+02-26 23:44:43.800 D/BleProximity: 📶 RSSI: -95
+02-26 23:44:43.801 D/BleProximity: 📊 正在收集信号样本: 4/5
+02-26 23:44:43.828 D/MG_NET_LOG: ┌────── 响应结束 (200 / 949ms) ──────
+02-26 23:44:43.829 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:43.830 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9fb68288cc8a9c","data":{"vehicle_position":{"satellites":7,"altitude":204,"gps_status":3,"latitude":"43.872520","update_time":1772110217000,"gps_time":1772120663000,"hdop":10,"longitude":"125.336080"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":0,"rear_right_tyre_pressure":288,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":4,"driving_range":748,"battery_pack_range":70,"power_mode":0,"engine_status":0,"exterior_temperature":-6,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":78,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":19629,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1240,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":296,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":268,"battery_pack_prc":561,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":0,"clstr_elec_rng_to_eptv":0,"fuel_range":748,"current_journey_id":1296,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772110216000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":268,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":940,"fuel_level_disp":7,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":1023,"localfront_left_seat_vent_level":null},"update_time":1772114737000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772110216000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-26 23:44:43.830 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:43.835 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 吉林省长春市南关区平泉路528号
+02-26 23:44:43.835 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-26 23:44:43.836 D/MGWidget: updateWidgetSynchronously called for ID: 32
+02-26 23:44:44.098 D/BleProximity: 📶 RSSI: -95
+02-26 23:44:44.400 D/BleProximity: 📶 RSSI: -95
+02-26 23:44:44.706 D/BleProximity: 📶 RSSI: -95
+02-26 23:44:45.004 D/BleProximity: 📶 RSSI: -96
+02-26 23:44:45.313 D/BleProximity: 📶 RSSI: -97
+02-26 23:44:45.611 D/BleProximity: 📶 RSSI: -97
+02-26 23:44:45.912 D/BleProximity: 📶 RSSI: -97
+02-26 23:44:46.215 D/BleProximity: 📶 RSSI: -98
+02-26 23:44:46.517 D/BleProximity: 📶 RSSI: -97
+02-26 23:44:46.819 D/BleProximity: 📶 RSSI: -97
+02-26 23:44:47.121 D/BleProximity: 📶 RSSI: -97
+02-26 23:44:47.423 D/BleProximity: 📶 RSSI: -97
+02-26 23:44:47.725 D/BleProximity: 📶 RSSI: -97
+02-26 23:44:48.030 D/BleProximity: 📶 RSSI: -96
+02-26 23:44:48.332 D/BleProximity: 📶 RSSI: -96
+02-26 23:44:48.633 D/BleProximity: 📶 RSSI: -96
+02-26 23:44:48.934 D/BleProximity: 📶 RSSI: -96
+02-26 23:44:49.236 D/BleProximity: 📶 RSSI: -96
+02-26 23:44:49.539 D/BleProximity: 📶 RSSI: -97
+02-26 23:44:49.841 D/BleProximity: 📶 RSSI: -97
+02-26 23:44:50.044 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:50.044 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:50.044 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:50.045 D/MG_NET_LOG: │ Params: data={"userId":"15100002159744","appId":"Roewe","brandCode":"1","nonce":"53DE3DEF4C2E42779CFFC1761A78ADCE","timestamp":"1772120690041","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:50.045 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:50.144 D/BleProximity: 📶 RSSI: -96
+02-26 23:44:50.290 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:50.290 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:50.291 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:50.291 D/MG_NET_LOG: │ Params: data={"userId":"15100002159744","appId":"Roewe","brandCode":"1","nonce":"6F6F5FDA74F846B5BE9B94624EC24D15","timestamp":"1772120690288","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:50.291 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:50.444 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:50.490 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:50.491 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:50.491 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:50.491 D/MG_NET_LOG: │ Params: data={"userId":"15100002159744","appId":"Roewe","brandCode":"1","nonce":"69ACB4EEFEA549EEB8B58BC18D73BE28","timestamp":"1772120690489","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:50.492 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:50.494 D/MG_NET_LOG: ┌────── 响应结束 (200 / 450ms) ──────
+02-26 23:44:50.495 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:50.495 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9fd29dc881aa86","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":null,"secret_key":"5741774816616905","key_end_time":1774761678000,"key_start_time":1766985678000,"mobile":null,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":27215189,"owner_name":null,"owner_mobile":"15134422152","enable":true,"tbox_mac":"1CD38059C063","vin":"LSJWM6399SZ644783","aes_key":"1305299408587528","status":3}]}}
+02-26 23:44:50.495 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:50.503 D/MGWidget: onUpdate called for IDs: 32
+02-26 23:44:50.504 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+02-26 23:44:50.508 D/BleProximity: 🔧 初始化 BleProximityManager
+02-26 23:44:50.508 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+02-26 23:44:50.508 D/BleProximity: 🧹 清理资源...
+02-26 23:44:50.508 D/BleProximity: 🛑 停止服务
+02-26 23:44:50.508 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_30_1772120682869 (剩余: 0)
+02-26 23:44:50.509 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+02-26 23:44:50.509 D/BleProximity: ✅ Session 已释放
+02-26 23:44:50.509 D/BleProximity: ✅ 屏幕状态监听已注销
+02-26 23:44:50.511 D/BleProximity: ➖ 移除监听器: callback_30_1772120682869 
+02-26 23:44:50.511 D/BleProximity: ✅ 已移除回调: callback_30_1772120682869
+02-26 23:44:50.512 D/BleProximity: ✅ 资源清理完成
+02-26 23:44:50.512 D/BleProximity: ➕ 添加监听器: callback_31_1772120690512 (总数: 1)
+02-26 23:44:50.512 D/BleProximity: ✅ 初始化完成，回调ID: callback_31_1772120690512 ,DistanceMeters:-92.0
+02-26 23:44:50.512 D/BleProximity: 🚀 启动靠近解锁服务...
+02-26 23:44:50.512 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_31_1772120690512 (总数: 1)
+02-26 23:44:50.512 D/BleProximity: 🎫 Session 已获取: true
+02-26 23:44:50.512 D/BleProximity: ✅ 服务启动时，设备已处于连接状态
+02-26 23:44:50.514 D/BleProximity: ✅ 屏幕状态监听已注册
+02-26 23:44:50.520 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-26 23:44:50.521 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:50.521 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:50.521 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:50.521 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6399SZ644783","appId":"Roewe","brandCode":"1","nonce":"2229465AF69D4944BA19BEB6ED9F6A86","timestamp":"1772120690520","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:50.521 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:50.680 D/MG_NET_LOG: ┌────── 响应结束 (200 / 390ms) ──────
+02-26 23:44:50.681 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:50.681 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9fd3681f122636","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":null,"secret_key":"5741774816616905","key_end_time":1774761678000,"key_start_time":1766985678000,"mobile":null,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":27215189,"owner_mobile":"15134422152","owner_name":null,"enable":true,"tbox_mac":"1CD38059C063","aes_key":"1305299408587528","vin":"LSJWM6399SZ644783","status":3}]}}
+02-26 23:44:50.681 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:50.687 D/MGWidget: onUpdate called for IDs: 32
+02-26 23:44:50.688 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+02-26 23:44:50.691 D/BleProximity: 🔧 初始化 BleProximityManager
+02-26 23:44:50.691 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+02-26 23:44:50.691 D/BleProximity: 🧹 清理资源...
+02-26 23:44:50.691 D/BleProximity: 🛑 停止服务
+02-26 23:44:50.691 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_31_1772120690512 (剩余: 0)
+02-26 23:44:50.691 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+02-26 23:44:50.691 D/BleProximity: ✅ Session 已释放
+02-26 23:44:50.692 D/BleProximity: ✅ 屏幕状态监听已注销
+02-26 23:44:50.693 D/BleProximity: ➖ 移除监听器: callback_31_1772120690512 
+02-26 23:44:50.693 D/BleProximity: ✅ 已移除回调: callback_31_1772120690512
+02-26 23:44:50.693 D/BleProximity: ✅ 资源清理完成
+02-26 23:44:50.694 D/BleProximity: ➕ 添加监听器: callback_32_1772120690694 (总数: 1)
+02-26 23:44:50.695 D/BleProximity: ✅ 初始化完成，回调ID: callback_32_1772120690694 ,DistanceMeters:-92.0
+02-26 23:44:50.695 D/BleProximity: 🚀 启动靠近解锁服务...
+02-26 23:44:50.695 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_32_1772120690695 (总数: 1)
+02-26 23:44:50.695 D/BleProximity: 🎫 Session 已获取: true
+02-26 23:44:50.695 D/BleProximity: ✅ 服务启动时，设备已处于连接状态
+02-26 23:44:50.697 D/BleProximity: ✅ 屏幕状态监听已注册
+02-26 23:44:50.700 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-26 23:44:50.702 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:50.702 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:50.702 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:50.702 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6399SZ644783","appId":"Roewe","brandCode":"1","nonce":"26059339531F480F9B1D229F1B021B36","timestamp":"1772120690700","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:50.702 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:50.721 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:50.722 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:50.722 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:50.722 D/MG_NET_LOG: │ Params: data={"userId":"15100002159744","appId":"Roewe","brandCode":"1","nonce":"716CB12E030B45A7BDE50C418E9F4BC5","timestamp":"1772120690719","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:50.722 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:50.744 D/BleProximity: 📶 RSSI: -93
+02-26 23:44:50.745 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-26 23:44:50.895 D/MG_NET_LOG: ┌────── 响应结束 (200 / 404ms) ──────
+02-26 23:44:50.895 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:50.896 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9fd43f28e37db4","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":null,"secret_key":"5741774816616905","key_end_time":1774761678000,"mobile":null,"key_start_time":1766985678000,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":27215189,"owner_name":null,"owner_mobile":"15134422152","enable":true,"tbox_mac":"1CD38059C063","vin":"LSJWM6399SZ644783","aes_key":"1305299408587528","status":3}]}}
+02-26 23:44:50.896 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:50.906 D/MGWidget: onUpdate called for IDs: 32
+02-26 23:44:50.908 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+02-26 23:44:50.911 D/BleProximity: 🔧 初始化 BleProximityManager
+02-26 23:44:50.911 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+02-26 23:44:50.911 D/BleProximity: 🧹 清理资源...
+02-26 23:44:50.911 D/BleProximity: 🛑 停止服务
+02-26 23:44:50.912 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_32_1772120690695 (剩余: 0)
+02-26 23:44:50.912 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+02-26 23:44:50.912 D/BleProximity: ✅ Session 已释放
+02-26 23:44:50.912 D/BleProximity: ✅ 屏幕状态监听已注销
+02-26 23:44:50.914 D/BleProximity: ➖ 移除监听器: callback_32_1772120690694 
+02-26 23:44:50.914 D/BleProximity: ✅ 已移除回调: callback_32_1772120690694
+02-26 23:44:50.915 D/BleProximity: ✅ 资源清理完成
+02-26 23:44:50.915 D/BleProximity: ➕ 添加监听器: callback_33_1772120690915 (总数: 1)
+02-26 23:44:50.915 D/BleProximity: ✅ 初始化完成，回调ID: callback_33_1772120690915 ,DistanceMeters:-92.0
+02-26 23:44:50.915 D/BleProximity: 🚀 启动靠近解锁服务...
+02-26 23:44:50.915 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_33_1772120690915 (总数: 1)
+02-26 23:44:50.915 D/BleProximity: 🎫 Session 已获取: true
+02-26 23:44:50.915 D/BleProximity: ✅ 服务启动时，设备已处于连接状态
+02-26 23:44:50.918 D/BleProximity: ✅ 屏幕状态监听已注册
+02-26 23:44:50.919 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-26 23:44:50.920 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:50.920 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:50.920 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:50.920 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6399SZ644783","appId":"Roewe","brandCode":"1","nonce":"5F932880199E4DE6962A05845F2609C7","timestamp":"1772120690919","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:50.920 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:51.047 D/BleProximity: 📶 RSSI: -93
+02-26 23:44:51.047 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-26 23:44:51.173 D/MG_NET_LOG: ┌────── 响应结束 (200 / 451ms) ──────
+02-26 23:44:51.174 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:51.175 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9fd52fce45f302","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":null,"secret_key":"5741774816616905","key_end_time":1774761678000,"key_start_time":1766985678000,"mobile":null,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":27215189,"owner_name":null,"owner_mobile":"15134422152","enable":true,"tbox_mac":"1CD38059C063","vin":"LSJWM6399SZ644783","aes_key":"1305299408587528","status":3}]}}
+02-26 23:44:51.175 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:51.185 D/MGWidget: onUpdate called for IDs: 32
+02-26 23:44:51.185 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+02-26 23:44:51.186 D/BleProximity: 🔧 初始化 BleProximityManager
+02-26 23:44:51.186 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+02-26 23:44:51.186 D/BleProximity: 🧹 清理资源...
+02-26 23:44:51.187 D/BleProximity: 🛑 停止服务
+02-26 23:44:51.187 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_33_1772120690915 (剩余: 0)
+02-26 23:44:51.187 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+02-26 23:44:51.187 D/BleProximity: ✅ Session 已释放
+02-26 23:44:51.188 D/BleProximity: ✅ 屏幕状态监听已注销
+02-26 23:44:51.192 D/BleProximity: ➖ 移除监听器: callback_33_1772120690915 
+02-26 23:44:51.193 D/BleProximity: ✅ 已移除回调: callback_33_1772120690915
+02-26 23:44:51.193 D/BleProximity: ✅ 资源清理完成
+02-26 23:44:51.194 D/BleProximity: ➕ 添加监听器: callback_34_1772120691193 (总数: 1)
+02-26 23:44:51.194 D/BleProximity: ✅ 初始化完成，回调ID: callback_34_1772120691193 ,DistanceMeters:-92.0
+02-26 23:44:51.195 D/BleProximity: 🚀 启动靠近解锁服务...
+02-26 23:44:51.195 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_34_1772120691195 (总数: 1)
+02-26 23:44:51.195 D/BleProximity: 🎫 Session 已获取: true
+02-26 23:44:51.195 D/BleProximity: ✅ 服务启动时，设备已处于连接状态
+02-26 23:44:51.198 D/BleProximity: ✅ 屏幕状态监听已注册
+02-26 23:44:51.202 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-26 23:44:51.205 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:51.205 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:51.205 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:51.206 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6399SZ644783","appId":"Roewe","brandCode":"1","nonce":"B302E18CED1A4CC8A2B5E81C39677C8C","timestamp":"1772120691202","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:51.206 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:51.349 D/BleProximity: 📶 RSSI: -92
+02-26 23:44:51.349 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-26 23:44:51.428 D/MG_NET_LOG: ┌────── 响应结束 (200 / 906ms) ──────
+02-26 23:44:51.429 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:51.429 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9fd451ca088711","data":{"vehicle_position":{"satellites":7,"altitude":204,"latitude":"43.872520","gps_status":3,"update_time":1772110217000,"gps_time":1772120663000,"hdop":10,"longitude":"125.336080"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":0,"rear_right_tyre_pressure":288,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":4,"driving_range":748,"battery_pack_range":70,"power_mode":0,"engine_status":0,"exterior_temperature":-6,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":78,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":19629,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1240,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":296,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":268,"battery_pack_prc":561,"interior_temperature_v":null,"steer_heat_failure_reason":0,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":0,"fuel_range":748,"current_journey_id":1296,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772110216000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":268,"vehicle_battery_prc":940,"battery_type":0,"fuel_level_disp":7,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":1023},"update_time":1772114737000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772110216000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-26 23:44:51.429 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:51.431 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 吉林省长春市南关区平泉路528号
+02-26 23:44:51.431 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-26 23:44:51.432 D/MGWidget: updateWidgetSynchronously called for ID: 32
+02-26 23:44:51.573 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:51.573 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:51.573 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:51.573 D/MG_NET_LOG: │ Params: data={"userId":"15100002159744","appId":"Roewe","brandCode":"1","nonce":"671F4A0017424D698BA1511C9BBA44D3","timestamp":"1772120691572","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:51.573 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:51.650 D/BleProximity: 📶 RSSI: -93
+02-26 23:44:51.651 D/BleProximity: 📊 正在收集信号样本: 2/5
+02-26 23:44:51.661 D/MG_NET_LOG: ┌────── 响应结束 (200 / 957ms) ──────
+02-26 23:44:51.661 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:51.662 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9fd52767d13a98","data":{"vehicle_position":{"satellites":7,"altitude":204,"gps_status":3,"latitude":"43.872520","update_time":1772110217000,"gps_time":1772120663000,"hdop":10,"longitude":"125.336080"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":0,"rear_right_tyre_pressure":288,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":4,"driving_range":748,"battery_pack_range":70,"power_mode":0,"engine_status":0,"exterior_temperature":-6,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":78,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":19629,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1240,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":296,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":268,"battery_pack_prc":561,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":0,"clstr_elec_rng_to_eptv":0,"fuel_range":748,"current_journey_id":1296,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772110216000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":268,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":940,"fuel_level_disp":7,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":1023,"localfront_left_seat_vent_level":null},"update_time":1772114737000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772110216000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-26 23:44:51.662 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:51.665 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 吉林省长春市南关区平泉路528号
+02-26 23:44:51.665 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-26 23:44:51.665 D/MGWidget: updateWidgetSynchronously called for ID: 32
+02-26 23:44:51.770 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:51.771 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:51.771 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:51.771 D/MG_NET_LOG: │ Params: data={"userId":"15100002159744","appId":"Roewe","brandCode":"1","nonce":"F88F5999DB1C48A884608FAA96EE33E2","timestamp":"1772120691767","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:51.771 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:51.877 D/MG_NET_LOG: ┌────── 响应结束 (200 / 956ms) ──────
+02-26 23:44:51.877 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:51.879 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9fd5f5e667f006","data":{"vehicle_position":{"satellites":7,"altitude":204,"latitude":"43.872520","gps_status":3,"update_time":1772110217000,"gps_time":1772120663000,"hdop":10,"longitude":"125.336080"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":0,"rear_right_tyre_pressure":288,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":4,"driving_range":748,"battery_pack_range":70,"power_mode":0,"engine_status":0,"exterior_temperature":-6,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":78,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":19629,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1240,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":296,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":268,"battery_pack_prc":561,"interior_temperature_v":null,"steer_heat_failure_reason":0,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":0,"fuel_range":748,"current_journey_id":1296,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772110216000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":268,"vehicle_battery_prc":940,"battery_type":0,"fuel_level_disp":7,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":1023},"update_time":1772114737000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772110216000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-26 23:44:51.879 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:51.883 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 吉林省长春市南关区平泉路528号
+02-26 23:44:51.883 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-26 23:44:51.884 D/MGWidget: updateWidgetSynchronously called for ID: 32
+02-26 23:44:51.951 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:51.951 D/BleProximity: 📊 正在收集信号样本: 3/5
+02-26 23:44:51.962 D/MG_NET_LOG: ┌────── 响应结束 (200 / 388ms) ──────
+02-26 23:44:51.963 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:51.963 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9fd8686ad8bd77","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":null,"secret_key":"5741774816616905","key_end_time":1774761678000,"key_start_time":1766985678000,"mobile":null,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":27215189,"owner_name":null,"owner_mobile":"15134422152","enable":true,"tbox_mac":"1CD38059C063","vin":"LSJWM6399SZ644783","aes_key":"1305299408587528","status":3}]}}
+02-26 23:44:51.963 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:51.971 D/MGWidget: onUpdate called for IDs: 32
+02-26 23:44:51.971 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+02-26 23:44:51.972 D/BleProximity: 🔧 初始化 BleProximityManager
+02-26 23:44:51.972 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+02-26 23:44:51.972 D/BleProximity: 🧹 清理资源...
+02-26 23:44:51.972 D/BleProximity: 🛑 停止服务
+02-26 23:44:51.973 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_34_1772120691195 (剩余: 0)
+02-26 23:44:51.973 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+02-26 23:44:51.973 D/BleProximity: ✅ Session 已释放
+02-26 23:44:51.973 D/BleProximity: ✅ 屏幕状态监听已注销
+02-26 23:44:51.976 D/BleProximity: ➖ 移除监听器: callback_34_1772120691193 
+02-26 23:44:51.976 D/BleProximity: ✅ 已移除回调: callback_34_1772120691193
+02-26 23:44:51.977 D/BleProximity: ✅ 资源清理完成
+02-26 23:44:51.977 D/BleProximity: ➕ 添加监听器: callback_35_1772120691977 (总数: 1)
+02-26 23:44:51.977 D/BleProximity: ✅ 初始化完成，回调ID: callback_35_1772120691977 ,DistanceMeters:-92.0
+02-26 23:44:51.977 D/BleProximity: 🚀 启动靠近解锁服务...
+02-26 23:44:51.977 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_35_1772120691977 (总数: 1)
+02-26 23:44:51.977 D/BleProximity: 🎫 Session 已获取: true
+02-26 23:44:51.977 D/BleProximity: ✅ 服务启动时，设备已处于连接状态
+02-26 23:44:51.979 D/BleProximity: ✅ 屏幕状态监听已注册
+02-26 23:44:51.986 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-26 23:44:51.987 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:51.987 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:51.987 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:51.987 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6399SZ644783","appId":"Roewe","brandCode":"1","nonce":"E299C1DA2FC34E15B3CC94EEE4A994F7","timestamp":"1772120691987","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:51.987 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:52.179 D/MG_NET_LOG: ┌────── 响应结束 (200 / 408ms) ──────
+02-26 23:44:52.180 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:52.180 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9fd93e567ee6cc","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":null,"secret_key":"5741774816616905","key_end_time":1774761678000,"key_start_time":1766985678000,"mobile":null,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":27215189,"owner_mobile":"15134422152","owner_name":null,"enable":true,"tbox_mac":"1CD38059C063","aes_key":"1305299408587528","vin":"LSJWM6399SZ644783","status":3}]}}
+02-26 23:44:52.180 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:52.188 D/MGWidget: onUpdate called for IDs: 32
+02-26 23:44:52.188 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+02-26 23:44:52.190 D/BleProximity: 🔧 初始化 BleProximityManager
+02-26 23:44:52.190 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+02-26 23:44:52.190 D/BleProximity: 🧹 清理资源...
+02-26 23:44:52.190 D/BleProximity: 🛑 停止服务
+02-26 23:44:52.190 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_35_1772120691977 (剩余: 0)
+02-26 23:44:52.191 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+02-26 23:44:52.191 D/BleProximity: ✅ Session 已释放
+02-26 23:44:52.191 D/BleProximity: ✅ 屏幕状态监听已注销
+02-26 23:44:52.193 D/BleProximity: ➖ 移除监听器: callback_35_1772120691977 
+02-26 23:44:52.193 D/BleProximity: ✅ 已移除回调: callback_35_1772120691977
+02-26 23:44:52.193 D/BleProximity: ✅ 资源清理完成
+02-26 23:44:52.193 D/BleProximity: ➕ 添加监听器: callback_36_1772120692193 (总数: 1)
+02-26 23:44:52.193 D/BleProximity: ✅ 初始化完成，回调ID: callback_36_1772120692193 ,DistanceMeters:-92.0
+02-26 23:44:52.194 D/BleProximity: 🚀 启动靠近解锁服务...
+02-26 23:44:52.194 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_36_1772120692194 (总数: 1)
+02-26 23:44:52.194 D/BleProximity: 🎫 Session 已获取: true
+02-26 23:44:52.194 D/BleProximity: ✅ 服务启动时，设备已处于连接状态
+02-26 23:44:52.196 D/BleProximity: ✅ 屏幕状态监听已注册
+02-26 23:44:52.202 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-26 23:44:52.203 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:52.203 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:52.203 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:52.203 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6399SZ644783","appId":"Roewe","brandCode":"1","nonce":"C784DE4D1C3D472481EC96B9C0303537","timestamp":"1772120692202","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:52.203 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:52.212 D/MG_NET_LOG: ┌────── 响应结束 (200 / 1005ms) ──────
+02-26 23:44:52.213 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:52.213 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9fd71c51f27b1e","data":{"vehicle_position":{"satellites":7,"altitude":204,"gps_status":3,"latitude":"43.872520","update_time":1772110217000,"gps_time":1772120663000,"hdop":10,"longitude":"125.336080"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":0,"rear_right_tyre_pressure":288,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":4,"driving_range":748,"battery_pack_range":70,"power_mode":0,"engine_status":0,"exterior_temperature":-6,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":78,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":19629,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1240,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":296,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":268,"battery_pack_prc":561,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":0,"clstr_elec_rng_to_eptv":0,"fuel_range":748,"current_journey_id":1296,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772110216000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":268,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":940,"fuel_level_disp":7,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":1023,"localfront_left_seat_vent_level":null},"update_time":1772114737000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772110216000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-26 23:44:52.213 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:52.216 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 吉林省长春市南关区平泉路528号
+02-26 23:44:52.216 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-26 23:44:52.216 D/MGWidget: updateWidgetSynchronously called for ID: 32
+02-26 23:44:52.252 D/BleProximity: 📶 RSSI: -93
+02-26 23:44:52.252 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-26 23:44:52.555 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:52.555 D/BleProximity: 📊 正在收集信号样本: 2/5
+02-26 23:44:52.855 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:52.855 D/BleProximity: 📊 正在收集信号样本: 3/5
+02-26 23:44:53.052 D/MG_NET_LOG: ┌────── 响应结束 (200 / 1064ms) ──────
+02-26 23:44:53.053 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:53.054 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9fda25b393440e","data":{"vehicle_position":{"satellites":7,"altitude":204,"gps_status":3,"latitude":"43.872520","update_time":1772110217000,"gps_time":1772120663000,"hdop":10,"longitude":"125.336080"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":0,"rear_right_tyre_pressure":288,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":4,"driving_range":748,"battery_pack_range":70,"power_mode":0,"engine_status":0,"exterior_temperature":-6,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":78,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":19629,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1240,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":296,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":268,"battery_pack_prc":561,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":0,"clstr_elec_rng_to_eptv":0,"fuel_range":748,"current_journey_id":1296,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772110216000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":268,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":940,"fuel_level_disp":7,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":1023,"localfront_left_seat_vent_level":null},"update_time":1772114737000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772110216000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-26 23:44:53.054 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:53.059 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 吉林省长春市南关区平泉路528号
+02-26 23:44:53.059 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-26 23:44:53.060 D/MGWidget: updateWidgetSynchronously called for ID: 32
+02-26 23:44:53.156 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:53.157 D/BleProximity: 📊 正在收集信号样本: 4/5
+02-26 23:44:53.245 D/MG_NET_LOG: ┌────── 响应结束 (200 / 1040ms) ──────
+02-26 23:44:53.246 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:53.246 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9fdae763b0baf5","data":{"vehicle_position":{"satellites":7,"altitude":204,"gps_status":3,"latitude":"43.872520","update_time":1772110217000,"gps_time":1772120663000,"hdop":10,"longitude":"125.336080"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":0,"rear_right_tyre_pressure":288,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":4,"driving_range":748,"battery_pack_range":70,"power_mode":0,"engine_status":0,"exterior_temperature":-6,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":78,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":19629,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1240,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":296,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":268,"battery_pack_prc":561,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":0,"clstr_elec_rng_to_eptv":0,"fuel_range":748,"current_journey_id":1296,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772110216000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":268,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":940,"fuel_level_disp":7,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":1023,"localfront_left_seat_vent_level":null},"update_time":1772114737000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772110216000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-26 23:44:53.247 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:53.252 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 吉林省长春市南关区平泉路528号
+02-26 23:44:53.252 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-26 23:44:53.253 D/MGWidget: updateWidgetSynchronously called for ID: 32
+02-26 23:44:53.458 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:53.760 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:54.061 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:54.379 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:54.679 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:55.000 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:55.283 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:55.600 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:55.908 D/BleProximity: 📶 RSSI: -94
+02-26 23:44:56.208 D/BleProximity: 📶 RSSI: -93
+02-26 23:44:56.509 D/BleProximity: 📶 RSSI: -93
+02-26 23:44:56.812 D/BleProximity: 📶 RSSI: -93
+02-26 23:44:56.975 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:56.976 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:56.976 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:56.976 D/MG_NET_LOG: │ Params: data={"userId":"15100002159744","appId":"Roewe","brandCode":"1","nonce":"4700595B8BE049848758D3785CD16ED6","timestamp":"1772120696974","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:56.976 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:57.116 D/BleProximity: 📶 RSSI: -92
+02-26 23:44:57.146 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:57.148 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:57.148 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:57.148 D/MG_NET_LOG: │ Params: data={"userId":"15100002159744","appId":"Roewe","brandCode":"1","nonce":"2B9B2A2D0D3F4B20A324AB6A63D46344","timestamp":"1772120697143","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:57.148 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:57.414 D/BleProximity: 📶 RSSI: -92
+02-26 23:44:57.436 D/MG_NET_LOG: ┌────── 响应结束 (200 / 460ms) ──────
+02-26 23:44:57.437 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:57.437 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9fedccd0ae48aa","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":null,"secret_key":"5741774816616905","key_end_time":1774761678000,"key_start_time":1766985678000,"mobile":null,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":27215189,"owner_name":null,"owner_mobile":"15134422152","enable":true,"tbox_mac":"1CD38059C063","vin":"LSJWM6399SZ644783","aes_key":"1305299408587528","status":3}]}}
+02-26 23:44:57.437 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:57.449 D/MGWidget: onUpdate called for IDs: 32
+02-26 23:44:57.450 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+02-26 23:44:57.455 D/BleProximity: 🔧 初始化 BleProximityManager
+02-26 23:44:57.455 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+02-26 23:44:57.455 D/BleProximity: 🧹 清理资源...
+02-26 23:44:57.455 D/BleProximity: 🛑 停止服务
+02-26 23:44:57.456 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_36_1772120692194 (剩余: 0)
+02-26 23:44:57.456 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+02-26 23:44:57.456 D/BleProximity: ✅ Session 已释放
+02-26 23:44:57.457 D/BleProximity: ✅ 屏幕状态监听已注销
+02-26 23:44:57.459 D/BleProximity: ➖ 移除监听器: callback_36_1772120692193 
+02-26 23:44:57.459 D/BleProximity: ✅ 已移除回调: callback_36_1772120692193
+02-26 23:44:57.459 D/BleProximity: ✅ 资源清理完成
+02-26 23:44:57.459 D/BleProximity: ➕ 添加监听器: callback_37_1772120697459 (总数: 1)
+02-26 23:44:57.459 D/BleProximity: ✅ 初始化完成，回调ID: callback_37_1772120697459 ,DistanceMeters:-93.0
+02-26 23:44:57.459 D/BleProximity: 🚀 启动靠近解锁服务...
+02-26 23:44:57.460 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_37_1772120697460 (总数: 1)
+02-26 23:44:57.460 D/BleProximity: 🎫 Session 已获取: true
+02-26 23:44:57.460 D/BleProximity: ✅ 服务启动时，设备已处于连接状态
+02-26 23:44:57.461 D/BleProximity: ✅ 屏幕状态监听已注册
+02-26 23:44:57.464 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-26 23:44:57.465 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:57.465 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:57.465 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:57.466 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6399SZ644783","appId":"Roewe","brandCode":"1","nonce":"D0914B466BCD4BF0BE2FFC1294DF5573","timestamp":"1772120697465","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:57.466 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:57.574 D/MG_NET_LOG: ┌────── 响应结束 (200 / 427ms) ──────
+02-26 23:44:57.575 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:57.575 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9fee515bc95690","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":null,"secret_key":"5741774816616905","key_end_time":1774761678000,"key_start_time":1766985678000,"mobile":null,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":27215189,"owner_name":null,"owner_mobile":"15134422152","enable":true,"tbox_mac":"1CD38059C063","vin":"LSJWM6399SZ644783","aes_key":"1305299408587528","status":3}]}}
+02-26 23:44:57.576 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:57.587 D/MGWidget: onUpdate called for IDs: 32
+02-26 23:44:57.588 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+02-26 23:44:57.591 D/BleProximity: 🔧 初始化 BleProximityManager
+02-26 23:44:57.592 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+02-26 23:44:57.592 D/BleProximity: 🧹 清理资源...
+02-26 23:44:57.592 D/BleProximity: 🛑 停止服务
+02-26 23:44:57.592 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_37_1772120697460 (剩余: 0)
+02-26 23:44:57.592 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+02-26 23:44:57.592 D/BleProximity: ✅ Session 已释放
+02-26 23:44:57.593 D/BleProximity: ✅ 屏幕状态监听已注销
+02-26 23:44:57.594 D/BleProximity: ➖ 移除监听器: callback_37_1772120697459 
+02-26 23:44:57.594 D/BleProximity: ✅ 已移除回调: callback_37_1772120697459
+02-26 23:44:57.595 D/BleProximity: ✅ 资源清理完成
+02-26 23:44:57.595 D/BleProximity: ➕ 添加监听器: callback_38_1772120697595 (总数: 1)
+02-26 23:44:57.595 D/BleProximity: ✅ 初始化完成，回调ID: callback_38_1772120697595 ,DistanceMeters:-93.0
+02-26 23:44:57.595 D/BleProximity: 🚀 启动靠近解锁服务...
+02-26 23:44:57.595 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_38_1772120697595 (总数: 1)
+02-26 23:44:57.595 D/BleProximity: 🎫 Session 已获取: true
+02-26 23:44:57.595 D/BleProximity: ✅ 服务启动时，设备已处于连接状态
+02-26 23:44:57.597 D/BleProximity: ✅ 屏幕状态监听已注册
+02-26 23:44:57.598 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-26 23:44:57.600 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:57.601 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:57.601 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:57.601 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6399SZ644783","appId":"Roewe","brandCode":"1","nonce":"A17B14AB604E4F4C9E41C5EA0CF76C9B","timestamp":"1772120697598","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:57.601 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:57.713 D/BleProximity: 📶 RSSI: -92
+02-26 23:44:57.713 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-26 23:44:57.879 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:57.879 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:57.879 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:57.880 D/MG_NET_LOG: │ Params: data={"userId":"15100002159744","appId":"Roewe","brandCode":"1","nonce":"955BE058E218436F88C12D9F559FA05F","timestamp":"1772120697878","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:57.880 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:58.017 D/BleProximity: 📶 RSSI: -92
+02-26 23:44:58.017 D/BleProximity: 📊 正在收集信号样本: 2/5
+02-26 23:44:58.042 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:58.042 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:58.043 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:58.043 D/MG_NET_LOG: │ Params: data={"userId":"15100002159744","appId":"Roewe","brandCode":"1","nonce":"55F3B5D1B418408E93D5E88A28240DF6","timestamp":"1772120698040","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:58.043 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:58.288 D/MG_NET_LOG: ┌────── 响应结束 (200 / 408ms) ──────
+02-26 23:44:58.288 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:58.288 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9ff11d9d319bc6","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":null,"secret_key":"5741774816616905","key_end_time":1774761678000,"mobile":null,"key_start_time":1766985678000,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":27215189,"owner_name":null,"owner_mobile":"15134422152","enable":true,"tbox_mac":"1CD38059C063","vin":"LSJWM6399SZ644783","aes_key":"1305299408587528","status":3}]}}
+02-26 23:44:58.289 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:58.298 D/MGWidget: onUpdate called for IDs: 32
+02-26 23:44:58.299 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+02-26 23:44:58.300 D/BleProximity: 🔧 初始化 BleProximityManager
+02-26 23:44:58.300 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+02-26 23:44:58.300 D/BleProximity: 🧹 清理资源...
+02-26 23:44:58.300 D/BleProximity: 🛑 停止服务
+02-26 23:44:58.300 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_38_1772120697595 (剩余: 0)
+02-26 23:44:58.300 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+02-26 23:44:58.300 D/BleProximity: ✅ Session 已释放
+02-26 23:44:58.301 D/BleProximity: ✅ 屏幕状态监听已注销
+02-26 23:44:58.305 D/BleProximity: ➖ 移除监听器: callback_38_1772120697595 
+02-26 23:44:58.306 D/BleProximity: ✅ 已移除回调: callback_38_1772120697595
+02-26 23:44:58.306 D/BleProximity: ✅ 资源清理完成
+02-26 23:44:58.306 D/BleProximity: ➕ 添加监听器: callback_39_1772120698306 (总数: 1)
+02-26 23:44:58.306 D/BleProximity: ✅ 初始化完成，回调ID: callback_39_1772120698306 ,DistanceMeters:-93.0
+02-26 23:44:58.306 D/BleProximity: 🚀 启动靠近解锁服务...
+02-26 23:44:58.307 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_39_1772120698307 (总数: 1)
+02-26 23:44:58.307 D/BleProximity: 🎫 Session 已获取: true
+02-26 23:44:58.308 D/BleProximity: ✅ 服务启动时，设备已处于连接状态
+02-26 23:44:58.309 D/BleProximity: ✅ 屏幕状态监听已注册
+02-26 23:44:58.313 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-26 23:44:58.314 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:58.314 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:58.314 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:58.315 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6399SZ644783","appId":"Roewe","brandCode":"1","nonce":"07515495D23A44E1AFE787A7ADFB89E8","timestamp":"1772120698314","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:58.315 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:58.326 D/BleProximity: 📶 RSSI: -92
+02-26 23:44:58.326 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-26 23:44:58.352 D/MG_NET_LOG: ┌────── 响应结束 (200 / 885ms) ──────
+02-26 23:44:58.353 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:58.353 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9fef8082c8de56","data":{"vehicle_position":{"satellites":7,"altitude":204,"latitude":"43.872520","gps_status":3,"update_time":1772110217000,"gps_time":1772120663000,"hdop":10,"longitude":"125.336080"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":0,"rear_right_tyre_pressure":288,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":4,"driving_range":748,"battery_pack_range":70,"power_mode":0,"engine_status":0,"exterior_temperature":-6,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":78,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":19629,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1240,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":296,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":268,"battery_pack_prc":561,"interior_temperature_v":null,"steer_heat_failure_reason":0,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":0,"fuel_range":748,"current_journey_id":1296,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772110216000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":268,"vehicle_battery_prc":940,"battery_type":0,"fuel_level_disp":7,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":1023},"update_time":1772114737000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772110216000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-26 23:44:58.353 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:58.356 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 吉林省长春市南关区平泉路528号
+02-26 23:44:58.357 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-26 23:44:58.357 D/MGWidget: updateWidgetSynchronously called for ID: 32
+02-26 23:44:58.439 D/MG_NET_LOG: ┌────── 响应结束 (200 / 397ms) ──────
+02-26 23:44:58.440 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+02-26 23:44:58.440 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9ff1b5484414d9","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":null,"secret_key":"5741774816616905","key_end_time":1774761678000,"key_start_time":1766985678000,"mobile":null,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":27215189,"owner_name":null,"owner_mobile":"15134422152","enable":true,"tbox_mac":"1CD38059C063","vin":"LSJWM6399SZ644783","aes_key":"1305299408587528","status":3}]}}
+02-26 23:44:58.441 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:58.449 D/MGWidget: onUpdate called for IDs: 32
+02-26 23:44:58.449 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+02-26 23:44:58.451 D/BleProximity: 🔧 初始化 BleProximityManager
+02-26 23:44:58.451 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+02-26 23:44:58.451 D/BleProximity: 🧹 清理资源...
+02-26 23:44:58.451 D/BleProximity: 🛑 停止服务
+02-26 23:44:58.451 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_39_1772120698307 (剩余: 0)
+02-26 23:44:58.452 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+02-26 23:44:58.452 D/BleProximity: ✅ Session 已释放
+02-26 23:44:58.453 D/BleProximity: ✅ 屏幕状态监听已注销
+02-26 23:44:58.455 D/BleProximity: ➖ 移除监听器: callback_39_1772120698306 
+02-26 23:44:58.455 D/BleProximity: ✅ 已移除回调: callback_39_1772120698306
+02-26 23:44:58.455 D/BleProximity: ✅ 资源清理完成
+02-26 23:44:58.455 D/BleProximity: ➕ 添加监听器: callback_40_1772120698455 (总数: 1)
+02-26 23:44:58.455 D/BleProximity: ✅ 初始化完成，回调ID: callback_40_1772120698455 ,DistanceMeters:-93.0
+02-26 23:44:58.455 D/BleProximity: 🚀 启动靠近解锁服务...
+02-26 23:44:58.456 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_40_1772120698455 (总数: 1)
+02-26 23:44:58.456 D/BleProximity: 🎫 Session 已获取: true
+02-26 23:44:58.456 D/BleProximity: ✅ 服务启动时，设备已处于连接状态
+02-26 23:44:58.458 D/BleProximity: ✅ 屏幕状态监听已注册
+02-26 23:44:58.473 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-26 23:44:58.476 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:44:58.477 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:58.477 D/MG_NET_LOG: │ Method: POST
+02-26 23:44:58.477 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6399SZ644783","appId":"Roewe","brandCode":"1","nonce":"47B2394757B74AE290D4F5147C50DC53","timestamp":"1772120698474","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:44:58.477 D/MG_NET_LOG: └──────────────────────
+02-26 23:44:58.517 D/MG_NET_LOG: ┌────── 响应结束 (200 / 916ms) ──────
+02-26 23:44:58.517 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:58.518 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9ff006f393d36e","data":{"vehicle_position":{"satellites":7,"altitude":204,"latitude":"43.872520","gps_status":3,"update_time":1772110217000,"gps_time":1772120663000,"hdop":10,"longitude":"125.336080"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":0,"rear_right_tyre_pressure":288,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":4,"driving_range":748,"battery_pack_range":70,"power_mode":0,"engine_status":0,"exterior_temperature":-6,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":78,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":19629,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1240,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":296,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":268,"battery_pack_prc":561,"interior_temperature_v":null,"steer_heat_failure_reason":0,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":0,"fuel_range":748,"current_journey_id":1296,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772110216000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":268,"vehicle_battery_prc":940,"battery_type":0,"fuel_level_disp":7,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":1023},"update_time":1772114737000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772110216000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-26 23:44:58.519 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:58.524 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 吉林省长春市南关区平泉路528号
+02-26 23:44:58.525 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-26 23:44:58.525 D/MGWidget: updateWidgetSynchronously called for ID: 32
+02-26 23:44:58.625 D/BleProximity: 📶 RSSI: -92
+02-26 23:44:58.625 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-26 23:44:58.939 D/BleProximity: 📶 RSSI: -92
+02-26 23:44:58.939 D/BleProximity: 📊 正在收集信号样本: 2/5
+02-26 23:44:59.188 D/MG_NET_LOG: ┌────── 响应结束 (200 / 873ms) ──────
+02-26 23:44:59.189 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:59.190 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9ff2cb13eb5fcb","data":{"vehicle_position":{"satellites":7,"altitude":204,"gps_status":3,"latitude":"43.872520","update_time":1772110217000,"gps_time":1772120663000,"hdop":10,"longitude":"125.336080"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":0,"rear_right_tyre_pressure":288,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":4,"driving_range":748,"battery_pack_range":70,"power_mode":0,"engine_status":0,"exterior_temperature":-6,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":78,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":19629,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1240,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":296,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":268,"battery_pack_prc":561,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":0,"clstr_elec_rng_to_eptv":0,"fuel_range":748,"current_journey_id":1296,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772110216000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":268,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":940,"fuel_level_disp":7,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":1023,"localfront_left_seat_vent_level":null},"update_time":1772114737000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772110216000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-26 23:44:59.190 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:59.193 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 吉林省长春市南关区平泉路528号
+02-26 23:44:59.193 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-26 23:44:59.194 D/MGWidget: updateWidgetSynchronously called for ID: 32
+02-26 23:44:59.239 D/BleProximity: 📶 RSSI: -92
+02-26 23:44:59.240 D/BleProximity: 📊 正在收集信号样本: 3/5
+02-26 23:44:59.357 D/MG_NET_LOG: ┌────── 响应结束 (200 / 880ms) ──────
+02-26 23:44:59.358 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-26 23:44:59.359 D/MG_NET_LOG: │ Result: {"req_id":"19c9a9ff375e9f86f3","data":{"vehicle_position":{"satellites":7,"altitude":204,"gps_status":3,"latitude":"43.872520","update_time":1772110217000,"gps_time":1772120663000,"hdop":10,"longitude":"125.336080"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":0,"rear_right_tyre_pressure":288,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":4,"driving_range":748,"battery_pack_range":70,"power_mode":0,"engine_status":0,"exterior_temperature":-6,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":78,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":19629,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1240,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":296,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":268,"battery_pack_prc":561,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":0,"clstr_elec_rng_to_eptv":0,"fuel_range":748,"current_journey_id":1296,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772110216000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":268,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":940,"fuel_level_disp":7,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":1023,"localfront_left_seat_vent_level":null},"update_time":1772114737000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772110216000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-26 23:44:59.360 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:44:59.366 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 吉林省长春市南关区平泉路528号
+02-26 23:44:59.366 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-26 23:44:59.367 D/MGWidget: updateWidgetSynchronously called for ID: 32
+02-26 23:44:59.541 D/BleProximity: 📶 RSSI: -91
+02-26 23:44:59.542 D/BleProximity: 📊 正在收集信号样本: 4/5
+02-26 23:44:59.843 D/BleProximity: 📶 RSSI: -92
+02-26 23:44:59.844 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-26 23:44:59.844 D/BleProximity: 原因: 信号均值(-91) > 阈值(-93.0) 
+02-26 23:44:59.845 D/BleProximity: 📤 发送指令: 解锁车门
+02-26 23:45:00.036 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 313231643661326136653037
+02-26 23:45:00.037 D/BleProximity: 🔐 处理认证挑战: 313231643661326136653037
+02-26 23:45:00.158 D/BleProximity: 📶 RSSI: -92
+02-26 23:45:00.444 D/BleProximity: 📶 RSSI: -92
+02-26 23:45:00.746 D/BleProximity: 📶 RSSI: -92
+02-26 23:45:00.877 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+02-26 23:45:00.879 D/BleProximity: 解锁成功
+02-26 23:45:00.880 D/BleProximity: 📊 指令出队: 解锁车门 -> SUCCESS
+02-26 23:45:00.880 D/BleProximity: 🔓 解锁结果: SUCCESS
+02-26 23:45:00.881 D/BleProximity: 🔄 同步状态: 车辆已解锁
+02-26 23:45:00.884 D/BleProximity: 🔗 链式触发: 120秒打火
+02-26 23:45:01.049 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:01.050 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-26 23:45:01.350 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:01.351 D/BleProximity: 📊 正在收集信号样本: 2/5
+02-26 23:45:01.384 D/BleProximity: 📤 发送指令: 120秒打火
+02-26 23:45:01.639 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 376336323435633437313264
+02-26 23:45:01.640 D/BleProximity: 🔐 处理认证挑战: 376336323435633437313264
+02-26 23:45:01.645 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:01.645 D/BleProximity: 📊 正在收集信号样本: 3/5
+02-26 23:45:01.952 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:01.953 D/BleProximity: 📊 正在收集信号样本: 4/5
+02-26 23:45:02.253 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:02.557 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:02.859 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:03.159 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:03.464 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:03.765 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:04.067 D/BleProximity: 📶 RSSI: -96
+02-26 23:45:04.370 D/BleProximity: 📶 RSSI: -96
+02-26 23:45:04.387 D/BleProximity: ℹ️ 打火指令已发送（协议无成功返回值），默认视为成功
+02-26 23:45:04.387 D/BleProximity: 📊 指令出队: 120秒打火 -> SUCCESS
+02-26 23:45:04.670 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:04.972 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:05.273 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:05.573 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:05.876 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:06.175 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:06.483 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:06.780 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:07.082 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:07.384 D/BleProximity: 📶 RSSI: -96
+02-26 23:45:07.685 D/BleProximity: 📶 RSSI: -96
+02-26 23:45:07.987 D/BleProximity: 📶 RSSI: -96
+02-26 23:45:08.311 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:08.600 D/BleProximity: 📶 RSSI: -96
+02-26 23:45:08.902 D/BleProximity: 📶 RSSI: -96
+02-26 23:45:09.203 D/BleProximity: 📶 RSSI: -96
+02-26 23:45:09.506 D/BleProximity: 📶 RSSI: -96
+02-26 23:45:09.811 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:10.111 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:10.415 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:10.714 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:11.016 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:11.321 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:11.627 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:11.926 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:12.235 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:12.535 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:12.838 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:13.144 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:13.448 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:13.754 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:14.057 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:14.358 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:14.677 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:14.974 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:15.275 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:15.577 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:15.882 D/BleProximity: 📶 RSSI: -96
+02-26 23:45:16.189 D/BleProximity: 📶 RSSI: -96
+02-26 23:45:16.491 D/BleProximity: 📶 RSSI: -96
+02-26 23:45:16.796 D/BleProximity: 📶 RSSI: -96
+02-26 23:45:17.108 D/BleProximity: 📶 RSSI: -96
+02-26 23:45:17.424 D/BleProximity: 📶 RSSI: -96
+02-26 23:45:17.721 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:18.023 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:18.323 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:18.624 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:18.979 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:19.287 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:19.588 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:19.893 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:20.191 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:20.494 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:20.793 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:21.095 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:21.394 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:21.699 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:22.008 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:22.318 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:22.618 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:22.921 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:23.220 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:23.521 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:23.823 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:24.129 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:24.426 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:24.726 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:25.028 D/BleProximity: 📶 RSSI: -92
+02-26 23:45:25.338 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:25.649 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:25.959 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:26.266 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:26.580 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:26.930 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:27.225 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:27.541 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:27.852 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:27.879 D/ControlActivity: 联动触发：检测到上锁指令，正在启动后台关窗任务
+02-26 23:45:27.913 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:45:27.913 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken?token=35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC
+02-26 23:45:27.913 D/MG_NET_LOG: │ Method: GET
+02-26 23:45:27.914 D/MG_NET_LOG: │ Params: (无 Body 参数)
+02-26 23:45:27.914 D/MG_NET_LOG: └──────────────────────
+02-26 23:45:27.914 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:45:27.915 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken?token=35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC
+02-26 23:45:27.915 D/MG_NET_LOG: │ Method: GET
+02-26 23:45:27.915 D/MG_NET_LOG: │ Params: (无 Body 参数)
+02-26 23:45:27.916 D/MG_NET_LOG: └──────────────────────
+02-26 23:45:28.161 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:28.277 D/MG_NET_LOG: ┌────── 响应结束 (200 / 363ms) ──────
+02-26 23:45:28.278 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken?token=35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC
+02-26 23:45:28.279 D/MG_NET_LOG: │ Result: {"req_id":"19c9aa0665a130cb826","data":{"rav_code":"7Dn124"}}
+02-26 23:45:28.279 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:45:28.283 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:45:28.283 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+02-26 23:45:28.283 D/MG_NET_LOG: │ Method: POST
+02-26 23:45:28.284 D/MG_NET_LOG: │ Params: data={"pin":"81cc5d5ba7c020f0579f40188d420b81eb373505","vin":"LSJWM6399SZ644783","nonce":"8D3F8C9460E6BC2D7B300F739D0DD678","timestamp":"1772120728281","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:45:28.284 D/MG_NET_LOG: └──────────────────────
+02-26 23:45:28.289 D/MG_NET_LOG: ┌────── 响应结束 (200 / 374ms) ──────
+02-26 23:45:28.290 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken?token=35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC
+02-26 23:45:28.290 D/MG_NET_LOG: │ Result: {"req_id":"19c9aa06667dff8fd48","data":{"rav_code":"7Dn124"}}
+02-26 23:45:28.290 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:45:28.293 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:45:28.293 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+02-26 23:45:28.294 D/MG_NET_LOG: │ Method: POST
+02-26 23:45:28.295 D/MG_NET_LOG: │ Params: data={"pin":"81cc5d5ba7c020f0579f40188d420b81eb373505","vin":"LSJWM6399SZ644783","nonce":"1D8ECD494CAB75E30F825341EE88514A","timestamp":"1772120728292","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:45:28.296 D/MG_NET_LOG: └──────────────────────
+02-26 23:45:28.384 D/MG_NET_LOG: ┌────── 响应结束 (200 / 90ms) ──────
+02-26 23:45:28.384 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+02-26 23:45:28.384 D/MG_NET_LOG: │ Result: {"req_id":"19c9aa066b923afd823","err_resp":{"msg":"用户未登录无法获取deviceId","code":"14734","desc":"用户未登录无法获取deviceId"}}
+02-26 23:45:28.385 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:45:28.391 D/MG_NET_LOG: ┌────── 响应结束 (200 / 108ms) ──────
+02-26 23:45:28.391 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+02-26 23:45:28.392 D/MG_NET_LOG: │ Result: {"req_id":"19c9aa066a928dde553","data":{"isRight":"true","errorCode":null,"pvCode":"9024c1c7aee56976d940b2de606ebbb2","pinStatusList":[{"configStatus":-1,"configType":0,"userId":null,"deviceId":""},{"configStatus":-1,"configType":1,"userId":null,"deviceId":""}]}}
+02-26 23:45:28.392 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:45:28.396 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:45:28.396 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.1/requestCloseWindow
+02-26 23:45:28.397 D/MG_NET_LOG: │ Method: POST
+02-26 23:45:28.397 D/MG_NET_LOG: │ Params: data={"auth_type":"2","appId":"Roewe","vin":"LSJWM6399SZ644783","nonce":"F016CAED6F6617EA3EA6B57BEDEBBA8F","brandCode":"1","timestamp":"1772120728395","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC","auth_code":"9024c1c7aee56976d940b2de606ebbb2","target":"3","position":"null"}
+02-26 23:45:28.397 D/MG_NET_LOG: └──────────────────────
+02-26 23:45:28.471 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:28.538 D/MG_NET_LOG: ┌────── 响应结束 (200 / 141ms) ──────
+02-26 23:45:28.538 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.1/requestCloseWindow
+02-26 23:45:28.539 D/MG_NET_LOG: │ Result: {"req_id":"19c9aa0671df79f24ad","data":{"command_id":322541513}}
+02-26 23:45:28.539 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:45:28.541 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:45:28.541 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-26 23:45:28.541 D/MG_NET_LOG: │ Method: POST
+02-26 23:45:28.542 D/MG_NET_LOG: │ Params: data={"command_id":"322541513","appId":"Roewe","vin":"LSJWM6399SZ644783","nonce":"E4FB5D2508AE04221B69ABFEF3D32923","brandCode":"1","timestamp":"1772120728540","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:45:28.542 D/MG_NET_LOG: └──────────────────────
+02-26 23:45:28.621 D/MG_NET_LOG: ┌────── 响应结束 (200 / 79ms) ──────
+02-26 23:45:28.621 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-26 23:45:28.621 D/MG_NET_LOG: │ Result: {"req_id":"19c9aa067a747568016","data":{"command_result":0,"command_status":"99","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+02-26 23:45:28.621 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:45:28.780 D/BleProximity: 📶 RSSI: -96
+02-26 23:45:29.094 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:29.408 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:29.715 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:30.028 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:30.343 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:30.656 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:30.969 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:31.280 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:31.589 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:31.629 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:45:31.630 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-26 23:45:31.630 D/MG_NET_LOG: │ Method: POST
+02-26 23:45:31.631 D/MG_NET_LOG: │ Params: data={"command_id":"322541513","appId":"Roewe","vin":"LSJWM6399SZ644783","nonce":"70CD4C5C88B68C76FBE6448875D47453","brandCode":"1","timestamp":"1772120731627","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:45:31.631 D/MG_NET_LOG: └──────────────────────
+02-26 23:45:31.701 D/MG_NET_LOG: ┌────── 响应结束 (200 / 71ms) ──────
+02-26 23:45:31.702 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-26 23:45:31.702 D/MG_NET_LOG: │ Result: {"req_id":"19c9aa073b94716d063","data":{"command_result":1,"command_status":"02","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+02-26 23:45:31.702 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:45:31.903 D/BleProximity: 📶 RSSI: -92
+02-26 23:45:32.214 D/BleProximity: 📶 RSSI: -92
+02-26 23:45:32.523 D/BleProximity: 📶 RSSI: -92
+02-26 23:45:32.828 D/BleProximity: 📶 RSSI: -92
+02-26 23:45:33.135 D/BleProximity: 📶 RSSI: -92
+02-26 23:45:33.445 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:33.755 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:34.058 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:34.370 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:34.674 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:34.985 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:35.299 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:35.606 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:35.914 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:36.227 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:36.538 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:36.848 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:37.159 D/BleProximity: 📶 RSSI: -96
+02-26 23:45:37.468 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:37.772 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:38.076 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:38.377 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:38.678 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:38.984 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:39.297 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:39.608 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:39.901 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:40.204 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:40.506 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:40.802 D/BleProximity: 📶 RSSI: -92
+02-26 23:45:41.106 D/BleProximity: 📶 RSSI: -92
+02-26 23:45:41.409 D/BleProximity: 📶 RSSI: -92
+02-26 23:45:41.714 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:42.017 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:42.315 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:42.616 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:42.927 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:43.237 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:43.543 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:43.853 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:44.161 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:44.476 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:44.785 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:45.102 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:45.406 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:45.435 D/ControlActivity: 联动触发：检测到上锁指令，正在启动后台关窗任务
+02-26 23:45:45.462 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:45:45.463 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken?token=35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC
+02-26 23:45:45.463 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:45:45.463 D/MG_NET_LOG: │ Method: GET
+02-26 23:45:45.463 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken?token=35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC
+02-26 23:45:45.464 D/MG_NET_LOG: │ Params: (无 Body 参数)
+02-26 23:45:45.464 D/MG_NET_LOG: └──────────────────────
+02-26 23:45:45.464 D/MG_NET_LOG: │ Method: GET
+02-26 23:45:45.465 D/MG_NET_LOG: │ Params: (无 Body 参数)
+02-26 23:45:45.465 D/MG_NET_LOG: └──────────────────────
+02-26 23:45:45.717 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:45.897 D/MG_NET_LOG: ┌────── 响应结束 (200 / 434ms) ──────
+02-26 23:45:45.898 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken?token=35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC
+02-26 23:45:45.899 D/MG_NET_LOG: ┌────── 响应结束 (200 / 434ms) ──────
+02-26 23:45:45.899 D/MG_NET_LOG: │ Result: {"req_id":"19c9aa0ab309f6cf0a2","data":{"rav_code":"K99B60"}}
+02-26 23:45:45.899 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken?token=35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC
+02-26 23:45:45.900 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:45:45.900 D/MG_NET_LOG: │ Result: {"req_id":"19c9aa0ab3096a5e760","data":{"rav_code":"K99B60"}}
+02-26 23:45:45.901 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:45:45.903 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:45:45.903 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:45:45.903 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+02-26 23:45:45.903 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+02-26 23:45:45.904 D/MG_NET_LOG: │ Method: POST
+02-26 23:45:45.904 D/MG_NET_LOG: │ Method: POST
+02-26 23:45:45.904 D/MG_NET_LOG: │ Params: data={"pin":"53199127972cb2bc0342ae2c84177a8400b2a65b","vin":"LSJWM6399SZ644783","nonce":"93779EFD1020F025E7EF41E09BDCFD6B","timestamp":"1772120745903","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:45:45.904 D/MG_NET_LOG: │ Params: data={"pin":"53199127972cb2bc0342ae2c84177a8400b2a65b","vin":"LSJWM6399SZ644783","nonce":"5E03584A8A935B14BD9B19C8B0251E5B","timestamp":"1772120745903","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:45:45.904 D/MG_NET_LOG: └──────────────────────
+02-26 23:45:45.904 D/MG_NET_LOG: └──────────────────────
+02-26 23:45:46.003 D/MG_NET_LOG: ┌────── 响应结束 (200 / 98ms) ──────
+02-26 23:45:46.004 D/MG_NET_LOG: ┌────── 响应结束 (200 / 98ms) ──────
+02-26 23:45:46.004 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+02-26 23:45:46.004 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+02-26 23:45:46.005 D/MG_NET_LOG: │ Result: {"req_id":"19c9aa0ab81fd9ad4f1","data":{"isRight":"true","errorCode":null,"pvCode":"5a77fcd90d589206c6a27a4c737a51ae","pinStatusList":[{"configStatus":-1,"configType":0,"userId":null,"deviceId":""},{"configStatus":-1,"configType":1,"userId":null,"deviceId":""}]}}
+02-26 23:45:46.005 D/MG_NET_LOG: │ Result: {"req_id":"19c9aa0ab8768db6d46","data":{"isRight":"true","errorCode":null,"pvCode":"273812df5eb460cedd80ab47cdc7f25d","pinStatusList":[{"configStatus":-1,"configType":0,"userId":null,"deviceId":""},{"configStatus":-1,"configType":1,"userId":null,"deviceId":""}]}}
+02-26 23:45:46.005 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:45:46.006 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:45:46.010 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:45:46.011 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.1/requestLock
+02-26 23:45:46.011 D/MG_NET_LOG: │ Method: POST
+02-26 23:45:46.011 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:45:46.012 D/MG_NET_LOG: │ Params: data={"auth_type":"2","appId":"Roewe","vin":"LSJWM6399SZ644783","nonce":"3B4FB94D37E25E93C8B46AFEF031D844","brandCode":"1","timestamp":"1772120746009","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC","auth_code":"5a77fcd90d589206c6a27a4c737a51ae"}
+02-26 23:45:46.012 D/MG_NET_LOG: └──────────────────────
+02-26 23:45:46.012 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.1/requestCloseWindow
+02-26 23:45:46.012 D/MG_NET_LOG: │ Method: POST
+02-26 23:45:46.013 D/MG_NET_LOG: │ Params: data={"auth_type":"2","appId":"Roewe","vin":"LSJWM6399SZ644783","nonce":"B4DEAEFF89E2EE9CDCE870581FF5FEB9","brandCode":"1","timestamp":"1772120746008","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC","auth_code":"273812df5eb460cedd80ab47cdc7f25d","target":"3","position":"null"}
+02-26 23:45:46.013 D/MG_NET_LOG: └──────────────────────
+02-26 23:45:46.024 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:46.100 D/MG_NET_LOG: ┌────── 响应结束 (200 / 88ms) ──────
+02-26 23:45:46.101 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.1/requestCloseWindow
+02-26 23:45:46.101 D/MG_NET_LOG: │ Result: {"req_id":"19c9aa0abf278480ee0","err_resp":{"msg":"请勿频繁操作","code":"15006","desc":"请勿频繁操作"}}
+02-26 23:45:46.101 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:45:46.116 D/MG_NET_LOG: ┌────── 响应结束 (200 / 103ms) ──────
+02-26 23:45:46.116 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.1/requestLock
+02-26 23:45:46.117 D/MG_NET_LOG: │ Result: {"req_id":"19c9aa0abed79216745","data":{"command_id":322541525}}
+02-26 23:45:46.117 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:45:46.121 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:45:46.121 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-26 23:45:46.122 D/MG_NET_LOG: │ Method: POST
+02-26 23:45:46.122 D/MG_NET_LOG: │ Params: data={"command_id":"322541525","appId":"Roewe","vin":"LSJWM6399SZ644783","nonce":"B24A918E031BB826D593CFA271361B11","brandCode":"1","timestamp":"1772120746120","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:45:46.123 D/MG_NET_LOG: └──────────────────────
+02-26 23:45:46.203 D/MG_NET_LOG: ┌────── 响应结束 (200 / 81ms) ──────
+02-26 23:45:46.204 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-26 23:45:46.205 D/MG_NET_LOG: │ Result: {"req_id":"19c9aa0ac5a386e897b","data":{"command_result":0,"command_status":"99","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+02-26 23:45:46.206 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:45:46.334 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:46.651 D/BleProximity: 📶 RSSI: -95
+02-26 23:45:46.955 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:47.268 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:47.582 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:47.889 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:48.198 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:48.510 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:48.824 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:49.131 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:49.218 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-26 23:45:49.218 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-26 23:45:49.219 D/MG_NET_LOG: │ Method: POST
+02-26 23:45:49.219 D/MG_NET_LOG: │ Params: data={"command_id":"322541525","appId":"Roewe","vin":"LSJWM6399SZ644783","nonce":"07BF7A6E2FC5AE6B9F806A955CCEFD2A","brandCode":"1","timestamp":"1772120749217","token":"35bbc6108f534ff9be5eedf72ea5b838-prod_SAIC"}
+02-26 23:45:49.219 D/MG_NET_LOG: └──────────────────────
+02-26 23:45:49.298 D/MG_NET_LOG: ┌────── 响应结束 (200 / 79ms) ──────
+02-26 23:45:49.298 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-26 23:45:49.298 D/MG_NET_LOG: │ Result: {"req_id":"19c9aa0b87869e99ccd","data":{"command_result":1,"command_status":"02","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+02-26 23:45:49.298 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-26 23:45:49.435 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:49.746 D/BleProximity: 📶 RSSI: -92
+02-26 23:45:50.051 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:50.356 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:50.667 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:50.976 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:51.288 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:51.596 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:51.900 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:52.206 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:52.518 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:52.832 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:53.144 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:53.455 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:53.770 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:54.070 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:54.376 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:54.677 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:54.980 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:55.282 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:55.579 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:55.887 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:56.182 D/BleProximity: 📶 RSSI: -93
+02-26 23:45:56.491 D/BleProximity: 📶 RSSI: -94
+02-26 23:45:56.793 D/BleProximity: 📶 RSSI: -95
