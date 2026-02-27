@@ -1,0 +1,364 @@
+--- Log Capture Start: 20260227_094842 ---
+02-27 09:35:13.806 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:35:13.806 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-27 09:35:13.808 D/MG_NET_LOG: │ Method: POST
+02-27 09:35:13.809 D/MG_NET_LOG: │ Header: app-type: mgapp
+02-27 09:35:13.809 D/MG_NET_LOG: │ Header: timestamp: 1772156113804
+02-27 09:35:13.811 D/MG_NET_LOG: │ Header: sign: Jga1wPTILr+qaknyxSrk+IeHLpSEWIKunzXg/Zn3u+Y=
+02-27 09:35:13.813 D/MG_NET_LOG: │ Params: data={"vin":"LSJWJ4U64PZ281592","appId":"MG","brandCode":"2","nonce":"BD1C5ED9C3E9886E7F9AB5E1D9BAB845","timestamp":"1772156113801","token":"bf200317f93947d588a328eef620b557-prod_SAIC"}
+02-27 09:35:13.814 D/MG_NET_LOG: └──────────────────────
+02-27 09:35:13.861 D/ControlActivity: ➕ 添加监听器: callback_1_1772156113861 (总数: 1)
+02-27 09:35:14.506 D/ControlActivity: 联动触发：检测到上锁指令，正在启动后台关窗任务
+02-27 09:35:14.553 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:35:14.553 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:35:14.553 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken
+02-27 09:35:14.554 D/MG_NET_LOG: │ Method: POST
+02-27 09:35:14.555 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken
+02-27 09:35:14.555 D/MG_NET_LOG: │ Header: app-type: mgapp
+02-27 09:35:14.556 D/MG_NET_LOG: │ Header: timestamp: 1772156114552
+02-27 09:35:14.556 D/MG_NET_LOG: │ Method: POST
+02-27 09:35:14.557 D/MG_NET_LOG: │ Header: sign: GscLBHRNcMfQN/sfG/BN7y/BFBUUWj1epF7G7r0BJJg=
+02-27 09:35:14.558 D/MG_NET_LOG: │ Params: data={"token":"bf200317f93947d588a328eef620b557-prod_SAIC"}
+02-27 09:35:14.559 D/MG_NET_LOG: └──────────────────────
+02-27 09:35:14.557 D/MG_NET_LOG: │ Header: app-type: mgapp
+02-27 09:35:14.562 D/MG_NET_LOG: │ Header: timestamp: 1772156114552
+02-27 09:35:14.563 D/MG_NET_LOG: │ Header: sign: GscLBHRNcMfQN/sfG/BN7y/BFBUUWj1epF7G7r0BJJg=
+02-27 09:35:14.564 D/MG_NET_LOG: │ Params: data={"token":"bf200317f93947d588a328eef620b557-prod_SAIC"}
+02-27 09:35:14.565 D/MG_NET_LOG: └──────────────────────
+02-27 09:35:14.658 D/MG_NET_LOG: ┌────── 响应结束 (200 / 104ms) ──────
+02-27 09:35:14.659 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken
+02-27 09:35:14.659 D/MG_NET_LOG: │ Result: {"req_id":"19c9cbc590458392af2","data":{"rav_code":"1EfL5u"}}
+02-27 09:35:14.660 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:35:14.668 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:35:14.668 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+02-27 09:35:14.670 D/MG_NET_LOG: │ Method: POST
+02-27 09:35:14.672 D/MG_NET_LOG: │ Header: app-type: mgapp
+02-27 09:35:14.673 D/MG_NET_LOG: │ Header: timestamp: 1772156114667
+02-27 09:35:14.673 D/MG_NET_LOG: │ Header: sign: cTIt8f0ihNT+l/RsUYgKX/drl0RcRzVtSIBlZ2Pa12s=
+02-27 09:35:14.674 D/MG_NET_LOG: │ Params: data={"pin":"33551b3fd03315904a150e6a71c1881f143ac25b","vin":"LSJWJ4U64PZ281592","nonce":"1F96751EB527F1174E9DEF0BC2AC3940","timestamp":"1772156114664","token":"bf200317f93947d588a328eef620b557-prod_SAIC"}
+02-27 09:35:14.675 D/MG_NET_LOG: └──────────────────────
+02-27 09:35:14.724 D/MG_NET_LOG: ┌────── 响应结束 (200 / 170ms) ──────
+02-27 09:35:14.725 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken
+02-27 09:35:14.727 D/MG_NET_LOG: │ Result: {"req_id":"19c9cbc5945b38a12ed","data":{"rav_code":"1EfL5u"}}
+02-27 09:35:14.730 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:35:14.735 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:35:14.735 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+02-27 09:35:14.736 D/MG_NET_LOG: │ Method: POST
+02-27 09:35:14.738 D/MG_NET_LOG: │ Header: app-type: mgapp
+02-27 09:35:14.740 D/MG_NET_LOG: │ Header: timestamp: 1772156114734
+02-27 09:35:14.741 D/MG_NET_LOG: │ Header: sign: MHVIjMJEUKWD2wtlv9wQ5+ZkLoxcRYjgAgy40wbFrZo=
+02-27 09:35:14.744 D/MG_NET_LOG: │ Params: data={"pin":"33551b3fd03315904a150e6a71c1881f143ac25b","vin":"LSJWJ4U64PZ281592","nonce":"38F1B5C23DE01FB8BFCD9BB6DE5AFA67","timestamp":"1772156114732","token":"bf200317f93947d588a328eef620b557-prod_SAIC"}
+02-27 09:35:14.745 D/MG_NET_LOG: └──────────────────────
+02-27 09:35:14.793 D/MG_NET_LOG: ┌────── 响应结束 (200 / 987ms) ──────
+02-27 09:35:14.794 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-27 09:35:14.794 D/MG_NET_LOG: │ Result: {"req_id":"19c9cbc56397610a60","data":{"vehicle_position":{"satellites":8,"altitude":517,"latitude":"30.676150","gps_status":2,"update_time":1771758596000,"gps_time":1771827111000,"hdop":10,"longitude":"103.886816"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":0,"battery_pack_range":0,"power_mode":0,"engine_status":0,"exterior_temperature":15,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":42,"localfront_left_seat_heat_level":null,"interior_pm25":506,"odometer":32378,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1230,"chrgng_rmnng_time_v":null,"exterior_pm25":508,"front_left_tyre_pressure":260,"charge_status":0,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":252,"battery_pack_prc":0,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":0,"current_journey_id":0,"pwr_lftgt_pos_v":null,"interior_temperature":15,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772154576000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":256,"vehicle_battery_prc":728,"battery_type":0,"fuel_level_disp":4,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1772154576000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":true,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772154576000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-27 09:35:14.796 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:35:14.870 D/MG_NET_LOG: ┌────── 响应结束 (200 / 201ms) ──────
+02-27 09:35:14.871 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+02-27 09:35:14.873 D/MG_NET_LOG: │ Result: {"req_id":"19c9cbc599cfafd921f","data":{"isRight":"true","errorCode":null,"pvCode":"c9e798f00d21a9e75c7900ea327cbbb2","pinStatusList":[{"configStatus":-1,"configType":0,"userId":null,"deviceId":""},{"configStatus":-1,"configType":1,"userId":null,"deviceId":""}]}}
+02-27 09:35:14.875 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:35:14.885 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:35:14.885 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.1/requestCloseWindow
+02-27 09:35:14.886 D/MG_NET_LOG: │ Method: POST
+02-27 09:35:14.887 D/MG_NET_LOG: │ Header: app-type: mgapp
+02-27 09:35:14.888 D/MG_NET_LOG: │ Header: timestamp: 1772156114884
+02-27 09:35:14.888 D/MG_NET_LOG: │ Header: sign: myyFaJnfTekAASJ9G5mfpSw1K6-p2ipu-M6zOXYlrpM
+02-27 09:35:14.889 D/MG_NET_LOG: │ Params: data={"auth_type":"2","appId":"MG","vin":"LSJWJ4U64PZ281592","nonce":"FACFA4E170CB314C2BC13AD6BD21EE76","brandCode":"2","timestamp":"1772156114880","token":"bf200317f93947d588a328eef620b557-prod_SAIC","auth_code":"c9e798f00d21a9e75c7900ea327cbbb2","target":"3","position":"null"}
+02-27 09:35:14.891 D/MG_NET_LOG: └──────────────────────
+02-27 09:35:14.940 D/MG_NET_LOG: ┌────── 响应结束 (200 / 204ms) ──────
+02-27 09:35:14.941 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+02-27 09:35:14.943 D/MG_NET_LOG: │ Result: {"req_id":"19c9cbc59ebda954259","err_resp":{"msg":"用户未登录无法获取deviceId","code":"14734","desc":"用户未登录无法获取deviceId"}}
+02-27 09:35:14.945 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:35:15.048 D/MG_NET_LOG: ┌────── 响应结束 (200 / 162ms) ──────
+02-27 09:35:15.049 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.1/requestCloseWindow
+02-27 09:35:15.050 D/MG_NET_LOG: │ Result: {"req_id":"19c9cbc5a61f2637b70","data":{"command_id":322580623}}
+02-27 09:35:15.050 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:35:15.061 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:35:15.062 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-27 09:35:15.063 D/MG_NET_LOG: │ Method: POST
+02-27 09:35:15.064 D/MG_NET_LOG: │ Header: app-type: mgapp
+02-27 09:35:15.065 D/MG_NET_LOG: │ Header: timestamp: 1772156115060
+02-27 09:35:15.065 D/MG_NET_LOG: │ Header: sign: qQS4mEwCw1RAxYdwrqSijQnHSai5inQyPh4tUiUu-dw
+02-27 09:35:15.066 D/MG_NET_LOG: │ Params: data={"command_id":"322580623","appId":"MG","vin":"LSJWJ4U64PZ281592","nonce":"C5514AF3975920C2E00075FA6B77DE3D","brandCode":"2","timestamp":"1772156115057","token":"bf200317f93947d588a328eef620b557-prod_SAIC"}
+02-27 09:35:15.066 D/MG_NET_LOG: └──────────────────────
+02-27 09:35:15.104 D/ControlActivity: ➖ 移除监听器: callback_1_1772156113861 
+02-27 09:35:15.138 D/MG_NET_LOG: ┌────── 响应结束 (200 / 77ms) ──────
+02-27 09:35:15.139 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-27 09:35:15.139 D/MG_NET_LOG: │ Result: {"req_id":"19c9cbc5ae4e2c8969","data":{"command_result":0,"command_status":"99","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+02-27 09:35:15.140 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:35:18.155 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:35:18.158 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-27 09:35:18.160 D/MG_NET_LOG: │ Method: POST
+02-27 09:35:18.161 D/MG_NET_LOG: │ Header: app-type: mgapp
+02-27 09:35:18.162 D/MG_NET_LOG: │ Header: timestamp: 1772156118150
+02-27 09:35:18.163 D/MG_NET_LOG: │ Header: sign: ulIHvF3ACHoIxwqCjREsqnwssh_5Fiq0gUSGL_6cRQA
+02-27 09:35:18.165 D/MG_NET_LOG: │ Params: data={"command_id":"322580623","appId":"MG","vin":"LSJWJ4U64PZ281592","nonce":"23F6563F6FE08AA2A669720606B66BAC","brandCode":"2","timestamp":"1772156118146","token":"bf200317f93947d588a328eef620b557-prod_SAIC"}
+02-27 09:35:18.168 D/MG_NET_LOG: └──────────────────────
+02-27 09:35:18.276 D/MG_NET_LOG: ┌────── 响应结束 (200 / 119ms) ──────
+02-27 09:35:18.285 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-27 09:35:18.288 D/MG_NET_LOG: │ Result: {"req_id":"19c9cbc670fe161c42c","data":{"command_result":0,"command_status":"01","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+02-27 09:35:18.291 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:35:18.529 D/MGWidget: onReceive called with action: com.my.mg.ACTION_REFRESH
+02-27 09:35:18.576 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-27 09:35:18.584 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:35:18.585 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-27 09:35:18.586 D/MG_NET_LOG: │ Method: POST
+02-27 09:35:18.587 D/MG_NET_LOG: │ Header: app-type: mgapp
+02-27 09:35:18.589 D/MG_NET_LOG: │ Header: timestamp: 1772156118583
+02-27 09:35:18.589 D/MG_NET_LOG: │ Header: sign: b2SWYdU2eV1zueppk8iNPjz/VchZjz+eHyxUJ8o6STc=
+02-27 09:35:18.592 D/MG_NET_LOG: │ Params: data={"vin":"LSJWJ4U64PZ281592","appId":"MG","brandCode":"2","nonce":"54E317D5E5A55E9C07A1E879013D8381","timestamp":"1772156118580","token":"bf200317f93947d588a328eef620b557-prod_SAIC"}
+02-27 09:35:18.593 D/MG_NET_LOG: └──────────────────────
+02-27 09:35:19.351 D/MG_NET_LOG: ┌────── 响应结束 (200 / 764ms) ──────
+02-27 09:35:19.354 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-27 09:35:19.357 D/MG_NET_LOG: │ Result: {"req_id":"19c9cbc68c4974e5953","data":{"vehicle_position":{"satellites":8,"altitude":517,"latitude":"30.676150","gps_status":2,"update_time":1771758596000,"gps_time":1771827111000,"hdop":10,"longitude":"103.886816"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":3,"driving_range":398,"battery_pack_range":0,"power_mode":0,"engine_status":0,"exterior_temperature":0,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":42,"localfront_left_seat_heat_level":null,"interior_pm25":508,"odometer":32378,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1220,"chrgng_rmnng_time_v":null,"exterior_pm25":508,"front_left_tyre_pressure":260,"charge_status":0,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":252,"battery_pack_prc":0,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":398,"current_journey_id":0,"pwr_lftgt_pos_v":null,"interior_temperature":null,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772156115000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":256,"vehicle_battery_prc":700,"battery_type":0,"fuel_level_disp":4,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1772156115000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772156115000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-27 09:35:19.360 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:35:19.378 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 四川省成都市温江区鹏程路1523号合能·珍宝琥珀
+02-27 09:35:19.381 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-27 09:35:19.383 D/MGWidget: updateWidgetSynchronously called for ID: 5403
+02-27 09:35:20.238 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:35:20.238 D/MG_NET_LOG: │ URL: https://gitee.com/api/v5/repos/yangyachao-X/mg-linker/releases/latest
+02-27 09:35:20.239 D/MG_NET_LOG: │ Method: GET
+02-27 09:35:20.243 D/MG_NET_LOG: │ Header: Authorization: token 387f0d958834d479dcdc778fcf2ae326
+02-27 09:35:20.243 D/MG_NET_LOG: │ Params: (无 Body 参数)
+02-27 09:35:20.244 D/MG_NET_LOG: └──────────────────────
+02-27 09:35:20.416 D/MG_NET_LOG: ┌────── 响应结束 (200 / 178ms) ──────
+02-27 09:35:20.417 D/MG_NET_LOG: │ URL: https://gitee.com/api/v5/repos/yangyachao-X/mg-linker/releases/latest
+02-27 09:35:20.417 D/MG_NET_LOG: │ Result: {"id":582030,"tag_name":"6.0","target_commitish":"9e552bfa50e87b8a69d730f52ced6a4848e8db8b","prerelease":false,"name":"界面/代码重构","body":"1.界面/代码重构\r\n2.修复离开上锁bug","author":{"id":8784824,"login":"yangyachao-X","name":"YangYachao","avatar_url":"https://foruda.gitee.com/avatar/1677149462712290355/8784824_yangyachao-x_1645510740.png","url":"https://gitee.com/api/v5/users/yangyachao-X","html_url":"https://gitee.com/yangyachao-X","remark":"","followers_url":"https://gitee.com/api/v5/users/yangyachao-X/followers","following_url":"https://gitee.com/api/v5/users/yangyachao-X/following_url{/other_user}","gists_url":"https://gitee.com/api/v5/users/yangyachao-X/gists{/gist_id}","starred_url":"https://gitee.com/api/v5/users/yangyachao-X/starred{/owner}{/repo}","subscriptions_url":"https://gitee.com/api/v5/users/yangyachao-X/subscriptions","organizations_url":"https://gitee.com/api/v5/users/yangyachao-X/orgs","repos_url":"https://gitee.com/api/v5/users/yangyachao-X/repos","events_url":"https://gitee.com/api/v5/users/yangyachao-X/events{/privacy}","received_events_url":"https://gitee.com/api/v5/users/yangyachao-X/received_events","type":"User"},"created_at":"2026-02-26T17:50:56+08:00","assets":[{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/releases/download/6.0/MG%20Linker.apk","name":"MG Linker.apk"},{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/archive/refs/tags/6.0.zip","name":"6.0.zip"},{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/archive/refs/tags/6.0.tar.gz","name":"6.0.tar.gz"}]}
+02-27 09:35:20.418 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:35:21.306 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:35:21.307 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-27 09:35:21.308 D/MG_NET_LOG: │ Method: POST
+02-27 09:35:21.309 D/MG_NET_LOG: │ Header: app-type: mgapp
+02-27 09:35:21.310 D/MG_NET_LOG: │ Header: timestamp: 1772156121305
+02-27 09:35:21.311 D/MG_NET_LOG: │ Header: sign: JZ58Ioo71QfWa_r9EoxKqvcGMSd3_bsM3sQQ-dW-INk
+02-27 09:35:21.313 D/MG_NET_LOG: │ Params: data={"command_id":"322580623","appId":"MG","vin":"LSJWJ4U64PZ281592","nonce":"91143FA248D9BCF530B9CD3A58A448CE","brandCode":"2","timestamp":"1772156121300","token":"bf200317f93947d588a328eef620b557-prod_SAIC"}
+02-27 09:35:21.314 D/MG_NET_LOG: └──────────────────────
+02-27 09:35:21.413 D/MG_NET_LOG: ┌────── 响应结束 (200 / 104ms) ──────
+02-27 09:35:21.414 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-27 09:35:21.415 D/MG_NET_LOG: │ Result: {"req_id":"19c9cbc7366686e79e4","data":{"command_result":2,"command_status":"03","command_result_switch":true,"failure_type":255,"failure_msg":"该远程指令无效"}}
+02-27 09:35:21.416 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:35:29.356 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-27 09:35:29.361 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:35:29.362 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-27 09:35:29.363 D/MG_NET_LOG: │ Method: POST
+02-27 09:35:29.364 D/MG_NET_LOG: │ Header: app-type: mgapp
+02-27 09:35:29.365 D/MG_NET_LOG: │ Header: timestamp: 1772156129360
+02-27 09:35:29.366 D/MG_NET_LOG: │ Header: sign: yHFsZld8fLbbUPOHTQ3ea5mlSX75NrU0GqJ8+peYJTc=
+02-27 09:35:29.367 D/MG_NET_LOG: │ Params: data={"vin":"LSJWJ4U64PZ281592","appId":"MG","brandCode":"2","nonce":"4EC70A800331C3839903741B895D0519","timestamp":"1772156129358","token":"bf200317f93947d588a328eef620b557-prod_SAIC"}
+02-27 09:35:29.368 D/MG_NET_LOG: └──────────────────────
+02-27 09:35:30.414 D/MG_NET_LOG: ┌────── 响应结束 (200 / 1052ms) ──────
+02-27 09:35:30.416 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-27 09:35:30.417 D/MG_NET_LOG: │ Result: {"req_id":"19c9cbc92dc7d418f6e","data":{"vehicle_position":{"satellites":8,"altitude":517,"latitude":"30.676150","gps_status":2,"update_time":1771758596000,"gps_time":1771827111000,"hdop":10,"longitude":"103.886816"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":398,"battery_pack_range":0,"power_mode":0,"engine_status":0,"exterior_temperature":15,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":42,"localfront_left_seat_heat_level":null,"interior_pm25":506,"odometer":32378,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1200,"chrgng_rmnng_time_v":null,"exterior_pm25":508,"front_left_tyre_pressure":260,"charge_status":0,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":252,"battery_pack_prc":0,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":398,"current_journey_id":0,"pwr_lftgt_pos_v":null,"interior_temperature":15,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772156115000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":256,"vehicle_battery_prc":728,"battery_type":0,"fuel_level_disp":4,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1772156115000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772156115000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-27 09:35:30.417 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:35:30.423 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 四川省成都市温江区鹏程路1523号合能·珍宝琥珀
+02-27 09:35:30.424 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-27 09:35:30.425 D/MGWidget: updateWidgetSynchronously called for ID: 5403
+02-27 09:39:07.237 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-27 09:39:07.241 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:39:07.242 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-27 09:39:07.243 D/MG_NET_LOG: │ Method: POST
+02-27 09:39:07.244 D/MG_NET_LOG: │ Header: app-type: mgapp
+02-27 09:39:07.245 D/MG_NET_LOG: │ Header: timestamp: 1772156347241
+02-27 09:39:07.246 D/MG_NET_LOG: │ Header: sign: N03X10lknBK0HG3+Xh2E0OjUpIR8taHz9xsPvV/jrnY=
+02-27 09:39:07.247 D/MG_NET_LOG: │ Params: data={"vin":"LSJWJ4U64PZ281592","appId":"MG","brandCode":"2","nonce":"9AB77D6AAB14BDB3FDC68ECB7B9981C2","timestamp":"1772156347239","token":"bf200317f93947d588a328eef620b557-prod_SAIC"}
+02-27 09:39:07.248 D/MG_NET_LOG: └──────────────────────
+02-27 09:39:08.468 D/MG_NET_LOG: ┌────── 响应结束 (200 / 1223ms) ──────
+02-27 09:39:08.472 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-27 09:39:08.475 D/MG_NET_LOG: │ Result: {"req_id":"19c9cbfe6f9107e91b4","data":{"vehicle_position":{"satellites":8,"altitude":517,"latitude":"30.676150","gps_status":2,"update_time":1771758596000,"gps_time":1771827111000,"hdop":10,"longitude":"103.886816"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":398,"battery_pack_range":0,"power_mode":0,"engine_status":0,"exterior_temperature":15,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":42,"localfront_left_seat_heat_level":null,"interior_pm25":506,"odometer":32378,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1200,"chrgng_rmnng_time_v":null,"exterior_pm25":508,"front_left_tyre_pressure":260,"charge_status":0,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":252,"battery_pack_prc":0,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":398,"current_journey_id":0,"pwr_lftgt_pos_v":null,"interior_temperature":15,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772156115000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":256,"vehicle_battery_prc":728,"battery_type":0,"fuel_level_disp":4,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1772156115000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772156115000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-27 09:39:08.477 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:39:08.485 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 四川省成都市温江区鹏程路1523号合能·珍宝琥珀
+02-27 09:39:08.486 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-27 09:39:08.487 D/MGWidget: updateWidgetSynchronously called for ID: 5403
+02-27 09:45:50.914 D/MGWidget: onUpdate called for IDs: 5330
+02-27 09:45:50.915 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+02-27 09:45:50.924 D/MGWidget: onUpdate called for IDs: 5331
+02-27 09:45:50.925 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+02-27 09:45:50.930 D/MGWidget: onUpdate called for IDs: 4989
+02-27 09:45:50.931 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+02-27 09:45:50.940 D/MGWidget: onUpdate called for IDs: 4990
+02-27 09:45:50.941 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+02-27 09:45:50.999 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-27 09:45:51.001 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-27 09:45:51.002 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-27 09:45:51.005 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:45:51.005 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-27 09:45:51.006 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-27 09:45:51.009 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:45:51.009 D/MG_NET_LOG: │ Method: POST
+02-27 09:45:51.010 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-27 09:45:51.010 D/MG_NET_LOG: │ Method: POST
+02-27 09:45:51.011 D/MG_NET_LOG: │ Header: app-type: mgapp
+02-27 09:45:51.011 D/MG_NET_LOG: │ Header: app-type: mgapp
+02-27 09:45:51.012 D/MG_NET_LOG: │ Header: timestamp: 1772156751008
+02-27 09:45:51.013 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:45:51.013 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:45:51.013 D/MG_NET_LOG: │ Header: timestamp: 1772156751004
+02-27 09:45:51.013 D/MG_NET_LOG: │ Header: sign: WGtv7VKA2EdK25xRVlGDdQ8d4Dq18n2ovP6rfXAFS0Y=
+02-27 09:45:51.014 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-27 09:45:51.015 D/MG_NET_LOG: │ Method: POST
+02-27 09:45:51.015 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-27 09:45:51.016 D/MG_NET_LOG: │ Header: app-type: mgapp
+02-27 09:45:51.017 D/MG_NET_LOG: │ Header: timestamp: 1772156751010
+02-27 09:45:51.016 D/MG_NET_LOG: │ Header: sign: alj6L55ZwQ5oaaaYQbWShEOr6PEEswb2AIhSBtKYiR0=
+02-27 09:45:51.018 D/MG_NET_LOG: │ Header: sign: 4tqJEFNEow9RJeTLo/m1llV+f/gdkLRrjp+8uwtdZOs=
+02-27 09:45:51.018 D/MG_NET_LOG: │ Params: data={"vin":"LSJWJ4U64PZ281592","appId":"MG","brandCode":"2","nonce":"A61950B1D68E97C2D01212264E592817","timestamp":"1772156751007","token":"bf200317f93947d588a328eef620b557-prod_SAIC"}
+02-27 09:45:51.019 D/MG_NET_LOG: │ Params: data={"vin":"LSJWJ4U64PZ281592","appId":"MG","brandCode":"2","nonce":"F907834EEBDEBEFCA78DD7D75243A6DE","timestamp":"1772156751001","token":"bf200317f93947d588a328eef620b557-prod_SAIC"}
+02-27 09:45:51.019 D/MG_NET_LOG: └──────────────────────
+02-27 09:45:51.020 D/MG_NET_LOG: │ Method: POST
+02-27 09:45:51.021 D/MG_NET_LOG: │ Header: app-type: mgapp
+02-27 09:45:51.022 D/MG_NET_LOG: │ Header: timestamp: 1772156751013
+02-27 09:45:51.023 D/MG_NET_LOG: │ Header: sign: 1+FZ3/Q4NpvDRElo6SYt4CavUQbr1hH2WY0eCV3/Ezw=
+02-27 09:45:51.019 D/MG_NET_LOG: └──────────────────────
+02-27 09:45:51.024 D/MG_NET_LOG: │ Params: data={"vin":"LSJWJ4U64PZ281592","appId":"MG","brandCode":"2","nonce":"F4D14FA333BEE4CF4F31EE85625F18D9","timestamp":"1772156751003","token":"bf200317f93947d588a328eef620b557-prod_SAIC"}
+02-27 09:45:51.025 D/MG_NET_LOG: │ Params: data={"vin":"LSJWJ4U64PZ281592","appId":"MG","brandCode":"2","nonce":"AEE61CB9C191B9F22BA35F503E966CAB","timestamp":"1772156751005","token":"bf200317f93947d588a328eef620b557-prod_SAIC"}
+02-27 09:45:51.026 D/MG_NET_LOG: └──────────────────────
+02-27 09:45:51.026 D/MG_NET_LOG: └──────────────────────
+02-27 09:45:52.066 D/MG_NET_LOG: ┌────── 响应结束 (200 / 1059ms) ──────
+02-27 09:45:52.070 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-27 09:45:52.073 D/MG_NET_LOG: │ Result: {"req_id":"19c9cc610984eb33819","data":{"vehicle_position":{"satellites":8,"altitude":517,"latitude":"30.676150","gps_status":2,"update_time":1771758596000,"gps_time":1771827111000,"hdop":10,"longitude":"103.886816"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":398,"battery_pack_range":0,"power_mode":0,"engine_status":0,"exterior_temperature":15,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":42,"localfront_left_seat_heat_level":null,"interior_pm25":506,"odometer":32378,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1200,"chrgng_rmnng_time_v":null,"exterior_pm25":508,"front_left_tyre_pressure":260,"charge_status":0,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":252,"battery_pack_prc":0,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":398,"current_journey_id":0,"pwr_lftgt_pos_v":null,"interior_temperature":15,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772156115000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":256,"vehicle_battery_prc":728,"battery_type":0,"fuel_level_disp":4,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1772156115000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772156115000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-27 09:45:52.075 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:45:52.075 D/MG_NET_LOG: ┌────── 响应结束 (200 / 1063ms) ──────
+02-27 09:45:52.078 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-27 09:45:52.081 D/MG_NET_LOG: │ Result: {"req_id":"19c9cc6109778bc286e","data":{"vehicle_position":{"satellites":8,"altitude":517,"latitude":"30.676150","gps_status":2,"update_time":1771758596000,"gps_time":1771827111000,"hdop":10,"longitude":"103.886816"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":398,"battery_pack_range":0,"power_mode":0,"engine_status":0,"exterior_temperature":15,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":42,"localfront_left_seat_heat_level":null,"interior_pm25":506,"odometer":32378,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1200,"chrgng_rmnng_time_v":null,"exterior_pm25":508,"front_left_tyre_pressure":260,"charge_status":0,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":252,"battery_pack_prc":0,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":398,"current_journey_id":0,"pwr_lftgt_pos_v":null,"interior_temperature":15,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772156115000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":256,"vehicle_battery_prc":728,"battery_type":0,"fuel_level_disp":4,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1772156115000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772156115000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-27 09:45:52.082 D/MG_NET_LOG: ┌────── 响应结束 (200 / 1067ms) ──────
+02-27 09:45:52.084 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-27 09:45:52.084 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:45:52.086 D/MG_NET_LOG: │ Result: {"req_id":"19c9cc610d726fe1d1f","data":{"vehicle_position":{"satellites":8,"altitude":517,"latitude":"30.676150","gps_status":2,"update_time":1771758596000,"gps_time":1771827111000,"hdop":10,"longitude":"103.886816"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":398,"battery_pack_range":0,"power_mode":0,"engine_status":0,"exterior_temperature":15,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":42,"localfront_left_seat_heat_level":null,"interior_pm25":506,"odometer":32378,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1200,"chrgng_rmnng_time_v":null,"exterior_pm25":508,"front_left_tyre_pressure":260,"charge_status":0,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":252,"battery_pack_prc":0,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":398,"current_journey_id":0,"pwr_lftgt_pos_v":null,"interior_temperature":15,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772156115000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":256,"vehicle_battery_prc":728,"battery_type":0,"fuel_level_disp":4,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1772156115000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772156115000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-27 09:45:52.087 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:45:52.103 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 四川省成都市温江区鹏程路1523号合能·珍宝琥珀
+02-27 09:45:52.103 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 四川省成都市温江区鹏程路1523号合能·珍宝琥珀
+02-27 09:45:52.104 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 四川省成都市温江区鹏程路1523号合能·珍宝琥珀
+02-27 09:45:52.104 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-27 09:45:52.105 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-27 09:45:52.105 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-27 09:45:52.106 D/MGWidget: updateWidgetSynchronously called for ID: 5403
+02-27 09:45:52.106 D/MGWidget: updateWidgetSynchronously called for ID: 5403
+02-27 09:45:52.108 D/MGWidget: updateWidgetSynchronously called for ID: 5403
+02-27 09:45:52.238 D/MG_NET_LOG: ┌────── 响应结束 (200 / 1223ms) ──────
+02-27 09:45:52.241 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-27 09:45:52.242 D/MG_NET_LOG: │ Result: {"req_id":"19c9cc610d8230e58dd","data":{"vehicle_position":{"satellites":8,"altitude":517,"gps_status":2,"latitude":"30.676150","update_time":1771758596000,"gps_time":1771827111000,"hdop":10,"longitude":"103.886816"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"battery_pack_fault_status":null,"charge_door_position_status":null,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":398,"battery_pack_range":0,"power_mode":0,"engine_status":0,"exterior_temperature":15,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":42,"localfront_left_seat_heat_level":null,"interior_pm25":506,"odometer":32378,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1200,"chrgng_rmnng_time_v":null,"exterior_pm25":508,"front_left_tyre_pressure":260,"charge_status":0,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":252,"battery_pack_prc":0,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":398,"current_journey_id":0,"pwr_lftgt_pos_v":null,"interior_temperature":15,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772156115000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":256,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":728,"fuel_level_disp":4,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1772156115000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772156115000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-27 09:45:52.242 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:45:52.260 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 四川省成都市温江区鹏程路1523号合能·珍宝琥珀
+02-27 09:45:52.261 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-27 09:45:52.264 D/MGWidget: updateWidgetSynchronously called for ID: 5403
+02-27 09:47:40.255 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:47:40.257 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-27 09:47:40.258 D/MG_NET_LOG: │ Method: POST
+02-27 09:47:40.259 D/MG_NET_LOG: │ Header: app-type: mgapp
+02-27 09:47:40.259 D/MG_NET_LOG: │ Header: timestamp: 1772156860254
+02-27 09:47:40.260 D/MG_NET_LOG: │ Header: sign: 48+WzkmvNUxOfx/D2tWMYv8uFeY1GpadVDj9Lh/Q60c=
+02-27 09:47:40.264 D/MG_NET_LOG: │ Params: data={"vin":"LSJWJ4U64PZ281592","appId":"MG","brandCode":"2","nonce":"04B6CB05109500FC5DDF002F325E9045","timestamp":"1772156860253","token":"bf200317f93947d588a328eef620b557-prod_SAIC"}
+02-27 09:47:40.264 D/MG_NET_LOG: └──────────────────────
+02-27 09:47:40.279 D/ControlActivity: ➕ 添加监听器: callback_2_1772156860279 (总数: 1)
+02-27 09:47:41.106 D/ControlActivity: 联动触发：检测到上锁指令，正在启动后台关窗任务
+02-27 09:47:41.174 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:47:41.174 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:47:41.174 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken
+02-27 09:47:41.175 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken
+02-27 09:47:41.175 D/MG_NET_LOG: │ Method: POST
+02-27 09:47:41.176 D/MG_NET_LOG: │ Header: app-type: mgapp
+02-27 09:47:41.176 D/MG_NET_LOG: │ Method: POST
+02-27 09:47:41.177 D/MG_NET_LOG: │ Header: timestamp: 1772156861173
+02-27 09:47:41.177 D/MG_NET_LOG: │ Header: app-type: mgapp
+02-27 09:47:41.178 D/MG_NET_LOG: │ Header: sign: dPZXdfI5ano3s/kvBrt2UQv4TpjXRvXdXMpAz29AFv8=
+02-27 09:47:41.178 D/MG_NET_LOG: │ Params: data={"token":"bf200317f93947d588a328eef620b557-prod_SAIC"}
+02-27 09:47:41.178 D/MG_NET_LOG: │ Header: timestamp: 1772156861173
+02-27 09:47:41.179 D/MG_NET_LOG: │ Header: sign: dPZXdfI5ano3s/kvBrt2UQv4TpjXRvXdXMpAz29AFv8=
+02-27 09:47:41.179 D/MG_NET_LOG: └──────────────────────
+02-27 09:47:41.179 D/MG_NET_LOG: │ Params: data={"token":"bf200317f93947d588a328eef620b557-prod_SAIC"}
+02-27 09:47:41.180 D/MG_NET_LOG: └──────────────────────
+02-27 09:47:41.308 D/MG_NET_LOG: ┌────── 响应结束 (200 / 133ms) ──────
+02-27 09:47:41.309 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken
+02-27 09:47:41.312 D/MG_NET_LOG: │ Result: {"req_id":"19c9cc7bd984f3b822e","data":{"rav_code":"D5s0Fb"}}
+02-27 09:47:41.313 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:47:41.318 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:47:41.319 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+02-27 09:47:41.320 D/MG_NET_LOG: │ Method: POST
+02-27 09:47:41.321 D/MG_NET_LOG: │ Header: app-type: mgapp
+02-27 09:47:41.322 D/MG_NET_LOG: │ Header: timestamp: 1772156861318
+02-27 09:47:41.323 D/MG_NET_LOG: │ Header: sign: UAxae8V56hZ3oVFB7GEcRTom6/lVtH7gg8/Cbkna9RY=
+02-27 09:47:41.323 D/MG_NET_LOG: │ Params: data={"pin":"2f33dd7a4030ecf149ecfbfaf7689fe917ef70e4","vin":"LSJWJ4U64PZ281592","nonce":"A7A208E61B296900AFE3D48A1D3F83B5","timestamp":"1772156861316","token":"bf200317f93947d588a328eef620b557-prod_SAIC"}
+02-27 09:47:41.324 D/MG_NET_LOG: └──────────────────────
+02-27 09:47:41.384 D/MG_NET_LOG: ┌────── 响应结束 (200 / 210ms) ──────
+02-27 09:47:41.385 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken
+02-27 09:47:41.385 D/MG_NET_LOG: │ Result: {"req_id":"19c9cc7bde48a7ce272","data":{"rav_code":"D5s0Fb"}}
+02-27 09:47:41.386 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:47:41.394 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:47:41.395 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+02-27 09:47:41.396 D/MG_NET_LOG: │ Method: POST
+02-27 09:47:41.398 D/MG_NET_LOG: │ Header: app-type: mgapp
+02-27 09:47:41.399 D/MG_NET_LOG: │ Header: timestamp: 1772156861392
+02-27 09:47:41.401 D/MG_NET_LOG: │ Header: sign: GzxLRTUDvlPyABQleUEq8V7xsOi58b/1gGUr9mW+n1c=
+02-27 09:47:41.402 D/MG_NET_LOG: │ Params: data={"pin":"2f33dd7a4030ecf149ecfbfaf7689fe917ef70e4","vin":"LSJWJ4U64PZ281592","nonce":"A064A3D68CBC125C700859C9D98265E8","timestamp":"1772156861389","token":"bf200317f93947d588a328eef620b557-prod_SAIC"}
+02-27 09:47:41.403 D/MG_NET_LOG: └──────────────────────
+02-27 09:47:41.405 D/MG_NET_LOG: ┌────── 响应结束 (200 / 1149ms) ──────
+02-27 09:47:41.406 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-27 09:47:41.407 D/MG_NET_LOG: │ Result: {"req_id":"19c9cc7bb3d434a6fd4","data":{"vehicle_position":{"satellites":8,"altitude":517,"latitude":"30.676150","gps_status":2,"update_time":1771758596000,"gps_time":1771827111000,"hdop":10,"longitude":"103.886816"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":3,"driving_range":398,"battery_pack_range":0,"power_mode":0,"engine_status":0,"exterior_temperature":15,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":42,"localfront_left_seat_heat_level":null,"interior_pm25":506,"odometer":32378,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":122,"chrgng_rmnng_time_v":null,"exterior_pm25":508,"front_left_tyre_pressure":260,"charge_status":0,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":252,"battery_pack_prc":0,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":398,"current_journey_id":55,"pwr_lftgt_pos_v":null,"interior_temperature":15,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772156851000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":256,"vehicle_battery_prc":700,"battery_type":0,"fuel_level_disp":4,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1772156851000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772156851000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-27 09:47:41.408 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:47:41.524 D/MG_NET_LOG: ┌────── 响应结束 (200 / 204ms) ──────
+02-27 09:47:41.526 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+02-27 09:47:41.527 D/MG_NET_LOG: │ Result: {"req_id":"19c9cc7be361afa439","data":{"isRight":"true","errorCode":null,"pvCode":"a13470b0468139b8a48c58cd59f2b5e7","pinStatusList":[{"configStatus":-1,"configType":0,"userId":null,"deviceId":""},{"configStatus":-1,"configType":1,"userId":null,"deviceId":""}]}}
+02-27 09:47:41.528 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:47:41.538 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:47:41.539 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.1/requestLock
+02-27 09:47:41.540 D/MG_NET_LOG: │ Method: POST
+02-27 09:47:41.541 D/MG_NET_LOG: │ Header: app-type: mgapp
+02-27 09:47:41.541 D/MG_NET_LOG: │ Header: timestamp: 1772156861537
+02-27 09:47:41.542 D/MG_NET_LOG: │ Header: sign: qNm7ZU-3p5xGU4BgEbrKnM2YE_D-UDA5DbM-o_9DBAg
+02-27 09:47:41.543 D/MG_NET_LOG: │ Params: data={"auth_type":"2","appId":"MG","vin":"LSJWJ4U64PZ281592","nonce":"CBDD6084E9605C349212F23EC431B301","brandCode":"2","timestamp":"1772156861532","token":"bf200317f93947d588a328eef620b557-prod_SAIC","auth_code":"a13470b0468139b8a48c58cd59f2b5e7"}
+02-27 09:47:41.544 D/MG_NET_LOG: └──────────────────────
+02-27 09:47:41.589 D/MG_NET_LOG: ┌────── 响应结束 (200 / 194ms) ──────
+02-27 09:47:41.590 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+02-27 09:47:41.591 D/MG_NET_LOG: │ Result: {"req_id":"19c9cc7beabe30b3ab","err_resp":{"msg":"用户未登录无法获取deviceId","code":"14734","desc":"用户未登录无法获取deviceId"}}
+02-27 09:47:41.592 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:47:41.709 D/MG_NET_LOG: ┌────── 响应结束 (200 / 169ms) ──────
+02-27 09:47:41.710 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.1/requestLock
+02-27 09:47:41.712 D/MG_NET_LOG: │ Result: {"req_id":"19c9cc7bf01876c9bdb","data":{"command_id":322582029}}
+02-27 09:47:41.713 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:47:41.720 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:47:41.721 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-27 09:47:41.722 D/MG_NET_LOG: │ Method: POST
+02-27 09:47:41.723 D/MG_NET_LOG: │ Header: app-type: mgapp
+02-27 09:47:41.724 D/MG_NET_LOG: │ Header: timestamp: 1772156861718
+02-27 09:47:41.725 D/MG_NET_LOG: │ Header: sign: Ueg0zd_VtuDROPKJwr8MbBpchhzjHoGeDsYV32yJV5s
+02-27 09:47:41.726 D/MG_NET_LOG: │ Params: data={"command_id":"322582029","appId":"MG","vin":"LSJWJ4U64PZ281592","nonce":"775D5DBB29F88737BBCE7222219EF4F4","brandCode":"2","timestamp":"1772156861716","token":"bf200317f93947d588a328eef620b557-prod_SAIC"}
+02-27 09:47:41.727 D/MG_NET_LOG: └──────────────────────
+02-27 09:47:41.819 D/MG_NET_LOG: ┌────── 响应结束 (200 / 98ms) ──────
+02-27 09:47:41.820 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-27 09:47:41.822 D/MG_NET_LOG: │ Result: {"req_id":"19c9cc7bf9c6c0d7ae9","data":{"command_result":0,"command_status":"99","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+02-27 09:47:41.823 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:47:44.837 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:47:44.839 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-27 09:47:44.840 D/MG_NET_LOG: │ Method: POST
+02-27 09:47:44.841 D/MG_NET_LOG: │ Header: app-type: mgapp
+02-27 09:47:44.842 D/MG_NET_LOG: │ Header: timestamp: 1772156864835
+02-27 09:47:44.844 D/MG_NET_LOG: │ Header: sign: QMN0eLndnk72f8E8xXTVwo7kOhn9A1uoMULW7mSlQeE
+02-27 09:47:44.845 D/MG_NET_LOG: │ Params: data={"command_id":"322582029","appId":"MG","vin":"LSJWJ4U64PZ281592","nonce":"568C559AD3E5BF82B8B31A9EFB0637B9","brandCode":"2","timestamp":"1772156864830","token":"bf200317f93947d588a328eef620b557-prod_SAIC"}
+02-27 09:47:44.846 D/MG_NET_LOG: └──────────────────────
+02-27 09:47:44.944 D/MG_NET_LOG: ┌────── 响应结束 (200 / 107ms) ──────
+02-27 09:47:44.945 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-27 09:47:44.946 D/MG_NET_LOG: │ Result: {"req_id":"19c9cc7cbceb236faad","data":{"command_result":0,"command_status":"01","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+02-27 09:47:44.947 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:47:47.960 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:47:47.961 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-27 09:47:47.962 D/MG_NET_LOG: │ Method: POST
+02-27 09:47:47.962 D/MG_NET_LOG: │ Header: app-type: mgapp
+02-27 09:47:47.964 D/MG_NET_LOG: │ Header: timestamp: 1772156867957
+02-27 09:47:47.964 D/MG_NET_LOG: │ Header: sign: NPAqrg5BnVKgZrDpFNfvtRarPFTdUsif51wtGZSedBs
+02-27 09:47:47.966 D/MG_NET_LOG: │ Params: data={"command_id":"322582029","appId":"MG","vin":"LSJWJ4U64PZ281592","nonce":"DD1B62BCF8469CCDE3485C456CE21CC0","brandCode":"2","timestamp":"1772156867951","token":"bf200317f93947d588a328eef620b557-prod_SAIC"}
+02-27 09:47:47.967 D/MG_NET_LOG: └──────────────────────
+02-27 09:47:48.107 D/MG_NET_LOG: ┌────── 响应结束 (200 / 145ms) ──────
+02-27 09:47:48.108 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+02-27 09:47:48.110 D/MG_NET_LOG: │ Result: {"req_id":"19c9cc7d827224755f5","data":{"command_result":1,"command_status":"02","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+02-27 09:47:48.111 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 09:47:48.269 D/ControlActivity: ➖ 移除监听器: callback_2_1772156860279 
+02-27 09:48:04.362 D/MG_NET_LOG: ┌────── 请求开始 ──────
+02-27 09:48:04.364 D/MG_NET_LOG: │ URL: https://gitee.com/api/v5/repos/yangyachao-X/mg-linker/releases/latest
+02-27 09:48:04.367 D/MG_NET_LOG: │ Method: GET
+02-27 09:48:04.369 D/MG_NET_LOG: │ Header: Authorization: token 387f0d958834d479dcdc778fcf2ae326
+02-27 09:48:04.370 D/MG_NET_LOG: │ Params: (无 Body 参数)
+02-27 09:48:04.376 D/MG_NET_LOG: └──────────────────────
+02-27 09:48:04.838 D/MG_NET_LOG: ┌────── 响应结束 (200 / 474ms) ──────
+02-27 09:48:04.841 D/MG_NET_LOG: │ URL: https://gitee.com/api/v5/repos/yangyachao-X/mg-linker/releases/latest
+02-27 09:48:04.844 D/MG_NET_LOG: │ Result: {"id":582030,"tag_name":"6.0","target_commitish":"9e552bfa50e87b8a69d730f52ced6a4848e8db8b","prerelease":false,"name":"界面/代码重构","body":"1.界面/代码重构\r\n2.修复离开上锁bug","author":{"id":8784824,"login":"yangyachao-X","name":"YangYachao","avatar_url":"https://foruda.gitee.com/avatar/1677149462712290355/8784824_yangyachao-x_1645510740.png","url":"https://gitee.com/api/v5/users/yangyachao-X","html_url":"https://gitee.com/yangyachao-X","remark":"","followers_url":"https://gitee.com/api/v5/users/yangyachao-X/followers","following_url":"https://gitee.com/api/v5/users/yangyachao-X/following_url{/other_user}","gists_url":"https://gitee.com/api/v5/users/yangyachao-X/gists{/gist_id}","starred_url":"https://gitee.com/api/v5/users/yangyachao-X/starred{/owner}{/repo}","subscriptions_url":"https://gitee.com/api/v5/users/yangyachao-X/subscriptions","organizations_url":"https://gitee.com/api/v5/users/yangyachao-X/orgs","repos_url":"https://gitee.com/api/v5/users/yangyachao-X/repos","events_url":"https://gitee.com/api/v5/users/yangyachao-X/events{/privacy}","received_events_url":"https://gitee.com/api/v5/users/yangyachao-X/received_events","type":"User"},"created_at":"2026-02-26T17:50:56+08:00","assets":[{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/releases/download/6.0/MG%20Linker.apk","name":"MG Linker.apk"},{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/archive/refs/tags/6.0.zip","name":"6.0.zip"},{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/archive/refs/tags/6.0.tar.gz","name":"6.0.tar.gz"}]}
+02-27 09:48:04.846 D/MG_NET_LOG: └──────────────────────────────────────────────────
