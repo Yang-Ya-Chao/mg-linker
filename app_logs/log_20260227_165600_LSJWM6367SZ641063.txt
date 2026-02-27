@@ -1,0 +1,991 @@
+--- Log Capture Start: 20260227_165600 ---
+02-27 16:51:33.722 D/MGWidget: onReceive called with action: ACTION_BLUEBOOTH_OFF
+02-27 16:51:35.364 D/MGWidget: onReceive called with action: ACTION_BLUEBOOTH_ON
+02-27 16:51:35.396 D/BleProximity: 🔧 初始化 BleProximityManager
+02-27 16:51:35.397 D/BleProximity: ➕ 添加监听器: callback_1_1772182295397 (总数: 1)
+02-27 16:51:35.397 D/BleProximity: ✅ 初始化完成，回调ID: callback_1_1772182295397 ,DistanceMeters:-73.0
+02-27 16:51:35.397 D/BleProximity: 🚀 启动靠近解锁服务...
+02-27 16:51:35.397 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_1_1772182295397 (总数: 1)
+02-27 16:51:35.398 D/BleProximity: 🔍 开始扫描
+02-27 16:51:35.398 D/BleProximity: 🔍 开始扫描 (尝试次数: 0)
+02-27 16:51:35.417 D/BleProximity: 🎫 Session 已获取: true
+02-27 16:51:35.418 D/BleProximity: ⏳ 服务已启动，正在后台搜索设备...
+02-27 16:51:35.422 D/BleProximity: ✅ 屏幕状态监听已注册
+02-27 16:51:46.944 D/BleProximity: 📱 发现设备: C0:63:80:59:06:8C, RSSI: -97
+02-27 16:51:46.945 D/BleProximity: 📱 发现设备: C0:63:80:59:06:8C, RSSI: -97
+02-27 16:51:46.948 D/BleProximity: ⏹️ 停止扫描
+02-27 16:51:46.956 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+02-27 16:51:46.957 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+02-27 16:51:47.111 D/BleProximity: 🔗 开始建立底层连接: C0:63:80:59:06:8C
+02-27 16:51:48.787 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+02-27 16:51:48.788 D/BleProximity: ✅ 已连接，开始发现服务
+02-27 16:51:48.788 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-27 16:51:48.789 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-27 16:51:54.574 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+02-27 16:51:54.576 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+02-27 16:51:54.583 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+02-27 16:51:54.584 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+02-27 16:51:54.588 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+02-27 16:51:54.589 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+02-27 16:51:56.591 D/BleProximity: 🔍 开始扫描
+02-27 16:51:56.594 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+02-27 16:51:57.704 D/BleProximity: 📱 发现设备: C0:63:80:59:06:8C, RSSI: -84
+02-27 16:51:57.707 D/BleProximity: 📱 发现设备: C0:63:80:59:06:8C, RSSI: -84
+02-27 16:51:57.716 D/BleProximity: ⏹️ 停止扫描
+02-27 16:51:57.728 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+02-27 16:51:57.731 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+02-27 16:51:57.896 D/BleProximity: 🔗 开始建立底层连接: C0:63:80:59:06:8C
+02-27 16:51:58.698 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+02-27 16:51:58.701 D/BleProximity: ✅ 已连接，开始发现服务
+02-27 16:51:58.702 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+02-27 16:51:58.703 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+02-27 16:51:59.765 D/BleProximity: ⚠️ 车端不支持characteristicDeviceCharacterRead
+02-27 16:51:59.766 D/BleProximity: ⚠️ 车端不支持characteristicDeviceCharacterWrite
+02-27 16:51:59.767 D/BleProximity: ✅ 特征初始化完成
+02-27 16:51:59.782 D/BleProximity: MTU 生效: 96
+02-27 16:51:59.783 D/BleProximity: 🔐 开始认证流程
+02-27 16:51:59.786 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+02-27 16:51:59.790 D/BleProximity: 🔔 启用通知: 23a8, 结果: true
+02-27 16:51:59.796 D/BleProximity: 🔔 启用通知: 267e, 结果: true
+02-27 16:51:59.799 D/BleProximity: 🔔 启用通知: 71ed, 结果: true
+02-27 16:51:59.801 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+02-27 16:51:59.804 D/BleProximity: 🔔 启用通知: 9d21, 结果: true
+02-27 16:52:00.310 D/BleProximity: 📤 准备发送Booking ID: 01A0BF36 (进入串行队列)
+02-27 16:52:01.641 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 316263343530653564343035
+02-27 16:52:01.643 D/BleProximity: 🔐 处理认证挑战: 316263343530653564343035
+02-27 16:52:02.135 D/BleProximity: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3031
+02-27 16:52:02.136 D/BleProximity: ✅ 认证成功
+02-27 16:52:02.137 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 1, Session: 1)
+02-27 16:52:02.138 D/BleProximity: 📡 连接状态: AUTHENTICATED (isConnected: true)
+02-27 16:52:02.148 D/BleProximity: 📶 RSSI: -71
+02-27 16:52:02.148 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-27 16:52:02.449 D/BleProximity: 📶 RSSI: -70
+02-27 16:52:02.450 D/BleProximity: 📊 正在收集信号样本: 2/5
+02-27 16:52:02.756 D/BleProximity: 📶 RSSI: -73
+02-27 16:52:02.757 D/BleProximity: 📊 正在收集信号样本: 3/5
+02-27 16:52:03.058 D/BleProximity: 📶 RSSI: -71
+02-27 16:52:03.060 D/BleProximity: 📊 正在收集信号样本: 4/5
+02-27 16:52:03.366 D/BleProximity: 📶 RSSI: -77
+02-27 16:52:03.368 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-27 16:52:03.369 D/BleProximity: 原因: 信号均值(-72) > 阈值(-73.0) 
+02-27 16:52:03.370 D/BleProximity: 📤 发送指令: 解锁车门
+02-27 16:52:03.417 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 383639613366376666336439
+02-27 16:52:03.424 D/BleProximity: 🔐 处理认证挑战: 383639613366376666336439
+02-27 16:52:03.671 D/BleProximity: 📶 RSSI: -74
+02-27 16:52:03.982 D/BleProximity: 📶 RSSI: -72
+02-27 16:52:04.140 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+02-27 16:52:04.143 D/BleProximity: 解锁成功
+02-27 16:52:04.146 D/BleProximity: 📊 指令出队: 解锁车门 -> SUCCESS
+02-27 16:52:04.147 D/BleProximity: 🔓 解锁结果: SUCCESS
+02-27 16:52:04.148 D/BleProximity: 🔄 同步状态: 车辆已解锁
+02-27 16:52:04.157 D/BleProximity: 🔗 链式触发: 120秒打火
+02-27 16:52:04.283 D/BleProximity: 📶 RSSI: -71
+02-27 16:52:04.286 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-27 16:52:04.593 D/BleProximity: 📶 RSSI: -71
+02-27 16:52:04.595 D/BleProximity: 📊 正在收集信号样本: 2/5
+02-27 16:52:04.660 D/BleProximity: 📤 发送指令: 120秒打火
+02-27 16:52:04.704 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 306539656566666235633931
+02-27 16:52:04.707 D/BleProximity: 🔐 处理认证挑战: 306539656566666235633931
+02-27 16:52:04.897 D/BleProximity: 📶 RSSI: -73
+02-27 16:52:04.899 D/BleProximity: 📊 正在收集信号样本: 3/5
+02-27 16:52:05.200 D/BleProximity: 📶 RSSI: -63
+02-27 16:52:05.202 D/BleProximity: 📊 正在收集信号样本: 4/5
+02-27 16:52:05.505 D/BleProximity: 📶 RSSI: -61
+02-27 16:52:05.817 D/BleProximity: 📶 RSSI: -61
+02-27 16:52:06.114 D/BleProximity: 📶 RSSI: -61
+02-27 16:52:06.418 D/BleProximity: 📶 RSSI: -63
+02-27 16:52:06.723 D/BleProximity: 📶 RSSI: -66
+02-27 16:52:07.029 D/BleProximity: 📶 RSSI: -67
+02-27 16:52:07.338 D/BleProximity: 📶 RSSI: -66
+02-27 16:52:07.645 D/BleProximity: 📶 RSSI: -66
+02-27 16:52:07.664 D/BleProximity: ℹ️ 打火指令已发送（协议无成功返回值），默认视为成功
+02-27 16:52:07.667 D/BleProximity: 📊 指令出队: 120秒打火 -> SUCCESS
+02-27 16:52:07.954 D/BleProximity: 📶 RSSI: -68
+02-27 16:52:08.257 D/BleProximity: 📶 RSSI: -65
+02-27 16:52:08.568 D/BleProximity: 📶 RSSI: -66
+02-27 16:52:08.877 D/BleProximity: 📶 RSSI: -65
+02-27 16:52:09.170 D/BleProximity: 📶 RSSI: -62
+02-27 16:52:09.479 D/BleProximity: 📶 RSSI: -62
+02-27 16:52:09.786 D/BleProximity: 📶 RSSI: -62
+02-27 16:52:10.088 D/BleProximity: 📶 RSSI: -63
+02-27 16:52:10.391 D/BleProximity: 📶 RSSI: -65
+02-27 16:52:10.698 D/BleProximity: 📶 RSSI: -65
+02-27 16:52:11.008 D/BleProximity: 📶 RSSI: -64
+02-27 16:52:11.310 D/BleProximity: 📶 RSSI: -69
+02-27 16:52:11.616 D/BleProximity: 📶 RSSI: -67
+02-27 16:52:11.927 D/BleProximity: 📶 RSSI: -69
+02-27 16:52:12.235 D/BleProximity: 📶 RSSI: -69
+02-27 16:52:12.539 D/BleProximity: 📶 RSSI: -67
+02-27 16:52:12.844 D/BleProximity: 📶 RSSI: -67
+02-27 16:52:13.158 D/BleProximity: 📶 RSSI: -68
+02-27 16:52:13.457 D/BleProximity: 📶 RSSI: -66
+02-27 16:52:13.771 D/BleProximity: 📶 RSSI: -63
+02-27 16:52:14.076 D/BleProximity: 📶 RSSI: -64
+02-27 16:52:14.378 D/BleProximity: 📶 RSSI: -63
+02-27 16:52:14.683 D/BleProximity: 📶 RSSI: -68
+02-27 16:52:14.990 D/BleProximity: 📶 RSSI: -67
+02-27 16:52:15.297 D/BleProximity: 📶 RSSI: -68
+02-27 16:52:15.610 D/BleProximity: 📶 RSSI: -63
+02-27 16:52:15.921 D/BleProximity: 📶 RSSI: -68
+02-27 16:52:16.219 D/BleProximity: 📶 RSSI: -68
+02-27 16:52:16.523 D/BleProximity: 📶 RSSI: -65
+02-27 16:52:16.833 D/BleProximity: 📶 RSSI: -71
+02-27 16:52:17.142 D/BleProximity: 📶 RSSI: -68
+02-27 16:52:17.445 D/BleProximity: 📶 RSSI: -69
+02-27 16:52:17.752 D/BleProximity: 📶 RSSI: -71
+02-27 16:52:18.059 D/BleProximity: 📶 RSSI: -72
+02-27 16:52:18.372 D/BleProximity: 📶 RSSI: -70
+02-27 16:52:18.667 D/BleProximity: 📶 RSSI: -68
+02-27 16:52:18.980 D/BleProximity: 📶 RSSI: -69
+02-27 16:52:19.280 D/BleProximity: 📶 RSSI: -72
+02-27 16:52:19.589 D/BleProximity: 📶 RSSI: -69
+02-27 16:52:19.899 D/BleProximity: 📶 RSSI: -66
+02-27 16:52:20.196 D/BleProximity: 📶 RSSI: -64
+02-27 16:52:20.499 D/BleProximity: 📶 RSSI: -68
+02-27 16:52:20.801 D/BleProximity: 📶 RSSI: -67
+02-27 16:52:21.103 D/BleProximity: 📶 RSSI: -72
+02-27 16:52:21.412 D/BleProximity: 📶 RSSI: -73
+02-27 16:52:21.716 D/BleProximity: 📶 RSSI: -72
+02-27 16:52:22.021 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:22.328 D/BleProximity: 📶 RSSI: -74
+02-27 16:52:22.636 D/BleProximity: 📶 RSSI: -73
+02-27 16:52:22.948 D/BleProximity: 📶 RSSI: -74
+02-27 16:52:23.246 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:23.547 D/BleProximity: 📶 RSSI: -80
+02-27 16:52:23.849 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:24.151 D/BleProximity: 📶 RSSI: -70
+02-27 16:52:24.464 D/BleProximity: 📶 RSSI: -70
+02-27 16:52:24.766 D/BleProximity: 📶 RSSI: -73
+02-27 16:52:25.071 D/BleProximity: 📶 RSSI: -73
+02-27 16:52:25.376 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:25.679 D/BleProximity: 📶 RSSI: -77
+02-27 16:52:25.989 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:26.288 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:26.591 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:26.901 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:27.206 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:27.510 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:27.810 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:28.112 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:28.468 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:28.744 D/BleProximity: 📶 RSSI: -74
+02-27 16:52:29.045 D/BleProximity: 📶 RSSI: -72
+02-27 16:52:29.348 D/BleProximity: 📶 RSSI: -73
+02-27 16:52:29.678 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:29.990 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:30.295 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:30.607 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:30.924 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:31.225 D/BleProximity: 📶 RSSI: -74
+02-27 16:52:31.539 D/BleProximity: 📶 RSSI: -74
+02-27 16:52:31.844 D/BleProximity: 📶 RSSI: -71
+02-27 16:52:32.143 D/BleProximity: 📶 RSSI: -71
+02-27 16:52:32.444 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:32.767 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:33.078 D/BleProximity: 📶 RSSI: -72
+02-27 16:52:33.393 D/BleProximity: 📶 RSSI: -67
+02-27 16:52:33.685 D/BleProximity: 📶 RSSI: -69
+02-27 16:52:34.008 D/BleProximity: 📶 RSSI: -69
+02-27 16:52:34.302 D/BleProximity: 📶 RSSI: -70
+02-27 16:52:34.627 D/BleProximity: 📶 RSSI: -71
+02-27 16:52:34.922 D/BleProximity: 📶 RSSI: -73
+02-27 16:52:35.243 D/BleProximity: 📶 RSSI: -73
+02-27 16:52:35.542 D/BleProximity: 📶 RSSI: -67
+02-27 16:52:35.834 D/BleProximity: 📶 RSSI: -69
+02-27 16:52:36.154 D/BleProximity: 📶 RSSI: -70
+02-27 16:52:36.470 D/BleProximity: 📶 RSSI: -73
+02-27 16:52:36.786 D/BleProximity: 📶 RSSI: -73
+02-27 16:52:37.090 D/BleProximity: 📶 RSSI: -74
+02-27 16:52:37.400 D/BleProximity: 📶 RSSI: -70
+02-27 16:52:37.681 D/BleProximity: 📶 RSSI: -66
+02-27 16:52:37.986 D/BleProximity: 📶 RSSI: -69
+02-27 16:52:38.297 D/BleProximity: 📶 RSSI: -70
+02-27 16:52:38.603 D/BleProximity: 📶 RSSI: -73
+02-27 16:52:38.906 D/BleProximity: 📶 RSSI: -74
+02-27 16:52:39.209 D/BleProximity: 📶 RSSI: -73
+02-27 16:52:39.516 D/BleProximity: 📶 RSSI: -74
+02-27 16:52:39.820 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:40.122 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:40.367 D/MGWidget: onReceive called with action: com.my.mg.ACTION_REFRESH
+02-27 16:52:40.432 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:40.436 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-27 16:52:40.737 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:41.027 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 571ms) ──────
+02-27 16:52:41.037 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/requestVehicleStatus
+02-27 16:52:41.041 D/MG_NET_LOG: │ Method: POST
+02-27 16:52:41.043 D/BleProximity: 📶 RSSI: -73
+02-27 16:52:41.043 D/MG_NET_LOG: │ Header: app-type: roewe
+02-27 16:52:41.044 D/MG_NET_LOG: │ Header: timestamp: 1772182360449
+02-27 16:52:41.047 D/MG_NET_LOG: │ Header: sign: 0QBPV8RP6w-Yy61yOwCu0IG8WE4ADU-Ltjr1DbH6pwk
+02-27 16:52:41.047 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6367SZ641063","appId":"Roewe","brandCode":"1","nonce":"238C74A6923AB9499B36D936DB6EBE02","timestamp":"1772182360439","token":"4831474553a440569e5505efeabda66c-prod_SAIC"}
+02-27 16:52:41.048 D/MG_NET_LOG: ├────── Response Result ──────
+02-27 16:52:41.049 D/MG_NET_LOG: │ Result: {"req_id":"19c9e4cd5ed6a05679","data":null}
+02-27 16:52:41.050 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 16:52:41.350 D/BleProximity: 📶 RSSI: -74
+02-27 16:52:41.660 D/BleProximity: 📶 RSSI: -74
+02-27 16:52:41.964 D/BleProximity: 📶 RSSI: -74
+02-27 16:52:42.274 D/BleProximity: 📶 RSSI: -73
+02-27 16:52:42.581 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:42.887 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:43.210 D/BleProximity: 📶 RSSI: -77
+02-27 16:52:43.521 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:43.834 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:44.147 D/BleProximity: 📶 RSSI: -73
+02-27 16:52:44.460 D/BleProximity: 📶 RSSI: -73
+02-27 16:52:44.773 D/BleProximity: 📶 RSSI: -71
+02-27 16:52:44.829 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 760ms) ──────
+02-27 16:52:44.833 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-27 16:52:44.835 D/MG_NET_LOG: │ Method: POST
+02-27 16:52:44.836 D/MG_NET_LOG: │ Header: app-type: roewe
+02-27 16:52:44.837 D/MG_NET_LOG: │ Header: timestamp: 1772182364065
+02-27 16:52:44.838 D/MG_NET_LOG: │ Header: sign: lhEWjQ+ZtJKngJcRsj8LWIe98VakSQFckseiuvJzd24=
+02-27 16:52:44.840 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6367SZ641063","appId":"Roewe","brandCode":"1","nonce":"326C586FE2993028702B43444AD8C5B0","timestamp":"1772182364059","token":"4831474553a440569e5505efeabda66c-prod_SAIC"}
+02-27 16:52:44.841 D/MG_NET_LOG: ├────── Response Result ──────
+02-27 16:52:44.842 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19c9e4ce255290c5d15","data":{"vehicle_position":{"satellites":4,"altitude":340,"latitude":"29.842664","gps_status":2,"update_time":1772102914000,"gps_time":1772103113000,"hdop":430,"longitude":"107.071608"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":276,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":4,"driving_range":1247,"battery_pack_range":125,"power_mode":0,"engine_status":0,"exterior_temperature":17,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":89,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":0,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1220,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":276,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":276,"battery_pack_prc":1000,"interior_temperature_v":null,"steer_heat_failure_reason":0,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":0,"fuel_range":1247,"current_journey_id":602,"pwr_lftgt_pos_v":null,"interior_temperature":17,"localfront_right_seat_heat_level":0,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772182361000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":0,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":280,"vehicle_battery_prc":880,"battery_type":0,"fuel_level_disp":8,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":1023},"update_time":1772182361000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":false,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772182361000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":f
+02-27 16:52:44.842 D/MG_NET_LOG: │ Result(Part 2): alse,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-27 16:52:44.843 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 16:52:44.858 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 重庆市长寿区金山街
+02-27 16:52:44.858 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-27 16:52:44.859 D/MGWidget: updateWidgetSynchronously called for ID: 70
+02-27 16:52:45.123 D/BleProximity: 📶 RSSI: -74
+02-27 16:52:45.431 D/BleProximity: 📶 RSSI: -74
+02-27 16:52:45.759 D/BleProximity: 📶 RSSI: -74
+02-27 16:52:46.054 D/BleProximity: 📶 RSSI: -73
+02-27 16:52:46.372 D/BleProximity: 📶 RSSI: -74
+02-27 16:52:46.683 D/BleProximity: 📶 RSSI: -74
+02-27 16:52:46.998 D/BleProximity: 📶 RSSI: -73
+02-27 16:52:47.313 D/BleProximity: 📶 RSSI: -68
+02-27 16:52:47.388 D/MGWidget: onReceive called with action: com.my.mg.ACTION_REFRESH
+02-27 16:52:47.443 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-27 16:52:47.623 D/BleProximity: 📶 RSSI: -70
+02-27 16:52:47.665 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 214ms) ──────
+02-27 16:52:47.669 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/requestVehicleStatus
+02-27 16:52:47.671 D/MG_NET_LOG: │ Method: POST
+02-27 16:52:47.672 D/MG_NET_LOG: │ Header: app-type: roewe
+02-27 16:52:47.673 D/MG_NET_LOG: │ Header: timestamp: 1772182367447
+02-27 16:52:47.674 D/MG_NET_LOG: │ Header: sign: CtfV8rvpJRd_7iRQsmU16KG20CLSpTU500mkIyOt5co
+02-27 16:52:47.675 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6367SZ641063","appId":"Roewe","brandCode":"1","nonce":"63405CF8A9D33B657C6CB73E50754FE5","timestamp":"1772182367445","token":"4831474553a440569e5505efeabda66c-prod_SAIC"}
+02-27 16:52:47.676 D/MG_NET_LOG: ├────── Response Result ──────
+02-27 16:52:47.677 D/MG_NET_LOG: │ Result: {"req_id":"19c9e4cefb45dc9adfd","data":null}
+02-27 16:52:47.678 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 16:52:47.985 D/BleProximity: 📶 RSSI: -70
+02-27 16:52:48.240 D/BleProximity: 📶 RSSI: -69
+02-27 16:52:48.554 D/BleProximity: 📶 RSSI: -73
+02-27 16:52:48.866 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:49.179 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:49.496 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:49.799 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:50.104 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:50.423 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:50.730 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:51.043 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:51.343 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:51.491 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 776ms) ──────
+02-27 16:52:51.496 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-27 16:52:51.497 D/MG_NET_LOG: │ Method: POST
+02-27 16:52:51.498 D/MG_NET_LOG: │ Header: app-type: roewe
+02-27 16:52:51.499 D/MG_NET_LOG: │ Header: timestamp: 1772182370709
+02-27 16:52:51.500 D/MG_NET_LOG: │ Header: sign: uNIFKNPI01IgqNFj39T/jp3PWiRAPi2rVN4MSEi/sVo=
+02-27 16:52:51.501 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6367SZ641063","appId":"Roewe","brandCode":"1","nonce":"2F2FBDA21556A4C288C2EB7D80D3035E","timestamp":"1772182370699","token":"4831474553a440569e5505efeabda66c-prod_SAIC"}
+02-27 16:52:51.502 D/MG_NET_LOG: ├────── Response Result ──────
+02-27 16:52:51.504 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19c9e4cfc65b417df5b","data":{"vehicle_position":{"satellites":4,"altitude":340,"latitude":"29.842664","gps_status":2,"update_time":1772102914000,"gps_time":1772103113000,"hdop":430,"longitude":"107.071608"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":276,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":4,"driving_range":1247,"battery_pack_range":125,"power_mode":0,"engine_status":0,"exterior_temperature":17,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":89,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":0,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1220,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":276,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":276,"battery_pack_prc":1000,"interior_temperature_v":null,"steer_heat_failure_reason":0,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":0,"fuel_range":1247,"current_journey_id":602,"pwr_lftgt_pos_v":null,"interior_temperature":17,"localfront_right_seat_heat_level":0,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772182367000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":0,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":280,"vehicle_battery_prc":880,"battery_type":0,"fuel_level_disp":8,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":1023},"update_time":1772182367000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":false,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772182367000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":f
+02-27 16:52:51.505 D/MG_NET_LOG: │ Result(Part 2): alse,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+02-27 16:52:51.506 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 16:52:51.521 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 重庆市长寿区金山街
+02-27 16:52:51.521 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+02-27 16:52:51.523 D/MGWidget: updateWidgetSynchronously called for ID: 70
+02-27 16:52:51.653 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:51.971 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:52.289 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:52.595 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:52.902 D/BleProximity: 📶 RSSI: -74
+02-27 16:52:53.210 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:53.520 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:53.838 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:54.158 D/BleProximity: 📶 RSSI: -74
+02-27 16:52:54.466 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:54.783 D/BleProximity: 📶 RSSI: -73
+02-27 16:52:55.090 D/BleProximity: 📶 RSSI: -76
+02-27 16:52:55.400 D/BleProximity: 📶 RSSI: -71
+02-27 16:52:55.704 D/BleProximity: 📶 RSSI: -72
+02-27 16:52:56.014 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:56.348 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:56.629 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:56.937 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:57.249 D/BleProximity: 📶 RSSI: -71
+02-27 16:52:57.557 D/BleProximity: 📶 RSSI: -70
+02-27 16:52:57.870 D/BleProximity: 📶 RSSI: -68
+02-27 16:52:58.191 D/BleProximity: 📶 RSSI: -70
+02-27 16:52:58.493 D/BleProximity: 📶 RSSI: -73
+02-27 16:52:58.796 D/BleProximity: 📶 RSSI: -72
+02-27 16:52:59.119 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:59.428 D/BleProximity: 📶 RSSI: -75
+02-27 16:52:59.736 D/BleProximity: 📶 RSSI: -73
+02-27 16:53:00.048 D/BleProximity: 📶 RSSI: -70
+02-27 16:53:00.357 D/BleProximity: 📶 RSSI: -72
+02-27 16:53:00.664 D/BleProximity: 📶 RSSI: -73
+02-27 16:53:00.975 D/BleProximity: 📶 RSSI: -75
+02-27 16:53:01.287 D/BleProximity: 📶 RSSI: -75
+02-27 16:53:01.590 D/BleProximity: 📶 RSSI: -72
+02-27 16:53:01.899 D/BleProximity: 📶 RSSI: -74
+02-27 16:53:02.208 D/BleProximity: 📶 RSSI: -71
+02-27 16:53:02.518 D/BleProximity: 📶 RSSI: -72
+02-27 16:53:02.829 D/BleProximity: 📶 RSSI: -73
+02-27 16:53:03.138 D/BleProximity: 📶 RSSI: -72
+02-27 16:53:03.454 D/BleProximity: 📶 RSSI: -73
+02-27 16:53:03.757 D/BleProximity: 📶 RSSI: -72
+02-27 16:53:04.073 D/BleProximity: 📶 RSSI: -72
+02-27 16:53:04.391 D/BleProximity: 📶 RSSI: -70
+02-27 16:53:04.699 D/BleProximity: 📶 RSSI: -66
+02-27 16:53:05.013 D/BleProximity: 📶 RSSI: -59
+02-27 16:53:05.323 D/BleProximity: 📶 RSSI: -61
+02-27 16:53:05.623 D/BleProximity: 📶 RSSI: -64
+02-27 16:53:05.934 D/BleProximity: 📶 RSSI: -64
+02-27 16:53:06.245 D/BleProximity: 📶 RSSI: -60
+02-27 16:53:06.563 D/BleProximity: 📶 RSSI: -62
+02-27 16:53:06.865 D/BleProximity: 📶 RSSI: -61
+02-27 16:53:07.187 D/BleProximity: 📶 RSSI: -55
+02-27 16:53:07.489 D/BleProximity: 📶 RSSI: -51
+02-27 16:53:07.806 D/BleProximity: 📶 RSSI: -56
+02-27 16:53:08.111 D/BleProximity: 📶 RSSI: -55
+02-27 16:53:08.428 D/BleProximity: 📶 RSSI: -58
+02-27 16:53:08.738 D/BleProximity: 📶 RSSI: -61
+02-27 16:53:09.051 D/BleProximity: 📶 RSSI: -59
+02-27 16:53:09.365 D/BleProximity: 📶 RSSI: -56
+02-27 16:53:09.669 D/BleProximity: 📶 RSSI: -57
+02-27 16:53:09.976 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:10.289 D/BleProximity: 📶 RSSI: -58
+02-27 16:53:10.602 D/BleProximity: 📶 RSSI: -56
+02-27 16:53:10.913 D/BleProximity: 📶 RSSI: -59
+02-27 16:53:11.219 D/BleProximity: 📶 RSSI: -61
+02-27 16:53:11.527 D/BleProximity: 📶 RSSI: -59
+02-27 16:53:11.835 D/BleProximity: 📶 RSSI: -60
+02-27 16:53:12.141 D/BleProximity: 📶 RSSI: -61
+02-27 16:53:12.451 D/BleProximity: 📶 RSSI: -58
+02-27 16:53:12.758 D/BleProximity: 📶 RSSI: -56
+02-27 16:53:13.080 D/BleProximity: 📶 RSSI: -57
+02-27 16:53:13.383 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:13.688 D/BleProximity: 📶 RSSI: -55
+02-27 16:53:14.002 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:14.306 D/BleProximity: 📶 RSSI: -56
+02-27 16:53:14.619 D/BleProximity: 📶 RSSI: -56
+02-27 16:53:14.930 D/BleProximity: 📶 RSSI: -58
+02-27 16:53:15.241 D/BleProximity: 📶 RSSI: -57
+02-27 16:53:15.551 D/BleProximity: 📶 RSSI: -57
+02-27 16:53:15.864 D/BleProximity: 📶 RSSI: -57
+02-27 16:53:16.184 D/BleProximity: 📶 RSSI: -58
+02-27 16:53:16.499 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:16.815 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:17.123 D/BleProximity: 📶 RSSI: -56
+02-27 16:53:17.432 D/BleProximity: 📶 RSSI: -55
+02-27 16:53:17.746 D/BleProximity: 📶 RSSI: -57
+02-27 16:53:18.052 D/BleProximity: 📶 RSSI: -56
+02-27 16:53:18.359 D/BleProximity: 📶 RSSI: -55
+02-27 16:53:18.667 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:18.985 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:19.295 D/BleProximity: 📶 RSSI: -53
+02-27 16:53:19.604 D/BleProximity: 📶 RSSI: -52
+02-27 16:53:19.916 D/BleProximity: 📶 RSSI: -52
+02-27 16:53:20.231 D/BleProximity: 📶 RSSI: -52
+02-27 16:53:20.530 D/BleProximity: 📶 RSSI: -55
+02-27 16:53:20.847 D/BleProximity: 📶 RSSI: -53
+02-27 16:53:21.154 D/BleProximity: 📶 RSSI: -53
+02-27 16:53:21.467 D/BleProximity: 📶 RSSI: -53
+02-27 16:53:21.798 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:22.088 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:22.399 D/BleProximity: 📶 RSSI: -53
+02-27 16:53:22.719 D/BleProximity: 📶 RSSI: -52
+02-27 16:53:23.025 D/BleProximity: 📶 RSSI: -53
+02-27 16:53:23.330 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:23.633 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:23.948 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:24.255 D/BleProximity: 📶 RSSI: -57
+02-27 16:53:24.565 D/BleProximity: 📶 RSSI: -53
+02-27 16:53:24.882 D/BleProximity: 📶 RSSI: -52
+02-27 16:53:25.182 D/BleProximity: 📶 RSSI: -52
+02-27 16:53:25.489 D/BleProximity: 📶 RSSI: -52
+02-27 16:53:25.802 D/BleProximity: 📶 RSSI: -52
+02-27 16:53:26.112 D/BleProximity: 📶 RSSI: -52
+02-27 16:53:26.421 D/BleProximity: 📶 RSSI: -52
+02-27 16:53:26.727 D/BleProximity: 📶 RSSI: -52
+02-27 16:53:27.038 D/BleProximity: 📶 RSSI: -52
+02-27 16:53:27.340 D/BleProximity: 📶 RSSI: -55
+02-27 16:53:27.655 D/BleProximity: 📶 RSSI: -59
+02-27 16:53:27.961 D/BleProximity: 📶 RSSI: -57
+02-27 16:53:28.267 D/BleProximity: 📶 RSSI: -57
+02-27 16:53:28.576 D/BleProximity: 📶 RSSI: -56
+02-27 16:53:28.887 D/BleProximity: 📶 RSSI: -55
+02-27 16:53:29.196 D/BleProximity: 📶 RSSI: -51
+02-27 16:53:29.506 D/BleProximity: 📶 RSSI: -51
+02-27 16:53:29.811 D/BleProximity: 📶 RSSI: -50
+02-27 16:53:30.122 D/BleProximity: 📶 RSSI: -50
+02-27 16:53:30.456 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:30.745 D/BleProximity: 📶 RSSI: -56
+02-27 16:53:31.058 D/BleProximity: 📶 RSSI: -55
+02-27 16:53:31.362 D/BleProximity: 📶 RSSI: -55
+02-27 16:53:31.672 D/BleProximity: 📶 RSSI: -55
+02-27 16:53:31.974 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:32.284 D/BleProximity: 📶 RSSI: -55
+02-27 16:53:32.591 D/BleProximity: 📶 RSSI: -55
+02-27 16:53:32.905 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:33.211 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:33.520 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:33.831 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:34.135 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:34.445 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:34.761 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:35.077 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:35.396 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:35.707 D/BleProximity: 📶 RSSI: -53
+02-27 16:53:36.017 D/BleProximity: 📶 RSSI: -53
+02-27 16:53:36.325 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:36.456 D/BleProximity: 🔧 初始化 BleProximityManager
+02-27 16:53:36.457 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+02-27 16:53:36.457 D/BleProximity: 🧹 清理资源...
+02-27 16:53:36.458 D/BleProximity: 🛑 停止服务
+02-27 16:53:36.466 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_1_1772182295397 (剩余: 0)
+02-27 16:53:36.467 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+02-27 16:53:36.467 D/BleProximity: ✅ Session 已释放
+02-27 16:53:36.469 D/BleProximity: ✅ 屏幕状态监听已注销
+02-27 16:53:36.473 D/BleProximity: ➖ 移除监听器: callback_1_1772182295397 
+02-27 16:53:36.474 D/BleProximity: ✅ 已移除回调: callback_1_1772182295397
+02-27 16:53:36.475 D/BleProximity: ✅ 资源清理完成
+02-27 16:53:36.475 D/BleProximity: ➕ 添加监听器: callback_2_1772182416475 (总数: 1)
+02-27 16:53:36.476 D/BleProximity: ✅ 初始化完成，回调ID: callback_2_1772182416475 ,DistanceMeters:-73.0
+02-27 16:53:36.476 D/BleProximity: 🚀 启动靠近解锁服务...
+02-27 16:53:36.477 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_2_1772182416477 (总数: 1)
+02-27 16:53:36.477 D/BleProximity: 🎫 Session 已获取: true
+02-27 16:53:36.477 D/BleProximity: ✅ 服务启动时，设备已处于连接状态
+02-27 16:53:36.486 D/BleProximity: ✅ 屏幕状态监听已注册
+02-27 16:53:36.629 D/BleProximity: 📶 RSSI: -56
+02-27 16:53:36.630 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-27 16:53:36.934 D/BleProximity: 📶 RSSI: -58
+02-27 16:53:36.935 D/BleProximity: 📊 正在收集信号样本: 2/5
+02-27 16:53:37.244 D/BleProximity: 📶 RSSI: -57
+02-27 16:53:37.246 D/BleProximity: 📊 正在收集信号样本: 3/5
+02-27 16:53:37.557 D/BleProximity: 📶 RSSI: -57
+02-27 16:53:37.559 D/BleProximity: 📊 正在收集信号样本: 4/5
+02-27 16:53:37.871 D/BleProximity: 📶 RSSI: -57
+02-27 16:53:38.178 D/BleProximity: 📶 RSSI: -56
+02-27 16:53:38.487 D/BleProximity: 📶 RSSI: -56
+02-27 16:53:38.794 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:39.103 D/BleProximity: 📶 RSSI: -52
+02-27 16:53:39.404 D/BleProximity: 📶 RSSI: -53
+02-27 16:53:39.709 D/BleProximity: 📶 RSSI: -52
+02-27 16:53:40.017 D/BleProximity: 📶 RSSI: -53
+02-27 16:53:40.334 D/BleProximity: 📶 RSSI: -59
+02-27 16:53:40.629 D/BleProximity: 📶 RSSI: -60
+02-27 16:53:40.936 D/BleProximity: 📶 RSSI: -62
+02-27 16:53:41.245 D/BleProximity: 📶 RSSI: -61
+02-27 16:53:41.552 D/BleProximity: 📶 RSSI: -61
+02-27 16:53:41.861 D/BleProximity: 📶 RSSI: -60
+02-27 16:53:42.178 D/BleProximity: 📶 RSSI: -58
+02-27 16:53:42.483 D/BleProximity: 📶 RSSI: -57
+02-27 16:53:42.791 D/BleProximity: 📶 RSSI: -57
+02-27 16:53:43.096 D/BleProximity: 📶 RSSI: -58
+02-27 16:53:43.403 D/BleProximity: 📶 RSSI: -60
+02-27 16:53:43.710 D/BleProximity: 📶 RSSI: -60
+02-27 16:53:44.020 D/BleProximity: 📶 RSSI: -59
+02-27 16:53:44.330 D/BleProximity: 📶 RSSI: -58
+02-27 16:53:44.640 D/BleProximity: 📶 RSSI: -58
+02-27 16:53:44.949 D/BleProximity: 📶 RSSI: -58
+02-27 16:53:45.263 D/BleProximity: 📶 RSSI: -59
+02-27 16:53:45.569 D/BleProximity: 📶 RSSI: -58
+02-27 16:53:45.880 D/BleProximity: 📶 RSSI: -56
+02-27 16:53:46.191 D/BleProximity: 📶 RSSI: -58
+02-27 16:53:46.498 D/BleProximity: 📶 RSSI: -59
+02-27 16:53:46.811 D/BleProximity: 📶 RSSI: -59
+02-27 16:53:47.123 D/BleProximity: 📶 RSSI: -61
+02-27 16:53:47.434 D/BleProximity: 📶 RSSI: -61
+02-27 16:53:47.743 D/BleProximity: 📶 RSSI: -61
+02-27 16:53:48.051 D/BleProximity: 📶 RSSI: -60
+02-27 16:53:48.367 D/BleProximity: 📶 RSSI: -61
+02-27 16:53:48.687 D/BleProximity: 📶 RSSI: -57
+02-27 16:53:48.998 D/BleProximity: 📶 RSSI: -60
+02-27 16:53:49.311 D/BleProximity: 📶 RSSI: -59
+02-27 16:53:49.618 D/BleProximity: 📶 RSSI: -60
+02-27 16:53:49.940 D/BleProximity: 📶 RSSI: -59
+02-27 16:53:50.267 D/BleProximity: 📶 RSSI: -60
+02-27 16:53:50.567 D/BleProximity: 📶 RSSI: -60
+02-27 16:53:50.877 D/BleProximity: 📶 RSSI: -60
+02-27 16:53:51.187 D/BleProximity: 📶 RSSI: -60
+02-27 16:53:51.497 D/BleProximity: 📶 RSSI: -59
+02-27 16:53:51.809 D/BleProximity: 📶 RSSI: -60
+02-27 16:53:52.113 D/BleProximity: 📶 RSSI: -61
+02-27 16:53:52.422 D/BleProximity: 📶 RSSI: -60
+02-27 16:53:52.734 D/BleProximity: 📶 RSSI: -56
+02-27 16:53:53.048 D/BleProximity: 📶 RSSI: -55
+02-27 16:53:53.358 D/BleProximity: 📶 RSSI: -56
+02-27 16:53:53.669 D/BleProximity: 📶 RSSI: -55
+02-27 16:53:53.979 D/BleProximity: 📶 RSSI: -53
+02-27 16:53:54.288 D/BleProximity: 📶 RSSI: -53
+02-27 16:53:54.595 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:54.907 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:55.213 D/BleProximity: 📶 RSSI: -56
+02-27 16:53:55.521 D/BleProximity: 📶 RSSI: -60
+02-27 16:53:55.829 D/BleProximity: 📶 RSSI: -59
+02-27 16:53:56.146 D/BleProximity: 📶 RSSI: -60
+02-27 16:53:56.453 D/BleProximity: 📶 RSSI: -63
+02-27 16:53:56.764 D/BleProximity: 📶 RSSI: -58
+02-27 16:53:57.074 D/BleProximity: 📶 RSSI: -56
+02-27 16:53:57.384 D/BleProximity: 📶 RSSI: -54
+02-27 16:53:57.691 D/BleProximity: 📶 RSSI: -56
+02-27 16:53:58.000 D/BleProximity: 📶 RSSI: -52
+02-27 16:53:58.307 D/BleProximity: 📶 RSSI: -49
+02-27 16:53:58.611 D/BleProximity: 📶 RSSI: -50
+02-27 16:53:58.921 D/BleProximity: 📶 RSSI: -49
+02-27 16:53:59.243 D/BleProximity: 📶 RSSI: -48
+02-27 16:53:59.559 D/BleProximity: 📶 RSSI: -48
+02-27 16:53:59.871 D/BleProximity: 📶 RSSI: -49
+02-27 16:54:00.174 D/BleProximity: 📶 RSSI: -49
+02-27 16:54:00.483 D/BleProximity: 📶 RSSI: -49
+02-27 16:54:00.791 D/BleProximity: 📶 RSSI: -49
+02-27 16:54:01.102 D/BleProximity: 📶 RSSI: -49
+02-27 16:54:01.412 D/BleProximity: 📶 RSSI: -50
+02-27 16:54:01.717 D/BleProximity: 📶 RSSI: -53
+02-27 16:54:02.030 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:02.338 D/BleProximity: 📶 RSSI: -59
+02-27 16:54:02.652 D/BleProximity: 📶 RSSI: -54
+02-27 16:54:02.958 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:03.266 D/BleProximity: 📶 RSSI: -59
+02-27 16:54:03.584 D/BleProximity: 📶 RSSI: -59
+02-27 16:54:03.896 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:04.194 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:04.502 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:04.503 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-27 16:54:04.505 D/BleProximity: 原因: 信号均值(-58) > 阈值(-73.0) 
+02-27 16:54:04.507 D/BleProximity: 📤 发送指令: 解锁车门
+02-27 16:54:04.562 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 323862313334613731383762
+02-27 16:54:04.572 D/BleProximity: 🔐 处理认证挑战: 323862313334613731383762
+02-27 16:54:04.817 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:05.125 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:05.299 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+02-27 16:54:05.299 D/BleProximity: 解锁成功
+02-27 16:54:05.300 D/BleProximity: 📊 指令出队: 解锁车门 -> SUCCESS
+02-27 16:54:05.300 D/BleProximity: 🔓 解锁结果: SUCCESS
+02-27 16:54:05.300 D/BleProximity: 🔄 同步状态: 车辆已解锁
+02-27 16:54:05.305 D/BleProximity: 🔗 链式触发: 120秒打火
+02-27 16:54:05.430 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:05.431 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-27 16:54:05.739 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:05.740 D/BleProximity: 📊 正在收集信号样本: 2/5
+02-27 16:54:05.807 D/BleProximity: 📤 发送指令: 120秒打火
+02-27 16:54:05.864 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 326536396236613431613661
+02-27 16:54:05.874 D/BleProximity: 🔐 处理认证挑战: 326536396236613431613661
+02-27 16:54:06.054 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:06.055 D/BleProximity: 📊 正在收集信号样本: 3/5
+02-27 16:54:06.364 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:06.365 D/BleProximity: 📊 正在收集信号样本: 4/5
+02-27 16:54:06.670 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:06.977 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:07.284 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:07.591 D/BleProximity: 📶 RSSI: -59
+02-27 16:54:07.907 D/BleProximity: 📶 RSSI: -62
+02-27 16:54:08.215 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:08.518 D/BleProximity: 📶 RSSI: -59
+02-27 16:54:08.825 D/BleProximity: ℹ️ 打火指令已发送（协议无成功返回值），默认视为成功
+02-27 16:54:08.826 D/BleProximity: 📊 指令出队: 120秒打火 -> SUCCESS
+02-27 16:54:08.832 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:09.139 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:09.450 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:09.762 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:10.070 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:10.383 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:10.692 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:10.998 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:11.309 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:11.618 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:11.930 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:12.240 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:12.552 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:12.866 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:13.177 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:13.485 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:13.797 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:14.111 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:14.422 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:14.735 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:15.049 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:15.357 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:15.671 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:15.978 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:16.292 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:16.608 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:16.923 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:17.228 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:17.542 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:17.858 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:18.162 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:18.476 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:18.791 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:19.110 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:19.417 D/BleProximity: 📶 RSSI: -52
+02-27 16:54:19.727 D/BleProximity: 📶 RSSI: -53
+02-27 16:54:20.037 D/BleProximity: 📶 RSSI: -53
+02-27 16:54:20.351 D/BleProximity: 📶 RSSI: -54
+02-27 16:54:20.661 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:20.978 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:21.291 D/BleProximity: 📶 RSSI: -59
+02-27 16:54:21.601 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:21.911 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:22.229 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:22.537 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:22.853 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:23.153 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:23.461 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:23.769 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:24.077 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:24.387 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:24.697 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:25.009 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:25.317 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:25.628 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:25.933 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:26.250 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:26.560 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:26.868 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:27.173 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:27.477 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:27.788 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:28.091 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:28.401 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:28.718 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:29.027 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:29.344 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:29.656 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:29.973 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:30.288 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:30.594 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:30.919 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:31.234 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:31.542 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:31.849 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:32.159 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:32.475 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:32.786 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:33.091 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:33.407 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:33.709 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:34.021 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:34.335 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:34.645 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:34.956 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:35.265 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:35.572 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:35.884 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:36.197 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:36.500 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:36.810 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:37.121 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:37.424 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:37.733 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:38.039 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:38.347 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:38.657 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:38.970 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:39.293 D/BleProximity: 📶 RSSI: -54
+02-27 16:54:39.609 D/BleProximity: 📶 RSSI: -53
+02-27 16:54:39.914 D/BleProximity: 📶 RSSI: -52
+02-27 16:54:40.228 D/BleProximity: 📶 RSSI: -52
+02-27 16:54:40.542 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:40.850 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:41.163 D/BleProximity: 📶 RSSI: -53
+02-27 16:54:41.467 D/BleProximity: 📶 RSSI: -52
+02-27 16:54:41.776 D/BleProximity: 📶 RSSI: -52
+02-27 16:54:42.094 D/BleProximity: 📶 RSSI: -52
+02-27 16:54:42.403 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:42.715 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:43.031 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:43.347 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:43.648 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:43.958 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:44.271 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:44.578 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:44.892 D/BleProximity: 📶 RSSI: -59
+02-27 16:54:45.218 D/BleProximity: 📶 RSSI: -58
+02-27 16:54:45.514 D/BleProximity: 📶 RSSI: -57
+02-27 16:54:45.828 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:46.134 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:46.443 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:46.753 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:47.062 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:47.440 D/BleProximity: 📶 RSSI: -53
+02-27 16:54:47.720 D/BleProximity: 📶 RSSI: -52
+02-27 16:54:47.842 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 497ms) ──────
+02-27 16:54:47.843 D/MG_NET_LOG: │ URL: https://gitee.com/api/v5/repos/yangyachao-X/mg-linker/releases/latest
+02-27 16:54:47.843 D/MG_NET_LOG: │ Method: GET
+02-27 16:54:47.843 D/MG_NET_LOG: │ Header: Authorization: token 387f0d958834d479dcdc778fcf2ae326
+02-27 16:54:47.843 D/MG_NET_LOG: │ Params: (无 Body 参数)
+02-27 16:54:47.843 D/MG_NET_LOG: ├────── Response Result ──────
+02-27 16:54:47.844 D/MG_NET_LOG: │ Result: {"id":582216,"tag_name":"6.1","target_commitish":"2bdb9c50ad494488f9016cd38f540be832581d2d","prerelease":false,"name":"修复BUG","body":"1.修复远程锁车关窗BUG\r\n2.修复控车组件转圈BUG","author":{"id":8784824,"login":"yangyachao-X","name":"YangYachao","avatar_url":"https://foruda.gitee.com/avatar/1677149462712290355/8784824_yangyachao-x_1645510740.png","url":"https://gitee.com/api/v5/users/yangyachao-X","html_url":"https://gitee.com/yangyachao-X","remark":"","followers_url":"https://gitee.com/api/v5/users/yangyachao-X/followers","following_url":"https://gitee.com/api/v5/users/yangyachao-X/following_url{/other_user}","gists_url":"https://gitee.com/api/v5/users/yangyachao-X/gists{/gist_id}","starred_url":"https://gitee.com/api/v5/users/yangyachao-X/starred{/owner}{/repo}","subscriptions_url":"https://gitee.com/api/v5/users/yangyachao-X/subscriptions","organizations_url":"https://gitee.com/api/v5/users/yangyachao-X/orgs","repos_url":"https://gitee.com/api/v5/users/yangyachao-X/repos","events_url":"https://gitee.com/api/v5/users/yangyachao-X/events{/privacy}","received_events_url":"https://gitee.com/api/v5/users/yangyachao-X/received_events","type":"User"},"created_at":"2026-02-27T11:03:23+08:00","assets":[{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/releases/download/6.1/MG%20Linker.apk","name":"MG Linker.apk"},{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/archive/refs/tags/6.1.zip","name":"6.1.zip"},{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/archive/refs/tags/6.1.tar.gz","name":"6.1.tar.gz"}]}
+02-27 16:54:47.844 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 16:54:48.028 D/BleProximity: 📶 RSSI: -52
+02-27 16:54:48.355 D/BleProximity: 📶 RSSI: -51
+02-27 16:54:48.648 D/BleProximity: 📶 RSSI: -54
+02-27 16:54:48.967 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:49.253 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:49.554 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:49.857 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:50.171 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:50.473 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:50.773 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:51.081 D/BleProximity: 📶 RSSI: -53
+02-27 16:54:51.380 D/BleProximity: 📶 RSSI: -51
+02-27 16:54:51.682 D/BleProximity: 📶 RSSI: -50
+02-27 16:54:51.985 D/BleProximity: 📶 RSSI: -50
+02-27 16:54:52.292 D/BleProximity: 📶 RSSI: -53
+02-27 16:54:52.593 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:52.902 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:53.210 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:53.510 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:53.817 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:54.126 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:54.436 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:54.733 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:55.040 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:55.346 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:55.647 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:55.953 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:56.256 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:56.565 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:56.872 D/BleProximity: 📶 RSSI: -56
+02-27 16:54:57.178 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:57.490 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:57.795 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:58.099 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:58.406 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:58.711 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:59.013 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:59.319 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:59.632 D/BleProximity: 📶 RSSI: -55
+02-27 16:54:59.933 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:00.236 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:00.544 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:00.850 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:01.161 D/BleProximity: 📶 RSSI: -52
+02-27 16:55:01.461 D/BleProximity: 📶 RSSI: -50
+02-27 16:55:01.770 D/BleProximity: 📶 RSSI: -50
+02-27 16:55:02.067 D/BleProximity: 📶 RSSI: -50
+02-27 16:55:02.379 D/BleProximity: 📶 RSSI: -54
+02-27 16:55:02.682 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:02.985 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:03.305 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:03.594 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:03.898 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:04.210 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:04.520 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:04.831 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:05.122 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:05.426 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:05.733 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:06.033 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:06.344 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:06.648 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:06.976 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:07.272 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:07.572 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:07.889 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:08.190 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:08.490 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:08.793 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:09.096 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:09.399 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:09.708 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:10.010 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:10.315 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:10.627 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:10.922 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:11.241 D/BleProximity: 📶 RSSI: -52
+02-27 16:55:11.547 D/BleProximity: 📶 RSSI: -51
+02-27 16:55:11.845 D/BleProximity: 📶 RSSI: -50
+02-27 16:55:12.170 D/BleProximity: 📶 RSSI: -50
+02-27 16:55:12.487 D/BleProximity: 📶 RSSI: -54
+02-27 16:55:12.785 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:12.824 D/BleProximity: 🔧 初始化 BleProximityManager
+02-27 16:55:12.825 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+02-27 16:55:12.826 D/BleProximity: 🧹 清理资源...
+02-27 16:55:12.827 D/BleProximity: 🛑 停止服务
+02-27 16:55:12.827 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_2_1772182416477 (剩余: 0)
+02-27 16:55:12.828 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+02-27 16:55:12.829 D/BleProximity: ✅ Session 已释放
+02-27 16:55:12.830 D/BleProximity: ✅ 屏幕状态监听已注销
+02-27 16:55:12.840 D/BleProximity: ➖ 移除监听器: callback_2_1772182416475 
+02-27 16:55:12.842 D/BleProximity: ✅ 已移除回调: callback_2_1772182416475
+02-27 16:55:12.843 D/BleProximity: ✅ 资源清理完成
+02-27 16:55:12.844 D/BleProximity: ➕ 添加监听器: callback_3_1772182512844 (总数: 1)
+02-27 16:55:12.845 D/BleProximity: ✅ 初始化完成，回调ID: callback_3_1772182512844 ,DistanceMeters:-73.0
+02-27 16:55:12.845 D/BleProximity: 🚀 启动靠近解锁服务...
+02-27 16:55:12.855 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_3_1772182512855 (总数: 1)
+02-27 16:55:12.856 D/BleProximity: 🎫 Session 已获取: true
+02-27 16:55:12.856 D/BleProximity: ✅ 服务启动时，设备已处于连接状态
+02-27 16:55:12.869 D/BleProximity: ✅ 屏幕状态监听已注册
+02-27 16:55:13.093 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:13.094 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-27 16:55:13.400 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:13.401 D/BleProximity: 📊 正在收集信号样本: 2/5
+02-27 16:55:13.717 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:13.719 D/BleProximity: 📊 正在收集信号样本: 3/5
+02-27 16:55:14.025 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:14.027 D/BleProximity: 📊 正在收集信号样本: 4/5
+02-27 16:55:14.335 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:14.642 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:14.945 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:15.256 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:15.564 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:15.872 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:16.177 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:16.484 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:16.793 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:17.107 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:17.420 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:17.728 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:18.036 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:18.356 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:18.660 D/BleProximity: 📶 RSSI: -57
+02-27 16:55:18.973 D/BleProximity: 📶 RSSI: -58
+02-27 16:55:19.284 D/BleProximity: 📶 RSSI: -57
+02-27 16:55:19.591 D/BleProximity: 📶 RSSI: -58
+02-27 16:55:19.894 D/BleProximity: 📶 RSSI: -58
+02-27 16:55:20.203 D/BleProximity: 📶 RSSI: -59
+02-27 16:55:20.523 D/BleProximity: 📶 RSSI: -59
+02-27 16:55:20.830 D/BleProximity: 📶 RSSI: -59
+02-27 16:55:21.143 D/BleProximity: 📶 RSSI: -60
+02-27 16:55:21.457 D/BleProximity: 📶 RSSI: -60
+02-27 16:55:21.769 D/BleProximity: 📶 RSSI: -61
+02-27 16:55:22.074 D/BleProximity: 📶 RSSI: -61
+02-27 16:55:22.389 D/BleProximity: 📶 RSSI: -61
+02-27 16:55:22.703 D/BleProximity: 📶 RSSI: -61
+02-27 16:55:23.016 D/BleProximity: 📶 RSSI: -60
+02-27 16:55:23.329 D/BleProximity: 📶 RSSI: -61
+02-27 16:55:23.644 D/BleProximity: 📶 RSSI: -59
+02-27 16:55:23.957 D/BleProximity: 📶 RSSI: -58
+02-27 16:55:24.268 D/BleProximity: 📶 RSSI: -60
+02-27 16:55:24.582 D/BleProximity: 📶 RSSI: -60
+02-27 16:55:24.897 D/BleProximity: 📶 RSSI: -60
+02-27 16:55:25.214 D/BleProximity: 📶 RSSI: -60
+02-27 16:55:25.520 D/BleProximity: 📶 RSSI: -60
+02-27 16:55:25.828 D/BleProximity: 📶 RSSI: -59
+02-27 16:55:26.142 D/BleProximity: 📶 RSSI: -59
+02-27 16:55:26.446 D/BleProximity: 📶 RSSI: -60
+02-27 16:55:26.760 D/BleProximity: 📶 RSSI: -59
+02-27 16:55:27.067 D/BleProximity: 📶 RSSI: -62
+02-27 16:55:27.378 D/BleProximity: 📶 RSSI: -60
+02-27 16:55:27.690 D/BleProximity: 📶 RSSI: -59
+02-27 16:55:27.998 D/BleProximity: 📶 RSSI: -59
+02-27 16:55:28.318 D/BleProximity: 📶 RSSI: -58
+02-27 16:55:28.628 D/BleProximity: 📶 RSSI: -57
+02-27 16:55:28.942 D/BleProximity: 📶 RSSI: -62
+02-27 16:55:29.248 D/BleProximity: 📶 RSSI: -61
+02-27 16:55:29.565 D/BleProximity: 📶 RSSI: -60
+02-27 16:55:29.875 D/BleProximity: 📶 RSSI: -59
+02-27 16:55:30.179 D/BleProximity: 📶 RSSI: -58
+02-27 16:55:30.492 D/BleProximity: 📶 RSSI: -58
+02-27 16:55:30.814 D/BleProximity: 📶 RSSI: -60
+02-27 16:55:31.123 D/BleProximity: 📶 RSSI: -57
+02-27 16:55:31.422 D/BleProximity: 📶 RSSI: -61
+02-27 16:55:31.745 D/BleProximity: 📶 RSSI: -53
+02-27 16:55:32.067 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:32.382 D/BleProximity: 📶 RSSI: -58
+02-27 16:55:32.756 D/BleProximity: 📶 RSSI: -53
+02-27 16:55:33.059 D/BleProximity: 📶 RSSI: -54
+02-27 16:55:33.381 D/BleProximity: 📶 RSSI: -52
+02-27 16:55:33.683 D/BleProximity: 📶 RSSI: -57
+02-27 16:55:34.000 D/BleProximity: 📶 RSSI: -57
+02-27 16:55:34.305 D/BleProximity: 📶 RSSI: -58
+02-27 16:55:34.615 D/BleProximity: 📶 RSSI: -58
+02-27 16:55:34.930 D/BleProximity: 📶 RSSI: -59
+02-27 16:55:35.237 D/BleProximity: 📶 RSSI: -58
+02-27 16:55:35.551 D/BleProximity: 📶 RSSI: -58
+02-27 16:55:35.864 D/BleProximity: 📶 RSSI: -59
+02-27 16:55:35.865 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-27 16:55:35.866 D/BleProximity: 原因: 信号均值(-58) > 阈值(-73.0) 
+02-27 16:55:35.867 D/BleProximity: 📤 发送指令: 解锁车门
+02-27 16:55:35.907 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 323338363531613765353131
+02-27 16:55:35.908 D/BleProximity: 🔐 处理认证挑战: 323338363531613765353131
+02-27 16:55:36.175 D/BleProximity: 📶 RSSI: -59
+02-27 16:55:36.490 D/BleProximity: 📶 RSSI: -59
+02-27 16:55:36.627 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+02-27 16:55:36.629 D/BleProximity: 解锁成功
+02-27 16:55:36.630 D/BleProximity: 📊 指令出队: 解锁车门 -> SUCCESS
+02-27 16:55:36.630 D/BleProximity: 🔓 解锁结果: SUCCESS
+02-27 16:55:36.630 D/BleProximity: 🔄 同步状态: 车辆已解锁
+02-27 16:55:36.640 D/BleProximity: 🔗 链式触发: 120秒打火
+02-27 16:55:36.795 D/BleProximity: 📶 RSSI: -60
+02-27 16:55:36.796 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-27 16:55:37.106 D/BleProximity: 📶 RSSI: -60
+02-27 16:55:37.108 D/BleProximity: 📊 正在收集信号样本: 2/5
+02-27 16:55:37.148 D/BleProximity: 📤 发送指令: 120秒打火
+02-27 16:55:37.194 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 616238613031323234656339
+02-27 16:55:37.195 D/BleProximity: 🔐 处理认证挑战: 616238613031323234656339
+02-27 16:55:37.413 D/BleProximity: 📶 RSSI: -59
+02-27 16:55:37.414 D/BleProximity: 📊 正在收集信号样本: 3/5
+02-27 16:55:37.720 D/BleProximity: 📶 RSSI: -59
+02-27 16:55:37.724 D/BleProximity: 📊 正在收集信号样本: 4/5
+02-27 16:55:38.025 D/BleProximity: 📶 RSSI: -60
+02-27 16:55:38.336 D/BleProximity: 📶 RSSI: -59
+02-27 16:55:38.653 D/BleProximity: 📶 RSSI: -58
+02-27 16:55:38.962 D/BleProximity: 📶 RSSI: -58
+02-27 16:55:39.280 D/BleProximity: 📶 RSSI: -60
+02-27 16:55:39.587 D/BleProximity: 📶 RSSI: -59
+02-27 16:55:39.895 D/BleProximity: 📶 RSSI: -59
+02-27 16:55:40.167 D/BleProximity: ℹ️ 打火指令已发送（协议无成功返回值），默认视为成功
+02-27 16:55:40.167 D/BleProximity: 📊 指令出队: 120秒打火 -> SUCCESS
+02-27 16:55:40.201 D/BleProximity: 📶 RSSI: -58
+02-27 16:55:40.522 D/BleProximity: 📶 RSSI: -58
+02-27 16:55:40.823 D/BleProximity: 📶 RSSI: -57
+02-27 16:55:41.131 D/BleProximity: 📶 RSSI: -58
+02-27 16:55:41.436 D/BleProximity: 📶 RSSI: -57
+02-27 16:55:41.742 D/BleProximity: 📶 RSSI: -57
+02-27 16:55:42.061 D/BleProximity: 📶 RSSI: -57
+02-27 16:55:42.366 D/BleProximity: 📶 RSSI: -59
+02-27 16:55:42.682 D/BleProximity: 📶 RSSI: -61
+02-27 16:55:43.020 D/BleProximity: 📶 RSSI: -58
+02-27 16:55:43.334 D/BleProximity: 📶 RSSI: -58
+02-27 16:55:43.638 D/BleProximity: 📶 RSSI: -58
+02-27 16:55:43.956 D/BleProximity: 📶 RSSI: -60
+02-27 16:55:44.259 D/BleProximity: 📶 RSSI: -62
+02-27 16:55:44.566 D/BleProximity: 📶 RSSI: -61
+02-27 16:55:44.874 D/BleProximity: 📶 RSSI: -64
+02-27 16:55:45.181 D/BleProximity: 📶 RSSI: -66
+02-27 16:55:45.491 D/BleProximity: 📶 RSSI: -64
+02-27 16:55:45.805 D/BleProximity: 📶 RSSI: -64
+02-27 16:55:46.116 D/BleProximity: 📶 RSSI: -65
+02-27 16:55:46.422 D/BleProximity: 📶 RSSI: -64
+02-27 16:55:46.732 D/BleProximity: 📶 RSSI: -64
+02-27 16:55:47.034 D/BleProximity: 📶 RSSI: -62
+02-27 16:55:47.353 D/BleProximity: 📶 RSSI: -60
+02-27 16:55:47.654 D/BleProximity: 📶 RSSI: -59
+02-27 16:55:47.968 D/BleProximity: 📶 RSSI: -60
+02-27 16:55:48.279 D/BleProximity: 📶 RSSI: -60
+02-27 16:55:48.590 D/BleProximity: 📶 RSSI: -60
+02-27 16:55:48.899 D/BleProximity: 📶 RSSI: -59
+02-27 16:55:49.201 D/BleProximity: 📶 RSSI: -60
+02-27 16:55:49.328 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 213ms) ──────
+02-27 16:55:49.328 D/MG_NET_LOG: │ URL: https://gitee.com/api/v5/repos/yangyachao-X/mg-linker/releases/latest
+02-27 16:55:49.328 D/MG_NET_LOG: │ Method: GET
+02-27 16:55:49.328 D/MG_NET_LOG: │ Header: Authorization: token 387f0d958834d479dcdc778fcf2ae326
+02-27 16:55:49.329 D/MG_NET_LOG: │ Params: (无 Body 参数)
+02-27 16:55:49.329 D/MG_NET_LOG: ├────── Response Result ──────
+02-27 16:55:49.329 D/MG_NET_LOG: │ Result: {"id":582216,"tag_name":"6.1","target_commitish":"2bdb9c50ad494488f9016cd38f540be832581d2d","prerelease":false,"name":"修复BUG","body":"1.修复远程锁车关窗BUG\r\n2.修复控车组件转圈BUG","author":{"id":8784824,"login":"yangyachao-X","name":"YangYachao","avatar_url":"https://foruda.gitee.com/avatar/1677149462712290355/8784824_yangyachao-x_1645510740.png","url":"https://gitee.com/api/v5/users/yangyachao-X","html_url":"https://gitee.com/yangyachao-X","remark":"","followers_url":"https://gitee.com/api/v5/users/yangyachao-X/followers","following_url":"https://gitee.com/api/v5/users/yangyachao-X/following_url{/other_user}","gists_url":"https://gitee.com/api/v5/users/yangyachao-X/gists{/gist_id}","starred_url":"https://gitee.com/api/v5/users/yangyachao-X/starred{/owner}{/repo}","subscriptions_url":"https://gitee.com/api/v5/users/yangyachao-X/subscriptions","organizations_url":"https://gitee.com/api/v5/users/yangyachao-X/orgs","repos_url":"https://gitee.com/api/v5/users/yangyachao-X/repos","events_url":"https://gitee.com/api/v5/users/yangyachao-X/events{/privacy}","received_events_url":"https://gitee.com/api/v5/users/yangyachao-X/received_events","type":"User"},"created_at":"2026-02-27T11:03:23+08:00","assets":[{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/releases/download/6.1/MG%20Linker.apk","name":"MG Linker.apk"},{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/archive/refs/tags/6.1.zip","name":"6.1.zip"},{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/archive/refs/tags/6.1.tar.gz","name":"6.1.tar.gz"}]}
+02-27 16:55:49.329 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 16:55:49.503 D/BleProximity: 📶 RSSI: -60
+02-27 16:55:49.809 D/BleProximity: 📶 RSSI: -60
+02-27 16:55:50.111 D/BleProximity: 📶 RSSI: -57
+02-27 16:55:50.417 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:50.725 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:51.044 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:51.359 D/BleProximity: 📶 RSSI: -53
+02-27 16:55:51.678 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:51.979 D/BleProximity: 📶 RSSI: -53
+02-27 16:55:52.283 D/BleProximity: 📶 RSSI: -54
+02-27 16:55:52.583 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:52.894 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:53.201 D/BleProximity: 📶 RSSI: -53
+02-27 16:55:53.507 D/BleProximity: 📶 RSSI: -57
+02-27 16:55:53.808 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:54.116 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:54.420 D/BleProximity: 📶 RSSI: -55
+02-27 16:55:54.726 D/BleProximity: 📶 RSSI: -56
+02-27 16:55:55.029 D/BleProximity: 📶 RSSI: -57
+02-27 16:55:55.332 D/BleProximity: 📶 RSSI: -58
+02-27 16:55:55.637 D/BleProximity: 📶 RSSI: -59
