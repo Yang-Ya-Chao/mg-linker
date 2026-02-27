@@ -1,0 +1,45 @@
+--- Log Capture Start: 20260227_195945 ---
+02-27 19:44:51.117 D/MGWidget: onUpdate called for IDs: 51
+02-27 19:44:51.122 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+02-27 19:44:51.181 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-27 19:44:51.254 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 66ms) ──────
+02-27 19:44:51.255 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-27 19:44:51.257 D/MG_NET_LOG: │ Method: POST
+02-27 19:44:51.259 D/MG_NET_LOG: │ Header: app-type: roewe
+02-27 19:44:51.262 D/MG_NET_LOG: │ Header: timestamp: 1772192691187
+02-27 19:44:51.263 D/MG_NET_LOG: │ Header: sign: 4RRG2Faiu1T6p9k/z/kZaVCLouJ5QvmMLeQr/124rGA=
+02-27 19:44:51.264 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6369SZ686408","appId":"Roewe","brandCode":"1","nonce":"5C5038B79BCED0F60196EE3FEDAFA2E9","timestamp":"1772192691185","token":"a6e2a558068f4cfc857f6dc9131780da-prod_SAIC"}
+02-27 19:44:51.265 D/MG_NET_LOG: ├────── Response Result ──────
+02-27 19:44:51.267 D/MG_NET_LOG: │ Result: {"req_id":"19c9eea7470280c34d5","err_resp":{"msg":"登录态失效，请重新登录","code":"14101","desc":"登录态失效，请重新登录"}}
+02-27 19:44:51.267 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 19:44:51.269 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: null
+02-27 19:44:51.270 D/WidgetUpdateWorker: Starting update loop for 2 widget types
+02-27 19:44:51.271 D/MGWidget: updateWidgetSynchronously called for ID: 51
+02-27 19:44:53.662 D/MGWidget: onReceive called with action: com.my.mg.ACTION_REFRESH
+02-27 19:44:53.709 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+02-27 19:44:53.772 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 57ms) ──────
+02-27 19:44:53.774 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/requestVehicleStatus
+02-27 19:44:53.779 D/MG_NET_LOG: │ Method: POST
+02-27 19:44:53.780 D/MG_NET_LOG: │ Header: app-type: roewe
+02-27 19:44:53.781 D/MG_NET_LOG: │ Header: timestamp: 1772192693713
+02-27 19:44:53.781 D/MG_NET_LOG: │ Header: sign: 24QHUk3gOKZRcXQezBAWG5kKg3plSsfLTLE-Gq2XiC8
+02-27 19:44:53.781 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6369SZ686408","appId":"Roewe","brandCode":"1","nonce":"47F575ED9774D17FDEDD897B2CD45B75","timestamp":"1772192693711","token":"a6e2a558068f4cfc857f6dc9131780da-prod_SAIC"}
+02-27 19:44:53.783 D/MG_NET_LOG: ├────── Response Result ──────
+02-27 19:44:53.788 D/MG_NET_LOG: │ Result: {"req_id":"19c9eea7e44e5432e1","err_resp":{"msg":"登录态失效，请重新登录","code":"14101","desc":"登录态失效，请重新登录"}}
+02-27 19:44:53.789 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 19:44:54.094 D/BleProximity: ⌛ 扫描周期结束(30s)，未发现设备
+02-27 19:44:54.096 D/BleProximity: ⏹️ 停止扫描
+02-27 19:44:54.111 D/BleProximity: 🔄 仍有活跃 Session，将在 120 秒后重新扫描...
+02-27 19:44:56.873 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 65ms) ──────
+02-27 19:44:56.874 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+02-27 19:44:56.875 D/MG_NET_LOG: │ Method: POST
+02-27 19:44:56.875 D/MG_NET_LOG: │ Header: app-type: roewe
+02-27 19:44:56.878 D/MG_NET_LOG: │ Header: timestamp: 1772192696806
+02-27 19:44:56.879 D/MG_NET_LOG: │ Header: sign: bgw7QiTY/xCP1WI7KEri3BCZm/Wt7NeyW5jYbXECVzo=
+02-27 19:44:56.881 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6369SZ686408","appId":"Roewe","brandCode":"1","nonce":"507B881BA93DC2BA991C4DA9339B14EC","timestamp":"1772192696804","token":"a6e2a558068f4cfc857f6dc9131780da-prod_SAIC"}
+02-27 19:44:56.882 D/MG_NET_LOG: ├────── Response Result ──────
+02-27 19:44:56.883 D/MG_NET_LOG: │ Result: {"req_id":"19c9eea8a666ffa4ade","err_resp":{"msg":"登录态失效，请重新登录","code":"14101","desc":"登录态失效，请重新登录"}}
+02-27 19:44:56.883 D/MG_NET_LOG: └──────────────────────────────────────────────────
+02-27 19:44:56.887 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: null
+02-27 19:44:56.889 D/WidgetUpdateWorker: Starting update loop for 2 widget types
+02-27 19:44:56.891 D/MGWidget: updateWidgetSynchronously called for ID: 51
