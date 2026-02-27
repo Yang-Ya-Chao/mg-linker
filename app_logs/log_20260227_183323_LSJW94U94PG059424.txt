@@ -1,0 +1,58 @@
+--- Log Capture Start: 20260227_183323 ---
+02-27 18:33:13.968 D/BleProximity: ⚠️ 车端不支持characteristicDeviceCharacterRead
+02-27 18:33:13.969 D/BleProximity: ⚠️ 车端不支持characteristicDeviceCharacterWrite
+02-27 18:33:13.970 D/BleProximity: ✅ 特征初始化完成
+02-27 18:33:13.991 D/BleProximity: MTU 生效: 65
+02-27 18:33:13.992 D/BleProximity: 🔐 开始认证流程
+02-27 18:33:13.995 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+02-27 18:33:14.001 D/BleProximity: 🔔 启用通知: 23a8, 结果: true
+02-27 18:33:14.002 D/BleProximity: 🔔 启用通知: 267e, 结果: true
+02-27 18:33:14.004 D/BleProximity: 🔔 启用通知: 71ed, 结果: true
+02-27 18:33:14.006 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+02-27 18:33:14.008 D/BleProximity: 🔔 启用通知: 9d21, 结果: true
+02-27 18:33:14.509 D/BleProximity: 📤 准备发送Booking ID: 01A6BEAE (进入串行队列)
+02-27 18:33:16.234 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 303537336131376338623132
+02-27 18:33:16.235 D/BleProximity: 🔐 处理认证挑战: 303537336131376338623132
+02-27 18:33:16.782 D/BleProximity: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3031
+02-27 18:33:16.785 D/BleProximity: ✅ 认证成功
+02-27 18:33:16.787 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 1, Session: 1)
+02-27 18:33:16.788 D/BleProximity: 📡 连接状态: AUTHENTICATED (isConnected: true)
+02-27 18:33:16.800 D/BleProximity: 📶 RSSI: -65
+02-27 18:33:16.801 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-27 18:33:17.108 D/BleProximity: 📶 RSSI: -65
+02-27 18:33:17.110 D/BleProximity: 📊 正在收集信号样本: 2/5
+02-27 18:33:17.407 D/BleProximity: 📶 RSSI: -65
+02-27 18:33:17.408 D/BleProximity: 📊 正在收集信号样本: 3/5
+02-27 18:33:17.716 D/BleProximity: 📶 RSSI: -64
+02-27 18:33:17.718 D/BleProximity: 📊 正在收集信号样本: 4/5
+02-27 18:33:18.020 D/BleProximity: 📶 RSSI: -65
+02-27 18:33:18.022 D/BleProximity: 🔓 >>> 触发解锁 <<<
+02-27 18:33:18.024 D/BleProximity: 原因: 信号均值(-64) > 阈值(-87.0) 
+02-27 18:33:18.025 D/BleProximity: 📤 发送指令: 解锁车门
+02-27 18:33:18.071 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 383332373734666532353439
+02-27 18:33:18.073 D/BleProximity: 🔐 处理认证挑战: 383332373734666532353439
+02-27 18:33:18.325 D/BleProximity: 📶 RSSI: -65
+02-27 18:33:18.640 D/BleProximity: 📶 RSSI: -65
+02-27 18:33:18.938 D/BleProximity: 📶 RSSI: -64
+02-27 18:33:19.240 D/BleProximity: 📶 RSSI: -64
+02-27 18:33:19.377 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+02-27 18:33:19.389 D/BleProximity: 解锁成功
+02-27 18:33:19.391 D/BleProximity: 📊 指令出队: 解锁车门 -> SUCCESS
+02-27 18:33:19.391 D/BleProximity: 🔓 解锁结果: SUCCESS
+02-27 18:33:19.392 D/BleProximity: 🔄 同步状态: 车辆已解锁
+02-27 18:33:19.407 D/BleProximity: 🔗 链式触发: 120秒打火
+02-27 18:33:19.545 D/BleProximity: 📶 RSSI: -64
+02-27 18:33:19.547 D/BleProximity: 📊 正在收集信号样本: 1/5
+02-27 18:33:19.849 D/BleProximity: 📶 RSSI: -64
+02-27 18:33:19.851 D/BleProximity: 📊 正在收集信号样本: 2/5
+02-27 18:33:19.909 D/BleProximity: 📤 发送指令: 120秒打火
+02-27 18:33:19.961 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 306636643666306236383032
+02-27 18:33:19.964 D/BleProximity: 🔐 处理认证挑战: 306636643666306236383032
+02-27 18:33:20.157 D/BleProximity: 📶 RSSI: -64
+02-27 18:33:20.158 D/BleProximity: 📊 正在收集信号样本: 3/5
+02-27 18:33:20.462 D/BleProximity: 📶 RSSI: -65
+02-27 18:33:20.464 D/BleProximity: 📊 正在收集信号样本: 4/5
+02-27 18:33:20.766 D/BleProximity: 📶 RSSI: -66
+02-27 18:33:21.071 D/BleProximity: 📶 RSSI: -66
+02-27 18:33:21.372 D/BleProximity: 📶 RSSI: -65
+02-27 18:33:21.678 D/BleProximity: 📶 RSSI: -66
