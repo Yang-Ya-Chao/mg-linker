@@ -1,3 +1,0 @@
---- Log Capture Start: 20260301_091414 ---
-03-01 09:14:06.566 D/BleProximity: 🔍 开始扫描
-03-01 09:14:06.568 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
