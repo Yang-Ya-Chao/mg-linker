@@ -1,0 +1,13 @@
+--- Log Capture Start: 20260302_095152 ---
+03-02 09:51:35.042 D/ControlActivity: ➕ 添加监听器: callback_1_1772416295042 (总数: 1)
+03-02 09:51:36.109 D/ControlActivity: ➖ 移除监听器: callback_1_1772416295042 
+03-02 09:51:36.109 E/MG_NET_LOG: ┌────── HTTP Request Failed (1079ms) ──────
+03-02 09:51:36.110 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 09:51:36.110 E/MG_NET_LOG: │ Method: POST
+03-02 09:51:36.110 E/MG_NET_LOG: │ Header: app-type: roewe
+03-02 09:51:36.113 E/MG_NET_LOG: │ Header: timestamp: 1772416295029
+03-02 09:51:36.113 E/MG_NET_LOG: │ Header: sign: kq/HMbKhC48YCvGtyoB9sE+OEcD7r2jzU1KIw7i1KqI=
+03-02 09:51:36.114 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6390PZ860495","appId":"Roewe","brandCode":"1","nonce":"54822B665A8846FE56A41A35B1ACF32D","timestamp":"1772416295027","token":"75ddba1eb8224e7096bb3fe973e5abae-prod_SAIC"}
+03-02 09:51:36.114 E/MG_NET_LOG: ├────── Exception ──────
+03-02 09:51:36.115 E/MG_NET_LOG: │ ❌ 异常: Canceled
+03-02 09:51:36.115 E/MG_NET_LOG: └──────────────────────────────────────────────────
