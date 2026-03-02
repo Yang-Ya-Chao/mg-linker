@@ -1,0 +1,1001 @@
+--- Log Capture Start: 20260303_073640 ---
+03-02 13:34:02.793 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 13:34:02.793 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 14:04:01.936 D/MGWidget: onUpdate called for IDs: 608
+03-02 14:04:01.970 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-02 14:04:02.109 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 14:04:02.114 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 14:04:03.065 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 939ms) ──────
+03-02 14:04:03.069 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 14:04:03.070 D/MG_NET_LOG: │ Method: POST
+03-02 14:04:03.070 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 14:04:03.071 D/MG_NET_LOG: │ Header: timestamp: 1772431442123
+03-02 14:04:03.073 D/MG_NET_LOG: │ Header: sign: uxeosvm6rCxyou8NX4IvGYeLbtdXFfKTgBGmOIgKxK0=
+03-02 14:04:03.074 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"F996D92F5859AA95EFA7BEBE1929E867","timestamp":"1772431442110","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 14:04:03.074 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 14:04:03.075 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cad257f87f5c20b3f","data":{"vehicle_position":{"satellites":4,"altitude":28,"latitude":"23.597047","gps_status":2,"update_time":1772430699000,"gps_time":1772431302000,"hdop":8,"longitude":"113.063456"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":268,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":39,"power_mode":0,"engine_status":0,"exterior_temperature":21,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7928,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":276,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":272,"battery_pack_prc":312,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1275,"pwr_lftgt_pos_v":null,"interior_temperature":22,"localfront_right_seat_heat_level":null,"heading":230,"battery_alarm_value":[50,200,500],"update_time":1772425773000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":268,"vehicle_battery_prc":948,"battery_type":0,"fuel_level_disp":2,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1772430697000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772425773000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_win
+03-02 14:04:03.076 D/MG_NET_LOG: │ Result(Part 2): dow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 14:04:03.076 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 14:04:03.077 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 951ms) ──────
+03-02 14:04:03.077 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 14:04:03.078 D/MG_NET_LOG: │ Method: POST
+03-02 14:04:03.078 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 14:04:03.079 D/MG_NET_LOG: │ Header: timestamp: 1772431442116
+03-02 14:04:03.079 D/MG_NET_LOG: │ Header: sign: 2uu1/vYwYa7t325lwRn0OXusM03neHldo6KObXDL9dg=
+03-02 14:04:03.081 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"38CED45900C7499CEB7B797B6F6DD5BE","timestamp":"1772431442115","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 14:04:03.081 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 14:04:03.082 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cad257f85fe99ca8c","data":{"vehicle_position":{"satellites":4,"altitude":28,"latitude":"23.597047","gps_status":2,"update_time":1772430699000,"gps_time":1772431302000,"hdop":8,"longitude":"113.063456"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":268,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":39,"power_mode":0,"engine_status":0,"exterior_temperature":21,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7928,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":276,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":272,"battery_pack_prc":312,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1275,"pwr_lftgt_pos_v":null,"interior_temperature":22,"localfront_right_seat_heat_level":null,"heading":230,"battery_alarm_value":[50,200,500],"update_time":1772425773000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":268,"vehicle_battery_prc":948,"battery_type":0,"fuel_level_disp":2,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1772430697000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772425773000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_win
+03-02 14:04:03.082 D/MG_NET_LOG: │ Result(Part 2): dow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 14:04:03.083 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 14:04:03.089 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区清花二路285号
+03-02 14:04:03.089 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 14:04:03.089 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区清花二路285号
+03-02 14:04:03.090 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 14:04:03.090 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 14:04:03.090 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 14:34:01.867 D/MGWidget: onUpdate called for IDs: 608
+03-02 14:34:01.873 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-02 14:34:01.960 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 14:34:02.923 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 956ms) ──────
+03-02 14:34:02.925 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 14:34:02.926 D/MG_NET_LOG: │ Method: POST
+03-02 14:34:02.926 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 14:34:02.927 D/MG_NET_LOG: │ Header: timestamp: 1772433241965
+03-02 14:34:02.929 D/MG_NET_LOG: │ Header: sign: ES87HgKNpWhU6d1OkKPjCj4I/NEM5Bx1KfI7JeIYKSw=
+03-02 14:34:02.930 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"EC9EED892F592D1F1D5C0D086A47EF32","timestamp":"1772433241962","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 14:34:02.930 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 14:34:02.934 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cad40f646a2f6588","data":{"vehicle_position":{"satellites":9,"altitude":31,"latitude":"23.600141","gps_status":2,"update_time":1772431583000,"gps_time":1772433236000,"hdop":6,"longitude":"113.063963"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":268,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":39,"power_mode":0,"engine_status":0,"exterior_temperature":21,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7928,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":276,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":272,"battery_pack_prc":312,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1275,"pwr_lftgt_pos_v":null,"interior_temperature":22,"localfront_right_seat_heat_level":null,"heading":318,"battery_alarm_value":[50,200,500],"update_time":1772425773000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":268,"vehicle_battery_prc":948,"battery_type":0,"fuel_level_disp":2,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1772431581000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772425773000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_wind
+03-02 14:34:02.935 D/MG_NET_LOG: │ Result(Part 2): ow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 14:34:02.935 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 14:34:02.949 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区新龙一街73号
+03-02 14:34:02.950 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 14:34:02.950 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 14:34:03.183 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 14:34:03.750 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 562ms) ──────
+03-02 14:34:03.753 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 14:34:03.755 D/MG_NET_LOG: │ Method: POST
+03-02 14:34:03.756 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 14:34:03.757 D/MG_NET_LOG: │ Header: timestamp: 1772433243186
+03-02 14:34:03.758 D/MG_NET_LOG: │ Header: sign: xEuwTVG0rKIHCVVdAM3Tf09w3UWlgxOK3/RiBrgJEyU=
+03-02 14:34:03.760 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"558A39E79408EB278F459D4CFF359DFE","timestamp":"1772433243185","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 14:34:03.760 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 14:34:03.761 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cad40f9ea5e6464dd","data":{"vehicle_position":{"satellites":9,"altitude":31,"gps_status":2,"latitude":"23.600141","update_time":1772431583000,"gps_time":1772433236000,"hdop":6,"longitude":"113.063963"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":268,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":39,"power_mode":0,"engine_status":0,"exterior_temperature":21,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7928,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":276,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":272,"battery_pack_prc":312,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1275,"pwr_lftgt_pos_v":null,"interior_temperature":22,"localfront_right_seat_heat_level":null,"heading":318,"battery_alarm_value":[50,200,500],"update_time":1772425773000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":268,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":948,"fuel_level_disp":2,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1772431581000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772425773000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_win
+03-02 14:34:03.762 D/MG_NET_LOG: │ Result(Part 2): dow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 14:34:03.763 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 14:34:03.770 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区新龙一街73号
+03-02 14:34:03.771 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 14:34:03.774 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 15:04:03.501 D/MGWidget: onUpdate called for IDs: 608
+03-02 15:04:03.503 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-02 15:04:03.565 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 15:04:03.569 E/MG_NET_LOG: ┌────── HTTP Request Failed (2ms) ──────
+03-02 15:04:03.570 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 15:04:03.571 E/MG_NET_LOG: │ Method: POST
+03-02 15:04:03.571 E/MG_NET_LOG: │ Header: app-type: roewe
+03-02 15:04:03.572 E/MG_NET_LOG: │ Header: timestamp: 1772435043566
+03-02 15:04:03.572 E/MG_NET_LOG: │ Header: sign: 6vckJ9tb/QfcAD55W6ugkbHI/WlItB1T3oBPlkq3TLw=
+03-02 15:04:03.573 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"D5F910DB7D5A38A314D0F91AC7819BF2","timestamp":"1772435043566","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 15:04:03.574 E/MG_NET_LOG: ├────── Exception ──────
+03-02 15:04:03.574 E/MG_NET_LOG: │ ❌ 异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+03-02 15:04:03.574 E/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 15:04:03.575 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+03-02 15:04:03.576 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 15:04:03.577 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 15:14:06.676 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 15:14:07.586 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 903ms) ──────
+03-02 15:14:07.589 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 15:14:07.589 D/MG_NET_LOG: │ Method: POST
+03-02 15:14:07.590 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 15:14:07.592 D/MG_NET_LOG: │ Header: timestamp: 1772435646681
+03-02 15:14:07.593 D/MG_NET_LOG: │ Header: sign: zmHvBSurvvzSzMpCrK1qf2mcVGwESdrYFgTwbV8RQG0=
+03-02 15:14:07.594 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"C09F5A590ADE0048BE282B493F68296B","timestamp":"1772435646678","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 15:14:07.595 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 15:14:07.596 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cad65a7d8bb7af0ad","data":{"vehicle_position":{"satellites":6,"altitude":25,"gps_status":2,"latitude":"23.600140","update_time":1772431583000,"gps_time":1772435636000,"hdop":5,"longitude":"113.063896"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":268,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":39,"power_mode":0,"engine_status":0,"exterior_temperature":21,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7928,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":276,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":272,"battery_pack_prc":312,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1275,"pwr_lftgt_pos_v":null,"interior_temperature":22,"localfront_right_seat_heat_level":null,"heading":318,"battery_alarm_value":[50,200,500],"update_time":1772425773000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":268,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":948,"fuel_level_disp":2,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1772431581000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772425773000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_win
+03-02 15:14:07.597 D/MG_NET_LOG: │ Result(Part 2): dow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 15:14:07.598 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 15:14:07.616 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区新龙一街73号
+03-02 15:14:07.616 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 15:14:07.617 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 15:36:00.672 D/MGWidget: onUpdate called for IDs: 608
+03-02 15:36:00.682 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-02 15:36:00.773 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 15:36:01.826 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1047ms) ──────
+03-02 15:36:01.827 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 15:36:01.827 D/MG_NET_LOG: │ Method: POST
+03-02 15:36:01.827 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 15:36:01.831 D/MG_NET_LOG: │ Header: timestamp: 1772436960777
+03-02 15:36:01.831 D/MG_NET_LOG: │ Header: sign: rn06vosFVFPWL9gDykGZ/Ev9+cphja7bFs3qOtPTDXo=
+03-02 15:36:01.831 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"F6FB155DB3AB93064083A1435B417A7B","timestamp":"1772436960774","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 15:36:01.831 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 15:36:01.832 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cad79b526b551d4d8","data":{"vehicle_position":{"satellites":6,"altitude":24,"latitude":"23.600120","gps_status":2,"update_time":1772431583000,"gps_time":1772436956000,"hdop":7,"longitude":"113.063921"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":268,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":39,"power_mode":0,"engine_status":0,"exterior_temperature":21,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7928,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":276,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":272,"battery_pack_prc":312,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1275,"pwr_lftgt_pos_v":null,"interior_temperature":22,"localfront_right_seat_heat_level":null,"heading":318,"battery_alarm_value":[50,200,500],"update_time":1772425773000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":268,"vehicle_battery_prc":948,"battery_type":0,"fuel_level_disp":2,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1772431581000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772425773000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_win
+03-02 15:36:01.832 D/MG_NET_LOG: │ Result(Part 2): dow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 15:36:01.832 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 15:36:01.850 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区新龙一街73号
+03-02 15:36:01.850 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 15:36:01.851 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 15:44:28.567 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 15:44:29.576 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1003ms) ──────
+03-02 15:44:29.577 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 15:44:29.578 D/MG_NET_LOG: │ Method: POST
+03-02 15:44:29.578 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 15:44:29.578 D/MG_NET_LOG: │ Header: timestamp: 1772437468571
+03-02 15:44:29.580 D/MG_NET_LOG: │ Header: sign: 77nu+KeUP2IKR2UuOcJ3kqpeGuLUyrONv+PVN7Mb3wo=
+03-02 15:44:29.581 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"3E4D387D82D5DEFB41D5FE9DA219E0D9","timestamp":"1772437468569","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 15:44:29.581 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 15:44:29.582 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cad817476447b7670","data":{"vehicle_position":{"satellites":5,"altitude":24,"gps_status":2,"latitude":"23.600042","update_time":1772437173000,"gps_time":1772437290000,"hdop":6,"longitude":"113.064003"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7928,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":262,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":260,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":968,"fuel_level_disp":2,"monitor_status":null,"battery_type":1,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1772437171000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_win
+03-02 15:44:29.583 D/MG_NET_LOG: │ Result(Part 2): dow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 15:44:29.583 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 15:44:29.594 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区新龙一街73号
+03-02 15:44:29.595 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 15:44:29.596 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 16:04:01.864 D/MGWidget: onUpdate called for IDs: 608
+03-02 16:04:01.869 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-02 16:04:01.943 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 16:04:02.799 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 850ms) ──────
+03-02 16:04:02.800 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 16:04:02.801 D/MG_NET_LOG: │ Method: POST
+03-02 16:04:02.801 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 16:04:02.802 D/MG_NET_LOG: │ Header: timestamp: 1772438641946
+03-02 16:04:02.802 D/MG_NET_LOG: │ Header: sign: +e6Zm3ZgOwQuR+7+/y6IVWjJgjkBQvMhy1iyo4Osnro=
+03-02 16:04:02.803 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"03F308EE08E8620857DA097A94A35F18","timestamp":"1772438641945","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 16:04:02.803 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 16:04:02.803 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cad935bef79bceb9f","data":{"vehicle_position":{"satellites":5,"altitude":24,"gps_status":2,"latitude":"23.600042","update_time":1772437173000,"gps_time":1772437290000,"hdop":6,"longitude":"113.064003"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7928,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":262,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":260,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":968,"fuel_level_disp":2,"monitor_status":null,"battery_type":1,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1772437171000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_win
+03-02 16:04:02.804 D/MG_NET_LOG: │ Result(Part 2): dow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 16:04:02.804 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 16:04:02.816 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区新龙一街73号
+03-02 16:04:02.816 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 16:04:02.817 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 16:15:30.514 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 16:15:31.571 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1045ms) ──────
+03-02 16:15:31.574 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 16:15:31.575 D/MG_NET_LOG: │ Method: POST
+03-02 16:15:31.576 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 16:15:31.577 D/MG_NET_LOG: │ Header: timestamp: 1772439330522
+03-02 16:15:31.578 D/MG_NET_LOG: │ Header: sign: OrXu3O0NEqo/5kGNmqSYWWnBDUxlQ9ZGU+wQORm8Bcw=
+03-02 16:15:31.578 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"AFB5E3CAB103A44F675CDC8370763939","timestamp":"1772439330517","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 16:15:31.579 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 16:15:31.580 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cad9dddc38c5ef8a5","data":{"vehicle_position":{"satellites":5,"altitude":24,"gps_status":2,"latitude":"23.600042","update_time":1772437173000,"gps_time":1772437290000,"hdop":6,"longitude":"113.064003"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7928,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":262,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":260,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":968,"fuel_level_disp":2,"monitor_status":null,"battery_type":1,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1772437171000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_win
+03-02 16:15:31.580 D/MG_NET_LOG: │ Result(Part 2): dow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 16:15:31.581 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 16:15:31.595 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区新龙一街73号
+03-02 16:15:31.596 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 16:15:31.596 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 16:34:01.914 D/MGWidget: onUpdate called for IDs: 608
+03-02 16:34:01.919 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-02 16:34:01.992 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 16:34:03.095 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1096ms) ──────
+03-02 16:34:03.096 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 16:34:03.097 D/MG_NET_LOG: │ Method: POST
+03-02 16:34:03.097 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 16:34:03.098 D/MG_NET_LOG: │ Header: timestamp: 1772440441996
+03-02 16:34:03.098 D/MG_NET_LOG: │ Header: sign: 7FagtjYrqwWvW+rd5O0gpLC3Eoyg4YUOsr2za7EJtWQ=
+03-02 16:34:03.098 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"1D291EAD5D29F9DD567A42418B038310","timestamp":"1772440441995","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 16:34:03.098 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 16:34:03.098 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cadaed3efd6547a36","data":{"vehicle_position":{"satellites":5,"altitude":24,"latitude":"23.600042","gps_status":2,"update_time":1772437173000,"gps_time":1772437290000,"hdop":6,"longitude":"113.064003"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7928,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":262,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":260,"vehicle_battery_prc":968,"battery_type":1,"fuel_level_disp":2,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1772437171000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_win
+03-02 16:34:03.098 D/MG_NET_LOG: │ Result(Part 2): dow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 16:34:03.099 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 16:34:03.113 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区新龙一街73号
+03-02 16:34:03.113 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 16:34:03.114 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 16:47:02.163 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 16:47:03.213 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1034ms) ──────
+03-02 16:47:03.214 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 16:47:03.215 D/MG_NET_LOG: │ Method: POST
+03-02 16:47:03.215 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 16:47:03.216 D/MG_NET_LOG: │ Header: timestamp: 1772441222174
+03-02 16:47:03.216 D/MG_NET_LOG: │ Header: sign: Z+SzTWfzgtnNn0DqJzk1ClKUEp1Nsif3TL0A7M2qEXg=
+03-02 16:47:03.216 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"0F028BFCA2BFA6699DAE7254D703D4E7","timestamp":"1772441222169","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 16:47:03.217 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 16:47:03.217 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cadbabb0beb582af","data":{"vehicle_position":{"satellites":5,"altitude":24,"latitude":"23.600042","gps_status":2,"update_time":1772437173000,"gps_time":1772437290000,"hdop":6,"longitude":"113.064003"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7928,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":262,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":260,"vehicle_battery_prc":968,"battery_type":1,"fuel_level_disp":2,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1772437171000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_wind
+03-02 16:47:03.217 D/MG_NET_LOG: │ Result(Part 2): ow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 16:47:03.218 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 16:47:03.231 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区新龙一街73号
+03-02 16:47:03.231 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 16:47:03.232 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 17:04:01.901 D/MGWidget: onUpdate called for IDs: 608
+03-02 17:04:01.903 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-02 17:04:01.941 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 17:04:01.951 E/MG_NET_LOG: ┌────── HTTP Request Failed (3ms) ──────
+03-02 17:04:01.952 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 17:04:01.952 E/MG_NET_LOG: │ Method: POST
+03-02 17:04:01.952 E/MG_NET_LOG: │ Header: app-type: roewe
+03-02 17:04:01.953 E/MG_NET_LOG: │ Header: timestamp: 1772442241947
+03-02 17:04:01.954 E/MG_NET_LOG: │ Header: sign: XZtvvWfC5/Q0gkvOrxV/LJT4ApXC+4ZEux1xownIPuk=
+03-02 17:04:01.955 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"F9B69A7A7D47F5AE887405F4D80B02CB","timestamp":"1772442241945","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 17:04:01.955 E/MG_NET_LOG: ├────── Exception ──────
+03-02 17:04:01.956 E/MG_NET_LOG: │ ❌ 异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+03-02 17:04:01.956 E/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 17:04:01.957 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+03-02 17:04:01.958 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 17:04:01.971 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 17:18:07.450 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 17:18:08.489 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 981ms) ──────
+03-02 17:18:08.492 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 17:18:08.492 D/MG_NET_LOG: │ Method: POST
+03-02 17:18:08.492 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 17:18:08.492 D/MG_NET_LOG: │ Header: timestamp: 1772443087506
+03-02 17:18:08.493 D/MG_NET_LOG: │ Header: sign: O7bA8zPum7IkeNQdqK0fgV3dRfIPko3Jxch+kjl1MVQ=
+03-02 17:18:08.493 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"A4AFE00B6A44D5AB1728237072AC3CE3","timestamp":"1772443087497","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 17:18:08.493 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 17:18:08.493 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cadd7318aced9f541","data":{"vehicle_position":{"satellites":5,"altitude":24,"gps_status":2,"latitude":"23.600042","update_time":1772437173000,"gps_time":1772437290000,"hdop":6,"longitude":"113.064003"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7928,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":262,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":260,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":968,"fuel_level_disp":2,"monitor_status":null,"battery_type":1,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1772437171000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_win
+03-02 17:18:08.494 D/MG_NET_LOG: │ Result(Part 2): dow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 17:18:08.494 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 17:18:08.507 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区新龙一街73号
+03-02 17:18:08.508 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 17:18:08.509 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 17:34:02.669 D/MGWidget: onUpdate called for IDs: 608
+03-02 17:34:02.744 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-02 17:34:02.863 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 17:34:04.216 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1349ms) ──────
+03-02 17:34:04.218 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 17:34:04.218 D/MG_NET_LOG: │ Method: POST
+03-02 17:34:04.219 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 17:34:04.219 D/MG_NET_LOG: │ Header: timestamp: 1772444042865
+03-02 17:34:04.220 D/MG_NET_LOG: │ Header: sign: d47VhTR64F+PhPTz3hMFfr9kjBdoCDU73jNepmnc6Bg=
+03-02 17:34:04.220 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"EB0CD1CE17853691F0F4AF20550D4C7C","timestamp":"1772444042864","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 17:34:04.220 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 17:34:04.221 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cade5c61bd00a9eb2","data":{"vehicle_position":{"satellites":5,"altitude":24,"gps_status":2,"latitude":"23.600042","update_time":1772437173000,"gps_time":1772437290000,"hdop":6,"longitude":"113.064003"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7928,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":262,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":260,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":968,"fuel_level_disp":2,"monitor_status":null,"battery_type":1,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1772437171000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_win
+03-02 17:34:04.222 D/MG_NET_LOG: │ Result(Part 2): dow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 17:34:04.223 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 17:34:04.240 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区新龙一街73号
+03-02 17:34:04.240 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 17:34:04.241 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 17:51:48.467 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 17:51:49.682 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1210ms) ──────
+03-02 17:51:49.685 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 17:51:49.686 D/MG_NET_LOG: │ Method: POST
+03-02 17:51:49.687 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 17:51:49.687 D/MG_NET_LOG: │ Header: timestamp: 1772445108468
+03-02 17:51:49.688 D/MG_NET_LOG: │ Header: sign: IN/b4vFGlWjmXU1kCW2p/MzcuMfc1MD+pXtdPPSDROk=
+03-02 17:51:49.689 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"5A5A6EEB5D4E2D94EF342C89C4D298D1","timestamp":"1772445108467","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 17:51:49.690 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 17:51:49.691 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cadf60839523c8e3c","data":{"vehicle_position":{"satellites":5,"altitude":24,"gps_status":2,"latitude":"23.600042","update_time":1772437173000,"gps_time":1772437290000,"hdop":6,"longitude":"113.064003"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7928,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":262,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":260,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":968,"fuel_level_disp":2,"monitor_status":null,"battery_type":1,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1772437171000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_win
+03-02 17:51:49.692 D/MG_NET_LOG: │ Result(Part 2): dow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 17:51:49.693 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 17:51:49.719 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区新龙一街73号
+03-02 17:51:49.720 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 17:51:49.722 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 18:04:01.919 D/MGWidget: onUpdate called for IDs: 608
+03-02 18:04:01.921 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-02 18:04:02.007 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 18:04:02.088 E/MG_NET_LOG: ┌────── HTTP Request Failed (13ms) ──────
+03-02 18:04:02.090 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 18:04:02.091 E/MG_NET_LOG: │ Method: POST
+03-02 18:04:02.092 E/MG_NET_LOG: │ Header: app-type: roewe
+03-02 18:04:02.093 E/MG_NET_LOG: │ Header: timestamp: 1772445842012
+03-02 18:04:02.094 E/MG_NET_LOG: │ Header: sign: CqRCLIVB0uZ7Gyj9nHn/RQQVIySnyZHASb1VN4H/7AI=
+03-02 18:04:02.096 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"50095ECFCAB788940108792D8D1ED586","timestamp":"1772445842010","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 18:04:02.097 E/MG_NET_LOG: ├────── Exception ──────
+03-02 18:04:02.098 E/MG_NET_LOG: │ ❌ 异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+03-02 18:04:02.099 E/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 18:04:02.100 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+03-02 18:04:02.101 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 18:04:02.103 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 18:22:19.646 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 18:22:20.560 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 906ms) ──────
+03-02 18:22:20.560 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 18:22:20.561 D/MG_NET_LOG: │ Method: POST
+03-02 18:22:20.561 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 18:22:20.561 D/MG_NET_LOG: │ Header: timestamp: 1772446939650
+03-02 18:22:20.561 D/MG_NET_LOG: │ Header: sign: oySBDPLN9+nAjHkXsmtThMOgtyjLqv2AWwJHnF7hE2o=
+03-02 18:22:20.561 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"4CAFF845B8994A8BA9FE4CFD45235ADA","timestamp":"1772446939647","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 18:22:20.562 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 18:22:20.562 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cae11f8af6da94adc","data":{"vehicle_position":{"satellites":9,"altitude":11,"latitude":"23.656794","gps_status":2,"update_time":1772445657000,"gps_time":1772446909000,"hdop":5,"longitude":"113.053049"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7937,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":260,"vehicle_battery_prc":968,"battery_type":1,"fuel_level_disp":2,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1772445655000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_windo
+03-02 18:22:20.562 D/MG_NET_LOG: │ Result(Part 2): w":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 18:22:20.563 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 18:22:20.569 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区广清大道B41号
+03-02 18:22:20.569 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 18:22:20.570 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 18:35:01.882 D/MGWidget: onUpdate called for IDs: 608
+03-02 18:35:01.898 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-02 18:35:01.948 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 18:35:03.280 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1326ms) ──────
+03-02 18:35:03.282 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 18:35:03.283 D/MG_NET_LOG: │ Method: POST
+03-02 18:35:03.283 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 18:35:03.283 D/MG_NET_LOG: │ Header: timestamp: 1772447701952
+03-02 18:35:03.284 D/MG_NET_LOG: │ Header: sign: 85hwlWLFWUAwW0n6cIOcJ4EwHTrxMV1qoPCZwWeN3x0=
+03-02 18:35:03.284 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"FCC713D8F38F88AC9E498211B5921CDC","timestamp":"1772447701950","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 18:35:03.285 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 18:35:03.285 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cae1d9ac5de057711","data":{"vehicle_position":{"satellites":7,"altitude":16,"gps_status":2,"latitude":"23.661412","update_time":1772445657000,"gps_time":1772447369000,"hdop":6,"longitude":"113.047959"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7939,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":260,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":968,"fuel_level_disp":2,"monitor_status":null,"battery_type":1,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1772445655000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_windo
+03-02 18:35:03.287 D/MG_NET_LOG: │ Result(Part 2): w":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 18:35:03.287 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 18:35:03.298 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区清远大道新力龙湾
+03-02 18:35:03.298 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 18:35:03.299 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 18:55:02.014 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 18:55:02.114 E/MG_NET_LOG: ┌────── HTTP Request Failed (90ms) ──────
+03-02 18:55:02.116 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 18:55:02.116 E/MG_NET_LOG: │ Method: POST
+03-02 18:55:02.117 E/MG_NET_LOG: │ Header: app-type: roewe
+03-02 18:55:02.117 E/MG_NET_LOG: │ Header: timestamp: 1772448902021
+03-02 18:55:02.118 E/MG_NET_LOG: │ Header: sign: dgfhED/ae6sQxDevwgzVnK7W+dgSvXJLDFDF6maCGe4=
+03-02 18:55:02.119 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"AACAF997AC0E620E3E217A8A285B5349","timestamp":"1772448902017","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 18:55:02.119 E/MG_NET_LOG: ├────── Exception ──────
+03-02 18:55:02.120 E/MG_NET_LOG: │ ❌ 异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+03-02 18:55:02.120 E/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 18:55:02.120 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+03-02 18:55:02.121 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 18:55:02.121 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 19:03:53.962 D/MGWidget: onUpdate called for IDs: 608
+03-02 19:03:54.035 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-02 19:03:54.100 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 19:03:55.287 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1178ms) ──────
+03-02 19:03:55.287 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 19:03:55.287 D/MG_NET_LOG: │ Method: POST
+03-02 19:03:55.287 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 19:03:55.288 D/MG_NET_LOG: │ Header: timestamp: 1772449434107
+03-02 19:03:55.288 D/MG_NET_LOG: │ Header: sign: R7ftXE8FBbVkUMQil+OD/mR9cFRItBhmUQDPK0t68g4=
+03-02 19:03:55.288 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"DB237B6F373DA3AAF4CC051A8B087DE2","timestamp":"1772449434101","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 19:03:55.288 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 19:03:55.288 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cae38094418a71019","data":{"vehicle_position":{"satellites":7,"altitude":16,"gps_status":2,"latitude":"23.661412","update_time":1772445657000,"gps_time":1772447369000,"hdop":6,"longitude":"113.047959"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7939,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":260,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":968,"fuel_level_disp":2,"monitor_status":null,"battery_type":1,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1772445655000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_windo
+03-02 19:03:55.288 D/MG_NET_LOG: │ Result(Part 2): w":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 19:03:55.289 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 19:03:55.297 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区清远大道新力龙湾
+03-02 19:03:55.297 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 19:03:55.299 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 19:27:05.398 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 19:27:06.349 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 936ms) ──────
+03-02 19:27:06.349 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 19:27:06.350 D/MG_NET_LOG: │ Method: POST
+03-02 19:27:06.350 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 19:27:06.351 D/MG_NET_LOG: │ Header: timestamp: 1772450825411
+03-02 19:27:06.351 D/MG_NET_LOG: │ Header: sign: irrXnraVF/GssCfT6um7ygwwTewW+6K2mpA1K/bbcVE=
+03-02 19:27:06.352 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"ACDDFA969D5227CCE25090523EE26D36","timestamp":"1772450825399","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 19:27:06.352 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 19:27:06.354 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cae4d43a6c682c78","data":{"vehicle_position":{"satellites":7,"altitude":16,"gps_status":2,"latitude":"23.661412","update_time":1772445657000,"gps_time":1772447369000,"hdop":6,"longitude":"113.047959"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7939,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":260,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":968,"fuel_level_disp":2,"monitor_status":null,"battery_type":1,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1772445655000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window
+03-02 19:27:06.354 D/MG_NET_LOG: │ Result(Part 2): ":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 19:27:06.356 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 19:27:06.373 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区清远大道新力龙湾
+03-02 19:27:06.374 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 19:27:06.374 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 19:35:02.393 D/MGWidget: onUpdate called for IDs: 608
+03-02 19:35:02.393 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-02 19:35:02.478 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 19:35:02.488 E/MG_NET_LOG: ┌────── HTTP Request Failed (4ms) ──────
+03-02 19:35:02.489 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 19:35:02.490 E/MG_NET_LOG: │ Method: POST
+03-02 19:35:02.490 E/MG_NET_LOG: │ Header: app-type: roewe
+03-02 19:35:02.491 E/MG_NET_LOG: │ Header: timestamp: 1772451302483
+03-02 19:35:02.491 E/MG_NET_LOG: │ Header: sign: Pb1bk7Hn76Hzdltx+yxclUreLj3fcpAYE5ZiuT70vhI=
+03-02 19:35:02.492 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"1C710C30A0EFAA9251DFD731BDBFB433","timestamp":"1772451302481","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 19:35:02.492 E/MG_NET_LOG: ├────── Exception ──────
+03-02 19:35:02.492 E/MG_NET_LOG: │ ❌ 异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+03-02 19:35:02.493 E/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 19:35:02.494 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+03-02 19:35:02.495 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 19:35:02.496 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 20:03:03.290 D/MGWidget: onUpdate called for IDs: 608
+03-02 20:03:03.304 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-02 20:03:03.439 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 20:03:03.455 E/MG_NET_LOG: ┌────── HTTP Request Failed (3ms) ──────
+03-02 20:03:03.456 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 20:03:03.457 E/MG_NET_LOG: │ Method: POST
+03-02 20:03:03.458 E/MG_NET_LOG: │ Header: app-type: roewe
+03-02 20:03:03.459 E/MG_NET_LOG: │ Header: timestamp: 1772452983452
+03-02 20:03:03.460 E/MG_NET_LOG: │ Header: sign: jMdGJis/RWeEYGr546ojEhqyXwUFhrldI+eUsNTZSc4=
+03-02 20:03:03.461 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"F3022FA4291BF6689A608ADA111AC44D","timestamp":"1772452983448","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 20:03:03.461 E/MG_NET_LOG: ├────── Exception ──────
+03-02 20:03:03.462 E/MG_NET_LOG: │ ❌ 异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+03-02 20:03:03.462 E/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 20:03:03.463 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+03-02 20:03:03.464 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 20:03:03.465 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 20:05:48.517 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 20:05:50.925 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 2343ms) ──────
+03-02 20:05:50.927 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 20:05:50.928 D/MG_NET_LOG: │ Method: POST
+03-02 20:05:50.929 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 20:05:50.930 D/MG_NET_LOG: │ Header: timestamp: 1772453148518
+03-02 20:05:50.931 D/MG_NET_LOG: │ Header: sign: G6La1WGSmGNnYt9Q+knw8J8yjCIB9qHqhGP1/xcrxGA=
+03-02 20:05:50.932 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"3E857D888CC7DCD6A205D4E6B2E71174","timestamp":"1772453148518","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 20:05:50.932 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 20:05:50.933 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cae70b65562af2025","data":{"vehicle_position":{"satellites":7,"altitude":16,"gps_status":2,"latitude":"23.661412","update_time":1772445657000,"gps_time":1772447369000,"hdop":6,"longitude":"113.047959"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7939,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":260,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":968,"fuel_level_disp":2,"monitor_status":null,"battery_type":1,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1772445655000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_windo
+03-02 20:05:50.934 D/MG_NET_LOG: │ Result(Part 2): w":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 20:05:50.935 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 20:05:50.949 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区清远大道新力龙湾
+03-02 20:05:50.950 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 20:05:50.951 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 20:35:02.289 D/MGWidget: onUpdate called for IDs: 608
+03-02 20:35:02.291 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-02 20:35:02.345 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 20:35:02.350 E/MG_NET_LOG: ┌────── HTTP Request Failed (2ms) ──────
+03-02 20:35:02.351 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 20:35:02.351 E/MG_NET_LOG: │ Method: POST
+03-02 20:35:02.351 E/MG_NET_LOG: │ Header: app-type: roewe
+03-02 20:35:02.352 E/MG_NET_LOG: │ Header: timestamp: 1772454902346
+03-02 20:35:02.352 E/MG_NET_LOG: │ Header: sign: V/7xWYoRZXxfGvl1BnaEYztfXhKuAva9mreH/pzKua4=
+03-02 20:35:02.353 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"CB53F177E90E17FA08D61A54B477C163","timestamp":"1772454902345","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 20:35:02.353 E/MG_NET_LOG: ├────── Exception ──────
+03-02 20:35:02.353 E/MG_NET_LOG: │ ❌ 异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+03-02 20:35:02.354 E/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 20:35:02.355 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+03-02 20:35:02.355 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 20:35:02.356 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 20:47:06.429 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 20:47:07.500 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1063ms) ──────
+03-02 20:47:07.502 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 20:47:07.503 D/MG_NET_LOG: │ Method: POST
+03-02 20:47:07.504 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 20:47:07.505 D/MG_NET_LOG: │ Header: timestamp: 1772455626434
+03-02 20:47:07.506 D/MG_NET_LOG: │ Header: sign: Lw+9G9bMMRjYQqXx9vyb4N+yohwhnQ7dKtvikw1L2TM=
+03-02 20:47:07.506 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"B9DEC4F938C7D4161FC0DB852DD2E356","timestamp":"1772455626432","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 20:47:07.506 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 20:47:07.507 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cae968609e9f25dda","data":{"vehicle_position":{"satellites":7,"altitude":16,"latitude":"23.661412","gps_status":2,"update_time":1772445657000,"gps_time":1772447369000,"hdop":6,"longitude":"113.047959"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7939,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":260,"vehicle_battery_prc":968,"battery_type":1,"fuel_level_disp":2,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1772445655000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_windo
+03-02 20:47:07.507 D/MG_NET_LOG: │ Result(Part 2): w":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 20:47:07.507 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 20:47:07.520 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区清远大道新力龙湾
+03-02 20:47:07.520 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 20:47:07.521 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 21:03:03.324 D/MGWidget: onUpdate called for IDs: 608
+03-02 21:03:03.326 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-02 21:03:03.403 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 21:03:04.428 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1020ms) ──────
+03-02 21:03:04.429 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 21:03:04.430 D/MG_NET_LOG: │ Method: POST
+03-02 21:03:04.431 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 21:03:04.431 D/MG_NET_LOG: │ Header: timestamp: 1772456583406
+03-02 21:03:04.432 D/MG_NET_LOG: │ Header: sign: K4MObt7DsPdbtXNe3/hl/txzxa+9/YoPvf6p7Q72j74=
+03-02 21:03:04.432 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"8C7FC4671CA54A3DBBAEAFF9942121CC","timestamp":"1772456583405","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 21:03:04.433 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 21:03:04.433 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19caea52033dc799efd","data":{"vehicle_position":{"satellites":7,"altitude":16,"gps_status":2,"latitude":"23.661412","update_time":1772445657000,"gps_time":1772447369000,"hdop":6,"longitude":"113.047959"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7939,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":260,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":968,"fuel_level_disp":2,"monitor_status":null,"battery_type":1,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1772445655000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_windo
+03-02 21:03:04.434 D/MG_NET_LOG: │ Result(Part 2): w":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 21:03:04.435 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 21:03:04.450 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区清远大道新力龙湾
+03-02 21:03:04.451 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 21:03:04.453 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 21:23:05.004 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 21:23:06.013 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 999ms) ──────
+03-02 21:23:06.015 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 21:23:06.016 D/MG_NET_LOG: │ Method: POST
+03-02 21:23:06.017 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 21:23:06.018 D/MG_NET_LOG: │ Header: timestamp: 1772457785011
+03-02 21:23:06.018 D/MG_NET_LOG: │ Header: sign: uGuRMS/NSmqJdzDtWB5NUNiypazvq9yPLgQbX2KgTCw=
+03-02 21:23:06.019 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"E90C70F6B9C1AA6710ECF4BF2AEDC076","timestamp":"1772457785006","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 21:23:06.020 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 21:23:06.021 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19caeb77609f20c6d33","data":{"vehicle_position":{"satellites":7,"altitude":16,"latitude":"23.661412","gps_status":2,"update_time":1772445657000,"gps_time":1772447369000,"hdop":6,"longitude":"113.047959"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7939,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":260,"vehicle_battery_prc":968,"battery_type":1,"fuel_level_disp":2,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1772445655000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_windo
+03-02 21:23:06.022 D/MG_NET_LOG: │ Result(Part 2): w":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 21:23:06.023 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 21:23:06.040 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区清远大道新力龙湾
+03-02 21:23:06.041 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 21:23:06.042 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 21:35:01.900 D/MGWidget: onUpdate called for IDs: 608
+03-02 21:35:01.902 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-02 21:35:01.948 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 21:35:01.954 E/MG_NET_LOG: ┌────── HTTP Request Failed (2ms) ──────
+03-02 21:35:01.955 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 21:35:01.955 E/MG_NET_LOG: │ Method: POST
+03-02 21:35:01.956 E/MG_NET_LOG: │ Header: app-type: roewe
+03-02 21:35:01.957 E/MG_NET_LOG: │ Header: timestamp: 1772458501951
+03-02 21:35:01.957 E/MG_NET_LOG: │ Header: sign: kTQVhgb128rz6TVQOf8uo1Ort3UVz+9hwEzOCPyvUbc=
+03-02 21:35:01.958 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"9969F6BF573A1ACB90C2E6D5931DDE47","timestamp":"1772458501950","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 21:35:01.958 E/MG_NET_LOG: ├────── Exception ──────
+03-02 21:35:01.958 E/MG_NET_LOG: │ ❌ 异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+03-02 21:35:01.959 E/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 21:35:01.960 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+03-02 21:35:01.960 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 21:35:01.961 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 22:02:15.542 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 22:02:16.729 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1181ms) ──────
+03-02 22:02:16.731 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 22:02:16.731 D/MG_NET_LOG: │ Method: POST
+03-02 22:02:16.732 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 22:02:16.732 D/MG_NET_LOG: │ Header: timestamp: 1772460135547
+03-02 22:02:16.733 D/MG_NET_LOG: │ Header: sign: JcZ4n8A992Ky6y83TOFDSIutSS79p7vJ7Y+PlVok7JA=
+03-02 22:02:16.733 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"B76637D62F9868F92F0E8BD23DC634F4","timestamp":"1772460135545","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 22:02:16.733 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 22:02:16.734 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19caedb538441d9532a","data":{"vehicle_position":{"satellites":7,"altitude":16,"gps_status":2,"latitude":"23.661412","update_time":1772445657000,"gps_time":1772447369000,"hdop":6,"longitude":"113.047959"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7939,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":260,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":968,"fuel_level_disp":2,"monitor_status":null,"battery_type":1,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1772445655000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_windo
+03-02 22:02:16.734 D/MG_NET_LOG: │ Result(Part 2): w":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 22:02:16.734 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 22:02:16.753 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区清远大道新力龙湾
+03-02 22:02:16.753 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 22:02:16.755 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 22:10:24.398 D/MGWidget: onUpdate called for IDs: 608
+03-02 22:10:24.400 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-02 22:10:24.507 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 22:10:25.551 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1039ms) ──────
+03-02 22:10:25.552 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 22:10:25.553 D/MG_NET_LOG: │ Method: POST
+03-02 22:10:25.554 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 22:10:25.554 D/MG_NET_LOG: │ Header: timestamp: 1772460624509
+03-02 22:10:25.555 D/MG_NET_LOG: │ Header: sign: hEyiVOHzyjK042D1+RTReQ6t772MKByIy+NlJdXskeQ=
+03-02 22:10:25.556 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"597932DE0303967595ECCF6F0DA91285","timestamp":"1772460624508","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 22:10:25.559 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 22:10:25.560 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19caee2c9f18c189cf1","data":{"vehicle_position":{"satellites":7,"altitude":16,"gps_status":2,"latitude":"23.661412","update_time":1772445657000,"gps_time":1772447369000,"hdop":6,"longitude":"113.047959"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7939,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":260,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":968,"fuel_level_disp":2,"monitor_status":null,"battery_type":1,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1772445655000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_windo
+03-02 22:10:25.561 D/MG_NET_LOG: │ Result(Part 2): w":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 22:10:25.562 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 22:10:25.571 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区清远大道新力龙湾
+03-02 22:10:25.572 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 22:10:25.572 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 22:32:29.636 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 22:32:30.457 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 816ms) ──────
+03-02 22:32:30.459 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 22:32:30.459 D/MG_NET_LOG: │ Method: POST
+03-02 22:32:30.460 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 22:32:30.460 D/MG_NET_LOG: │ Header: timestamp: 1772461949638
+03-02 22:32:30.461 D/MG_NET_LOG: │ Header: sign: qLRJG9eLmqBUZv+z5BDASDUJ3WEZsH1uvjdN8p3a2l8=
+03-02 22:32:30.462 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"CB13E270BE567F1D552DE6FD66C35C93","timestamp":"1772461949637","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 22:32:30.462 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 22:32:30.463 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19caef7017b1a167059","data":{"vehicle_position":{"satellites":7,"altitude":16,"latitude":"23.661412","gps_status":2,"update_time":1772445657000,"gps_time":1772447369000,"hdop":6,"longitude":"113.047959"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7939,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":260,"vehicle_battery_prc":968,"battery_type":1,"fuel_level_disp":2,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1772445655000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_windo
+03-02 22:32:30.463 D/MG_NET_LOG: │ Result(Part 2): w":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 22:32:30.465 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 22:32:30.475 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区清远大道新力龙湾
+03-02 22:32:30.476 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 22:32:30.478 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 22:37:14.988 D/MGWidget: onUpdate called for IDs: 608
+03-02 22:37:14.989 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-02 22:37:15.095 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 22:37:16.257 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1159ms) ──────
+03-02 22:37:16.259 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 22:37:16.259 D/MG_NET_LOG: │ Method: POST
+03-02 22:37:16.259 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 22:37:16.260 D/MG_NET_LOG: │ Header: timestamp: 1772462235097
+03-02 22:37:16.260 D/MG_NET_LOG: │ Header: sign: NTaDNlEuJk9Gk2Nmo175Zeo0Y7XPBxG+aKjTPwV9crw=
+03-02 22:37:16.260 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"165B3047F551696EE8B2453EC6D731B2","timestamp":"1772462235096","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 22:37:16.261 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 22:37:16.262 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19caefb5d4d1c61c5c8","data":{"vehicle_position":{"satellites":7,"altitude":16,"gps_status":2,"latitude":"23.661412","update_time":1772445657000,"gps_time":1772447369000,"hdop":6,"longitude":"113.047959"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7939,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":260,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":968,"fuel_level_disp":2,"monitor_status":null,"battery_type":1,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1772445655000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_windo
+03-02 22:37:16.262 D/MG_NET_LOG: │ Result(Part 2): w":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 22:37:16.263 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 22:37:16.277 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区清远大道新力龙湾
+03-02 22:37:16.277 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 22:37:16.278 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 23:03:03.332 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 23:03:04.359 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1022ms) ──────
+03-02 23:03:04.361 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 23:03:04.362 D/MG_NET_LOG: │ Method: POST
+03-02 23:03:04.362 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 23:03:04.363 D/MG_NET_LOG: │ Header: timestamp: 1772463783335
+03-02 23:03:04.363 D/MG_NET_LOG: │ Header: sign: 1EYQbeN8RS1JBBinqdKrCjdCHAUjBMKSUMkNqXxGk6A=
+03-02 23:03:04.364 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"3FA9108842061595BE66CCB1E2F18BFE","timestamp":"1772463783333","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 23:03:04.364 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 23:03:04.365 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19caf12fcc72748e178","data":{"vehicle_position":{"satellites":7,"altitude":16,"gps_status":2,"latitude":"23.661412","update_time":1772445657000,"gps_time":1772447369000,"hdop":6,"longitude":"113.047959"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7939,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":260,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":968,"fuel_level_disp":2,"monitor_status":null,"battery_type":1,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1772445655000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_windo
+03-02 23:03:04.365 D/MG_NET_LOG: │ Result(Part 2): w":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 23:03:04.366 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 23:03:04.379 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区清远大道新力龙湾
+03-02 23:03:04.380 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 23:03:04.381 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 23:20:39.126 D/MGWidget: onUpdate called for IDs: 608
+03-02 23:20:39.180 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-02 23:20:39.263 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 23:20:40.628 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1353ms) ──────
+03-02 23:20:40.630 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 23:20:40.630 D/MG_NET_LOG: │ Method: POST
+03-02 23:20:40.631 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 23:20:40.631 D/MG_NET_LOG: │ Header: timestamp: 1772464839271
+03-02 23:20:40.632 D/MG_NET_LOG: │ Header: sign: 40UiFR+Ek/zHe+6i8ggX0yY3anUbmKEwba9HkGvoE4o=
+03-02 23:20:40.633 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"F6D9EFBE37CABAAEA6F69CEE997F4FDB","timestamp":"1772464839266","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 23:20:40.633 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 23:20:40.633 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19caf231961cefcb853","data":{"vehicle_position":{"satellites":7,"altitude":16,"latitude":"23.661412","gps_status":2,"update_time":1772445657000,"gps_time":1772447369000,"hdop":6,"longitude":"113.047959"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7939,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":260,"vehicle_battery_prc":968,"battery_type":1,"fuel_level_disp":2,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1772445655000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_windo
+03-02 23:20:40.634 D/MG_NET_LOG: │ Result(Part 2): w":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 23:20:40.634 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 23:20:40.647 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区清远大道新力龙湾
+03-02 23:20:40.650 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 23:20:40.650 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 23:35:02.090 D/MGWidget: onUpdate called for IDs: 608
+03-02 23:35:02.092 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-02 23:35:02.196 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 23:35:02.238 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-02 23:35:03.131 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 871ms) ──────
+03-02 23:35:03.133 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 23:35:03.135 D/MG_NET_LOG: │ Method: POST
+03-02 23:35:03.136 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 23:35:03.137 D/MG_NET_LOG: │ Header: timestamp: 1772465702257
+03-02 23:35:03.138 D/MG_NET_LOG: │ Header: sign: gWYmgpgGC6gfE/iTPb06F0NYRMGrXKWoNbARQzTwRlw=
+03-02 23:35:03.139 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"6571F0B8058608B86E5953BCF3493046","timestamp":"1772465702250","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 23:35:03.144 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 23:35:03.146 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19caf304411fca0f72e","data":{"vehicle_position":{"satellites":7,"altitude":16,"latitude":"23.661412","gps_status":2,"update_time":1772445657000,"gps_time":1772447369000,"hdop":6,"longitude":"113.047959"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7939,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":260,"vehicle_battery_prc":968,"battery_type":1,"fuel_level_disp":2,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1772445655000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_windo
+03-02 23:35:03.146 D/MG_NET_LOG: │ Result(Part 2): w":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 23:35:03.147 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 23:35:03.151 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 949ms) ──────
+03-02 23:35:03.153 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-02 23:35:03.153 D/MG_NET_LOG: │ Method: POST
+03-02 23:35:03.154 D/MG_NET_LOG: │ Header: app-type: roewe
+03-02 23:35:03.155 D/MG_NET_LOG: │ Header: timestamp: 1772465702200
+03-02 23:35:03.157 D/MG_NET_LOG: │ Header: sign: RQPD9Cod1hClR/O88xDosq0wVTjABtk6/WOPK1SGJ8w=
+03-02 23:35:03.158 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"353732C83C3D5E071C8B7C0797C2D2BB","timestamp":"1772465702196","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-02 23:35:03.159 D/MG_NET_LOG: ├────── Response Result ──────
+03-02 23:35:03.160 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19caf30440f7fcbdb0d","data":{"vehicle_position":{"satellites":7,"altitude":16,"gps_status":2,"latitude":"23.661412","update_time":1772445657000,"gps_time":1772447369000,"hdop":6,"longitude":"113.047959"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7939,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":260,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":968,"fuel_level_disp":2,"monitor_status":null,"battery_type":1,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1772445655000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_windo
+03-02 23:35:03.160 D/MG_NET_LOG: │ Result(Part 2): w":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-02 23:35:03.160 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-02 23:35:03.164 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区清远大道新力龙湾
+03-02 23:35:03.164 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 23:35:03.165 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区清远大道新力龙湾
+03-02 23:35:03.165 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-02 23:35:03.167 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-02 23:35:03.168 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-03 00:03:03.257 D/MGWidget: onUpdate called for IDs: 608
+03-03 00:03:03.259 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-03 00:03:03.414 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-03 00:03:03.416 E/MG_NET_LOG: ┌────── HTTP Request Failed (1ms) ──────
+03-03 00:03:03.416 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-03 00:03:03.417 E/MG_NET_LOG: │ Method: POST
+03-03 00:03:03.417 E/MG_NET_LOG: │ Header: app-type: roewe
+03-03 00:03:03.417 E/MG_NET_LOG: │ Header: timestamp: 1772467383415
+03-03 00:03:03.417 E/MG_NET_LOG: │ Header: sign: Vj/Ovi73veXIp9jh7Wtk+5Y5JSN7rRT915xO3LXT+/U=
+03-03 00:03:03.417 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"98580C31C7AC1947AF152F9AAB12FCB7","timestamp":"1772467383414","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-03 00:03:03.417 E/MG_NET_LOG: ├────── Exception ──────
+03-03 00:03:03.417 E/MG_NET_LOG: │ ❌ 异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+03-03 00:03:03.418 E/MG_NET_LOG: └──────────────────────────────────────────────────
+03-03 00:03:03.418 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+03-03 00:03:03.419 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-03 00:03:03.419 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-03 00:35:02.219 D/MGWidget: onUpdate called for IDs: 608
+03-03 00:35:02.220 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-03 00:35:02.278 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-03 00:35:02.290 E/MG_NET_LOG: ┌────── HTTP Request Failed (6ms) ──────
+03-03 00:35:02.291 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-03 00:35:02.292 E/MG_NET_LOG: │ Method: POST
+03-03 00:35:02.292 E/MG_NET_LOG: │ Header: app-type: roewe
+03-03 00:35:02.292 E/MG_NET_LOG: │ Header: timestamp: 1772469302283
+03-03 00:35:02.293 E/MG_NET_LOG: │ Header: sign: QUrWa1K+8pd2W8Gv64FrglOofihFGiIEw0dqW2p2R6c=
+03-03 00:35:02.294 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"A3944EFEF53ECF99ED30B95A940E15C5","timestamp":"1772469302282","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-03 00:35:02.294 E/MG_NET_LOG: ├────── Exception ──────
+03-03 00:35:02.295 E/MG_NET_LOG: │ ❌ 异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+03-03 00:35:02.295 E/MG_NET_LOG: └──────────────────────────────────────────────────
+03-03 00:35:02.296 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+03-03 00:35:02.297 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-03 00:35:02.297 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-03 01:03:03.214 D/MGWidget: onUpdate called for IDs: 608
+03-03 01:03:03.214 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-03 01:03:03.277 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-03 01:03:03.282 E/MG_NET_LOG: ┌────── HTTP Request Failed (1ms) ──────
+03-03 01:03:03.282 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-03 01:03:03.282 E/MG_NET_LOG: │ Method: POST
+03-03 01:03:03.283 E/MG_NET_LOG: │ Header: app-type: roewe
+03-03 01:03:03.283 E/MG_NET_LOG: │ Header: timestamp: 1772470983280
+03-03 01:03:03.283 E/MG_NET_LOG: │ Header: sign: RC923VApSYZPbeQIVS/VppM4xRMU4XGz19Yx4YzMcRI=
+03-03 01:03:03.283 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"3EC684D4042A011DB2F78B7AFC191807","timestamp":"1772470983278","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-03 01:03:03.283 E/MG_NET_LOG: ├────── Exception ──────
+03-03 01:03:03.283 E/MG_NET_LOG: │ ❌ 异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+03-03 01:03:03.283 E/MG_NET_LOG: └──────────────────────────────────────────────────
+03-03 01:03:03.284 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+03-03 01:03:03.284 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-03 01:03:03.284 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-03 01:35:03.160 D/MGWidget: onUpdate called for IDs: 608
+03-03 01:35:03.161 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-03 01:35:03.237 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-03 01:35:03.245 E/MG_NET_LOG: ┌────── HTTP Request Failed (3ms) ──────
+03-03 01:35:03.246 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-03 01:35:03.246 E/MG_NET_LOG: │ Method: POST
+03-03 01:35:03.247 E/MG_NET_LOG: │ Header: app-type: roewe
+03-03 01:35:03.247 E/MG_NET_LOG: │ Header: timestamp: 1772472903241
+03-03 01:35:03.248 E/MG_NET_LOG: │ Header: sign: EzqfqfPwWWMa06/gTziHm8HbKCptxarGaixFJW7lnzY=
+03-03 01:35:03.248 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"D186E3A975BAC404258B6E6C89149963","timestamp":"1772472903239","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-03 01:35:03.248 E/MG_NET_LOG: ├────── Exception ──────
+03-03 01:35:03.249 E/MG_NET_LOG: │ ❌ 异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+03-03 01:35:03.249 E/MG_NET_LOG: └──────────────────────────────────────────────────
+03-03 01:35:03.250 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+03-03 01:35:03.250 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-03 01:35:03.251 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-03 02:03:03.075 D/MGWidget: onUpdate called for IDs: 608
+03-03 02:03:03.076 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-03 02:03:03.094 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-03 02:03:03.097 E/MG_NET_LOG: ┌────── HTTP Request Failed (1ms) ──────
+03-03 02:03:03.098 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-03 02:03:03.099 E/MG_NET_LOG: │ Method: POST
+03-03 02:03:03.099 E/MG_NET_LOG: │ Header: app-type: roewe
+03-03 02:03:03.099 E/MG_NET_LOG: │ Header: timestamp: 1772474583095
+03-03 02:03:03.100 E/MG_NET_LOG: │ Header: sign: MClF2f0cEWXmdX2VT5bIlH79w6c20bzbQxiB+vXyA30=
+03-03 02:03:03.100 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"B5845669A97640E1C44DFF07932B5CD5","timestamp":"1772474583094","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-03 02:03:03.101 E/MG_NET_LOG: ├────── Exception ──────
+03-03 02:03:03.101 E/MG_NET_LOG: │ ❌ 异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+03-03 02:03:03.102 E/MG_NET_LOG: └──────────────────────────────────────────────────
+03-03 02:03:03.102 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+03-03 02:03:03.103 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-03 02:03:03.104 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-03 02:35:03.054 D/MGWidget: onUpdate called for IDs: 608
+03-03 02:35:03.055 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-03 02:35:03.108 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-03 02:35:03.113 E/MG_NET_LOG: ┌────── HTTP Request Failed (2ms) ──────
+03-03 02:35:03.114 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-03 02:35:03.114 E/MG_NET_LOG: │ Method: POST
+03-03 02:35:03.114 E/MG_NET_LOG: │ Header: app-type: roewe
+03-03 02:35:03.115 E/MG_NET_LOG: │ Header: timestamp: 1772476503109
+03-03 02:35:03.115 E/MG_NET_LOG: │ Header: sign: 1POVWASVGXXOxydAIctN13Ff8HKQw4MQRZJ9uHSGZPQ=
+03-03 02:35:03.115 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"7CBDBCF4637412EA8CA9C7395782BDBE","timestamp":"1772476503108","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-03 02:35:03.116 E/MG_NET_LOG: ├────── Exception ──────
+03-03 02:35:03.116 E/MG_NET_LOG: │ ❌ 异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+03-03 02:35:03.116 E/MG_NET_LOG: └──────────────────────────────────────────────────
+03-03 02:35:03.117 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+03-03 02:35:03.118 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-03 02:35:03.118 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-03 03:03:03.142 D/MGWidget: onUpdate called for IDs: 608
+03-03 03:03:03.143 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-03 03:03:03.162 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-03 03:03:03.166 E/MG_NET_LOG: ┌────── HTTP Request Failed (2ms) ──────
+03-03 03:03:03.167 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-03 03:03:03.168 E/MG_NET_LOG: │ Method: POST
+03-03 03:03:03.169 E/MG_NET_LOG: │ Header: app-type: roewe
+03-03 03:03:03.169 E/MG_NET_LOG: │ Header: timestamp: 1772478183163
+03-03 03:03:03.169 E/MG_NET_LOG: │ Header: sign: tZIwOoXGmZlMdJl7RKfQobGSUJewqd6XcaFa5a7BPG4=
+03-03 03:03:03.170 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"38078BA2F32358A6B834CA6755AD289A","timestamp":"1772478183162","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-03 03:03:03.170 E/MG_NET_LOG: ├────── Exception ──────
+03-03 03:03:03.170 E/MG_NET_LOG: │ ❌ 异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+03-03 03:03:03.171 E/MG_NET_LOG: └──────────────────────────────────────────────────
+03-03 03:03:03.171 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+03-03 03:03:03.171 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-03 03:03:03.172 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-03 03:35:03.011 D/MGWidget: onUpdate called for IDs: 608
+03-03 03:35:03.012 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-03 03:35:03.060 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-03 03:35:03.067 E/MG_NET_LOG: ┌────── HTTP Request Failed (3ms) ──────
+03-03 03:35:03.067 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-03 03:35:03.068 E/MG_NET_LOG: │ Method: POST
+03-03 03:35:03.068 E/MG_NET_LOG: │ Header: app-type: roewe
+03-03 03:35:03.068 E/MG_NET_LOG: │ Header: timestamp: 1772480103063
+03-03 03:35:03.069 E/MG_NET_LOG: │ Header: sign: EDpiFThyv4Szism8tgtbP4TlQv/yjNQqZIAjakcXfFE=
+03-03 03:35:03.069 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"FCD8339FAD9301524B4AEFEBC445711A","timestamp":"1772480103062","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-03 03:35:03.070 E/MG_NET_LOG: ├────── Exception ──────
+03-03 03:35:03.070 E/MG_NET_LOG: │ ❌ 异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+03-03 03:35:03.070 E/MG_NET_LOG: └──────────────────────────────────────────────────
+03-03 03:35:03.072 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+03-03 03:35:03.073 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-03 03:35:03.074 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-03 04:03:03.077 D/MGWidget: onUpdate called for IDs: 608
+03-03 04:03:03.078 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-03 04:03:03.138 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-03 04:03:03.148 E/MG_NET_LOG: ┌────── HTTP Request Failed (4ms) ──────
+03-03 04:03:03.150 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-03 04:03:03.151 E/MG_NET_LOG: │ Method: POST
+03-03 04:03:03.152 E/MG_NET_LOG: │ Header: app-type: roewe
+03-03 04:03:03.152 E/MG_NET_LOG: │ Header: timestamp: 1772481783142
+03-03 04:03:03.154 E/MG_NET_LOG: │ Header: sign: UDlOYij+KaQ6kPElVkOmzaJhd0wJizKQ8BtZCOB4hXQ=
+03-03 04:03:03.154 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"E819AF6B4AD417DBB35E4257850E2D01","timestamp":"1772481783140","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-03 04:03:03.156 E/MG_NET_LOG: ├────── Exception ──────
+03-03 04:03:03.156 E/MG_NET_LOG: │ ❌ 异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+03-03 04:03:03.157 E/MG_NET_LOG: └──────────────────────────────────────────────────
+03-03 04:03:03.159 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+03-03 04:03:03.159 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-03 04:03:03.161 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-03 04:35:04.045 D/MGWidget: onUpdate called for IDs: 608
+03-03 04:35:04.050 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-03 04:35:04.118 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-03 04:35:04.127 E/MG_NET_LOG: ┌────── HTTP Request Failed (3ms) ──────
+03-03 04:35:04.128 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-03 04:35:04.129 E/MG_NET_LOG: │ Method: POST
+03-03 04:35:04.130 E/MG_NET_LOG: │ Header: app-type: roewe
+03-03 04:35:04.130 E/MG_NET_LOG: │ Header: timestamp: 1772483704122
+03-03 04:35:04.131 E/MG_NET_LOG: │ Header: sign: sQaQh7uD/FoxeJhZNtighJd053uHgR15yA6+PoSqzgg=
+03-03 04:35:04.131 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"6A119DB05890EF60F8340FF034B89340","timestamp":"1772483704120","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-03 04:35:04.132 E/MG_NET_LOG: ├────── Exception ──────
+03-03 04:35:04.133 E/MG_NET_LOG: │ ❌ 异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+03-03 04:35:04.133 E/MG_NET_LOG: └──────────────────────────────────────────────────
+03-03 04:35:04.135 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+03-03 04:35:04.136 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-03 04:35:04.137 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-03 05:03:04.052 D/MGWidget: onUpdate called for IDs: 608
+03-03 05:03:04.053 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-03 05:03:04.162 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-03 05:03:04.171 E/MG_NET_LOG: ┌────── HTTP Request Failed (5ms) ──────
+03-03 05:03:04.172 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-03 05:03:04.173 E/MG_NET_LOG: │ Method: POST
+03-03 05:03:04.174 E/MG_NET_LOG: │ Header: app-type: roewe
+03-03 05:03:04.175 E/MG_NET_LOG: │ Header: timestamp: 1772485384165
+03-03 05:03:04.176 E/MG_NET_LOG: │ Header: sign: od+VVcmIzJnZUugimrWf00qz/Yi1x64grQ3Tai3tccg=
+03-03 05:03:04.176 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"D8E7DBE1FD6FEF92BF6FD3EB636A2637","timestamp":"1772485384164","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-03 05:03:04.177 E/MG_NET_LOG: ├────── Exception ──────
+03-03 05:03:04.178 E/MG_NET_LOG: │ ❌ 异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+03-03 05:03:04.178 E/MG_NET_LOG: └──────────────────────────────────────────────────
+03-03 05:03:04.179 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+03-03 05:03:04.180 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-03 05:03:04.181 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-03 05:35:02.942 D/MGWidget: onUpdate called for IDs: 608
+03-03 05:35:02.944 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-03 05:35:03.030 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-03 05:35:03.040 E/MG_NET_LOG: ┌────── HTTP Request Failed (4ms) ──────
+03-03 05:35:03.041 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-03 05:35:03.041 E/MG_NET_LOG: │ Method: POST
+03-03 05:35:03.042 E/MG_NET_LOG: │ Header: app-type: roewe
+03-03 05:35:03.042 E/MG_NET_LOG: │ Header: timestamp: 1772487303035
+03-03 05:35:03.043 E/MG_NET_LOG: │ Header: sign: ceAyxG1MX1DKECVzBtcu/VObgU1NdJQH10eGk61lzAI=
+03-03 05:35:03.044 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"B674C44486001DC69E7FD7A15A6F1F9B","timestamp":"1772487303033","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-03 05:35:03.045 E/MG_NET_LOG: ├────── Exception ──────
+03-03 05:35:03.045 E/MG_NET_LOG: │ ❌ 异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+03-03 05:35:03.046 E/MG_NET_LOG: └──────────────────────────────────────────────────
+03-03 05:35:03.047 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+03-03 05:35:03.047 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-03 05:35:03.048 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-03 06:03:03.009 D/MGWidget: onUpdate called for IDs: 608
+03-03 06:03:03.010 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-03 06:03:03.033 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-03 06:03:03.038 E/MG_NET_LOG: ┌────── HTTP Request Failed (2ms) ──────
+03-03 06:03:03.038 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-03 06:03:03.039 E/MG_NET_LOG: │ Method: POST
+03-03 06:03:03.039 E/MG_NET_LOG: │ Header: app-type: roewe
+03-03 06:03:03.039 E/MG_NET_LOG: │ Header: timestamp: 1772488983035
+03-03 06:03:03.039 E/MG_NET_LOG: │ Header: sign: Bz3PKS2tVeFC60DrNQDKkBkok/OupI4sidR8VXDpe8U=
+03-03 06:03:03.040 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"6C4F96487E4335E2D8A8EE1ACD2F1596","timestamp":"1772488983034","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-03 06:03:03.040 E/MG_NET_LOG: ├────── Exception ──────
+03-03 06:03:03.040 E/MG_NET_LOG: │ ❌ 异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+03-03 06:03:03.040 E/MG_NET_LOG: └──────────────────────────────────────────────────
+03-03 06:03:03.041 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+03-03 06:03:03.041 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-03 06:03:03.042 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-03 06:35:03.913 D/MGWidget: onUpdate called for IDs: 608
+03-03 06:35:03.915 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-03 06:35:03.960 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-03 06:35:03.969 E/MG_NET_LOG: ┌────── HTTP Request Failed (4ms) ──────
+03-03 06:35:03.971 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-03 06:35:03.971 E/MG_NET_LOG: │ Method: POST
+03-03 06:35:03.973 E/MG_NET_LOG: │ Header: app-type: roewe
+03-03 06:35:03.973 E/MG_NET_LOG: │ Header: timestamp: 1772490903964
+03-03 06:35:03.974 E/MG_NET_LOG: │ Header: sign: Hdx9UO0+8x5miMM9VW3HtFuCKUFA7+G5g5VMLYrf1DI=
+03-03 06:35:03.974 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"32A02EFD8CD8F927127532A629FDC768","timestamp":"1772490903962","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-03 06:35:03.975 E/MG_NET_LOG: ├────── Exception ──────
+03-03 06:35:03.975 E/MG_NET_LOG: │ ❌ 异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+03-03 06:35:03.976 E/MG_NET_LOG: └──────────────────────────────────────────────────
+03-03 06:35:03.977 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+03-03 06:35:03.978 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-03 06:35:03.980 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-03 07:03:02.990 D/MGWidget: onUpdate called for IDs: 608
+03-03 07:03:02.991 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-03 07:03:03.123 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-03 07:03:03.129 E/MG_NET_LOG: ┌────── HTTP Request Failed (2ms) ──────
+03-03 07:03:03.130 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-03 07:03:03.130 E/MG_NET_LOG: │ Method: POST
+03-03 07:03:03.130 E/MG_NET_LOG: │ Header: app-type: roewe
+03-03 07:03:03.130 E/MG_NET_LOG: │ Header: timestamp: 1772492583126
+03-03 07:03:03.130 E/MG_NET_LOG: │ Header: sign: gYhDx+ViUK4rskqO1xaX2nFTeZk+/SuVGG1vhUuHhYM=
+03-03 07:03:03.130 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"92ACE5889E7B5D5434BDC80B223A6A96","timestamp":"1772492583124","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-03 07:03:03.131 E/MG_NET_LOG: ├────── Exception ──────
+03-03 07:03:03.131 E/MG_NET_LOG: │ ❌ 异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+03-03 07:03:03.131 E/MG_NET_LOG: └──────────────────────────────────────────────────
+03-03 07:03:03.131 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+03-03 07:03:03.132 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-03 07:03:03.133 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-03 07:12:17.540 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-03 07:12:18.558 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1015ms) ──────
+03-03 07:12:18.560 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-03 07:12:18.560 D/MG_NET_LOG: │ Method: POST
+03-03 07:12:18.560 D/MG_NET_LOG: │ Header: app-type: roewe
+03-03 07:12:18.561 D/MG_NET_LOG: │ Header: timestamp: 1772493137541
+03-03 07:12:18.561 D/MG_NET_LOG: │ Header: sign: SfNMjNHWOGU+LM1kTeU/9B0UYcAvjc95vvYNsvh51RY=
+03-03 07:12:18.561 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"28A885B9A1EE47B8793EEAC1F3CF9917","timestamp":"1772493137541","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-03 07:12:18.561 D/MG_NET_LOG: ├────── Response Result ──────
+03-03 07:12:18.561 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cb0d2e53465900b19","data":{"vehicle_position":{"satellites":7,"altitude":16,"latitude":"23.661412","gps_status":2,"update_time":1772445657000,"gps_time":1772447369000,"hdop":6,"longitude":"113.047959"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7939,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":260,"vehicle_battery_prc":968,"battery_type":1,"fuel_level_disp":2,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1772445655000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_windo
+03-03 07:12:18.562 D/MG_NET_LOG: │ Result(Part 2): w":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-03 07:12:18.562 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-03 07:12:18.572 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 广东省清远市清城区清远大道新力龙湾
+03-03 07:12:18.572 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-03 07:12:18.573 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-03 07:35:43.037 D/MGWidget: onUpdate called for IDs: 608
+03-03 07:35:43.038 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-03 07:35:43.240 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-03 07:35:43.264 E/MG_NET_LOG: ┌────── HTTP Request Failed (7ms) ──────
+03-03 07:35:43.265 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-03 07:35:43.265 E/MG_NET_LOG: │ Method: POST
+03-03 07:35:43.265 E/MG_NET_LOG: │ Header: app-type: roewe
+03-03 07:35:43.265 E/MG_NET_LOG: │ Header: timestamp: 1772494543257
+03-03 07:35:43.265 E/MG_NET_LOG: │ Header: sign: 9KR4O2jVEj+JEbsA4Lx6FhPXtSqWJ0+7OxrXayvx6Uc=
+03-03 07:35:43.265 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"B6C19632D872B45473CFFA76B428477C","timestamp":"1772494543241","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-03 07:35:43.265 E/MG_NET_LOG: ├────── Exception ──────
+03-03 07:35:43.266 E/MG_NET_LOG: │ ❌ 异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+03-03 07:35:43.266 E/MG_NET_LOG: └──────────────────────────────────────────────────
+03-03 07:35:43.267 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+03-03 07:35:43.267 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-03 07:35:43.268 D/MGWidget: updateWidgetSynchronously called for ID: 608
+03-03 07:35:48.607 D/BleProximity: ➕ 添加监听器: callback_2_1772494548607 (总数: 2)
+03-03 07:35:48.607 D/ControlActivity: ➕ 添加监听器: callback_2_1772494548607 (总数: 2)
+03-03 07:35:49.708 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1114ms) ──────
+03-03 07:35:49.708 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-03 07:35:49.709 D/MG_NET_LOG: │ Method: POST
+03-03 07:35:49.709 D/MG_NET_LOG: │ Header: app-type: roewe
+03-03 07:35:49.710 D/MG_NET_LOG: │ Header: timestamp: 1772494548593
+03-03 07:35:49.710 D/MG_NET_LOG: │ Header: sign: MQsQjn+hGsAqvGjkczICo371up2qhAePDfESQtrZ7jg=
+03-03 07:35:49.710 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6396RZ714878","appId":"Roewe","brandCode":"1","nonce":"BBD91BC562ACA6B68708D9DAC31A044E","timestamp":"1772494548592","token":"4cc3c95f059c483f9d7f532ea51e3317-prod_SAIC"}
+03-03 07:35:49.711 D/MG_NET_LOG: ├────── Response Result ──────
+03-03 07:35:49.711 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cb0e86d85b098fb56","data":{"vehicle_position":{"satellites":7,"altitude":16,"latitude":"23.661412","gps_status":2,"update_time":1772445657000,"gps_time":1772447369000,"hdop":6,"longitude":"113.047959"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":264,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":136,"battery_pack_range":73,"power_mode":0,"engine_status":0,"exterior_temperature":20,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":13,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":7939,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":264,"battery_pack_prc":584,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":136,"current_journey_id":1279,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772437106000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":260,"vehicle_battery_prc":968,"battery_type":1,"fuel_level_disp":2,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1772445655000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772437106000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_windo
+03-03 07:35:49.711 D/MG_NET_LOG: │ Result(Part 2): w":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-03 07:35:49.712 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-03 07:35:50.191 D/BleProximity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_2_1772494550191 (总数: 1)
+03-03 07:35:50.192 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_2_1772494550191 (总数: 1)
+03-03 07:35:50.192 D/BleProximity: 🔍 开始扫描
+03-03 07:35:50.192 D/ControlActivity: 🔍 开始扫描
+03-03 07:35:50.192 D/BleProximity: 🔍 开始扫描 (尝试次数: 2)
+03-03 07:35:50.192 D/ControlActivity: 🔍 开始扫描 (尝试次数: 2)
+03-03 07:35:50.202 D/BleProximity: ➕ 添加监听器: callback_3_1772494550202 (总数: 3)
+03-03 07:35:50.203 D/ControlActivity: ➕ 添加监听器: callback_3_1772494550202 (总数: 3)
+03-03 07:35:50.203 D/BleProximity: 🚀 Session触发连接请求 (ControlActivity)
+03-03 07:35:50.203 D/ControlActivity: 🚀 Session触发连接请求 (ControlActivity)
+03-03 07:35:50.203 D/BleProximity: 🔍 开始扫描
+03-03 07:35:50.203 D/ControlActivity: 🔍 开始扫描
+03-03 07:35:50.203 D/BleProximity: ⚠️ 已在扫描中
+03-03 07:35:50.203 D/ControlActivity: ⚠️ 已在扫描中
+03-03 07:35:51.391 D/BleProximity: 📱 发现设备: CC:B5:4C:31:0F:39, RSSI: -72
+03-03 07:35:51.392 D/ControlActivity: 📱 发现设备: CC:B5:4C:31:0F:39, RSSI: -72
+03-03 07:35:51.392 D/BleProximity: 📱 发现设备: CC:B5:4C:31:0F:39, RSSI: -72
+03-03 07:35:51.402 D/BleProximity: ⏹️ 停止扫描
+03-03 07:35:51.402 D/ControlActivity: ⏹️ 停止扫描
+03-03 07:35:51.406 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 3, Session: 1)
+03-03 07:35:51.407 D/ControlActivity: 📡 状态变更: CONNECTING (监听器: 3, Session: 1)
+03-03 07:35:51.407 D/BleProximity: ⚠️ 服务已停止，忽略状态变更: CONNECTING
+03-03 07:35:51.558 D/BleProximity: 🔗 开始建立底层连接: CC:B5:4C:31:0F:39
+03-03 07:35:51.558 D/ControlActivity: 🔗 开始建立底层连接: CC:B5:4C:31:0F:39
+03-03 07:35:53.098 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+03-03 07:35:53.099 D/ControlActivity: ⚙️ 底层状态反馈: status=0, newState=2
+03-03 07:35:53.104 D/BleProximity: ✅ 已连接，开始发现服务
+03-03 07:35:53.104 D/ControlActivity: ✅ 已连接，开始发现服务
+03-03 07:35:53.104 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 3, Session: 1)
+03-03 07:35:53.104 D/ControlActivity: 📡 状态变更: CONNECTED (监听器: 3, Session: 1)
+03-03 07:35:53.104 D/BleProximity: ⚠️ 服务已停止，忽略状态变更: CONNECTED
+03-03 07:35:53.922 D/BleProximity: ⚠️ 车端不支持characteristicDeviceCharacterRead
+03-03 07:35:53.923 D/ControlActivity: ⚠️ 车端不支持characteristicDeviceCharacterRead
+03-03 07:35:53.923 D/BleProximity: ⚠️ 车端不支持characteristicDeviceCharacterWrite
+03-03 07:35:53.923 D/ControlActivity: ⚠️ 车端不支持characteristicDeviceCharacterWrite
+03-03 07:35:53.923 D/BleProximity: ✅ 特征初始化完成
+03-03 07:35:53.923 D/ControlActivity: ✅ 特征初始化完成
+03-03 07:35:53.945 D/BleProximity: MTU 生效: 65
+03-03 07:35:53.945 D/ControlActivity: MTU 生效: 65
+03-03 07:35:53.945 D/BleProximity: 🔐 开始认证流程
+03-03 07:35:53.945 D/ControlActivity: 🔐 开始认证流程
+03-03 07:35:53.947 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+03-03 07:35:53.947 D/ControlActivity: 🔔 启用通知: 4af4, 结果: true
+03-03 07:35:53.948 D/BleProximity: 🔔 启用通知: 23a8, 结果: true
+03-03 07:35:53.949 D/ControlActivity: 🔔 启用通知: 23a8, 结果: true
+03-03 07:35:53.950 D/BleProximity: 🔔 启用通知: 267e, 结果: true
+03-03 07:35:53.950 D/ControlActivity: 🔔 启用通知: 267e, 结果: true
+03-03 07:35:53.951 D/BleProximity: 🔔 启用通知: 71ed, 结果: true
+03-03 07:35:53.951 D/ControlActivity: 🔔 启用通知: 71ed, 结果: true
+03-03 07:35:53.952 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+03-03 07:35:53.952 D/ControlActivity: 🔔 启用通知: a37b, 结果: true
+03-03 07:35:53.953 D/BleProximity: 🔔 启用通知: 9d21, 结果: true
+03-03 07:35:53.954 D/ControlActivity: 🔔 启用通知: 9d21, 结果: true
+03-03 07:35:54.454 D/BleProximity: 📤 准备发送Booking ID: 019E5F8C (进入串行队列)
+03-03 07:35:54.455 D/ControlActivity: 📤 准备发送Booking ID: 019E5F8C (进入串行队列)
+03-03 07:35:56.323 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 643763393965616363633362
+03-03 07:35:56.326 D/ControlActivity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 643763393965616363633362
+03-03 07:35:56.329 D/BleProximity: 🔐 处理认证挑战: 643763393965616363633362
+03-03 07:35:56.329 D/ControlActivity: 🔐 处理认证挑战: 643763393965616363633362
+03-03 07:35:56.883 D/BleProximity: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3031
+03-03 07:35:56.885 D/ControlActivity: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3031
+03-03 07:35:56.895 D/BleProximity: ✅ 认证成功
+03-03 07:35:56.895 D/ControlActivity: ✅ 认证成功
+03-03 07:35:56.896 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 3, Session: 1)
+03-03 07:35:56.897 D/ControlActivity: 📡 状态变更: AUTHENTICATED (监听器: 3, Session: 1)
+03-03 07:35:56.897 D/BleProximity: ⚠️ 服务已停止，忽略状态变更: AUTHENTICATED
+03-03 07:35:56.898 D/BleProximity: ✅ ensureConnected 成功 (ControlActivity)
+03-03 07:35:56.898 D/ControlActivity: ✅ ensureConnected 成功 (ControlActivity)
+03-03 07:35:56.899 D/BleProximity: ➖ 移除监听器: callback_3_1772494550202 
+03-03 07:35:56.899 D/ControlActivity: ➖ 移除监听器: callback_3_1772494550202 
+03-03 07:35:58.409 D/BleProximity: 📤 发送指令: 解锁车门
+03-03 07:35:58.409 D/ControlActivity: 📤 发送指令: 解锁车门
+03-03 07:35:58.453 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 356661663032353635623463
+03-03 07:35:58.454 D/ControlActivity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 356661663032353635623463
+03-03 07:35:58.455 D/BleProximity: 🔐 处理认证挑战: 356661663032353635623463
+03-03 07:35:58.455 D/ControlActivity: 🔐 处理认证挑战: 356661663032353635623463
+03-03 07:35:59.969 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+03-03 07:35:59.969 D/ControlActivity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+03-03 07:35:59.970 D/BleProximity: 解锁成功
+03-03 07:35:59.971 D/ControlActivity: 解锁成功
+03-03 07:35:59.971 D/BleProximity: 📊 指令出队: 解锁车门 -> SUCCESS
+03-03 07:35:59.972 D/ControlActivity: 📊 指令出队: 解锁车门 -> SUCCESS
+03-03 07:35:59.973 D/BleProximity: 🔓 解锁结果: SUCCESS
+03-03 07:35:59.973 D/BleProximity: 🔄 同步状态: 车辆已解锁
+03-03 07:35:59.996 D/BleProximity: 🔗 链式触发: 120秒打火
+03-03 07:35:59.997 D/ControlActivity: 🔗 链式触发: 120秒打火
+03-03 07:36:00.196 D/BleProximity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_2_1772494550191 (剩余: 0)
+03-03 07:36:00.196 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_2_1772494550191 (剩余: 0)
+03-03 07:36:00.196 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+03-03 07:36:00.197 D/ControlActivity: ✂️ 所有 Session 已释放，准备断开连接
+03-03 07:36:00.197 D/BleProximity: ➖ 移除监听器: callback_2_1772494548607 
+03-03 07:36:00.197 D/ControlActivity: ➖ 移除监听器: callback_2_1772494548607 
+03-03 07:36:00.498 D/BleProximity: 📤 发送指令: 120秒打火
+03-03 07:36:00.554 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 653739353637303165613563
+03-03 07:36:00.556 D/BleProximity: 🔐 处理认证挑战: 653739353637303165613563
+03-03 07:36:00.698 D/BleProximity: ✂️ 断开连接
+03-03 07:36:00.699 D/BleProximity: ⏹️ 停止扫描
+03-03 07:36:00.725 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 0)
+03-03 07:36:00.726 D/BleProximity: ⚠️ 服务已停止，忽略状态变更: DISCONNECTED
+03-03 07:36:08.957 D/BleProximity: ❌ 认证超时
+03-03 07:36:08.959 D/BleProximity: ✂️ 断开连接
+03-03 07:36:08.959 D/BleProximity: ⏹️ 停止扫描
+03-03 07:36:08.960 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 0)
+03-03 07:36:08.961 D/BleProximity: ⚠️ 服务已停止，忽略状态变更: DISCONNECTED
+03-03 07:36:27.020 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 666ms) ──────
+03-03 07:36:27.021 D/MG_NET_LOG: │ URL: https://gitee.com/api/v5/repos/yangyachao-X/mg-linker/releases/latest
+03-03 07:36:27.022 D/MG_NET_LOG: │ Method: GET
+03-03 07:36:27.023 D/MG_NET_LOG: │ Header: Authorization: token 387f0d958834d479dcdc778fcf2ae326
+03-03 07:36:27.023 D/MG_NET_LOG: │ Params: (无 Body 参数)
+03-03 07:36:27.023 D/MG_NET_LOG: ├────── Response Result ──────
+03-03 07:36:27.024 D/MG_NET_LOG: │ Result: {"id":583086,"tag_name":"6.4","target_commitish":"5f2f3493c07ceb6a80862dd5020a799f1d5b9872","prerelease":false,"name":"优化蓝牙解锁/落锁","body":"1.优化蓝牙解锁/落锁\r\n2.增加解锁，上锁，连接失败日志(未测试，有问题回退6.3)","author":{"id":8784824,"login":"yangyachao-X","name":"YangYachao","avatar_url":"https://foruda.gitee.com/avatar/1677149462712290355/8784824_yangyachao-x_1645510740.png","url":"https://gitee.com/api/v5/users/yangyachao-X","html_url":"https://gitee.com/yangyachao-X","remark":"","followers_url":"https://gitee.com/api/v5/users/yangyachao-X/followers","following_url":"https://gitee.com/api/v5/users/yangyachao-X/following_url{/other_user}","gists_url":"https://gitee.com/api/v5/users/yangyachao-X/gists{/gist_id}","starred_url":"https://gitee.com/api/v5/users/yangyachao-X/starred{/owner}{/repo}","subscriptions_url":"https://gitee.com/api/v5/users/yangyachao-X/subscriptions","organizations_url":"https://gitee.com/api/v5/users/yangyachao-X/orgs","repos_url":"https://gitee.com/api/v5/users/yangyachao-X/repos","events_url":"https://gitee.com/api/v5/users/yangyachao-X/events{/privacy}","received_events_url":"https://gitee.com/api/v5/users/yangyachao-X/received_events","type":"User"},"created_at":"2026-03-01T13:09:08+08:00","assets":[{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/releases/download/6.4/MG%20Linker.apk","name":"MG Linker.apk"},{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/archive/refs/tags/6.4.zip","name":"6.4.zip"},{"browser_download_url":"https://gitee.com/yangyachao-X/mg-linker/archive/refs/tags/6.4.tar.gz","name":"6.4.tar.gz"}]}
+03-03 07:36:27.024 D/MG_NET_LOG: └──────────────────────────────────────────────────
