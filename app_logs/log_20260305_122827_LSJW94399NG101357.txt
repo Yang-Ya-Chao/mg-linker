@@ -1,0 +1,925 @@
+--- Log Capture Start: 20260305_122827 ---
+03-05 06:41:20.491 D/BleProximity: 📶 RSSI: -55  阈值(-60.0)
+03-05 06:41:20.795 D/BleProximity: 📶 RSSI: -58  阈值(-60.0)
+03-05 06:41:21.107 D/BleProximity: 📶 RSSI: -58  阈值(-60.0)
+03-05 06:41:21.405 D/BleProximity: 📶 RSSI: -57  阈值(-60.0)
+03-05 06:41:21.713 D/BleProximity: 📶 RSSI: -57  阈值(-60.0)
+03-05 06:41:22.017 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:41:22.323 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:41:22.624 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:22.933 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:23.241 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:23.548 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:41:23.856 D/BleProximity: 📶 RSSI: -55  阈值(-60.0)
+03-05 06:41:24.161 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:41:24.468 D/BleProximity: 📶 RSSI: -55  阈值(-60.0)
+03-05 06:41:24.770 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:41:25.080 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:41:25.384 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:41:25.691 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:41:25.994 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:41:26.299 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:26.612 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:26.910 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:27.212 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:27.520 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:27.828 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:28.139 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:41:28.437 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:41:28.744 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:41:29.051 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:41:29.358 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:41:29.662 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:41:29.962 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:41:30.268 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:30.575 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:41:30.879 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:31.188 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:41:31.494 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:41:31.799 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:41:32.106 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:41:32.412 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:41:32.713 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:33.017 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:33.324 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:33.629 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:41:33.935 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:34.237 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:34.541 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:41:34.848 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:41:35.148 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:35.456 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:35.760 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:36.065 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:36.368 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:36.675 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:36.984 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:41:37.285 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:37.587 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:41:37.895 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:38.204 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:38.508 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:38.809 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:39.117 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:41:39.423 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:39.730 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:40.050 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:40.353 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:40.661 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:40.965 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:41.271 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:41:41.575 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:41.881 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:42.186 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:42.489 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:42.799 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:43.103 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:41:43.407 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:43.713 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:44.022 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:44.333 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:41:44.635 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:44.943 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:45.247 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:41:45.553 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:41:45.856 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:41:46.161 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:46.467 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:46.775 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:47.083 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:47.384 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:47.689 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:47.997 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:48.304 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:48.619 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:48.914 D/BleProximity: 📶 RSSI: -57  阈值(-60.0)
+03-05 06:41:49.222 D/BleProximity: 📶 RSSI: -55  阈值(-60.0)
+03-05 06:41:49.531 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:41:49.838 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:41:50.142 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:41:50.445 D/BleProximity: 📶 RSSI: -55  阈值(-60.0)
+03-05 06:41:50.748 D/BleProximity: 📶 RSSI: -55  阈值(-60.0)
+03-05 06:41:51.055 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:41:51.360 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:41:51.667 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:41:51.969 D/BleProximity: 📶 RSSI: -55  阈值(-60.0)
+03-05 06:41:52.277 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:41:52.584 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:52.885 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:41:53.189 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:41:53.501 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:41:53.808 D/BleProximity: 📶 RSSI: -55  阈值(-60.0)
+03-05 06:41:54.116 D/BleProximity: 📶 RSSI: -57  阈值(-60.0)
+03-05 06:41:54.423 D/BleProximity: 📶 RSSI: -57  阈值(-60.0)
+03-05 06:41:54.720 D/BleProximity: 📶 RSSI: -58  阈值(-60.0)
+03-05 06:41:55.023 D/BleProximity: 📶 RSSI: -58  阈值(-60.0)
+03-05 06:41:55.324 D/BleProximity: 📶 RSSI: -58  阈值(-60.0)
+03-05 06:41:55.631 D/BleProximity: 📶 RSSI: -56  阈值(-60.0)
+03-05 06:41:55.931 D/BleProximity: 📶 RSSI: -59  阈值(-60.0)
+03-05 06:41:56.240 D/BleProximity: 📶 RSSI: -56  阈值(-60.0)
+03-05 06:41:56.542 D/BleProximity: 📶 RSSI: -55  阈值(-60.0)
+03-05 06:41:56.848 D/BleProximity: 📶 RSSI: -57  阈值(-60.0)
+03-05 06:41:57.151 D/BleProximity: 📶 RSSI: -56  阈值(-60.0)
+03-05 06:41:57.455 D/BleProximity: 📶 RSSI: -55  阈值(-60.0)
+03-05 06:41:57.760 D/BleProximity: 📶 RSSI: -56  阈值(-60.0)
+03-05 06:41:58.067 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:41:58.371 D/BleProximity: 📶 RSSI: -56  阈值(-60.0)
+03-05 06:41:58.677 D/BleProximity: 📶 RSSI: -56  阈值(-60.0)
+03-05 06:41:58.978 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:41:59.285 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:41:59.589 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:41:59.892 D/BleProximity: 📶 RSSI: -47  阈值(-60.0)
+03-05 06:42:00.201 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:00.501 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:00.809 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:01.113 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:42:01.416 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:01.727 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:02.027 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:42:02.330 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:02.639 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:02.945 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:42:03.253 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:03.556 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:03.862 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:04.168 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:04.476 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:04.781 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:42:05.087 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:05.393 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:42:05.700 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:06.007 D/BleProximity: 📶 RSSI: -47  阈值(-60.0)
+03-05 06:42:06.311 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:42:06.614 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:06.917 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:42:07.224 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:07.533 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:42:07.839 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:42:08.139 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:42:08.441 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:42:08.744 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:42:09.049 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:09.349 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:42:09.655 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:09.959 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:10.262 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:42:10.571 D/BleProximity: 📶 RSSI: -55  阈值(-60.0)
+03-05 06:42:10.864 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:11.169 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:11.476 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:42:11.780 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:12.088 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:12.393 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:42:12.699 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:13.003 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:13.309 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:42:13.614 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:13.915 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:42:14.221 D/BleProximity: 📶 RSSI: -55  阈值(-60.0)
+03-05 06:42:14.525 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:14.832 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:42:15.146 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:42:15.440 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:15.749 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:16.051 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:16.358 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:42:16.666 D/BleProximity: 📶 RSSI: -59  阈值(-60.0)
+03-05 06:42:16.966 D/BleProximity: 📶 RSSI: -58  阈值(-60.0)
+03-05 06:42:17.272 D/BleProximity: 📶 RSSI: -59  阈值(-60.0)
+03-05 06:42:17.577 D/BleProximity: 📶 RSSI: -61  阈值(-60.0)
+03-05 06:42:17.885 D/BleProximity: 📶 RSSI: -59  阈值(-60.0)
+03-05 06:42:18.187 D/BleProximity: 📶 RSSI: -59  阈值(-60.0)
+03-05 06:42:18.491 D/BleProximity: 📶 RSSI: -58  阈值(-60.0)
+03-05 06:42:18.799 D/BleProximity: 📶 RSSI: -58  阈值(-60.0)
+03-05 06:42:19.102 D/BleProximity: 📶 RSSI: -59  阈值(-60.0)
+03-05 06:42:19.411 D/BleProximity: 📶 RSSI: -59  阈值(-60.0)
+03-05 06:42:19.714 D/BleProximity: 📶 RSSI: -56  阈值(-60.0)
+03-05 06:42:20.021 D/BleProximity: 📶 RSSI: -58  阈值(-60.0)
+03-05 06:42:20.323 D/BleProximity: 📶 RSSI: -61  阈值(-60.0)
+03-05 06:42:20.632 D/BleProximity: 📶 RSSI: -59  阈值(-60.0)
+03-05 06:42:20.938 D/BleProximity: 📶 RSSI: -61  阈值(-60.0)
+03-05 06:42:21.242 D/BleProximity: 📶 RSSI: -60  阈值(-60.0)
+03-05 06:42:21.544 D/BleProximity: 📶 RSSI: -59  阈值(-60.0)
+03-05 06:42:21.851 D/BleProximity: 📶 RSSI: -59  阈值(-60.0)
+03-05 06:42:22.157 D/BleProximity: 📶 RSSI: -61  阈值(-60.0)
+03-05 06:42:22.464 D/BleProximity: 📶 RSSI: -59  阈值(-60.0)
+03-05 06:42:22.768 D/BleProximity: 📶 RSSI: -61  阈值(-60.0)
+03-05 06:42:23.070 D/BleProximity: 📶 RSSI: -60  阈值(-60.0)
+03-05 06:42:23.378 D/BleProximity: 📶 RSSI: -60  阈值(-60.0)
+03-05 06:42:23.683 D/BleProximity: 📶 RSSI: -61  阈值(-60.0)
+03-05 06:42:23.991 D/BleProximity: 📶 RSSI: -61  阈值(-60.0)
+03-05 06:42:24.294 D/BleProximity: 📶 RSSI: -61  阈值(-60.0)
+03-05 06:42:24.602 D/BleProximity: 📶 RSSI: -60  阈值(-60.0)
+03-05 06:42:24.908 D/BleProximity: 📶 RSSI: -61  阈值(-60.0)
+03-05 06:42:25.210 D/BleProximity: 📶 RSSI: -60  阈值(-60.0)
+03-05 06:42:25.517 D/BleProximity: 📶 RSSI: -60  阈值(-60.0)
+03-05 06:42:25.817 D/BleProximity: 📶 RSSI: -60  阈值(-60.0)
+03-05 06:42:26.124 D/BleProximity: 📶 RSSI: -60  阈值(-60.0)
+03-05 06:42:26.431 D/BleProximity: 📶 RSSI: -61  阈值(-60.0)
+03-05 06:42:26.737 D/BleProximity: 📶 RSSI: -61  阈值(-60.0)
+03-05 06:42:27.042 D/BleProximity: 📶 RSSI: -60  阈值(-60.0)
+03-05 06:42:27.345 D/BleProximity: 📶 RSSI: -61  阈值(-60.0)
+03-05 06:42:27.654 D/BleProximity: 📶 RSSI: -60  阈值(-60.0)
+03-05 06:42:27.957 D/BleProximity: 📶 RSSI: -61  阈值(-60.0)
+03-05 06:42:28.264 D/BleProximity: 📶 RSSI: -60  阈值(-60.0)
+03-05 06:42:28.569 D/BleProximity: 📶 RSSI: -59  阈值(-60.0)
+03-05 06:42:28.875 D/BleProximity: 📶 RSSI: -60  阈值(-60.0)
+03-05 06:42:29.175 D/BleProximity: 📶 RSSI: -59  阈值(-60.0)
+03-05 06:42:29.481 D/BleProximity: 📶 RSSI: -60  阈值(-60.0)
+03-05 06:42:29.784 D/BleProximity: 📶 RSSI: -61  阈值(-60.0)
+03-05 06:42:30.091 D/BleProximity: 📶 RSSI: -58  阈值(-60.0)
+03-05 06:42:30.394 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:30.700 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:31.008 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:31.311 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:42:31.616 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:42:31.921 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:32.225 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:32.531 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:32.839 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:33.138 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:33.447 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:33.754 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:34.060 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:34.371 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:34.674 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:34.980 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:42:35.288 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:35.594 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:35.898 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:36.202 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:36.511 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:36.819 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:37.124 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:37.435 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:37.734 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:42:38.043 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:38.345 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:38.649 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:38.954 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:39.259 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:39.569 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:39.875 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:40.179 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:42:40.481 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:40.786 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:41.094 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:41.402 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:42:41.706 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:42.009 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:42.312 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:42:42.622 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:42.930 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:42:43.232 D/BleProximity: 📶 RSSI: -55  阈值(-60.0)
+03-05 06:42:43.539 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:42:43.845 D/BleProximity: 📶 RSSI: -56  阈值(-60.0)
+03-05 06:42:44.154 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:42:44.464 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:42:44.760 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:45.069 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:45.373 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:45.680 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:45.984 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:46.292 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:46.599 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:46.907 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:47.214 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:42:47.519 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:42:47.826 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:48.128 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:48.437 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:42:48.740 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:42:49.051 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:42:49.351 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:49.662 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:42:49.968 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:42:50.280 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:50.574 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:42:50.878 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:51.182 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:42:51.489 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:42:51.800 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:52.098 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:52.409 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:52.715 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:42:53.020 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:42:53.330 D/BleProximity: 📶 RSSI: -55  阈值(-60.0)
+03-05 06:42:53.631 D/BleProximity: 📶 RSSI: -56  阈值(-60.0)
+03-05 06:42:53.938 D/BleProximity: 📶 RSSI: -55  阈值(-60.0)
+03-05 06:42:54.242 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:42:54.545 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:54.850 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:55.161 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:55.463 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:42:55.768 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:56.074 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:56.378 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:56.683 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:56.990 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:42:57.297 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:57.598 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:57.904 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:42:58.211 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:58.514 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:58.817 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:59.118 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:42:59.433 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:42:59.736 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:00.044 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:43:00.344 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:00.648 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:43:00.953 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:43:01.261 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:43:01.568 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:43:01.872 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:43:02.177 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:43:02.497 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:43:02.805 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:43:03.108 D/BleProximity: 📶 RSSI: -55  阈值(-60.0)
+03-05 06:43:03.416 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:43:03.719 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:43:04.028 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:43:04.330 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:43:04.636 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:43:04.942 D/BleProximity: 📶 RSSI: -55  阈值(-60.0)
+03-05 06:43:05.244 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:43:05.552 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:43:05.856 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:43:06.165 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:43:06.471 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:43:06.773 D/BleProximity: 📶 RSSI: -55  阈值(-60.0)
+03-05 06:43:07.081 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:43:07.387 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:43:07.692 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:43:08.001 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 06:43:08.302 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:43:08.610 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 06:43:08.916 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:09.222 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:43:09.529 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:43:09.832 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:43:10.140 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:10.445 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:10.752 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:11.051 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:11.354 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:11.662 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:11.970 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:43:12.277 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:12.576 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:12.884 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:13.191 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:13.497 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:13.803 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:14.108 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:14.414 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:14.717 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:15.026 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:15.329 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:15.635 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:15.937 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:16.246 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:16.552 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:16.861 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:17.163 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:17.469 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:17.776 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:18.081 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:18.382 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:43:18.691 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:18.995 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:43:19.297 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:19.605 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:19.910 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:20.217 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:20.522 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:20.826 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:21.129 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:21.434 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:21.737 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:22.059 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:22.358 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:22.658 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:22.962 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:23.270 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:23.570 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:23.875 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:24.179 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:24.485 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:43:24.791 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:25.095 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:25.399 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 06:43:25.705 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:26.011 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:26.318 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:26.626 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:26.926 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 06:43:27.233 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:27.535 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:27.842 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:28.145 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:28.450 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:28.756 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:29.055 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:29.359 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:29.660 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:29.966 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:30.271 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 06:43:30.578 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:30.886 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:31.270 D/BleProximity: 📶 RSSI: -47  阈值(-60.0)
+03-05 06:43:31.553 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:31.855 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:32.159 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:32.466 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:32.768 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:33.078 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:33.386 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:33.693 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:34.003 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:34.308 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:34.612 D/BleProximity: 📶 RSSI: -47  阈值(-60.0)
+03-05 06:43:34.917 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:35.220 D/BleProximity: 📶 RSSI: -47  阈值(-60.0)
+03-05 06:43:35.522 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:35.828 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:36.133 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:36.438 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:36.742 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:37.047 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:37.353 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:37.655 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:37.959 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:38.262 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:38.566 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:38.876 D/BleProximity: 📶 RSSI: -47  阈值(-60.0)
+03-05 06:43:39.173 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:39.474 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:39.775 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:40.078 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:40.386 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:40.690 D/BleProximity: 📶 RSSI: -47  阈值(-60.0)
+03-05 06:43:40.994 D/BleProximity: 📶 RSSI: -47  阈值(-60.0)
+03-05 06:43:41.297 D/BleProximity: 📶 RSSI: -46  阈值(-60.0)
+03-05 06:43:41.600 D/BleProximity: 📶 RSSI: -47  阈值(-60.0)
+03-05 06:43:41.906 D/BleProximity: 📶 RSSI: -47  阈值(-60.0)
+03-05 06:43:42.207 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:42.512 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 06:43:42.811 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 06:43:43.115 D/BleProximity: 📶 RSSI: -47  阈值(-60.0)
+03-05 06:43:43.417 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 08:43:01.983 D/BleProximity: ⌛ 扫描周期结束(30s)，未发现设备
+03-05 08:43:01.985 D/BleProximity: ⏹️ 停止扫描
+03-05 08:43:01.995 D/BleProximity: 🔄 仍有活跃 Session，将在 4 秒后重新扫描...
+03-05 08:43:05.997 D/BleProximity: 🔍 开始扫描
+03-05 08:43:05.999 D/BleProximity: 🔍 开始扫描 (尝试次数: 2)
+03-05 08:43:36.026 D/BleProximity: ⌛ 扫描周期结束(30s)，未发现设备
+03-05 08:43:36.030 D/BleProximity: ⏹️ 停止扫描
+03-05 08:43:36.046 D/BleProximity: 🔄 仍有活跃 Session，将在 8 秒后重新扫描...
+03-05 08:43:44.050 D/BleProximity: 🔍 开始扫描
+03-05 08:43:44.053 D/BleProximity: 🔍 开始扫描 (尝试次数: 3)
+03-05 08:43:50.617 D/BleProximity: 💤 屏幕关闭，保持默认退避策略
+03-05 08:53:36.581 D/BleProximity: ⌛ 扫描周期结束(30s)，未发现设备
+03-05 08:53:36.622 D/BleProximity: ⏹️ 停止扫描
+03-05 08:53:36.643 D/BleProximity: 🔄 仍有活跃 Session，将在 16 秒后重新扫描...
+03-05 08:53:36.656 D/BleProximity: 💡 检测到屏幕点亮/解锁，立即激活扫描！
+03-05 08:53:36.659 D/BleProximity: ⚡ 触发高优先级扫描 (屏幕点亮/解锁)
+03-05 08:53:36.660 D/BleProximity: 🔍 开始扫描
+03-05 08:53:36.660 D/BleProximity: 🔍 开始扫描 (尝试次数: 0)
+03-05 09:00:14.147 D/BleProximity: ⌛ 扫描周期结束(30s)，未发现设备
+03-05 09:00:14.155 D/BleProximity: ⏹️ 停止扫描
+03-05 09:00:14.164 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+03-05 09:00:14.166 D/BleProximity: 💡 检测到屏幕点亮/解锁，立即激活扫描！
+03-05 09:00:14.168 D/BleProximity: ⚡ 触发高优先级扫描 (屏幕点亮/解锁)
+03-05 09:00:14.168 D/BleProximity: 🔍 开始扫描
+03-05 09:00:14.169 D/BleProximity: 🔍 开始扫描 (尝试次数: 0)
+03-05 09:00:24.482 D/BleProximity: 💤 屏幕关闭，保持默认退避策略
+03-05 09:00:32.829 D/BleProximity: 💡 检测到屏幕点亮/解锁，立即激活扫描！
+03-05 09:00:32.844 D/BleProximity: ⚡ 触发高优先级扫描 (屏幕点亮/解锁)
+03-05 09:00:36.284 D/BleProximity: 💡 检测到屏幕点亮/解锁，立即激活扫描！
+03-05 09:00:36.286 D/BleProximity: ⚡ 触发高优先级扫描 (屏幕点亮/解锁)
+03-05 09:00:44.259 D/BleProximity: ⌛ 扫描周期结束(30s)，未发现设备
+03-05 09:00:44.282 D/BleProximity: ⏹️ 停止扫描
+03-05 09:00:44.306 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+03-05 09:00:46.356 D/BleProximity: 🔍 开始扫描
+03-05 09:00:46.357 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+03-05 11:58:09.728 D/BleProximity: ⌛ 扫描周期结束(30s)，未发现设备
+03-05 11:58:09.765 D/BleProximity: ⏹️ 停止扫描
+03-05 11:58:10.053 D/BleProximity: 🔄 仍有活跃 Session，将在 4 秒后重新扫描...
+03-05 11:58:10.067 D/BleProximity: 💡 检测到屏幕点亮/解锁，立即激活扫描！
+03-05 11:58:10.067 D/BleProximity: ⚡ 触发高优先级扫描 (屏幕点亮/解锁)
+03-05 11:58:10.068 D/BleProximity: 🔍 开始扫描
+03-05 11:58:10.069 D/BleProximity: 🔍 开始扫描 (尝试次数: 0)
+03-05 11:58:10.159 D/MGWidget: onUpdate called for IDs: 9
+03-05 11:58:10.205 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-05 11:58:10.271 D/MGWidget: onUpdate called for IDs: 9
+03-05 11:58:10.276 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-05 11:58:10.290 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-05 11:58:10.294 D/MGWidget: onUpdate called for IDs: 9
+03-05 11:58:10.305 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-05 11:58:10.319 D/MGWidget: onUpdate called for IDs: 9
+03-05 11:58:10.324 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-05 11:58:10.346 D/MGWidget: onUpdate called for IDs: 9
+03-05 11:58:10.352 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-05 11:58:10.358 D/MGWidget: onUpdate called for IDs: 9
+03-05 11:58:10.359 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-05 11:58:10.406 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-05 11:58:10.647 D/BleProximity: 📱 发现设备: B0:10:A0:4D:2F:D7, RSSI: -86
+03-05 11:58:10.650 D/BleProximity: 📱 发现设备: B0:10:A0:4D:2F:D7, RSSI: -86
+03-05 11:58:10.696 D/BleProximity: ⏹️ 停止扫描
+03-05 11:58:10.735 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+03-05 11:58:10.736 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+03-05 11:58:10.931 D/BleProximity: 🔗 开始建立底层连接: B0:10:A0:4D:2F:D7
+03-05 11:58:11.561 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+03-05 11:58:11.566 D/BleProximity: ✅ 已连接，开始发现服务
+03-05 11:58:11.567 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+03-05 11:58:11.567 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+03-05 11:58:11.614 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1243ms) ──────
+03-05 11:58:11.639 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-05 11:58:11.640 D/MG_NET_LOG: │ Method: POST
+03-05 11:58:11.641 D/MG_NET_LOG: │ Header: app-type: roewe
+03-05 11:58:11.641 D/MG_NET_LOG: │ Header: timestamp: 1772683090357
+03-05 11:58:11.642 D/MG_NET_LOG: │ Header: sign: 5Beee8osh/TNALGC1FFzRLdv+40mTHkmbPeR/NQ57Ek=
+03-05 11:58:11.645 D/MG_NET_LOG: │ Params: data={"vin":"LSJW94399NG101357","appId":"Roewe","brandCode":"1","nonce":"B2DE7D9B0E6571D36F477DF3BE4D13D7","timestamp":"1772683090296","token":"dd9f4a2ec7ed46088dc3961f75a74860-prod_SAIC"}
+03-05 11:58:11.645 D/MG_NET_LOG: ├────── Response Result ──────
+03-05 11:58:11.651 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cbc2559c9a92d15b5","data":{"vehicle_position":{"satellites":6,"altitude":4,"gps_status":2,"latitude":"31.108687","update_time":1772669766000,"gps_time":1772669779000,"hdop":7,"longitude":"121.359265"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":236,"battery_pack_fault_status":null,"charge_door_position_status":null,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":3,"driving_range":327,"battery_pack_range":15,"power_mode":0,"engine_status":0,"exterior_temperature":9,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":78,"localfront_left_seat_heat_level":null,"interior_pm25":508,"odometer":40477,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":126,"chrgng_rmnng_time_v":null,"exterior_pm25":508,"front_left_tyre_pressure":228,"charge_status":0,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":232,"battery_pack_prc":296,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":312,"current_journey_id":4499,"pwr_lftgt_pos_v":null,"interior_temperature":18,"localfront_right_seat_heat_level":null,"heading":85,"battery_alarm_value":[50,200,500],"update_time":1772669766000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":236,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":700,"fuel_level_disp":0,"monitor_status":null,"battery_type":1,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1772669766000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772669766000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_wi
+03-05 11:58:11.651 D/MG_NET_LOG: │ Result(Part 2): ndow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-05 11:58:11.652 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-05 11:58:11.672 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1253ms) ──────
+03-05 11:58:11.673 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-05 11:58:11.676 D/MG_NET_LOG: │ Method: POST
+03-05 11:58:11.677 D/MG_NET_LOG: │ Header: app-type: roewe
+03-05 11:58:11.678 D/MG_NET_LOG: │ Header: timestamp: 1772683090416
+03-05 11:58:11.678 D/MG_NET_LOG: │ Header: sign: +lX+L0647eC+fyO5TOSxwvN31vMlz+SfDK+lAyiLGMg=
+03-05 11:58:11.679 D/MG_NET_LOG: │ Params: data={"vin":"LSJW94399NG101357","appId":"Roewe","brandCode":"1","nonce":"9E4BD4A8F007CDE065BEF8ADD27EF113","timestamp":"1772683090412","token":"dd9f4a2ec7ed46088dc3961f75a74860-prod_SAIC"}
+03-05 11:58:11.679 D/MG_NET_LOG: ├────── Response Result ──────
+03-05 11:58:11.680 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cbc2559c7d34dffd1","data":{"vehicle_position":{"satellites":6,"altitude":4,"gps_status":2,"latitude":"31.108687","update_time":1772669766000,"gps_time":1772669779000,"hdop":7,"longitude":"121.359265"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":236,"battery_pack_fault_status":null,"charge_door_position_status":null,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":3,"driving_range":327,"battery_pack_range":15,"power_mode":0,"engine_status":0,"exterior_temperature":9,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":78,"localfront_left_seat_heat_level":null,"interior_pm25":508,"odometer":40477,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":126,"chrgng_rmnng_time_v":null,"exterior_pm25":508,"front_left_tyre_pressure":228,"charge_status":0,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":232,"battery_pack_prc":296,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":312,"current_journey_id":4499,"pwr_lftgt_pos_v":null,"interior_temperature":18,"localfront_right_seat_heat_level":null,"heading":85,"battery_alarm_value":[50,200,500],"update_time":1772669766000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":236,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":700,"fuel_level_disp":0,"monitor_status":null,"battery_type":1,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1772669766000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772669766000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_wi
+03-05 11:58:11.680 D/MG_NET_LOG: │ Result(Part 2): ndow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-05 11:58:11.682 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 上海市闵行区莘沥路莘庄镇外环路上海东芙冷锻制造有限公司(外环路)
+03-05 11:58:11.685 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-05 11:58:11.693 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-05 11:58:11.700 D/MGWidget: updateWidgetSynchronously called for ID: 9
+03-05 11:58:11.736 D/MGWidget: onReceive called with action: ACTION_BLUEBOOTH
+03-05 11:58:11.748 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 上海市闵行区莘沥路莘庄镇外环路上海东芙冷锻制造有限公司(外环路)
+03-05 11:58:11.749 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-05 11:58:11.750 D/MGWidget: updateWidgetSynchronously called for ID: 9
+03-05 11:58:12.069 D/BleProximity: 🎫 [BleUnlockWorker] 获取 Session: session_BleUnlockWorker_7_1772683092069 (总数: 2)
+03-05 11:58:12.072 D/BleProximity: ➕ 添加监听器: callback_8_1772683092072 (总数: 2)
+03-05 11:58:12.073 D/BleUnlockWorker: ➕ 添加监听器: callback_8_1772683092072 (总数: 2)
+03-05 11:58:12.073 D/BleUnlockWorker: 开始扫描蓝牙设备
+03-05 11:58:12.074 D/BleProximity: ➕ 添加监听器: callback_9_1772683092074 (总数: 3)
+03-05 11:58:12.074 D/BleUnlockWorker: ➕ 添加监听器: callback_9_1772683092074 (总数: 3)
+03-05 11:58:12.082 D/BleProximity: ⏳ 正在连接中，Session等待结果... (BleUnlockWorker)
+03-05 11:58:12.083 D/BleUnlockWorker: ⏳ 正在连接中，Session等待结果... (BleUnlockWorker)
+03-05 11:58:12.497 D/BleProximity: ⚠️ 车端不支持characteristicVehicleStateSynchronization
+03-05 11:58:12.497 D/BleUnlockWorker: ⚠️ 车端不支持characteristicVehicleStateSynchronization
+03-05 11:58:12.498 D/BleProximity: ⚠️ 车端不支持characteristicDeviceCharacterRead
+03-05 11:58:12.503 D/BleUnlockWorker: ⚠️ 车端不支持characteristicDeviceCharacterRead
+03-05 11:58:12.506 D/BleProximity: ⚠️ 车端不支持characteristicDeviceCharacterWrite
+03-05 11:58:12.507 D/BleUnlockWorker: ⚠️ 车端不支持characteristicDeviceCharacterWrite
+03-05 11:58:12.507 D/BleProximity: ✅ 特征初始化完成
+03-05 11:58:12.513 D/BleUnlockWorker: ✅ 特征初始化完成
+03-05 11:58:12.538 D/BleProximity: MTU 生效: 28
+03-05 11:58:12.539 D/BleUnlockWorker: MTU 生效: 28
+03-05 11:58:12.540 D/BleProximity: 🔐 开始认证流程
+03-05 11:58:12.540 D/BleUnlockWorker: 🔐 开始认证流程
+03-05 11:58:12.547 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+03-05 11:58:12.548 D/BleUnlockWorker: 🔔 启用通知: 4af4, 结果: true
+03-05 11:58:12.561 D/BleProximity: 🔔 启用通知: d341, 结果: true
+03-05 11:58:12.563 D/BleUnlockWorker: 🔔 启用通知: d341, 结果: true
+03-05 11:58:12.566 D/BleProximity: 🔔 启用通知: 267e, 结果: true
+03-05 11:58:12.567 D/BleUnlockWorker: 🔔 启用通知: 267e, 结果: true
+03-05 11:58:12.579 D/BleProximity: 🔔 启用通知: 71ed, 结果: true
+03-05 11:58:12.580 D/BleUnlockWorker: 🔔 启用通知: 71ed, 结果: true
+03-05 11:58:12.582 D/BleProximity: 🔔 启用通知: 23a8, 结果: true
+03-05 11:58:12.584 D/BleUnlockWorker: 🔔 启用通知: 23a8, 结果: true
+03-05 11:58:12.587 D/BleProximity: 🔔 启用通知: 8e2d, 结果: true
+03-05 11:58:12.589 D/BleUnlockWorker: 🔔 启用通知: 8e2d, 结果: true
+03-05 11:58:12.592 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+03-05 11:58:12.592 D/BleUnlockWorker: 🔔 启用通知: a37b, 结果: true
+03-05 11:58:12.597 D/BleProximity: 🔔 启用通知: 9d21, 结果: true
+03-05 11:58:12.598 D/BleUnlockWorker: 🔔 启用通知: 9d21, 结果: true
+03-05 11:58:13.142 D/BleProximity: 📤 准备发送Booking ID: 01A0A299 (进入串行队列)
+03-05 11:58:13.155 D/BleUnlockWorker: 📤 准备发送Booking ID: 01A0A299 (进入串行队列)
+03-05 11:58:15.592 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 633964643335656539653036
+03-05 11:58:15.597 D/BleUnlockWorker: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 633964643335656539653036
+03-05 11:58:15.599 D/BleProximity: 🔐 处理认证挑战: 633964643335656539653036
+03-05 11:58:15.600 D/BleUnlockWorker: 🔐 处理认证挑战: 633964643335656539653036
+03-05 11:58:16.123 D/BleProximity: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3031
+03-05 11:58:16.124 D/BleUnlockWorker: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3031
+03-05 11:58:16.125 D/BleProximity: ✅ 认证成功
+03-05 11:58:16.125 D/BleUnlockWorker: ✅ 认证成功
+03-05 11:58:16.126 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 3, Session: 2)
+03-05 11:58:16.126 D/BleUnlockWorker: 📡 状态变更: AUTHENTICATED (监听器: 3, Session: 2)
+03-05 11:58:16.128 D/BleProximity: 📡 连接状态: AUTHENTICATED (isConnected: true)
+03-05 11:58:16.149 D/BleProximity: ✅ ensureConnected 成功 (BleUnlockWorker)
+03-05 11:58:16.150 D/BleUnlockWorker: ✅ ensureConnected 成功 (BleUnlockWorker)
+03-05 11:58:16.152 D/BleProximity: ➖ 移除监听器: callback_9_1772683092074 
+03-05 11:58:16.153 D/BleUnlockWorker: ➖ 移除监听器: callback_9_1772683092074 
+03-05 11:58:16.155 D/BleProximity: 📤 发送指令: 解锁车门
+03-05 11:58:16.156 D/BleUnlockWorker: 📤 发送指令: 解锁车门
+03-05 11:58:16.181 D/BleProximity: 📶 RSSI: -77  阈值(-60.0)
+03-05 11:58:16.182 D/BleProximity: 📊 正在收集信号样本: 1/10
+03-05 11:58:16.212 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 663637666163643237386236
+03-05 11:58:16.215 D/BleUnlockWorker: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 663637666163643237386236
+03-05 11:58:16.234 D/BleProximity: 🔐 处理认证挑战: 663637666163643237386236
+03-05 11:58:16.235 D/BleUnlockWorker: 🔐 处理认证挑战: 663637666163643237386236
+03-05 11:58:16.489 D/BleProximity: 📶 RSSI: -74  阈值(-60.0)
+03-05 11:58:16.490 D/BleProximity: 📊 正在收集信号样本: 2/10
+03-05 11:58:16.805 D/BleProximity: 📶 RSSI: -75  阈值(-60.0)
+03-05 11:58:16.806 D/BleProximity: 📊 正在收集信号样本: 3/10
+03-05 11:58:17.149 D/BleProximity: 📶 RSSI: -74  阈值(-60.0)
+03-05 11:58:17.150 D/BleProximity: 📊 正在收集信号样本: 4/10
+03-05 11:58:17.486 D/BleProximity: 📶 RSSI: -70  阈值(-60.0)
+03-05 11:58:17.487 D/BleProximity: 📊 正在收集信号样本: 5/10
+03-05 11:58:17.578 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+03-05 11:58:17.581 D/BleUnlockWorker: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+03-05 11:58:17.583 D/BleProximity: 解锁成功
+03-05 11:58:17.585 D/BleUnlockWorker: 解锁成功
+03-05 11:58:17.588 D/BleProximity: 📊 指令出队: 解锁车门 -> SUCCESS
+03-05 11:58:17.589 D/BleUnlockWorker: 📊 指令出队: 解锁车门 -> SUCCESS
+03-05 11:58:17.591 D/BleProximity: 🔓 解锁结果: SUCCESS
+03-05 11:58:17.593 D/BleProximity: 🔄 同步状态: 车辆已解锁
+03-05 11:58:17.601 D/BleUnlockWorker: 解锁结果: SUCCESS
+03-05 11:58:17.617 D/BleUnlockWorker: 清理资源
+03-05 11:58:17.619 D/BleProximity: 🎫 [BleUnlockWorker] 释放 Session: session_BleUnlockWorker_7_1772683092069 (剩余: 1)
+03-05 11:58:17.619 D/BleProximity: 🔗 链式触发: 120秒打火
+03-05 11:58:17.620 D/BleUnlockWorker: 🔗 链式触发: 120秒打火
+03-05 11:58:17.621 D/BleUnlockWorker: 🎫 [BleUnlockWorker] 释放 Session: session_BleUnlockWorker_7_1772683092069 (剩余: 1)
+03-05 11:58:17.622 D/BleProximity: ➖ 移除监听器: callback_8_1772683092072 
+03-05 11:58:17.623 D/BleUnlockWorker: ➖ 移除监听器: callback_8_1772683092072 
+03-05 11:58:17.802 D/BleProximity: 📶 RSSI: -63  阈值(-60.0)
+03-05 11:58:17.803 D/BleProximity: 📊 正在收集信号样本: 1/10
+03-05 11:58:18.128 D/BleProximity: 📤 发送指令: 120秒打火
+03-05 11:58:18.132 D/BleProximity: 📶 RSSI: -61  阈值(-60.0)
+03-05 11:58:18.133 D/BleProximity: 📊 正在收集信号样本: 2/10
+03-05 11:58:18.177 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 646236626535363033626438
+03-05 11:58:18.179 D/BleProximity: 🔐 处理认证挑战: 646236626535363033626438
+03-05 11:58:18.471 D/BleProximity: 📶 RSSI: -69  阈值(-60.0)
+03-05 11:58:18.473 D/BleProximity: 📊 正在收集信号样本: 3/10
+03-05 11:58:18.807 D/BleProximity: 📶 RSSI: -62  阈值(-60.0)
+03-05 11:58:18.808 D/BleProximity: 📊 正在收集信号样本: 4/10
+03-05 11:58:19.149 D/BleProximity: 📶 RSSI: -64  阈值(-60.0)
+03-05 11:58:19.150 D/BleProximity: 📊 正在收集信号样本: 5/10
+03-05 11:58:19.493 D/BleProximity: 📶 RSSI: -65  阈值(-60.0)
+03-05 11:58:19.494 D/BleProximity: 📊 正在收集信号样本: 6/10
+03-05 11:58:19.834 D/BleProximity: 📶 RSSI: -72  阈值(-60.0)
+03-05 11:58:19.834 D/BleProximity: 📊 正在收集信号样本: 7/10
+03-05 11:58:20.154 D/BleProximity: 📶 RSSI: -64  阈值(-60.0)
+03-05 11:58:20.155 D/BleProximity: 📊 正在收集信号样本: 8/10
+03-05 11:58:20.494 D/BleProximity: 📶 RSSI: -75  阈值(-60.0)
+03-05 11:58:20.501 D/BleProximity: 📊 正在收集信号样本: 9/10
+03-05 11:58:20.841 D/BleProximity: 📶 RSSI: -76  阈值(-60.0)
+03-05 11:58:21.171 D/BleProximity: ℹ️ 打火指令已发送（协议无成功返回值），默认视为成功
+03-05 11:58:21.172 D/BleProximity: 📊 指令出队: 120秒打火 -> SUCCESS
+03-05 11:58:21.178 D/BleProximity: 📶 RSSI: -76  阈值(-60.0)
+03-05 11:58:21.520 D/BleProximity: 📶 RSSI: -76  阈值(-60.0)
+03-05 11:58:21.864 D/BleProximity: 📶 RSSI: -75  阈值(-60.0)
+03-05 11:58:22.205 D/BleProximity: 📶 RSSI: -70  阈值(-60.0)
+03-05 11:58:22.558 D/BleProximity: 📶 RSSI: -68  阈值(-60.0)
+03-05 11:58:22.895 D/BleProximity: 📶 RSSI: -67  阈值(-60.0)
+03-05 11:58:23.234 D/BleProximity: 📶 RSSI: -62  阈值(-60.0)
+03-05 11:58:23.401 D/BleProximity: 💤 屏幕关闭，保持默认退避策略
+03-05 11:58:23.574 D/BleProximity: 📶 RSSI: -65  阈值(-60.0)
+03-05 11:58:23.917 D/BleProximity: 📶 RSSI: -66  阈值(-60.0)
+03-05 11:58:24.265 D/BleProximity: 📶 RSSI: -71  阈值(-60.0)
+03-05 11:58:24.601 D/BleProximity: 📶 RSSI: -77  阈值(-60.0)
+03-05 11:58:24.945 D/BleProximity: 📶 RSSI: -78  阈值(-60.0)
+03-05 11:58:25.279 D/BleProximity: 📶 RSSI: -75  阈值(-60.0)
+03-05 11:58:25.620 D/BleProximity: 📶 RSSI: -78  阈值(-60.0)
+03-05 11:58:25.960 D/BleProximity: 📶 RSSI: -75  阈值(-60.0)
+03-05 11:58:26.308 D/BleProximity: 📶 RSSI: -74  阈值(-60.0)
+03-05 11:58:26.628 D/BleProximity: 📶 RSSI: -74  阈值(-60.0)
+03-05 11:58:26.972 D/BleProximity: 📶 RSSI: -76  阈值(-60.0)
+03-05 11:58:27.311 D/BleProximity: 📶 RSSI: -75  阈值(-60.0)
+03-05 11:58:27.643 D/BleProximity: 📶 RSSI: -71  阈值(-60.0)
+03-05 11:58:27.646 D/BleProximity: 🔒 <<< 触发上锁 <<< 原因: 信号均值(-75) < 阈值(-65.0) 
+03-05 11:58:27.646 D/BleProximity: 📤 发送指令: 锁车门
+03-05 11:58:27.688 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 373231653134363165393038
+03-05 11:58:27.689 D/BleProximity: 🔐 处理认证挑战: 373231653134363165393038
+03-05 11:58:27.993 D/BleProximity: 📶 RSSI: -64  阈值(-60.0)
+03-05 11:58:28.345 D/BleProximity: 📶 RSSI: -62  阈值(-60.0)
+03-05 11:58:28.677 D/BleProximity: 📶 RSSI: -58  阈值(-60.0)
+03-05 11:58:28.831 D/BleProximity: 📨 收到特征变化: 71DBA91A-46C7-4950-BC43-C887824B8E2D, 数据长度: 2, 数据: 3135
+03-05 11:58:28.839 D/BleProximity: 上锁失败原因: 未知错误
+03-05 11:58:28.839 D/BleProximity: 📊 指令出队: 锁车门 -> FAILED
+03-05 11:58:28.841 D/BleProximity: 🔒 上锁结果: FAILED
+03-05 11:58:28.874 D/BleProximity: ⚠️ 上锁未成功: FAILED
+03-05 11:58:29.017 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 11:58:29.021 D/BleProximity: 🔒 <<< 触发上锁 <<< 原因: 信号均值(-68) < 阈值(-65.0) 
+03-05 11:58:29.025 D/BleProximity: 📤 发送指令: 锁车门
+03-05 11:58:29.098 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 636436323031323839643638
+03-05 11:58:29.100 D/BleProximity: 🔐 处理认证挑战: 636436323031323839643638
+03-05 11:58:29.147 D/BleProximity: 💡 检测到屏幕点亮/解锁，立即激活扫描！
+03-05 11:58:29.360 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 11:58:29.702 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 11:58:29.727 D/BleProximity: 📨 收到特征变化: 71DBA91A-46C7-4950-BC43-C887824B8E2D, 数据长度: 2, 数据: 3135
+03-05 11:58:29.728 D/BleProximity: 上锁失败原因: 未知错误
+03-05 11:58:29.729 D/BleProximity: 📊 指令出队: 锁车门 -> FAILED
+03-05 11:58:29.729 D/BleProximity: 🔒 上锁结果: FAILED
+03-05 11:58:29.735 D/BleProximity: ⚠️ 上锁未成功: FAILED
+03-05 11:58:30.016 D/BleProximity: 📶 RSSI: -52  阈值(-60.0)
+03-05 11:58:30.348 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 11:58:30.684 D/BleProximity: 📶 RSSI: -57  阈值(-60.0)
+03-05 11:58:31.018 D/BleProximity: 📶 RSSI: -57  阈值(-60.0)
+03-05 11:58:31.347 D/BleProximity: 📶 RSSI: -60  阈值(-60.0)
+03-05 11:58:31.662 D/BleProximity: 📶 RSSI: -64  阈值(-60.0)
+03-05 11:58:31.985 D/BleProximity: 📶 RSSI: -63  阈值(-60.0)
+03-05 11:58:32.294 D/BleProximity: 📶 RSSI: -58  阈值(-60.0)
+03-05 11:58:32.615 D/BleProximity: 📶 RSSI: -54  阈值(-60.0)
+03-05 11:58:32.925 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 11:58:33.264 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 11:58:33.603 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 11:58:33.925 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 11:58:34.253 D/BleProximity: 📶 RSSI: -55  阈值(-60.0)
+03-05 11:58:34.584 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 11:58:34.909 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 11:58:35.247 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 11:58:35.583 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 11:58:35.929 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 11:58:36.245 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 11:58:36.584 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 11:58:36.920 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 11:58:37.245 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 11:58:37.560 D/BleProximity: 📶 RSSI: -53  阈值(-60.0)
+03-05 11:58:37.869 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 11:58:38.209 D/BleProximity: 📶 RSSI: -50  阈值(-60.0)
+03-05 11:58:38.437 D/BleProximity: 💤 屏幕关闭，保持默认退避策略
+03-05 11:58:38.512 D/BleProximity: 📶 RSSI: -51  阈值(-60.0)
+03-05 11:58:38.852 D/BleProximity: 📶 RSSI: -49  阈值(-60.0)
+03-05 11:58:39.159 D/BleProximity: 📶 RSSI: -47  阈值(-60.0)
+03-05 11:58:39.469 D/BleProximity: 📶 RSSI: -47  阈值(-60.0)
+03-05 11:58:39.793 D/BleProximity: 📶 RSSI: -47  阈值(-60.0)
+03-05 11:58:40.109 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 11:58:40.441 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 11:58:40.776 D/BleProximity: 📶 RSSI: -46  阈值(-60.0)
+03-05 11:58:41.107 D/BleProximity: 📶 RSSI: -47  阈值(-60.0)
+03-05 12:03:42.108 D/BleProximity: 💡 检测到屏幕点亮/解锁，立即激活扫描！
+03-05 12:03:42.147 D/BleProximity: 📶 RSSI: -48  阈值(-60.0)
+03-05 12:04:54.275 D/BleProximity: 💡 检测到屏幕点亮/解锁，立即激活扫描！
+03-05 12:04:54.287 D/BleProximity: 📶 RSSI: -96  阈值(-60.0)
+03-05 12:04:54.295 D/MGWidget: onReceive called with action: ACTION_BLUEBOOTH
+03-05 12:04:54.376 D/BleProximity: 🎫 [BleUnlockWorker] 获取 Session: session_BleUnlockWorker_8_1772683494375 (总数: 2)
+03-05 12:04:54.378 D/BleProximity: ➕ 添加监听器: callback_10_1772683494378 (总数: 2)
+03-05 12:04:54.378 D/BleUnlockWorker: ➕ 添加监听器: callback_10_1772683494378 (总数: 2)
+03-05 12:04:54.379 D/BleUnlockWorker: 开始扫描蓝牙设备
+03-05 12:04:54.380 D/BleProximity: 📤 发送指令: 解锁车门
+03-05 12:04:54.380 D/BleUnlockWorker: 📤 发送指令: 解锁车门
+03-05 12:04:54.469 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 353837366265663439656433
+03-05 12:04:54.470 D/BleUnlockWorker: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 353837366265663439656433
+03-05 12:04:54.477 D/BleProximity: 🔐 处理认证挑战: 353837366265663439656433
+03-05 12:04:54.478 D/BleUnlockWorker: 🔐 处理认证挑战: 353837366265663439656433
+03-05 12:04:54.579 D/BleProximity: 📶 RSSI: -96  阈值(-60.0)
+03-05 12:04:54.901 D/BleProximity: 📶 RSSI: -92  阈值(-60.0)
+03-05 12:04:55.240 D/BleProximity: 📶 RSSI: -90  阈值(-60.0)
+03-05 12:04:55.242 D/BleProximity: 🔒 <<< 触发上锁 <<< 原因: 信号均值(-65) < 阈值(-65.0) 
+03-05 12:04:55.582 D/BleProximity: 📶 RSSI: -90  阈值(-60.0)
+03-05 12:04:55.697 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+03-05 12:04:55.698 D/BleUnlockWorker: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+03-05 12:04:55.699 D/BleProximity: 解锁成功
+03-05 12:04:55.700 D/BleUnlockWorker: 解锁成功
+03-05 12:04:55.702 D/BleProximity: 📊 指令出队: 解锁车门 -> SUCCESS
+03-05 12:04:55.702 D/BleUnlockWorker: 📊 指令出队: 解锁车门 -> SUCCESS
+03-05 12:04:55.703 D/BleProximity: 🔓 解锁结果: SUCCESS
+03-05 12:04:55.703 D/BleProximity: 🔄 同步状态: 车辆已解锁
+03-05 12:04:55.712 D/BleUnlockWorker: 解锁结果: SUCCESS
+03-05 12:04:55.724 D/BleUnlockWorker: 清理资源
+03-05 12:04:55.728 D/BleProximity: 🎫 [BleUnlockWorker] 释放 Session: session_BleUnlockWorker_8_1772683494375 (剩余: 1)
+03-05 12:04:55.728 D/BleUnlockWorker: 🎫 [BleUnlockWorker] 释放 Session: session_BleUnlockWorker_8_1772683494375 (剩余: 1)
+03-05 12:04:55.728 D/BleProximity: 🔗 链式触发: 120秒打火
+03-05 12:04:55.729 D/BleUnlockWorker: 🔗 链式触发: 120秒打火
+03-05 12:04:55.729 D/BleProximity: 📤 发送指令: 锁车门
+03-05 12:04:55.730 D/BleUnlockWorker: 📤 发送指令: 锁车门
+03-05 12:04:55.730 D/BleProximity: ➖ 移除监听器: callback_10_1772683494378 
+03-05 12:04:55.731 D/BleUnlockWorker: ➖ 移除监听器: callback_10_1772683494378 
+03-05 12:04:55.815 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 623262616163626235333333
+03-05 12:04:55.824 D/BleProximity: 🔐 处理认证挑战: 623262616163626235333333
+03-05 12:04:55.924 D/BleProximity: 📶 RSSI: -88  阈值(-60.0)
+03-05 12:04:55.926 D/BleProximity: 📊 正在收集信号样本: 1/10
+03-05 12:04:56.268 D/BleProximity: 📶 RSSI: -89  阈值(-60.0)
+03-05 12:04:56.270 D/BleProximity: 📊 正在收集信号样本: 2/10
+03-05 12:04:56.608 D/BleProximity: 📶 RSSI: -90  阈值(-60.0)
+03-05 12:04:56.610 D/BleProximity: 📊 正在收集信号样本: 3/10
+03-05 12:04:56.952 D/BleProximity: 📶 RSSI: -90  阈值(-60.0)
+03-05 12:04:56.953 D/BleProximity: 📊 正在收集信号样本: 4/10
+03-05 12:04:57.019 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3032
+03-05 12:04:57.022 D/BleProximity: 上锁成功
+03-05 12:04:57.022 D/BleProximity: 📊 指令出队: 锁车门 -> SUCCESS
+03-05 12:04:57.023 D/BleProximity: 🔒 上锁结果: SUCCESS
+03-05 12:04:57.024 D/BleProximity: 🔄 同步状态: 车辆已上锁
+03-05 12:04:57.034 D/BleProximity: 📤 发送指令: 120秒打火
+03-05 12:04:57.090 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 653035633233396632646533
+03-05 12:04:57.116 D/BleProximity: 🔐 处理认证挑战: 653035633233396632646533
+03-05 12:04:57.279 D/BleProximity: 📶 RSSI: -90  阈值(-60.0)
+03-05 12:04:57.280 D/BleProximity: 📊 正在收集信号样本: 1/10
+03-05 12:04:57.622 D/BleProximity: 📶 RSSI: -89  阈值(-60.0)
+03-05 12:04:57.624 D/BleProximity: 📊 正在收集信号样本: 2/10
+03-05 12:04:57.958 D/BleProximity: 📶 RSSI: -91  阈值(-60.0)
+03-05 12:04:57.960 D/BleProximity: 📊 正在收集信号样本: 3/10
+03-05 12:04:58.300 D/BleProximity: 📶 RSSI: -92  阈值(-60.0)
+03-05 12:04:58.301 D/BleProximity: 📊 正在收集信号样本: 4/10
+03-05 12:04:58.632 D/BleProximity: 📶 RSSI: -85  阈值(-60.0)
+03-05 12:04:58.633 D/BleProximity: 📊 正在收集信号样本: 5/10
+03-05 12:04:58.973 D/BleProximity: 📶 RSSI: -82  阈值(-60.0)
+03-05 12:04:58.973 D/BleProximity: 📊 正在收集信号样本: 6/10
+03-05 12:04:59.313 D/BleProximity: 📶 RSSI: -88  阈值(-60.0)
+03-05 12:04:59.314 D/BleProximity: 📊 正在收集信号样本: 7/10
+03-05 12:04:59.616 D/BleProximity: 📶 RSSI: -91  阈值(-60.0)
+03-05 12:04:59.617 D/BleProximity: 📊 正在收集信号样本: 8/10
+03-05 12:04:59.959 D/BleProximity: 📶 RSSI: -92  阈值(-60.0)
+03-05 12:04:59.960 D/BleProximity: 📊 正在收集信号样本: 9/10
+03-05 12:05:00.083 D/BleProximity: ℹ️ 打火指令已发送（协议无成功返回值），默认视为成功
+03-05 12:05:00.085 D/BleProximity: 📊 指令出队: 120秒打火 -> SUCCESS
+03-05 12:05:00.298 D/BleProximity: 📶 RSSI: -90  阈值(-60.0)
+03-05 12:05:00.611 D/BleProximity: 📶 RSSI: -91  阈值(-60.0)
+03-05 12:05:00.931 D/BleProximity: 📶 RSSI: -90  阈值(-60.0)
+03-05 12:05:01.273 D/BleProximity: 📶 RSSI: -93  阈值(-60.0)
+03-05 12:05:01.615 D/BleProximity: 📶 RSSI: -92  阈值(-60.0)
+03-05 12:05:01.942 D/BleProximity: 📶 RSSI: -94  阈值(-60.0)
+03-05 12:05:02.270 D/BleProximity: 📶 RSSI: -95  阈值(-60.0)
+03-05 12:05:02.612 D/BleProximity: 📶 RSSI: -97  阈值(-60.0)
+03-05 12:05:02.955 D/BleProximity: 📶 RSSI: -97  阈值(-60.0)
+03-05 12:05:03.301 D/BleProximity: 📶 RSSI: -96  阈值(-60.0)
+03-05 12:05:03.640 D/BleProximity: 📶 RSSI: -97  阈值(-60.0)
+03-05 12:05:03.978 D/BleProximity: 📶 RSSI: -97  阈值(-60.0)
+03-05 12:05:04.308 D/BleProximity: 📶 RSSI: -99  阈值(-60.0)
+03-05 12:05:04.651 D/BleProximity: 📶 RSSI: -98  阈值(-60.0)
+03-05 12:05:04.992 D/BleProximity: 📶 RSSI: -93  阈值(-60.0)
+03-05 12:05:05.334 D/BleProximity: 📶 RSSI: -95  阈值(-60.0)
+03-05 12:05:05.360 D/BleProximity: 💤 屏幕关闭，保持默认退避策略
+03-05 12:05:05.651 D/BleProximity: 📶 RSSI: -97  阈值(-60.0)
+03-05 12:05:05.994 D/BleProximity: 📶 RSSI: -95  阈值(-60.0)
+03-05 12:05:06.341 D/BleProximity: 📶 RSSI: -94  阈值(-60.0)
+03-05 12:05:06.685 D/BleProximity: 📶 RSSI: -97  阈值(-60.0)
+03-05 12:05:07.025 D/BleProximity: 📶 RSSI: -98  阈值(-60.0)
+03-05 12:05:07.370 D/BleProximity: 📶 RSSI: -95  阈值(-60.0)
+03-05 12:05:07.710 D/BleProximity: 📶 RSSI: -98  阈值(-60.0)
+03-05 12:07:53.715 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=0
+03-05 12:07:53.721 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 0)
+03-05 12:07:53.725 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+03-05 12:07:53.726 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+03-05 12:07:53.756 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+03-05 12:07:53.757 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+03-05 12:07:53.759 D/BleProximity: 💡 检测到屏幕点亮/解锁，立即激活扫描！
+03-05 12:07:53.759 D/BleProximity: ⚡ 触发高优先级扫描 (屏幕点亮/解锁)
+03-05 12:07:53.759 D/BleProximity: 🔍 开始扫描
+03-05 12:07:53.760 D/BleProximity: 🔍 开始扫描 (尝试次数: 0)
+03-05 12:14:12.222 D/BleProximity: ⌛ 扫描周期结束(30s)，未发现设备
+03-05 12:14:12.250 D/BleProximity: ⏹️ 停止扫描
+03-05 12:14:12.257 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+03-05 12:14:12.260 D/BleProximity: 💡 检测到屏幕点亮/解锁，立即激活扫描！
+03-05 12:14:12.261 D/BleProximity: ⚡ 触发高优先级扫描 (屏幕点亮/解锁)
+03-05 12:14:12.261 D/BleProximity: 🔍 开始扫描
+03-05 12:14:12.261 D/BleProximity: 🔍 开始扫描 (尝试次数: 0)
+03-05 12:14:13.021 D/BleProximity: 📱 发现设备: B0:10:A0:4D:2F:D7, RSSI: -95
+03-05 12:14:13.022 D/BleProximity: 📱 发现设备: B0:10:A0:4D:2F:D7, RSSI: -95
+03-05 12:14:13.035 D/BleProximity: ⏹️ 停止扫描
+03-05 12:14:13.040 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+03-05 12:14:13.041 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+03-05 12:14:13.236 D/BleProximity: 🔗 开始建立底层连接: B0:10:A0:4D:2F:D7
+03-05 12:14:18.659 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+03-05 12:14:18.661 D/BleProximity: ✅ 已连接，开始发现服务
+03-05 12:14:18.662 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+03-05 12:14:18.663 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+03-05 12:14:19.578 D/BleProximity: ⚠️ 车端不支持characteristicVehicleStateSynchronization
+03-05 12:14:19.580 D/BleProximity: ⚠️ 车端不支持characteristicDeviceCharacterRead
+03-05 12:14:19.582 D/BleProximity: ⚠️ 车端不支持characteristicDeviceCharacterWrite
+03-05 12:14:19.584 D/BleProximity: ✅ 特征初始化完成
+03-05 12:14:19.603 D/BleProximity: MTU 生效: 28
+03-05 12:14:19.605 D/BleProximity: 🔐 开始认证流程
+03-05 12:14:19.609 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+03-05 12:14:19.615 D/BleProximity: 🔔 启用通知: d341, 结果: true
+03-05 12:14:19.618 D/BleProximity: 🔔 启用通知: 267e, 结果: true
+03-05 12:14:19.622 D/BleProximity: 🔔 启用通知: 71ed, 结果: true
+03-05 12:14:19.624 D/BleProximity: 🔔 启用通知: 23a8, 结果: true
+03-05 12:14:19.626 D/BleProximity: 🔔 启用通知: 8e2d, 结果: true
+03-05 12:14:19.629 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+03-05 12:14:19.631 D/BleProximity: 🔔 启用通知: 9d21, 结果: true
+03-05 12:14:20.163 D/BleProximity: 📤 准备发送Booking ID: 01A0A299 (进入串行队列)
+03-05 12:14:22.205 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 323261306536333632353038
+03-05 12:14:22.206 D/BleProximity: 🔐 处理认证挑战: 323261306536333632353038
+03-05 12:14:22.759 D/BleProximity: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3031
+03-05 12:14:22.768 D/BleProximity: ✅ 认证成功
+03-05 12:14:22.768 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 1, Session: 1)
+03-05 12:14:22.768 D/BleProximity: 📡 连接状态: AUTHENTICATED (isConnected: true)
+03-05 12:14:22.794 D/BleProximity: 📶 RSSI: -84  阈值(-60.0)
+03-05 12:14:22.794 D/BleProximity: 📊 正在收集信号样本: 1/10
+03-05 12:14:23.084 D/BleProximity: 📶 RSSI: -76  阈值(-60.0)
+03-05 12:14:23.085 D/BleProximity: 📊 正在收集信号样本: 2/10
+03-05 12:14:23.386 D/BleProximity: 📶 RSSI: -76  阈值(-60.0)
+03-05 12:14:23.387 D/BleProximity: 📊 正在收集信号样本: 3/10
+03-05 12:14:23.688 D/BleProximity: 📶 RSSI: -76  阈值(-60.0)
+03-05 12:14:23.689 D/BleProximity: 📊 正在收集信号样本: 4/10
+03-05 12:14:23.994 D/BleProximity: 📶 RSSI: -83  阈值(-60.0)
+03-05 12:14:23.996 D/BleProximity: 📊 正在收集信号样本: 5/10
+03-05 12:14:24.305 D/BleProximity: 📶 RSSI: -82  阈值(-60.0)
+03-05 12:14:24.305 D/BleProximity: 📊 正在收集信号样本: 6/10
+03-05 12:14:24.601 D/BleProximity: 📶 RSSI: -82  阈值(-60.0)
+03-05 12:14:24.601 D/BleProximity: 📊 正在收集信号样本: 7/10
+03-05 12:14:24.906 D/BleProximity: 📶 RSSI: -83  阈值(-60.0)
+03-05 12:14:24.907 D/BleProximity: 📊 正在收集信号样本: 8/10
+03-05 12:14:25.211 D/BleProximity: 📶 RSSI: -82  阈值(-60.0)
+03-05 12:14:25.212 D/BleProximity: 📊 正在收集信号样本: 9/10
+03-05 12:14:25.511 D/BleProximity: 📶 RSSI: -77  阈值(-60.0)
+03-05 12:14:25.816 D/BleProximity: 📶 RSSI: -83  阈值(-60.0)
+03-05 12:14:26.115 D/BleProximity: 📶 RSSI: -80  阈值(-60.0)
