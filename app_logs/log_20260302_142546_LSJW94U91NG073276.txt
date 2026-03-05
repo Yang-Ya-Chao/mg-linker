@@ -1,7 +1,0 @@
---- Log Capture Start: 20260302_142546 ---
-03-02 14:19:10.549 D/MGWidget: onReceive called with action: ACTION_WIDGET_FLIP
-03-02 14:19:11.491 D/MGWidget: onReceive called with action: ACTION_WIDGET_FLIP
-03-02 14:25:25.426 D/MGWidget: onReceive called with action: ACTION_WIDGET_FLIP
-03-02 14:25:26.230 D/MGWidget: onReceive called with action: ACTION_WIDGET_FLIP
-03-02 14:25:29.386 D/MGWidget: onReceive called with action: ACTION_WIDGET_FLIP
-03-02 14:25:29.870 D/MGWidget: onReceive called with action: ACTION_WIDGET_FLIP
