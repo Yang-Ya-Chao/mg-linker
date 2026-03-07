@@ -1,0 +1,58 @@
+--- Log Capture Start: 20260307_182912 ---
+03-07 18:28:58.710 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 河北省秦皇岛市海港区南山街43号
+03-07 18:28:58.711 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-07 18:28:58.714 D/MGWidget: updateWidgetSynchronously called for ID: 547
+03-07 18:28:58.731 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 965ms) ──────
+03-07 18:28:58.731 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-07 18:28:58.732 D/MG_NET_LOG: │ Method: POST
+03-07 18:28:58.732 D/MG_NET_LOG: │ Header: app-type: roewe
+03-07 18:28:58.732 D/MG_NET_LOG: │ Header: timestamp: 1772879337761
+03-07 18:28:58.732 D/MG_NET_LOG: │ Header: sign: +Am3zbkcEmqOm34jwMWFLrqfi/u7DB2un+CCXDIEUKA=
+03-07 18:28:58.733 D/MG_NET_LOG: │ Params: data={"vin":"LSJW94U94PG059424","appId":"Roewe","brandCode":"1","nonce":"B11330C12A9575D2EC8F8548BDE91497","timestamp":"1772879337232","token":"40ae1814cfc74462b48f4fff27c4f4dc-prod_SAIC"}
+03-07 18:28:58.733 D/MG_NET_LOG: ├────── Response Result ──────
+03-07 18:28:58.733 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cc7d7dafff67fdb0f","data":{"vehicle_position":{"satellites":7,"altitude":20,"latitude":"39.909767","gps_status":2,"update_time":1772363228000,"gps_time":1772378788000,"hdop":12,"longitude":"119.610088"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":false,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":260,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":3,"driving_range":0,"battery_pack_range":0,"power_mode":0,"engine_status":0,"exterior_temperature":-1,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":25,"localfront_left_seat_heat_level":null,"interior_pm25":508,"odometer":6098,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":29634,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1210,"chrgng_rmnng_time_v":null,"exterior_pm25":508,"front_left_tyre_pressure":260,"charge_status":0,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":0,"front_right_tyre_pressure":260,"battery_pack_prc":0,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":0,"current_journey_id":0,"pwr_lftgt_pos_v":null,"interior_temperature":21,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772848380000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":256,"vehicle_battery_prc":0,"battery_type":1,"fuel_level_disp":2,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1772850617000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":true,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772848380000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":
+03-07 18:28:58.734 D/MG_NET_LOG: │ Result(Part 2): true,"sunroof":false,"rear_left_door":false,"passenger_window":true,"window":true,"rear_left_window":true,"main_beam":false}}}
+03-07 18:28:58.734 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-07 18:28:58.737 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 河北省秦皇岛市海港区南山街43号
+03-07 18:28:58.738 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-07 18:28:58.738 D/MGWidget: updateWidgetSynchronously called for ID: 547
+03-07 18:29:01.587 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+03-07 18:29:01.588 D/BleProximity: ✅ 已连接，开始发现服务
+03-07 18:29:01.588 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+03-07 18:29:01.589 D/BleProximity: 📡 连接状态: CONNECTED
+03-07 18:29:02.399 D/BleProximity: ✅ 特征初始化完成
+03-07 18:29:02.429 D/BleProximity: MTU 生效: 65
+03-07 18:29:02.430 D/BleProximity: 🔐 开始认证流程
+03-07 18:29:02.433 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+03-07 18:29:02.437 D/BleProximity: 🔔 启用通知: d341, 结果: true
+03-07 18:29:02.438 D/BleProximity: 🔔 启用通知: 267e, 结果: true
+03-07 18:29:02.439 D/BleProximity: 🔔 启用通知: 71ed, 结果: true
+03-07 18:29:02.441 D/BleProximity: 🔔 启用通知: 23a8, 结果: true
+03-07 18:29:02.442 D/BleProximity: 🔔 启用通知: 8e2d, 结果: true
+03-07 18:29:02.443 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+03-07 18:29:02.444 D/BleProximity: 🔔 启用通知: 9d21, 结果: true
+03-07 18:29:02.545 D/BleProximity: 📤 准备发送Booking ID: 01A6BEAE (进入串行队列)
+03-07 18:29:05.026 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 656433323931386561383662
+03-07 18:29:05.027 D/BleProximity: 🔐 处理认证挑战: 656433323931386561383662
+03-07 18:29:05.571 D/BleProximity: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3031
+03-07 18:29:05.574 D/BleProximity: ✅ 认证成功
+03-07 18:29:05.575 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 1, Session: 1)
+03-07 18:29:05.576 D/BleProximity: 📡 连接状态: AUTHENTICATED
+03-07 18:29:05.596 D/BleProximity: 📊 正在收集信号样本: 1/6
+03-07 18:29:05.897 D/BleProximity: 📊 正在收集信号样本: 2/6
+03-07 18:29:06.204 D/BleProximity: 📊 正在收集信号样本: 3/6
+03-07 18:29:06.508 D/BleProximity: 📊 正在收集信号样本: 4/6
+03-07 18:29:06.810 D/BleProximity: 📊 正在收集信号样本: 5/6
+03-07 18:29:07.112 D/BleProximity: 🔓 触发解锁: 信号=-63, 稳定性=0.7
+03-07 18:29:07.128 D/BleProximity: 📤 发送指令: 解锁车门
+03-07 18:29:07.161 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 333138396531313665333766
+03-07 18:29:07.163 D/BleProximity: 🔐 处理认证挑战: 333138396531313665333766
+03-07 18:29:08.468 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+03-07 18:29:08.470 D/BleProximity: 解锁成功
+03-07 18:29:08.472 D/BleProximity: 📊 指令出队: 解锁车门 -> SUCCESS
+03-07 18:29:08.474 D/BleProximity: 🔓 解锁结果: SUCCESS
+03-07 18:29:08.475 D/BleProximity: ✅ 车辆已解锁
+03-07 18:29:08.490 D/BleProximity: 🔗 链式触发: 120 秒打火
+03-07 18:29:08.591 D/BleProximity: 📤 发送指令: 120 秒打火
+03-07 18:29:08.630 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 663832623566316438353562
+03-07 18:29:08.633 D/BleProximity: 🔐 处理认证挑战: 663832623566316438353562
