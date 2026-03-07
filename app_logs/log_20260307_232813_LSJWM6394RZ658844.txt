@@ -1,0 +1,27 @@
+--- Log Capture Start: 20260307_232813 ---
+03-07 23:26:42.064 D/BleProximity: ⌛ 扫描周期结束(20s)，未发现设备
+03-07 23:26:42.067 D/BleProximity: ⏹️ 停止扫描
+03-07 23:26:42.069 D/BleProximity: 🔄 仍有活跃 Session，将在 3 秒后重新扫描...
+03-07 23:26:45.071 D/BleProximity: 🔍 开始扫描
+03-07 23:26:45.074 D/BleProximity: 🔍 开始扫描 (尝试次数: 5)
+03-07 23:27:05.074 D/BleProximity: ⌛ 扫描周期结束(20s)，未发现设备
+03-07 23:27:05.075 D/BleProximity: ⏹️ 停止扫描
+03-07 23:27:05.075 D/BleProximity: 🔄 仍有活跃 Session，将在 3 秒后重新扫描...
+03-07 23:27:08.079 D/BleProximity: 🔍 开始扫描
+03-07 23:27:08.082 D/BleProximity: 🔍 开始扫描 (尝试次数: 6)
+03-07 23:27:28.085 D/BleProximity: ⌛ 扫描周期结束(20s)，未发现设备
+03-07 23:27:28.086 D/BleProximity: ⏹️ 停止扫描
+03-07 23:27:28.087 D/BleProximity: 🔄 仍有活跃 Session，将在 3 秒后重新扫描...
+03-07 23:27:31.090 D/BleProximity: 🔍 开始扫描
+03-07 23:27:31.091 D/BleProximity: 🔍 开始扫描 (尝试次数: 7)
+03-07 23:27:51.095 D/BleProximity: ⌛ 扫描周期结束(20s)，未发现设备
+03-07 23:27:51.098 D/BleProximity: ⏹️ 停止扫描
+03-07 23:27:51.100 D/BleProximity: 🔄 仍有活跃 Session，将在 3 秒后重新扫描...
+03-07 23:27:52.975 D/BleProximity: 💤 屏幕关闭
+03-07 23:27:53.289 D/BleProximity: 💡 屏幕点亮，重置扫描策略
+03-07 23:27:53.290 D/BleProximity: ⚡ 触发高优先级扫描 (屏幕点亮/解锁)
+03-07 23:27:53.291 D/BleProximity: 🔍 开始扫描
+03-07 23:27:53.292 D/BleProximity: 🔍 开始扫描 (尝试次数: 0)
+03-07 23:28:07.295 D/BleProximity: 💤 屏幕关闭
+03-07 23:28:09.519 D/BleProximity: 💡 屏幕点亮，重置扫描策略
+03-07 23:28:09.520 D/BleProximity: ⚡ 触发高优先级扫描 (屏幕点亮/解锁)
