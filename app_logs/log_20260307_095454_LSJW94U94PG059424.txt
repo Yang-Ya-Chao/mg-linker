@@ -1,0 +1,73 @@
+--- Log Capture Start: 20260307_095454 ---
+03-07 09:52:57.692 D/ControlActivity: ➕ 添加监听器: callback_1_1772848377692 (总数: 1)
+03-07 09:52:58.784 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1101ms) ──────
+03-07 09:52:58.785 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-07 09:52:58.786 D/MG_NET_LOG: │ Method: POST
+03-07 09:52:58.787 D/MG_NET_LOG: │ Header: app-type: roewe
+03-07 09:52:58.788 D/MG_NET_LOG: │ Header: timestamp: 1772848377681
+03-07 09:52:58.788 D/MG_NET_LOG: │ Header: sign: /Hg+bZCYLmLLHDidKx6Ax8AOzt+Ui3Oh98J0hEyUK9E=
+03-07 09:52:58.788 D/MG_NET_LOG: │ Params: data={"vin":"LSJW94U94PG059424","appId":"Roewe","brandCode":"1","nonce":"C7EF3AE0EBC17CCB534A862AA7415784","timestamp":"1772848377674","token":"40ae1814cfc74462b48f4fff27c4f4dc-prod_SAIC"}
+03-07 09:52:58.789 D/MG_NET_LOG: ├────── Response Result ──────
+03-07 09:52:58.790 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cc5ff71acae36293f","data":{"vehicle_position":{"satellites":7,"altitude":20,"gps_status":2,"latitude":"39.909767","update_time":1772363228000,"gps_time":1772378788000,"hdop":12,"longitude":"119.610088"},"vehicle_security":{"position_authorization_status":false,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":252,"battery_pack_fault_status":null,"charge_door_position_status":null,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":2,"driving_range":191,"battery_pack_range":0,"power_mode":0,"engine_status":0,"exterior_temperature":-1,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":33,"localfront_left_seat_heat_level":null,"interior_pm25":508,"odometer":6090,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":29634,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1190,"chrgng_rmnng_time_v":null,"exterior_pm25":508,"front_left_tyre_pressure":252,"charge_status":0,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":252,"battery_pack_prc":0,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":191,"current_journey_id":0,"pwr_lftgt_pos_v":null,"interior_temperature":9,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1772797013000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":252,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":500,"fuel_level_disp":3,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1772847649000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1772797013000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_wi
+03-07 09:52:58.790 D/MG_NET_LOG: │ Result(Part 2): ndow":true,"sunroof":false,"rear_left_door":false,"passenger_window":true,"window":true,"rear_left_window":true,"main_beam":false}}}
+03-07 09:52:58.791 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-07 09:52:59.821 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 121ms) ──────
+03-07 09:52:59.821 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken
+03-07 09:52:59.822 D/MG_NET_LOG: │ Method: POST
+03-07 09:52:59.822 D/MG_NET_LOG: │ Header: app-type: roewe
+03-07 09:52:59.823 D/MG_NET_LOG: │ Header: timestamp: 1772848379699
+03-07 09:52:59.823 D/MG_NET_LOG: │ Header: sign: /g2xP7VyQLV22u4dMeiOpvv4YPZf4P7WqSBBxmd+TKE=
+03-07 09:52:59.824 D/MG_NET_LOG: │ Params: data={"token":"40ae1814cfc74462b48f4fff27c4f4dc-prod_SAIC"}
+03-07 09:52:59.824 D/MG_NET_LOG: ├────── Response Result ──────
+03-07 09:52:59.824 D/MG_NET_LOG: │ Result: {"req_id":"19cc5ff7782104b1b8f","data":{"rav_code":"TlP490"}}
+03-07 09:52:59.825 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-07 09:53:00.004 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 170ms) ──────
+03-07 09:53:00.005 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+03-07 09:53:00.005 D/MG_NET_LOG: │ Method: POST
+03-07 09:53:00.005 D/MG_NET_LOG: │ Header: app-type: roewe
+03-07 09:53:00.005 D/MG_NET_LOG: │ Header: timestamp: 1772848379833
+03-07 09:53:00.006 D/MG_NET_LOG: │ Header: sign: Kfm5N6+H5LZs1n8aewDIgJmXY6fZsSvT0z62epxdCf8=
+03-07 09:53:00.007 D/MG_NET_LOG: │ Params: data={"pin":"d2bcb39bf4593ec2803aac9e114af4a6741051e4","vin":"LSJW94U94PG059424","nonce":"54B233880AD1EBA58D8228EAB5244B3E","timestamp":"1772848379831","token":"40ae1814cfc74462b48f4fff27c4f4dc-prod_SAIC"}
+03-07 09:53:00.007 D/MG_NET_LOG: ├────── Response Result ──────
+03-07 09:53:00.008 D/MG_NET_LOG: │ Result: {"req_id":"19cc5ff781ffd5b312f","data":{"isRight":"true","errorCode":null,"pvCode":"f3de319df43d0e4cdf073bfc2055aebd","pinStatusList":[{"configStatus":-1,"configType":0,"userId":null,"deviceId":""},{"configStatus":-1,"configType":1,"userId":null,"deviceId":""}]}}
+03-07 09:53:00.008 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-07 09:53:00.152 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 134ms) ──────
+03-07 09:53:00.153 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.1/requestLock
+03-07 09:53:00.153 D/MG_NET_LOG: │ Method: POST
+03-07 09:53:00.153 D/MG_NET_LOG: │ Header: app-type: roewe
+03-07 09:53:00.153 D/MG_NET_LOG: │ Header: timestamp: 1772848380015
+03-07 09:53:00.154 D/MG_NET_LOG: │ Header: sign: 2XLWH2K-joZRJLq-Bp-2_tQmKxfCYdRIsJ9BRtScon4
+03-07 09:53:00.155 D/MG_NET_LOG: │ Params: data={"auth_type":"2","appId":"Roewe","vin":"LSJW94U94PG059424","nonce":"A05C4350578F700A160977A8D03F08B5","brandCode":"1","timestamp":"1772848380013","token":"40ae1814cfc74462b48f4fff27c4f4dc-prod_SAIC","auth_code":"f3de319df43d0e4cdf073bfc2055aebd"}
+03-07 09:53:00.155 D/MG_NET_LOG: ├────── Response Result ──────
+03-07 09:53:00.156 D/MG_NET_LOG: │ Result: {"req_id":"19cc5ff78c2863ae625","data":{"command_id":323753873}}
+03-07 09:53:00.156 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-07 09:53:00.302 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 135ms) ──────
+03-07 09:53:00.302 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+03-07 09:53:00.303 D/MG_NET_LOG: │ Method: POST
+03-07 09:53:00.303 D/MG_NET_LOG: │ Header: app-type: roewe
+03-07 09:53:00.303 D/MG_NET_LOG: │ Header: timestamp: 1772848380166
+03-07 09:53:00.303 D/MG_NET_LOG: │ Header: sign: UBPVexweHvzetnpB27zrcGmhJ3I0YjHSheLpkTin1gQ
+03-07 09:53:00.304 D/MG_NET_LOG: │ Params: data={"command_id":"323753873","appId":"Roewe","vin":"LSJW94U94PG059424","nonce":"B2561C7F3E494B64AB44791216ACFC1F","brandCode":"1","timestamp":"1772848380159","token":"40ae1814cfc74462b48f4fff27c4f4dc-prod_SAIC"}
+03-07 09:53:00.304 D/MG_NET_LOG: ├────── Response Result ──────
+03-07 09:53:00.304 D/MG_NET_LOG: │ Result: {"req_id":"19cc5ff794cdd74cb39","data":{"command_result":0,"command_status":"99","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+03-07 09:53:00.305 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-07 09:53:03.425 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 112ms) ──────
+03-07 09:53:03.425 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+03-07 09:53:03.426 D/MG_NET_LOG: │ Method: POST
+03-07 09:53:03.427 D/MG_NET_LOG: │ Header: app-type: roewe
+03-07 09:53:03.428 D/MG_NET_LOG: │ Header: timestamp: 1772848383310
+03-07 09:53:03.428 D/MG_NET_LOG: │ Header: sign: QmoihB8y_furVgISANaaKsADXIXPUGMMo5Dk45RNFNQ
+03-07 09:53:03.429 D/MG_NET_LOG: │ Params: data={"command_id":"323753873","appId":"Roewe","vin":"LSJW94U94PG059424","nonce":"9F49D7625391F3376738AD3F0652C7E5","brandCode":"1","timestamp":"1772848383308","token":"40ae1814cfc74462b48f4fff27c4f4dc-prod_SAIC"}
+03-07 09:53:03.430 D/MG_NET_LOG: ├────── Response Result ──────
+03-07 09:53:03.431 D/MG_NET_LOG: │ Result: {"req_id":"19cc5ff85a381fba48e","data":{"command_result":0,"command_status":"01","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+03-07 09:53:03.432 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-07 09:53:06.622 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 172ms) ──────
+03-07 09:53:06.623 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+03-07 09:53:06.624 D/MG_NET_LOG: │ Method: POST
+03-07 09:53:06.624 D/MG_NET_LOG: │ Header: app-type: roewe
+03-07 09:53:06.625 D/MG_NET_LOG: │ Header: timestamp: 1772848386446
+03-07 09:53:06.626 D/MG_NET_LOG: │ Header: sign: TsrV_u2b54r8o3OKJ8fEAZHaYelwpnr4lJSDKdEBFCQ
+03-07 09:53:06.626 D/MG_NET_LOG: │ Params: data={"command_id":"323753873","appId":"Roewe","vin":"LSJW94U94PG059424","nonce":"DDE9FDE5B1AAFAA573C4B5A9EE984260","brandCode":"1","timestamp":"1772848386440","token":"40ae1814cfc74462b48f4fff27c4f4dc-prod_SAIC"}
+03-07 09:53:06.627 D/MG_NET_LOG: ├────── Response Result ──────
+03-07 09:53:06.628 D/MG_NET_LOG: │ Result: {"req_id":"19cc5ff9227185523","data":{"command_result":1,"command_status":"02","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+03-07 09:53:06.629 D/MG_NET_LOG: └──────────────────────────────────────────────────
