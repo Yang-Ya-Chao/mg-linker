@@ -1,0 +1,363 @@
+--- Log Capture Start: 20260308_082958 ---
+03-08 06:22:03.815 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 57ms) ──────
+03-08 06:22:03.818 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+03-08 06:22:03.819 D/MG_NET_LOG: │ Method: POST
+03-08 06:22:03.820 D/MG_NET_LOG: │ Header: app-type: roewe
+03-08 06:22:03.821 D/MG_NET_LOG: │ Header: timestamp: 1772922123755
+03-08 06:22:03.821 D/MG_NET_LOG: │ Header: sign: wp3wGQAP9bWsfcqnQ+epToE8kD6JAA1TBcJuHTCaPbo=
+03-08 06:22:03.822 D/MG_NET_LOG: │ Params: data={"userId":"15100001938773","appId":"Roewe","brandCode":"1","nonce":"52902E5A1921D203EE1BDC45AA3B9EC7","timestamp":"1772922123752","token":"c4242ee08985437baf9fda133741b7dc-prod_SAIC"}
+03-08 06:22:03.823 D/MG_NET_LOG: ├────── Response Result ──────
+03-08 06:22:03.824 D/MG_NET_LOG: │ Result: {"req_id":"19cca64b39a99895d53","err_resp":{"msg":"登录态失效，请重新登录","code":"14101","desc":"登录态失效，请重新登录"}}
+03-08 06:22:03.824 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-08 06:22:03.902 D/BleProximity: 🔧 初始化 BleProximityManager
+03-08 06:22:03.903 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+03-08 06:22:03.903 D/BleProximity: 🧹 清理资源...
+03-08 06:22:03.903 D/BleProximity: 🛑 停止服务
+03-08 06:22:03.903 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_1_1772922113427 (剩余: 0)
+03-08 06:22:03.903 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+03-08 06:22:03.904 D/BleProximity: ✅ Session 已释放
+03-08 06:22:03.904 D/BleProximity: ✅ 屏幕状态监听已注销
+03-08 06:22:03.909 D/BleProximity: ➖ 移除监听器: callback_1_1772922113426 
+03-08 06:22:03.910 D/BleProximity: ✅ 已移除回调: callback_1_1772922113426
+03-08 06:22:03.910 D/BleProximity: ✅ 资源清理完成
+03-08 06:22:03.910 D/BleProximity: ➕ 添加监听器: callback_2_1772922123910 (总数: 1)
+03-08 06:22:03.910 D/BleProximity: ✅ 初始化完成，回调ID: callback_2_1772922123910 ,DistanceMeters:-87.0
+03-08 06:22:03.910 D/BleProximity: 🚀 启动靠近解锁服务...
+03-08 06:22:03.910 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_2_1772922123910 (总数: 1)
+03-08 06:22:03.911 D/BleProximity: ❌ 蓝牙未开启
+03-08 06:22:03.911 D/BleProximity: ❌ 错误: 蓝牙未开启
+03-08 06:22:03.914 D/BleProximity: 🎫 Session 已获取: true
+03-08 06:22:03.914 D/BleProximity: ⏳ 服务已启动，正在后台搜索设备...
+03-08 06:22:03.916 D/BleProximity: ✅ 屏幕状态监听已注册
+03-08 06:22:31.459 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 46ms) ──────
+03-08 06:22:31.462 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+03-08 06:22:31.462 D/MG_NET_LOG: │ Method: POST
+03-08 06:22:31.463 D/MG_NET_LOG: │ Header: app-type: roewe
+03-08 06:22:31.463 D/MG_NET_LOG: │ Header: timestamp: 1772922151406
+03-08 06:22:31.463 D/MG_NET_LOG: │ Header: sign: 3bwG+1vr/TWg+cSubX0mK7IIBktfitPVrONmdVlc6iA=
+03-08 06:22:31.464 D/MG_NET_LOG: │ Params: data={"userId":"15100001938773","appId":"Roewe","brandCode":"1","nonce":"5F4ED3A9F19ADDC445C0B10E3707ABFC","timestamp":"1772922151404","token":"c4242ee08985437baf9fda133741b7dc-prod_SAIC"}
+03-08 06:22:31.464 D/MG_NET_LOG: ├────── Response Result ──────
+03-08 06:22:31.465 D/MG_NET_LOG: │ Result: {"req_id":"19cca651f9a57b6c76f","err_resp":{"msg":"登录态失效，请重新登录","code":"14101","desc":"登录态失效，请重新登录"}}
+03-08 06:22:31.465 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-08 06:22:31.534 D/BleProximity: 🔧 初始化 BleProximityManager
+03-08 06:22:31.535 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+03-08 06:22:31.535 D/BleProximity: 🧹 清理资源...
+03-08 06:22:31.535 D/BleProximity: 🛑 停止服务
+03-08 06:22:31.535 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_2_1772922123910 (剩余: 0)
+03-08 06:22:31.535 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+03-08 06:22:31.536 D/BleProximity: ✅ Session 已释放
+03-08 06:22:31.536 D/BleProximity: ✅ 屏幕状态监听已注销
+03-08 06:22:31.539 D/BleProximity: ➖ 移除监听器: callback_2_1772922123910 
+03-08 06:22:31.540 D/BleProximity: ✅ 已移除回调: callback_2_1772922123910
+03-08 06:22:31.540 D/BleProximity: ✅ 资源清理完成
+03-08 06:22:31.540 D/BleProximity: ➕ 添加监听器: callback_3_1772922151540 (总数: 1)
+03-08 06:22:31.540 D/BleProximity: ✅ 初始化完成，回调ID: callback_3_1772922151540 ,DistanceMeters:-87.0
+03-08 06:22:31.540 D/BleProximity: 🚀 启动靠近解锁服务...
+03-08 06:22:31.540 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_3_1772922151540 (总数: 1)
+03-08 06:22:31.540 D/BleProximity: ❌ 蓝牙未开启
+03-08 06:22:31.540 D/BleProximity: ❌ 错误: 蓝牙未开启
+03-08 06:22:31.542 D/BleProximity: 🎫 Session 已获取: true
+03-08 06:22:31.542 D/BleProximity: ⏳ 服务已启动，正在后台搜索设备...
+03-08 06:22:31.544 D/BleProximity: ✅ 屏幕状态监听已注册
+03-08 06:22:42.619 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 47ms) ──────
+03-08 06:22:42.620 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+03-08 06:22:42.621 D/MG_NET_LOG: │ Method: POST
+03-08 06:22:42.622 D/MG_NET_LOG: │ Header: app-type: 
+03-08 06:22:42.622 D/MG_NET_LOG: │ Header: timestamp: 1772922162569
+03-08 06:22:42.623 D/MG_NET_LOG: │ Header: sign: VT1e/4PZRgVs/e9Qta6IP4toHkxhXLZ4GaIGxWxVu08=
+03-08 06:22:42.623 D/MG_NET_LOG: │ Params: data={"userId":"15100001938773","appId":"Roewe","brandCode":"1","nonce":"92A1EBA9348479A4583B3885ED148CD9","timestamp":"1772922162567","token":"c4242ee08985437baf9fda133741b7dc-prod_SAIC"}
+03-08 06:22:42.624 D/MG_NET_LOG: ├────── Response Result ──────
+03-08 06:22:42.625 D/MG_NET_LOG: │ Result: {"req_id":"19cca654b36de2abafc","err_resp":{"msg":"登录态失效，请重新登录","code":"14101","desc":"登录态失效，请重新登录"}}
+03-08 06:22:42.626 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-08 06:22:42.692 D/BleProximity: 🔧 初始化 BleProximityManager
+03-08 06:22:42.693 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+03-08 06:22:42.693 D/BleProximity: 🧹 清理资源...
+03-08 06:22:42.693 D/BleProximity: 🛑 停止服务
+03-08 06:22:42.693 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_3_1772922151540 (剩余: 0)
+03-08 06:22:42.693 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+03-08 06:22:42.693 D/BleProximity: ✅ Session 已释放
+03-08 06:22:42.695 D/BleProximity: ✅ 屏幕状态监听已注销
+03-08 06:22:42.697 D/BleProximity: ➖ 移除监听器: callback_3_1772922151540 
+03-08 06:22:42.697 D/BleProximity: ✅ 已移除回调: callback_3_1772922151540
+03-08 06:22:42.697 D/BleProximity: ✅ 资源清理完成
+03-08 06:22:42.697 D/BleProximity: ➕ 添加监听器: callback_4_1772922162697 (总数: 1)
+03-08 06:22:42.698 D/BleProximity: ✅ 初始化完成，回调ID: callback_4_1772922162697 ,DistanceMeters:-87.0
+03-08 06:22:42.698 D/BleProximity: 🚀 启动靠近解锁服务...
+03-08 06:22:42.698 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_4_1772922162698 (总数: 1)
+03-08 06:22:42.698 D/BleProximity: ❌ 蓝牙未开启
+03-08 06:22:42.699 D/BleProximity: ❌ 错误: 蓝牙未开启
+03-08 06:22:42.700 D/BleProximity: 🎫 Session 已获取: true
+03-08 06:22:42.701 D/BleProximity: ⏳ 服务已启动，正在后台搜索设备...
+03-08 06:22:42.704 D/BleProximity: ✅ 屏幕状态监听已注册
+03-08 06:23:22.829 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_ENABLED
+03-08 06:23:22.833 D/MGWidget: onUpdate called for IDs: 10
+03-08 06:23:22.834 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-08 06:23:22.851 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-08 06:23:22.990 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 130ms) ──────
+03-08 06:23:22.993 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-08 06:23:22.994 D/MG_NET_LOG: │ Method: POST
+03-08 06:23:22.995 D/MG_NET_LOG: │ Header: app-type: roewe
+03-08 06:23:22.996 D/MG_NET_LOG: │ Header: timestamp: 1772922202857
+03-08 06:23:22.997 D/MG_NET_LOG: │ Header: sign: g4hcKW93tHdNlgywVUpEGGT3qua8pvaytu2EuDoPjPw=
+03-08 06:23:22.997 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6391PZ872476","appId":"Roewe","brandCode":"1","nonce":"6B3F4B29DE807CC8E7F9981AAE56F193","timestamp":"1772922202853","token":"c4242ee08985437baf9fda133741b7dc-prod_SAIC"}
+03-08 06:23:22.998 D/MG_NET_LOG: ├────── Response Result ──────
+03-08 06:23:22.999 D/MG_NET_LOG: │ Result: {"req_id":"19cca65e8ea33d27dda","err_resp":{"msg":"登录态失效，请重新登录","code":"14101","desc":"登录态失效，请重新登录"}}
+03-08 06:23:22.999 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-08 06:23:23.002 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: null
+03-08 06:23:23.003 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-08 06:23:23.004 D/MGWidget: updateWidgetSynchronously called for ID: 10
+03-08 06:23:23.336 D/MGWidget: onAppWidgetOptionsChanged for ID: 10
+03-08 06:23:23.342 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE_OPTIONS
+03-08 06:23:27.299 D/MGWidget: onUpdate called for IDs: 10
+03-08 06:23:27.300 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-08 06:23:27.317 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-08 06:23:27.368 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 46ms) ──────
+03-08 06:23:27.369 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-08 06:23:27.369 D/MG_NET_LOG: │ Method: POST
+03-08 06:23:27.369 D/MG_NET_LOG: │ Header: app-type: roewe
+03-08 06:23:27.369 D/MG_NET_LOG: │ Header: timestamp: 1772922207321
+03-08 06:23:27.370 D/MG_NET_LOG: │ Header: sign: 0du2KNpeURfB0RIv93H8wdkZucszD4z+hOlTzp1Vi04=
+03-08 06:23:27.370 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6391PZ872476","appId":"Roewe","brandCode":"1","nonce":"D41A55751F750BDD2524A70227923C53","timestamp":"1772922207318","token":"c4242ee08985437baf9fda133741b7dc-prod_SAIC"}
+03-08 06:23:27.370 D/MG_NET_LOG: ├────── Response Result ──────
+03-08 06:23:27.370 D/MG_NET_LOG: │ Result: {"req_id":"19cca65fa05c19e3855","err_resp":{"msg":"登录态失效，请重新登录","code":"14101","desc":"登录态失效，请重新登录"}}
+03-08 06:23:27.370 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-08 06:23:27.371 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: null
+03-08 06:23:27.371 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-08 06:23:27.372 D/MGWidget: updateWidgetSynchronously called for ID: 10
+03-08 06:23:28.162 D/MGWidget: onReceive called with action: ACTION_WIDGET_FLIP
+03-08 06:23:29.156 D/MGWidget: onReceive called with action: ACTION_WIDGET_FLIP
+03-08 06:23:29.613 D/MGWidget: onReceive called with action: ACTION_WIDGET_FLIP
+03-08 06:23:29.993 D/MGWidget: onReceive called with action: ACTION_WIDGET_FLIP
+03-08 06:23:36.159 D/BleProximity: 💤 屏幕关闭，保持默认退避策略
+03-08 06:24:05.765 D/BleProximity: 💡 检测到屏幕点亮/解锁，立即激活扫描！
+03-08 06:24:05.765 D/BleProximity: ⚡ 触发高优先级扫描 (屏幕点亮/解锁)
+03-08 06:24:05.766 D/BleProximity: ❌ 蓝牙未开启
+03-08 06:24:05.778 D/BleProximity: ❌ 错误: 蓝牙未开启
+03-08 06:24:06.108 D/MGWidget: onUpdate called for IDs: 10
+03-08 06:24:06.113 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-08 06:24:06.201 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-08 06:24:06.359 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 146ms) ──────
+03-08 06:24:06.361 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-08 06:24:06.361 D/MG_NET_LOG: │ Method: POST
+03-08 06:24:06.362 D/MG_NET_LOG: │ Header: app-type: roewe
+03-08 06:24:06.362 D/MG_NET_LOG: │ Header: timestamp: 1772922246211
+03-08 06:24:06.363 D/MG_NET_LOG: │ Header: sign: yQXDoDZoq4r9dJZW2NhhNGGSqkTYS7cYnkK5u5F9QbM=
+03-08 06:24:06.363 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6391PZ872476","appId":"Roewe","brandCode":"1","nonce":"5E1FB9EEA63C52974738F0B6DDF8727D","timestamp":"1772922246204","token":"c4242ee08985437baf9fda133741b7dc-prod_SAIC"}
+03-08 06:24:06.363 D/MG_NET_LOG: ├────── Response Result ──────
+03-08 06:24:06.364 D/MG_NET_LOG: │ Result: {"req_id":"19cca669255ab94adb","err_resp":{"msg":"登录态失效，请重新登录","code":"14101","desc":"登录态失效，请重新登录"}}
+03-08 06:24:06.364 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-08 06:24:06.366 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: null
+03-08 06:24:06.367 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-08 06:24:06.368 D/MGWidget: updateWidgetSynchronously called for ID: 10
+03-08 06:24:18.027 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 450ms) ──────
+03-08 06:24:18.030 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/uais/1.1/graphicVerificationV2
+03-08 06:24:18.031 D/MG_NET_LOG: │ Method: POST
+03-08 06:24:18.032 D/MG_NET_LOG: │ Header: app-type: roewe
+03-08 06:24:18.033 D/MG_NET_LOG: │ Header: timestamp: 1772922257574
+03-08 06:24:18.034 D/MG_NET_LOG: │ Header: sign: 5iXNB4scYLf9PNQI0IB05/7eMybCo63C927+JzzYq9g=
+03-08 06:24:18.034 D/MG_NET_LOG: │ Params: data={"NECaptchaValidate":"CN31_8QI1fwlHUbqavJz9isxvgo3qMuIuH955uNw5ZCiMTsEoHDmNiGG0kSkeUMKxjn5zdZ_RV.z8oaZxBT8xw1WuAPA5Xg81cEGYXuH9h9Air6jNnfGL8Utpv.T2Aq2JobhO4upJITLWlhpaCktMWD5dh5W4ZnWms3EBqV4oWygv_IOkKHFmX_neRwTqXA3j9X9m1FUHGiL6wU_ryWLfk9DzS692qdR5h_y4bqnQMYotNAjBSOPosmfaF0b10Te*GePLO3MR4F3Ag3csUfB4GDV4sT_0ocrr8dGKn952Z53_kmszfJ5Aa4yKbo_pAWFhKBLZjgE5s280uTjQgWCVDLzNtMHpdVIBRLVBi_d6YHDHgo15L0GOSO_WeyWRFatVhXnlGmZjEJ6dOVNZw1lnUQ4oWUhIgi6_Sq6seSnCHmV_T_*HEvh3_KdWrweLsKGOqP*OXaRWZpEcPjTvdQcclI2Ww4HwY3EElLdPUxN*UETDZJm3M_RLXr04T0etMz9vuYBBIocwlY77_v_i_1","brandCode":"1","captchaId":"9bf804b38df4489bb1cf95901e6f7679","mobilePhone":"13170051965"}
+03-08 06:24:18.035 D/MG_NET_LOG: ├────── Response Result ──────
+03-08 06:24:18.035 D/MG_NET_LOG: │ Result: {"req_id":"19cca66be49d5b5129c","data":{"send":"true"}}
+03-08 06:24:18.036 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-08 06:24:25.381 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 105ms) ──────
+03-08 06:24:25.383 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/uais/1.0/quickLoginByVcodeV2
+03-08 06:24:25.384 D/MG_NET_LOG: │ Method: POST
+03-08 06:24:25.384 D/MG_NET_LOG: │ Header: app-type: roewe
+03-08 06:24:25.385 D/MG_NET_LOG: │ Header: timestamp: 1772922265274
+03-08 06:24:25.385 D/MG_NET_LOG: │ Header: sign: WYv+fnYmRg2rpkYHBMUITBKU0RpEZlt2184zRjsGG+8=
+03-08 06:24:25.385 D/MG_NET_LOG: │ Params: data={"appType":"MG","app_version":"MG Live_2.1.3","brandCode":"1","deviceId":"e9e58da0ba867127","mobile_brand":"OnePlus","mobile_type":"PHP110","os_version":"16","phone":"13170051965","phoneName":"","platformType":"android","sid":"","uuid":"e9e58da0ba867127","vcode":"124000"}
+03-08 06:24:25.387 D/MG_NET_LOG: ├────── Response Result ──────
+03-08 06:24:25.388 D/MG_NET_LOG: │ Result: {"req_id":"19cca66dc689b29f50f","data":{"loginResult":true,"pass":"true","isDulp":"true","loginData":{"user_name":"13170051965","mobile":"13170051965","has_vehicle":false,"acl":null,"auth_code":null,"token":"202033a94ca74bf8a79c4acc8c000921-prod_SAIC","args":null,"upload_dt_required":false,"related_accounts":null,"user_id":15100003235533,"nick_name":null,"photo_url":null,"expiry_time":1796250264728},"mv_code":"7a57cd60c74532a689fe07ae1ccd36ce"}}
+03-08 06:24:25.388 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-08 06:24:25.446 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 50ms) ──────
+03-08 06:24:25.448 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.1/getOutSideServiceToken
+03-08 06:24:25.448 D/MG_NET_LOG: │ Method: POST
+03-08 06:24:25.449 D/MG_NET_LOG: │ Header: app-type: roewe
+03-08 06:24:25.449 D/MG_NET_LOG: │ Header: brandCode: 1
+03-08 06:24:25.449 D/MG_NET_LOG: │ Header: timestamp: 1772922265394
+03-08 06:24:25.451 D/MG_NET_LOG: │ Header: sign: iZby9RfVAtkoXmV7aoTlrhoq9ADDb96n+8OnF5aWfQQ=
+03-08 06:24:25.451 D/MG_NET_LOG: │ Params: data={"brandCode":"1","deviceId":"e9e58da0ba867127","token":"202033a94ca74bf8a79c4acc8c000921-prod_SAIC","types":[1]}
+03-08 06:24:25.452 D/MG_NET_LOG: ├────── Response Result ──────
+03-08 06:24:25.452 D/MG_NET_LOG: │ Result: {"req_id":"19cca66dcda77d863c5","data":{"swapToken":"202033a94ca74bf8a79c4acc8c000921-prod_SAIC","saicUserId":15100003235533}}
+03-08 06:24:25.453 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-08 06:24:25.506 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 44ms) ──────
+03-08 06:24:25.508 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/4.4/findBoundVinList
+03-08 06:24:25.509 D/MG_NET_LOG: │ Method: POST
+03-08 06:24:25.510 D/MG_NET_LOG: │ Header: app-type: roewe
+03-08 06:24:25.511 D/MG_NET_LOG: │ Header: timestamp: 1772922265459
+03-08 06:24:25.511 D/MG_NET_LOG: │ Header: sign: b+6k93c9AtwxxD1OT73rWcnYETZQkvCBKHUh17m3fTc=
+03-08 06:24:25.512 D/MG_NET_LOG: │ Params: data={"appId":"MG","brandCode":"1","token":"202033a94ca74bf8a79c4acc8c000921-prod_SAIC"}
+03-08 06:24:25.512 D/MG_NET_LOG: ├────── Response Result ──────
+03-08 06:24:25.513 D/MG_NET_LOG: │ Result: {"req_id":"19cca66dd195e6e390f","data":{"bound_vin_list_roewe":[]}}
+03-08 06:24:25.513 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-08 06:24:33.430 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 62ms) ──────
+03-08 06:24:33.431 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+03-08 06:24:33.432 D/MG_NET_LOG: │ Method: POST
+03-08 06:24:33.433 D/MG_NET_LOG: │ Header: app-type: roewe
+03-08 06:24:33.434 D/MG_NET_LOG: │ Header: timestamp: 1772922273365
+03-08 06:24:33.435 D/MG_NET_LOG: │ Header: sign: gvllrcRrWXHCeDCMrPLsagOOHQHtOH6127+MoZfRUak=
+03-08 06:24:33.435 D/MG_NET_LOG: │ Params: data={"userId":"15100003235533","appId":"Roewe","brandCode":"1","nonce":"F3022AE58B5AA54A635FDE338BAE60AB","timestamp":"1772922273361","token":"202033a94ca74bf8a79c4acc8c000921-prod_SAIC"}
+03-08 06:24:33.436 D/MG_NET_LOG: ├────── Response Result ──────
+03-08 06:24:33.437 D/MG_NET_LOG: │ Result: {"req_id":"19cca66fc0284bb796f","data":{"digital_key_list":[],"bluetooth_key_list":[]}}
+03-08 06:24:33.437 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-08 06:24:33.490 D/MGWidget: onUpdate called for IDs: 10
+03-08 06:24:33.491 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-08 06:24:33.521 D/BleProximity: 🔧 初始化 BleProximityManager
+03-08 06:24:33.522 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+03-08 06:24:33.522 D/BleProximity: 🧹 清理资源...
+03-08 06:24:33.522 D/BleProximity: 🛑 停止服务
+03-08 06:24:33.523 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_4_1772922162698 (剩余: 0)
+03-08 06:24:33.523 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+03-08 06:24:33.523 D/BleProximity: ✅ Session 已释放
+03-08 06:24:33.524 D/BleProximity: ✅ 屏幕状态监听已注销
+03-08 06:24:33.527 D/BleProximity: ➖ 移除监听器: callback_4_1772922162697 
+03-08 06:24:33.528 D/BleProximity: ✅ 已移除回调: callback_4_1772922162697
+03-08 06:24:33.528 D/BleProximity: ✅ 资源清理完成
+03-08 06:24:33.528 D/BleProximity: ➕ 添加监听器: callback_5_1772922273528 (总数: 1)
+03-08 06:24:33.528 D/BleProximity: ✅ 初始化完成，回调ID: callback_5_1772922273528 ,DistanceMeters:-87.0
+03-08 06:24:33.528 D/BleProximity: 🚀 启动靠近解锁服务...
+03-08 06:24:33.528 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_5_1772922273528 (总数: 1)
+03-08 06:24:33.529 D/BleProximity: ❌ 蓝牙未开启
+03-08 06:24:33.529 D/BleProximity: ❌ 错误: 蓝牙未开启
+03-08 06:24:33.532 D/BleProximity: 🎫 Session 已获取: true
+03-08 06:24:33.533 D/BleProximity: ⏳ 服务已启动，正在后台搜索设备...
+03-08 06:24:33.542 D/BleProximity: ✅ 屏幕状态监听已注册
+03-08 06:24:33.605 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-08 06:24:33.732 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 111ms) ──────
+03-08 06:24:33.733 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-08 06:24:33.733 D/MG_NET_LOG: │ Method: POST
+03-08 06:24:33.734 D/MG_NET_LOG: │ Header: app-type: roewe
+03-08 06:24:33.734 D/MG_NET_LOG: │ Header: timestamp: 1772922273619
+03-08 06:24:33.734 D/MG_NET_LOG: │ Header: sign: HSiNNwLuCRewEe3xg2qHjmcqHQByuASL1J5xcnwlrkQ=
+03-08 06:24:33.734 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6391PZ872476","appId":"Roewe","brandCode":"1","nonce":"32123FFA44378E9BCEBA55D67AA657BD","timestamp":"1772922273611","token":"202033a94ca74bf8a79c4acc8c000921-prod_SAIC"}
+03-08 06:24:33.735 D/MG_NET_LOG: ├────── Response Result ──────
+03-08 06:24:33.735 D/MG_NET_LOG: │ Result: {"req_id":"19cca66fcff802e3689","err_resp":{"msg":"你无权使用车辆，请咨询车主或联系客服","code":"14751","desc":"你无权使用车辆，请咨询车主或联系客服"}}
+03-08 06:24:33.735 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-08 06:24:33.736 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: null
+03-08 06:24:33.736 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-08 06:24:33.736 D/MGWidget: updateWidgetSynchronously called for ID: 10
+03-08 06:24:39.993 D/MGWidget: onReceive called with action: ACTION_BLUEBOOTH_OFF
+03-08 06:24:40.018 D/BleProximity: 🛑 停止服务
+03-08 06:24:40.019 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_5_1772922273528 (剩余: 0)
+03-08 06:24:40.020 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+03-08 06:24:40.021 D/BleProximity: ✅ Session 已释放
+03-08 06:24:40.022 D/BleProximity: ✅ 屏幕状态监听已注销
+03-08 06:24:40.523 D/BleProximity: ✂️ 断开连接
+03-08 06:24:40.526 D/BleProximity: ⏹️ 停止扫描
+03-08 06:24:40.528 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 0)
+03-08 06:24:40.530 D/BleProximity: ⚠️ 服务已停止，忽略状态变更: DISCONNECTED
+03-08 06:24:40.710 D/MGWidget: onReceive called with action: ACTION_BLUEBOOTH_ON
+03-08 06:24:40.726 D/BleProximity: 🔧 初始化 BleProximityManager
+03-08 06:24:40.727 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+03-08 06:24:40.728 D/BleProximity: 🧹 清理资源...
+03-08 06:24:40.728 D/BleProximity: ➖ 移除监听器: callback_5_1772922273528 
+03-08 06:24:40.728 D/BleProximity: ✅ 已移除回调: callback_5_1772922273528
+03-08 06:24:40.728 D/BleProximity: ✅ 资源清理完成
+03-08 06:24:40.730 D/BleProximity: ➕ 添加监听器: callback_6_1772922280729 (总数: 1)
+03-08 06:24:40.730 D/BleProximity: ✅ 初始化完成，回调ID: callback_6_1772922280729 ,DistanceMeters:-87.0
+03-08 06:24:40.730 D/BleProximity: 🚀 启动靠近解锁服务...
+03-08 06:24:40.731 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_6_1772922280731 (总数: 1)
+03-08 06:24:40.731 D/BleProximity: ❌ 蓝牙未开启
+03-08 06:24:40.731 D/BleProximity: ❌ 错误: 蓝牙未开启
+03-08 06:24:40.733 D/BleProximity: 🎫 Session 已获取: true
+03-08 06:24:40.733 D/BleProximity: ⏳ 服务已启动，正在后台搜索设备...
+03-08 06:24:40.737 D/BleProximity: ✅ 屏幕状态监听已注册
+03-08 08:22:21.792 D/MGWidget: onReceive called with action: ACTION_BLUEBOOTH
+03-08 08:22:21.832 D/BleProximity: 🎫 [BleUnlockWorker] 获取 Session: session_BleUnlockWorker_8_1772929341831 (总数: 2)
+03-08 08:22:21.833 D/BleProximity: 🔍 开始扫描
+03-08 08:22:21.833 D/BleProximity: 🔍 开始扫描 (尝试次数: 0)
+03-08 08:22:21.834 D/BleProximity: ➕ 添加监听器: callback_8_1772929341834 (总数: 2)
+03-08 08:22:21.835 D/BleUnlockWorker: ➕ 添加监听器: callback_8_1772929341834 (总数: 2)
+03-08 08:22:21.835 D/BleUnlockWorker: 开始扫描蓝牙设备
+03-08 08:22:21.835 D/BleProximity: ➕ 添加监听器: callback_9_1772929341835 (总数: 3)
+03-08 08:22:21.835 D/BleUnlockWorker: ➕ 添加监听器: callback_9_1772929341835 (总数: 3)
+03-08 08:22:21.835 D/BleProximity: 🚀 Session触发连接请求 (BleUnlockWorker)
+03-08 08:22:21.836 D/BleUnlockWorker: 🚀 Session触发连接请求 (BleUnlockWorker)
+03-08 08:22:21.836 D/BleProximity: 🔍 开始扫描
+03-08 08:22:21.836 D/BleUnlockWorker: 🔍 开始扫描
+03-08 08:22:21.836 D/BleProximity: ⚠️ 已在扫描中
+03-08 08:22:21.836 D/BleUnlockWorker: ⚠️ 已在扫描中
+03-08 08:22:27.982 D/MGWidget: onReceive called with action: ACTION_WIDGET_FLIP
+03-08 08:22:28.918 D/MGWidget: onReceive called with action: ACTION_WIDGET_FLIP
+03-08 08:22:32.807 D/MGWidget: onReceive called with action: ACTION_BLUEBOOTH_OFF
+03-08 08:22:32.900 D/BleProximity: 🛑 停止服务
+03-08 08:22:32.903 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_7_1772929279218 (剩余: 1)
+03-08 08:22:32.908 D/BleUnlockWorker: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_7_1772929279218 (剩余: 1)
+03-08 08:22:32.910 D/BleProximity: ✅ Session 已释放
+03-08 08:22:32.920 D/BleProximity: ✅ 屏幕状态监听已注销
+03-08 08:22:34.300 D/MGWidget: onReceive called with action: ACTION_BLUEBOOTH_ON
+03-08 08:22:34.318 D/BleProximity: 🔧 初始化 BleProximityManager
+03-08 08:22:34.319 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+03-08 08:22:34.319 D/BleProximity: 🧹 清理资源...
+03-08 08:22:34.319 D/BleProximity: ➖ 移除监听器: callback_7_1772929279218 
+03-08 08:22:34.320 D/BleUnlockWorker: ➖ 移除监听器: callback_7_1772929279218 
+03-08 08:22:34.320 D/BleProximity: ✅ 已移除回调: callback_7_1772929279218
+03-08 08:22:34.320 D/BleProximity: ✅ 资源清理完成
+03-08 08:22:34.320 D/BleUnlockWorker: ➕ 添加监听器: callback_10_1772929354320 (总数: 3)
+03-08 08:22:34.321 D/BleProximity: ➕ 添加监听器: callback_10_1772929354320 (总数: 3)
+03-08 08:22:34.321 D/BleProximity: ✅ 初始化完成，回调ID: callback_10_1772929354320 ,DistanceMeters:-87.0
+03-08 08:22:34.321 D/BleProximity: 🚀 启动靠近解锁服务...
+03-08 08:22:34.321 D/BleUnlockWorker: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_9_1772929354321 (总数: 2)
+03-08 08:22:34.321 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_9_1772929354321 (总数: 2)
+03-08 08:22:34.321 D/BleUnlockWorker: 🔍 开始扫描
+03-08 08:22:34.322 D/BleProximity: 🔍 开始扫描
+03-08 08:22:34.322 D/BleUnlockWorker: ⚠️ 已在扫描中
+03-08 08:22:34.322 D/BleProximity: ⚠️ 已在扫描中
+03-08 08:22:34.322 D/BleProximity: 🎫 Session 已获取: true
+03-08 08:22:34.322 D/BleProximity: ⏳ 服务已启动，正在后台搜索设备...
+03-08 08:22:34.328 D/BleProximity: ✅ 屏幕状态监听已注册
+03-08 08:22:36.836 D/BleUnlockWorker: ⏰ ensureConnected 超时 (BleUnlockWorker)
+03-08 08:22:36.837 D/BleProximity: ⏰ ensureConnected 超时 (BleUnlockWorker)
+03-08 08:22:36.838 D/BleUnlockWorker: ➖ 移除监听器: callback_9_1772929341835 
+03-08 08:22:36.838 D/BleProximity: ➖ 移除监听器: callback_9_1772929341835 
+03-08 08:22:36.852 D/BleUnlockWorker: 清理资源
+03-08 08:22:36.853 D/BleUnlockWorker: 🎫 [BleUnlockWorker] 释放 Session: session_BleUnlockWorker_8_1772929341831 (剩余: 1)
+03-08 08:22:36.854 D/BleProximity: 🎫 [BleUnlockWorker] 释放 Session: session_BleUnlockWorker_8_1772929341831 (剩余: 1)
+03-08 08:22:36.854 D/BleUnlockWorker: ➖ 移除监听器: callback_8_1772929341834 
+03-08 08:22:36.854 D/BleProximity: ➖ 移除监听器: callback_8_1772929341834 
+03-08 08:22:51.838 D/BleProximity: ⌛ 扫描周期结束(30s)，未发现设备
+03-08 08:22:51.839 D/BleProximity: ⏹️ 停止扫描
+03-08 08:22:51.839 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+03-08 08:22:53.845 D/BleProximity: 🔍 开始扫描
+03-08 08:22:53.846 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+03-08 08:29:52.405 D/MGWidget: onReceive called with action: ACTION_WIDGET_FLIP
+03-08 08:29:53.603 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 287ms) ──────
+03-08 08:29:53.605 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken
+03-08 08:29:53.605 D/MG_NET_LOG: │ Method: POST
+03-08 08:29:53.606 D/MG_NET_LOG: │ Header: app-type: roewe
+03-08 08:29:53.606 D/MG_NET_LOG: │ Header: timestamp: 1772929793313
+03-08 08:29:53.607 D/MG_NET_LOG: │ Header: sign: 4Mnc4Y5L14Fnu/i78sP/3u5ndRjdU+64zMEgCBr/rz0=
+03-08 08:29:53.607 D/MG_NET_LOG: │ Params: data={"token":"c4242ee08985437baf9fda133741b7dc-prod_SAIC"}
+03-08 08:29:53.607 D/MG_NET_LOG: ├────── Response Result ──────
+03-08 08:29:53.608 D/MG_NET_LOG: │ Result: {"req_id":"19ccad9bbbca13dbc16","err_resp":{"msg":"登录态失效，请重新登录","code":"14101","desc":"登录态失效，请重新登录"}}
+03-08 08:29:53.608 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-08 08:29:54.298 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 48ms) ──────
+03-08 08:29:54.299 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken
+03-08 08:29:54.299 D/MG_NET_LOG: │ Method: POST
+03-08 08:29:54.300 D/MG_NET_LOG: │ Header: app-type: roewe
+03-08 08:29:54.300 D/MG_NET_LOG: │ Header: timestamp: 1772929794248
+03-08 08:29:54.301 D/MG_NET_LOG: │ Header: sign: GRYiNJ672BpFX+jLMaSkOg7UUwbjlcZOGw07A7+eASU=
+03-08 08:29:54.301 D/MG_NET_LOG: │ Params: data={"token":"c4242ee08985437baf9fda133741b7dc-prod_SAIC"}
+03-08 08:29:54.301 D/MG_NET_LOG: ├────── Response Result ──────
+03-08 08:29:54.302 D/MG_NET_LOG: │ Result: {"req_id":"19ccad9be6fbb93ef9b","err_resp":{"msg":"登录态失效，请重新登录","code":"14101","desc":"登录态失效，请重新登录"}}
+03-08 08:29:54.302 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-08 08:29:55.507 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 556ms) ──────
+03-08 08:29:55.507 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken
+03-08 08:29:55.508 D/MG_NET_LOG: │ Method: POST
+03-08 08:29:55.508 D/MG_NET_LOG: │ Header: app-type: roewe
+03-08 08:29:55.508 D/MG_NET_LOG: │ Header: timestamp: 1772929794950
+03-08 08:29:55.508 D/MG_NET_LOG: │ Header: sign: +nWt4CBnE1YxRDpD/TAvdWVMitq9R44eo4oMoP5qwYU=
+03-08 08:29:55.508 D/MG_NET_LOG: │ Params: data={"token":"c4242ee08985437baf9fda133741b7dc-prod_SAIC"}
+03-08 08:29:55.509 D/MG_NET_LOG: ├────── Response Result ──────
+03-08 08:29:55.509 D/MG_NET_LOG: │ Result: {"req_id":"19ccad9c13f53c5c5db","err_resp":{"msg":"登录态失效，请重新登录","code":"14101","desc":"登录态失效，请重新登录"}}
+03-08 08:29:55.509 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-08 08:29:56.027 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 52ms) ──────
+03-08 08:29:56.028 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken
+03-08 08:29:56.029 D/MG_NET_LOG: │ Method: POST
+03-08 08:29:56.029 D/MG_NET_LOG: │ Header: app-type: roewe
+03-08 08:29:56.029 D/MG_NET_LOG: │ Header: timestamp: 1772929795973
+03-08 08:29:56.030 D/MG_NET_LOG: │ Header: sign: TEXkXB5omorzQ76GYpMSxbDnuVEDOug3M6FQQHQSSPI=
+03-08 08:29:56.030 D/MG_NET_LOG: │ Params: data={"token":"c4242ee08985437baf9fda133741b7dc-prod_SAIC"}
+03-08 08:29:56.031 D/MG_NET_LOG: ├────── Response Result ──────
+03-08 08:29:56.031 D/MG_NET_LOG: │ Result: {"req_id":"19ccad9c5357408c172","err_resp":{"msg":"登录态失效，请重新登录","code":"14101","desc":"登录态失效，请重新登录"}}
+03-08 08:29:56.031 D/MG_NET_LOG: └──────────────────────────────────────────────────
