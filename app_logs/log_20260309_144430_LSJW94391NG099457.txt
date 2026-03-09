@@ -1,0 +1,27 @@
+--- Log Capture Start: 20260309_144430 ---
+03-09 14:43:55.400 D/MGWidget: onReceive called with action: ACTION_BLUEBOOTH_ON
+03-09 14:43:55.406 D/BleProximity: 🔧 初始化 BleProximityManager
+03-09 14:43:55.406 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+03-09 14:43:55.406 D/BleProximity: ➖ 移除监听器: callback_25_1773036953750 
+03-09 14:43:55.406 D/BleProximity: ➕ 添加监听器: callback_26_1773038635406 (总数: 1)
+03-09 14:43:55.407 D/BleProximity: ✅ 初始化完成
+03-09 14:43:55.407 D/BleProximity:    基准阈值: -80.0
+03-09 14:43:55.407 D/BleProximity:    解锁阈值: -80.0 (信号 > 此值才解锁)
+03-09 14:43:55.407 D/BleProximity:    上锁阈值: -83.0 (信号 < 此值才上锁)
+03-09 14:43:55.407 D/BleProximity:    保持区: -83.0 ~ -80.0
+03-09 14:43:55.408 D/BleProximity: 🚀 启动靠近解锁服务...
+03-09 14:43:55.408 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_16_1773038635408 (总数: 1)
+03-09 14:43:55.409 D/BleProximity: 🔍 开始扫描
+03-09 14:43:55.409 D/BleProximity: 🔍 开始扫描 (尝试次数: 0)
+03-09 14:44:05.415 D/BleProximity: ⌛ 扫描周期结束(10s)，未发现设备
+03-09 14:44:05.417 D/BleProximity: ⏹️ 停止扫描
+03-09 14:44:05.430 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+03-09 14:44:07.431 D/BleProximity: 🔍 开始扫描
+03-09 14:44:07.433 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+03-09 14:44:13.521 D/MGWidget: onReceive called with action: ACTION_BLUEBOOTH_OFF
+03-09 14:44:13.525 D/BleProximity: 🛑 停止服务
+03-09 14:44:13.525 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_16_1773038635408 (剩余: 0)
+03-09 14:44:13.526 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+03-09 14:44:14.027 D/BleProximity: ✂️ 断开连接
+03-09 14:44:14.027 D/BleProximity: ⏹️ 停止扫描
+03-09 14:44:14.030 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 0)
