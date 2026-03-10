@@ -1,0 +1,72 @@
+--- Log Capture Start: 20260310_132123 ---
+03-10 13:18:20.861 D/BleProximity: ⌛ 扫描周期结束(5s)，未发现设备
+03-10 13:18:20.864 D/BleProximity: ⏹️ 停止扫描
+03-10 13:18:20.876 D/BleProximity: 🔄 仍有活跃 Session，将在 5 秒后重新扫描...
+03-10 13:18:25.884 D/BleProximity: 🔍 开始扫描
+03-10 13:18:25.887 D/BleProximity: 🔍 开始扫描 (尝试次数: 4)
+03-10 13:18:30.909 D/BleProximity: ⌛ 扫描周期结束(5s)，未发现设备
+03-10 13:18:30.912 D/BleProximity: ⏹️ 停止扫描
+03-10 13:18:30.926 D/BleProximity: 🔄 仍有活跃 Session，将在 5 秒后重新扫描...
+03-10 13:18:35.930 D/BleProximity: 🔍 开始扫描
+03-10 13:18:35.932 D/BleProximity: 🔍 开始扫描 (尝试次数: 5)
+03-10 13:18:40.951 D/BleProximity: ⌛ 扫描周期结束(5s)，未发现设备
+03-10 13:18:40.952 D/BleProximity: ⏹️ 停止扫描
+03-10 13:18:40.959 D/BleProximity: 🔄 仍有活跃 Session，将在 5 秒后重新扫描...
+03-10 13:18:45.961 D/BleProximity: 🔍 开始扫描
+03-10 13:18:45.962 D/BleProximity: 🔍 开始扫描 (尝试次数: 6)
+03-10 13:18:50.979 D/BleProximity: ⌛ 扫描周期结束(5s)，未发现设备
+03-10 13:18:50.983 D/BleProximity: ⏹️ 停止扫描
+03-10 13:18:50.996 D/BleProximity: 🔄 仍有活跃 Session，将在 5 秒后重新扫描...
+03-10 13:18:56.001 D/BleProximity: 🔍 开始扫描
+03-10 13:18:56.004 D/BleProximity: 🔍 开始扫描 (尝试次数: 7)
+03-10 13:19:01.026 D/BleProximity: ⌛ 扫描周期结束(5s)，未发现设备
+03-10 13:19:01.028 D/BleProximity: ⏹️ 停止扫描
+03-10 13:19:01.035 D/BleProximity: 🔄 仍有活跃 Session，将在 5 秒后重新扫描...
+03-10 13:19:06.039 D/BleProximity: 🔍 开始扫描
+03-10 13:19:06.040 D/BleProximity: 🔍 开始扫描 (尝试次数: 8)
+03-10 13:19:11.061 D/BleProximity: ⌛ 扫描周期结束(5s)，未发现设备
+03-10 13:19:11.061 D/BleProximity: ⏹️ 停止扫描
+03-10 13:19:11.065 D/BleProximity: 🔄 仍有活跃 Session，将在 5 秒后重新扫描...
+03-10 13:19:16.068 D/BleProximity: 🔍 开始扫描
+03-10 13:19:16.070 D/BleProximity: 🔍 开始扫描 (尝试次数: 9)
+03-10 13:19:21.093 D/BleProximity: ⌛ 扫描周期结束(5s)，未发现设备
+03-10 13:19:21.095 D/BleProximity: ⏹️ 停止扫描
+03-10 13:19:21.101 D/BleProximity: 🔄 仍有活跃 Session，将在 5 秒后重新扫描...
+03-10 13:19:25.976 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 326ms) ──────
+03-10 13:19:25.982 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+03-10 13:19:25.984 D/MG_NET_LOG: │ Method: POST
+03-10 13:19:25.986 D/MG_NET_LOG: │ Header: app-type: roewe
+03-10 13:19:25.988 D/MG_NET_LOG: │ Header: timestamp: 1773119965645
+03-10 13:19:25.989 D/MG_NET_LOG: │ Header: sign: 1M33Z1V4hqpeELp0QT9PUp8D2jOk+bjYsPdj5Svjn1E=
+03-10 13:19:25.990 D/MG_NET_LOG: │ Params: data={"userId":"10000004698009","appId":"Roewe","brandCode":"1","nonce":"CDFE052C5BEBEA42133B48E7DA7BA951","timestamp":"1773119965641","token":"0f64c35dfea04ffe9f26fd8b1f2d454e-prod_SAIC"}
+03-10 13:19:25.992 D/MG_NET_LOG: ├────── Response Result ──────
+03-10 13:19:25.993 D/MG_NET_LOG: │ Result: {"req_id":"19cd62f8984b4831950","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":"粤BHV1786","secret_key":"7534208693888272","key_end_time":1780297354000,"key_start_time":1772348554000,"mobile":null,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":27952907,"owner_mobile":"15710819840","owner_name":null,"enable":true,"tbox_mac":"C56EB0596823","aes_key":"4573764021188873","vin":"LSJWM6395SZ675299","status":3}]}}
+03-10 13:19:25.995 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-10 13:19:26.105 D/BleProximity: 🔍 开始扫描
+03-10 13:19:26.106 D/BleProximity: 🔍 开始扫描 (尝试次数: 10)
+03-10 13:19:27.164 D/BleProximity: 🔧 初始化 BleProximityManager
+03-10 13:19:27.164 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+03-10 13:19:27.165 D/BleProximity: 🛑 停止服务
+03-10 13:19:27.165 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_3_1773119847642 (剩余: 0)
+03-10 13:19:27.165 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+03-10 13:19:27.172 D/BleProximity: ➖ 移除监听器: callback_3_1773119847641 
+03-10 13:19:27.176 D/BleProximity: ➕ 添加监听器: callback_4_1773119967176 (总数: 1)
+03-10 13:19:27.176 D/BleProximity: ✅ 初始化完成
+03-10 13:19:27.176 D/BleProximity:    基准阈值: -85.0
+03-10 13:19:27.177 D/BleProximity:    解锁阈值: -85.0 (信号 > 此值才解锁)
+03-10 13:19:27.177 D/BleProximity:    上锁阈值: -88.0 (信号 < 此值才上锁)
+03-10 13:19:27.177 D/BleProximity:    保持区: -88.0 ~ -85.0
+03-10 13:19:27.178 D/BleProximity: 🚀 启动靠近解锁服务...
+03-10 13:19:27.178 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_4_1773119967178 (总数: 1)
+03-10 13:19:27.179 D/BleProximity: 🔍 开始扫描
+03-10 13:19:27.179 D/BleProximity: 🔍 开始扫描 (尝试次数: 0)
+03-10 13:21:07.032 D/BleProximity: ⌛ 扫描周期结束(5s)，未发现设备
+03-10 13:21:07.038 D/BleProximity: ⏹️ 停止扫描
+03-10 13:21:07.074 D/BleProximity: 🔄 仍有活跃 Session，将在 5 秒后重新扫描...
+03-10 13:21:12.078 D/BleProximity: 🔍 开始扫描
+03-10 13:21:12.080 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+03-10 13:21:17.099 D/BleProximity: ⌛ 扫描周期结束(5s)，未发现设备
+03-10 13:21:17.100 D/BleProximity: ⏹️ 停止扫描
+03-10 13:21:17.110 D/BleProximity: 🔄 仍有活跃 Session，将在 5 秒后重新扫描...
+03-10 13:21:22.112 D/BleProximity: 🔍 开始扫描
+03-10 13:21:22.113 D/BleProximity: 🔍 开始扫描 (尝试次数: 2)
