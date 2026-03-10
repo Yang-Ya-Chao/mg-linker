@@ -1,0 +1,54 @@
+--- Log Capture Start: 20260310_135955 ---
+03-10 13:59:32.805 D/BleProximity: ⏰ ensureConnected 超时 (ControlActivity)
+03-10 13:59:32.807 D/BleProximity: ➖ 移除监听器: callback_4_1773122357803 
+03-10 13:59:35.672 D/BleProximity: ⌛ 扫描周期结束(10s)，未发现设备
+03-10 13:59:35.672 D/BleProximity: ⏹️ 停止扫描
+03-10 13:59:35.676 D/BleProximity: 🔄 仍有活跃 Session，将在 4 秒后重新扫描...
+03-10 13:59:39.678 D/BleProximity: 🔍 开始扫描
+03-10 13:59:39.679 D/BleProximity: 🔍 开始扫描 (尝试次数: 2)
+03-10 13:59:45.457 D/BleProximity: 📱 设备信号达标: CC:B5:4C:52:34:41, RSSI: -69 ✓
+03-10 13:59:45.459 D/BleProximity: 📱 发现设备: CC:B5:4C:52:34:41, RSSI: -69
+03-10 13:59:45.469 D/BleProximity: ⏹️ 停止扫描
+03-10 13:59:45.475 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+03-10 13:59:45.476 D/BleProximity: 📡 连接状态: CONNECTING
+03-10 13:59:45.633 D/BleProximity: 🔗 开始建立底层连接: CC:B5:4C:52:34:41
+03-10 13:59:46.609 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+03-10 13:59:46.613 D/BleProximity: ✅ 已连接，开始发现服务
+03-10 13:59:46.614 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+03-10 13:59:46.614 D/BleProximity: 📡 连接状态: CONNECTED
+03-10 13:59:47.383 D/BleProximity: ✅ 特征初始化完成
+03-10 13:59:47.407 D/BleProximity: MTU 生效: 65
+03-10 13:59:47.408 D/BleProximity: 🔐 开始认证流程
+03-10 13:59:47.411 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+03-10 13:59:47.414 D/BleProximity: 🔔 启用通知: d341, 结果: true
+03-10 13:59:47.416 D/BleProximity: 🔔 启用通知: 267e, 结果: true
+03-10 13:59:47.419 D/BleProximity: 🔔 启用通知: 71ed, 结果: true
+03-10 13:59:47.420 D/BleProximity: 🔔 启用通知: 23a8, 结果: true
+03-10 13:59:47.421 D/BleProximity: 🔔 启用通知: 8e2d, 结果: true
+03-10 13:59:47.422 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+03-10 13:59:47.423 D/BleProximity: 🔔 启用通知: 9d21, 结果: true
+03-10 13:59:47.525 D/BleProximity: 📤 准备发送Booking ID: 019EB66F (进入串行队列)
+03-10 13:59:50.279 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 336130396339353864353865
+03-10 13:59:50.281 D/BleProximity: 🔐 处理认证挑战: 336130396339353864353865
+03-10 13:59:50.838 D/BleProximity: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3031
+03-10 13:59:50.844 D/BleProximity: ✅ 认证成功
+03-10 13:59:50.845 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 1, Session: 1)
+03-10 13:59:50.846 D/BleProximity: 📡 连接状态: AUTHENTICATED
+03-10 13:59:50.874 D/BleProximity: 📊 正在收集信号样本: 1/6
+03-10 13:59:51.173 D/BleProximity: 📊 正在收集信号样本: 2/6
+03-10 13:59:51.494 D/BleProximity: 📊 正在收集信号样本: 3/6
+03-10 13:59:51.786 D/BleProximity: 📊 正在收集信号样本: 4/6
+03-10 13:59:52.094 D/BleProximity: 📊 正在收集信号样本: 5/6
+03-10 13:59:52.394 D/BleProximity: 🔓 触发解锁: 信号=-66, 稳定性=0.5
+03-10 13:59:52.408 D/BleProximity: 📤 发送指令: 解锁车门
+03-10 13:59:52.476 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 633265663265303236343965
+03-10 13:59:52.479 D/BleProximity: 🔐 处理认证挑战: 633265663265303236343965
+03-10 13:59:54.023 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+03-10 13:59:54.027 D/BleProximity: 解锁成功
+03-10 13:59:54.028 D/BleProximity: 📊 指令出队: 解锁车门 -> SUCCESS
+03-10 13:59:54.029 D/BleProximity: 🔓 解锁结果: SUCCESS
+03-10 13:59:54.030 D/BleProximity: ✅ 车辆已解锁
+03-10 13:59:54.050 D/BleProximity: 🔗 链式触发: 120 秒打火
+03-10 13:59:54.175 D/BleProximity: 📤 发送指令: 120 秒打火
+03-10 13:59:54.231 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 316333333163636131396665
+03-10 13:59:54.234 D/BleProximity: 🔐 处理认证挑战: 316333333163636131396665
