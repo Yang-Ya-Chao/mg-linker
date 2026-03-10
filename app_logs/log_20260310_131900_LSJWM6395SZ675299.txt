@@ -1,0 +1,21 @@
+--- Log Capture Start: 20260310_131900 ---
+03-10 13:18:20.861 D/BleProximity: ⌛ 扫描周期结束(5s)，未发现设备
+03-10 13:18:20.864 D/BleProximity: ⏹️ 停止扫描
+03-10 13:18:20.876 D/BleProximity: 🔄 仍有活跃 Session，将在 5 秒后重新扫描...
+03-10 13:18:25.884 D/BleProximity: 🔍 开始扫描
+03-10 13:18:25.887 D/BleProximity: 🔍 开始扫描 (尝试次数: 4)
+03-10 13:18:30.909 D/BleProximity: ⌛ 扫描周期结束(5s)，未发现设备
+03-10 13:18:30.912 D/BleProximity: ⏹️ 停止扫描
+03-10 13:18:30.926 D/BleProximity: 🔄 仍有活跃 Session，将在 5 秒后重新扫描...
+03-10 13:18:35.930 D/BleProximity: 🔍 开始扫描
+03-10 13:18:35.932 D/BleProximity: 🔍 开始扫描 (尝试次数: 5)
+03-10 13:18:40.951 D/BleProximity: ⌛ 扫描周期结束(5s)，未发现设备
+03-10 13:18:40.952 D/BleProximity: ⏹️ 停止扫描
+03-10 13:18:40.959 D/BleProximity: 🔄 仍有活跃 Session，将在 5 秒后重新扫描...
+03-10 13:18:45.961 D/BleProximity: 🔍 开始扫描
+03-10 13:18:45.962 D/BleProximity: 🔍 开始扫描 (尝试次数: 6)
+03-10 13:18:50.979 D/BleProximity: ⌛ 扫描周期结束(5s)，未发现设备
+03-10 13:18:50.983 D/BleProximity: ⏹️ 停止扫描
+03-10 13:18:50.996 D/BleProximity: 🔄 仍有活跃 Session，将在 5 秒后重新扫描...
+03-10 13:18:56.001 D/BleProximity: 🔍 开始扫描
+03-10 13:18:56.004 D/BleProximity: 🔍 开始扫描 (尝试次数: 7)
