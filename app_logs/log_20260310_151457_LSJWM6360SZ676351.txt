@@ -1,0 +1,94 @@
+--- Log Capture Start: 20260310_151457 ---
+03-10 15:14:20.422 D/MGWidget: onReceive called with action: ACTION_BLUEBOOTH
+03-10 15:14:20.477 D/BleProximity: 🎫 [BleUnlockWorker] 获取 Session: session_BleUnlockWorker_28_1773126860476 (总数: 1)
+03-10 15:14:20.479 D/BleProximity: 🔍 开始扫描
+03-10 15:14:20.480 D/BleProximity: 🔍 开始扫描 (尝试次数: 0)
+03-10 15:14:20.489 D/BleProximity: ➕ 添加监听器: callback_47_1773126860489 (总数: 2)
+03-10 15:14:20.490 D/BleUnlockWorker: ➕ 添加监听器: callback_47_1773126860489 (总数: 2)
+03-10 15:14:20.491 D/BleUnlockWorker: 开始扫描蓝牙设备
+03-10 15:14:20.492 D/BleProximity: ➕ 添加监听器: callback_48_1773126860491 (总数: 3)
+03-10 15:14:20.492 D/BleUnlockWorker: ➕ 添加监听器: callback_48_1773126860491 (总数: 3)
+03-10 15:14:20.493 D/BleProximity: 🚀 Session触发连接请求 (BleUnlockWorker)
+03-10 15:14:20.494 D/BleUnlockWorker: 🚀 Session触发连接请求 (BleUnlockWorker)
+03-10 15:14:20.494 D/BleProximity: 🔍 开始扫描
+03-10 15:14:20.495 D/BleUnlockWorker: 🔍 开始扫描
+03-10 15:14:20.496 D/BleProximity: ⚠️ 已在扫描中
+03-10 15:14:20.496 D/BleUnlockWorker: ⚠️ 已在扫描中
+03-10 15:14:24.851 D/BleProximity: ➕ 添加监听器: callback_49_1773126864851 (总数: 4)
+03-10 15:14:24.851 D/BleUnlockWorker: ➕ 添加监听器: callback_49_1773126864851 (总数: 4)
+03-10 15:14:24.852 D/ControlActivity: ➕ 添加监听器: callback_49_1773126864851 (总数: 4)
+03-10 15:14:25.846 D/BleProximity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_29_1773126865846 (总数: 2)
+03-10 15:14:25.847 D/BleUnlockWorker: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_29_1773126865846 (总数: 2)
+03-10 15:14:25.847 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_29_1773126865846 (总数: 2)
+03-10 15:14:25.847 D/BleProximity: 🔍 开始扫描
+03-10 15:14:25.847 D/BleUnlockWorker: 🔍 开始扫描
+03-10 15:14:25.847 D/ControlActivity: 🔍 开始扫描
+03-10 15:14:25.847 D/BleProximity: ⚠️ 已在扫描中
+03-10 15:14:25.848 D/BleUnlockWorker: ⚠️ 已在扫描中
+03-10 15:14:25.848 D/ControlActivity: ⚠️ 已在扫描中
+03-10 15:14:25.848 D/BleProximity: ➕ 添加监听器: callback_50_1773126865848 (总数: 5)
+03-10 15:14:25.848 D/BleUnlockWorker: ➕ 添加监听器: callback_50_1773126865848 (总数: 5)
+03-10 15:14:25.848 D/ControlActivity: ➕ 添加监听器: callback_50_1773126865848 (总数: 5)
+03-10 15:14:25.848 D/BleProximity: 🚀 Session触发连接请求 (ControlActivity)
+03-10 15:14:25.849 D/BleUnlockWorker: 🚀 Session触发连接请求 (ControlActivity)
+03-10 15:14:25.849 D/ControlActivity: 🚀 Session触发连接请求 (ControlActivity)
+03-10 15:14:25.849 D/BleProximity: 🔍 开始扫描
+03-10 15:14:25.849 D/BleUnlockWorker: 🔍 开始扫描
+03-10 15:14:25.849 D/ControlActivity: 🔍 开始扫描
+03-10 15:14:25.849 D/BleProximity: ⚠️ 已在扫描中
+03-10 15:14:25.849 D/BleUnlockWorker: ⚠️ 已在扫描中
+03-10 15:14:25.850 D/ControlActivity: ⚠️ 已在扫描中
+03-10 15:14:25.860 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1015ms) ──────
+03-10 15:14:25.861 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-10 15:14:25.862 D/MG_NET_LOG: │ Method: POST
+03-10 15:14:25.862 D/MG_NET_LOG: │ Header: app-type: roewe
+03-10 15:14:25.862 D/MG_NET_LOG: │ Header: timestamp: 1773126864843
+03-10 15:14:25.863 D/MG_NET_LOG: │ Header: sign: TQ0OjtDYdpMbV2vmUN/NO5fxSpw627ZpfjOmweZl8ZQ=
+03-10 15:14:25.863 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6360SZ676351","appId":"Roewe","brandCode":"1","nonce":"B7F93AEE9073E641D2FDD2A6004C57AF","timestamp":"1773126864839","token":"8624c5ea75f442bcbff983824e148bc2-prod_SAIC"}
+03-10 15:14:25.863 D/MG_NET_LOG: ├────── Response Result ──────
+03-10 15:14:25.864 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cd698d15d827507dd","data":{"vehicle_position":{"satellites":4,"altitude":797,"gps_status":3,"latitude":"40.809676","update_time":1773125531000,"gps_time":1773126837000,"hdop":100,"longitude":"114.900840"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":280,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":3,"driving_range":1175,"battery_pack_range":96,"power_mode":0,"engine_status":0,"exterior_temperature":16,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":73,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":31418,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1350,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":280,"charge_status":1010,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":0,"front_right_tyre_pressure":284,"battery_pack_prc":768,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":0,"clstr_elec_rng_to_eptv":0,"fuel_range":1175,"current_journey_id":704,"pwr_lftgt_pos_v":null,"interior_temperature":29,"localfront_right_seat_heat_level":0,"heading":268,"battery_alarm_value":[50,200,500],"update_time":1773125117000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":66,"vehicle_alarm_status":0,"rear_left_tyre_pressure":280,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":880,"fuel_level_disp":7,"monitor_status":null,"battery_type":1,"chrgng_rmnng_time":30,"localfront_left_seat_vent_level":null},"update_time":1773125530000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":false,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1773125117000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof
+03-10 15:14:25.864 D/MG_NET_LOG: │ Result(Part 2): ":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-10 15:14:25.864 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-10 15:14:35.492 D/BleProximity: ⌛ 扫描周期结束(15s)，未发现设备
+03-10 15:14:35.495 D/BleUnlockWorker: ⌛ 扫描周期结束(15s)，未发现设备
+03-10 15:14:35.497 D/ControlActivity: ⌛ 扫描周期结束(15s)，未发现设备
+03-10 15:14:35.498 D/BleProximity: ⏹️ 停止扫描
+03-10 15:14:35.500 D/BleUnlockWorker: ⏹️ 停止扫描
+03-10 15:14:35.502 D/ControlActivity: ⏹️ 停止扫描
+03-10 15:14:35.517 D/BleUnlockWorker: 扫描完成: success=false, isCompleted=false
+03-10 15:14:35.532 D/BleProximity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_29_1773126865846 (剩余: 1)
+03-10 15:14:35.532 D/BleUnlockWorker: 清理资源
+03-10 15:14:35.533 D/BleUnlockWorker: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_29_1773126865846 (剩余: 1)
+03-10 15:14:35.533 D/BleProximity: 🎫 [BleUnlockWorker] 释放 Session: session_BleUnlockWorker_28_1773126860476 (剩余: 0)
+03-10 15:14:35.533 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_29_1773126865846 (剩余: 1)
+03-10 15:14:35.533 D/BleUnlockWorker: 🎫 [BleUnlockWorker] 释放 Session: session_BleUnlockWorker_28_1773126860476 (剩余: 0)
+03-10 15:14:35.534 D/ControlActivity: 🎫 [BleUnlockWorker] 释放 Session: session_BleUnlockWorker_28_1773126860476 (剩余: 0)
+03-10 15:14:35.534 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+03-10 15:14:35.535 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+03-10 15:14:35.535 D/BleUnlockWorker: ✂️ 所有 Session 已释放，准备断开连接
+03-10 15:14:35.536 D/ControlActivity: ✂️ 所有 Session 已释放，准备断开连接
+03-10 15:14:35.535 D/BleUnlockWorker: ✂️ 所有 Session 已释放，准备断开连接
+03-10 15:14:35.536 D/ControlActivity: ✂️ 所有 Session 已释放，准备断开连接
+03-10 15:14:35.536 D/BleProximity: ➖ 移除监听器: callback_47_1773126860489 
+03-10 15:14:35.537 D/BleUnlockWorker: ➖ 移除监听器: callback_47_1773126860489 
+03-10 15:14:35.537 D/ControlActivity: ➖ 移除监听器: callback_47_1773126860489 
+03-10 15:14:35.557 D/BleProximity: ⏰ ensureConnected 超时 (BleUnlockWorker)
+03-10 15:14:35.558 D/ControlActivity: ⏰ ensureConnected 超时 (BleUnlockWorker)
+03-10 15:14:35.558 D/BleProximity: ➖ 移除监听器: callback_48_1773126860491 
+03-10 15:14:35.558 D/ControlActivity: ➖ 移除监听器: callback_48_1773126860491 
+03-10 15:14:36.038 D/BleProximity: ✂️ 断开连接
+03-10 15:14:36.041 D/ControlActivity: ✂️ 断开连接
+03-10 15:14:36.042 D/BleProximity: ⏹️ 停止扫描
+03-10 15:14:36.043 D/ControlActivity: ⏹️ 停止扫描
+03-10 15:14:36.044 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 3, Session: 0)
+03-10 15:14:36.044 D/ControlActivity: 📡 状态变更: DISCONNECTED (监听器: 3, Session: 0)
+03-10 15:14:36.045 D/BleProximity: ➖ 移除监听器: callback_50_1773126865848 
+03-10 15:14:36.046 D/ControlActivity: ➖ 移除监听器: callback_50_1773126865848 
+03-10 15:14:36.047 D/BleProximity: ✂️ 断开连接
+03-10 15:14:36.047 D/ControlActivity: ✂️ 断开连接
+03-10 15:14:36.048 D/BleProximity: ⏹️ 停止扫描
+03-10 15:14:36.049 D/ControlActivity: ⏹️ 停止扫描
+03-10 15:14:36.049 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 2, Session: 0)
+03-10 15:14:36.050 D/ControlActivity: 📡 状态变更: DISCONNECTED (监听器: 2, Session: 0)
+03-10 15:14:37.592 D/BleProximity: ➖ 移除监听器: callback_49_1773126864851 
+03-10 15:14:37.593 D/ControlActivity: ➖ 移除监听器: callback_49_1773126864851 
