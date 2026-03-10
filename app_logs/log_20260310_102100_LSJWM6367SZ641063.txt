@@ -1,0 +1,283 @@
+--- Log Capture Start: 20260310_102100 ---
+03-10 10:18:44.793 D/BleProximity: ➕ 添加监听器: callback_2_1773109124792 (总数: 2)
+03-10 10:18:44.793 D/ControlActivity: ➕ 添加监听器: callback_2_1773109124792 (总数: 2)
+03-10 10:18:45.875 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1082ms) ──────
+03-10 10:18:45.876 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-10 10:18:45.877 D/MG_NET_LOG: │ Method: POST
+03-10 10:18:45.877 D/MG_NET_LOG: │ Header: app-type: roewe
+03-10 10:18:45.878 D/MG_NET_LOG: │ Header: timestamp: 1773109124789
+03-10 10:18:45.878 D/MG_NET_LOG: │ Header: sign: uDe/XtQ4ZBRrhK2gGEDvpds60CvnUv72BzT7HIfGedA=
+03-10 10:18:45.878 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6367SZ641063","appId":"Roewe","brandCode":"1","nonce":"13A24962B05776078D9048E64DA1D6E9","timestamp":"1773109124777","token":"4831474553a440569e5505efeabda66c-prod_SAIC"}
+03-10 10:18:45.879 D/MG_NET_LOG: ├────── Response Result ──────
+03-10 10:18:45.880 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cd58a21e3d96f6970","data":{"vehicle_position":{"satellites":10,"altitude":340,"latitude":"29.842636","gps_status":3,"update_time":1773042695000,"gps_time":1773043015000,"hdop":130,"longitude":"107.071696"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":276,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":4,"driving_range":1173,"battery_pack_range":117,"power_mode":0,"engine_status":0,"exterior_temperature":18,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":89,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":9714,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1230,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":276,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":272,"battery_pack_prc":937,"interior_temperature_v":null,"steer_heat_failure_reason":0,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":0,"fuel_range":1173,"current_journey_id":634,"pwr_lftgt_pos_v":null,"interior_temperature":19,"localfront_right_seat_heat_level":0,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1773043088000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":276,"vehicle_battery_prc":980,"battery_type":0,"fuel_level_disp":8,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":1023},"update_time":1773043088000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1773043088000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof"
+03-10 10:18:45.880 D/MG_NET_LOG: │ Result(Part 2): :false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-10 10:18:45.881 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-10 10:18:45.924 D/BleProximity: 🔧 初始化 BleProximityManager
+03-10 10:18:45.924 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+03-10 10:18:45.925 D/BleProximity: 🛑 停止服务
+03-10 10:18:45.926 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_1_1773108930656 (剩余: 0)
+03-10 10:18:45.926 D/ControlActivity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_1_1773108930656 (剩余: 0)
+03-10 10:18:45.927 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+03-10 10:18:45.927 D/ControlActivity: ✂️ 所有 Session 已释放，准备断开连接
+03-10 10:18:45.931 D/BleProximity: ➖ 移除监听器: callback_1_1773108930647 
+03-10 10:18:45.932 D/ControlActivity: ➖ 移除监听器: callback_1_1773108930647 
+03-10 10:18:45.932 D/ControlActivity: ⚠️ 强制断开连接（忽略活跃 Session）
+03-10 10:18:45.933 D/ControlActivity: ✂️ 断开连接
+03-10 10:18:45.933 D/ControlActivity: ⏹️ 停止扫描
+03-10 10:18:45.934 D/ControlActivity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 0)
+03-10 10:18:45.935 D/ControlActivity: ➕ 添加监听器: callback_3_1773109125934 (总数: 2)
+03-10 10:18:45.935 D/BleProximity: ➕ 添加监听器: callback_3_1773109125934 (总数: 2)
+03-10 10:18:45.935 D/BleProximity: ✅ 初始化完成
+03-10 10:18:45.936 D/BleProximity:    基准阈值: -78.0
+03-10 10:18:45.936 D/BleProximity:    解锁阈值: -78.0 (信号 > 此值才解锁)
+03-10 10:18:45.936 D/BleProximity:    上锁阈值: -81.0 (信号 < 此值才上锁)
+03-10 10:18:45.937 D/BleProximity:    保持区: -81.0 ~ -78.0
+03-10 10:18:45.937 D/BleProximity: 🚀 启动靠近解锁服务...
+03-10 10:18:45.937 D/ControlActivity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_2_1773109125937 (总数: 1)
+03-10 10:18:45.938 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_2_1773109125937 (总数: 1)
+03-10 10:18:45.938 D/ControlActivity: 🔍 开始扫描
+03-10 10:18:45.938 D/BleProximity: 🔍 开始扫描
+03-10 10:18:45.939 D/ControlActivity: 🔍 开始扫描 (尝试次数: 0)
+03-10 10:18:45.939 D/BleProximity: 🔍 开始扫描 (尝试次数: 0)
+03-10 10:18:46.480 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_3_1773109126479 (总数: 2)
+03-10 10:18:46.481 D/BleProximity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_3_1773109126479 (总数: 2)
+03-10 10:18:46.481 D/ControlActivity: 🔍 开始扫描
+03-10 10:18:46.482 D/BleProximity: 🔍 开始扫描
+03-10 10:18:46.482 D/ControlActivity: ⚠️ 已在扫描中
+03-10 10:18:46.482 D/BleProximity: ⚠️ 已在扫描中
+03-10 10:18:46.483 D/ControlActivity: ➕ 添加监听器: callback_4_1773109126483 (总数: 3)
+03-10 10:18:46.483 D/BleProximity: ➕ 添加监听器: callback_4_1773109126483 (总数: 3)
+03-10 10:18:46.484 D/ControlActivity: 🚀 Session触发连接请求 (ControlActivity)
+03-10 10:18:46.484 D/BleProximity: 🚀 Session触发连接请求 (ControlActivity)
+03-10 10:18:46.484 D/ControlActivity: 🔍 开始扫描
+03-10 10:18:46.485 D/BleProximity: 🔍 开始扫描
+03-10 10:18:46.485 D/ControlActivity: ⚠️ 已在扫描中
+03-10 10:18:46.486 D/BleProximity: ⚠️ 已在扫描中
+03-10 10:18:47.975 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_3_1773109126479 (剩余: 1)
+03-10 10:18:47.976 D/BleProximity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_3_1773109126479 (剩余: 1)
+03-10 10:18:49.097 D/ControlActivity: ➖ 移除监听器: callback_2_1773109124792 
+03-10 10:18:49.097 D/BleProximity: ➖ 移除监听器: callback_2_1773109124792 
+03-10 10:18:49.982 D/BleProximity: 📱 发现设备: C0:63:80:59:06:8C, RSSI: -104
+03-10 10:18:49.984 D/BleProximity: 📱 发现设备: C0:63:80:59:06:8C, RSSI: -104
+03-10 10:18:49.984 D/BleProximity: ⏹️ 停止扫描
+03-10 10:18:49.989 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 2, Session: 1)
+03-10 10:18:49.990 D/BleProximity: 📡 连接状态: CONNECTING
+03-10 10:18:50.007 D/BleProximity: ➖ 移除监听器: callback_4_1773109126483 
+03-10 10:18:50.160 D/BleProximity: 🔗 开始建立底层连接: C0:63:80:59:06:8C
+03-10 10:19:02.088 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+03-10 10:19:02.097 D/BleProximity: ✅ 已连接，开始发现服务
+03-10 10:19:02.098 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+03-10 10:19:02.099 D/BleProximity: 📡 连接状态: CONNECTED
+03-10 10:19:04.815 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+03-10 10:19:04.818 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+03-10 10:19:04.822 D/BleProximity: 🧹 GATT 缓存清理成功
+03-10 10:19:04.838 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+03-10 10:19:04.839 D/BleProximity: 📡 连接状态: DISCONNECTED
+03-10 10:19:04.865 D/BleProximity: 🔄 仍有活跃 Session，将在 5 秒后重新扫描...
+03-10 10:19:09.341 D/BleProximity: ➕ 添加监听器: callback_5_1773109149341 (总数: 2)
+03-10 10:19:09.342 D/ControlActivity: ➕ 添加监听器: callback_5_1773109149341 (总数: 2)
+03-10 10:19:09.866 D/BleProximity: 🔍 开始扫描
+03-10 10:19:09.867 D/ControlActivity: 🔍 开始扫描
+03-10 10:19:09.867 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+03-10 10:19:09.867 D/ControlActivity: 🔍 开始扫描 (尝试次数: 1)
+03-10 10:19:09.993 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 650ms) ──────
+03-10 10:19:09.994 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-10 10:19:09.994 D/MG_NET_LOG: │ Method: POST
+03-10 10:19:09.994 D/MG_NET_LOG: │ Header: app-type: roewe
+03-10 10:19:09.994 D/MG_NET_LOG: │ Header: timestamp: 1773109149342
+03-10 10:19:09.995 D/MG_NET_LOG: │ Header: sign: Er8Ypal1VJwsXeTJoEeCZp2L1t8cqptIDGBuQMyR3WM=
+03-10 10:19:09.995 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6367SZ641063","appId":"Roewe","brandCode":"1","nonce":"27694DBB5CF8A91EEC50DB85BBDCD740","timestamp":"1773109149323","token":"4831474553a440569e5505efeabda66c-prod_SAIC"}
+03-10 10:19:09.995 D/MG_NET_LOG: ├────── Response Result ──────
+03-10 10:19:09.995 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cd58a80c3d9b0e235","data":{"vehicle_position":{"satellites":10,"altitude":340,"latitude":"29.842636","gps_status":3,"update_time":1773042695000,"gps_time":1773043015000,"hdop":130,"longitude":"107.071696"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":276,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":4,"driving_range":1173,"battery_pack_range":117,"power_mode":0,"engine_status":0,"exterior_temperature":18,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":89,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":9714,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1230,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":276,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":272,"battery_pack_prc":937,"interior_temperature_v":null,"steer_heat_failure_reason":0,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":0,"fuel_range":1173,"current_journey_id":634,"pwr_lftgt_pos_v":null,"interior_temperature":19,"localfront_right_seat_heat_level":0,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1773043088000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":276,"vehicle_battery_prc":980,"battery_type":0,"fuel_level_disp":8,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":1023},"update_time":1773043088000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1773043088000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof"
+03-10 10:19:09.995 D/MG_NET_LOG: │ Result(Part 2): :false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-10 10:19:09.996 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-10 10:19:15.792 D/BleProximity: ➖ 移除监听器: callback_5_1773109149341 
+03-10 10:19:15.792 D/ControlActivity: ➖ 移除监听器: callback_5_1773109149341 
+03-10 10:19:17.324 D/BleProximity: 📱 发现设备: C0:63:80:59:06:8C, RSSI: -97
+03-10 10:19:17.326 D/BleProximity: 📱 发现设备: C0:63:80:59:06:8C, RSSI: -97
+03-10 10:19:17.327 D/BleProximity: ⏹️ 停止扫描
+03-10 10:19:17.343 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+03-10 10:19:17.345 D/BleProximity: 📡 连接状态: CONNECTING
+03-10 10:19:17.509 D/BleProximity: 🔗 开始建立底层连接: C0:63:80:59:06:8C
+03-10 10:19:22.237 D/BleProximity: ⚙️ 底层状态反馈: status=62, newState=0
+03-10 10:19:22.240 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 62)
+03-10 10:19:22.247 D/BleProximity: 🧹 GATT 缓存清理成功
+03-10 10:19:22.252 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+03-10 10:19:22.253 D/BleProximity: 📡 连接状态: DISCONNECTED
+03-10 10:19:22.259 D/BleProximity: 🔄 仍有活跃 Session，将在 10 秒后重新扫描...
+03-10 10:19:32.262 D/BleProximity: 🔍 开始扫描
+03-10 10:19:32.265 D/BleProximity: 🔍 开始扫描 (尝试次数: 2)
+03-10 10:19:35.172 D/BleProximity: 📱 发现设备: C0:63:80:59:06:8C, RSSI: -106
+03-10 10:19:35.173 D/BleProximity: 📱 发现设备: C0:63:80:59:06:8C, RSSI: -106
+03-10 10:19:35.174 D/BleProximity: ⏹️ 停止扫描
+03-10 10:19:35.182 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+03-10 10:19:35.183 D/BleProximity: 📡 连接状态: CONNECTING
+03-10 10:19:35.337 D/BleProximity: 🔗 开始建立底层连接: C0:63:80:59:06:8C
+03-10 10:19:36.176 D/BleProximity: ⚙️ 底层状态反馈: status=62, newState=0
+03-10 10:19:36.177 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 62)
+03-10 10:19:36.182 D/BleProximity: 🧹 GATT 缓存清理成功
+03-10 10:19:36.185 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+03-10 10:19:36.186 D/BleProximity: 📡 连接状态: DISCONNECTED
+03-10 10:19:36.191 D/BleProximity: 🔄 仍有活跃 Session，将在 20 秒后重新扫描...
+03-10 10:19:53.902 D/BleProximity: 🔧 初始化 BleProximityManager
+03-10 10:19:53.902 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+03-10 10:19:53.902 D/BleProximity: 🛑 停止服务
+03-10 10:19:53.903 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_2_1773109125937 (剩余: 0)
+03-10 10:19:53.903 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+03-10 10:19:53.910 D/BleProximity: ➖ 移除监听器: callback_3_1773109125934 
+03-10 10:19:53.910 D/BleProximity: ➕ 添加监听器: callback_6_1773109193910 (总数: 1)
+03-10 10:19:53.911 D/BleProximity: ✅ 初始化完成
+03-10 10:19:53.911 D/BleProximity:    基准阈值: -78.0
+03-10 10:19:53.911 D/BleProximity:    解锁阈值: -78.0 (信号 > 此值才解锁)
+03-10 10:19:53.911 D/BleProximity:    上锁阈值: -81.0 (信号 < 此值才上锁)
+03-10 10:19:53.912 D/BleProximity:    保持区: -81.0 ~ -78.0
+03-10 10:19:53.912 D/BleProximity: 🚀 启动靠近解锁服务...
+03-10 10:19:53.912 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_4_1773109193912 (总数: 1)
+03-10 10:19:53.912 D/BleProximity: 🔍 开始扫描
+03-10 10:19:53.913 D/BleProximity: 🔍 开始扫描 (尝试次数: 0)
+03-10 10:19:56.108 D/BleProximity: 📱 发现设备: C0:63:80:59:06:8C, RSSI: -105
+03-10 10:19:56.108 D/BleProximity: 📱 发现设备: C0:63:80:59:06:8C, RSSI: -105
+03-10 10:19:56.109 D/BleProximity: ⏹️ 停止扫描
+03-10 10:19:56.113 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+03-10 10:19:56.113 D/BleProximity: 📡 连接状态: CONNECTING
+03-10 10:19:56.265 D/BleProximity: 🔗 开始建立底层连接: C0:63:80:59:06:8C
+03-10 10:20:09.582 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+03-10 10:20:09.583 D/BleProximity: ✅ 已连接，开始发现服务
+03-10 10:20:09.584 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+03-10 10:20:09.584 D/BleProximity: 📡 连接状态: CONNECTED
+03-10 10:20:09.635 D/BleProximity: ⚙️ 底层状态反馈: status=8, newState=0
+03-10 10:20:09.653 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 8)
+03-10 10:20:09.658 D/BleProximity: 🧹 GATT 缓存清理成功
+03-10 10:20:09.661 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+03-10 10:20:09.662 D/BleProximity: 📡 连接状态: DISCONNECTED
+03-10 10:20:09.688 D/BleProximity: 🔄 仍有活跃 Session，将在 5 秒后重新扫描...
+03-10 10:20:14.287 D/MGWidget: onReceive called with action: com.my.mg.ACTION_REFRESH
+03-10 10:20:14.348 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-10 10:20:14.494 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 137ms) ──────
+03-10 10:20:14.496 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/requestVehicleStatus
+03-10 10:20:14.497 D/MG_NET_LOG: │ Method: POST
+03-10 10:20:14.497 D/MG_NET_LOG: │ Header: app-type: roewe
+03-10 10:20:14.498 D/MG_NET_LOG: │ Header: timestamp: 1773109214353
+03-10 10:20:14.498 D/MG_NET_LOG: │ Header: sign: RKdmUI8SQFQdho_HTd-5gQ2dyyaoZ7sc9GXBoWJsEKs
+03-10 10:20:14.499 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6367SZ641063","appId":"Roewe","brandCode":"1","nonce":"363869E4A38A73DC78DC50E74FB3B462","timestamp":"1773109214349","token":"4831474553a440569e5505efeabda66c-prod_SAIC"}
+03-10 10:20:14.499 D/MG_NET_LOG: ├────── Response Result ──────
+03-10 10:20:14.499 D/MG_NET_LOG: │ Result: {"req_id":"19cd58b7edf3cec5faf","data":null}
+03-10 10:20:14.500 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-10 10:20:14.703 D/BleProximity: 🔍 开始扫描
+03-10 10:20:14.704 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+03-10 10:20:18.116 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 604ms) ──────
+03-10 10:20:18.118 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-10 10:20:18.119 D/MG_NET_LOG: │ Method: POST
+03-10 10:20:18.122 D/MG_NET_LOG: │ Header: app-type: roewe
+03-10 10:20:18.124 D/MG_NET_LOG: │ Header: timestamp: 1773109217508
+03-10 10:20:18.125 D/MG_NET_LOG: │ Header: sign: JABY4B/KmpSYHBQ7krxm/pQGpvlFz+yjaJibKAia/ro=
+03-10 10:20:18.126 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6367SZ641063","appId":"Roewe","brandCode":"1","nonce":"A835B1843D25193C69D40DCE6811E8D7","timestamp":"1773109217506","token":"4831474553a440569e5505efeabda66c-prod_SAIC"}
+03-10 10:20:18.127 D/MG_NET_LOG: ├────── Response Result ──────
+03-10 10:20:18.128 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cd58b8b1d2f3c86c1","data":{"vehicle_position":{"satellites":10,"altitude":340,"latitude":"29.842636","gps_status":3,"update_time":1773042695000,"gps_time":1773043015000,"hdop":130,"longitude":"107.071696"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":276,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":4,"driving_range":1173,"battery_pack_range":117,"power_mode":0,"engine_status":0,"exterior_temperature":18,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":89,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":9714,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1230,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":276,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":272,"battery_pack_prc":937,"interior_temperature_v":null,"steer_heat_failure_reason":0,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":0,"fuel_range":1173,"current_journey_id":634,"pwr_lftgt_pos_v":null,"interior_temperature":19,"localfront_right_seat_heat_level":0,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1773043088000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":276,"vehicle_battery_prc":980,"battery_type":0,"fuel_level_disp":8,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":1023},"update_time":1773043088000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1773043088000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof"
+03-10 10:20:18.129 D/MG_NET_LOG: │ Result(Part 2): :false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-10 10:20:18.132 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-10 10:20:18.143 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 重庆市长寿区金山街
+03-10 10:20:18.144 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-10 10:20:18.146 D/MGWidget: updateWidgetSynchronously called for ID: 72
+03-10 10:20:20.219 D/MGWidget: onReceive called with action: com.my.mg.ACTION_REFRESH
+03-10 10:20:20.263 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-10 10:20:20.387 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 107ms) ──────
+03-10 10:20:20.390 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/requestVehicleStatus
+03-10 10:20:20.391 D/MG_NET_LOG: │ Method: POST
+03-10 10:20:20.392 D/MG_NET_LOG: │ Header: app-type: roewe
+03-10 10:20:20.393 D/MG_NET_LOG: │ Header: timestamp: 1773109220277
+03-10 10:20:20.393 D/MG_NET_LOG: │ Header: sign: FEi6Tcy68ZuzbNzhiY5vPk9S7FM7ECmLr2bH5bOlAJ0
+03-10 10:20:20.394 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6367SZ641063","appId":"Roewe","brandCode":"1","nonce":"8140391922148C580A865AE0BE4DCD20","timestamp":"1773109220265","token":"4831474553a440569e5505efeabda66c-prod_SAIC"}
+03-10 10:20:20.397 D/MG_NET_LOG: ├────── Response Result ──────
+03-10 10:20:20.397 D/MG_NET_LOG: │ Result: {"req_id":"19cd58b95d4eae3efc3","data":null}
+03-10 10:20:20.398 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-10 10:20:21.682 D/BleProximity: 📱 发现设备: C0:63:80:59:06:8C, RSSI: -106
+03-10 10:20:21.685 D/BleProximity: 📱 发现设备: C0:63:80:59:06:8C, RSSI: -106
+03-10 10:20:21.685 D/BleProximity: ⏹️ 停止扫描
+03-10 10:20:21.697 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+03-10 10:20:21.700 D/BleProximity: 📡 连接状态: CONNECTING
+03-10 10:20:21.865 D/BleProximity: 🔗 开始建立底层连接: C0:63:80:59:06:8C
+03-10 10:20:22.840 D/BleProximity: ⚙️ 底层状态反馈: status=62, newState=0
+03-10 10:20:22.843 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 62)
+03-10 10:20:22.854 D/BleProximity: 🧹 GATT 缓存清理成功
+03-10 10:20:22.863 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+03-10 10:20:22.869 D/BleProximity: 📡 连接状态: DISCONNECTED
+03-10 10:20:22.876 D/BleProximity: 🔄 仍有活跃 Session，将在 10 秒后重新扫描...
+03-10 10:20:24.083 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 659ms) ──────
+03-10 10:20:24.091 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-10 10:20:24.093 D/MG_NET_LOG: │ Method: POST
+03-10 10:20:24.095 D/MG_NET_LOG: │ Header: app-type: roewe
+03-10 10:20:24.096 D/MG_NET_LOG: │ Header: timestamp: 1773109223418
+03-10 10:20:24.098 D/MG_NET_LOG: │ Header: sign: OQd47+rcV+WNkBIYcMiutRvMj3M9XSmgeTAq4Ue7XYg=
+03-10 10:20:24.100 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6367SZ641063","appId":"Roewe","brandCode":"1","nonce":"1683368AD5C271CB1FD0B58E686EE490","timestamp":"1773109223413","token":"4831474553a440569e5505efeabda66c-prod_SAIC"}
+03-10 10:20:24.101 D/MG_NET_LOG: ├────── Response Result ──────
+03-10 10:20:24.102 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cd58ba2228954c3b9","data":{"vehicle_position":{"satellites":10,"altitude":340,"latitude":"29.842636","gps_status":3,"update_time":1773042695000,"gps_time":1773043015000,"hdop":130,"longitude":"107.071696"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":276,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":4,"driving_range":1173,"battery_pack_range":117,"power_mode":0,"engine_status":0,"exterior_temperature":15,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":89,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":9714,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":276,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":272,"battery_pack_prc":937,"interior_temperature_v":null,"steer_heat_failure_reason":0,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":0,"fuel_range":1173,"current_journey_id":634,"pwr_lftgt_pos_v":null,"interior_temperature":15,"localfront_right_seat_heat_level":0,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1773109222000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":276,"vehicle_battery_prc":968,"battery_type":0,"fuel_level_disp":8,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":1023},"update_time":1773109222000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1773109222000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof"
+03-10 10:20:24.103 D/MG_NET_LOG: │ Result(Part 2): :false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-10 10:20:24.103 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-10 10:20:24.113 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 重庆市长寿区金山街
+03-10 10:20:24.114 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-10 10:20:24.119 D/MGWidget: updateWidgetSynchronously called for ID: 72
+03-10 10:20:32.884 D/BleProximity: 🔍 开始扫描
+03-10 10:20:32.884 D/BleProximity: 🔍 开始扫描 (尝试次数: 2)
+03-10 10:20:33.617 D/BleProximity: 📱 发现设备: C0:63:80:59:06:8C, RSSI: -103
+03-10 10:20:33.618 D/BleProximity: 📱 发现设备: C0:63:80:59:06:8C, RSSI: -103
+03-10 10:20:33.619 D/BleProximity: ⏹️ 停止扫描
+03-10 10:20:33.630 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+03-10 10:20:33.632 D/BleProximity: 📡 连接状态: CONNECTING
+03-10 10:20:33.786 D/BleProximity: 🔗 开始建立底层连接: C0:63:80:59:06:8C
+03-10 10:20:34.489 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+03-10 10:20:34.491 D/BleProximity: ✅ 已连接，开始发现服务
+03-10 10:20:34.491 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+03-10 10:20:34.492 D/BleProximity: 📡 连接状态: CONNECTED
+03-10 10:20:39.938 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+03-10 10:20:39.940 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+03-10 10:20:39.948 D/BleProximity: 🧹 GATT 缓存清理成功
+03-10 10:20:39.950 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+03-10 10:20:39.951 D/BleProximity: 📡 连接状态: DISCONNECTED
+03-10 10:20:39.955 D/BleProximity: 🔄 仍有活跃 Session，将在 5 秒后重新扫描...
+03-10 10:20:44.955 D/BleProximity: 🔍 开始扫描
+03-10 10:20:44.958 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+03-10 10:20:45.061 D/BleProximity: 📱 发现设备: C0:63:80:59:06:8C, RSSI: -104
+03-10 10:20:45.062 D/BleProximity: 📱 发现设备: C0:63:80:59:06:8C, RSSI: -104
+03-10 10:20:45.062 D/BleProximity: ⏹️ 停止扫描
+03-10 10:20:45.073 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+03-10 10:20:45.073 D/BleProximity: 📡 连接状态: CONNECTING
+03-10 10:20:45.237 D/BleProximity: 🔗 开始建立底层连接: C0:63:80:59:06:8C
+03-10 10:20:46.834 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+03-10 10:20:46.839 D/BleProximity: ✅ 已连接，开始发现服务
+03-10 10:20:46.840 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+03-10 10:20:46.840 D/BleProximity: 📡 连接状态: CONNECTED
+03-10 10:20:49.687 D/BleProximity: ✅ 特征初始化完成
+03-10 10:20:49.791 D/BleProximity: MTU 生效: 96
+03-10 10:20:49.792 D/BleProximity: 🔐 开始认证流程
+03-10 10:20:49.795 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+03-10 10:20:49.800 D/BleProximity: 🔔 启用通知: d341, 结果: true
+03-10 10:20:49.803 D/BleProximity: 🔔 启用通知: 267e, 结果: true
+03-10 10:20:49.805 D/BleProximity: 🔔 启用通知: 71ed, 结果: true
+03-10 10:20:49.807 D/BleProximity: 🔔 启用通知: 23a8, 结果: true
+03-10 10:20:49.811 D/BleProximity: 🔔 启用通知: 8e2d, 结果: true
+03-10 10:20:49.813 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+03-10 10:20:49.817 D/BleProximity: 🔔 启用通知: 9d21, 结果: true
+03-10 10:20:49.919 D/BleProximity: 📤 准备发送Booking ID: 01A0BF36 (进入串行队列)
+03-10 10:20:51.554 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3035
+03-10 10:20:51.557 D/BleProximity: 连接失败原因: 未知错误
+03-10 10:20:51.645 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+03-10 10:20:51.648 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+03-10 10:20:51.655 D/BleProximity: 🧹 GATT 缓存清理成功
+03-10 10:20:51.659 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+03-10 10:20:51.660 D/BleProximity: 📡 连接状态: DISCONNECTED
+03-10 10:20:51.672 D/BleProximity: 🔄 仍有活跃 Session，将在 5 秒后重新扫描...
+03-10 10:20:56.675 D/BleProximity: 🔍 开始扫描
+03-10 10:20:56.680 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+03-10 10:20:56.818 D/BleProximity: 📱 发现设备: C0:63:80:59:06:8C, RSSI: -105
+03-10 10:20:56.821 D/BleProximity: 📱 发现设备: C0:63:80:59:06:8C, RSSI: -105
+03-10 10:20:56.822 D/BleProximity: ⏹️ 停止扫描
+03-10 10:20:56.833 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+03-10 10:20:56.834 D/BleProximity: 📡 连接状态: CONNECTING
+03-10 10:20:56.993 D/BleProximity: 🔗 开始建立底层连接: C0:63:80:59:06:8C
+03-10 10:20:57.581 D/BleProximity: ⚙️ 底层状态反馈: status=62, newState=0
+03-10 10:20:57.584 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 62)
+03-10 10:20:57.591 D/BleProximity: 🧹 GATT 缓存清理成功
+03-10 10:20:57.595 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+03-10 10:20:57.596 D/BleProximity: 📡 连接状态: DISCONNECTED
+03-10 10:20:57.601 D/BleProximity: 🔄 仍有活跃 Session，将在 10 秒后重新扫描...
