@@ -1,0 +1,58 @@
+--- Log Capture Start: 20260310_223547 ---
+03-10 22:21:52.554 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 381ms) ──────
+03-10 22:21:52.558 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+03-10 22:21:52.558 D/MG_NET_LOG: │ Method: POST
+03-10 22:21:52.559 D/MG_NET_LOG: │ Header: app-type: roewe
+03-10 22:21:52.559 D/MG_NET_LOG: │ Header: timestamp: 1773152512169
+03-10 22:21:52.560 D/MG_NET_LOG: │ Header: sign: 9+n6rimeG6quDRfdfM/25kRHSx5ytIDs9kSh+GjZQps=
+03-10 22:21:52.560 D/MG_NET_LOG: │ Params: data={"userId":"15100001196259","appId":"Roewe","brandCode":"1","nonce":"F937F607C4C24835425C4224CFB542F8","timestamp":"1773152512156","token":"890d94f36b514d4199c4157648f9a366-prod_SAIC"}
+03-10 22:21:52.560 D/MG_NET_LOG: ├────── Response Result ──────
+03-10 22:21:52.561 D/MG_NET_LOG: │ Result: {"req_id":"19cd8202a26f36ad631","err_resp":{"msg":"登录态失效，请重新登录","code":"14101","desc":"登录态失效，请重新登录"}}
+03-10 22:21:52.561 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-10 22:21:52.575 D/MGWidget: onUpdate called for IDs: 1579
+03-10 22:21:52.576 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-10 22:21:52.603 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-10 22:21:52.741 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 132ms) ──────
+03-10 22:21:52.743 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-10 22:21:52.743 D/MG_NET_LOG: │ Method: POST
+03-10 22:21:52.744 D/MG_NET_LOG: │ Header: app-type: roewe
+03-10 22:21:52.744 D/MG_NET_LOG: │ Header: timestamp: 1773152512607
+03-10 22:21:52.744 D/MG_NET_LOG: │ Header: sign: 4ssQ+6z2GyQBOLAXqj02+5RNVrgdUldVUBLC0CqcbCU=
+03-10 22:21:52.745 D/MG_NET_LOG: │ Params: data={"vin":"LSJNN6367P2871144","appId":"Roewe","brandCode":"1","nonce":"9E40014C4E1492CCD16E917A61EA9FE5","timestamp":"1773152512605","token":"890d94f36b514d4199c4157648f9a366-prod_SAIC"}
+03-10 22:21:52.745 D/MG_NET_LOG: ├────── Response Result ──────
+03-10 22:21:52.745 D/MG_NET_LOG: │ Result: {"req_id":"19cd8202ae165f62019","err_resp":{"msg":"登录态失效，请重新登录","code":"14101","desc":"登录态失效，请重新登录"}}
+03-10 22:21:52.745 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-10 22:21:52.746 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: null
+03-10 22:21:52.747 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-10 22:21:52.748 D/MGWidget: updateWidgetSynchronously called for ID: 1579
+03-10 22:35:30.967 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 103ms) ──────
+03-10 22:35:30.968 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+03-10 22:35:30.968 D/MG_NET_LOG: │ Method: POST
+03-10 22:35:30.968 D/MG_NET_LOG: │ Header: app-type: roewe
+03-10 22:35:30.968 D/MG_NET_LOG: │ Header: timestamp: 1773153330861
+03-10 22:35:30.969 D/MG_NET_LOG: │ Header: sign: 4mdyHfMnvJLhUvUHsU3slRc8Sl+Bs8h1w+3LGf1d78c=
+03-10 22:35:30.969 D/MG_NET_LOG: │ Params: data={"userId":"15100001196259","appId":"Roewe","brandCode":"1","nonce":"8C84DF4FBCA217CDFC0FCE5F7789324C","timestamp":"1773153330858","token":"f8fa538cf1ef4d3098c3ee6dc458038f-prod_SAIC"}
+03-10 22:35:30.969 D/MG_NET_LOG: ├────── Response Result ──────
+03-10 22:35:30.969 D/MG_NET_LOG: │ Result: {"req_id":"19cd82ca70f19fd73de","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":"渝AFS5191","secret_key":"9465141528397842","key_end_time":1779022604000,"mobile":null,"key_start_time":1771333004000,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":27820107,"owner_name":null,"owner_mobile":"17302395027","enable":true,"tbox_mac":"4A847EC230AF","vin":"LSJWM6367PZ871144","aes_key":"6349426286953070","status":3}]}}
+03-10 22:35:30.970 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-10 22:35:31.099 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_ENABLED
+03-10 22:35:31.101 D/MGWidget: onUpdate called for IDs: 1583
+03-10 22:35:31.101 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-10 22:35:31.147 D/MGWidget: onAppWidgetOptionsChanged for ID: 1583
+03-10 22:35:31.151 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE_OPTIONS
+03-10 22:35:31.168 D/MGWidget: onAppWidgetOptionsChanged for ID: 1583
+03-10 22:35:31.173 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE_OPTIONS
+03-10 22:35:31.194 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-10 22:35:31.294 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 96ms) ──────
+03-10 22:35:31.295 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-10 22:35:31.295 D/MG_NET_LOG: │ Method: POST
+03-10 22:35:31.295 D/MG_NET_LOG: │ Header: app-type: roewe
+03-10 22:35:31.295 D/MG_NET_LOG: │ Header: timestamp: 1773153331197
+03-10 22:35:31.295 D/MG_NET_LOG: │ Header: sign: TUuYg/Cm/p3fUmSJNI6C2YyFzO9Uq08Wz8Nw8RhJ96E=
+03-10 22:35:31.296 D/MG_NET_LOG: │ Params: data={"vin":"LSJNN6367P2871144","appId":"Roewe","brandCode":"1","nonce":"E1E35566F503EB6980E637C7EB7E51A1","timestamp":"1773153331195","token":"f8fa538cf1ef4d3098c3ee6dc458038f-prod_SAIC"}
+03-10 22:35:31.296 D/MG_NET_LOG: ├────── Response Result ──────
+03-10 22:35:31.296 D/MG_NET_LOG: │ Result: {"req_id":"19cd82ca85b687464e8","err_resp":{"msg":"请求失败，请重试","code":"14106","desc":"请求失败，请重试"}}
+03-10 22:35:31.296 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-10 22:35:31.297 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: null
+03-10 22:35:31.297 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-10 22:35:31.298 D/MGWidget: updateWidgetSynchronously called for ID: 1583
