@@ -1,0 +1,43 @@
+--- Log Capture Start: 20260312_144814 ---
+03-12 14:47:01.627 D/BleProximity: 🔍 开始扫描
+03-12 14:47:01.628 D/BleProximity: 🔍 开始扫描 (尝试次数: 2)
+03-12 14:47:06.656 D/BleProximity: ⌛ 扫描周期结束(5s)，未发现设备
+03-12 14:47:06.659 D/BleProximity: ⏹️ 停止扫描
+03-12 14:47:06.670 D/BleProximity: 🔄 仍有活跃 Session，将在 12 秒后重新扫描...
+03-12 14:47:18.671 D/BleProximity: 🔍 开始扫描
+03-12 14:47:18.672 D/BleProximity: 🔍 开始扫描 (尝试次数: 3)
+03-12 14:47:23.689 D/BleProximity: ⌛ 扫描周期结束(5s)，未发现设备
+03-12 14:47:23.693 D/BleProximity: ⏹️ 停止扫描
+03-12 14:47:23.709 D/BleProximity: 🔄 仍有活跃 Session，将在 24 秒后重新扫描...
+03-12 14:47:43.138 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 136ms) ──────
+03-12 14:47:43.140 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+03-12 14:47:43.141 D/MG_NET_LOG: │ Method: POST
+03-12 14:47:43.142 D/MG_NET_LOG: │ Header: app-type: roewe
+03-12 14:47:43.142 D/MG_NET_LOG: │ Header: timestamp: 1773298062999
+03-12 14:47:43.145 D/MG_NET_LOG: │ Header: sign: iTlGeebkqh/adrFG4mFpsKO5Iol6doBMrDgBT886qkQ=
+03-12 14:47:43.145 D/MG_NET_LOG: │ Params: data={"userId":"15100001965501","appId":"Roewe","brandCode":"1","nonce":"405CE0D9FC060A0F9E4DFDB951B338A1","timestamp":"1773298062989","token":"c7f475f3bd20459596f303d8d4cb9f69-prod_SAIC"}
+03-12 14:47:43.146 D/MG_NET_LOG: ├────── Response Result ──────
+03-12 14:47:43.147 D/MG_NET_LOG: │ Result: {"req_id":"19ce0cd183629c25840","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":"冀EF83287","secret_key":"3747322490013945","key_end_time":1781222984000,"mobile":null,"key_start_time":1773274184000,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":28076831,"owner_name":null,"owner_mobile":"13932978870","enable":true,"tbox_mac":"34414C52CCB5","vin":"LSJWM6398RZ660211","aes_key":"6249758664775449","status":3}]}}
+03-12 14:47:43.147 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-12 14:47:43.191 D/MGWidget: onUpdate called for IDs: 60
+03-12 14:47:43.193 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-12 14:47:43.372 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-12 14:47:43.901 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 522ms) ──────
+03-12 14:47:43.901 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-12 14:47:43.902 D/MG_NET_LOG: │ Method: POST
+03-12 14:47:43.902 D/MG_NET_LOG: │ Header: app-type: roewe
+03-12 14:47:43.902 D/MG_NET_LOG: │ Header: timestamp: 1773298063376
+03-12 14:47:43.902 D/MG_NET_LOG: │ Header: sign: 0bOptVfRvOEwNtrYvrZS2oHo361D09H/bEb24It8O9g=
+03-12 14:47:43.902 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6398RZ660211","appId":"Roewe","brandCode":"1","nonce":"88CEB49B6F58BFFF90D2A121CAEB9273","timestamp":"1773298063372","token":"c7f475f3bd20459596f303d8d4cb9f69-prod_SAIC"}
+03-12 14:47:43.903 D/MG_NET_LOG: ├────── Response Result ──────
+03-12 14:47:43.903 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19ce0cd198b732a5ee4","data":{"vehicle_position":{"satellites":5,"altitude":58,"gps_status":2,"latitude":"37.084060","update_time":1773294994000,"gps_time":1773295007000,"hdop":13,"longitude":"114.466267"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":256,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":3,"driving_range":993,"battery_pack_range":23,"power_mode":0,"engine_status":0,"exterior_temperature":0,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":80,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":24355,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":268,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":272,"battery_pack_prc":183,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":993,"current_journey_id":3276,"pwr_lftgt_pos_v":null,"interior_temperature":37,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1773294994000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":260,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":700,"fuel_level_disp":7,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1773294994000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1773294994000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_wind
+03-12 14:47:43.903 D/MG_NET_LOG: │ Result(Part 2): ow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-12 14:47:43.903 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-12 14:47:43.915 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 河北省邢台市信都区冶金北路420号
+03-12 14:47:43.916 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-12 14:47:43.916 D/MGWidget: updateWidgetSynchronously called for ID: 60
+03-12 14:47:47.713 D/BleProximity: 🔍 开始扫描
+03-12 14:47:47.717 D/BleProximity: 🔍 开始扫描 (尝试次数: 4)
+03-12 14:47:52.745 D/BleProximity: ⌛ 扫描周期结束(5s)，未发现设备
+03-12 14:47:52.748 D/BleProximity: ⏹️ 停止扫描
+03-12 14:47:52.764 D/BleProximity: 🔄 仍有活跃 Session，将在 30 秒后重新扫描...
