@@ -1,0 +1,28 @@
+--- Log Capture Start: 20260312_134348 ---
+03-12 13:43:25.420 E/ControlActivity: 初始化蓝牙管理器失败
+java.lang.IllegalStateException: 蓝牙配置信息不完整，请先在主页设置。
+	at N2.E.a(r8-map-id-638279cd0c113e02e26e3867ca13bd18e859aff0de3d5d5cdb0883318e30bcae:415)
+	at N2.q.a(r8-map-id-638279cd0c113e02e26e3867ca13bd18e859aff0de3d5d5cdb0883318e30bcae:117)
+	at A1.d.invokeSuspend(r8-map-id-638279cd0c113e02e26e3867ca13bd18e859aff0de3d5d5cdb0883318e30bcae:699)
+	at l3.a.resumeWith(r8-map-id-638279cd0c113e02e26e3867ca13bd18e859aff0de3d5d5cdb0883318e30bcae:9)
+	at kotlinx.coroutines.DispatchedTask.run(r8-map-id-638279cd0c113e02e26e3867ca13bd18e859aff0de3d5d5cdb0883318e30bcae:113)
+	at android.os.Handler.handleCallback(Handler.java:995)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loopOnce(Looper.java:267)
+	at android.os.Looper.loop(Looper.java:360)
+	at android.app.ActivityThread.main(ActivityThread.java:10054)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:616)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1115)
+
+03-12 13:43:26.381 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 986ms) ──────
+03-12 13:43:26.383 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-12 13:43:26.384 D/MG_NET_LOG: │ Method: POST
+03-12 13:43:26.384 D/MG_NET_LOG: │ Header: app-type: roewe
+03-12 13:43:26.384 D/MG_NET_LOG: │ Header: timestamp: 1773294205394
+03-12 13:43:26.385 D/MG_NET_LOG: │ Header: sign: VXnu2rUYphX+DbuyO9K8az3SMcZSE3i305YuSdqXsHo=
+03-12 13:43:26.386 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6366SZ671462","appId":"Roewe","brandCode":"1","nonce":"01D4A05C0E9DF639E4D467508DEB308F","timestamp":"1773294205392","token":"d94fbcf71c43412f982057530d6c039c-prod_SAIC"}
+03-12 13:43:26.386 D/MG_NET_LOG: ├────── Response Result ──────
+03-12 13:43:26.387 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19ce0923b5f9257d5ce","data":{"vehicle_position":{"satellites":4,"altitude":252,"latitude":"31.007440","gps_status":3,"update_time":1773294132000,"gps_time":1773294145000,"hdop":21,"longitude":"107.117880"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":0,"rear_right_tyre_pressure":276,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":3,"driving_range":956,"battery_pack_range":63,"power_mode":0,"engine_status":0,"exterior_temperature":0,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":100,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":28749,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1230,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":284,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":284,"battery_pack_prc":505,"interior_temperature_v":null,"steer_heat_failure_reason":0,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":0,"fuel_range":956,"current_journey_id":1266,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":290,"battery_alarm_value":[50,200,500],"update_time":1773294132000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":280,"vehicle_battery_prc":700,"battery_type":0,"fuel_level_disp":8,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":1023},"update_time":1773294132000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1773294132000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":fal
+03-12 13:43:26.387 D/MG_NET_LOG: │ Result(Part 2): se,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-12 13:43:26.387 D/MG_NET_LOG: └──────────────────────────────────────────────────
