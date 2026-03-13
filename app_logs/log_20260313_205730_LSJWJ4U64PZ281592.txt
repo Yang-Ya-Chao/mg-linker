@@ -1,0 +1,42 @@
+--- Log Capture Start: 20260313_205730 ---
+03-13 20:57:18.836 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1117ms) ──────
+03-13 20:57:18.839 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/uais/1.1/graphicVerificationV2
+03-13 20:57:18.840 D/MG_NET_LOG: │ Method: POST
+03-13 20:57:18.840 D/MG_NET_LOG: │ Header: app-type: mgapp
+03-13 20:57:18.841 D/MG_NET_LOG: │ Header: timestamp: 1773406637716
+03-13 20:57:18.841 D/MG_NET_LOG: │ Header: sign: yHHEhyM5QQaUlFw2PFu4i9EqnaAkxA+EoUfkQlIHIuc=
+03-13 20:57:18.842 D/MG_NET_LOG: │ Params: data={"NECaptchaValidate":"CN31__541nu8hgGZTRXSwsMRlzN9Dk04nvJPor_lXaAH4XkWYAUKqTPHY.cobgA2lkxHmxD1rk6Wvm9lZlfoH1JzC1rdkcgJDFkXSeAz3nxvs2RrDybbOqgF3cabjiX94YcAMF2KQG8gaXbgEzZWJj1aspzkahvETEiGyMfOQk61VXGHuFDKUtZls8Xh4_gmcyxXSW3td._Crwm0aqaXmM0V_LqZ8R0RfNn_k2vANnZVyjkS5MQCKCOrvcc1BbDPsEQwIvBwL4yla1hQw4xvQ4R9kWYdp1ySHE2FQSM9W6MeYQMu9pQa.vwZ9gVR1hBde9_9B1JF_1YtrKB*mbsAt3LQkQ6OFyHl0DrM2Yh2jdYYdtP3mAjtDd12viA6fMzx9q.d.XUI4FUy55L2vIO61KwfiQSAZGat3je6nyZW4Nrr6UjSiG9Yzp*R_aqBKaoFg8xQ.F8tVuG4.xT2oQ2WJgbt*btMFKJW43Uw5KGrDYdyB4L3wZQl2l*Zfg4LDpF*YDMJaDfiiAY77_v_i_1","brandCode":"2","captchaId":"b4800c43901c4113856a95938560ae0a","mobilePhone":"13348938074"}
+03-13 20:57:18.843 D/MG_NET_LOG: ├────── Response Result ──────
+03-13 20:57:18.843 D/MG_NET_LOG: │ Result: {"req_id":"19ce745d3ca209a2bca","data":{"send":"true"}}
+03-13 20:57:18.844 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-13 20:57:27.582 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 110ms) ──────
+03-13 20:57:27.583 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/uais/1.0/quickLoginByVcodeV2
+03-13 20:57:27.583 D/MG_NET_LOG: │ Method: POST
+03-13 20:57:27.583 D/MG_NET_LOG: │ Header: app-type: mgapp
+03-13 20:57:27.583 D/MG_NET_LOG: │ Header: timestamp: 1773406647471
+03-13 20:57:27.584 D/MG_NET_LOG: │ Header: sign: q0k1Bns7NXuLOC4QZvjjrDNx/KMq9BUaSad1YMzGVNs=
+03-13 20:57:27.584 D/MG_NET_LOG: │ Params: data={"appType":"MG","app_version":"MG Live_2.1.3","brandCode":"2","deviceId":"","mobile_brand":"Xiaomi","mobile_type":"23127PN0CC","os_version":"16","phone":"13348938074","phoneName":"","platformType":"android","sid":"","uuid":"","vcode":"833593"}
+03-13 20:57:27.584 D/MG_NET_LOG: ├────── Response Result ──────
+03-13 20:57:27.584 D/MG_NET_LOG: │ Result: {"req_id":"19ce745f872a95229e9","data":{"loginResult":true,"pass":"true","isDulp":"true","loginData":{"user_name":"13348938074","mobile":"13348938074","has_vehicle":false,"acl":null,"auth_code":null,"token":"fe2a7d377a1e4413824fe040ff009a57-prod_SAIC","args":null,"upload_dt_required":false,"related_accounts":null,"user_id":15100000797060,"nick_name":"杨家三郎","photo_url":"https://oss.saicmg.com/1697275835564.jpg","expiry_time":1796734648457},"mv_code":"d7ed1d92ff5e4b000429d9a8997519ab"}}
+03-13 20:57:27.584 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-13 20:57:27.688 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 100ms) ──────
+03-13 20:57:27.688 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.1/getOutSideServiceToken
+03-13 20:57:27.688 D/MG_NET_LOG: │ Method: POST
+03-13 20:57:27.689 D/MG_NET_LOG: │ Header: app-type: mgapp
+03-13 20:57:27.689 D/MG_NET_LOG: │ Header: brandCode: 2
+03-13 20:57:27.689 D/MG_NET_LOG: │ Header: timestamp: 1773406647587
+03-13 20:57:27.689 D/MG_NET_LOG: │ Header: sign: g03c+iBxXKz4fju6BWnKjXbbKjgTRUG8dNa6OokpRuo=
+03-13 20:57:27.689 D/MG_NET_LOG: │ Params: data={"brandCode":"2","deviceId":"","token":"fe2a7d377a1e4413824fe040ff009a57-prod_SAIC","types":[1]}
+03-13 20:57:27.689 D/MG_NET_LOG: ├────── Response Result ──────
+03-13 20:57:27.690 D/MG_NET_LOG: │ Result: {"req_id":"19ce745f8d6b9e57458","data":{"swapToken":"fe2a7d377a1e4413824fe040ff009a57-prod_SAIC","saicUserId":15100000797060}}
+03-13 20:57:27.690 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-13 20:57:27.798 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 95ms) ──────
+03-13 20:57:27.799 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/4.4/findBoundVinList
+03-13 20:57:27.799 D/MG_NET_LOG: │ Method: POST
+03-13 20:57:27.799 D/MG_NET_LOG: │ Header: app-type: mgapp
+03-13 20:57:27.800 D/MG_NET_LOG: │ Header: timestamp: 1773406647702
+03-13 20:57:27.800 D/MG_NET_LOG: │ Header: sign: dCqbSyGwE6LUQp3e5by0qw2H0p/owLVyCR1BJEfqxeM=
+03-13 20:57:27.800 D/MG_NET_LOG: │ Params: data={"appId":"MG","brandCode":"2","token":"fe2a7d377a1e4413824fe040ff009a57-prod_SAIC"}
+03-13 20:57:27.800 D/MG_NET_LOG: ├────── Response Result ──────
+03-13 20:57:27.800 D/MG_NET_LOG: │ Result: {"req_id":"19ce745f94d2939a18a","data":{"bound_vin_list_roewe":[{"vehicle_series_id":1403,"series_code":null,"series_name":"MG7","relation_list":["1"],"is_new_real_name":null,"pin_status_list":[{"config_status":-1,"config_type":0,"user_id":null,"device_id":""},{"config_status":-1,"config_type":1,"user_id":null,"device_id":""}],"relation":"1","vehicle_no":"川G0KG80","model_name":"MG7","phone_number":"4008281088","whether_real_name_authentication":true,"byod_show_type":"","vehicle_project_code":"IP422712","vin":"LSJWJ4U64PZ281592","is_lite":false,"realname_status":3,"vehicle_pin_code_flag":true,"byod_version":""}]}}
+03-13 20:57:27.800 D/MG_NET_LOG: └──────────────────────────────────────────────────
