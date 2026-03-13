@@ -1,0 +1,279 @@
+--- Log Capture Start: 20260313_211603 ---
+03-13 21:13:40.778 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 561ms) ──────
+03-13 21:13:40.782 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+03-13 21:13:40.783 D/MG_NET_LOG: │ Method: POST
+03-13 21:13:40.783 D/MG_NET_LOG: │ Header: app-type: mgapp
+03-13 21:13:40.784 D/MG_NET_LOG: │ Header: timestamp: 1773407620215
+03-13 21:13:40.784 D/MG_NET_LOG: │ Header: sign: rDIjzOpzm8tPZ+7BEuGs9VLZM7ixfbuOXxVeanijMEg=
+03-13 21:13:40.785 D/MG_NET_LOG: │ Params: data={"userId":"15100000797060","appId":"MG","brandCode":"2","nonce":"324404D8D2C23F7297AFF0193468CE11","timestamp":"1773407620212","token":"fe2a7d377a1e4413824fe040ff009a57-prod_SAIC"}
+03-13 21:13:40.785 D/MG_NET_LOG: ├────── Response Result ──────
+03-13 21:13:40.786 D/MG_NET_LOG: │ Result: {"req_id":"19ce754d209da4dbd1f","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":"川G0KG80","secret_key":"2101707593533485","key_end_time":1779335592000,"key_start_time":1771645992000,"mobile":null,"if_remote_control_park":false,"key_privilege":null,"user_name":"杨家三郎","is_enable":true,"real_name":null,"key_reference":27857854,"owner_mobile":"13348938074","owner_name":"杨家三郎","enable":true,"tbox_mac":"39AA39D474B8","aes_key":"5554995339599172","vin":"LSJWJ4U64PZ281592","status":3}]}}
+03-13 21:13:40.786 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-13 21:13:40.816 D/MGWidget: onUpdate called for IDs: 5990
+03-13 21:13:40.817 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-13 21:13:40.867 D/BleProximity: 🔧 初始化 BleProximityManager
+03-13 21:13:40.867 D/BleProximity: ➕ 添加监听器: callback_1_1773407620867 (总数: 1)
+03-13 21:13:40.867 D/BleProximity: ✅ 初始化完成
+03-13 21:13:40.868 D/BleProximity:    基准阈值: -87.0
+03-13 21:13:40.868 D/BleProximity:    解锁阈值: -87.0 (信号 > 此值才解锁)
+03-13 21:13:40.868 D/BleProximity:    上锁阈值: -90.0 (信号 < 此值才上锁)
+03-13 21:13:40.868 D/BleProximity:    保持区: -90.0 ~ -87.0
+03-13 21:13:40.868 D/BleProximity: 🚀 启动靠近解锁服务...
+03-13 21:13:40.869 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_1_1773407620869 (总数: 1)
+03-13 21:13:40.869 D/BleProximity: 🔍 开始扫描
+03-13 21:13:40.870 D/BleProximity: 🔍 开始扫描 (尝试次数: 0)
+03-13 21:13:40.903 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-13 21:13:41.494 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 586ms) ──────
+03-13 21:13:41.495 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-13 21:13:41.496 D/MG_NET_LOG: │ Method: POST
+03-13 21:13:41.496 D/MG_NET_LOG: │ Header: app-type: mgapp
+03-13 21:13:41.497 D/MG_NET_LOG: │ Header: timestamp: 1773407620905
+03-13 21:13:41.497 D/MG_NET_LOG: │ Header: sign: I1z7LI0ujENjEqohVNpCc0WJs/ADn3Hlmo9i7pFwlCM=
+03-13 21:13:41.498 D/MG_NET_LOG: │ Params: data={"vin":"LSJWJ4U64PZ281592","appId":"MG","brandCode":"2","nonce":"77D839A79771B046C634690958DB1D1E","timestamp":"1773407620904","token":"fe2a7d377a1e4413824fe040ff009a57-prod_SAIC"}
+03-13 21:13:41.498 D/MG_NET_LOG: ├────── Response Result ──────
+03-13 21:13:41.498 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19ce754d31bcbbb0d9a","data":{"vehicle_position":{"satellites":7,"altitude":506,"latitude":"30.676468","gps_status":2,"update_time":1772961110000,"gps_time":1772965156000,"hdop":6,"longitude":"103.886762"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":240,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":625,"battery_pack_range":0,"power_mode":0,"engine_status":0,"exterior_temperature":17,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":64,"localfront_left_seat_heat_level":null,"interior_pm25":506,"odometer":32775,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":119,"chrgng_rmnng_time_v":null,"exterior_pm25":508,"front_left_tyre_pressure":240,"charge_status":0,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":240,"battery_pack_prc":0,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":625,"current_journey_id":55,"pwr_lftgt_pos_v":null,"interior_temperature":17,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1773316476000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":236,"vehicle_battery_prc":708,"battery_type":0,"fuel_level_disp":6,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1773316476000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1773316476000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_windo
+03-13 21:13:41.499 D/MG_NET_LOG: │ Result(Part 2): w":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-13 21:13:41.499 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-13 21:13:41.509 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 四川省成都市温江区鹏程路1519号合能·珍宝琥珀
+03-13 21:13:41.510 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-13 21:13:41.511 D/MGWidget: updateWidgetSynchronously called for ID: 5990
+03-13 21:13:55.891 D/BleProximity: ⌛ 扫描周期结束(15s)，未发现设备
+03-13 21:13:55.891 D/BleProximity: ⏹️ 停止扫描
+03-13 21:13:55.895 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+03-13 21:13:57.897 D/BleProximity: 🔍 开始扫描
+03-13 21:13:57.897 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+03-13 21:14:12.914 D/BleProximity: ⌛ 扫描周期结束(15s)，未发现设备
+03-13 21:14:12.916 D/BleProximity: ⏹️ 停止扫描
+03-13 21:14:12.926 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+03-13 21:14:14.929 D/BleProximity: 🔍 开始扫描
+03-13 21:14:14.930 D/BleProximity: 🔍 开始扫描 (尝试次数: 2)
+03-13 21:14:29.951 D/BleProximity: ⌛ 扫描周期结束(15s)，未发现设备
+03-13 21:14:29.953 D/BleProximity: ⏹️ 停止扫描
+03-13 21:14:29.960 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+03-13 21:14:31.966 D/BleProximity: 🔍 开始扫描
+03-13 21:14:31.966 D/BleProximity: 🔍 开始扫描 (尝试次数: 3)
+03-13 21:14:40.561 D/BleProximity: 📱 设备信号达标: 74:B8:39:D4:39:AA, RSSI: -100 ✓
+03-13 21:14:40.563 D/BleProximity: 📱 发现设备: 74:B8:39:D4:39:AA, RSSI: -100
+03-13 21:14:40.571 D/BleProximity: ⏹️ 停止扫描
+03-13 21:14:40.575 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+03-13 21:14:40.575 D/BleProximity: 📡 连接状态: CONNECTING
+03-13 21:14:40.729 D/BleProximity: 🔗 开始建立底层连接: 74:B8:39:D4:39:AA
+03-13 21:14:43.150 D/BleProximity: ⚙️ 底层状态反馈: status=133, newState=0
+03-13 21:14:43.151 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 133)
+03-13 21:14:43.152 D/BleProximity: 🧹 GATT 缓存清理失败
+03-13 21:14:43.152 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+03-13 21:14:43.153 D/BleProximity: 📡 连接状态: DISCONNECTED
+03-13 21:14:43.155 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+03-13 21:14:45.157 D/BleProximity: 🔍 开始扫描
+03-13 21:14:45.158 D/BleProximity: 🔍 开始扫描 (尝试次数: 4)
+03-13 21:14:45.230 D/BleProximity: 📱 设备信号达标: 74:B8:39:D4:39:AA, RSSI: -99 ✓
+03-13 21:14:45.231 D/BleProximity: 📱 发现设备: 74:B8:39:D4:39:AA, RSSI: -99
+03-13 21:14:45.235 D/BleProximity: ⏹️ 停止扫描
+03-13 21:14:45.239 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+03-13 21:14:45.239 D/BleProximity: 📡 连接状态: CONNECTING
+03-13 21:14:45.398 D/BleProximity: 🔗 开始建立底层连接: 74:B8:39:D4:39:AA
+03-13 21:14:48.548 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+03-13 21:14:48.549 D/BleProximity: ✅ 已连接，开始发现服务
+03-13 21:14:48.550 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+03-13 21:14:48.550 D/BleProximity: 📡 连接状态: CONNECTED
+03-13 21:14:49.470 D/BleProximity: ✅ 特征初始化完成
+03-13 21:14:49.487 D/BleProximity: MTU 生效: 65
+03-13 21:14:49.488 D/BleProximity: 🔐 开始认证流程
+03-13 21:14:49.491 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+03-13 21:14:49.494 D/BleProximity: 🔔 启用通知: d341, 结果: true
+03-13 21:14:49.496 D/BleProximity: 🔔 启用通知: 267e, 结果: true
+03-13 21:14:49.498 D/BleProximity: 🔔 启用通知: 71ed, 结果: true
+03-13 21:14:49.499 D/BleProximity: 🔔 启用通知: 23a8, 结果: true
+03-13 21:14:49.501 D/BleProximity: 🔔 启用通知: 8e2d, 结果: true
+03-13 21:14:49.503 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+03-13 21:14:49.504 D/BleProximity: 🔔 启用通知: 9d21, 结果: true
+03-13 21:14:49.637 D/BleProximity: 📤 准备发送Booking ID: 01A913BE (进入串行队列)
+03-13 21:14:52.050 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 666335616534306538393333
+03-13 21:14:52.053 D/BleProximity: 🔐 处理认证挑战: 666335616534306538393333
+03-13 21:14:52.592 D/BleProximity: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3031
+03-13 21:14:52.594 D/BleProximity: ✅ 认证成功
+03-13 21:14:52.595 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 1, Session: 1)
+03-13 21:14:52.595 D/BleProximity: 📡 连接状态: AUTHENTICATED
+03-13 21:14:52.625 D/BleProximity: 📊 正在收集信号样本: 1/10
+03-13 21:14:52.819 D/BleProximity: 📊 正在收集信号样本: 2/10
+03-13 21:14:53.024 D/BleProximity: 📊 正在收集信号样本: 3/10
+03-13 21:14:53.230 D/BleProximity: 📊 正在收集信号样本: 4/10
+03-13 21:14:53.429 D/BleProximity: 📊 正在收集信号样本: 5/10
+03-13 21:14:53.648 D/BleProximity: 📊 正在收集信号样本: 6/10
+03-13 21:14:53.844 D/BleProximity: 📊 正在收集信号样本: 7/10
+03-13 21:14:54.050 D/BleProximity: 📊 正在收集信号样本: 8/10
+03-13 21:14:54.255 D/BleProximity: 📊 正在收集信号样本: 9/10
+03-13 21:14:54.454 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:54.676 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:54.880 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:55.089 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:55.290 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:55.492 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:55.698 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:55.909 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:56.102 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:56.308 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:56.516 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:56.714 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:56.933 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:57.131 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:57.335 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:57.539 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:57.743 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:57.946 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:58.148 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:58.352 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:58.553 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:58.759 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:58.960 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:59.161 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:59.367 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:59.575 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:59.781 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:14:59.984 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:00.193 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:00.398 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:00.594 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:00.796 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:00.999 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:01.201 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:01.406 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:01.607 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:01.813 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:02.019 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:02.223 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:02.431 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:02.630 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:02.833 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:03.034 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:03.239 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:03.451 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:03.649 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:03.855 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:04.057 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:04.258 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:04.467 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:04.675 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:04.880 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:05.081 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:05.287 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:05.488 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:05.690 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:05.904 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:06.122 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:06.330 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:06.521 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:06.725 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:06.927 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:07.133 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:07.335 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:07.554 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:07.746 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:07.958 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:08.155 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:08.359 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:08.559 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:08.762 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:08.965 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:09.169 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:09.373 D/BleProximity: ⚠️ 状态未知，信号不在解锁区，等待
+03-13 21:15:09.575 D/BleProximity: ⚠️ 状态未知，信号在解锁区，尝试解锁
+03-13 21:15:09.576 D/BleProximity: 🔓 触发解锁: 信号=-86, 稳定性=2.1
+03-13 21:15:09.582 D/BleProximity: 📤 发送指令: 解锁车门
+03-13 21:15:09.632 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 353936306238663262643435
+03-13 21:15:09.634 D/BleProximity: 🔐 处理认证挑战: 353936306238663262643435
+03-13 21:15:11.057 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+03-13 21:15:11.059 D/BleProximity: 解锁成功
+03-13 21:15:11.061 D/BleProximity: 📊 指令出队: 解锁车门 -> SUCCESS
+03-13 21:15:11.062 D/BleProximity: 🔓 解锁结果: SUCCESS
+03-13 21:15:11.063 D/BleProximity: ✅ 车辆已解锁
+03-13 21:15:11.069 D/BleProximity: 🔗 链式触发: 120 秒打火
+03-13 21:15:11.169 D/BleProximity: 📤 发送指令: 120 秒打火
+03-13 21:15:11.236 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 383630323266643639376635
+03-13 21:15:11.261 D/BleProximity: 🔐 处理认证挑战: 383630323266643639376635
+03-13 21:15:14.174 D/BleProximity: ℹ️ 打火指令已发送（协议无成功返回值），默认视为成功
+03-13 21:15:14.175 D/BleProximity: 📊 指令出队: 120 秒打火 -> SUCCESS
+03-13 21:15:16.104 D/BleProximity: 📊 正在收集信号样本: 1/10
+03-13 21:15:16.305 D/BleProximity: 📊 正在收集信号样本: 2/10
+03-13 21:15:16.511 D/BleProximity: 📊 正在收集信号样本: 3/10
+03-13 21:15:16.713 D/BleProximity: 📊 正在收集信号样本: 4/10
+03-13 21:15:16.915 D/BleProximity: 📊 正在收集信号样本: 5/10
+03-13 21:15:17.122 D/BleProximity: 📊 正在收集信号样本: 6/10
+03-13 21:15:17.329 D/BleProximity: 📊 正在收集信号样本: 7/10
+03-13 21:15:17.532 D/BleProximity: 📊 正在收集信号样本: 8/10
+03-13 21:15:17.740 D/BleProximity: 📊 正在收集信号样本: 9/10
+03-13 21:15:18.114 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 120ms) ──────
+03-13 21:15:18.115 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken
+03-13 21:15:18.116 D/MG_NET_LOG: │ Method: POST
+03-13 21:15:18.117 D/MG_NET_LOG: │ Header: app-type: mgapp
+03-13 21:15:18.117 D/MG_NET_LOG: │ Header: timestamp: 1773407717992
+03-13 21:15:18.118 D/MG_NET_LOG: │ Header: sign: Ks0gW+xBULfCFdjsGXoP31mU9N0006duhIH5B19fiWo=
+03-13 21:15:18.118 D/MG_NET_LOG: │ Params: data={"token":"fe2a7d377a1e4413824fe040ff009a57-prod_SAIC"}
+03-13 21:15:18.119 D/MG_NET_LOG: ├────── Response Result ──────
+03-13 21:15:18.119 D/MG_NET_LOG: │ Result: {"req_id":"19ce7564e302e6abd59","data":{"rav_code":"P8ILCl"}}
+03-13 21:15:18.120 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-13 21:15:18.299 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 172ms) ──────
+03-13 21:15:18.301 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+03-13 21:15:18.302 D/MG_NET_LOG: │ Method: POST
+03-13 21:15:18.303 D/MG_NET_LOG: │ Header: app-type: mgapp
+03-13 21:15:18.303 D/MG_NET_LOG: │ Header: timestamp: 1773407718126
+03-13 21:15:18.304 D/MG_NET_LOG: │ Header: sign: oxJwSW8Bi+2TrTE8I/z18DIu1qTHAK08IuVVEGogr6k=
+03-13 21:15:18.305 D/MG_NET_LOG: │ Params: data={"pin":"7cf02816a9f44a157131df02591538251c9ae23c","vin":"LSJWJ4U64PZ281592","nonce":"59937BA0556B81A474B24238390E1373","timestamp":"1773407718123","token":"fe2a7d377a1e4413824fe040ff009a57-prod_SAIC"}
+03-13 21:15:18.306 D/MG_NET_LOG: ├────── Response Result ──────
+03-13 21:15:18.306 D/MG_NET_LOG: │ Result: {"req_id":"19ce7564ea878194e76","data":{"isRight":"true","errorCode":null,"pvCode":"752a5bb85742f268bca1aa322240289d","pinStatusList":[{"configStatus":-1,"configType":0,"userId":null,"deviceId":""},{"configStatus":-1,"configType":1,"userId":null,"deviceId":""}]}}
+03-13 21:15:18.307 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-13 21:15:18.454 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 141ms) ──────
+03-13 21:15:18.455 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.1/requestUnlockBoot
+03-13 21:15:18.456 D/MG_NET_LOG: │ Method: POST
+03-13 21:15:18.456 D/MG_NET_LOG: │ Header: app-type: mgapp
+03-13 21:15:18.456 D/MG_NET_LOG: │ Header: timestamp: 1773407718311
+03-13 21:15:18.457 D/MG_NET_LOG: │ Header: sign: nT8Y-8LwyehIpZWubarRqj2ianOYvKsT6DHJXRjGF6Y
+03-13 21:15:18.457 D/MG_NET_LOG: │ Params: data={"auth_type":"2","appId":"MG","vin":"LSJWJ4U64PZ281592","nonce":"2D71D64ABD5EFBFFA96F358955153B1E","brandCode":"2","timestamp":"1773407718309","token":"fe2a7d377a1e4413824fe040ff009a57-prod_SAIC","auth_code":"752a5bb85742f268bca1aa322240289d"}
+03-13 21:15:18.457 D/MG_NET_LOG: ├────── Response Result ──────
+03-13 21:15:18.458 D/MG_NET_LOG: │ Result: {"req_id":"19ce7564f6e70ae3761","data":{"command_id":324683252}}
+03-13 21:15:18.458 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-13 21:15:18.557 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 92ms) ──────
+03-13 21:15:18.557 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+03-13 21:15:18.557 D/MG_NET_LOG: │ Method: POST
+03-13 21:15:18.558 D/MG_NET_LOG: │ Header: app-type: mgapp
+03-13 21:15:18.558 D/MG_NET_LOG: │ Header: timestamp: 1773407718463
+03-13 21:15:18.558 D/MG_NET_LOG: │ Header: sign: 0NT5PhJv54_BWJ2dxGMGc285n_gKky4ybulwaAU4hos
+03-13 21:15:18.558 D/MG_NET_LOG: │ Params: data={"command_id":"324683252","appId":"MG","vin":"LSJWJ4U64PZ281592","nonce":"E895921AFFEE393A6B096019A0DB638F","brandCode":"2","timestamp":"1773407718461","token":"fe2a7d377a1e4413824fe040ff009a57-prod_SAIC"}
+03-13 21:15:18.558 D/MG_NET_LOG: ├────── Response Result ──────
+03-13 21:15:18.558 D/MG_NET_LOG: │ Result: {"req_id":"19ce7565009a9f1a19a","data":{"command_result":0,"command_status":"99","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+03-13 21:15:18.559 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-13 21:15:21.696 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 126ms) ──────
+03-13 21:15:21.698 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+03-13 21:15:21.699 D/MG_NET_LOG: │ Method: POST
+03-13 21:15:21.699 D/MG_NET_LOG: │ Header: app-type: mgapp
+03-13 21:15:21.700 D/MG_NET_LOG: │ Header: timestamp: 1773407721568
+03-13 21:15:21.701 D/MG_NET_LOG: │ Header: sign: btGGicqeikyGV4D8Mgkr2UQ6Ag_3Fq9H63bUS1X4nNM
+03-13 21:15:21.701 D/MG_NET_LOG: │ Params: data={"command_id":"324683252","appId":"MG","vin":"LSJWJ4U64PZ281592","nonce":"A958A986ECFC3BBBB52D83543DD19834","brandCode":"2","timestamp":"1773407721562","token":"fe2a7d377a1e4413824fe040ff009a57-prod_SAIC"}
+03-13 21:15:21.702 D/MG_NET_LOG: ├────── Response Result ──────
+03-13 21:15:21.703 D/MG_NET_LOG: │ Result: {"req_id":"19ce7565c4cb3077191","data":{"command_result":2,"command_status":"03","command_result_switch":true,"failure_type":2,"failure_msg":"车辆未上锁，为确保用车安全，远程车控暂不可用"}}
+03-13 21:15:21.703 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-13 21:15:43.905 D/BleProximity: 📍 保持区 (信号: -87)，不触发操作
+03-13 21:15:44.116 D/BleProximity: 📍 保持区 (信号: -87)，不触发操作
+03-13 21:15:44.318 D/BleProximity: 📍 保持区 (信号: -88)，不触发操作
+03-13 21:15:44.526 D/BleProximity: 📍 保持区 (信号: -88)，不触发操作
+03-13 21:15:44.727 D/BleProximity: 📍 保持区 (信号: -89)，不触发操作
+03-13 21:15:44.933 D/BleProximity: 📍 保持区 (信号: -89)，不触发操作
+03-13 21:15:45.133 D/BleProximity: 📍 保持区 (信号: -90)，不触发操作
+03-13 21:15:45.338 D/BleProximity: 🔒 触发上锁: 信号=-90, 稳定性=1.3
+03-13 21:15:45.344 D/BleProximity: 📤 发送指令: 锁车门
+03-13 21:15:45.424 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 623832393732663337313037
+03-13 21:15:45.427 D/BleProximity: 🔐 处理认证挑战: 623832393732663337313037
+03-13 21:15:46.531 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3032
+03-13 21:15:46.532 D/BleProximity: 上锁成功
+03-13 21:15:46.534 D/BleProximity: 📊 指令出队: 锁车门 -> SUCCESS
+03-13 21:15:46.535 D/BleProximity: 🔒 上锁结果: SUCCESS
+03-13 21:15:46.536 D/BleProximity: ✅ 车辆已上锁
+03-13 21:15:51.667 D/BleProximity: 📊 正在收集信号样本: 1/10
+03-13 21:15:51.868 D/BleProximity: 📊 正在收集信号样本: 2/10
+03-13 21:15:52.076 D/BleProximity: 📊 正在收集信号样本: 3/10
+03-13 21:15:52.283 D/BleProximity: 📊 正在收集信号样本: 4/10
+03-13 21:15:52.485 D/BleProximity: 📊 正在收集信号样本: 5/10
+03-13 21:15:52.684 D/BleProximity: 📊 正在收集信号样本: 6/10
+03-13 21:15:52.886 D/BleProximity: 📊 正在收集信号样本: 7/10
+03-13 21:15:53.095 D/BleProximity: 📊 正在收集信号样本: 8/10
+03-13 21:15:53.289 D/BleProximity: 📊 正在收集信号样本: 9/10
