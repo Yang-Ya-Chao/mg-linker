@@ -1,0 +1,16 @@
+--- Log Capture Start: 20260315_004358 ---
+03-15 00:43:53.105 D/MGWidget: onReceive called with action: com.my.mg.ACTION_REFRESH
+03-15 00:43:53.181 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-15 00:43:53.202 E/MG_NET_LOG: ┌────── HTTP Request Failed (9ms) ──────
+03-15 00:43:53.204 E/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-15 00:43:53.205 E/MG_NET_LOG: │ Method: POST
+03-15 00:43:53.206 E/MG_NET_LOG: │ Header: app-type: roewe
+03-15 00:43:53.207 E/MG_NET_LOG: │ Header: timestamp: 1773506633191
+03-15 00:43:53.208 E/MG_NET_LOG: │ Header: sign: r2fi1AR8uQ54VOYf3cv9ysjYzMD3j3d3QAWDCeeq0wQ=
+03-15 00:43:53.208 E/MG_NET_LOG: │ Params: data={"vin":"LSJWM6363SZ661116","appId":"Roewe","brandCode":"1","nonce":"ED522B6E9ED8225206DD1D25D2C575FE","timestamp":"1773506633186","token":"6d63ced4f3fa4bf08c80bb278aced818-prod_SAIC"}
+03-15 00:43:53.209 E/MG_NET_LOG: ├────── Exception ──────
+03-15 00:43:53.210 E/MG_NET_LOG: │ ❌ 异常: Unable to resolve host "mp.ebanma.com": No address associated with hostname
+03-15 00:43:53.210 E/MG_NET_LOG: └──────────────────────────────────────────────────
+03-15 00:43:53.213 D/WidgetUpdateWorker: Data fetch complete. Success: false, Address: null
+03-15 00:43:53.214 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-15 00:43:53.217 D/MGWidget: updateWidgetSynchronously called for ID: 10658
