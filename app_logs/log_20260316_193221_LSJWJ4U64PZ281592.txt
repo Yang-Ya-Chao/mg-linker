@@ -1,0 +1,78 @@
+--- Log Capture Start: 20260316_193221 ---
+03-16 19:31:29.777 D/ControlWidget: ➕ 添加监听器: callback_8_1773660689777 (总数: 1)
+03-16 19:31:29.794 D/ControlWidget: 🎫 [WidgetControl] 获取 Session: session_WidgetControl_3_1773660689794 (总数: 1)
+03-16 19:31:29.795 D/ControlWidget: 🔍 开始扫描
+03-16 19:31:29.796 D/ControlWidget: 🔍 开始扫描 (尝试次数: 0)
+03-16 19:31:29.803 D/ControlWidget: ➕ 添加监听器: callback_9_1773660689802 (总数: 2)
+03-16 19:31:29.803 D/ControlWidget: 🚀 Session触发连接请求 (WidgetControl)
+03-16 19:31:29.803 D/ControlWidget: 🔍 开始扫描
+03-16 19:31:29.804 D/ControlWidget: ⚠️ 已在扫描中
+03-16 19:31:44.805 D/ControlWidget: ⌛ 扫描周期结束(15s)，未发现设备
+03-16 19:31:44.808 D/ControlWidget: ⏹️ 停止扫描
+03-16 19:31:44.813 D/ControlWidget: 🎫 [WidgetControl] 释放 Session: session_WidgetControl_3_1773660689794 (剩余: 0)
+03-16 19:31:44.814 D/ControlWidget: ✂️ 所有 Session 已释放，准备断开连接
+03-16 19:31:44.815 D/ControlWidget: ➖ 移除监听器: callback_8_1773660689777 
+03-16 19:31:52.499 D/ControlActivity: ➕ 添加监听器: callback_10_1773660712499 (总数: 1)
+03-16 19:31:53.221 D/ControlActivity: 🎫 [ControlActivity] 获取 Session: session_ControlActivity_4_1773660713220 (总数: 1)
+03-16 19:31:53.222 D/ControlActivity: 🔍 开始扫描
+03-16 19:31:53.222 D/ControlActivity: 🔍 开始扫描 (尝试次数: 0)
+03-16 19:31:53.234 D/ControlActivity: ➕ 添加监听器: callback_11_1773660713234 (总数: 2)
+03-16 19:31:53.235 D/ControlActivity: 🚀 Session触发连接请求 (ControlActivity)
+03-16 19:31:53.235 D/ControlActivity: 🔍 开始扫描
+03-16 19:31:53.236 D/ControlActivity: ⚠️ 已在扫描中
+03-16 19:31:53.443 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 926ms) ──────
+03-16 19:31:53.444 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-16 19:31:53.445 D/MG_NET_LOG: │ Method: POST
+03-16 19:31:53.445 D/MG_NET_LOG: │ Header: app-type: mgapp
+03-16 19:31:53.446 D/MG_NET_LOG: │ Header: timestamp: 1773660712499
+03-16 19:31:53.446 D/MG_NET_LOG: │ Header: sign: 98QIYZHCHS29Si9Hnk6TfUmmeMwZdrHCAGiGGhiE3L4=
+03-16 19:31:53.447 D/MG_NET_LOG: │ Params: data={"vin":"LSJWJ4U64PZ281592","appId":"MG","brandCode":"2","nonce":"F0841DB2CEE80E4A305D38187839F516","timestamp":"1773660712496","token":"644138f188684781808d1dc19e0fb2d7-prod_SAIC"}
+03-16 19:31:53.447 D/MG_NET_LOG: ├────── Response Result ──────
+03-16 19:31:53.448 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cf66ab03b55b6c813","data":{"vehicle_position":{"satellites":6,"altitude":515,"latitude":"30.676223","gps_status":2,"update_time":1773579999000,"gps_time":1773581946000,"hdop":9,"longitude":"103.886776"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":244,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":563,"battery_pack_range":0,"power_mode":0,"engine_status":0,"exterior_temperature":15,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":57,"localfront_left_seat_heat_level":null,"interior_pm25":506,"odometer":32881,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":121,"chrgng_rmnng_time_v":null,"exterior_pm25":508,"front_left_tyre_pressure":248,"charge_status":0,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":244,"battery_pack_prc":0,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":563,"current_journey_id":55,"pwr_lftgt_pos_v":null,"interior_temperature":15,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1773543041000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":244,"vehicle_battery_prc":740,"battery_type":0,"fuel_level_disp":5,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1773580001000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1773543041000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_windo
+03-16 19:31:53.448 D/MG_NET_LOG: │ Result(Part 2): w":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-16 19:31:53.450 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-16 19:31:53.844 D/ControlActivity: 📱 设备信号达标: 74:B8:39:D4:39:AA, RSSI: -80 ✓
+03-16 19:31:53.845 D/ControlActivity: ⏹️ 停止扫描
+03-16 19:31:53.848 D/ControlActivity: 📡 状态变更: CONNECTING (监听器: 2, Session: 1)
+03-16 19:31:53.998 D/ControlActivity: 🔗 开始建立底层连接: 74:B8:39:D4:39:AA
+03-16 19:31:54.783 D/ControlActivity: ⚙️ 底层状态反馈: status=0, newState=2
+03-16 19:31:54.784 D/ControlActivity: ✅ 已连接，开始发现服务
+03-16 19:31:54.785 D/ControlActivity: 📡 状态变更: CONNECTED (监听器: 2, Session: 1)
+03-16 19:31:55.629 D/ControlActivity: ✅ 特征初始化完成
+03-16 19:31:55.655 D/ControlActivity: MTU 生效: 65
+03-16 19:31:55.656 D/ControlActivity: 🔐 开始认证流程
+03-16 19:31:55.657 D/ControlActivity: 🔔 启用通知: 4af4, 结果: true
+03-16 19:31:55.660 D/ControlActivity: 🔔 启用通知: d341, 结果: true
+03-16 19:31:55.661 D/ControlActivity: 🔔 启用通知: 267e, 结果: true
+03-16 19:31:55.663 D/ControlActivity: 🔔 启用通知: 71ed, 结果: true
+03-16 19:31:55.664 D/ControlActivity: 🔔 启用通知: 23a8, 结果: true
+03-16 19:31:55.666 D/ControlActivity: 🔔 启用通知: 8e2d, 结果: true
+03-16 19:31:55.667 D/ControlActivity: 🔔 启用通知: a37b, 结果: true
+03-16 19:31:55.668 D/ControlActivity: 🔔 启用通知: 9d21, 结果: true
+03-16 19:31:55.769 D/ControlActivity: 📤 准备发送Booking ID: 01A913BE (进入串行队列)
+03-16 19:31:58.206 D/ControlActivity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 396364303166356363353738
+03-16 19:31:58.209 D/ControlActivity: 🔐 处理认证挑战: 396364303166356363353738
+03-16 19:31:58.750 D/ControlActivity: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3031
+03-16 19:31:58.753 D/ControlActivity: ✅ 认证成功
+03-16 19:31:58.755 D/ControlActivity: 📡 状态变更: AUTHENTICATED (监听器: 2, Session: 1)
+03-16 19:31:58.757 D/ControlActivity: ✅ ensureConnected 成功 (ControlActivity)
+03-16 19:31:58.758 D/ControlActivity: ➖ 移除监听器: callback_11_1773660713234 
+03-16 19:32:02.397 D/ControlActivity: 🎫 [ControlActivity] 释放 Session: session_ControlActivity_4_1773660713220 (剩余: 0)
+03-16 19:32:02.398 D/ControlActivity: ✂️ 所有 Session 已释放，准备断开连接
+03-16 19:32:02.398 D/ControlActivity: ➖ 移除监听器: callback_10_1773660712499 
+03-16 19:32:04.239 D/ControlWidget: ➕ 添加监听器: callback_12_1773660724238 (总数: 1)
+03-16 19:32:04.255 D/ControlWidget: 🎫 [WidgetControl] 获取 Session: session_WidgetControl_5_1773660724255 (总数: 1)
+03-16 19:32:04.257 D/ControlWidget: 🔍 开始扫描
+03-16 19:32:04.259 D/ControlWidget: 🔍 开始扫描 (尝试次数: 0)
+03-16 19:32:04.266 D/ControlWidget: ➕ 添加监听器: callback_13_1773660724266 (总数: 2)
+03-16 19:32:04.267 D/ControlWidget: 🚀 Session触发连接请求 (WidgetControl)
+03-16 19:32:04.267 D/ControlWidget: 🔍 开始扫描
+03-16 19:32:04.267 D/ControlWidget: ⚠️ 已在扫描中
+03-16 19:32:10.671 D/ControlWidget: ❌ 认证超时
+03-16 19:32:10.672 D/ControlWidget: ⚠️ 仍有 1 个活跃 Session，不执行断开
+03-16 19:32:10.675 D/ControlWidget: 持有者: [WidgetControl]
+03-16 19:32:19.270 D/ControlWidget: ⌛ 扫描周期结束(15s)，未发现设备
+03-16 19:32:19.274 D/ControlWidget: ⏹️ 停止扫描
+03-16 19:32:19.280 D/ControlWidget: 🎫 [WidgetControl] 释放 Session: session_WidgetControl_5_1773660724255 (剩余: 0)
+03-16 19:32:19.281 D/ControlWidget: ✂️ 所有 Session 已释放，准备断开连接
+03-16 19:32:19.282 D/ControlWidget: ➖ 移除监听器: callback_12_1773660724238 
