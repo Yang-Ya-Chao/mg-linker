@@ -1,0 +1,1085 @@
+--- Log Capture Start: 20260318_075458 ---
+03-17 21:51:11.499 D/MG_NET_LOG: │ Header: app-type: roewe
+03-17 21:51:11.499 D/MG_NET_LOG: │ Header: timestamp: 1773755470567
+03-17 21:51:11.499 D/MG_NET_LOG: │ Header: sign: cnFHnwM1MYqyvOuIyJFmDPWCx8renwWE0vAAsQPRjDw=
+03-17 21:51:11.499 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6367SZ636235","appId":"Roewe","brandCode":"1","nonce":"50C4634B4A55C57A0BD6DD6EB99B8621","timestamp":"1773755470561","token":"ed42cfd6cf834da0ba479154b4b3676c-prod_SAIC"}
+03-17 21:51:11.499 D/MG_NET_LOG: ├────── Response Result ──────
+03-17 21:51:11.499 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cfc1094753bf2129f","data":{"vehicle_position":{"satellites":6,"altitude":145,"latitude":"25.659228","gps_status":3,"update_time":1773753961000,"gps_time":1773753976000,"hdop":21,"longitude":"114.775632"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":272,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":3,"driving_range":296,"battery_pack_range":69,"power_mode":0,"engine_status":0,"exterior_temperature":23,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":25,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":0,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":272,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":272,"battery_pack_prc":548,"interior_temperature_v":null,"steer_heat_failure_reason":0,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":0,"fuel_range":296,"current_journey_id":1346,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":134,"battery_alarm_value":[50,200,500],"update_time":1773753960000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":272,"vehicle_battery_prc":700,"battery_type":0,"fuel_level_disp":3,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":1023},"update_time":1773753960000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1773753960000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":fals
+03-17 21:51:11.500 D/MG_NET_LOG: │ Result(Part 2): e,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-17 21:51:11.501 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-17 21:51:11.506 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 江西省赣州市南康区为民路133号
+03-17 21:51:11.506 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-17 21:51:11.507 D/MGWidget: updateWidgetSynchronously called for ID: 22
+03-17 21:51:13.199 D/MGWidget: onUpdate called for IDs: 22
+03-17 21:51:13.200 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-17 21:51:13.209 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-17 21:51:13.477 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-17 21:51:13.837 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 614ms) ──────
+03-17 21:51:13.838 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-17 21:51:13.838 D/MG_NET_LOG: │ Method: POST
+03-17 21:51:13.838 D/MG_NET_LOG: │ Header: app-type: roewe
+03-17 21:51:13.838 D/MG_NET_LOG: │ Header: timestamp: 1773755473211
+03-17 21:51:13.838 D/MG_NET_LOG: │ Header: sign: aGh++qQAZjJVi3ZiUTKZ8kOaU1wBSL8LXGtJMBRRif4=
+03-17 21:51:13.838 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6367SZ636235","appId":"Roewe","brandCode":"1","nonce":"1A92CD7EAD50526F9515B6043BD7F8B5","timestamp":"1773755473210","token":"ed42cfd6cf834da0ba479154b4b3676c-prod_SAIC"}
+03-17 21:51:13.838 D/MG_NET_LOG: ├────── Response Result ──────
+03-17 21:51:13.838 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cfc109dba8ac98f13","data":{"vehicle_position":{"satellites":6,"altitude":145,"latitude":"25.659228","gps_status":3,"update_time":1773753961000,"gps_time":1773753976000,"hdop":21,"longitude":"114.775632"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":272,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":3,"driving_range":296,"battery_pack_range":69,"power_mode":0,"engine_status":0,"exterior_temperature":23,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":25,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":0,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":272,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":272,"battery_pack_prc":548,"interior_temperature_v":null,"steer_heat_failure_reason":0,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":0,"fuel_range":296,"current_journey_id":1346,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":134,"battery_alarm_value":[50,200,500],"update_time":1773753960000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":272,"vehicle_battery_prc":700,"battery_type":0,"fuel_level_disp":3,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":1023},"update_time":1773753960000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1773753960000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":fals
+03-17 21:51:13.838 D/MG_NET_LOG: │ Result(Part 2): e,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-17 21:51:13.838 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-17 21:51:13.841 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 江西省赣州市南康区为民路133号
+03-17 21:51:13.841 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-17 21:51:13.841 D/MGWidget: updateWidgetSynchronously called for ID: 22
+03-17 21:51:14.025 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 546ms) ──────
+03-17 21:51:14.026 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-17 21:51:14.026 D/MG_NET_LOG: │ Method: POST
+03-17 21:51:14.026 D/MG_NET_LOG: │ Header: app-type: roewe
+03-17 21:51:14.026 D/MG_NET_LOG: │ Header: timestamp: 1773755473478
+03-17 21:51:14.026 D/MG_NET_LOG: │ Header: sign: PfO9rpKJYx7Y+yKauL7LFbTYpwinhH/Za7p9Jr4//ys=
+03-17 21:51:14.026 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6367SZ636235","appId":"Roewe","brandCode":"1","nonce":"33F4869F3B889167E36A5D4E475E751C","timestamp":"1773755473477","token":"ed42cfd6cf834da0ba479154b4b3676c-prod_SAIC"}
+03-17 21:51:14.026 D/MG_NET_LOG: ├────── Response Result ──────
+03-17 21:51:14.026 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cfc109eac2e21a180","data":{"vehicle_position":{"satellites":6,"altitude":145,"latitude":"25.659228","gps_status":3,"update_time":1773753961000,"gps_time":1773753976000,"hdop":21,"longitude":"114.775632"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":272,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":3,"driving_range":296,"battery_pack_range":69,"power_mode":0,"engine_status":0,"exterior_temperature":23,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":25,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":0,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":272,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":272,"battery_pack_prc":548,"interior_temperature_v":null,"steer_heat_failure_reason":0,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":0,"fuel_range":296,"current_journey_id":1346,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":134,"battery_alarm_value":[50,200,500],"update_time":1773753960000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":272,"vehicle_battery_prc":700,"battery_type":0,"fuel_level_disp":3,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":1023},"update_time":1773753960000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1773753960000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":fals
+03-17 21:51:14.026 D/MG_NET_LOG: │ Result(Part 2): e,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-17 21:51:14.026 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-17 21:51:14.033 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 江西省赣州市南康区为民路133号
+03-17 21:51:14.034 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-17 21:51:14.034 D/MGWidget: updateWidgetSynchronously called for ID: 22
+03-17 21:51:19.565 D/IslandWindowManager: 灵动岛已存在，无需重复添加
+03-17 21:51:19.569 D/BleProximity: 🔧 初始化 BleProximityManager
+03-17 21:51:19.569 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+03-17 21:51:19.569 D/BleProximity: 🛑 停止服务
+03-17 21:51:19.570 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_3_1773742269875 (剩余: 0)
+03-17 21:51:19.570 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+03-17 21:51:19.572 D/BleProximity: ⚠️ 强制断开连接（忽略活跃 Session）
+03-17 21:51:19.572 D/BleProximity: ✂️ 断开连接
+03-17 21:51:19.586 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 0)
+03-17 21:51:19.586 D/BleProximity: ➖ 移除监听器: callback_3_1773742269875 
+03-17 21:51:19.587 D/BleProximity: 🔄 引擎配置已热更新 | 落锁阈值:-87.0 | 解锁阈值:-81.0 | 趋势检测:true
+03-17 21:51:19.587 D/BleProximity: ➕ 添加监听器: callback_4_1773755479587 (总数: 1)
+03-17 21:51:19.587 D/BleProximity: ✅ 初始化完成 | 落锁阈值:-87.0 | 解锁阈值:-81.0 | 趋势检测:true
+03-17 21:51:19.587 D/BleProximity: 🚀 启动靠近解锁服务...
+03-17 21:51:19.587 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_4_1773755479587 (总数: 1)
+03-17 21:51:19.587 D/BleProximity: 🔍 开始连接
+03-17 21:51:19.587 D/BleProximity: 车辆 MAC 地址 C0:63:80:59:1F:50
+03-17 21:51:19.587 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+03-17 21:51:19.587 D/BleProximity: 📡 连接状态: CONNECTING
+03-17 21:51:19.589 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): C0:63:80:59:1F:50
+03-17 22:26:03.675 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-17 22:26:05.752 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 886ms) ──────
+03-17 22:26:05.753 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-17 22:26:05.754 D/MG_NET_LOG: │ Method: POST
+03-17 22:26:05.754 D/MG_NET_LOG: │ Header: app-type: roewe
+03-17 22:26:05.754 D/MG_NET_LOG: │ Header: timestamp: 1773757564863
+03-17 22:26:05.754 D/MG_NET_LOG: │ Header: sign: XBgUtR72p5F/xUzhsd6zb6ONzKj1HwQiZzjcmyuNKPQ=
+03-17 22:26:05.755 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6367SZ636235","appId":"Roewe","brandCode":"1","nonce":"4CC3034723381346667C46D99C070901","timestamp":"1773757563676","token":"ed42cfd6cf834da0ba479154b4b3676c-prod_SAIC"}
+03-17 22:26:05.755 D/MG_NET_LOG: ├────── Response Result ──────
+03-17 22:26:05.755 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cfc30896c74bf0c32","data":{"vehicle_position":{"satellites":6,"altitude":145,"latitude":"25.659228","gps_status":3,"update_time":1773753961000,"gps_time":1773753976000,"hdop":21,"longitude":"114.775632"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":272,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":3,"driving_range":296,"battery_pack_range":69,"power_mode":0,"engine_status":0,"exterior_temperature":23,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":25,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":0,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":272,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":272,"battery_pack_prc":548,"interior_temperature_v":null,"steer_heat_failure_reason":0,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":0,"fuel_range":296,"current_journey_id":1346,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":134,"battery_alarm_value":[50,200,500],"update_time":1773753960000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":272,"vehicle_battery_prc":700,"battery_type":0,"fuel_level_disp":3,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":1023},"update_time":1773753960000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1773753960000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":fals
+03-17 22:26:05.755 D/MG_NET_LOG: │ Result(Part 2): e,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-17 22:26:05.755 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-17 22:26:05.776 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 江西省赣州市南康区为民路133号
+03-17 22:26:05.777 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-17 22:26:05.777 D/MGWidget: updateWidgetSynchronously called for ID: 22
+03-17 22:34:14.169 D/MGWidget: onUpdate called for IDs: 22
+03-17 22:34:14.170 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-17 22:34:14.233 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-17 22:34:15.202 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 951ms) ──────
+03-17 22:34:15.203 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-17 22:34:15.203 D/MG_NET_LOG: │ Method: POST
+03-17 22:34:15.203 D/MG_NET_LOG: │ Header: app-type: roewe
+03-17 22:34:15.203 D/MG_NET_LOG: │ Header: timestamp: 1773758054244
+03-17 22:34:15.203 D/MG_NET_LOG: │ Header: sign: K0UYqXjvB4spwLyLkuZuYipfopzfs285+kWnjso7HhY=
+03-17 22:34:15.203 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6367SZ636235","appId":"Roewe","brandCode":"1","nonce":"5BA0EDC503C7E89AD8096F69623564AF","timestamp":"1773758054234","token":"ed42cfd6cf834da0ba479154b4b3676c-prod_SAIC"}
+03-17 22:34:15.204 D/MG_NET_LOG: ├────── Response Result ──────
+03-17 22:34:15.204 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cfc38016fbb68f14d","data":{"vehicle_position":{"satellites":6,"altitude":145,"gps_status":3,"latitude":"25.659228","update_time":1773753961000,"gps_time":1773753976000,"hdop":21,"longitude":"114.775632"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":272,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":3,"driving_range":296,"battery_pack_range":69,"power_mode":0,"engine_status":0,"exterior_temperature":23,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":25,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":0,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":272,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":272,"battery_pack_prc":548,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":0,"clstr_elec_rng_to_eptv":0,"fuel_range":296,"current_journey_id":1346,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":134,"battery_alarm_value":[50,200,500],"update_time":1773753960000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":272,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":700,"fuel_level_disp":3,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":1023,"localfront_left_seat_vent_level":null},"update_time":1773753960000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1773753960000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":fals
+03-17 22:34:15.204 D/MG_NET_LOG: │ Result(Part 2): e,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-17 22:34:15.204 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-17 22:34:15.211 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 江西省赣州市南康区为民路133号
+03-17 22:34:15.211 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-17 22:34:15.212 D/MGWidget: updateWidgetSynchronously called for ID: 22
+03-17 23:01:02.774 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-17 23:01:03.912 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1121ms) ──────
+03-17 23:01:03.913 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-17 23:01:03.913 D/MG_NET_LOG: │ Method: POST
+03-17 23:01:03.913 D/MG_NET_LOG: │ Header: app-type: roewe
+03-17 23:01:03.913 D/MG_NET_LOG: │ Header: timestamp: 1773759662787
+03-17 23:01:03.913 D/MG_NET_LOG: │ Header: sign: m5HRw7v8pai6uiOYh8czyG4pkspBhVO+CVYOoPnykPM=
+03-17 23:01:03.913 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6367SZ636235","appId":"Roewe","brandCode":"1","nonce":"5B1E6246E06DA51F875F765FDA9DE26C","timestamp":"1773759662785","token":"ed42cfd6cf834da0ba479154b4b3676c-prod_SAIC"}
+03-17 23:01:03.914 D/MG_NET_LOG: ├────── Response Result ──────
+03-17 23:01:03.914 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cfc508d4764fc2293","data":{"vehicle_position":{"satellites":6,"altitude":145,"gps_status":3,"latitude":"25.659228","update_time":1773753961000,"gps_time":1773753976000,"hdop":21,"longitude":"114.775632"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":272,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":3,"driving_range":296,"battery_pack_range":69,"power_mode":0,"engine_status":0,"exterior_temperature":23,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":25,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":0,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":272,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":272,"battery_pack_prc":548,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":0,"clstr_elec_rng_to_eptv":0,"fuel_range":296,"current_journey_id":1346,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":134,"battery_alarm_value":[50,200,500],"update_time":1773753960000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":272,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":700,"fuel_level_disp":3,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":1023,"localfront_left_seat_vent_level":null},"update_time":1773753960000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1773753960000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":fals
+03-17 23:01:03.914 D/MG_NET_LOG: │ Result(Part 2): e,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-17 23:01:03.914 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-17 23:01:03.931 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 江西省赣州市南康区为民路133号
+03-17 23:01:03.932 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-17 23:01:03.932 D/MGWidget: updateWidgetSynchronously called for ID: 22
+03-18 01:51:04.754 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-18 01:51:06.492 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1318ms) ──────
+03-18 01:51:06.493 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-18 01:51:06.493 D/MG_NET_LOG: │ Method: POST
+03-18 01:51:06.493 D/MG_NET_LOG: │ Header: app-type: roewe
+03-18 01:51:06.494 D/MG_NET_LOG: │ Header: timestamp: 1773769865169
+03-18 01:51:06.494 D/MG_NET_LOG: │ Header: sign: m7hEjgZQ38K/NI+a7q+4NK5O9g9J7KAXaET3QmZrzDo=
+03-18 01:51:06.494 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6367SZ636235","appId":"Roewe","brandCode":"1","nonce":"372EC90BF46DAFBD70437FA2EDA3E2E6","timestamp":"1773769864756","token":"ed42cfd6cf834da0ba479154b4b3676c-prod_SAIC"}
+03-18 01:51:06.494 D/MG_NET_LOG: ├────── Response Result ──────
+03-18 01:51:06.495 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cfcec394864c4a165","data":{"vehicle_position":{"satellites":6,"altitude":145,"gps_status":3,"latitude":"25.659228","update_time":1773753961000,"gps_time":1773753976000,"hdop":21,"longitude":"114.775632"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":272,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":3,"driving_range":296,"battery_pack_range":69,"power_mode":0,"engine_status":0,"exterior_temperature":23,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":25,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":0,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":272,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":272,"battery_pack_prc":548,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":0,"clstr_elec_rng_to_eptv":0,"fuel_range":296,"current_journey_id":1346,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":134,"battery_alarm_value":[50,200,500],"update_time":1773753960000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":272,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":700,"fuel_level_disp":3,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":1023,"localfront_left_seat_vent_level":null},"update_time":1773753960000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1773753960000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":fals
+03-18 01:51:06.495 D/MG_NET_LOG: │ Result(Part 2): e,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-18 01:51:06.495 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-18 01:51:06.512 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 江西省赣州市南康区为民路133号
+03-18 01:51:06.512 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-18 01:51:06.513 D/MGWidget: updateWidgetSynchronously called for ID: 22
+03-18 06:35:01.710 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-18 06:35:05.182 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1597ms) ──────
+03-18 06:35:05.183 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-18 06:35:05.184 D/MG_NET_LOG: │ Method: POST
+03-18 06:35:05.184 D/MG_NET_LOG: │ Header: app-type: roewe
+03-18 06:35:05.184 D/MG_NET_LOG: │ Header: timestamp: 1773786903581
+03-18 06:35:05.185 D/MG_NET_LOG: │ Header: sign: qbMj2rF4J/lKe2kD5qY++hAKn9mlJf03CO3Qt+NH+Ho=
+03-18 06:35:05.185 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6367SZ636235","appId":"Roewe","brandCode":"1","nonce":"3C4096C5035364A59F095A8D5B819CB6","timestamp":"1773786901727","token":"ed42cfd6cf834da0ba479154b4b3676c-prod_SAIC"}
+03-18 06:35:05.185 D/MG_NET_LOG: ├────── Response Result ──────
+03-18 06:35:05.185 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cfdf035c2aa63b2a","data":{"vehicle_position":{"satellites":6,"altitude":145,"gps_status":3,"latitude":"25.659228","update_time":1773753961000,"gps_time":1773753976000,"hdop":21,"longitude":"114.775632"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":272,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":3,"driving_range":296,"battery_pack_range":69,"power_mode":0,"engine_status":0,"exterior_temperature":23,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":25,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":0,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":272,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":272,"battery_pack_prc":548,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":0,"clstr_elec_rng_to_eptv":0,"fuel_range":296,"current_journey_id":1346,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":134,"battery_alarm_value":[50,200,500],"update_time":1773753960000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":272,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":700,"fuel_level_disp":3,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":1023,"localfront_left_seat_vent_level":null},"update_time":1773753960000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1773753960000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false
+03-18 06:35:05.186 D/MG_NET_LOG: │ Result(Part 2): ,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-18 06:35:05.186 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-18 06:35:05.194 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 江西省赣州市南康区为民路133号
+03-18 06:35:05.194 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-18 06:35:05.194 D/MGWidget: updateWidgetSynchronously called for ID: 22
+03-18 07:06:04.403 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-18 07:06:05.301 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 892ms) ──────
+03-18 07:06:05.302 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-18 07:06:05.303 D/MG_NET_LOG: │ Method: POST
+03-18 07:06:05.303 D/MG_NET_LOG: │ Header: app-type: roewe
+03-18 07:06:05.303 D/MG_NET_LOG: │ Header: timestamp: 1773788764405
+03-18 07:06:05.303 D/MG_NET_LOG: │ Header: sign: OpC30YkvkMKKRfImKMuGXGHLKA1+RZdJtRfAnyXq3ds=
+03-18 07:06:05.304 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6367SZ636235","appId":"Roewe","brandCode":"1","nonce":"E50349D3402673B3235B95823D54D42A","timestamp":"1773788764403","token":"ed42cfd6cf834da0ba479154b4b3676c-prod_SAIC"}
+03-18 07:06:05.304 D/MG_NET_LOG: ├────── Response Result ──────
+03-18 07:06:05.304 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cfe0c9a2dcf42bb8","data":{"vehicle_position":{"satellites":6,"altitude":145,"gps_status":3,"latitude":"25.659228","update_time":1773753961000,"gps_time":1773753976000,"hdop":21,"longitude":"114.775632"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":272,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":3,"driving_range":296,"battery_pack_range":69,"power_mode":0,"engine_status":0,"exterior_temperature":23,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":25,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":0,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":272,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":272,"battery_pack_prc":548,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":0,"clstr_elec_rng_to_eptv":0,"fuel_range":296,"current_journey_id":1346,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":134,"battery_alarm_value":[50,200,500],"update_time":1773753960000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":272,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":700,"fuel_level_disp":3,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":1023,"localfront_left_seat_vent_level":null},"update_time":1773753960000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1773753960000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false
+03-18 07:06:05.305 D/MG_NET_LOG: │ Result(Part 2): ,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-18 07:06:05.305 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-18 07:06:05.317 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 江西省赣州市南康区为民路133号
+03-18 07:06:05.318 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-18 07:06:05.318 D/MGWidget: updateWidgetSynchronously called for ID: 22
+03-18 07:29:32.025 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+03-18 07:29:32.028 D/BleProximity: ✅ 已连接，开始发现服务
+03-18 07:29:32.028 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+03-18 07:29:32.029 D/BleProximity: 📡 连接状态: CONNECTED
+03-18 07:29:33.076 D/BleProximity: ✅ 特征初始化完成
+03-18 07:29:33.101 D/BleProximity: MTU 生效: 96
+03-18 07:29:33.102 D/BleProximity: 🔐 开始认证流程
+03-18 07:29:33.103 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+03-18 07:29:33.104 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+03-18 07:29:33.106 D/BleProximity: 🔔 启用通知: d341, 结果: true
+03-18 07:29:33.107 D/BleProximity: 🔔 启用通知: 267e, 结果: true
+03-18 07:29:33.108 D/BleProximity: 🔔 启用通知: 71ed, 结果: true
+03-18 07:29:33.109 D/BleProximity: 🔔 启用通知: 23a8, 结果: true
+03-18 07:29:33.110 D/BleProximity: 🔔 启用通知: 8e2d, 结果: true
+03-18 07:29:33.111 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+03-18 07:29:33.112 D/BleProximity: 🔔 启用通知: 9d21, 结果: true
+03-18 07:29:33.138 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-18 07:29:33.159 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+03-18 07:29:33.212 D/BleProximity: 📤 准备发送Booking ID: 01A2DB80 (进入串行队列)
+03-18 07:29:33.223 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-18 07:29:33.243 D/BleManager: ⬇️ 底层执行: 开启通知: 267e
+03-18 07:29:33.285 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-18 07:29:33.305 D/BleManager: ⬇️ 底层执行: 开启通知: 71ed
+03-18 07:29:33.344 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-18 07:29:33.365 D/BleManager: ⬇️ 底层执行: 开启通知: 23a8
+03-18 07:29:33.409 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-18 07:29:33.430 D/BleManager: ⬇️ 底层执行: 开启通知: 8e2d
+03-18 07:29:33.525 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-18 07:29:33.546 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+03-18 07:29:33.615 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-18 07:29:33.636 D/BleManager: ⬇️ 底层执行: 开启通知: 9d21
+03-18 07:29:33.677 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-18 07:29:33.698 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+03-18 07:29:33.702 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+03-18 07:29:34.996 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 316263343530653564343035
+03-18 07:29:34.997 D/BleProximity: 🔐 处理认证挑战: 316263343530653564343035
+03-18 07:29:34.997 D/BleManager: ⬇️ 底层执行: 发送认证响应
+03-18 07:29:35.000 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+03-18 07:29:35.452 D/BleProximity: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3031
+03-18 07:29:35.452 D/BleProximity: ✅ 认证成功
+03-18 07:29:35.453 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 1, Session: 1)
+03-18 07:29:35.453 D/BleProximity: 📡 连接状态: AUTHENTICATED
+03-18 07:41:02.796 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-18 07:41:04.142 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 895ms) ──────
+03-18 07:41:04.143 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-18 07:41:04.143 D/MG_NET_LOG: │ Method: POST
+03-18 07:41:04.144 D/MG_NET_LOG: │ Header: app-type: roewe
+03-18 07:41:04.144 D/MG_NET_LOG: │ Header: timestamp: 1773790863244
+03-18 07:41:04.144 D/MG_NET_LOG: │ Header: sign: xnKnu/sxC/SJmzcqvwt+tIbXDycqrokdvvJF/ifjGYs=
+03-18 07:41:04.144 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6367SZ636235","appId":"Roewe","brandCode":"1","nonce":"D32BDEB05370ADF2CACA89246C8ACB7D","timestamp":"1773790862799","token":"ed42cfd6cf834da0ba479154b4b3676c-prod_SAIC"}
+03-18 07:41:04.145 D/MG_NET_LOG: ├────── Response Result ──────
+03-18 07:41:04.145 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cfe2ca0cf9cdeb881","data":{"vehicle_position":{"satellites":7,"altitude":145,"latitude":"25.680104","gps_status":3,"update_time":1773790192000,"gps_time":1773790856000,"hdop":12,"longitude":"114.777408"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":272,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":3,"driving_range":296,"battery_pack_range":69,"power_mode":0,"engine_status":0,"exterior_temperature":23,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":25,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":18143,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":272,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":272,"battery_pack_prc":548,"interior_temperature_v":null,"steer_heat_failure_reason":0,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":0,"fuel_range":296,"current_journey_id":1346,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":144,"battery_alarm_value":[50,200,500],"update_time":1773753960000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":272,"vehicle_battery_prc":700,"battery_type":0,"fuel_level_disp":3,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":1023},"update_time":1773790191000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1773753960000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":
+03-18 07:41:04.145 D/MG_NET_LOG: │ Result(Part 2): false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-18 07:41:04.146 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-18 07:41:04.518 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 江西省赣州市南康区文峰大道13号
+03-18 07:41:04.519 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-18 07:41:04.520 D/MGWidget: updateWidgetSynchronously called for ID: 22
+03-18 07:51:02.638 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:51:02.748 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:51:02.848 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:51:02.958 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:51:03.059 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:51:03.160 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:51:03.261 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-89)，但未检测到远离动作 (原地站立)
+03-18 07:51:03.362 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-89)，但未检测到远离动作 (原地站立)
+03-18 07:51:03.667 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-90)，但未检测到远离动作 (原地站立)
+03-18 07:51:03.879 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:51:04.000 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:51:04.093 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:51:04.195 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:51:04.299 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:51:04.402 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:51:04.505 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:51:04.607 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:51:04.710 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:51:04.814 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:51:04.918 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:51:05.021 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:51:05.126 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:51:05.231 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:51:05.335 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:51:05.436 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:51:05.541 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:51:05.646 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:51:05.749 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:51:05.852 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:51:05.949 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:51:06.053 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:51:06.156 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:51:06.259 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:51:06.362 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:51:06.465 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:51:06.572 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:51:06.676 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:51:06.778 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:51:06.883 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:51:06.987 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:51:07.090 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-90)，但未检测到远离动作 (原地站立)
+03-18 07:51:07.193 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-90)，但未检测到远离动作 (原地站立)
+03-18 07:51:07.297 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-89)，但未检测到远离动作 (原地站立)
+03-18 07:51:07.403 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:51:07.506 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:51:07.610 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:51:08.349 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:51:08.451 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:51:08.760 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:51:08.862 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:51:08.979 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:51:09.079 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:51:09.180 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:51:09.286 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:51:35.876 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-90)，但未检测到远离动作 (原地站立)
+03-18 07:51:36.082 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:51:36.183 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:51:36.389 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:51:36.494 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:51:36.702 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:51:37.022 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:51:37.126 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:51:37.234 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:51:37.336 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:51:37.443 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:51:37.546 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:51:37.650 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:51:37.755 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:51:37.858 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:51:37.963 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:51:38.066 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:51:38.171 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:51:38.275 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:51:38.379 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:51:38.483 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-90)，但未检测到远离动作 (原地站立)
+03-18 07:51:38.585 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-89)，但未检测到远离动作 (原地站立)
+03-18 07:51:38.689 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:51:38.792 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:51:43.351 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-89)，但未检测到远离动作 (原地站立)
+03-18 07:51:43.454 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-89)，但未检测到远离动作 (原地站立)
+03-18 07:51:43.558 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-89)，但未检测到远离动作 (原地站立)
+03-18 07:51:43.660 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:51:43.764 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:51:43.866 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:51:43.968 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:51:44.070 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:51:47.783 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:51:47.884 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:51:47.985 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:51:48.192 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:51:48.703 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-90)，但未检测到远离动作 (原地站立)
+03-18 07:51:48.806 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-89)，但未检测到远离动作 (原地站立)
+03-18 07:51:48.911 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:51:49.012 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:52:11.045 D/MGWidget: onUpdate called for IDs: 22
+03-18 07:52:11.047 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-18 07:52:11.129 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-18 07:52:12.040 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 906ms) ──────
+03-18 07:52:12.040 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-18 07:52:12.041 D/MG_NET_LOG: │ Method: POST
+03-18 07:52:12.041 D/MG_NET_LOG: │ Header: app-type: roewe
+03-18 07:52:12.041 D/MG_NET_LOG: │ Header: timestamp: 1773791531130
+03-18 07:52:12.041 D/MG_NET_LOG: │ Header: sign: VyOxRV3Em7bDmFnzARbWuZght6KpUVsSBTcXNtr6yWI=
+03-18 07:52:12.041 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6367SZ636235","appId":"Roewe","brandCode":"1","nonce":"034DBF0A23B73848B0E1209A55CD12AE","timestamp":"1773791531129","token":"ed42cfd6cf834da0ba479154b4b3676c-prod_SAIC"}
+03-18 07:52:12.041 D/MG_NET_LOG: ├────── Response Result ──────
+03-18 07:52:12.041 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cfe36d1a39f72d111","data":{"vehicle_position":{"satellites":7,"altitude":140,"latitude":"25.710362","gps_status":3,"update_time":1773790192000,"gps_time":1773791516000,"hdop":11,"longitude":"114.790672"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":272,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":3,"driving_range":296,"battery_pack_range":69,"power_mode":0,"engine_status":0,"exterior_temperature":23,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":25,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":18148,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":272,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":272,"battery_pack_prc":548,"interior_temperature_v":null,"steer_heat_failure_reason":0,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":0,"fuel_range":296,"current_journey_id":1346,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":144,"battery_alarm_value":[50,200,500],"update_time":1773753960000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":272,"vehicle_battery_prc":700,"battery_type":0,"fuel_level_disp":3,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":1023},"update_time":1773790191000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1773753960000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":
+03-18 07:52:12.041 D/MG_NET_LOG: │ Result(Part 2): false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-18 07:52:12.041 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-18 07:52:12.047 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 江西省赣州市南康区西二路7号
+03-18 07:52:12.048 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-18 07:52:12.048 D/MGWidget: updateWidgetSynchronously called for ID: 22
+03-18 07:52:16.720 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:52:16.821 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:52:17.127 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:17.229 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:17.331 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:17.434 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:17.538 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:17.641 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:17.743 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:52:27.617 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:52:27.719 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:52:27.822 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:52:27.922 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:52:28.025 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:52:28.128 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:52:28.231 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:28.333 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:28.435 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:28.535 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:28.638 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:28.736 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:28.839 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:28.942 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:29.043 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:29.146 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:29.251 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:29.351 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:29.454 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:29.555 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:29.658 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:29.759 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:29.863 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:29.965 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:30.065 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:30.167 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:52:30.269 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:52:30.370 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:52:31.781 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 90ms) ──────
+03-18 07:52:31.782 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+03-18 07:52:31.782 D/MG_NET_LOG: │ Method: POST
+03-18 07:52:31.784 D/MG_NET_LOG: │ Header: app-type: roewe
+03-18 07:52:31.784 D/MG_NET_LOG: │ Header: timestamp: 1773791551688
+03-18 07:52:31.784 D/MG_NET_LOG: │ Header: sign: 1HVRGjWvC+myO/IRy7jpZJbttZ+uYePo59TYs+3aqrQ=
+03-18 07:52:31.785 D/MG_NET_LOG: │ Params: data={"userId":"15100002156544","appId":"Roewe","brandCode":"1","nonce":"38857FE0B4B965D30ACE4CD34413EED3","timestamp":"1773791551688","token":"ed42cfd6cf834da0ba479154b4b3676c-prod_SAIC"}
+03-18 07:52:31.786 D/MG_NET_LOG: ├────── Response Result ──────
+03-18 07:52:31.786 D/MG_NET_LOG: │ Result: {"req_id":"19cfe3720f5e94f4dda","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":null,"secret_key":"0990175841327610","key_end_time":1776520920000,"key_start_time":1768744920000,"mobile":null,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":27450240,"owner_mobile":"18676146563","owner_name":null,"enable":true,"tbox_mac":"1F508059C063","aes_key":"8980230266633626","vin":"LSJWM6367SZ636235","status":3}]}}
+03-18 07:52:31.786 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-18 07:52:31.817 D/MGWidget: onUpdate called for IDs: 22
+03-18 07:52:31.817 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-18 07:52:31.821 D/BleProximity: 🔄 引擎配置已热更新 | 落锁阈值:-87.0 | 解锁阈值:-81.0 | 趋势检测:true
+03-18 07:52:31.822 D/IslandWindowManager: 灵动岛已存在，无需重复添加
+03-18 07:52:31.863 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-18 07:52:32.462 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 585ms) ──────
+03-18 07:52:32.462 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-18 07:52:32.462 D/MG_NET_LOG: │ Method: POST
+03-18 07:52:32.463 D/MG_NET_LOG: │ Header: app-type: roewe
+03-18 07:52:32.463 D/MG_NET_LOG: │ Header: timestamp: 1773791551873
+03-18 07:52:32.463 D/MG_NET_LOG: │ Header: sign: ryuy53ROrRTxgC+N1NzNGhBDF5a8uWb8N3YXnIxRTUU=
+03-18 07:52:32.463 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6367SZ636235","appId":"Roewe","brandCode":"1","nonce":"7404860623222AFEEF964BD1F28F47CF","timestamp":"1773791551872","token":"ed42cfd6cf834da0ba479154b4b3676c-prod_SAIC"}
+03-18 07:52:32.463 D/MG_NET_LOG: ├────── Response Result ──────
+03-18 07:52:32.463 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cfe3721a6b5027c25","data":{"vehicle_position":{"satellites":6,"altitude":140,"gps_status":3,"latitude":"25.710362","update_time":1773790192000,"gps_time":1773791546000,"hdop":11,"longitude":"114.790672"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":272,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":3,"driving_range":296,"battery_pack_range":69,"power_mode":0,"engine_status":0,"exterior_temperature":23,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":25,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":18148,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":272,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":272,"battery_pack_prc":548,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":0,"clstr_elec_rng_to_eptv":0,"fuel_range":296,"current_journey_id":1346,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":144,"battery_alarm_value":[50,200,500],"update_time":1773753960000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":272,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":700,"fuel_level_disp":3,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":1023,"localfront_left_seat_vent_level":null},"update_time":1773790191000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1773753960000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":
+03-18 07:52:32.464 D/MG_NET_LOG: │ Result(Part 2): false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-18 07:52:32.464 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-18 07:52:32.467 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 江西省赣州市南康区西二路7号
+03-18 07:52:32.467 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-18 07:52:32.468 D/MGWidget: updateWidgetSynchronously called for ID: 22
+03-18 07:52:35.272 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:52:35.374 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:52:35.477 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:35.579 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:35.679 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:52:35.788 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:35.900 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:36.011 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-87)，但未检测到远离动作 (原地站立)
+03-18 07:52:36.122 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:36.233 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:36.327 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:36.429 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:36.531 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-88)，但未检测到远离动作 (原地站立)
+03-18 07:52:36.633 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-89)，但未检测到远离动作 (原地站立)
+03-18 07:52:36.734 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-89)，但未检测到远离动作 (原地站立)
+03-18 07:52:36.838 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-89)，但未检测到远离动作 (原地站立)
+03-18 07:52:36.938 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-89)，但未检测到远离动作 (原地站立)
+03-18 07:52:37.041 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-89)，但未检测到远离动作 (原地站立)
+03-18 07:52:37.143 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-89)，但未检测到远离动作 (原地站立)
+03-18 07:52:37.245 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-89)，但未检测到远离动作 (原地站立)
+03-18 07:52:37.346 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-89)，但未检测到远离动作 (原地站立)
+03-18 07:52:37.448 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-89)，但未检测到远离动作 (原地站立)
+03-18 07:52:37.557 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-89)，但未检测到远离动作 (原地站立)
+03-18 07:52:37.652 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-90)，但未检测到远离动作 (原地站立)
+03-18 07:52:37.752 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-90)，但未检测到远离动作 (原地站立)
+03-18 07:52:37.852 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-90)，但未检测到远离动作 (原地站立)
+03-18 07:52:37.955 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-90)，但未检测到远离动作 (原地站立)
+03-18 07:52:38.070 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:38.166 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:38.267 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:38.473 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:38.574 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:38.677 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:38.778 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:38.878 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:38.978 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:39.080 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:39.183 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:39.287 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:39.385 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:39.489 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:39.591 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:39.693 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:39.796 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:39.898 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:40.000 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:40.101 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:40.204 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:40.304 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:40.407 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:40.510 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-90)，但未检测到远离动作 (原地站立)
+03-18 07:52:40.612 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-90)，但未检测到远离动作 (原地站立)
+03-18 07:52:40.714 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-90)，但未检测到远离动作 (原地站立)
+03-18 07:52:40.821 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-90)，但未检测到远离动作 (原地站立)
+03-18 07:52:40.921 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-90)，但未检测到远离动作 (原地站立)
+03-18 07:52:41.025 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-90)，但未检测到远离动作 (原地站立)
+03-18 07:52:41.128 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-90)，但未检测到远离动作 (原地站立)
+03-18 07:52:41.230 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-90)，但未检测到远离动作 (原地站立)
+03-18 07:52:41.333 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-90)，但未检测到远离动作 (原地站立)
+03-18 07:52:41.433 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-90)，但未检测到远离动作 (原地站立)
+03-18 07:52:41.536 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-90)，但未检测到远离动作 (原地站立)
+03-18 07:52:41.638 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:41.743 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:41.846 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:41.945 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:42.048 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:42.151 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:42.252 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:42.354 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:42.457 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:42.576 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:42.666 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:42.767 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:42.869 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:42.973 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:43.284 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:43.386 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:43.489 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:43.592 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:43.693 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:43.795 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:43.897 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:43.999 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:44.099 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:44.199 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:44.304 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:44.406 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:44.508 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:44.610 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:44.712 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:44.816 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:44.917 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:45.020 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:45.122 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:45.225 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:45.340 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:45.428 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:45.530 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:45.633 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:45.736 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:45.844 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:45.944 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:46.047 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:46.150 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:46.252 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:46.357 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:46.456 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:46.559 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:46.662 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:46.764 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:46.867 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:46.969 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:47.275 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:47.480 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:47.587 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:47.689 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:47.790 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:47.893 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:47.996 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:48.099 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:48.203 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:48.305 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:48.407 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:48.510 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:48.610 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:48.714 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:48.816 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:48.918 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:49.021 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:49.125 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:49.225 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:49.328 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:49.430 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:49.538 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:49.637 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:49.742 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:49.857 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:49.958 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:50.061 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:50.162 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:52:50.266 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:52:50.369 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:52:50.474 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:52:50.573 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:52:50.675 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:52:50.778 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:50.881 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:50.983 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:51.084 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:51.185 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:51.290 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:51.392 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:51.495 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:51.604 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:51.705 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:51.809 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:51.912 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:52.015 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:52.117 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:52.218 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:52.322 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:52.424 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:52.527 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:52.632 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:52.733 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:52.834 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:52.934 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:53.035 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:53.135 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:53.236 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:53.336 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:53.437 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:53.538 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:53.639 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:53.743 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:53.850 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:53.946 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:54.047 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:54.148 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:54.250 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:54.367 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:54.470 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:54.570 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:54.672 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:54.775 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:54.876 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:54.978 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:55.084 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:55.185 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:55.288 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:55.388 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:55.491 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:55.594 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:55.698 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:55.798 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:55.900 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:56.002 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:56.116 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:56.218 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:56.319 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:56.423 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:56.526 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:56.631 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:56.732 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:56.834 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:56.936 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-91)，但未检测到远离动作 (原地站立)
+03-18 07:52:57.040 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:57.142 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:57.243 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:57.350 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:57.452 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:52:57.554 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:57.657 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:57.757 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:58.065 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:58.167 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:58.269 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:58.380 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:58.481 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:58.583 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:58.684 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:58.788 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:58.891 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:58.991 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:59.093 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:59.195 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:59.298 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:59.401 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:52:59.501 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:59.605 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:59.708 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:59.824 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:52:59.934 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:00.045 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:00.156 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:00.251 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:00.355 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:00.457 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:00.559 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:00.662 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:00.762 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:00.865 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:01.068 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:01.168 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:01.271 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:01.373 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:01.475 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:01.578 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:01.681 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:01.784 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:01.885 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:01.986 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:02.090 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:02.192 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:02.295 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:02.405 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:02.508 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:02.615 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:02.716 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:02.817 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:02.920 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:03.021 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:03.124 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:03.225 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:03.328 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:03.431 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:03.533 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:03.636 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:03.739 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:03.841 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:03.943 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:04.047 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:04.148 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:04.159 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 149ms) ──────
+03-18 07:53:04.160 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+03-18 07:53:04.160 D/MG_NET_LOG: │ Method: POST
+03-18 07:53:04.160 D/MG_NET_LOG: │ Header: app-type: roewe
+03-18 07:53:04.160 D/MG_NET_LOG: │ Header: timestamp: 1773791584009
+03-18 07:53:04.160 D/MG_NET_LOG: │ Header: sign: FZR3rlf2HEMMKVEcm+5yjVixx0YRp0wsjmp8glGUh/Q=
+03-18 07:53:04.161 D/MG_NET_LOG: │ Params: data={"userId":"15100002156544","appId":"Roewe","brandCode":"1","nonce":"2643053235AFD568BB7A737B4BF3612F","timestamp":"1773791584008","token":"ed42cfd6cf834da0ba479154b4b3676c-prod_SAIC"}
+03-18 07:53:04.161 D/MG_NET_LOG: ├────── Response Result ──────
+03-18 07:53:04.161 D/MG_NET_LOG: │ Result: {"req_id":"19cfe379f42f779cd88","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":null,"secret_key":"0990175841327610","key_end_time":1776520920000,"key_start_time":1768744920000,"mobile":null,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":27450240,"owner_mobile":"18676146563","owner_name":null,"enable":true,"tbox_mac":"1F508059C063","aes_key":"8980230266633626","vin":"LSJWM6367SZ636235","status":3}]}}
+03-18 07:53:04.161 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-18 07:53:04.179 D/MGWidget: onUpdate called for IDs: 22
+03-18 07:53:04.180 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-18 07:53:04.180 D/BleProximity: 🔄 引擎配置已热更新 | 落锁阈值:-87.0 | 解锁阈值:-81.0 | 趋势检测:true
+03-18 07:53:04.181 D/IslandWindowManager: 灵动岛已存在，无需重复添加
+03-18 07:53:04.212 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-18 07:53:04.248 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:04.555 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:04.856 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:04.899 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 683ms) ──────
+03-18 07:53:04.899 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-18 07:53:04.899 D/MG_NET_LOG: │ Method: POST
+03-18 07:53:04.900 D/MG_NET_LOG: │ Header: app-type: roewe
+03-18 07:53:04.900 D/MG_NET_LOG: │ Header: timestamp: 1773791584214
+03-18 07:53:04.900 D/MG_NET_LOG: │ Header: sign: v+Xa6Dsgf2Q0uoJKXUCMfoJycllA7CgKbaWEEFYa4Xo=
+03-18 07:53:04.900 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6367SZ636235","appId":"Roewe","brandCode":"1","nonce":"9F0CE34645ECFC3D360E09F17E1C070E","timestamp":"1773791584213","token":"ed42cfd6cf834da0ba479154b4b3676c-prod_SAIC"}
+03-18 07:53:04.900 D/MG_NET_LOG: ├────── Response Result ──────
+03-18 07:53:04.900 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cfe37a001d961fbb9","data":{"vehicle_position":{"satellites":6,"altitude":140,"latitude":"25.710362","gps_status":3,"update_time":1773790192000,"gps_time":1773791576000,"hdop":11,"longitude":"114.790672"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":272,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":3,"driving_range":296,"battery_pack_range":69,"power_mode":0,"engine_status":0,"exterior_temperature":23,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":25,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":18148,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":272,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":272,"battery_pack_prc":548,"interior_temperature_v":null,"steer_heat_failure_reason":0,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":0,"fuel_range":296,"current_journey_id":1346,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":144,"battery_alarm_value":[50,200,500],"update_time":1773753960000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":272,"vehicle_battery_prc":700,"battery_type":0,"fuel_level_disp":3,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":1023},"update_time":1773790191000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1773753960000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":
+03-18 07:53:04.901 D/MG_NET_LOG: │ Result(Part 2): false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-18 07:53:04.901 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-18 07:53:04.906 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 江西省赣州市南康区西二路7号
+03-18 07:53:04.906 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-18 07:53:04.907 D/MGWidget: updateWidgetSynchronously called for ID: 22
+03-18 07:53:05.152 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:05.453 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:05.761 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:06.054 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:06.365 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:06.657 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:06.965 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:07.260 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:07.566 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:07.867 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:08.163 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:08.470 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:08.771 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:09.066 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:09.372 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:09.673 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:09.974 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:10.284 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:10.583 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:10.883 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:53:11.196 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:53:11.495 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:53:11.795 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:53:12.091 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:53:12.400 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:53:12.698 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:53:12.995 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:53:13.302 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:53:13.611 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:53:13.922 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:53:14.216 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:53:14.532 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:53:14.842 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:53:15.138 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:53:15.464 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-92)，但未检测到远离动作 (原地站立)
+03-18 07:53:15.763 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:16.055 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:16.374 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:16.996 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:17.283 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:17.917 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:18.203 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:18.516 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:18.819 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:19.128 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:19.449 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:19.735 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:20.037 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:20.353 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:20.664 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:20.977 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:21.272 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:21.580 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:21.880 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:22.196 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:22.501 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:22.801 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:23.097 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:23.400 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:23.710 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:24.312 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:24.614 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:24.918 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:25.220 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:25.530 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:25.828 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:26.147 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:26.457 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:26.757 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:27.054 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:27.364 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:27.659 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:27.968 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:28.277 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:28.574 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:28.888 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:29.180 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:29.490 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:29.792 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:30.088 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:30.397 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:30.701 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:31.002 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:31.302 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:31.606 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:31.908 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:32.210 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:32.520 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:32.824 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:33.121 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:53:33.424 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:33.731 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:34.032 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:34.332 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:34.634 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:34.943 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:35.240 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:35.549 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:35.852 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:36.149 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:36.457 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:36.759 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:37.057 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:37.362 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:37.662 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:37.967 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:38.579 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:38.874 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:39.176 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:39.485 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:39.788 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:40.082 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:40.392 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:40.695 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:40.994 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:41.295 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:41.605 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:41.908 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:42.202 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:42.510 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:42.815 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:43.113 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:43.422 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:43.724 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:44.026 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:44.336 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:44.639 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:44.935 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:45.235 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:45.544 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:45.846 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:53:46.141 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:46.449 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:46.751 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:47.054 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:47.350 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:47.655 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:47.957 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:48.257 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:48.566 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:48.870 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:49.166 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:49.341 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 235ms) ──────
+03-18 07:53:49.342 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+03-18 07:53:49.343 D/MG_NET_LOG: │ Method: POST
+03-18 07:53:49.343 D/MG_NET_LOG: │ Header: app-type: roewe
+03-18 07:53:49.343 D/MG_NET_LOG: │ Header: timestamp: 1773791629101
+03-18 07:53:49.343 D/MG_NET_LOG: │ Header: sign: zhVSgG2yY2UMgK9E0wg/SFOnn4gIqEto/fHQVHiipwY=
+03-18 07:53:49.344 D/MG_NET_LOG: │ Params: data={"userId":"15100002156544","appId":"Roewe","brandCode":"1","nonce":"B9A79E152030F9783A3DAB5DC4C6D720","timestamp":"1773791629097","token":"ed42cfd6cf834da0ba479154b4b3676c-prod_SAIC"}
+03-18 07:53:49.344 D/MG_NET_LOG: ├────── Response Result ──────
+03-18 07:53:49.344 D/MG_NET_LOG: │ Result: {"req_id":"19cfe384f67ab980a10","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":null,"secret_key":"0990175841327610","key_end_time":1776520920000,"key_start_time":1768744920000,"mobile":null,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":27450240,"owner_mobile":"18676146563","owner_name":null,"enable":true,"tbox_mac":"1F508059C063","aes_key":"8980230266633626","vin":"LSJWM6367SZ636235","status":3}]}}
+03-18 07:53:49.344 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-18 07:53:49.363 D/MGWidget: onUpdate called for IDs: 22
+03-18 07:53:49.363 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-18 07:53:49.364 D/BleProximity: 🔄 引擎配置已热更新 | 落锁阈值:-83.0 | 解锁阈值:-70.0 | 趋势检测:true
+03-18 07:53:49.365 D/IslandWindowManager: 灵动岛已存在，无需重复添加
+03-18 07:53:49.397 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-18 07:53:49.472 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:49.766 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:50.074 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:50.130 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 727ms) ──────
+03-18 07:53:50.130 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-18 07:53:50.131 D/MG_NET_LOG: │ Method: POST
+03-18 07:53:50.131 D/MG_NET_LOG: │ Header: app-type: roewe
+03-18 07:53:50.131 D/MG_NET_LOG: │ Header: timestamp: 1773791629399
+03-18 07:53:50.131 D/MG_NET_LOG: │ Header: sign: 6mFL0JDA7FyeHKQuNjcoIB70PcHMk/PWHi8BQdpv1As=
+03-18 07:53:50.132 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6367SZ636235","appId":"Roewe","brandCode":"1","nonce":"01A617F154BFD61AC1DD51D09F7F509C","timestamp":"1773791629397","token":"ed42cfd6cf834da0ba479154b4b3676c-prod_SAIC"}
+03-18 07:53:50.132 D/MG_NET_LOG: ├────── Response Result ──────
+03-18 07:53:50.132 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19cfe385084bcd4f94a","data":{"vehicle_position":{"satellites":6,"altitude":140,"gps_status":3,"latitude":"25.710364","update_time":1773790192000,"gps_time":1773791606000,"hdop":10,"longitude":"114.790672"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":272,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":3,"driving_range":296,"battery_pack_range":69,"power_mode":0,"engine_status":0,"exterior_temperature":23,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":25,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":18148,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":272,"charge_status":1009,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":3,"front_right_tyre_pressure":272,"battery_pack_prc":548,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":0,"clstr_elec_rng_to_eptv":0,"fuel_range":296,"current_journey_id":1346,"pwr_lftgt_pos_v":null,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":144,"battery_alarm_value":[50,200,500],"update_time":1773753960000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":272,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":700,"fuel_level_disp":3,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":1023,"localfront_left_seat_vent_level":null},"update_time":1773790191000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1773753960000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":
+03-18 07:53:50.133 D/MG_NET_LOG: │ Result(Part 2): false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-18 07:53:50.133 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-18 07:53:50.143 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 江西省赣州市南康区西二路7号
+03-18 07:53:50.143 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-18 07:53:50.144 D/MGWidget: updateWidgetSynchronously called for ID: 22
+03-18 07:53:50.378 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:50.680 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:50.977 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:51.278 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:51.581 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:51.881 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:52.180 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:52.483 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:52.796 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:53.096 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:53:53.392 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:53.701 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:54.004 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:54.299 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:54.602 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:54.910 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:55.206 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:55.513 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:55.812 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:56.113 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:56.417 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:56.727 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:57.024 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:53:57.326 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:53:57.635 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:53:57.938 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:53:59.751 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-98)，但未检测到远离动作 (原地站立)
+03-18 07:54:00.051 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-98)，但未检测到远离动作 (原地站立)
+03-18 07:54:00.353 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-97)，但未检测到远离动作 (原地站立)
+03-18 07:54:00.656 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-97)，但未检测到远离动作 (原地站立)
+03-18 07:54:00.966 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-97)，但未检测到远离动作 (原地站立)
+03-18 07:54:01.262 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-97)，但未检测到远离动作 (原地站立)
+03-18 07:54:01.565 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-98)，但未检测到远离动作 (原地站立)
+03-18 07:54:01.873 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-98)，但未检测到远离动作 (原地站立)
+03-18 07:54:02.169 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-97)，但未检测到远离动作 (原地站立)
+03-18 07:54:02.473 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-97)，但未检测到远离动作 (原地站立)
+03-18 07:54:02.775 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-97)，但未检测到远离动作 (原地站立)
+03-18 07:54:03.087 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:03.387 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:03.682 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:03.992 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:04.288 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:04.598 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:04.901 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:05.203 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:05.528 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:05.826 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:06.131 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:06.437 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:06.743 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:07.043 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:07.340 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:07.651 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:07.946 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:08.249 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:08.558 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:08.861 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:09.157 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:09.462 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:09.762 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:10.065 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:10.368 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:10.675 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:10.986 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:11.279 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:11.589 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:11.891 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:12.187 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:12.492 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:12.802 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:13.098 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:13.399 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:13.708 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:14.010 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:14.305 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:14.614 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:14.910 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:15.520 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:15.822 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:16.122 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:16.422 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:16.725 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:17.034 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:17.329 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:17.639 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:17.941 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:18.239 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:18.542 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:18.845 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:19.152 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:19.452 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:19.751 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:20.053 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:20.355 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:20.665 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:20.960 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:21.263 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:21.572 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:21.873 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:22.477 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:22.781 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:23.083 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:23.381 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:23.684 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:23.984 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:24.287 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:24.596 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:24.897 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:25.191 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:25.492 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:25.801 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:26.104 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:26.401 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:26.709 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:27.006 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:27.308 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:27.612 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:27.911 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:28.214 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:28.517 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:28.821 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:29.119 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:29.423 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:29.726 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:30.034 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:30.328 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:30.629 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:30.935 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:31.232 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:31.539 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:31.842 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:32.141 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:32.454 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:32.764 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:33.061 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:33.362 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:33.671 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:33.971 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:34.268 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:34.572 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:34.875 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:35.174 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:35.474 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:35.784 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:36.086 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:36.382 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:36.688 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:36.992 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:37.304 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:37.601 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:37.901 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:38.201 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:38.505 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:38.815 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:39.113 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:39.413 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:39.723 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:40.019 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:54:40.320 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:54:40.625 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:54:40.931 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:54:41.228 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:54:41.533 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:54:41.832 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:54:42.131 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:54:42.431 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:54:42.733 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-93)，但未检测到远离动作 (原地站立)
+03-18 07:54:43.034 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:43.335 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-94)，但未检测到远离动作 (原地站立)
+03-18 07:54:44.846 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:45.154 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:45.448 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:45.755 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:46.061 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:46.352 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:46.655 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:46.967 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:47.251 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:47.579 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-97)，但未检测到远离动作 (原地站立)
+03-18 07:54:47.859 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-97)，但未检测到远离动作 (原地站立)
+03-18 07:54:48.181 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-97)，但未检测到远离动作 (原地站立)
+03-18 07:54:48.494 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-97)，但未检测到远离动作 (原地站立)
+03-18 07:54:48.790 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-97)，但未检测到远离动作 (原地站立)
+03-18 07:54:49.061 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-97)，但未检测到远离动作 (原地站立)
+03-18 07:54:49.361 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-97)，但未检测到远离动作 (原地站立)
+03-18 07:54:49.661 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-97)，但未检测到远离动作 (原地站立)
+03-18 07:54:49.961 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-97)，但未检测到远离动作 (原地站立)
+03-18 07:54:50.261 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:50.562 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:50.863 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:51.165 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:51.463 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:51.774 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:52.073 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:52.369 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:52.674 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:52.978 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:53.271 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:53.579 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:53.879 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:54.181 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:54.477 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:54.783 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:55.080 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:55.383 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:55.692 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:55.991 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-95)，但未检测到远离动作 (原地站立)
+03-18 07:54:56.287 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:56.592 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:56.894 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:57.197 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:57.496 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:57.805 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-96)，但未检测到远离动作 (原地站立)
+03-18 07:54:58.106 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-97)，但未检测到远离动作 (原地站立)
+03-18 07:54:58.403 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-97)，但未检测到远离动作 (原地站立)
+03-18 07:54:58.709 D/BleProximity: 🛡️ [防抖拦截] 信号在上锁区(-97)，但未检测到远离动作 (原地站立)
