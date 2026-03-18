@@ -166,15 +166,6 @@ mg-linker/
 
 ```
 
-## 快速开始
-
-### 环境要求
-
-- Android Studio Hedgehog (2023.1.1) 或更高版本
-- Android SDK 34
-- Gradle 8.4+
-- JDK 11
-
 ## API接口说明
 
 应用通过以下接口获取车辆状态信息：
