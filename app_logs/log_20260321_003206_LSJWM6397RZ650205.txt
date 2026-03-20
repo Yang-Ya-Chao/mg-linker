@@ -1,0 +1,724 @@
+--- Log Capture Start: 20260321_003206 ---
+03-21 00:15:03.213 D/BleProximity: ⌛ 扫描周期结束(30s)，未发现设备
+03-21 00:15:03.215 D/BleProximity: ⏹️ 停止扫描
+03-21 00:15:03.222 D/BleProximity: 🔄 仍有活跃 Session，将在 32 秒后重新扫描...
+03-21 00:15:08.353 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 65ms) ──────
+03-21 00:15:08.354 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/randomCodeWithToken
+03-21 00:15:08.354 D/MG_NET_LOG: │ Method: POST
+03-21 00:15:08.354 D/MG_NET_LOG: │ Header: app-type: roewe
+03-21 00:15:08.355 D/MG_NET_LOG: │ Header: timestamp: 1774023308287
+03-21 00:15:08.356 D/MG_NET_LOG: │ Header: sign: g1Qfi3vM6tx0hCaVXEraDedSMs52rCH+s9mZW1P1kJk=
+03-21 00:15:08.357 D/MG_NET_LOG: │ Params: data={"token":"d8664c69fe484b4c9ceb3ca4ca69a336-prod_SAIC"}
+03-21 00:15:08.357 D/MG_NET_LOG: ├────── Response Result ──────
+03-21 00:15:08.357 D/MG_NET_LOG: │ Result: {"req_id":"19d0c0774a0cb2d7c75","data":{"rav_code":"TVNK43"}}
+03-21 00:15:08.358 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-21 00:15:08.451 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 88ms) ──────
+03-21 00:15:08.452 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.2/checkPINCode
+03-21 00:15:08.453 D/MG_NET_LOG: │ Method: POST
+03-21 00:15:08.453 D/MG_NET_LOG: │ Header: app-type: roewe
+03-21 00:15:08.454 D/MG_NET_LOG: │ Header: timestamp: 1774023308362
+03-21 00:15:08.454 D/MG_NET_LOG: │ Header: sign: NHraqsIKaBXdxY3WfdixlmI8EPuCc+i0UaqeLwuHOIc=
+03-21 00:15:08.455 D/MG_NET_LOG: │ Params: data={"pin":"1102afdaed8afdf35b558b487fc935601b77cf37","vin":"LSJWM6397RZ650205","nonce":"69A57E34A345ABBB10FCC59A291E7A75","timestamp":"1774023308359","token":"d8664c69fe484b4c9ceb3ca4ca69a336-prod_SAIC"}
+03-21 00:15:08.456 D/MG_NET_LOG: ├────── Response Result ──────
+03-21 00:15:08.457 D/MG_NET_LOG: │ Result: {"req_id":"19d0c0774ef7baf1545","data":{"isRight":"true","errorCode":null,"pvCode":"a2e0e41118cb6a9a43d27b8c958adc90","pinStatusList":[{"configStatus":-1,"configType":0,"userId":null,"deviceId":""},{"configStatus":-1,"configType":1,"userId":null,"deviceId":""}]}}
+03-21 00:15:08.458 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-21 00:15:08.564 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 98ms) ──────
+03-21 00:15:08.565 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.1/requestCloseWindow
+03-21 00:15:08.566 D/MG_NET_LOG: │ Method: POST
+03-21 00:15:08.566 D/MG_NET_LOG: │ Header: app-type: roewe
+03-21 00:15:08.567 D/MG_NET_LOG: │ Header: timestamp: 1774023308464
+03-21 00:15:08.567 D/MG_NET_LOG: │ Header: sign: xP0wR0MdjiSvrWQYbQyI25smQnaQ98IIZfnI48t_774
+03-21 00:15:08.568 D/MG_NET_LOG: │ Params: data={"auth_type":"2","appId":"Roewe","vin":"LSJWM6397RZ650205","nonce":"1B7F2AC13E12D652BA8C45DA29BB3BC3","brandCode":"1","timestamp":"1774023308462","token":"d8664c69fe484b4c9ceb3ca4ca69a336-prod_SAIC","auth_code":"a2e0e41118cb6a9a43d27b8c958adc90","target":"3","position":"null"}
+03-21 00:15:08.568 D/MG_NET_LOG: ├────── Response Result ──────
+03-21 00:15:08.569 D/MG_NET_LOG: │ Result: {"req_id":"19d0c077554648f6a17","data":{"command_id":325650244}}
+03-21 00:15:08.569 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-21 00:15:08.657 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 83ms) ──────
+03-21 00:15:08.657 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+03-21 00:15:08.658 D/MG_NET_LOG: │ Method: POST
+03-21 00:15:08.658 D/MG_NET_LOG: │ Header: app-type: roewe
+03-21 00:15:08.658 D/MG_NET_LOG: │ Header: timestamp: 1774023308572
+03-21 00:15:08.658 D/MG_NET_LOG: │ Header: sign: efp8TwH2FQn0lf8d0Pq6uCSA7NjGkY6MAQQJ_Dn1uWc
+03-21 00:15:08.659 D/MG_NET_LOG: │ Params: data={"command_id":"325650244","appId":"Roewe","vin":"LSJWM6397RZ650205","nonce":"1E0005A0C235DE7BB8CE7B7BEB302D8D","brandCode":"1","timestamp":"1774023308570","token":"d8664c69fe484b4c9ceb3ca4ca69a336-prod_SAIC"}
+03-21 00:15:08.659 D/MG_NET_LOG: ├────── Response Result ──────
+03-21 00:15:08.659 D/MG_NET_LOG: │ Result: {"req_id":"19d0c0775cbf92cb3db","data":{"command_result":0,"command_status":"99","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+03-21 00:15:08.659 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-21 00:15:11.737 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 71ms) ──────
+03-21 00:15:11.738 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+03-21 00:15:11.739 D/MG_NET_LOG: │ Method: POST
+03-21 00:15:11.739 D/MG_NET_LOG: │ Header: app-type: roewe
+03-21 00:15:11.740 D/MG_NET_LOG: │ Header: timestamp: 1774023311663
+03-21 00:15:11.740 D/MG_NET_LOG: │ Header: sign: M6D_-jexgP6vhuEfkrk9RBrljnoDUoeKvYQ4UD65znE
+03-21 00:15:11.741 D/MG_NET_LOG: │ Params: data={"command_id":"325650244","appId":"Roewe","vin":"LSJWM6397RZ650205","nonce":"9CD3150C1CDE493E33CA242A25C6BDC7","brandCode":"1","timestamp":"1774023311662","token":"d8664c69fe484b4c9ceb3ca4ca69a336-prod_SAIC"}
+03-21 00:15:11.742 D/MG_NET_LOG: ├────── Response Result ──────
+03-21 00:15:11.743 D/MG_NET_LOG: │ Result: {"req_id":"19d0c0781d0e3216486","data":{"command_result":0,"command_status":"01","command_result_switch":true,"failure_type":null,"failure_msg":null}}
+03-21 00:15:11.743 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-21 00:15:14.834 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 85ms) ──────
+03-21 00:15:14.836 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.0/getControlStatus
+03-21 00:15:14.836 D/MG_NET_LOG: │ Method: POST
+03-21 00:15:14.837 D/MG_NET_LOG: │ Header: app-type: roewe
+03-21 00:15:14.837 D/MG_NET_LOG: │ Header: timestamp: 1774023314748
+03-21 00:15:14.837 D/MG_NET_LOG: │ Header: sign: H4CuwIWmckTlKB7ZPnlgC9KkkapPoIyI-rdTjqPBzoM
+03-21 00:15:14.838 D/MG_NET_LOG: │ Params: data={"command_id":"325650244","appId":"Roewe","vin":"LSJWM6397RZ650205","nonce":"C1128FC766647A0C60D0A822D38C6A4C","brandCode":"1","timestamp":"1774023314747","token":"d8664c69fe484b4c9ceb3ca4ca69a336-prod_SAIC"}
+03-21 00:15:14.838 D/MG_NET_LOG: ├────── Response Result ──────
+03-21 00:15:14.838 D/MG_NET_LOG: │ Result: {"req_id":"19d0c078deb5361911c","data":{"command_result":2,"command_status":"03","command_result_switch":true,"failure_type":255,"failure_msg":"该远程指令无效"}}
+03-21 00:15:14.839 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-21 00:15:35.222 D/BleProximity: 🔍 开始扫描
+03-21 00:15:35.223 D/BleProximity: 🔍 开始扫描 (尝试次数: 5)
+03-21 00:15:35.755 D/BleProximity: 📱 发现设备: CC:B5:4C:2B:6C:74, RSSI: -91
+03-21 00:15:35.756 D/BleProximity: 📱 发现设备: CC:B5:4C:2B:6C:74, RSSI: -91
+03-21 00:15:35.761 D/BleProximity: ⏹️ 停止扫描
+03-21 00:15:35.765 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+03-21 00:15:35.765 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+03-21 00:15:35.918 D/BleProximity: 🔗 开始建立底层连接: CC:B5:4C:2B:6C:74
+03-21 00:15:36.884 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+03-21 00:15:36.885 D/BleProximity: ✅ 已连接，开始发现服务
+03-21 00:15:36.885 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+03-21 00:15:36.885 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+03-21 00:15:37.696 D/BleProximity: ⚠️ 车端不支持characteristicDeviceCharacterRead
+03-21 00:15:37.697 D/BleProximity: ⚠️ 车端不支持characteristicDeviceCharacterWrite
+03-21 00:15:37.698 D/BleProximity: ✅ 特征初始化完成
+03-21 00:15:37.724 D/BleProximity: MTU 生效: 65
+03-21 00:15:37.725 D/BleProximity: 🔐 开始认证流程
+03-21 00:15:37.727 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+03-21 00:15:37.731 D/BleProximity: 🔔 启用通知: 23a8, 结果: true
+03-21 00:15:37.734 D/BleProximity: 🔔 启用通知: 267e, 结果: true
+03-21 00:15:37.736 D/BleProximity: 🔔 启用通知: 71ed, 结果: true
+03-21 00:15:37.738 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+03-21 00:15:37.739 D/BleProximity: 🔔 启用通知: 9d21, 结果: true
+03-21 00:15:38.241 D/BleProximity: 📤 准备发送Booking ID: 01A7C92D (进入串行队列)
+03-21 00:15:38.330 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 643433306232643565363463
+03-21 00:15:38.332 D/BleProximity: 🔐 处理认证挑战: 643433306232643565363463
+03-21 00:15:38.425 D/BleProximity: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3031
+03-21 00:15:38.427 D/BleProximity: ✅ 认证成功
+03-21 00:15:38.428 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 1, Session: 1)
+03-21 00:15:38.429 D/BleProximity: 📡 连接状态: AUTHENTICATED (isConnected: true)
+03-21 00:15:38.447 D/BleProximity: 📶 RSSI: -78
+03-21 00:15:38.447 D/BleProximity: 📊 正在收集信号样本: 1/5
+03-21 00:15:38.753 D/BleProximity: 📶 RSSI: -77
+03-21 00:15:38.754 D/BleProximity: 📊 正在收集信号样本: 2/5
+03-21 00:15:39.056 D/BleProximity: 📶 RSSI: -76
+03-21 00:15:39.057 D/BleProximity: 📊 正在收集信号样本: 3/5
+03-21 00:15:39.359 D/BleProximity: 📶 RSSI: -75
+03-21 00:15:39.360 D/BleProximity: 📊 正在收集信号样本: 4/5
+03-21 00:15:39.663 D/BleProximity: 📶 RSSI: -75
+03-21 00:15:39.664 D/BleProximity: 🔓 >>> 触发解锁 <<<
+03-21 00:15:39.665 D/BleProximity: 原因: 信号均值(-76) > 阈值(-87.0) 
+03-21 00:15:39.666 D/BleProximity: 📤 发送指令: 解锁车门
+03-21 00:15:39.741 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 326637346130396339626163
+03-21 00:15:39.742 D/BleProximity: 🔐 处理认证挑战: 326637346130396339626163
+03-21 00:15:39.958 D/BleProximity: 📶 RSSI: -73
+03-21 00:15:40.266 D/BleProximity: 📶 RSSI: -72
+03-21 00:15:40.567 D/BleProximity: 📶 RSSI: -70
+03-21 00:15:40.873 D/BleProximity: 📶 RSSI: -71
+03-21 00:15:40.911 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+03-21 00:15:40.912 D/BleProximity: 解锁成功
+03-21 00:15:40.913 D/BleProximity: 📊 指令出队: 解锁车门 -> SUCCESS
+03-21 00:15:40.914 D/BleProximity: 🔓 解锁结果: SUCCESS
+03-21 00:15:40.914 D/BleProximity: 🔄 同步状态: 车辆已解锁
+03-21 00:15:40.920 D/BleProximity: 🔗 链式触发: 120秒打火
+03-21 00:15:41.178 D/BleProximity: 📶 RSSI: -73
+03-21 00:15:41.178 D/BleProximity: 📊 正在收集信号样本: 1/5
+03-21 00:15:41.422 D/BleProximity: 📤 发送指令: 120秒打火
+03-21 00:15:41.474 D/BleProximity: 📶 RSSI: -72
+03-21 00:15:41.475 D/BleProximity: 📊 正在收集信号样本: 2/5
+03-21 00:15:41.496 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 356331363137383037353563
+03-21 00:15:41.497 D/BleProximity: 🔐 处理认证挑战: 356331363137383037353563
+03-21 00:15:41.784 D/BleProximity: 📶 RSSI: -71
+03-21 00:15:41.785 D/BleProximity: 📊 正在收集信号样本: 3/5
+03-21 00:15:42.082 D/BleProximity: 📶 RSSI: -70
+03-21 00:15:42.083 D/BleProximity: 📊 正在收集信号样本: 4/5
+03-21 00:15:42.394 D/BleProximity: 📶 RSSI: -72
+03-21 00:15:42.698 D/BleProximity: 📶 RSSI: -72
+03-21 00:15:43.000 D/BleProximity: 📶 RSSI: -72
+03-21 00:15:43.306 D/BleProximity: 📶 RSSI: -68
+03-21 00:15:43.608 D/BleProximity: 📶 RSSI: -68
+03-21 00:15:43.915 D/BleProximity: 📶 RSSI: -70
+03-21 00:15:44.221 D/BleProximity: 📶 RSSI: -70
+03-21 00:15:44.427 D/BleProximity: ℹ️ 打火指令已发送（协议无成功返回值），默认视为成功
+03-21 00:15:44.429 D/BleProximity: 📊 指令出队: 120秒打火 -> SUCCESS
+03-21 00:15:44.534 D/BleProximity: 📶 RSSI: -70
+03-21 00:15:44.842 D/BleProximity: 📶 RSSI: -70
+03-21 00:15:45.135 D/BleProximity: 📶 RSSI: -70
+03-21 00:15:45.447 D/BleProximity: 📶 RSSI: -69
+03-21 00:15:45.750 D/BleProximity: 📶 RSSI: -67
+03-21 00:15:46.053 D/BleProximity: 📶 RSSI: -67
+03-21 00:15:46.358 D/BleProximity: 📶 RSSI: -66
+03-21 00:15:46.665 D/BleProximity: 📶 RSSI: -66
+03-21 00:15:46.965 D/BleProximity: 📶 RSSI: -65
+03-21 00:15:47.273 D/BleProximity: 📶 RSSI: -64
+03-21 00:15:47.577 D/BleProximity: 📶 RSSI: -64
+03-21 00:15:47.877 D/BleProximity: 📶 RSSI: -70
+03-21 00:15:48.185 D/BleProximity: 📶 RSSI: -77
+03-21 00:15:48.483 D/BleProximity: 📶 RSSI: -84
+03-21 00:15:48.785 D/BleProximity: 📶 RSSI: -87
+03-21 00:15:49.091 D/BleProximity: 📶 RSSI: -87
+03-21 00:15:49.393 D/BleProximity: 📶 RSSI: -88
+03-21 00:15:49.699 D/BleProximity: 📶 RSSI: -89
+03-21 00:15:49.998 D/BleProximity: 📶 RSSI: -90
+03-21 00:15:50.310 D/BleProximity: 📶 RSSI: -90
+03-21 00:15:50.617 D/BleProximity: 📶 RSSI: -88
+03-21 00:15:50.917 D/BleProximity: 📶 RSSI: -90
+03-21 00:15:51.222 D/BleProximity: 📶 RSSI: -91
+03-21 00:15:51.525 D/BleProximity: 📶 RSSI: -93
+03-21 00:15:51.826 D/BleProximity: 📶 RSSI: -93
+03-21 00:15:51.828 D/BleProximity: 🔒 <<< 触发上锁 <<<
+03-21 00:15:51.829 D/BleProximity: 原因: 信号均值(-91) < 阈值(-90.0) 
+03-21 00:15:51.830 D/BleProximity: 📤 发送指令: 锁车门
+03-21 00:15:51.919 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 346630633334343764376564
+03-21 00:15:51.921 D/BleProximity: 🔐 处理认证挑战: 346630633334343764376564
+03-21 00:15:52.137 D/BleProximity: 📶 RSSI: -93
+03-21 00:15:52.442 D/BleProximity: 📶 RSSI: -93
+03-21 00:15:52.747 D/BleProximity: 📶 RSSI: -94
+03-21 00:15:53.052 D/BleProximity: 📶 RSSI: -94
+03-21 00:15:53.208 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3032
+03-21 00:15:53.210 D/BleProximity: 上锁成功
+03-21 00:15:53.211 D/BleProximity: 📊 指令出队: 锁车门 -> SUCCESS
+03-21 00:15:53.213 D/BleProximity: 🔒 上锁结果: SUCCESS
+03-21 00:15:53.214 D/BleProximity: 🔄 同步状态: 车辆已上锁
+03-21 00:15:53.348 D/BleProximity: 📶 RSSI: -94
+03-21 00:15:53.349 D/BleProximity: 📊 正在收集信号样本: 1/5
+03-21 00:15:53.654 D/BleProximity: 📶 RSSI: -94
+03-21 00:15:53.655 D/BleProximity: 📊 正在收集信号样本: 2/5
+03-21 00:15:53.961 D/BleProximity: 📶 RSSI: -94
+03-21 00:15:53.963 D/BleProximity: 📊 正在收集信号样本: 3/5
+03-21 00:15:54.266 D/BleProximity: 📶 RSSI: -93
+03-21 00:15:54.267 D/BleProximity: 📊 正在收集信号样本: 4/5
+03-21 00:15:54.571 D/BleProximity: 📶 RSSI: -91
+03-21 00:15:54.875 D/BleProximity: 📶 RSSI: -88
+03-21 00:15:55.182 D/BleProximity: 📶 RSSI: -87
+03-21 00:15:55.485 D/BleProximity: 📶 RSSI: -86
+03-21 00:15:55.791 D/BleProximity: 📶 RSSI: -87
+03-21 00:15:56.106 D/BleProximity: 📶 RSSI: -88
+03-21 00:15:56.393 D/BleProximity: 📶 RSSI: -88
+03-21 00:15:56.696 D/BleProximity: 📶 RSSI: -84
+03-21 00:15:56.991 D/BleProximity: 📶 RSSI: -82
+03-21 00:15:57.296 D/BleProximity: 📶 RSSI: -83
+03-21 00:15:57.598 D/BleProximity: 📶 RSSI: -83
+03-21 00:15:57.908 D/BleProximity: 📶 RSSI: -83
+03-21 00:15:58.216 D/BleProximity: 📶 RSSI: -82
+03-21 00:15:58.517 D/BleProximity: 📶 RSSI: -80
+03-21 00:15:58.820 D/BleProximity: 📶 RSSI: -79
+03-21 00:15:59.122 D/BleProximity: 📶 RSSI: -81
+03-21 00:15:59.430 D/BleProximity: 📶 RSSI: -80
+03-21 00:15:59.734 D/BleProximity: 📶 RSSI: -78
+03-21 00:16:00.027 D/BleProximity: 📶 RSSI: -76
+03-21 00:16:00.338 D/BleProximity: 📶 RSSI: -75
+03-21 00:16:00.641 D/BleProximity: 📶 RSSI: -72
+03-21 00:16:00.943 D/BleProximity: 📶 RSSI: -70
+03-21 00:16:01.250 D/BleProximity: 📶 RSSI: -72
+03-21 00:16:01.552 D/BleProximity: 📶 RSSI: -73
+03-21 00:16:01.857 D/BleProximity: 📶 RSSI: -71
+03-21 00:16:02.162 D/BleProximity: 📶 RSSI: -71
+03-21 00:16:02.462 D/BleProximity: 📶 RSSI: -72
+03-21 00:16:02.774 D/BleProximity: 📶 RSSI: -69
+03-21 00:16:03.061 D/BleProximity: 📶 RSSI: -70
+03-21 00:16:03.374 D/BleProximity: 📶 RSSI: -67
+03-21 00:16:03.375 D/BleProximity: 🔓 >>> 触发解锁 <<<
+03-21 00:16:03.376 D/BleProximity: 原因: 信号均值(-69) > 阈值(-87.0) 
+03-21 00:16:03.377 D/BleProximity: 📤 发送指令: 解锁车门
+03-21 00:16:03.421 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 343130323530306533393764
+03-21 00:16:03.422 D/BleProximity: 🔐 处理认证挑战: 343130323530306533393764
+03-21 00:16:03.678 D/BleProximity: 📶 RSSI: -68
+03-21 00:16:03.985 D/BleProximity: 📶 RSSI: -68
+03-21 00:16:04.290 D/BleProximity: 📶 RSSI: -66
+03-21 00:16:04.549 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+03-21 00:16:04.551 D/BleProximity: 解锁成功
+03-21 00:16:04.552 D/BleProximity: 📊 指令出队: 解锁车门 -> SUCCESS
+03-21 00:16:04.552 D/BleProximity: 🔓 解锁结果: SUCCESS
+03-21 00:16:04.552 D/BleProximity: 🔄 同步状态: 车辆已解锁
+03-21 00:16:04.559 D/BleProximity: 🔗 链式触发: 120秒打火
+03-21 00:16:04.585 D/BleProximity: 📶 RSSI: -66
+03-21 00:16:04.586 D/BleProximity: 📊 正在收集信号样本: 1/5
+03-21 00:16:04.900 D/BleProximity: 📶 RSSI: -66
+03-21 00:16:04.901 D/BleProximity: 📊 正在收集信号样本: 2/5
+03-21 00:16:05.061 D/BleProximity: 📤 发送指令: 120秒打火
+03-21 00:16:05.102 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 396234363365643565656464
+03-21 00:16:05.103 D/BleProximity: 🔐 处理认证挑战: 396234363365643565656464
+03-21 00:16:05.203 D/BleProximity: 📶 RSSI: -64
+03-21 00:16:05.204 D/BleProximity: 📊 正在收集信号样本: 3/5
+03-21 00:16:05.507 D/BleProximity: 📶 RSSI: -63
+03-21 00:16:05.507 D/BleProximity: 📊 正在收集信号样本: 4/5
+03-21 00:16:05.810 D/BleProximity: 📶 RSSI: -62
+03-21 00:16:06.115 D/BleProximity: 📶 RSSI: -62
+03-21 00:16:06.429 D/BleProximity: 📶 RSSI: -63
+03-21 00:16:06.733 D/BleProximity: 📶 RSSI: -63
+03-21 00:16:07.031 D/BleProximity: 📶 RSSI: -67
+03-21 00:16:07.338 D/BleProximity: 📶 RSSI: -69
+03-21 00:16:07.645 D/BleProximity: 📶 RSSI: -70
+03-21 00:16:07.945 D/BleProximity: 📶 RSSI: -72
+03-21 00:16:08.066 D/BleProximity: ℹ️ 打火指令已发送（协议无成功返回值），默认视为成功
+03-21 00:16:08.068 D/BleProximity: 📊 指令出队: 120秒打火 -> SUCCESS
+03-21 00:16:08.249 D/BleProximity: 📶 RSSI: -75
+03-21 00:16:08.550 D/BleProximity: 📶 RSSI: -80
+03-21 00:16:08.858 D/BleProximity: 📶 RSSI: -84
+03-21 00:16:09.162 D/BleProximity: 📶 RSSI: -86
+03-21 00:16:09.463 D/BleProximity: 📶 RSSI: -86
+03-21 00:16:09.769 D/BleProximity: 📶 RSSI: -86
+03-21 00:16:10.068 D/BleProximity: 📶 RSSI: -88
+03-21 00:16:10.380 D/BleProximity: 📶 RSSI: -86
+03-21 00:16:10.683 D/BleProximity: 📶 RSSI: -89
+03-21 00:16:10.989 D/BleProximity: 📶 RSSI: -90
+03-21 00:16:11.294 D/BleProximity: 📶 RSSI: -90
+03-21 00:16:11.600 D/BleProximity: 📶 RSSI: -90
+03-21 00:16:11.902 D/BleProximity: 📶 RSSI: -92
+03-21 00:16:12.208 D/BleProximity: 📶 RSSI: -90
+03-21 00:16:12.513 D/BleProximity: 📶 RSSI: -90
+03-21 00:16:12.817 D/BleProximity: 📶 RSSI: -91
+03-21 00:16:13.117 D/BleProximity: 📶 RSSI: -92
+03-21 00:16:13.427 D/BleProximity: 📶 RSSI: -92
+03-21 00:16:13.733 D/BleProximity: 📶 RSSI: -93
+03-21 00:16:14.038 D/BleProximity: 📶 RSSI: -94
+03-21 00:16:14.342 D/BleProximity: 📶 RSSI: -94
+03-21 00:16:14.647 D/BleProximity: 📶 RSSI: -94
+03-21 00:16:14.649 D/BleProximity: 🔒 <<< 触发上锁 <<<
+03-21 00:16:14.651 D/BleProximity: 原因: 信号均值(-93) < 阈值(-90.0) 
+03-21 00:16:14.652 D/BleProximity: 📤 发送指令: 锁车门
+03-21 00:16:14.701 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 363039616533623937356265
+03-21 00:16:14.703 D/BleProximity: 🔐 处理认证挑战: 363039616533623937356265
+03-21 00:16:14.954 D/BleProximity: 📶 RSSI: -94
+03-21 00:16:15.256 D/BleProximity: 📶 RSSI: -94
+03-21 00:16:15.560 D/BleProximity: 📶 RSSI: -93
+03-21 00:16:15.860 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3032
+03-21 00:16:15.862 D/BleProximity: 上锁成功
+03-21 00:16:15.864 D/BleProximity: 📊 指令出队: 锁车门 -> SUCCESS
+03-21 00:16:15.865 D/BleProximity: 🔒 上锁结果: SUCCESS
+03-21 00:16:15.866 D/BleProximity: 🔄 同步状态: 车辆已上锁
+03-21 00:16:15.880 D/BleProximity: 📶 RSSI: -93
+03-21 00:16:15.881 D/BleProximity: 📊 正在收集信号样本: 1/5
+03-21 00:16:16.171 D/BleProximity: 📶 RSSI: -94
+03-21 00:16:16.172 D/BleProximity: 📊 正在收集信号样本: 2/5
+03-21 00:16:16.474 D/BleProximity: 📶 RSSI: -92
+03-21 00:16:16.475 D/BleProximity: 📊 正在收集信号样本: 3/5
+03-21 00:16:16.778 D/BleProximity: 📶 RSSI: -91
+03-21 00:16:16.780 D/BleProximity: 📊 正在收集信号样本: 4/5
+03-21 00:16:17.390 D/BleProximity: 📶 RSSI: -88
+03-21 00:16:17.695 D/BleProximity: 📶 RSSI: -87
+03-21 00:16:17.999 D/BleProximity: 📶 RSSI: -86
+03-21 00:16:18.299 D/BleProximity: 📶 RSSI: -84
+03-21 00:16:18.606 D/BleProximity: 📶 RSSI: -84
+03-21 00:16:18.914 D/BleProximity: 📶 RSSI: -81
+03-21 00:16:19.215 D/BleProximity: 📶 RSSI: -76
+03-21 00:16:19.513 D/BleProximity: 📶 RSSI: -75
+03-21 00:16:19.815 D/BleProximity: 📶 RSSI: -74
+03-21 00:16:20.115 D/BleProximity: 📶 RSSI: -72
+03-21 00:16:20.428 D/BleProximity: 📶 RSSI: -76
+03-21 00:16:20.733 D/BleProximity: 📶 RSSI: -79
+03-21 00:16:21.046 D/BleProximity: 📶 RSSI: -79
+03-21 00:16:21.349 D/BleProximity: 📶 RSSI: -76
+03-21 00:16:21.652 D/BleProximity: 📶 RSSI: -76
+03-21 00:16:21.958 D/BleProximity: 📶 RSSI: -76
+03-21 00:16:22.262 D/BleProximity: 📶 RSSI: -77
+03-21 00:16:22.569 D/BleProximity: 📶 RSSI: -77
+03-21 00:16:22.873 D/BleProximity: 📶 RSSI: -75
+03-21 00:16:23.176 D/BleProximity: 📶 RSSI: -77
+03-21 00:16:23.482 D/BleProximity: 📶 RSSI: -77
+03-21 00:16:23.789 D/BleProximity: 📶 RSSI: -79
+03-21 00:16:24.091 D/BleProximity: 📶 RSSI: -77
+03-21 00:16:24.395 D/BleProximity: 📶 RSSI: -75
+03-21 00:16:24.700 D/BleProximity: 📶 RSSI: -71
+03-21 00:16:25.000 D/BleProximity: 📶 RSSI: -71
+03-21 00:16:25.308 D/BleProximity: 📶 RSSI: -70
+03-21 00:16:25.613 D/BleProximity: 📶 RSSI: -68
+03-21 00:16:25.919 D/BleProximity: 📶 RSSI: -67
+03-21 00:16:25.921 D/BleProximity: 🔓 >>> 触发解锁 <<<
+03-21 00:16:25.922 D/BleProximity: 原因: 信号均值(-69) > 阈值(-87.0) 
+03-21 00:16:25.924 D/BleProximity: 📤 发送指令: 解锁车门
+03-21 00:16:25.966 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 353339303030383064373466
+03-21 00:16:25.968 D/BleProximity: 🔐 处理认证挑战: 353339303030383064373466
+03-21 00:16:26.221 D/BleProximity: 📶 RSSI: -66
+03-21 00:16:26.528 D/BleProximity: 📶 RSSI: -66
+03-21 00:16:26.832 D/BleProximity: 📶 RSSI: -66
+03-21 00:16:27.130 D/BleProximity: 📶 RSSI: -65
+03-21 00:16:27.198 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+03-21 00:16:27.201 D/BleProximity: 解锁成功
+03-21 00:16:27.203 D/BleProximity: 📊 指令出队: 解锁车门 -> SUCCESS
+03-21 00:16:27.205 D/BleProximity: 🔓 解锁结果: SUCCESS
+03-21 00:16:27.206 D/BleProximity: 🔄 同步状态: 车辆已解锁
+03-21 00:16:27.220 D/BleProximity: 🔗 链式触发: 120秒打火
+03-21 00:16:27.438 D/BleProximity: 📶 RSSI: -64
+03-21 00:16:27.439 D/BleProximity: 📊 正在收集信号样本: 1/5
+03-21 00:16:27.722 D/BleProximity: 📤 发送指令: 120秒打火
+03-21 00:16:27.740 D/BleProximity: 📶 RSSI: -63
+03-21 00:16:27.742 D/BleProximity: 📊 正在收集信号样本: 2/5
+03-21 00:16:27.767 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 616464346565343838626166
+03-21 00:16:27.769 D/BleProximity: 🔐 处理认证挑战: 616464346565343838626166
+03-21 00:16:28.051 D/BleProximity: 📶 RSSI: -59
+03-21 00:16:28.052 D/BleProximity: 📊 正在收集信号样本: 3/5
+03-21 00:16:28.355 D/BleProximity: 📶 RSSI: -58
+03-21 00:16:28.357 D/BleProximity: 📊 正在收集信号样本: 4/5
+03-21 00:16:28.661 D/BleProximity: 📶 RSSI: -62
+03-21 00:16:28.965 D/BleProximity: 📶 RSSI: -63
+03-21 00:16:29.268 D/BleProximity: 📶 RSSI: -66
+03-21 00:16:29.588 D/BleProximity: 📶 RSSI: -73
+03-21 00:16:29.879 D/BleProximity: 📶 RSSI: -76
+03-21 00:16:30.175 D/BleProximity: 📶 RSSI: -79
+03-21 00:16:30.482 D/BleProximity: 📶 RSSI: -81
+03-21 00:16:30.729 D/BleProximity: ℹ️ 打火指令已发送（协议无成功返回值），默认视为成功
+03-21 00:16:30.730 D/BleProximity: 📊 指令出队: 120秒打火 -> SUCCESS
+03-21 00:16:30.792 D/BleProximity: 📶 RSSI: -84
+03-21 00:16:31.089 D/BleProximity: 📶 RSSI: -84
+03-21 00:16:31.390 D/BleProximity: 📶 RSSI: -85
+03-21 00:16:31.692 D/BleProximity: 📶 RSSI: -87
+03-21 00:16:32.001 D/BleProximity: 📶 RSSI: -86
+03-21 00:16:32.308 D/BleProximity: 📶 RSSI: -86
+03-21 00:16:32.608 D/BleProximity: 📶 RSSI: -85
+03-21 00:16:32.925 D/BleProximity: 📶 RSSI: -87
+03-21 00:16:33.225 D/BleProximity: 📶 RSSI: -88
+03-21 00:16:33.524 D/BleProximity: 📶 RSSI: -91
+03-21 00:16:33.826 D/BleProximity: 📶 RSSI: -89
+03-21 00:24:27.971 D/BleProximity: ⌛ 扫描周期结束(30s)，未发现设备
+03-21 00:24:27.972 D/BleProximity: ⏹️ 停止扫描
+03-21 00:24:27.987 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+03-21 00:24:29.989 D/BleProximity: 🔍 开始扫描
+03-21 00:24:29.990 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+03-21 00:24:30.921 D/BleProximity: 📱 发现设备: CC:B5:4C:2B:6C:74, RSSI: -79
+03-21 00:24:30.921 D/BleProximity: 📱 发现设备: CC:B5:4C:2B:6C:74, RSSI: -79
+03-21 00:24:30.939 D/BleProximity: ⏹️ 停止扫描
+03-21 00:24:30.951 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+03-21 00:24:30.951 D/BleProximity: 📡 连接状态: CONNECTING (isConnected: false)
+03-21 00:24:31.117 D/BleProximity: 🔗 开始建立底层连接: CC:B5:4C:2B:6C:74
+03-21 00:24:32.051 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+03-21 00:24:32.052 D/BleProximity: ✅ 已连接，开始发现服务
+03-21 00:24:32.052 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+03-21 00:24:32.052 D/BleProximity: 📡 连接状态: CONNECTED (isConnected: false)
+03-21 00:24:32.886 D/BleProximity: ⚠️ 车端不支持characteristicDeviceCharacterRead
+03-21 00:24:32.887 D/BleProximity: ⚠️ 车端不支持characteristicDeviceCharacterWrite
+03-21 00:24:32.888 D/BleProximity: ✅ 特征初始化完成
+03-21 00:24:32.914 D/BleProximity: MTU 生效: 65
+03-21 00:24:32.915 D/BleProximity: 🔐 开始认证流程
+03-21 00:24:32.921 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+03-21 00:24:32.930 D/BleProximity: 🔔 启用通知: 23a8, 结果: true
+03-21 00:24:32.935 D/BleProximity: 🔔 启用通知: 267e, 结果: true
+03-21 00:24:32.941 D/BleProximity: 🔔 启用通知: 71ed, 结果: true
+03-21 00:24:32.946 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+03-21 00:24:32.954 D/BleProximity: 🔔 启用通知: 9d21, 结果: true
+03-21 00:24:33.456 D/BleProximity: 📤 准备发送Booking ID: 01A7C92D (进入串行队列)
+03-21 00:24:33.558 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 376663313436366333313430
+03-21 00:24:33.560 D/BleProximity: 🔐 处理认证挑战: 376663313436366333313430
+03-21 00:24:33.656 D/BleProximity: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3031
+03-21 00:24:33.658 D/BleProximity: ✅ 认证成功
+03-21 00:24:33.659 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 1, Session: 1)
+03-21 00:24:33.660 D/BleProximity: 📡 连接状态: AUTHENTICATED (isConnected: true)
+03-21 00:24:33.680 D/BleProximity: 📶 RSSI: -74
+03-21 00:24:33.681 D/BleProximity: 📊 正在收集信号样本: 1/5
+03-21 00:24:33.992 D/BleProximity: 📶 RSSI: -74
+03-21 00:24:33.994 D/BleProximity: 📊 正在收集信号样本: 2/5
+03-21 00:24:34.294 D/BleProximity: 📶 RSSI: -75
+03-21 00:24:34.296 D/BleProximity: 📊 正在收集信号样本: 3/5
+03-21 00:24:34.603 D/BleProximity: 📶 RSSI: -75
+03-21 00:24:34.604 D/BleProximity: 📊 正在收集信号样本: 4/5
+03-21 00:24:34.905 D/BleProximity: 📶 RSSI: -75
+03-21 00:24:34.907 D/BleProximity: 🔓 >>> 触发解锁 <<<
+03-21 00:24:34.907 D/BleProximity: 原因: 信号均值(-74) > 阈值(-87.0) 
+03-21 00:24:34.908 D/BleProximity: 📤 发送指令: 解锁车门
+03-21 00:24:34.973 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 646130353334333365366130
+03-21 00:24:34.976 D/BleProximity: 🔐 处理认证挑战: 646130353334333365366130
+03-21 00:24:35.208 D/BleProximity: 📶 RSSI: -75
+03-21 00:24:35.514 D/BleProximity: 📶 RSSI: -75
+03-21 00:24:35.822 D/BleProximity: 📶 RSSI: -75
+03-21 00:24:36.121 D/BleProximity: 📶 RSSI: -75
+03-21 00:24:36.243 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+03-21 00:24:36.245 D/BleProximity: 解锁成功
+03-21 00:24:36.246 D/BleProximity: 📊 指令出队: 解锁车门 -> SUCCESS
+03-21 00:24:36.248 D/BleProximity: 🔓 解锁结果: SUCCESS
+03-21 00:24:36.248 D/BleProximity: 🔄 同步状态: 车辆已解锁
+03-21 00:24:36.257 D/BleProximity: 🔗 链式触发: 120秒打火
+03-21 00:24:36.428 D/BleProximity: 📶 RSSI: -75
+03-21 00:24:36.429 D/BleProximity: 📊 正在收集信号样本: 1/5
+03-21 00:24:36.731 D/BleProximity: 📶 RSSI: -75
+03-21 00:24:36.733 D/BleProximity: 📊 正在收集信号样本: 2/5
+03-21 00:24:36.760 D/BleProximity: 📤 发送指令: 120秒打火
+03-21 00:24:36.825 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 333534393232666139613030
+03-21 00:24:36.827 D/BleProximity: 🔐 处理认证挑战: 333534393232666139613030
+03-21 00:24:37.039 D/BleProximity: 📶 RSSI: -76
+03-21 00:24:37.040 D/BleProximity: 📊 正在收集信号样本: 3/5
+03-21 00:24:37.344 D/BleProximity: 📶 RSSI: -77
+03-21 00:24:37.346 D/BleProximity: 📊 正在收集信号样本: 4/5
+03-21 00:24:37.646 D/BleProximity: 📶 RSSI: -78
+03-21 00:24:37.946 D/BleProximity: 📶 RSSI: -75
+03-21 00:24:38.252 D/BleProximity: 📶 RSSI: -70
+03-21 00:24:38.558 D/BleProximity: 📶 RSSI: -69
+03-21 00:24:38.864 D/BleProximity: 📶 RSSI: -69
+03-21 00:24:39.161 D/BleProximity: 📶 RSSI: -75
+03-21 00:24:39.469 D/BleProximity: 📶 RSSI: -77
+03-21 00:24:39.766 D/BleProximity: ℹ️ 打火指令已发送（协议无成功返回值），默认视为成功
+03-21 00:24:39.768 D/BleProximity: 📊 指令出队: 120秒打火 -> SUCCESS
+03-21 00:24:39.776 D/BleProximity: 📶 RSSI: -78
+03-21 00:24:40.083 D/BleProximity: 📶 RSSI: -80
+03-21 00:24:40.383 D/BleProximity: 📶 RSSI: -80
+03-21 00:24:40.688 D/BleProximity: 📶 RSSI: -83
+03-21 00:24:40.995 D/BleProximity: 📶 RSSI: -86
+03-21 00:24:41.299 D/BleProximity: 📶 RSSI: -79
+03-21 00:24:41.602 D/BleProximity: 📶 RSSI: -79
+03-21 00:24:41.905 D/BleProximity: 📶 RSSI: -83
+03-21 00:24:42.212 D/BleProximity: 📶 RSSI: -90
+03-21 00:24:42.516 D/BleProximity: 📶 RSSI: -91
+03-21 00:24:42.821 D/BleProximity: 📶 RSSI: -90
+03-21 00:24:43.131 D/BleProximity: 📶 RSSI: -91
+03-21 00:24:43.436 D/BleProximity: 📶 RSSI: -91
+03-21 00:24:43.735 D/BleProximity: 📶 RSSI: -91
+03-21 00:24:44.044 D/BleProximity: 📶 RSSI: -89
+03-21 00:24:44.348 D/BleProximity: 📶 RSSI: -89
+03-21 00:24:44.655 D/BleProximity: 📶 RSSI: -91
+03-21 00:24:44.960 D/BleProximity: 📶 RSSI: -89
+03-21 00:24:45.263 D/BleProximity: 📶 RSSI: -83
+03-21 00:24:45.565 D/BleProximity: 📶 RSSI: -80
+03-21 00:24:45.874 D/BleProximity: 📶 RSSI: -74
+03-21 00:24:46.171 D/BleProximity: 📶 RSSI: -77
+03-21 00:24:46.484 D/BleProximity: 📶 RSSI: -80
+03-21 00:24:46.788 D/BleProximity: 📶 RSSI: -80
+03-21 00:24:47.093 D/BleProximity: 📶 RSSI: -80
+03-21 00:24:47.395 D/BleProximity: 📶 RSSI: -76
+03-21 00:24:47.697 D/BleProximity: 📶 RSSI: -77
+03-21 00:24:48.004 D/BleProximity: 📶 RSSI: -76
+03-21 00:24:48.305 D/BleProximity: 📶 RSSI: -76
+03-21 00:24:48.612 D/BleProximity: 📶 RSSI: -78
+03-21 00:24:48.919 D/BleProximity: 📶 RSSI: -79
+03-21 00:24:49.217 D/BleProximity: 📶 RSSI: -79
+03-21 00:24:49.534 D/BleProximity: 📶 RSSI: -80
+03-21 00:24:49.831 D/BleProximity: 📶 RSSI: -79
+03-21 00:24:50.139 D/BleProximity: 📶 RSSI: -81
+03-21 00:24:50.443 D/BleProximity: 📶 RSSI: -80
+03-21 00:24:50.739 D/BleProximity: 📶 RSSI: -83
+03-21 00:24:51.040 D/BleProximity: 📶 RSSI: -85
+03-21 00:24:51.352 D/BleProximity: 📶 RSSI: -81
+03-21 00:24:51.660 D/BleProximity: 📶 RSSI: -83
+03-21 00:24:51.961 D/BleProximity: 📶 RSSI: -83
+03-21 00:24:52.257 D/BleProximity: 📶 RSSI: -80
+03-21 00:24:52.572 D/BleProximity: 📶 RSSI: -78
+03-21 00:24:52.870 D/BleProximity: 📶 RSSI: -75
+03-21 00:24:53.484 D/BleProximity: 📶 RSSI: -82
+03-21 00:24:53.788 D/BleProximity: 📶 RSSI: -82
+03-21 00:24:54.094 D/BleProximity: 📶 RSSI: -82
+03-21 00:24:54.397 D/BleProximity: 📶 RSSI: -80
+03-21 00:24:54.702 D/BleProximity: 📶 RSSI: -80
+03-21 00:24:55.009 D/BleProximity: 📶 RSSI: -84
+03-21 00:24:55.311 D/BleProximity: 📶 RSSI: -83
+03-21 00:24:55.620 D/BleProximity: 📶 RSSI: -84
+03-21 00:24:55.920 D/BleProximity: 📶 RSSI: -82
+03-21 00:24:56.217 D/BleProximity: 📶 RSSI: -83
+03-21 00:24:56.527 D/BleProximity: 📶 RSSI: -84
+03-21 00:24:56.833 D/BleProximity: 📶 RSSI: -84
+03-21 00:24:57.138 D/BleProximity: 📶 RSSI: -84
+03-21 00:24:57.447 D/BleProximity: 📶 RSSI: -79
+03-21 00:24:57.749 D/BleProximity: 📶 RSSI: -83
+03-21 00:24:58.053 D/BleProximity: 📶 RSSI: -83
+03-21 00:24:58.354 D/BleProximity: 📶 RSSI: -79
+03-21 00:24:58.659 D/BleProximity: 📶 RSSI: -77
+03-21 00:24:58.967 D/BleProximity: 📶 RSSI: -77
+03-21 00:24:59.260 D/BleProximity: 📶 RSSI: -74
+03-21 00:24:59.573 D/BleProximity: 📶 RSSI: -78
+03-21 00:24:59.876 D/BleProximity: 📶 RSSI: -80
+03-21 00:25:00.182 D/BleProximity: 📶 RSSI: -78
+03-21 00:25:00.485 D/BleProximity: 📶 RSSI: -77
+03-21 00:25:00.791 D/BleProximity: 📶 RSSI: -75
+03-21 00:25:01.099 D/BleProximity: 📶 RSSI: -74
+03-21 00:25:01.400 D/BleProximity: 📶 RSSI: -76
+03-21 00:25:01.704 D/BleProximity: 📶 RSSI: -76
+03-21 00:25:02.014 D/BleProximity: 📶 RSSI: -76
+03-21 00:25:02.321 D/BleProximity: 📶 RSSI: -77
+03-21 00:25:02.630 D/BleProximity: 📶 RSSI: -77
+03-21 00:25:02.931 D/BleProximity: 📶 RSSI: -78
+03-21 00:25:03.232 D/BleProximity: 📶 RSSI: -77
+03-21 00:25:03.543 D/BleProximity: 📶 RSSI: -75
+03-21 00:25:03.846 D/BleProximity: 📶 RSSI: -75
+03-21 00:25:04.151 D/BleProximity: 📶 RSSI: -77
+03-21 00:25:04.454 D/BleProximity: 📶 RSSI: -76
+03-21 00:25:04.761 D/BleProximity: 📶 RSSI: -76
+03-21 00:25:05.063 D/BleProximity: 📶 RSSI: -76
+03-21 00:25:05.370 D/BleProximity: 📶 RSSI: -76
+03-21 00:25:05.673 D/BleProximity: 📶 RSSI: -75
+03-21 00:25:05.982 D/BleProximity: 📶 RSSI: -75
+03-21 00:25:06.281 D/BleProximity: 📶 RSSI: -75
+03-21 00:25:06.589 D/BleProximity: 📶 RSSI: -76
+03-21 00:25:06.895 D/BleProximity: 📶 RSSI: -77
+03-21 00:25:07.202 D/BleProximity: 📶 RSSI: -76
+03-21 00:25:07.505 D/BleProximity: 📶 RSSI: -76
+03-21 00:25:07.809 D/BleProximity: 📶 RSSI: -77
+03-21 00:25:08.111 D/BleProximity: 📶 RSSI: -77
+03-21 00:25:08.418 D/BleProximity: 📶 RSSI: -77
+03-21 00:25:08.720 D/BleProximity: 📶 RSSI: -76
+03-21 00:25:09.027 D/BleProximity: 📶 RSSI: -74
+03-21 00:25:09.330 D/BleProximity: 📶 RSSI: -80
+03-21 00:25:09.636 D/BleProximity: 📶 RSSI: -82
+03-21 00:25:09.940 D/BleProximity: 📶 RSSI: -81
+03-21 00:25:10.245 D/BleProximity: 📶 RSSI: -81
+03-21 00:25:10.551 D/BleProximity: 📶 RSSI: -84
+03-21 00:25:10.855 D/BleProximity: 📶 RSSI: -84
+03-21 00:25:11.166 D/BleProximity: 📶 RSSI: -85
+03-21 00:25:11.464 D/BleProximity: 📶 RSSI: -87
+03-21 00:25:11.769 D/BleProximity: 📶 RSSI: -89
+03-21 00:25:12.076 D/BleProximity: 📶 RSSI: -88
+03-21 00:25:12.380 D/BleProximity: 📶 RSSI: -87
+03-21 00:25:12.685 D/BleProximity: 📶 RSSI: -87
+03-21 00:25:12.990 D/BleProximity: 📶 RSSI: -82
+03-21 00:25:13.285 D/BleProximity: 📶 RSSI: -80
+03-21 00:25:13.598 D/BleProximity: 📶 RSSI: -79
+03-21 00:25:13.899 D/BleProximity: 📶 RSSI: -82
+03-21 00:25:14.210 D/BleProximity: 📶 RSSI: -84
+03-21 00:25:14.516 D/BleProximity: 📶 RSSI: -86
+03-21 00:25:14.824 D/BleProximity: 📶 RSSI: -83
+03-21 00:25:15.125 D/BleProximity: 📶 RSSI: -86
+03-21 00:25:15.429 D/BleProximity: 📶 RSSI: -87
+03-21 00:25:15.739 D/BleProximity: 📶 RSSI: -89
+03-21 00:25:16.031 D/BleProximity: 📶 RSSI: -84
+03-21 00:25:16.246 D/BleProximity: 💤 屏幕关闭，保持默认退避策略
+03-21 00:25:16.327 D/BleProximity: 📶 RSSI: -85
+03-21 00:25:16.639 D/BleProximity: 📶 RSSI: -81
+03-21 00:25:16.945 D/BleProximity: 📶 RSSI: -80
+03-21 00:25:17.250 D/BleProximity: 📶 RSSI: -83
+03-21 00:25:17.557 D/BleProximity: 📶 RSSI: -81
+03-21 00:25:17.857 D/BleProximity: 📶 RSSI: -84
+03-21 00:25:18.166 D/BleProximity: 📶 RSSI: -78
+03-21 00:25:18.470 D/BleProximity: 📶 RSSI: -75
+03-21 00:25:18.775 D/BleProximity: 📶 RSSI: -76
+03-21 00:25:19.077 D/BleProximity: 📶 RSSI: -78
+03-21 00:25:19.384 D/BleProximity: 📶 RSSI: -78
+03-21 00:25:19.686 D/BleProximity: 📶 RSSI: -81
+03-21 00:25:19.992 D/BleProximity: 📶 RSSI: -86
+03-21 00:25:20.298 D/BleProximity: 📶 RSSI: -89
+03-21 00:25:20.604 D/BleProximity: 📶 RSSI: -91
+03-21 00:25:20.909 D/BleProximity: 📶 RSSI: -82
+03-21 00:25:21.215 D/BleProximity: 📶 RSSI: -77
+03-21 00:25:21.521 D/BleProximity: 📶 RSSI: -75
+03-21 00:25:21.825 D/BleProximity: 📶 RSSI: -78
+03-21 00:25:22.130 D/BleProximity: 📶 RSSI: -84
+03-21 00:25:22.437 D/BleProximity: 📶 RSSI: -88
+03-21 00:25:22.742 D/BleProximity: 📶 RSSI: -87
+03-21 00:25:23.038 D/BleProximity: 📶 RSSI: -80
+03-21 00:25:23.347 D/BleProximity: 📶 RSSI: -78
+03-21 00:25:23.644 D/BleProximity: 📶 RSSI: -78
+03-21 00:25:23.958 D/BleProximity: 📶 RSSI: -81
+03-21 00:25:24.257 D/BleProximity: 📶 RSSI: -84
+03-21 00:25:24.566 D/BleProximity: 📶 RSSI: -86
+03-21 00:25:24.866 D/BleProximity: 📶 RSSI: -87
+03-21 00:25:25.175 D/BleProximity: 📶 RSSI: -87
+03-21 00:25:25.484 D/BleProximity: 📶 RSSI: -82
+03-21 00:25:25.788 D/BleProximity: 📶 RSSI: -77
+03-21 00:25:26.094 D/BleProximity: 📶 RSSI: -74
+03-21 00:25:26.389 D/BleProximity: 📶 RSSI: -74
+03-21 00:25:26.708 D/BleProximity: 📶 RSSI: -73
+03-21 00:25:27.010 D/BleProximity: 📶 RSSI: -76
+03-21 00:25:27.317 D/BleProximity: 📶 RSSI: -76
+03-21 00:25:27.620 D/BleProximity: 📶 RSSI: -75
+03-21 00:25:27.925 D/BleProximity: 📶 RSSI: -80
+03-21 00:25:28.537 D/BleProximity: 📶 RSSI: -88
+03-21 00:25:28.842 D/BleProximity: 📶 RSSI: -90
+03-21 00:25:29.148 D/BleProximity: 📶 RSSI: -92
+03-21 00:25:29.451 D/BleProximity: 📶 RSSI: -90
+03-21 00:25:29.753 D/BleProximity: 📶 RSSI: -89
+03-21 00:25:30.048 D/BleProximity: 📶 RSSI: -87
+03-21 00:25:30.348 D/BleProximity: 📶 RSSI: -89
+03-21 00:25:30.653 D/BleProximity: 📶 RSSI: -91
+03-21 00:25:30.955 D/BleProximity: 📶 RSSI: -92
+03-21 00:25:31.264 D/BleProximity: 📶 RSSI: -94
+03-21 00:25:31.570 D/BleProximity: 📶 RSSI: -95
+03-21 00:25:31.572 D/BleProximity: 🔒 <<< 触发上锁 <<<
+03-21 00:25:31.573 D/BleProximity: 原因: 信号均值(-92) < 阈值(-90.0) 
+03-21 00:25:31.574 D/BleProximity: 📤 发送指令: 锁车门
+03-21 00:25:31.641 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 633337353339666261383234
+03-21 00:25:31.644 D/BleProximity: 🔐 处理认证挑战: 633337353339666261383234
+03-21 00:25:31.873 D/BleProximity: 📶 RSSI: -95
+03-21 00:25:32.179 D/BleProximity: 📶 RSSI: -96
+03-21 00:25:32.482 D/BleProximity: 📶 RSSI: -95
+03-21 00:25:32.791 D/BleProximity: 📶 RSSI: -96
+03-21 00:25:32.839 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3032
+03-21 00:25:32.841 D/BleProximity: 上锁成功
+03-21 00:25:32.841 D/BleProximity: 📊 指令出队: 锁车门 -> SUCCESS
+03-21 00:25:32.844 D/BleProximity: 🔒 上锁结果: SUCCESS
+03-21 00:25:32.844 D/BleProximity: 🔄 同步状态: 车辆已上锁
+03-21 00:25:33.107 D/BleProximity: 📶 RSSI: -96
+03-21 00:25:33.107 D/BleProximity: 📊 正在收集信号样本: 1/5
+03-21 00:25:33.960 D/BleProximity: 📶 RSSI: -96
+03-21 00:25:33.960 D/BleProximity: 📊 正在收集信号样本: 2/5
+03-21 00:25:34.266 D/BleProximity: 📶 RSSI: -96
+03-21 00:25:34.267 D/BleProximity: 📊 正在收集信号样本: 3/5
+03-21 00:25:34.569 D/BleProximity: 📶 RSSI: -95
+03-21 00:25:34.571 D/BleProximity: 📊 正在收集信号样本: 4/5
+03-21 00:25:34.875 D/BleProximity: 📶 RSSI: -94
+03-21 00:25:35.180 D/BleProximity: 📶 RSSI: -94
+03-21 00:25:35.487 D/BleProximity: 📶 RSSI: -95
+03-21 00:25:35.794 D/BleProximity: 📶 RSSI: -95
+03-21 00:25:36.099 D/BleProximity: 📶 RSSI: -94
+03-21 00:25:36.405 D/BleProximity: 📶 RSSI: -92
+03-21 00:25:36.704 D/BleProximity: 📶 RSSI: -93
+03-21 00:25:37.519 D/BleProximity: 📶 RSSI: -96
+03-21 00:25:37.830 D/BleProximity: 📶 RSSI: -95
+03-21 00:25:38.136 D/BleProximity: 📶 RSSI: -95
+03-21 00:25:38.437 D/BleProximity: 📶 RSSI: -94
+03-21 00:25:38.741 D/BleProximity: 📶 RSSI: -95
+03-21 00:25:39.049 D/BleProximity: 📶 RSSI: -96
+03-21 00:25:39.352 D/BleProximity: 📶 RSSI: -96
+03-21 00:25:43.298 D/BleProximity: 📶 RSSI: -99
+03-21 00:25:43.596 D/BleProximity: 📶 RSSI: -99
+03-21 00:25:43.910 D/BleProximity: 📶 RSSI: -99
+03-21 00:25:44.214 D/BleProximity: 📶 RSSI: -99
+03-21 00:25:44.824 D/BleProximity: 📶 RSSI: -99
+03-21 00:25:45.505 D/BleProximity: 📶 RSSI: -98
+03-21 00:25:45.607 D/BleProximity: 📶 RSSI: -98
+03-21 00:25:45.920 D/BleProximity: 📶 RSSI: -100
+03-21 00:25:46.223 D/BleProximity: 📶 RSSI: -99
+03-21 00:25:46.529 D/BleProximity: 📶 RSSI: -99
+03-21 00:25:46.830 D/BleProximity: 📶 RSSI: -99
+03-21 00:25:47.139 D/BleProximity: 📶 RSSI: -99
+03-21 00:25:47.447 D/BleProximity: 📶 RSSI: -99
+03-21 00:25:47.753 D/BleProximity: 📶 RSSI: -99
+03-21 00:25:48.059 D/BleProximity: 📶 RSSI: -100
+03-21 00:25:48.364 D/BleProximity: 📶 RSSI: -99
+03-21 00:25:48.667 D/BleProximity: 📶 RSSI: -99
+03-21 00:25:48.973 D/BleProximity: 📶 RSSI: -100
+03-21 00:25:49.281 D/BleProximity: 📶 RSSI: -100
+03-21 00:25:49.586 D/BleProximity: 📶 RSSI: -100
+03-21 00:25:49.889 D/BleProximity: 📶 RSSI: -101
+03-21 00:25:50.268 D/BleProximity: 📶 RSSI: -101
+03-21 00:25:50.501 D/BleProximity: 📶 RSSI: -101
+03-21 00:25:50.802 D/BleProximity: 📶 RSSI: -101
+03-21 00:25:51.109 D/BleProximity: 📶 RSSI: -101
+03-21 00:25:51.412 D/BleProximity: 📶 RSSI: -101
+03-21 00:25:51.716 D/BleProximity: 📶 RSSI: -101
+03-21 00:25:52.021 D/BleProximity: 📶 RSSI: -101
+03-21 00:25:52.324 D/BleProximity: 📶 RSSI: -101
+03-21 00:25:52.629 D/BleProximity: 📶 RSSI: -101
+03-21 00:25:52.941 D/BleProximity: 📶 RSSI: -101
+03-21 00:25:53.249 D/BleProximity: 📶 RSSI: -101
+03-21 00:25:53.547 D/BleProximity: 📶 RSSI: -101
+03-21 00:25:53.852 D/BleProximity: 📶 RSSI: -101
+03-21 00:25:54.160 D/BleProximity: 📶 RSSI: -101
+03-21 00:25:54.466 D/BleProximity: 📶 RSSI: -101
+03-21 00:25:54.774 D/BleProximity: 📶 RSSI: -101
+03-21 00:25:57.296 D/BleProximity: 📶 RSSI: -100
+03-21 00:25:57.606 D/BleProximity: 📶 RSSI: -100
+03-21 00:25:57.908 D/BleProximity: 📶 RSSI: -100
+03-21 00:25:58.209 D/BleProximity: 📶 RSSI: -100
+03-21 00:25:58.514 D/BleProximity: 📶 RSSI: -100
+03-21 00:25:58.813 D/BleProximity: 📶 RSSI: -100
+03-21 00:25:59.123 D/BleProximity: 📶 RSSI: -100
+03-21 00:25:59.425 D/BleProximity: 📶 RSSI: -100
+03-21 00:25:59.730 D/BleProximity: 📶 RSSI: -100
+03-21 00:26:00.036 D/BleProximity: 📶 RSSI: -100
+03-21 00:26:00.315 D/BleProximity: ⚙️ 底层状态反馈: status=8, newState=0
+03-21 00:26:00.316 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 8)
+03-21 00:26:00.320 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+03-21 00:26:00.320 D/BleProximity: 📡 连接状态: DISCONNECTED (isConnected: false)
+03-21 00:26:00.325 D/BleProximity: ⚠️ 检测到断连，Session 将自动重连
+03-21 00:26:00.326 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+03-21 00:26:02.327 D/BleProximity: 🔍 开始扫描
+03-21 00:26:02.328 D/BleProximity: 🔍 开始扫描 (尝试次数: 1)
+03-21 00:28:34.704 D/BleProximity: ⌛ 扫描周期结束(30s)，未发现设备
+03-21 00:28:34.704 D/BleProximity: ⏹️ 停止扫描
+03-21 00:28:34.707 D/BleProximity: 🔄 仍有活跃 Session，将在 4 秒后重新扫描...
+03-21 00:28:34.865 D/BleProximity: 💡 检测到屏幕点亮/解锁，立即激活扫描！
+03-21 00:28:34.868 D/BleProximity: ⚡ 触发高优先级扫描 (屏幕点亮/解锁)
+03-21 00:28:34.871 D/BleProximity: 🔍 开始扫描
+03-21 00:28:34.871 D/BleProximity: 🔍 开始扫描 (尝试次数: 0)
+03-21 00:28:36.578 D/BleProximity: 💤 屏幕关闭，保持默认退避策略
+03-21 00:31:53.392 D/BleProximity: ⌛ 扫描周期结束(30s)，未发现设备
+03-21 00:31:53.393 D/BleProximity: ⏹️ 停止扫描
+03-21 00:31:53.404 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新扫描...
+03-21 00:31:53.504 D/BleProximity: 💡 检测到屏幕点亮/解锁，立即激活扫描！
+03-21 00:31:53.505 D/BleProximity: ⚡ 触发高优先级扫描 (屏幕点亮/解锁)
+03-21 00:31:53.505 D/BleProximity: 🔍 开始扫描
+03-21 00:31:53.505 D/BleProximity: 🔍 开始扫描 (尝试次数: 0)
+03-21 00:31:55.339 D/BleProximity: 💤 屏幕关闭，保持默认退避策略
+03-21 00:32:01.464 D/BleProximity: 💡 检测到屏幕点亮/解锁，立即激活扫描！
+03-21 00:32:01.465 D/BleProximity: ⚡ 触发高优先级扫描 (屏幕点亮/解锁)
