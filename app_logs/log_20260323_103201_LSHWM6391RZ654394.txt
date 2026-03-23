@@ -1,0 +1,52 @@
+--- Log Capture Start: 20260323_103201 ---
+03-23 10:31:01.479 D/MGWidget: onUpdate called for IDs: 16
+03-23 10:31:01.480 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-23 10:31:01.510 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-23 10:31:01.601 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 87ms) ──────
+03-23 10:31:01.602 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-23 10:31:01.602 D/MG_NET_LOG: │ Method: POST
+03-23 10:31:01.603 D/MG_NET_LOG: │ Header: app-type: roewe
+03-23 10:31:01.603 D/MG_NET_LOG: │ Header: timestamp: 1774233061511
+03-23 10:31:01.603 D/MG_NET_LOG: │ Header: sign: blTk/ixKymxd3jTdOn9b9hPX48Qw3NB8rM+zpzmXSFg=
+03-23 10:31:01.603 D/MG_NET_LOG: │ Params: data={"vin":"LSHWM6391RZ654394","appId":"Roewe","brandCode":"1","nonce":"8C7D28D587EE1FBCD1BB6CEDC6ECE306","timestamp":"1774233061510","token":"6a5fe80cbe8d4fd29e2a49034ef5f8a2-prod_SAIC"}
+03-23 10:31:01.604 D/MG_NET_LOG: ├────── Response Result ──────
+03-23 10:31:01.604 D/MG_NET_LOG: │ Result: {"req_id":"19d18880acf36245971","err_resp":{"msg":"请求失败，请重试","code":"14106","desc":"请求失败，请重试"}}
+03-23 10:31:01.604 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-23 10:31:01.604 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: null
+03-23 10:31:01.605 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-23 10:31:01.605 D/MGWidget: updateWidgetSynchronously called for ID: 16
+03-23 10:31:02.282 D/MGWidget: onReceive called with action: ACTION_BLUEBOOTH
+03-23 10:31:02.290 E/BleUnlockWorker: 未预期的异常: 蓝牙配置信息不完整，请先在主页设置。
+java.lang.IllegalStateException: 蓝牙配置信息不完整，请先在主页设置。
+	at N2.A.a(r8-map-id-a96d98e6755deea1de01804cf7b23295431dcc63888abe3a4820d7129c8496ab:401)
+	at N2.o.a(r8-map-id-a96d98e6755deea1de01804cf7b23295431dcc63888abe3a4820d7129c8496ab:117)
+	at com.my.mg.worker.BleUnlockWorker$doWork$2.invokeSuspend(r8-map-id-a96d98e6755deea1de01804cf7b23295431dcc63888abe3a4820d7129c8496ab:59)
+	at l3.a.resumeWith(r8-map-id-a96d98e6755deea1de01804cf7b23295431dcc63888abe3a4820d7129c8496ab:9)
+	at kotlinx.coroutines.DispatchedTask.run(r8-map-id-a96d98e6755deea1de01804cf7b23295431dcc63888abe3a4820d7129c8496ab:113)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(r8-map-id-a96d98e6755deea1de01804cf7b23295431dcc63888abe3a4820d7129c8496ab:4)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(r8-map-id-a96d98e6755deea1de01804cf7b23295431dcc63888abe3a4820d7129c8496ab:3)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(r8-map-id-a96d98e6755deea1de01804cf7b23295431dcc63888abe3a4820d7129c8496ab:1)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(r8-map-id-a96d98e6755deea1de01804cf7b23295431dcc63888abe3a4820d7129c8496ab:15)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(r8-map-id-a96d98e6755deea1de01804cf7b23295431dcc63888abe3a4820d7129c8496ab:29)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(r8-map-id-a96d98e6755deea1de01804cf7b23295431dcc63888abe3a4820d7129c8496ab:1)
+
+03-23 10:31:02.292 D/BleUnlockWorker: 清理资源
+03-23 10:31:25.277 D/MGWidget: onUpdate called for IDs: 16
+03-23 10:31:25.278 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-23 10:31:25.303 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-23 10:31:25.459 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 95ms) ──────
+03-23 10:31:25.459 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-23 10:31:25.459 D/MG_NET_LOG: │ Method: POST
+03-23 10:31:25.459 D/MG_NET_LOG: │ Header: app-type: roewe
+03-23 10:31:25.459 D/MG_NET_LOG: │ Header: timestamp: 1774233085363
+03-23 10:31:25.459 D/MG_NET_LOG: │ Header: sign: HupjRg/tgbAONqBY/CNdAoWp7TxFUfH+FhF3JZmGxME=
+03-23 10:31:25.459 D/MG_NET_LOG: │ Params: data={"vin":"LSHWM6391RZ654394","appId":"Roewe","brandCode":"1","nonce":"0B559B7655D46B76F6CB38152490E9C9","timestamp":"1774233085323","token":"6a5fe80cbe8d4fd29e2a49034ef5f8a2-prod_SAIC"}
+03-23 10:31:25.459 D/MG_NET_LOG: ├────── Response Result ──────
+03-23 10:31:25.460 D/MG_NET_LOG: │ Result: {"req_id":"19d188867f5dcc45a38","err_resp":{"msg":"请求失败，请重试","code":"14106","desc":"请求失败，请重试"}}
+03-23 10:31:25.460 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-23 10:31:25.460 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: null
+03-23 10:31:25.460 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-23 10:31:25.460 D/MGWidget: updateWidgetSynchronously called for ID: 16
+03-23 10:31:27.057 D/MGWidget: onReceive called with action: ACTION_BLUEBOOTH_ON
+03-23 10:31:27.085 D/IslandWindowManager: 灵动岛成功注入 WindowManager
+03-23 10:31:27.115 D/IslandWindowManager: 灵动岛已从 WindowManager 移除
