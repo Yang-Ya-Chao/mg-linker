@@ -1,0 +1,1001 @@
+--- Log Capture Start: 20260323_194756 ---
+03-23 15:54:48.100 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:54:48.303 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:48.503 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:54:48.708 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:48.910 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:54:49.116 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:49.319 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:54:49.522 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:49.723 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:54:49.927 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:50.129 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:54:50.333 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:50.538 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:54:50.738 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:50.943 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:54:51.142 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:51.347 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:54:51.548 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:51.750 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:54:51.952 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:52.155 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:54:52.356 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:52.558 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:54:52.762 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:52.966 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:54:53.172 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:53.376 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:54:53.578 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:53.782 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:54:53.986 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:54.190 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:54:54.426 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:54.611 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:54:54.806 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:55.009 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:54:55.219 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:55.427 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:54:55.631 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:55.839 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:54:56.039 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:56.242 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:54:56.458 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:56.650 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:54:56.852 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:57.054 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:54:57.256 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:57.467 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:54:57.670 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:57.869 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:54:58.071 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:59.511 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:54:59.925 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:55:00.128 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:55:00.333 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:55:00.537 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:55:00.754 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:55:00.957 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:55:01.160 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:55:01.366 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:55:01.571 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:55:01.775 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:55:01.981 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:55:02.185 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:55:02.388 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 15:55:02.593 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 15:55:02.800 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:27:32.339 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 292ms) ──────
+03-23 17:27:32.340 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+03-23 17:27:32.340 D/MG_NET_LOG: │ Method: POST
+03-23 17:27:32.340 D/MG_NET_LOG: │ Header: app-type: roewe
+03-23 17:27:32.340 D/MG_NET_LOG: │ Header: timestamp: 1774258052046
+03-23 17:27:32.341 D/MG_NET_LOG: │ Header: sign: 7lXqx13carEzdy0vPzyUTlzyQldDjcpxIXwG4DVy/A4=
+03-23 17:27:32.341 D/MG_NET_LOG: │ Params: data={"userId":"10000003696875","appId":"Roewe","brandCode":"1","nonce":"E9D7DDC79B2D91163CB41A25C68E5BB3","timestamp":"1774258052043","token":"dd9f4a2ec7ed46088dc3961f75a74860-prod_SAIC"}
+03-23 17:27:32.341 D/MG_NET_LOG: ├────── Response Result ──────
+03-23 17:27:32.341 D/MG_NET_LOG: │ Result: {"req_id":"19d1a055b6d30b8c4f1","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":"沪AGU6666","secret_key":"5407344050509467","key_end_time":1775426861000,"key_start_time":1767650861000,"mobile":null,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":27304601,"owner_mobile":"13916367370","owner_name":null,"enable":true,"tbox_mac":"2FD7A04DB010","aes_key":"7505034245992895","vin":"LSJW94399NG101357","status":3}]}}
+03-23 17:27:32.342 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-23 17:27:32.349 D/BleProximity: 🔄 引擎配置已热更新 | 落锁阈值:-90.0 | 解锁阈值:-88.0 | 趋势检测:true
+03-23 17:27:32.350 D/IslandWindowManager: 灵动岛已存在，无需重复添加
+03-23 17:27:32.389 D/MGWidget: onUpdate called for IDs: 11
+03-23 17:27:32.389 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-23 17:27:32.474 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-23 17:27:33.047 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 567ms) ──────
+03-23 17:27:33.047 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-23 17:27:33.048 D/MG_NET_LOG: │ Method: POST
+03-23 17:27:33.048 D/MG_NET_LOG: │ Header: app-type: roewe
+03-23 17:27:33.048 D/MG_NET_LOG: │ Header: timestamp: 1774258052478
+03-23 17:27:33.049 D/MG_NET_LOG: │ Header: sign: xnvR/vxVpOzkT0YugCSUfLDomUts2HLQ491q1PLHNrE=
+03-23 17:27:33.049 D/MG_NET_LOG: │ Params: data={"vin":"LSJW94399NG101357","appId":"Roewe","brandCode":"1","nonce":"0306B523D3D70334D2EB61505A98CBFB","timestamp":"1774258052475","token":"dd9f4a2ec7ed46088dc3961f75a74860-prod_SAIC"}
+03-23 17:27:33.049 D/MG_NET_LOG: ├────── Response Result ──────
+03-23 17:27:33.052 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19d1a055c52b867bbd8","data":{"vehicle_position":{"satellites":8,"altitude":3,"gps_status":2,"latitude":"31.101925","update_time":1774252228000,"gps_time":1774252819000,"hdop":6,"longitude":"121.366669"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":256,"battery_pack_fault_status":null,"charge_door_position_status":null,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":277,"battery_pack_range":16,"power_mode":0,"engine_status":0,"exterior_temperature":15,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":71,"localfront_left_seat_heat_level":null,"interior_pm25":508,"odometer":40944,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":8876,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":123,"chrgng_rmnng_time_v":null,"exterior_pm25":508,"front_left_tyre_pressure":248,"charge_status":0,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":252,"battery_pack_prc":319,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":261,"current_journey_id":4604,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":138,"battery_alarm_value":[50,200,500],"update_time":1774251544000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":256,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":840,"fuel_level_disp":0,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1774252231000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1774251544000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_rig
+03-23 17:27:33.052 D/MG_NET_LOG: │ Result(Part 2): ht_window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-23 17:27:33.053 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-23 17:27:33.070 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 上海市闵行区中春路莘庄镇莘纪苑小区
+03-23 17:27:33.071 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-23 17:27:33.071 D/MGWidget: updateWidgetSynchronously called for ID: 11
+03-23 17:27:49.748 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+03-23 17:27:49.751 D/BleProximity: ✅ 已连接，开始发现服务
+03-23 17:27:49.753 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+03-23 17:27:49.753 D/BleProximity: 📡 连接状态: CONNECTED
+03-23 17:27:58.297 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=0
+03-23 17:27:58.300 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 0)
+03-23 17:27:58.311 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+03-23 17:27:58.312 D/BleProximity: 📡 连接状态: DISCONNECTED
+03-23 17:27:58.332 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新挂载硬件直连...
+03-23 17:28:00.334 D/BleProximity: 🔍 开始连接
+03-23 17:28:00.338 D/BleProximity: 车辆 MAC 地址 B0:10:A0:4D:2F:D7
+03-23 17:28:00.340 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+03-23 17:28:00.342 D/BleProximity: 📡 连接状态: CONNECTING
+03-23 17:28:00.361 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): B0:10:A0:4D:2F:D7
+03-23 17:28:55.325 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+03-23 17:28:55.327 D/BleProximity: ✅ 已连接，开始发现服务
+03-23 17:28:55.328 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+03-23 17:28:55.330 D/BleProximity: 📡 连接状态: CONNECTED
+03-23 17:29:01.369 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=0
+03-23 17:29:01.371 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 0)
+03-23 17:29:01.377 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+03-23 17:29:01.378 D/BleProximity: 📡 连接状态: DISCONNECTED
+03-23 17:29:01.394 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新挂载硬件直连...
+03-23 17:29:03.396 D/BleProximity: 🔍 开始连接
+03-23 17:29:03.399 D/BleProximity: 车辆 MAC 地址 B0:10:A0:4D:2F:D7
+03-23 17:29:03.400 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+03-23 17:29:03.402 D/BleProximity: 📡 连接状态: CONNECTING
+03-23 17:29:03.418 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): B0:10:A0:4D:2F:D7
+03-23 17:30:35.303 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+03-23 17:30:35.307 D/BleProximity: ✅ 已连接，开始发现服务
+03-23 17:30:35.308 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+03-23 17:30:35.309 D/BleProximity: 📡 连接状态: CONNECTED
+03-23 17:30:36.822 D/MGWidget: onReceive called with action: ACTION_BLUEBOOTH
+03-23 17:30:36.859 D/BleProximity: 🎫 [BleUnlockWorker] 获取 Session: session_BleUnlockWorker_61_1774258236859 (总数: 2)
+03-23 17:30:36.863 D/BleProximity: ➕ 添加监听器: callback_83_1774258236863 (总数: 2)
+03-23 17:30:36.866 D/BleUnlockWorker: ➕ 添加监听器: callback_83_1774258236863 (总数: 2)
+03-23 17:30:36.866 D/BleUnlockWorker: 开始扫描蓝牙设备
+03-23 17:30:36.867 D/BleProximity: ➕ 添加监听器: callback_84_1774258236867 (总数: 3)
+03-23 17:30:36.867 D/BleUnlockWorker: ➕ 添加监听器: callback_84_1774258236867 (总数: 3)
+03-23 17:30:36.868 D/BleProximity: ⏳ 正在连接中，Session等待结果... (BleUnlockWorker)
+03-23 17:30:36.868 D/BleUnlockWorker: ⏳ 正在连接中，Session等待结果... (BleUnlockWorker)
+03-23 17:30:37.542 D/BleProximity: ✅ 特征初始化完成
+03-23 17:30:37.543 D/BleUnlockWorker: ✅ 特征初始化完成
+03-23 17:30:37.787 D/BleProximity: MTU 生效: 28
+03-23 17:30:37.789 D/BleUnlockWorker: MTU 生效: 28
+03-23 17:30:37.790 D/BleProximity: 🔐 开始认证流程
+03-23 17:30:37.791 D/BleUnlockWorker: 🔐 开始认证流程
+03-23 17:30:37.795 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+03-23 17:30:37.795 D/BleUnlockWorker: 🔔 启用通知: 4af4, 结果: true
+03-23 17:30:37.796 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+03-23 17:30:37.800 D/BleProximity: 🔔 启用通知: d341, 结果: true
+03-23 17:30:37.801 D/BleUnlockWorker: 🔔 启用通知: d341, 结果: true
+03-23 17:30:37.803 D/BleProximity: 🔔 启用通知: 267e, 结果: true
+03-23 17:30:37.803 D/BleUnlockWorker: 🔔 启用通知: 267e, 结果: true
+03-23 17:30:37.805 D/BleProximity: 🔔 启用通知: 71ed, 结果: true
+03-23 17:30:37.805 D/BleUnlockWorker: 🔔 启用通知: 71ed, 结果: true
+03-23 17:30:37.806 D/BleProximity: 🔔 启用通知: 23a8, 结果: true
+03-23 17:30:37.807 D/BleUnlockWorker: 🔔 启用通知: 23a8, 结果: true
+03-23 17:30:37.809 D/BleProximity: 🔔 启用通知: 8e2d, 结果: true
+03-23 17:30:37.809 D/BleUnlockWorker: 🔔 启用通知: 8e2d, 结果: true
+03-23 17:30:37.811 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+03-23 17:30:37.811 D/BleUnlockWorker: 🔔 启用通知: a37b, 结果: true
+03-23 17:30:37.813 D/BleProximity: 🔔 启用通知: 9d21, 结果: true
+03-23 17:30:37.813 D/BleUnlockWorker: 🔔 启用通知: 9d21, 结果: true
+03-23 17:30:37.914 D/BleProximity: 📤 准备发送Booking ID: 01A0A299 (进入串行队列)
+03-23 17:30:37.915 D/BleUnlockWorker: 📤 准备发送Booking ID: 01A0A299 (进入串行队列)
+03-23 17:30:37.936 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-23 17:30:37.957 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+03-23 17:30:38.093 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-23 17:30:38.140 D/BleManager: ⬇️ 底层执行: 开启通知: 267e
+03-23 17:30:38.234 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-23 17:30:38.262 D/BleManager: ⬇️ 底层执行: 开启通知: 71ed
+03-23 17:30:38.415 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-23 17:30:38.439 D/BleManager: ⬇️ 底层执行: 开启通知: 23a8
+03-23 17:30:38.504 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-23 17:30:38.524 D/BleManager: ⬇️ 底层执行: 开启通知: 8e2d
+03-23 17:30:38.624 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-23 17:30:38.644 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+03-23 17:30:38.683 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-23 17:30:38.704 D/BleManager: ⬇️ 底层执行: 开启通知: 9d21
+03-23 17:30:39.046 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-23 17:30:39.077 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+03-23 17:30:39.082 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+03-23 17:30:40.872 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 663061343931626536623031
+03-23 17:30:40.873 D/BleUnlockWorker: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 663061343931626536623031
+03-23 17:30:40.874 D/BleProximity: 🔐 处理认证挑战: 663061343931626536623031
+03-23 17:30:40.874 D/BleUnlockWorker: 🔐 处理认证挑战: 663061343931626536623031
+03-23 17:30:40.878 D/BleManager: ⬇️ 底层执行: 发送认证响应
+03-23 17:30:40.881 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+03-23 17:30:41.430 D/BleProximity: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3031
+03-23 17:30:41.430 D/BleUnlockWorker: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3031
+03-23 17:30:41.431 D/BleProximity: ✅ 认证成功
+03-23 17:30:41.431 D/BleUnlockWorker: ✅ 认证成功
+03-23 17:30:41.431 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 3, Session: 2)
+03-23 17:30:41.432 D/BleUnlockWorker: 📡 状态变更: AUTHENTICATED (监听器: 3, Session: 2)
+03-23 17:30:41.432 D/BleProximity: 📡 连接状态: AUTHENTICATED
+03-23 17:30:41.442 D/BleProximity: ✅ ensureConnected 成功 (BleUnlockWorker)
+03-23 17:30:41.442 D/BleUnlockWorker: ✅ ensureConnected 成功 (BleUnlockWorker)
+03-23 17:30:41.442 D/BleProximity: ➖ 移除监听器: callback_84_1774258236867 
+03-23 17:30:41.442 D/BleUnlockWorker: ➖ 移除监听器: callback_84_1774258236867 
+03-23 17:30:41.443 D/BleProximity: 📤 发送指令: 解锁车门
+03-23 17:30:41.443 D/BleUnlockWorker: 📤 发送指令: 解锁车门
+03-23 17:30:41.443 D/BleManager: ⬇️ 底层执行: 解锁车门
+03-23 17:30:41.445 D/BleManager: ✅ 底层特征写入完成: 174e status: 0
+03-23 17:30:41.611 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 346265383766383531663631
+03-23 17:30:41.612 D/BleUnlockWorker: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 346265383766383531663631
+03-23 17:30:41.613 D/BleProximity: 🔐 处理认证挑战: 346265383766383531663631
+03-23 17:30:41.613 D/BleUnlockWorker: 🔐 处理认证挑战: 346265383766383531663631
+03-23 17:30:41.614 D/BleManager: ⬇️ 底层执行: 发送认证响应
+03-23 17:30:41.618 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+03-23 17:30:42.891 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 17:30:42.948 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+03-23 17:30:42.949 D/BleUnlockWorker: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+03-23 17:30:42.950 D/BleProximity: 解锁成功
+03-23 17:30:42.951 D/BleUnlockWorker: 解锁成功
+03-23 17:30:42.951 D/BleProximity: 📊 指令出队: 解锁车门 -> SUCCESS
+03-23 17:30:42.953 D/BleUnlockWorker: 📊 指令出队: 解锁车门 -> SUCCESS
+03-23 17:30:42.953 D/BleProximity: 🔓 解锁结果: SUCCESS
+03-23 17:30:42.954 D/BleProximity: ✅ 车辆已解锁
+03-23 17:30:42.964 D/BleUnlockWorker: 解锁结果: SUCCESS
+03-23 17:30:42.973 D/BleProximity: 🔗 链式触发: 120 秒打火
+03-23 17:30:42.973 D/BleUnlockWorker: 🔗 链式触发: 120 秒打火
+03-23 17:30:42.973 D/BleUnlockWorker: 清理资源
+03-23 17:30:42.976 D/BleProximity: 🎫 [BleUnlockWorker] 释放 Session: session_BleUnlockWorker_61_1774258236859 (剩余: 1)
+03-23 17:30:42.980 D/BleUnlockWorker: 🎫 [BleUnlockWorker] 释放 Session: session_BleUnlockWorker_61_1774258236859 (剩余: 1)
+03-23 17:30:42.984 D/BleProximity: ➖ 移除监听器: callback_83_1774258236863 
+03-23 17:30:42.986 D/BleUnlockWorker: ➖ 移除监听器: callback_83_1774258236863 
+03-23 17:30:43.073 D/BleProximity: 📤 发送指令: 120 秒打火
+03-23 17:30:43.074 D/BleManager: ⬇️ 底层执行: 120 秒打火
+03-23 17:30:43.078 D/BleManager: ✅ 底层特征写入完成: ba20 status: 0
+03-23 17:30:43.154 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 313266653061383532366633
+03-23 17:30:43.155 D/BleProximity: 🔐 处理认证挑战: 313266653061383532366633
+03-23 17:30:43.156 D/BleManager: ⬇️ 底层执行: 发送认证响应
+03-23 17:30:43.158 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+03-23 17:30:46.078 D/BleProximity: ℹ️ 打火指令已发送（协议无成功返回值），默认视为成功
+03-23 17:30:46.081 D/BleProximity: 📊 指令出队: 120 秒打火 -> SUCCESS
+03-23 17:30:49.467 D/BleProximity: 🔒 [决策通过 - 快车道: 向量远离] 触发上锁！(信号: -103)
+03-23 17:30:49.484 D/BleProximity: 📤 发送指令: 锁车门
+03-23 17:30:49.485 D/BleManager: ⬇️ 底层执行: 锁车门
+03-23 17:30:49.489 D/BleManager: ✅ 底层特征写入完成: 42e4 status: 0
+03-23 17:30:50.721 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 323263616434646234343134
+03-23 17:30:50.724 D/BleProximity: 🔐 处理认证挑战: 323263616434646234343134
+03-23 17:30:50.725 D/BleManager: ⬇️ 底层执行: 发送认证响应
+03-23 17:30:50.736 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+03-23 17:30:52.127 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3032
+03-23 17:30:52.130 D/BleProximity: 上锁成功
+03-23 17:30:52.131 D/BleProximity: 📊 指令出队: 锁车门 -> SUCCESS
+03-23 17:30:52.132 D/BleProximity: 🔒 上锁结果: SUCCESS
+03-23 17:30:52.133 D/BleProximity: ✅ 车辆已上锁
+03-23 17:30:59.314 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 17:30:59.518 D/BleProximity: 📡 [慢车道] 上锁区驻留: 2 / 5
+03-23 17:30:59.719 D/BleProximity: 📡 [慢车道] 上锁区驻留: 3 / 5
+03-23 17:30:59.922 D/BleProximity: 📡 [慢车道] 上锁区驻留: 4 / 5
+03-23 17:31:00.125 D/BleProximity: 📡 [慢车道] 上锁区驻留: 5 / 5
+03-23 17:31:00.331 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 17:31:00.537 D/BleProximity: 📡 [慢车道] 上锁区驻留: 2 / 5
+03-23 17:31:00.738 D/BleProximity: 📡 [慢车道] 上锁区驻留: 3 / 5
+03-23 17:31:00.943 D/BleProximity: 📡 [慢车道] 上锁区驻留: 4 / 5
+03-23 17:31:01.145 D/BleProximity: 📡 [慢车道] 上锁区驻留: 5 / 5
+03-23 17:31:01.351 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 17:31:01.556 D/BleProximity: 📡 [慢车道] 上锁区驻留: 2 / 5
+03-23 17:31:01.758 D/BleProximity: 📡 [慢车道] 上锁区驻留: 3 / 5
+03-23 17:31:01.963 D/BleProximity: 📡 [慢车道] 上锁区驻留: 4 / 5
+03-23 17:31:02.167 D/BleProximity: 📡 [慢车道] 上锁区驻留: 5 / 5
+03-23 17:31:02.375 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 17:31:02.572 D/BleProximity: 📡 [慢车道] 上锁区驻留: 2 / 5
+03-23 17:31:02.775 D/BleProximity: 📡 [慢车道] 上锁区驻留: 3 / 5
+03-23 17:31:02.981 D/BleProximity: 📡 [慢车道] 上锁区驻留: 4 / 5
+03-23 17:31:03.183 D/BleProximity: 📡 [慢车道] 上锁区驻留: 5 / 5
+03-23 17:31:03.387 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 17:31:03.594 D/BleProximity: 📡 [慢车道] 上锁区驻留: 2 / 5
+03-23 17:31:03.801 D/BleProximity: 📡 [慢车道] 上锁区驻留: 3 / 5
+03-23 17:31:04.004 D/BleProximity: 📡 [慢车道] 上锁区驻留: 4 / 5
+03-23 17:31:04.210 D/BleProximity: 📡 [慢车道] 上锁区驻留: 5 / 5
+03-23 17:31:04.415 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 17:31:04.619 D/BleProximity: 📡 [慢车道] 上锁区驻留: 2 / 5
+03-23 17:31:04.825 D/BleProximity: 📡 [慢车道] 上锁区驻留: 3 / 5
+03-23 17:31:05.029 D/BleProximity: 📡 [慢车道] 上锁区驻留: 4 / 5
+03-23 17:31:05.234 D/BleProximity: 📡 [慢车道] 上锁区驻留: 5 / 5
+03-23 17:31:05.438 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 17:31:05.646 D/BleProximity: 📡 [慢车道] 上锁区驻留: 2 / 5
+03-23 17:31:05.853 D/BleProximity: 📡 [慢车道] 上锁区驻留: 3 / 5
+03-23 17:31:06.057 D/BleProximity: 📡 [慢车道] 上锁区驻留: 4 / 5
+03-23 17:31:06.258 D/BleProximity: 📡 [慢车道] 上锁区驻留: 5 / 5
+03-23 17:31:06.503 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 17:31:06.710 D/BleProximity: 📡 [慢车道] 上锁区驻留: 2 / 5
+03-23 17:31:06.914 D/BleProximity: 📡 [慢车道] 上锁区驻留: 3 / 5
+03-23 17:31:07.115 D/BleProximity: 📡 [慢车道] 上锁区驻留: 4 / 5
+03-23 17:31:07.320 D/BleProximity: 📡 [慢车道] 上锁区驻留: 5 / 5
+03-23 17:31:07.529 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 17:31:07.734 D/BleProximity: 📡 [慢车道] 上锁区驻留: 2 / 5
+03-23 17:31:07.943 D/BleProximity: 📡 [慢车道] 上锁区驻留: 3 / 5
+03-23 17:31:08.148 D/BleProximity: 📡 [慢车道] 上锁区驻留: 4 / 5
+03-23 17:31:08.352 D/BleProximity: 📡 [慢车道] 上锁区驻留: 5 / 5
+03-23 17:31:08.559 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 17:31:08.761 D/BleProximity: 📡 [慢车道] 上锁区驻留: 2 / 5
+03-23 17:31:08.966 D/BleProximity: 📡 [慢车道] 上锁区驻留: 3 / 5
+03-23 17:31:09.174 D/BleProximity: 📡 [慢车道] 上锁区驻留: 4 / 5
+03-23 17:31:09.383 D/BleProximity: 📡 [慢车道] 上锁区驻留: 5 / 5
+03-23 17:31:09.586 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 17:31:09.790 D/BleProximity: 📡 [慢车道] 上锁区驻留: 2 / 5
+03-23 17:31:09.998 D/BleProximity: 📡 [慢车道] 上锁区驻留: 3 / 5
+03-23 17:31:10.200 D/BleProximity: 📡 [慢车道] 上锁区驻留: 4 / 5
+03-23 17:31:10.407 D/BleProximity: 📡 [慢车道] 上锁区驻留: 5 / 5
+03-23 17:31:10.611 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 17:31:10.816 D/BleProximity: 📡 [慢车道] 上锁区驻留: 2 / 5
+03-23 17:31:11.023 D/BleProximity: 📡 [慢车道] 上锁区驻留: 3 / 5
+03-23 17:31:11.222 D/BleProximity: 📡 [慢车道] 上锁区驻留: 4 / 5
+03-23 17:31:11.425 D/BleProximity: 📡 [慢车道] 上锁区驻留: 5 / 5
+03-23 17:31:11.629 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 17:31:11.833 D/BleProximity: 📡 [慢车道] 上锁区驻留: 2 / 5
+03-23 17:31:12.039 D/BleProximity: 📡 [慢车道] 上锁区驻留: 3 / 5
+03-23 17:31:12.241 D/BleProximity: 📡 [慢车道] 上锁区驻留: 4 / 5
+03-23 17:31:12.449 D/BleProximity: 📡 [慢车道] 上锁区驻留: 5 / 5
+03-23 17:31:12.649 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 17:31:12.853 D/BleProximity: 📡 [慢车道] 上锁区驻留: 2 / 5
+03-23 17:31:13.070 D/BleProximity: 📡 [慢车道] 上锁区驻留: 3 / 5
+03-23 17:31:13.271 D/BleProximity: 📡 [慢车道] 上锁区驻留: 4 / 5
+03-23 17:31:13.473 D/BleProximity: 📡 [慢车道] 上锁区驻留: 5 / 5
+03-23 17:31:13.674 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 17:31:13.879 D/BleProximity: 📡 [慢车道] 上锁区驻留: 2 / 5
+03-23 17:31:14.087 D/BleProximity: 📡 [慢车道] 上锁区驻留: 3 / 5
+03-23 17:31:14.288 D/BleProximity: 📡 [慢车道] 上锁区驻留: 4 / 5
+03-23 17:31:14.491 D/BleProximity: 📡 [慢车道] 上锁区驻留: 5 / 5
+03-23 17:31:14.695 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 17:31:14.906 D/BleProximity: 📡 [慢车道] 上锁区驻留: 2 / 5
+03-23 17:31:15.111 D/BleProximity: 📡 [慢车道] 上锁区驻留: 3 / 5
+03-23 17:31:15.317 D/BleProximity: 📡 [慢车道] 上锁区驻留: 4 / 5
+03-23 17:31:15.523 D/BleProximity: 📡 [慢车道] 上锁区驻留: 5 / 5
+03-23 17:31:15.736 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 17:31:15.930 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=0
+03-23 17:31:15.938 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 0)
+03-23 17:31:15.946 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+03-23 17:31:15.949 D/BleProximity: 📡 连接状态: DISCONNECTED
+03-23 17:31:15.982 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新挂载硬件直连...
+03-23 17:33:47.510 D/BleProximity: 🔍 开始连接
+03-23 17:33:47.523 D/BleProximity: 车辆 MAC 地址 B0:10:A0:4D:2F:D7
+03-23 17:33:47.526 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+03-23 17:33:47.528 D/BleProximity: 📡 连接状态: CONNECTING
+03-23 17:33:47.604 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): B0:10:A0:4D:2F:D7
+03-23 17:33:57.799 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+03-23 17:33:57.802 D/BleProximity: ✅ 已连接，开始发现服务
+03-23 17:33:57.805 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+03-23 17:33:57.807 D/BleProximity: 📡 连接状态: CONNECTED
+03-23 17:33:58.706 D/BleProximity: ✅ 特征初始化完成
+03-23 17:33:58.726 D/BleProximity: MTU 生效: 28
+03-23 17:33:58.729 D/BleProximity: 🔐 开始认证流程
+03-23 17:33:58.731 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+03-23 17:33:58.732 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+03-23 17:33:58.746 D/BleProximity: 🔔 启用通知: d341, 结果: true
+03-23 17:33:58.747 D/BleProximity: 🔔 启用通知: 267e, 结果: true
+03-23 17:33:58.749 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-23 17:33:58.749 D/BleProximity: 🔔 启用通知: 71ed, 结果: true
+03-23 17:33:58.750 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+03-23 17:33:58.751 D/BleProximity: 🔔 启用通知: 23a8, 结果: true
+03-23 17:33:58.752 D/BleProximity: 🔔 启用通知: 8e2d, 结果: true
+03-23 17:33:58.752 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+03-23 17:33:58.753 D/BleProximity: 🔔 启用通知: 9d21, 结果: true
+03-23 17:33:58.763 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-23 17:33:58.769 D/BleManager: ⬇️ 底层执行: 开启通知: 267e
+03-23 17:33:58.818 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-23 17:33:58.840 D/BleManager: ⬇️ 底层执行: 开启通知: 71ed
+03-23 17:33:58.855 D/BleProximity: 📤 准备发送Booking ID: 01A0A299 (进入串行队列)
+03-23 17:33:58.906 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-23 17:33:58.933 D/BleManager: ⬇️ 底层执行: 开启通知: 23a8
+03-23 17:33:58.996 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-23 17:33:59.016 D/BleManager: ⬇️ 底层执行: 开启通知: 8e2d
+03-23 17:33:59.056 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-23 17:33:59.078 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+03-23 17:33:59.117 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-23 17:33:59.140 D/BleManager: ⬇️ 底层执行: 开启通知: 9d21
+03-23 17:33:59.206 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-23 17:33:59.226 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+03-23 17:33:59.231 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+03-23 17:34:05.311 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 313938393234366338353666
+03-23 17:34:05.313 D/BleProximity: 🔐 处理认证挑战: 313938393234366338353666
+03-23 17:34:05.314 D/BleManager: ⬇️ 底层执行: 发送认证响应
+03-23 17:34:05.319 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+03-23 17:34:05.852 D/BleProximity: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3031
+03-23 17:34:05.856 D/BleProximity: ✅ 认证成功
+03-23 17:34:05.858 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 1, Session: 1)
+03-23 17:34:05.859 D/BleProximity: 📡 连接状态: AUTHENTICATED
+03-23 17:34:07.331 D/BleProximity: 🔓 [决策通过 - 快车道: 向量靠近] 触发解锁！(信号: -78)
+03-23 17:34:07.363 D/BleProximity: 📤 发送指令: 解锁车门
+03-23 17:34:07.364 D/BleManager: ⬇️ 底层执行: 解锁车门
+03-23 17:34:07.371 D/BleManager: ✅ 底层特征写入完成: 174e status: 0
+03-23 17:34:07.443 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 666537353563666134393931
+03-23 17:34:07.445 D/BleProximity: 🔐 处理认证挑战: 666537353563666134393931
+03-23 17:34:07.445 D/BleManager: ⬇️ 底层执行: 发送认证响应
+03-23 17:34:07.452 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+03-23 17:34:08.765 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+03-23 17:34:08.768 D/BleProximity: 解锁成功
+03-23 17:34:08.770 D/BleProximity: 📊 指令出队: 解锁车门 -> SUCCESS
+03-23 17:34:08.771 D/BleProximity: 🔓 解锁结果: SUCCESS
+03-23 17:34:08.772 D/BleProximity: ✅ 车辆已解锁
+03-23 17:34:08.791 D/BleProximity: 🔗 链式触发: 120 秒打火
+03-23 17:34:08.893 D/BleProximity: 📤 发送指令: 120 秒打火
+03-23 17:34:08.894 D/BleManager: ⬇️ 底层执行: 120 秒打火
+03-23 17:34:08.899 D/BleManager: ✅ 底层特征写入完成: ba20 status: 0
+03-23 17:34:08.957 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 353862393461633166656631
+03-23 17:34:08.958 D/BleProximity: 🔐 处理认证挑战: 353862393461633166656631
+03-23 17:34:08.960 D/BleManager: ⬇️ 底层执行: 发送认证响应
+03-23 17:34:08.968 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+03-23 17:34:11.898 D/BleProximity: ℹ️ 打火指令已发送（协议无成功返回值），默认视为成功
+03-23 17:34:11.900 D/BleProximity: 📊 指令出队: 120 秒打火 -> SUCCESS
+03-23 17:34:16.764 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:16.965 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:17.176 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:17.383 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:17.593 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:17.804 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:18.007 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:18.216 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:18.419 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:20.272 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:20.691 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:20.899 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:22.164 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:22.370 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:22.591 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:22.817 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:23.031 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:23.241 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:23.450 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:23.653 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:24.714 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:24.932 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:25.136 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:25.346 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:25.571 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:25.765 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:25.970 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:26.197 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:26.406 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:26.615 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:26.822 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:27.023 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:28.068 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:28.270 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:28.474 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:28.681 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:28.889 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:29.098 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:29.303 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:29.506 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:29.713 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:29.919 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:30.124 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:30.337 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:30.542 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:30.754 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:30.958 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:31.163 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:31.370 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:31.574 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:32.615 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:32.829 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:33.035 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:33.239 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:33.448 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:33.657 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:35.115 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:35.318 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:35.527 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:35.732 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:35.943 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:36.146 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:36.355 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:36.560 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:36.767 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:36.970 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:37.179 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:37.395 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:37.596 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:37.800 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:38.007 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:38.230 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:38.438 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:38.634 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:38.842 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:39.053 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:39.258 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:39.465 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:39.678 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:39.883 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:40.104 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:40.304 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:40.506 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:40.714 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:40.924 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:41.132 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:41.338 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:41.565 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:41.748 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:41.951 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:42.163 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:42.377 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:42.575 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:42.781 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:42.994 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:43.198 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:45.500 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:45.713 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:45.920 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:46.127 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:46.774 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:46.981 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:47.193 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:47.402 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:47.610 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:47.817 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:48.024 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:48.232 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:48.452 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:48.659 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:48.871 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:49.075 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:49.291 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:49.505 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:51.618 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:51.838 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:52.054 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:52.264 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:52.472 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:52.690 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:52.897 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:53.105 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:53.312 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:53.529 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:53.735 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:53.944 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:54.153 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:54.361 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:56.464 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:56.675 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:56.893 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:57.102 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:57.317 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:57.526 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:57.737 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:57.944 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:58.149 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:59.225 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:59.432 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:34:59.638 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:34:59.844 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:00.047 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:00.267 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:00.481 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:00.694 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:00.900 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:02.156 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:02.369 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:02.575 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:02.795 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:03.012 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:03.219 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:03.435 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:03.646 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:03.853 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:04.058 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:04.267 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:04.476 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:04.684 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:04.890 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:05.097 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:05.304 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:05.514 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:05.719 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:05.931 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:06.144 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:06.348 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:07.406 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:07.624 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:07.832 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:08.044 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:08.692 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:09.744 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:09.962 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:10.175 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:10.387 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:10.595 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:10.807 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:11.017 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:11.238 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:11.450 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:11.669 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:11.894 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:12.095 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:12.311 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:14.435 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:14.644 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:14.851 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:15.070 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:15.279 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:15.488 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:15.705 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:15.915 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:16.125 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:16.338 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:16.564 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:16.770 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:16.986 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:17.199 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:17.404 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:17.609 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:17.826 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:18.048 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:18.271 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:18.488 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:18.695 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:18.914 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:20.410 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:20.623 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:20.835 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:21.055 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:21.264 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:21.470 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:21.682 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:21.895 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:23.364 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:23.574 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:23.784 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:23.993 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:24.205 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:24.420 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:24.631 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:26.124 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:26.335 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:26.544 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:26.756 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:26.964 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:27.169 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:27.388 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:27.596 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:27.810 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:28.020 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:28.230 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:28.445 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:28.661 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:28.874 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:29.094 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:29.310 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:29.525 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:29.733 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:29.949 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:30.170 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:30.382 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:30.600 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:30.817 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:31.029 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:31.228 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:31.433 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:31.639 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:31.858 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:32.071 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:32.288 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:32.505 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:32.717 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:35.679 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:35.889 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:36.107 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:36.321 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:36.531 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:36.742 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:36.951 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:37.158 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:37.366 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:37.571 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:37.778 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:37.999 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:38.205 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:38.417 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:38.624 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:38.833 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:39.041 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:39.252 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:39.470 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:40.529 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:40.746 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:40.958 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:41.173 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:41.378 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:41.587 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:41.798 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:42.010 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:42.223 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:42.430 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:42.641 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:42.845 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:43.052 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:43.258 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:44.772 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:44.989 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:45.195 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:45.404 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:45.613 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:45.819 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:46.031 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:46.256 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:46.474 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:46.682 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:46.898 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:47.111 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:47.324 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:47.539 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:47.740 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:47.962 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:49.019 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:49.226 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:49.432 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:49.646 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:49.859 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:50.070 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:50.277 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:50.490 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:50.712 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:50.919 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:51.136 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:51.346 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:51.559 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:51.765 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:51.984 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:52.190 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:52.396 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:52.617 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:52.835 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:53.044 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:53.265 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:53.488 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:53.695 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:53.910 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:54.138 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:54.342 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:54.546 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:54.755 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:54.965 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:55.177 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:55.400 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:55.607 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:55.819 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:56.019 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:56.236 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:56.449 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:56.667 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:56.873 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:57.095 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:57.741 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:57.955 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:58.159 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:58.368 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:35:58.577 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:35:58.797 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:00.678 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:00.888 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:01.103 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:01.310 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:01.514 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:01.727 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:01.944 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:02.149 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:02.366 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:02.579 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:02.792 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:03.007 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:03.214 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:03.426 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:03.632 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:03.841 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:04.048 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:04.264 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:04.477 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:04.688 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:04.896 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:05.107 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:05.329 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:05.544 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:05.763 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:05.985 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:06.194 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:06.406 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:06.629 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:06.839 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:07.048 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:07.263 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:07.471 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:07.689 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:07.893 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:08.102 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:08.314 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:08.524 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:08.733 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:08.943 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:09.155 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:09.366 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:09.576 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:09.791 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:10.042 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:10.214 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:10.433 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:10.634 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:10.850 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:11.057 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:11.260 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:11.469 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:11.676 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:11.889 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:12.130 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 17:36:12.332 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 17:36:12.770 D/BleProximity: 🔒 [决策通过 - 快车道: 向量远离] 触发上锁！(信号: -90)
+03-23 17:36:12.939 D/BleProximity: 📤 发送指令: 锁车门
+03-23 17:36:12.961 D/BleManager: ⬇️ 底层执行: 锁车门
+03-23 17:36:12.974 D/BleManager: ✅ 底层特征写入完成: 42e4 status: 0
+03-23 17:36:13.082 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 343933326538666362663339
+03-23 17:36:13.266 D/BleProximity: 🔐 处理认证挑战: 343933326538666362663339
+03-23 17:36:13.313 D/BleManager: ⬇️ 底层执行: 发送认证响应
+03-23 17:36:13.341 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+03-23 17:36:14.491 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3032
+03-23 17:36:14.493 D/BleProximity: 上锁成功
+03-23 17:36:14.494 D/BleProximity: 📊 指令出队: 锁车门 -> SUCCESS
+03-23 17:36:14.494 D/BleProximity: 🔒 上锁结果: SUCCESS
+03-23 17:36:14.495 D/BleProximity: ✅ 车辆已上锁
+03-23 17:36:21.998 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 17:36:22.211 D/BleProximity: 📡 [慢车道] 上锁区驻留: 2 / 5
+03-23 17:36:22.421 D/BleProximity: 📡 [慢车道] 上锁区驻留: 3 / 5
+03-23 17:36:22.694 D/BleProximity: 📡 [慢车道] 上锁区驻留: 4 / 5
+03-23 17:36:22.912 D/BleProximity: 📡 [慢车道] 上锁区驻留: 5 / 5
+03-23 17:36:23.119 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 17:36:55.688 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=0
+03-23 17:36:55.691 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 0)
+03-23 17:36:55.695 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+03-23 17:36:55.697 D/BleProximity: 📡 连接状态: DISCONNECTED
+03-23 17:36:55.736 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新挂载硬件直连...
+03-23 17:36:57.743 D/BleProximity: 🔍 开始连接
+03-23 17:36:57.745 D/BleProximity: 车辆 MAC 地址 B0:10:A0:4D:2F:D7
+03-23 17:36:57.746 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+03-23 17:36:57.746 D/BleProximity: 📡 连接状态: CONNECTING
+03-23 17:36:57.760 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): B0:10:A0:4D:2F:D7
+03-23 18:04:18.559 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+03-23 18:04:18.570 D/BleProximity: ✅ 已连接，开始发现服务
+03-23 18:04:18.570 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+03-23 18:04:18.571 D/BleProximity: 📡 连接状态: CONNECTED
+03-23 18:04:19.406 D/BleProximity: ✅ 特征初始化完成
+03-23 18:04:19.429 D/BleProximity: MTU 生效: 28
+03-23 18:04:19.430 D/BleProximity: 🔐 开始认证流程
+03-23 18:04:19.436 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+03-23 18:04:19.437 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+03-23 18:04:19.443 D/BleProximity: 🔔 启用通知: d341, 结果: true
+03-23 18:04:19.446 D/BleProximity: 🔔 启用通知: 267e, 结果: true
+03-23 18:04:19.449 D/BleProximity: 🔔 启用通知: 71ed, 结果: true
+03-23 18:04:19.451 D/BleProximity: 🔔 启用通知: 23a8, 结果: true
+03-23 18:04:19.454 D/BleProximity: 🔔 启用通知: 8e2d, 结果: true
+03-23 18:04:19.456 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+03-23 18:04:19.457 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-23 18:04:19.459 D/BleProximity: 🔔 启用通知: 9d21, 结果: true
+03-23 18:04:19.460 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+03-23 18:04:19.501 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-23 18:04:19.527 D/BleManager: ⬇️ 底层执行: 开启通知: 267e
+03-23 18:04:19.591 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-23 18:04:19.626 D/BleProximity: 📤 准备发送Booking ID: 01A0A299 (进入串行队列)
+03-23 18:04:19.626 D/BleManager: ⬇️ 底层执行: 开启通知: 71ed
+03-23 18:04:19.681 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-23 18:04:19.702 D/BleManager: ⬇️ 底层执行: 开启通知: 23a8
+03-23 18:04:19.741 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-23 18:04:19.768 D/BleManager: ⬇️ 底层执行: 开启通知: 8e2d
+03-23 18:04:19.830 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-23 18:04:19.851 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+03-23 18:04:19.891 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-23 18:04:19.911 D/BleManager: ⬇️ 底层执行: 开启通知: 9d21
+03-23 18:04:19.950 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-23 18:04:19.971 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+03-23 18:04:19.975 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+03-23 18:04:21.719 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 373063346539633335613662
+03-23 18:04:21.721 D/BleProximity: 🔐 处理认证挑战: 373063346539633335613662
+03-23 18:04:21.726 D/BleManager: ⬇️ 底层执行: 发送认证响应
+03-23 18:04:21.730 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+03-23 18:04:22.277 D/BleProximity: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3031
+03-23 18:04:22.278 D/BleProximity: ✅ 认证成功
+03-23 18:04:22.279 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 1, Session: 1)
+03-23 18:04:22.279 D/BleProximity: 📡 连接状态: AUTHENTICATED
+03-23 18:04:23.728 D/BleProximity: 🔓 [决策通过 - 快车道: 向量靠近] 触发解锁！(信号: -74)
+03-23 18:04:23.735 D/BleProximity: 📤 发送指令: 解锁车门
+03-23 18:04:23.736 D/BleManager: ⬇️ 底层执行: 解锁车门
+03-23 18:04:23.751 D/BleManager: ✅ 底层特征写入完成: 174e status: 0
+03-23 18:04:23.776 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 383235323939333566383363
+03-23 18:04:23.778 D/BleProximity: 🔐 处理认证挑战: 383235323939333566383363
+03-23 18:04:23.779 D/BleManager: ⬇️ 底层执行: 发送认证响应
+03-23 18:04:23.782 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+03-23 18:04:25.115 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+03-23 18:04:25.118 D/BleProximity: 解锁成功
+03-23 18:04:25.119 D/BleProximity: 📊 指令出队: 解锁车门 -> SUCCESS
+03-23 18:04:25.121 D/BleProximity: 🔓 解锁结果: SUCCESS
+03-23 18:04:25.122 D/BleProximity: ✅ 车辆已解锁
+03-23 18:04:25.131 D/BleProximity: 🔗 链式触发: 120 秒打火
+03-23 18:04:25.235 D/BleProximity: 📤 发送指令: 120 秒打火
+03-23 18:04:25.235 D/BleManager: ⬇️ 底层执行: 120 秒打火
+03-23 18:04:25.238 D/BleManager: ✅ 底层特征写入完成: ba20 status: 0
+03-23 18:04:25.291 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 646439363837666361633963
+03-23 18:04:25.292 D/BleProximity: 🔐 处理认证挑战: 646439363837666361633963
+03-23 18:04:25.293 D/BleManager: ⬇️ 底层执行: 发送认证响应
+03-23 18:04:25.298 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+03-23 18:04:28.238 D/BleProximity: ℹ️ 打火指令已发送（协议无成功返回值），默认视为成功
+03-23 18:04:28.241 D/BleProximity: 📊 指令出队: 120 秒打火 -> SUCCESS
+03-23 18:04:32.358 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:32.563 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:32.768 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:32.972 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:33.177 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:33.383 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:35.641 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:35.845 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:36.049 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:36.254 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:36.458 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:36.664 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:36.868 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:37.087 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:37.295 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:37.499 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:37.703 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:37.909 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:38.112 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:38.328 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:38.523 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:38.727 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:38.930 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:39.135 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:39.346 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:41.194 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:41.395 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:41.614 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:41.817 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:42.023 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:42.228 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:42.433 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:42.636 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:42.843 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:43.049 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:43.254 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:43.459 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:43.663 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:43.876 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:44.080 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:44.285 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:44.490 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:44.695 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:44.900 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:45.105 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:45.308 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:45.512 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:45.719 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:45.924 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:46.144 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:46.343 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:46.548 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:46.753 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:46.959 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:47.166 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:47.375 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:47.578 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:47.787 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:47.992 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:48.196 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:48.413 D/BleProximity: 📡 [慢车道] 解锁区驻留: 2 / 2
+03-23 18:04:48.616 D/BleProximity: 📡 [慢车道] 解锁区驻留: 1 / 2
+03-23 18:04:48.822 D/BleProximity: 🛡️ 信号处于安全保持区(-89)，驻留计数清零
+03-23 18:04:49.234 D/BleProximity: 🔒 [决策通过 - 快车道: 向量远离] 触发上锁！(信号: -90)
+03-23 18:04:49.249 D/BleProximity: 📤 发送指令: 锁车门
+03-23 18:04:49.250 D/BleManager: ⬇️ 底层执行: 锁车门
+03-23 18:04:49.254 D/BleManager: ✅ 底层特征写入完成: 42e4 status: 0
+03-23 18:04:49.293 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 316363366165353232353165
+03-23 18:04:49.294 D/BleProximity: 🔐 处理认证挑战: 316363366165353232353165
+03-23 18:04:49.294 D/BleManager: ⬇️ 底层执行: 发送认证响应
+03-23 18:04:49.299 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+03-23 18:04:50.427 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3032
+03-23 18:04:50.429 D/BleProximity: 上锁成功
+03-23 18:04:50.430 D/BleProximity: 📊 指令出队: 锁车门 -> SUCCESS
+03-23 18:04:50.433 D/BleProximity: 🔒 上锁结果: SUCCESS
+03-23 18:04:50.434 D/BleProximity: ✅ 车辆已上锁
+03-23 18:04:57.891 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 18:04:58.098 D/BleProximity: 📡 [慢车道] 上锁区驻留: 2 / 5
+03-23 18:04:58.302 D/BleProximity: 📡 [慢车道] 上锁区驻留: 3 / 5
+03-23 18:04:58.505 D/BleProximity: 📡 [慢车道] 上锁区驻留: 4 / 5
+03-23 18:04:58.712 D/BleProximity: 📡 [慢车道] 上锁区驻留: 5 / 5
+03-23 18:04:58.917 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 18:04:59.122 D/BleProximity: 📡 [慢车道] 上锁区驻留: 2 / 5
+03-23 18:04:59.738 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 18:05:00.148 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 18:05:00.352 D/BleProximity: 📡 [慢车道] 上锁区驻留: 2 / 5
+03-23 18:05:00.557 D/BleProximity: 📡 [慢车道] 上锁区驻留: 3 / 5
+03-23 18:05:00.761 D/BleProximity: 📡 [慢车道] 上锁区驻留: 4 / 5
+03-23 18:05:00.970 D/BleProximity: 📡 [慢车道] 上锁区驻留: 5 / 5
+03-23 18:05:01.174 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 18:05:01.379 D/BleProximity: 📡 [慢车道] 上锁区驻留: 2 / 5
+03-23 18:05:01.585 D/BleProximity: 📡 [慢车道] 上锁区驻留: 3 / 5
+03-23 18:05:01.789 D/BleProximity: 📡 [慢车道] 上锁区驻留: 4 / 5
+03-23 18:05:02.006 D/BleProximity: 📡 [慢车道] 上锁区驻留: 5 / 5
+03-23 18:05:02.209 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 18:05:02.415 D/BleProximity: 📡 [慢车道] 上锁区驻留: 2 / 5
+03-23 18:05:02.617 D/BleProximity: 📡 [慢车道] 上锁区驻留: 3 / 5
+03-23 18:05:02.823 D/BleProximity: 📡 [慢车道] 上锁区驻留: 4 / 5
+03-23 18:05:03.026 D/BleProximity: 📡 [慢车道] 上锁区驻留: 5 / 5
+03-23 18:05:03.233 D/BleProximity: 📡 [慢车道] 上锁区驻留: 1 / 5
+03-23 18:05:03.434 D/BleProximity: 📡 [慢车道] 上锁区驻留: 2 / 5
+03-23 18:05:03.635 D/BleProximity: 📡 [慢车道] 上锁区驻留: 3 / 5
