@@ -1,0 +1,42 @@
+--- Log Capture Start: 20260324_225433 ---
+03-24 22:53:33.561 D/MGWidget: onReceive called with action: ACTION_BLUEBOOTH
+03-24 22:53:33.626 D/ControlWidget: 🎫 [BleUnlockWorker] 获取 Session: session_BleUnlockWorker_12_1774364013625 (总数: 1)
+03-24 22:53:33.627 D/BleProximity: 🎫 [BleUnlockWorker] 获取 Session: session_BleUnlockWorker_12_1774364013625 (总数: 1)
+03-24 22:53:33.628 D/ControlWidget: 🔍 开始连接
+03-24 22:53:33.628 D/BleProximity: 🔍 开始连接
+03-24 22:53:33.629 D/ControlWidget: 车辆 MAC 地址 68:23:B0:94:FA:54
+03-24 22:53:33.630 D/BleProximity: 车辆 MAC 地址 68:23:B0:94:FA:54
+03-24 22:53:33.631 D/ControlWidget: 📡 状态变更: CONNECTING (监听器: 2, Session: 1)
+03-24 22:53:33.632 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 2, Session: 1)
+03-24 22:53:33.634 D/ControlWidget: ⚡ 发起底层硬件级直连 (autoConnect=true): 68:23:B0:94:FA:54
+03-24 22:53:33.640 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): 68:23:B0:94:FA:54
+03-24 22:53:33.653 D/ControlWidget: ➕ 添加监听器: callback_17_1774364013653 (总数: 3)
+03-24 22:53:33.658 D/BleProximity: ➕ 添加监听器: callback_17_1774364013653 (总数: 3)
+03-24 22:53:33.659 D/BleUnlockWorker: ➕ 添加监听器: callback_17_1774364013653 (总数: 3)
+03-24 22:53:33.661 D/BleUnlockWorker: 开始扫描蓝牙设备
+03-24 22:53:33.663 D/ControlWidget: ➕ 添加监听器: callback_18_1774364013663 (总数: 4)
+03-24 22:53:33.673 D/BleProximity: ➕ 添加监听器: callback_18_1774364013663 (总数: 4)
+03-24 22:53:33.673 D/BleUnlockWorker: ➕ 添加监听器: callback_18_1774364013663 (总数: 4)
+03-24 22:53:33.675 D/ControlWidget: ⏳ 正在连接中，Session等待结果... (BleUnlockWorker)
+03-24 22:53:33.675 D/BleProximity: ⏳ 正在连接中，Session等待结果... (BleUnlockWorker)
+03-24 22:53:33.676 D/BleUnlockWorker: ⏳ 正在连接中，Session等待结果... (BleUnlockWorker)
+03-24 22:53:48.710 D/ControlWidget: ⏰ ensureConnected 超时 (BleUnlockWorker)
+03-24 22:53:48.712 D/BleProximity: ⏰ ensureConnected 超时 (BleUnlockWorker)
+03-24 22:53:48.713 D/BleUnlockWorker: ⏰ ensureConnected 超时 (BleUnlockWorker)
+03-24 22:53:48.714 D/ControlWidget: ➖ 移除监听器: callback_18_1774364013663 
+03-24 22:53:48.715 D/BleProximity: ➖ 移除监听器: callback_18_1774364013663 
+03-24 22:53:48.715 D/BleUnlockWorker: ➖ 移除监听器: callback_18_1774364013663 
+03-24 22:53:48.737 D/BleUnlockWorker: 清理资源
+03-24 22:53:48.738 D/ControlWidget: 🎫 [BleUnlockWorker] 释放 Session: session_BleUnlockWorker_12_1774364013625 (剩余: 0)
+03-24 22:53:48.739 D/BleProximity: 🎫 [BleUnlockWorker] 释放 Session: session_BleUnlockWorker_12_1774364013625 (剩余: 0)
+03-24 22:53:48.740 D/BleUnlockWorker: 🎫 [BleUnlockWorker] 释放 Session: session_BleUnlockWorker_12_1774364013625 (剩余: 0)
+03-24 22:53:48.740 D/ControlWidget: ✂️ 所有 Session 已释放，准备断开连接
+03-24 22:53:48.741 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+03-24 22:53:48.742 D/BleUnlockWorker: ✂️ 所有 Session 已释放，准备断开连接
+03-24 22:53:48.742 D/ControlWidget: ➖ 移除监听器: callback_17_1774364013653 
+03-24 22:53:48.743 D/BleProximity: ➖ 移除监听器: callback_17_1774364013653 
+03-24 22:53:48.744 D/BleUnlockWorker: ➖ 移除监听器: callback_17_1774364013653 
+03-24 22:53:49.282 D/ControlWidget: ✂️ 断开连接
+03-24 22:53:49.283 D/BleProximity: ✂️ 断开连接
+03-24 22:53:49.294 D/ControlWidget: 📡 状态变更: DISCONNECTED (监听器: 2, Session: 0)
+03-24 22:53:49.295 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 2, Session: 0)
