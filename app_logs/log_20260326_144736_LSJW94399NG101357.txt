@@ -1,0 +1,508 @@
+--- Log Capture Start: 20260326_144736 ---
+03-26 14:18:17.824 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 254ms) ──────
+03-26 14:18:17.825 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+03-26 14:18:17.825 D/MG_NET_LOG: │ Method: POST
+03-26 14:18:17.825 D/MG_NET_LOG: │ Header: app-type: roewe
+03-26 14:18:17.825 D/MG_NET_LOG: │ Header: timestamp: 1774505897568
+03-26 14:18:17.825 D/MG_NET_LOG: │ Header: sign: 5fToXH8F05ERcLBibYZLQqmMlfPbsTlFBPmqQVRzDMk=
+03-26 14:18:17.826 D/MG_NET_LOG: │ Params: data={"userId":"10000003696875","appId":"Roewe","brandCode":"1","nonce":"7091EF1F1A46070ADD414BB0272D2AA5","timestamp":"1774505897566","token":"bc401438eee34b3eabcf37abf64a594f-prod_SAIC"}
+03-26 14:18:17.826 D/MG_NET_LOG: ├────── Response Result ──────
+03-26 14:18:17.826 D/MG_NET_LOG: │ Result: {"req_id":"19d28cb325ee68b43b6","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":"沪AGU6666","secret_key":"5407344050509467","key_end_time":1775426861000,"key_start_time":1767650861000,"mobile":null,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":27304601,"owner_mobile":"13916367370","owner_name":null,"enable":true,"tbox_mac":"2FD7A04DB010","aes_key":"7505034245992895","vin":"LSJW94399NG101357","status":3}]}}
+03-26 14:18:17.826 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-26 14:18:17.830 D/BleProximity: 🔄 引擎配置已热更新 | 落锁阈值:-95.0 | 解锁阈值:-90.0 | 趋势检测:true
+03-26 14:18:17.831 D/IslandWindowManager: 灵动岛已存在，无需重复添加
+03-26 14:18:17.863 D/MGWidget: onUpdate called for IDs: 20
+03-26 14:18:17.864 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-26 14:18:18.103 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-26 14:18:18.736 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 625ms) ──────
+03-26 14:18:18.736 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-26 14:18:18.737 D/MG_NET_LOG: │ Method: POST
+03-26 14:18:18.737 D/MG_NET_LOG: │ Header: app-type: roewe
+03-26 14:18:18.737 D/MG_NET_LOG: │ Header: timestamp: 1774505898109
+03-26 14:18:18.737 D/MG_NET_LOG: │ Header: sign: UHvYplmsW/YQ9qRlH0IgmVjyPRJgF4aO8gmPxDj1H64=
+03-26 14:18:18.737 D/MG_NET_LOG: │ Params: data={"vin":"LSJW94399NG101357","appId":"Roewe","brandCode":"1","nonce":"A487BBC3741BB6739320A6160FAB301A","timestamp":"1774505898104","token":"bc401438eee34b3eabcf37abf64a594f-prod_SAIC"}
+03-26 14:18:18.738 D/MG_NET_LOG: ├────── Response Result ──────
+03-26 14:18:18.738 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19d28cb33d240581aef","data":{"vehicle_position":{"satellites":6,"altitude":8,"gps_status":2,"latitude":"31.101923","update_time":1774497665000,"gps_time":1774497681000,"hdop":9,"longitude":"121.366682"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":256,"battery_pack_fault_status":null,"charge_door_position_status":null,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":265,"battery_pack_range":36,"power_mode":0,"engine_status":0,"exterior_temperature":15,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":63,"localfront_left_seat_heat_level":null,"interior_pm25":508,"odometer":41003,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":124,"chrgng_rmnng_time_v":null,"exterior_pm25":508,"front_left_tyre_pressure":252,"charge_status":0,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":256,"battery_pack_prc":734,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":229,"current_journey_id":4621,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":122,"battery_alarm_value":[50,200,500],"update_time":1774497665000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":2,"rear_left_tyre_pressure":256,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":848,"fuel_level_disp":0,"monitor_status":null,"battery_type":0,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1774497665000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1774497665000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_
+03-26 14:18:18.738 D/MG_NET_LOG: │ Result(Part 2): window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-26 14:18:18.738 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-26 14:18:18.744 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 上海市闵行区中春路莘庄镇莘纪苑小区
+03-26 14:18:18.744 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-26 14:18:18.745 D/MGWidget: updateWidgetSynchronously called for ID: 20
+03-26 14:22:05.029 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 255ms) ──────
+03-26 14:22:05.031 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+03-26 14:22:05.031 D/MG_NET_LOG: │ Method: POST
+03-26 14:22:05.032 D/MG_NET_LOG: │ Header: app-type: roewe
+03-26 14:22:05.033 D/MG_NET_LOG: │ Header: timestamp: 1774506124772
+03-26 14:22:05.033 D/MG_NET_LOG: │ Header: sign: EhovC6dMQPUyMnBOMnNK6KbdaVRtxk0zybqojaOxCiw=
+03-26 14:22:05.034 D/MG_NET_LOG: │ Params: data={"userId":"10000003696875","appId":"Roewe","brandCode":"1","nonce":"69C1A4BA858B4B370D5F3C7037B64C3A","timestamp":"1774506124769","token":"bc401438eee34b3eabcf37abf64a594f-prod_SAIC"}
+03-26 14:22:05.035 D/MG_NET_LOG: ├────── Response Result ──────
+03-26 14:22:05.036 D/MG_NET_LOG: │ Result: {"req_id":"19d28cea9f5effb7a7d","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":"沪AGU6666","secret_key":"5407344050509467","key_end_time":1775426861000,"key_start_time":1767650861000,"mobile":null,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":27304601,"owner_mobile":"13916367370","owner_name":null,"enable":true,"tbox_mac":"2FD7A04DB010","aes_key":"7505034245992895","vin":"LSJW94399NG101357","status":3}]}}
+03-26 14:22:05.036 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-26 14:22:05.043 D/BleProximity: 🔄 引擎配置已热更新 | 落锁阈值:-95.0 | 解锁阈值:-90.0 | 趋势检测:true
+03-26 14:22:05.044 D/IslandWindowManager: 灵动岛已存在，无需重复添加
+03-26 14:22:05.079 D/MGWidget: onUpdate called for IDs: 20
+03-26 14:22:05.080 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-26 14:22:05.169 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-26 14:22:05.806 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 633ms) ──────
+03-26 14:22:05.807 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-26 14:22:05.807 D/MG_NET_LOG: │ Method: POST
+03-26 14:22:05.807 D/MG_NET_LOG: │ Header: app-type: roewe
+03-26 14:22:05.807 D/MG_NET_LOG: │ Header: timestamp: 1774506125171
+03-26 14:22:05.808 D/MG_NET_LOG: │ Header: sign: rGYg8Wucm4GO0i0itpLybM2OI/ItqEygNZTdm4m/1W4=
+03-26 14:22:05.808 D/MG_NET_LOG: │ Params: data={"vin":"LSJW94399NG101357","appId":"Roewe","brandCode":"1","nonce":"878D455EF4CA40D6308BC261823E97E7","timestamp":"1774506125169","token":"bc401438eee34b3eabcf37abf64a594f-prod_SAIC"}
+03-26 14:22:05.808 D/MG_NET_LOG: ├────── Response Result ──────
+03-26 14:22:05.808 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19d28ceaad0be287f19","data":{"vehicle_position":{"satellites":6,"altitude":8,"latitude":"31.101923","gps_status":2,"update_time":1774497665000,"gps_time":1774497681000,"hdop":9,"longitude":"121.366682"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":256,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":265,"battery_pack_range":36,"power_mode":0,"engine_status":0,"exterior_temperature":15,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":63,"localfront_left_seat_heat_level":null,"interior_pm25":508,"odometer":41003,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":124,"chrgng_rmnng_time_v":null,"exterior_pm25":508,"front_left_tyre_pressure":252,"charge_status":0,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":256,"battery_pack_prc":734,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":229,"current_journey_id":4621,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":122,"battery_alarm_value":[50,200,500],"update_time":1774497665000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":256,"vehicle_battery_prc":848,"battery_type":0,"fuel_level_disp":0,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1774497665000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1774497665000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_
+03-26 14:22:05.809 D/MG_NET_LOG: │ Result(Part 2): window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-26 14:22:05.809 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-26 14:22:05.829 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 上海市闵行区中春路莘庄镇莘纪苑小区
+03-26 14:22:05.831 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-26 14:22:05.832 D/MGWidget: updateWidgetSynchronously called for ID: 20
+03-26 14:32:28.727 D/IslandWindowManager: 灵动岛已存在，无需重复添加
+03-26 14:32:30.573 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+03-26 14:32:30.575 D/BleProximity: ✅ 已连接，开始发现服务
+03-26 14:32:30.580 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+03-26 14:32:30.581 D/BleProximity: 📡 连接状态: CONNECTED
+03-26 14:32:39.124 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=0
+03-26 14:32:39.131 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 0)
+03-26 14:32:39.136 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+03-26 14:32:39.137 D/BleProximity: 📡 连接状态: DISCONNECTED
+03-26 14:32:39.142 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新挂载硬件直连...
+03-26 14:32:41.150 D/BleProximity: 🔍 开始连接
+03-26 14:32:41.151 D/BleProximity: 车辆 MAC 地址 B0:10:A0:4D:2F:D7
+03-26 14:32:41.152 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+03-26 14:32:41.152 D/BleProximity: 📡 连接状态: CONNECTING
+03-26 14:32:41.160 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): B0:10:A0:4D:2F:D7
+03-26 14:33:09.542 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-26 14:33:13.166 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 3605ms) ──────
+03-26 14:33:13.167 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-26 14:33:13.167 D/MG_NET_LOG: │ Method: POST
+03-26 14:33:13.168 D/MG_NET_LOG: │ Header: app-type: roewe
+03-26 14:33:13.168 D/MG_NET_LOG: │ Header: timestamp: 1774506789545
+03-26 14:33:13.168 D/MG_NET_LOG: │ Header: sign: W6/sulLMhzAb0r9IQNH6VGoCI15GRucu0H1feySNrqk=
+03-26 14:33:13.169 D/MG_NET_LOG: │ Params: data={"vin":"LSJW94399NG101357","appId":"Roewe","brandCode":"1","nonce":"80638EE03C31080BE5875CAF8F8D3531","timestamp":"1774506789542","token":"bc401438eee34b3eabcf37abf64a594f-prod_SAIC"}
+03-26 14:33:13.169 D/MG_NET_LOG: ├────── Response Result ──────
+03-26 14:33:13.169 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19d28d8d6b9247a40d8","data":{"vehicle_position":{"satellites":6,"altitude":8,"latitude":"31.101923","gps_status":2,"update_time":1774497665000,"gps_time":1774497681000,"hdop":9,"longitude":"121.366682"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":256,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":265,"battery_pack_range":36,"power_mode":0,"engine_status":0,"exterior_temperature":15,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":63,"localfront_left_seat_heat_level":null,"interior_pm25":508,"odometer":41003,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":124,"chrgng_rmnng_time_v":null,"exterior_pm25":508,"front_left_tyre_pressure":252,"charge_status":0,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":256,"battery_pack_prc":734,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":229,"current_journey_id":4621,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":122,"battery_alarm_value":[50,200,500],"update_time":1774497665000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":256,"vehicle_battery_prc":848,"battery_type":0,"fuel_level_disp":0,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1774497665000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1774497665000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_
+03-26 14:33:13.169 D/MG_NET_LOG: │ Result(Part 2): window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-26 14:33:13.170 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-26 14:33:13.188 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 上海市闵行区中春路莘庄镇莘纪苑小区
+03-26 14:33:13.188 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-26 14:33:13.189 D/MGWidget: updateWidgetSynchronously called for ID: 20
+03-26 14:33:56.991 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+03-26 14:33:57.002 D/BleProximity: ✅ 已连接，开始发现服务
+03-26 14:33:57.005 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+03-26 14:33:57.006 D/BleProximity: 📡 连接状态: CONNECTED
+03-26 14:33:58.190 D/BleProximity: ✅ 特征初始化完成
+03-26 14:33:58.223 D/BleProximity: MTU 生效: 28
+03-26 14:33:58.224 D/BleProximity: 🔐 开始认证流程
+03-26 14:33:58.227 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+03-26 14:33:58.228 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+03-26 14:33:58.238 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+03-26 14:33:58.241 D/BleProximity: 🔔 启用通知: d341, 结果: true
+03-26 14:33:58.242 D/BleProximity: 📤 准备发送Booking ID: 01A0A299 (进入串行队列)
+03-26 14:33:58.257 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-26 14:33:58.258 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+03-26 14:33:58.373 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-26 14:33:58.374 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+03-26 14:33:58.434 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-26 14:33:58.438 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+03-26 14:33:58.446 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+03-26 14:34:00.215 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 666164643835386137623661
+03-26 14:34:00.217 D/BleProximity: 🔐 处理认证挑战: 666164643835386137623661
+03-26 14:34:00.219 D/BleManager: ⬇️ 底层执行: 发送认证响应
+03-26 14:34:00.224 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+03-26 14:34:00.774 D/BleProximity: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3031
+03-26 14:34:00.780 D/BleProximity: ✅ 认证成功
+03-26 14:34:00.781 D/BleProximity: 📡 状态变更: AUTHENTICATED (监听器: 1, Session: 1)
+03-26 14:34:00.782 D/BleProximity: 📡 连接状态: AUTHENTICATED
+03-26 14:34:00.795 D/BleProximity: 🔔 后台静默订阅业务特征...
+03-26 14:34:00.799 D/BleProximity: 🔔 启用通知: 267e, 结果: true
+03-26 14:34:00.800 D/BleManager: ⬇️ 底层执行: 开启通知: 267e
+03-26 14:34:00.804 D/BleProximity: 🔔 启用通知: 71ed, 结果: true
+03-26 14:34:00.808 D/BleProximity: 🔔 启用通知: 23a8, 结果: true
+03-26 14:34:00.811 D/BleProximity: 🔔 启用通知: 8e2d, 结果: true
+03-26 14:34:00.814 D/BleProximity: 🔔 启用通知: 9d21, 结果: true
+03-26 14:34:00.828 D/BleProximity: 📡 EMA 信号: -98 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:00.828 D/BleProximity: ⏳ 信号采样中 (RSSI: -98)，等待业务订阅闭环...
+03-26 14:34:00.846 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-26 14:34:00.847 D/BleManager: ⬇️ 底层执行: 开启通知: 71ed
+03-26 14:34:00.907 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-26 14:34:00.908 D/BleManager: ⬇️ 底层执行: 开启通知: 23a8
+03-26 14:34:00.953 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-26 14:34:00.954 D/BleManager: ⬇️ 底层执行: 开启通知: 8e2d
+03-26 14:34:00.997 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-26 14:34:00.998 D/BleManager: ⬇️ 底层执行: 开启通知: 9d21
+03-26 14:34:01.031 D/BleProximity: 📡 EMA 信号: -97 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:01.032 D/BleProximity: ⏳ 信号采样中 (RSSI: -97)，等待业务订阅闭环...
+03-26 14:34:01.046 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+03-26 14:34:01.047 D/BleProximity: 🎊 所有业务特征订阅完成，设备完全就绪
+03-26 14:34:01.237 D/BleProximity: 📡 EMA 信号: -96 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:01.442 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:01.647 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:01.854 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:02.058 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:02.259 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:02.462 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:02.667 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:02.872 D/BleProximity: 📡 EMA 信号: -91 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:03.077 D/BleProximity: 📡 EMA 信号: -91 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:03.283 D/BleProximity: 📡 EMA 信号: -90 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:03.486 D/BleProximity: 📡 EMA 信号: -89 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:03.487 D/BleProximity: ⚡ [决策通过 - 常规道: 空间驻留达标] 触发 UNLOCK！(信号: -89)
+03-26 14:34:03.514 D/BleProximity: 📤 发送指令: 解锁车门
+03-26 14:34:03.515 D/BleManager: ⬇️ 底层执行: 解锁车门
+03-26 14:34:03.520 D/BleManager: ✅ 底层特征写入完成: 174e status: 0
+03-26 14:34:03.577 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 363661663232633363643963
+03-26 14:34:03.579 D/BleProximity: 🔐 处理认证挑战: 363661663232633363643963
+03-26 14:34:03.579 D/BleManager: ⬇️ 底层执行: 发送认证响应
+03-26 14:34:03.583 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+03-26 14:34:04.899 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+03-26 14:34:04.902 D/BleProximity: 解锁成功
+03-26 14:34:04.903 D/BleProximity: 📊 指令出队: 解锁车门 -> N2.r@33c8d51
+03-26 14:34:04.904 D/BleProximity: 🔓 解锁结果: N2.r@33c8d51
+03-26 14:34:04.905 D/BleProximity: ✅ 车辆已解锁
+03-26 14:34:04.945 D/BleProximity: 🔗 链式触发: 120 秒打火
+03-26 14:34:05.063 D/BleProximity: 🛡️ 检测到内部链式衍生指令: 120 秒打火，开启绿色通道放行
+03-26 14:34:05.064 D/BleProximity: 📤 发送指令: 120 秒打火
+03-26 14:34:05.064 D/BleManager: ⬇️ 底层执行: 120 秒打火
+03-26 14:34:05.069 D/BleManager: ✅ 底层特征写入完成: ba20 status: 0
+03-26 14:34:05.122 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 393435313939613761383463
+03-26 14:34:05.123 D/BleProximity: 🔐 处理认证挑战: 393435313939613761383463
+03-26 14:34:05.123 D/BleManager: ⬇️ 底层执行: 发送认证响应
+03-26 14:34:05.127 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+03-26 14:34:08.068 D/BleProximity: ℹ️ 打火指令已发送（协议无成功返回值），默认视为成功
+03-26 14:34:08.070 D/BleProximity: 📊 指令出队: 120 秒打火 -> N2.r@33c8d51
+03-26 14:34:10.072 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:10.275 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:10.479 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:10.688 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:10.886 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:11.088 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:11.293 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:11.496 D/BleProximity: 📡 EMA 信号: -91 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:11.699 D/BleProximity: 📡 EMA 信号: -91 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:11.904 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:12.108 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:12.317 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:12.518 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:12.726 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:12.929 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:13.136 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:13.340 D/BleProximity: 📡 EMA 信号: -95 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:13.546 D/BleProximity: 📡 EMA 信号: -97 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:13.551 D/BleProximity: ⚡ [决策通过 - 超车道: 瞬态动量锐减] 触发 LOCK！(信号: -97)
+03-26 14:34:13.583 D/BleProximity: 📤 发送指令: 锁车门
+03-26 14:34:13.584 D/BleManager: ⬇️ 底层执行: 锁车门
+03-26 14:34:13.588 D/BleManager: ✅ 底层特征写入完成: 42e4 status: 0
+03-26 14:34:13.664 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 326230336338613735353763
+03-26 14:34:13.666 D/BleProximity: 🔐 处理认证挑战: 326230336338613735353763
+03-26 14:34:13.666 D/BleManager: ⬇️ 底层执行: 发送认证响应
+03-26 14:34:13.670 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+03-26 14:34:14.814 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3032
+03-26 14:34:14.815 D/BleProximity: 上锁成功
+03-26 14:34:14.816 D/BleProximity: 📊 指令出队: 锁车门 -> N2.r@33c8d51
+03-26 14:34:14.816 D/BleProximity: 🔒 上锁结果: N2.r@33c8d51
+03-26 14:34:14.816 D/BleProximity: ✅ 车辆已上锁
+03-26 14:34:19.865 D/BleProximity: 📡 EMA 信号: -89 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:20.062 D/BleProximity: 📡 EMA 信号: -87 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:20.063 D/BleProximity: ⚡ [决策通过 - 常规道: 空间驻留达标] 触发 UNLOCK！(信号: -87)
+03-26 14:34:20.094 D/BleProximity: 📤 发送指令: 解锁车门
+03-26 14:34:20.096 D/BleManager: ⬇️ 底层执行: 解锁车门
+03-26 14:34:20.103 D/BleManager: ✅ 底层特征写入完成: 174e status: 0
+03-26 14:34:20.156 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 336263663932666337333964
+03-26 14:34:20.158 D/BleProximity: 🔐 处理认证挑战: 336263663932666337333964
+03-26 14:34:20.160 D/BleManager: ⬇️ 底层执行: 发送认证响应
+03-26 14:34:20.165 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+03-26 14:34:21.293 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+03-26 14:34:21.295 D/BleProximity: 解锁成功
+03-26 14:34:21.296 D/BleProximity: 📊 指令出队: 解锁车门 -> N2.r@33c8d51
+03-26 14:34:21.296 D/BleProximity: 🔓 解锁结果: N2.r@33c8d51
+03-26 14:34:21.297 D/BleProximity: ✅ 车辆已解锁
+03-26 14:34:21.318 D/BleProximity: 🔗 链式触发: 120 秒打火
+03-26 14:34:21.418 D/BleProximity: 🛡️ 检测到内部链式衍生指令: 120 秒打火，开启绿色通道放行
+03-26 14:34:21.423 D/BleProximity: 📤 发送指令: 120 秒打火
+03-26 14:34:21.429 D/BleManager: ⬇️ 底层执行: 120 秒打火
+03-26 14:34:21.433 D/BleManager: ✅ 底层特征写入完成: ba20 status: 0
+03-26 14:34:21.489 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 393631333766633332376664
+03-26 14:34:21.490 D/BleProximity: 🔐 处理认证挑战: 393631333766633332376664
+03-26 14:34:21.491 D/BleManager: ⬇️ 底层执行: 发送认证响应
+03-26 14:34:21.494 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+03-26 14:34:24.432 D/BleProximity: ℹ️ 打火指令已发送（协议无成功返回值），默认视为成功
+03-26 14:34:24.434 D/BleProximity: 📊 指令出队: 120 秒打火 -> N2.r@33c8d51
+03-26 14:34:26.420 D/BleProximity: 📡 EMA 信号: -84 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:26.623 D/BleProximity: 📡 EMA 信号: -87 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:26.824 D/BleProximity: 📡 EMA 信号: -89 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:27.031 D/BleProximity: 📡 EMA 信号: -90 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:27.233 D/BleProximity: 📡 EMA 信号: -89 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:27.436 D/BleProximity: 📡 EMA 信号: -88 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:27.640 D/BleProximity: 📡 EMA 信号: -88 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:27.842 D/BleProximity: 📡 EMA 信号: -89 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:28.046 D/BleProximity: 📡 EMA 信号: -90 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:28.252 D/BleProximity: 📡 EMA 信号: -89 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:28.454 D/BleProximity: 📡 EMA 信号: -87 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:28.655 D/BleProximity: 📡 EMA 信号: -86 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:28.859 D/BleProximity: 📡 EMA 信号: -87 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:29.061 D/BleProximity: 📡 EMA 信号: -89 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:29.263 D/BleProximity: 📡 EMA 信号: -90 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:29.465 D/BleProximity: 📡 EMA 信号: -91 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:29.670 D/BleProximity: 📡 EMA 信号: -90 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:29.877 D/BleProximity: 📡 EMA 信号: -90 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:30.081 D/BleProximity: 📡 EMA 信号: -90 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:30.294 D/BleProximity: 📡 EMA 信号: -90 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:30.489 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:30.693 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:30.896 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:31.102 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:31.309 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:31.511 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:31.713 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:31.915 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:32.121 D/BleProximity: 📡 EMA 信号: -95 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:32.325 D/BleProximity: 📡 EMA 信号: -95 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:32.527 D/BleProximity: 📡 EMA 信号: -95 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:32.730 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:32.932 D/BleProximity: 📡 EMA 信号: -95 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:33.138 D/BleProximity: 📡 EMA 信号: -95 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:33.344 D/BleProximity: 📡 EMA 信号: -95 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:33.545 D/BleProximity: 📡 EMA 信号: -95 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:33.748 D/BleProximity: 📡 EMA 信号: -95 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:33.750 D/BleProximity: ⚡ [决策通过 - 常规道: 空间驻留达标] 触发 LOCK！(信号: -95)
+03-26 14:34:33.777 D/BleProximity: 📤 发送指令: 锁车门
+03-26 14:34:33.780 D/BleManager: ⬇️ 底层执行: 锁车门
+03-26 14:34:33.788 D/BleManager: ✅ 底层特征写入完成: 42e4 status: 0
+03-26 14:34:33.879 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 623561623133366536333365
+03-26 14:34:33.881 D/BleProximity: 🔐 处理认证挑战: 623561623133366536333365
+03-26 14:34:33.882 D/BleManager: ⬇️ 底层执行: 发送认证响应
+03-26 14:34:33.885 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+03-26 14:34:35.002 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3032
+03-26 14:34:35.004 D/BleProximity: 上锁成功
+03-26 14:34:35.004 D/BleProximity: 📊 指令出队: 锁车门 -> N2.r@33c8d51
+03-26 14:34:35.005 D/BleProximity: 🔒 上锁结果: N2.r@33c8d51
+03-26 14:34:35.006 D/BleProximity: ✅ 车辆已上锁
+03-26 14:34:40.319 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:40.454 D/BleProximity: 📡 EMA 信号: -98 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:40.597 D/BleProximity: 📡 EMA 信号: -98 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:40.962 D/BleProximity: 📡 EMA 信号: -96 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:41.539 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:41.670 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:41.882 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:42.088 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:42.295 D/BleProximity: 📡 EMA 信号: -91 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:42.500 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:42.710 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:42.909 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:43.128 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:43.363 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:43.586 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:43.808 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:44.008 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:44.225 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:44.430 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:44.637 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:44.843 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:45.046 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:45.261 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:45.462 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:45.669 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:45.872 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:46.076 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:46.278 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:46.488 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:46.701 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:46.911 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:47.116 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:47.324 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:47.571 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:47.782 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:47.985 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:48.188 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:48.399 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:48.603 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:48.814 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:49.027 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:49.229 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:49.583 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:49.819 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:50.040 D/BleProximity: 📡 EMA 信号: -95 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:50.200 D/BleProximity: 📡 EMA 信号: -96 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:50.419 D/BleProximity: 📡 EMA 信号: -96 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:50.618 D/BleProximity: 📡 EMA 信号: -96 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:50.828 D/BleProximity: 📡 EMA 信号: -96 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:51.040 D/BleProximity: 📡 EMA 信号: -96 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:51.250 D/BleProximity: 📡 EMA 信号: -96 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:51.460 D/BleProximity: 📡 EMA 信号: -96 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:51.675 D/BleProximity: 📡 EMA 信号: -97 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:51.886 D/BleProximity: 📡 EMA 信号: -97 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:52.092 D/BleProximity: 📡 EMA 信号: -97 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:52.293 D/BleProximity: 📡 EMA 信号: -98 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:52.510 D/BleProximity: 📡 EMA 信号: -98 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:52.720 D/BleProximity: 📡 EMA 信号: -98 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:52.941 D/BleProximity: 📡 EMA 信号: -96 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:53.147 D/BleProximity: 📡 EMA 信号: -95 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:53.365 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:53.573 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:53.789 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:53.998 D/BleProximity: 📡 EMA 信号: -95 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:54.213 D/BleProximity: 📡 EMA 信号: -96 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:54.424 D/BleProximity: 📡 EMA 信号: -96 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:54.645 D/BleProximity: 📡 EMA 信号: -96 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:54.846 D/BleProximity: 📡 EMA 信号: -97 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:55.063 D/BleProximity: 📡 EMA 信号: -98 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:55.274 D/BleProximity: 📡 EMA 信号: -98 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:55.484 D/BleProximity: 📡 EMA 信号: -98 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:55.694 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:55.912 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:56.129 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:56.336 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:56.541 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:56.750 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:56.972 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:57.180 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:57.388 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:57.606 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:57.845 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:58.049 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:58.266 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:58.485 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:58.696 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:58.909 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:59.118 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:59.329 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:59.535 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:59.756 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:34:59.971 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:00.183 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:00.397 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:00.615 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:00.827 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:01.041 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:01.263 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:01.480 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:01.691 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:01.900 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:02.110 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:02.325 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:02.536 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:02.740 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:02.943 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:03.154 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:03.358 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:03.573 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:03.790 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:04.009 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:04.217 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:04.432 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:04.649 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:04.861 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:05.075 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:05.293 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:05.510 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:05.731 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:05.942 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:06.158 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:06.385 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:06.598 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:06.812 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:07.017 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:07.231 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:07.446 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:07.655 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:07.870 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:08.086 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:08.296 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:08.504 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:08.716 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:08.933 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:09.138 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:09.345 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:09.551 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:09.761 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:09.981 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:10.189 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:10.398 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:10.602 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:10.813 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:11.034 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:11.244 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:11.453 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:11.659 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:11.862 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:12.079 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:12.286 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:12.502 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:12.720 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:12.924 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:13.131 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:13.341 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:13.553 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:13.757 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:13.976 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:14.190 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:14.394 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:14.603 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:14.810 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:15.018 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:15.226 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:15.436 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:15.646 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:15.846 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:16.063 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:16.273 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:16.480 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:16.697 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:16.916 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:17.129 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:17.332 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:17.535 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:17.750 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:17.960 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:18.172 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:18.379 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:18.594 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:18.802 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:19.012 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:19.224 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:19.427 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:19.642 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:19.865 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:20.070 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:20.277 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:20.489 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:20.699 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:20.913 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:21.118 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:21.334 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:21.538 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:21.757 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:21.981 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:22.188 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:22.396 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:22.606 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:22.823 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:35:23.032 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-95.0 | 解锁阈值:-90.0
+03-26 14:39:31.310 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=0
+03-26 14:39:31.316 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 0)
+03-26 14:39:31.329 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+03-26 14:39:31.331 D/BleProximity: 📡 连接状态: DISCONNECTED
+03-26 14:39:31.481 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新挂载硬件直连...
+03-26 14:39:31.506 D/MGWidget: onUpdate called for IDs: 20
+03-26 14:39:31.510 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+03-26 14:39:31.683 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+03-26 14:39:32.577 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 826ms) ──────
+03-26 14:39:32.596 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+03-26 14:39:32.605 D/MG_NET_LOG: │ Method: POST
+03-26 14:39:32.609 D/MG_NET_LOG: │ Header: app-type: roewe
+03-26 14:39:32.614 D/MG_NET_LOG: │ Header: timestamp: 1774507171738
+03-26 14:39:32.619 D/MG_NET_LOG: │ Header: sign: l8J/v051qr+IgAU/iS1x4Rr+/s01P0VZOBm1Nx60bMI=
+03-26 14:39:32.619 D/MG_NET_LOG: │ Params: data={"vin":"LSJW94399NG101357","appId":"Roewe","brandCode":"1","nonce":"754B9BBE8692E6FF887FCC5B243F5804","timestamp":"1774507171688","token":"bc401438eee34b3eabcf37abf64a594f-prod_SAIC"}
+03-26 14:39:32.622 D/MG_NET_LOG: ├────── Response Result ──────
+03-26 14:39:32.626 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19d28dea44865dac80a","data":{"vehicle_position":{"satellites":7,"altitude":7,"latitude":"31.101932","gps_status":2,"update_time":1774497665000,"gps_time":1774506891000,"hdop":9,"longitude":"121.366710"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":256,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":265,"battery_pack_range":36,"power_mode":0,"engine_status":0,"exterior_temperature":15,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":63,"localfront_left_seat_heat_level":null,"interior_pm25":508,"odometer":41003,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":124,"chrgng_rmnng_time_v":null,"exterior_pm25":508,"front_left_tyre_pressure":252,"charge_status":0,"localfront_right_seat_vent_level":null,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":256,"battery_pack_prc":734,"interior_temperature_v":null,"steer_heat_failure_reason":null,"local_sec_row_r_seat_heat_lvl":null,"clstr_elec_rng_to_eptv":null,"fuel_range":229,"current_journey_id":4621,"pwr_lftgt_pos_v":null,"interior_temperature":23,"localfront_right_seat_heat_level":null,"heading":122,"battery_alarm_value":[50,200,500],"update_time":1774497665000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":256,"vehicle_battery_prc":848,"battery_type":0,"fuel_level_disp":0,"monitor_status":null,"localfront_left_seat_vent_level":null,"chrgng_rmnng_time":null},"update_time":1774497665000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"driver_window":false,"clstr_range":false,"vehicle_battery_connected":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"left_seat_vent":false,"second_row_right_seat_heat":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1774497665000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_
+03-26 14:39:32.629 D/MG_NET_LOG: │ Result(Part 2): window":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+03-26 14:39:32.630 D/MG_NET_LOG: └──────────────────────────────────────────────────
+03-26 14:39:32.719 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 上海市闵行区中春路莘庄镇莘纪苑小区
+03-26 14:39:32.720 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+03-26 14:39:32.723 D/MGWidget: updateWidgetSynchronously called for ID: 20
+03-26 14:39:33.483 D/BleProximity: 🔍 开始连接
+03-26 14:39:33.485 D/BleProximity: 车辆 MAC 地址 B0:10:A0:4D:2F:D7
+03-26 14:39:33.485 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+03-26 14:39:33.486 D/BleProximity: 📡 连接状态: CONNECTING
+03-26 14:39:33.495 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): B0:10:A0:4D:2F:D7
