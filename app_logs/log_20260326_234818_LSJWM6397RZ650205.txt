@@ -1,0 +1,146 @@
+--- Log Capture Start: 20260326_234818 ---
+03-26 23:47:48.904 D/BleProximity: 📶 RSSI: -85
+03-26 23:47:49.211 D/BleProximity: 📶 RSSI: -86
+03-26 23:47:49.517 D/BleProximity: 📶 RSSI: -88
+03-26 23:47:49.821 D/BleProximity: 📶 RSSI: -90
+03-26 23:47:50.124 D/BleProximity: 📶 RSSI: -89
+03-26 23:47:50.430 D/BleProximity: 📶 RSSI: -89
+03-26 23:47:50.736 D/BleProximity: 📶 RSSI: -89
+03-26 23:47:51.040 D/BleProximity: 📶 RSSI: -89
+03-26 23:47:51.345 D/BleProximity: 📶 RSSI: -86
+03-26 23:47:51.643 D/BleProximity: 📶 RSSI: -87
+03-26 23:47:51.645 D/BleProximity: 🔒 <<< 触发上锁 <<<
+03-26 23:47:51.646 D/BleProximity: 原因: 信号均值(-88) < 阈值(-87.0) 
+03-26 23:47:51.646 D/BleProximity: 📤 发送指令: 锁车门
+03-26 23:47:51.697 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 636337616566653638613862
+03-26 23:47:51.700 D/BleProximity: 🔐 处理认证挑战: 636337616566653638613862
+03-26 23:47:51.951 D/BleProximity: 📶 RSSI: -88
+03-26 23:47:52.259 D/BleProximity: 📶 RSSI: -89
+03-26 23:47:52.564 D/BleProximity: 📶 RSSI: -91
+03-26 23:47:52.852 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3032
+03-26 23:47:52.857 D/BleProximity: 上锁成功
+03-26 23:47:52.859 D/BleProximity: 📊 指令出队: 锁车门 -> SUCCESS
+03-26 23:47:52.859 D/BleProximity: 🔒 上锁结果: SUCCESS
+03-26 23:47:52.859 D/BleProximity: 🔄 同步状态: 车辆已上锁
+03-26 23:47:52.870 D/BleProximity: 📶 RSSI: -91
+03-26 23:47:52.871 D/BleProximity: 📊 正在收集信号样本: 1/5
+03-26 23:47:53.177 D/BleProximity: 📶 RSSI: -90
+03-26 23:47:53.178 D/BleProximity: 📊 正在收集信号样本: 2/5
+03-26 23:47:53.483 D/BleProximity: 📶 RSSI: -92
+03-26 23:47:53.485 D/BleProximity: 📊 正在收集信号样本: 3/5
+03-26 23:47:53.790 D/BleProximity: 📶 RSSI: -92
+03-26 23:47:53.791 D/BleProximity: 📊 正在收集信号样本: 4/5
+03-26 23:47:54.089 D/BleProximity: 📶 RSSI: -91
+03-26 23:47:54.394 D/BleProximity: 📶 RSSI: -89
+03-26 23:47:54.697 D/BleProximity: 📶 RSSI: -88
+03-26 23:47:55.003 D/BleProximity: 📶 RSSI: -84
+03-26 23:47:55.307 D/BleProximity: 📶 RSSI: -83
+03-26 23:47:55.610 D/BleProximity: 📶 RSSI: -83
+03-26 23:47:55.917 D/BleProximity: 📶 RSSI: -82
+03-26 23:47:56.218 D/BleProximity: 📶 RSSI: -81
+03-26 23:47:56.525 D/BleProximity: 📶 RSSI: -80
+03-26 23:47:56.828 D/BleProximity: 📶 RSSI: -77
+03-26 23:47:57.131 D/BleProximity: 📶 RSSI: -79
+03-26 23:47:57.438 D/BleProximity: 📶 RSSI: -80
+03-26 23:47:57.740 D/BleProximity: 📶 RSSI: -84
+03-26 23:47:58.045 D/BleProximity: 📶 RSSI: -80
+03-26 23:47:58.350 D/BleProximity: 📶 RSSI: -80
+03-26 23:47:58.649 D/BleProximity: 📶 RSSI: -81
+03-26 23:47:58.962 D/BleProximity: 📶 RSSI: -80
+03-26 23:47:59.264 D/BleProximity: 📶 RSSI: -80
+03-26 23:47:59.569 D/BleProximity: 📶 RSSI: -83
+03-26 23:47:59.872 D/BleProximity: 📶 RSSI: -81
+03-26 23:48:00.177 D/BleProximity: 📶 RSSI: -79
+03-26 23:48:00.485 D/BleProximity: 📶 RSSI: -79
+03-26 23:48:00.787 D/BleProximity: 📶 RSSI: -74
+03-26 23:48:01.092 D/BleProximity: 📶 RSSI: -72
+03-26 23:48:01.392 D/BleProximity: 📶 RSSI: -73
+03-26 23:48:01.697 D/BleProximity: 📶 RSSI: -78
+03-26 23:48:02.005 D/BleProximity: 📶 RSSI: -78
+03-26 23:48:02.314 D/BleProximity: 📶 RSSI: -75
+03-26 23:48:02.616 D/BleProximity: 📶 RSSI: -77
+03-26 23:48:02.921 D/BleProximity: 📶 RSSI: -81
+03-26 23:48:02.922 D/BleProximity: 🔓 >>> 触发解锁 <<<
+03-26 23:48:02.923 D/BleProximity: 原因: 信号均值(-77) > 阈值(-84.0) 
+03-26 23:48:02.924 D/BleProximity: 📤 发送指令: 解锁车门
+03-26 23:48:02.977 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 626537303063616565623163
+03-26 23:48:02.979 D/BleProximity: 🔐 处理认证挑战: 626537303063616565623163
+03-26 23:48:03.230 D/BleProximity: 📶 RSSI: -80
+03-26 23:48:03.533 D/BleProximity: 📶 RSSI: -77
+03-26 23:48:03.838 D/BleProximity: 📶 RSSI: -76
+03-26 23:48:04.140 D/BleProximity: 📶 RSSI: -75
+03-26 23:48:04.211 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3031
+03-26 23:48:04.213 D/BleProximity: 解锁成功
+03-26 23:48:04.214 D/BleProximity: 📊 指令出队: 解锁车门 -> SUCCESS
+03-26 23:48:04.215 D/BleProximity: 🔓 解锁结果: SUCCESS
+03-26 23:48:04.216 D/BleProximity: 🔄 同步状态: 车辆已解锁
+03-26 23:48:04.227 D/BleProximity: 🔗 链式触发: 120秒打火
+03-26 23:48:04.443 D/BleProximity: 📶 RSSI: -75
+03-26 23:48:04.444 D/BleProximity: 📊 正在收集信号样本: 1/5
+03-26 23:48:04.730 D/BleProximity: 📤 发送指令: 120秒打火
+03-26 23:48:04.747 D/BleProximity: 📶 RSSI: -74
+03-26 23:48:04.748 D/BleProximity: 📊 正在收集信号样本: 2/5
+03-26 23:48:04.792 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 313962346639373561303763
+03-26 23:48:04.793 D/BleProximity: 🔐 处理认证挑战: 313962346639373561303763
+03-26 23:48:05.057 D/BleProximity: 📶 RSSI: -76
+03-26 23:48:05.058 D/BleProximity: 📊 正在收集信号样本: 3/5
+03-26 23:48:05.361 D/BleProximity: 📶 RSSI: -78
+03-26 23:48:05.362 D/BleProximity: 📊 正在收集信号样本: 4/5
+03-26 23:48:05.664 D/BleProximity: 📶 RSSI: -78
+03-26 23:48:05.969 D/BleProximity: 📶 RSSI: -79
+03-26 23:48:06.271 D/BleProximity: 📶 RSSI: -81
+03-26 23:48:06.577 D/BleProximity: 📶 RSSI: -82
+03-26 23:48:06.874 D/BleProximity: 📶 RSSI: -82
+03-26 23:48:07.178 D/BleProximity: 📶 RSSI: -86
+03-26 23:48:07.487 D/BleProximity: 📶 RSSI: -88
+03-26 23:48:07.736 D/BleProximity: ℹ️ 打火指令已发送（协议无成功返回值），默认视为成功
+03-26 23:48:07.737 D/BleProximity: 📊 指令出队: 120秒打火 -> SUCCESS
+03-26 23:48:07.791 D/BleProximity: 📶 RSSI: -87
+03-26 23:48:08.095 D/BleProximity: 📶 RSSI: -86
+03-26 23:48:08.398 D/BleProximity: 📶 RSSI: -88
+03-26 23:48:08.699 D/BleProximity: 📶 RSSI: -88
+03-26 23:48:09.010 D/BleProximity: 📶 RSSI: -89
+03-26 23:48:09.311 D/BleProximity: 📶 RSSI: -88
+03-26 23:48:09.619 D/BleProximity: 📶 RSSI: -89
+03-26 23:48:09.921 D/BleProximity: 📶 RSSI: -90
+03-26 23:48:10.227 D/BleProximity: 📶 RSSI: -88
+03-26 23:48:10.532 D/BleProximity: 📶 RSSI: -87
+03-26 23:48:10.836 D/BleProximity: 📶 RSSI: -86
+03-26 23:48:11.143 D/BleProximity: 📶 RSSI: -89
+03-26 23:48:11.447 D/BleProximity: 📶 RSSI: -90
+03-26 23:48:11.747 D/BleProximity: 📶 RSSI: -90
+03-26 23:48:12.056 D/BleProximity: 📶 RSSI: -90
+03-26 23:48:12.363 D/BleProximity: 📶 RSSI: -90
+03-26 23:48:12.666 D/BleProximity: 📶 RSSI: -86
+03-26 23:48:12.972 D/BleProximity: 📶 RSSI: -86
+03-26 23:48:13.281 D/BleProximity: 📶 RSSI: -88
+03-26 23:48:13.583 D/BleProximity: 📶 RSSI: -90
+03-26 23:48:13.884 D/BleProximity: 📶 RSSI: -92
+03-26 23:48:14.190 D/BleProximity: 📶 RSSI: -92
+03-26 23:48:14.495 D/BleProximity: 📶 RSSI: -92
+03-26 23:48:14.497 D/BleProximity: 🔒 <<< 触发上锁 <<<
+03-26 23:48:14.498 D/BleProximity: 原因: 信号均值(-90) < 阈值(-87.0) 
+03-26 23:48:14.499 D/BleProximity: 📤 发送指令: 锁车门
+03-26 23:48:14.559 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 646530383966353932373563
+03-26 23:48:14.561 D/BleProximity: 🔐 处理认证挑战: 646530383966353932373563
+03-26 23:48:14.797 D/BleProximity: 📶 RSSI: -92
+03-26 23:48:15.103 D/BleProximity: 📶 RSSI: -91
+03-26 23:48:15.409 D/BleProximity: 📶 RSSI: -90
+03-26 23:48:15.819 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3032
+03-26 23:48:15.821 D/BleProximity: 上锁成功
+03-26 23:48:15.822 D/BleProximity: 📊 指令出队: 锁车门 -> SUCCESS
+03-26 23:48:15.823 D/BleProximity: 🔒 上锁结果: SUCCESS
+03-26 23:48:15.825 D/BleProximity: 🔄 同步状态: 车辆已上锁
+03-26 23:48:16.021 D/BleProximity: 📶 RSSI: -89
+03-26 23:48:16.022 D/BleProximity: 📊 正在收集信号样本: 1/5
+03-26 23:48:16.324 D/BleProximity: 📶 RSSI: -89
+03-26 23:48:16.325 D/BleProximity: 📊 正在收集信号样本: 2/5
+03-26 23:48:16.632 D/BleProximity: 📶 RSSI: -89
+03-26 23:48:16.633 D/BleProximity: 📊 正在收集信号样本: 3/5
+03-26 23:48:16.933 D/BleProximity: 📶 RSSI: -89
+03-26 23:48:16.934 D/BleProximity: 📊 正在收集信号样本: 4/5
+03-26 23:48:17.240 D/BleProximity: 📶 RSSI: -90
+03-26 23:48:17.542 D/BleProximity: 📶 RSSI: -91
+03-26 23:48:17.845 D/BleProximity: 📶 RSSI: -91
+03-26 23:48:18.153 D/BleProximity: 📶 RSSI: -88
+03-26 23:48:18.456 D/BleProximity: 📶 RSSI: -87
