@@ -1,0 +1,21 @@
+--- Log Capture Start: 20260328_081656 ---
+03-28 08:16:23.530 D/BleProximity: ⚙️ 底层状态反馈: status=62, newState=0
+03-28 08:16:23.532 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 62)
+03-28 08:16:23.534 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+03-28 08:16:23.534 D/BleProximity: 📡 连接状态: DISCONNECTED
+03-28 08:16:23.544 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新挂载硬件直连...
+03-28 08:16:25.547 D/BleProximity: 🔍 开始连接
+03-28 08:16:25.552 D/BleProximity: 车辆 MAC 地址 74:B8:39:D4:39:AA
+03-28 08:16:25.555 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+03-28 08:16:25.556 D/BleProximity: 📡 连接状态: CONNECTING
+03-28 08:16:25.564 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): 74:B8:39:D4:39:AA
+03-28 08:16:29.824 D/BleProximity: ⚙️ 底层状态反馈: status=62, newState=0
+03-28 08:16:29.827 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 62)
+03-28 08:16:29.828 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+03-28 08:16:29.828 D/BleProximity: 📡 连接状态: DISCONNECTED
+03-28 08:16:29.846 D/BleProximity: 🔄 仍有活跃 Session，将在 2 秒后重新挂载硬件直连...
+03-28 08:16:31.854 D/BleProximity: 🔍 开始连接
+03-28 08:16:31.855 D/BleProximity: 车辆 MAC 地址 74:B8:39:D4:39:AA
+03-28 08:16:31.856 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+03-28 08:16:31.856 D/BleProximity: 📡 连接状态: CONNECTING
+03-28 08:16:31.859 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): 74:B8:39:D4:39:AA
