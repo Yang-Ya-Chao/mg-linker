@@ -1,0 +1,211 @@
+--- Log Capture Start: 20260407_113809 ---
+04-07 11:37:37.091 D/BleProximity: ⚙️ 底层状态反馈: status=8, newState=0
+04-07 11:37:37.096 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 8)
+04-07 11:37:37.104 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+04-07 11:37:37.104 D/BleProximity: 📡 连接状态: DISCONNECTED
+04-07 11:37:37.130 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+04-07 11:37:37.630 D/BleProximity: 🔍 开始连接
+04-07 11:37:37.631 D/BleProximity: 车辆 MAC 地址 D4:06:0F:CF:B4:7F
+04-07 11:37:37.631 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+04-07 11:37:37.631 D/BleProximity: 📡 连接状态: CONNECTING
+04-07 11:37:37.652 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): D4:06:0F:CF:B4:7F
+04-07 11:37:37.654 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+04-07 11:37:41.666 D/BleProximity: ❌ 认证超时
+04-07 11:37:41.667 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+04-07 11:37:41.667 D/BleProximity: 持有者: [BleProximityManager]
+04-07 11:37:42.663 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+04-07 11:37:42.668 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+04-07 11:37:42.668 D/BleProximity: 📡 连接状态: DISCONNECTED
+04-07 11:37:43.687 D/BleProximity: 🔍 开始连接
+04-07 11:37:43.687 D/BleProximity: 车辆 MAC 地址 D4:06:0F:CF:B4:7F
+04-07 11:37:43.688 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+04-07 11:37:43.688 D/BleProximity: 📡 连接状态: CONNECTING
+04-07 11:37:43.703 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): D4:06:0F:CF:B4:7F
+04-07 11:37:43.706 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+04-07 11:37:47.191 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+04-07 11:37:47.200 D/BleProximity: ✅ 已连接，开始发现服务
+04-07 11:37:47.201 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+04-07 11:37:47.201 D/BleProximity: 📡 连接状态: CONNECTED
+04-07 11:37:47.234 D/BleProximity: ✅ 特征初始化完成
+04-07 11:37:47.531 D/BleProximity: MTU 生效: 65
+04-07 11:37:47.531 D/BleProximity: 🔐 开始认证流程
+04-07 11:37:47.532 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+04-07 11:37:47.533 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+04-07 11:37:47.534 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+04-07 11:37:47.535 D/BleProximity: 🔔 启用通知: d341, 结果: true
+04-07 11:37:47.536 D/BleProximity: 📤 准备发送Booking ID: 01ABC997 (进入串行队列)
+04-07 11:37:47.588 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+04-07 11:37:47.597 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+04-07 11:37:47.641 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+04-07 11:37:47.647 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+04-07 11:37:47.699 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+04-07 11:37:47.714 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+04-07 11:37:47.716 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+04-07 11:37:47.913 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 394137423741383832444135
+04-07 11:37:47.928 D/BleProximity: 🔐 处理认证挑战: 394137423741383832444135
+04-07 11:37:47.936 D/BleManager: ⬇️ 底层执行: 发送认证响应
+04-07 11:37:47.939 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+04-07 11:37:49.871 D/BleProximity: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3030
+04-07 11:37:49.882 D/BleProximity: ❌ 认证失败: 00
+04-07 11:37:49.883 D/BleProximity: ❌ 认证失败: 认证码: 00
+04-07 11:37:49.916 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+04-07 11:37:49.917 D/BleProximity: 持有者: [BleProximityManager]
+04-07 11:37:50.624 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+04-07 11:37:50.630 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+04-07 11:37:50.630 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+04-07 11:37:50.631 D/BleProximity: 📡 连接状态: DISCONNECTED
+04-07 11:37:50.643 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+04-07 11:37:51.156 D/BleProximity: 🔍 开始连接
+04-07 11:37:51.156 D/BleProximity: 车辆 MAC 地址 D4:06:0F:CF:B4:7F
+04-07 11:37:51.156 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+04-07 11:37:51.157 D/BleProximity: 📡 连接状态: CONNECTING
+04-07 11:37:51.171 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): D4:06:0F:CF:B4:7F
+04-07 11:37:51.172 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+04-07 11:37:51.575 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+04-07 11:37:51.586 D/BleProximity: ✅ 已连接，开始发现服务
+04-07 11:37:51.587 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+04-07 11:37:51.587 D/BleProximity: 📡 连接状态: CONNECTED
+04-07 11:37:51.604 D/BleProximity: ✅ 特征初始化完成
+04-07 11:37:51.903 D/BleProximity: MTU 生效: 65
+04-07 11:37:51.904 D/BleProximity: 🔐 开始认证流程
+04-07 11:37:51.905 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+04-07 11:37:51.905 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+04-07 11:37:51.907 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+04-07 11:37:51.908 D/BleProximity: 🔔 启用通知: d341, 结果: true
+04-07 11:37:51.908 D/BleProximity: 📤 准备发送Booking ID: 01ABC997 (进入串行队列)
+04-07 11:37:51.960 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+04-07 11:37:51.967 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+04-07 11:37:52.022 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+04-07 11:37:52.033 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+04-07 11:37:52.080 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+04-07 11:37:52.083 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+04-07 11:37:52.087 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+04-07 11:37:52.408 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 414338353744383432323842
+04-07 11:37:52.415 D/BleProximity: 🔐 处理认证挑战: 414338353744383432323842
+04-07 11:37:52.416 D/BleManager: ⬇️ 底层执行: 发送认证响应
+04-07 11:37:52.419 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+04-07 11:37:52.847 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 133ms) ──────
+04-07 11:37:52.847 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+04-07 11:37:52.848 D/MG_NET_LOG: │ Method: POST
+04-07 11:37:52.848 D/MG_NET_LOG: │ Header: app-type: mgapp
+04-07 11:37:52.848 D/MG_NET_LOG: │ Header: timestamp: 1775533072709
+04-07 11:37:52.849 D/MG_NET_LOG: │ Header: sign: eIgd9xnQtsb5FxiB6so/COqqXvnnFLi5RTyCnrshwo0=
+04-07 11:37:52.849 D/MG_NET_LOG: │ Params: data={"userId":"15100002707477","appId":"MG","brandCode":"2","nonce":"6418CB18101119E345A47E5C79C6EE67","timestamp":"1775533072707","token":"00eb64467080470caa97b1dc5e50a464-prod_SAIC"}
+04-07 11:37:52.849 D/MG_NET_LOG: ├────── Response Result ──────
+04-07 11:37:52.849 D/MG_NET_LOG: │ Result: {"req_id":"19d6604a16b6d8718e1","data":{"digital_key_list":[{"max_offline_times":null,"update_date":1775313665000,"grant_time":null,"activition_time":1765189229000,"device_id":"2b30b024ff41761138f04eb9839f81d4","personalized":null,"card_switch":null,"relation":"1","kr_id":"53473134343530362CD79825CA1C4804","valid_end_time":null,"app_id":null,"offline_times":5,"power_scope":null,"vin":"LSJEB4069SG144506","id":109991,"bluetooth_sn":"30313235413137413030313439313539FFFFFFFF","create_date":1765170240000,"brand_code":"2","device_type":"ELP-AN00","icce_card_status":"0","number_of_share":3,"bluetooth_mac":"F86FDE91CB94","owner_digital_key_id":null,"is_valid":0,"delete_type":null,"usher_status":false,"user_name":null,"grant_key_status":null,"user_id":15100002707477,"sub_status":null,"grant_info_id":null,"is_auto_lock":true,"create_by":1,"is_auto_unlock":true,"valid_begin_time":null,"activation_notice":null,"user_account":"17335813582","owner_user_id":null,"digital_key_type":"owner","share_url":null,"validity":null,"download_status":"1","device_brand":"HONOR","dk_server_sp":"uaes","last_update_by":1,"status":"1"}],"bluetooth_key_list":[{"license_no":"晋AAA3067","secret_key":"7720641391769714","key_end_time":1780898283000,"key_start_time":1772949483000,"mobile":null,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":28035479,"owner_mobile":"17335813582","owner_name":null,"enable":true,"tbox_mac":"B47F0FCFD406","aes_key":"8060097718475445","vin":"LSJEB4069SG144506","status":3}]}}
+04-07 11:37:52.849 D/MG_NET_LOG: └──────────────────────────────────────────────────
+04-07 11:37:52.864 D/BleProximity: 🔄 引擎配置已热更新 | 落锁阈值:-90.0 | 解锁阈值:-87.0 | 趋势检测:true
+04-07 11:37:52.867 D/IslandWindowManager: 灵动岛已从 WindowManager 移除
+04-07 11:37:52.885 D/MGWidget: onUpdate called for IDs: 7193
+04-07 11:37:52.886 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+04-07 11:37:52.999 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+04-07 11:37:53.680 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 675ms) ──────
+04-07 11:37:53.681 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+04-07 11:37:53.682 D/MG_NET_LOG: │ Method: POST
+04-07 11:37:53.682 D/MG_NET_LOG: │ Header: app-type: mgapp
+04-07 11:37:53.682 D/MG_NET_LOG: │ Header: timestamp: 1775533073004
+04-07 11:37:53.682 D/MG_NET_LOG: │ Header: sign: DX+isQ14z4vTv5jUKlfuhcq85BaUuN8jw4vWdBSBlhI=
+04-07 11:37:53.682 D/MG_NET_LOG: │ Params: data={"vin":"LSJEB4069SG144506","appId":"MG","brandCode":"2","nonce":"9F80A03F96D309FF74A3DF8439615CEE","timestamp":"1775533073002","token":"00eb64467080470caa97b1dc5e50a464-prod_SAIC"}
+04-07 11:37:53.683 D/MG_NET_LOG: ├────── Response Result ──────
+04-07 11:37:53.683 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19d6604a2a4889493e2","data":{"vehicle_position":{"satellites":7,"altitude":805,"gps_status":3,"latitude":"37.953025","update_time":1775521131000,"gps_time":1775531949000,"hdop":8,"longitude":"112.525796"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":0,"steer_heat_level":0,"pwr_lftgt_pos":0,"inst_fuel_consumption":null,"rear_right_tyre_pressure":272,"battery_pack_fault_status":null,"charge_door_position_status":0,"tbox_internal_battery":null,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":0,"battery_lattice_number":4,"driving_range":0,"battery_pack_range":373,"power_mode":0,"engine_status":0,"exterior_temperature":0,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":0,"localfront_left_seat_heat_level":0,"interior_pm25":0,"odometer":13323,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":0,"rmt_seat_vent_flr_rsn":0,"inspect_status":null,"remote_steer_heat_level":0,"last_key_seen":0,"wheel_tyre_monitor_status":0,"rmt_a_c_abot_rsn":0,"vehicle_battery":1220,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":272,"charge_status":1009,"localfront_right_seat_vent_level":0,"speed":0,"vehicle_battery_dev":2,"front_right_tyre_pressure":272,"battery_pack_prc":939,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":0,"clstr_elec_rng_to_eptv":0,"fuel_range":0,"current_journey_id":965,"pwr_lftgt_pos_v":0,"interior_temperature":27,"localfront_right_seat_heat_level":0,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1775531379000,"remote_climate_status":0,"fota_status":0,"bms_charge_status":null,"current_journey_distance":0,"vehicle_alarm_status":0,"rear_left_tyre_pressure":272,"veh_intlgnt_scene_md":0,"vehicle_battery_prc":968,"fuel_level_disp":0,"monitor_status":null,"battery_type":1,"chrgng_rmnng_time":1023,"localfront_left_seat_vent_level":0},"update_time":1775531379000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"clstr_range":true,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":false,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1775531379000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_window":false,"sunroof":false,"rear_left_door":false,"passen
+04-07 11:37:53.683 D/MG_NET_LOG: │ Result(Part 2): ger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+04-07 11:37:53.683 D/MG_NET_LOG: └──────────────────────────────────────────────────
+04-07 11:37:53.688 D/WidgetUpdateWorker: 开始获取地址
+04-07 11:37:53.691 D/WidgetUpdateWorker: 高德地址：山西省太原市尖草坪区迎新街道迎新路19号
+04-07 11:37:53.692 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 山西省太原市尖草坪区迎新街道迎新路19号
+04-07 11:37:53.693 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+04-07 11:37:53.694 D/MGWidget: updateWidgetSynchronously called for ID: 7193
+04-07 11:37:54.360 D/BleProximity: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3030
+04-07 11:37:54.360 D/BleProximity: ❌ 认证失败: 00
+04-07 11:37:54.360 D/BleProximity: ❌ 认证失败: 认证码: 00
+04-07 11:37:54.374 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+04-07 11:37:54.374 D/BleProximity: 持有者: [BleProximityManager]
+04-07 11:37:55.122 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+04-07 11:37:55.123 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+04-07 11:37:55.123 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+04-07 11:37:55.123 D/BleProximity: 📡 连接状态: DISCONNECTED
+04-07 11:37:55.132 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+04-07 11:37:55.633 D/BleProximity: 🔍 开始连接
+04-07 11:37:55.633 D/BleProximity: 车辆 MAC 地址 D4:06:0F:CF:B4:7F
+04-07 11:37:55.633 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+04-07 11:37:55.633 D/BleProximity: 📡 连接状态: CONNECTING
+04-07 11:37:55.643 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): D4:06:0F:CF:B4:7F
+04-07 11:37:55.643 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+04-07 11:37:56.239 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+04-07 11:37:56.240 D/BleProximity: ✅ 已连接，开始发现服务
+04-07 11:37:56.241 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+04-07 11:37:56.241 D/BleProximity: 📡 连接状态: CONNECTED
+04-07 11:37:56.257 D/BleProximity: ✅ 特征初始化完成
+04-07 11:37:56.557 D/BleProximity: MTU 生效: 65
+04-07 11:37:56.560 D/BleProximity: 🔐 开始认证流程
+04-07 11:37:56.564 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+04-07 11:37:56.565 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+04-07 11:37:56.571 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+04-07 11:37:56.572 D/BleProximity: 🔔 启用通知: d341, 结果: true
+04-07 11:37:56.573 D/BleProximity: 📤 准备发送Booking ID: 01ABC997 (进入串行队列)
+04-07 11:37:56.612 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+04-07 11:37:56.614 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+04-07 11:37:56.672 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+04-07 11:37:56.673 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+04-07 11:37:56.911 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+04-07 11:37:56.913 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+04-07 11:37:56.920 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+04-07 11:37:57.210 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 384342464335383037374546
+04-07 11:37:57.212 D/BleProximity: 🔐 处理认证挑战: 384342464335383037374546
+04-07 11:37:57.214 D/BleManager: ⬇️ 底层执行: 发送认证响应
+04-07 11:37:57.220 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+04-07 11:37:59.158 D/BleProximity: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3030
+04-07 11:37:59.160 D/BleProximity: ❌ 认证失败: 00
+04-07 11:37:59.161 D/BleProximity: ❌ 认证失败: 认证码: 00
+04-07 11:37:59.184 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+04-07 11:37:59.185 D/BleProximity: 持有者: [BleProximityManager]
+04-07 11:37:59.971 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+04-07 11:37:59.973 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+04-07 11:37:59.973 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+04-07 11:37:59.974 D/BleProximity: 📡 连接状态: DISCONNECTED
+04-07 11:37:59.986 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+04-07 11:38:00.488 D/BleProximity: 🔍 开始连接
+04-07 11:38:00.489 D/BleProximity: 车辆 MAC 地址 D4:06:0F:CF:B4:7F
+04-07 11:38:00.489 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+04-07 11:38:00.490 D/BleProximity: 📡 连接状态: CONNECTING
+04-07 11:38:00.498 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): D4:06:0F:CF:B4:7F
+04-07 11:38:00.499 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+04-07 11:38:02.382 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+04-07 11:38:02.386 D/BleProximity: ✅ 已连接，开始发现服务
+04-07 11:38:02.388 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+04-07 11:38:02.388 D/BleProximity: 📡 连接状态: CONNECTED
+04-07 11:38:02.403 D/BleProximity: ✅ 特征初始化完成
+04-07 11:38:02.769 D/BleProximity: MTU 生效: 65
+04-07 11:38:02.769 D/BleProximity: 🔐 开始认证流程
+04-07 11:38:02.771 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+04-07 11:38:02.771 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+04-07 11:38:02.775 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+04-07 11:38:02.776 D/BleProximity: 🔔 启用通知: d341, 结果: true
+04-07 11:38:02.777 D/BleProximity: 📤 准备发送Booking ID: 01ABC997 (进入串行队列)
+04-07 11:38:02.880 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+04-07 11:38:02.881 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+04-07 11:38:03.361 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+04-07 11:38:03.364 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+04-07 11:38:03.814 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+04-07 11:38:03.817 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+04-07 11:38:03.821 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+04-07 11:38:04.713 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 394636414531413444383645
+04-07 11:38:04.715 D/BleProximity: 🔐 处理认证挑战: 394636414531413444383645
+04-07 11:38:04.716 D/BleManager: ⬇️ 底层执行: 发送认证响应
+04-07 11:38:04.725 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+04-07 11:38:06.510 D/BleProximity: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3030
+04-07 11:38:06.510 D/BleProximity: ❌ 认证失败: 00
+04-07 11:38:06.511 D/BleProximity: ❌ 认证失败: 认证码: 00
+04-07 11:38:06.532 D/BleProximity: ⚠️ 仍有 1 个活跃 Session，不执行断开
+04-07 11:38:06.532 D/BleProximity: 持有者: [BleProximityManager]
+04-07 11:38:07.293 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+04-07 11:38:07.296 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+04-07 11:38:07.296 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+04-07 11:38:07.296 D/BleProximity: 📡 连接状态: DISCONNECTED
+04-07 11:38:07.308 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+04-07 11:38:07.809 D/BleProximity: 🔍 开始连接
+04-07 11:38:07.810 D/BleProximity: 车辆 MAC 地址 D4:06:0F:CF:B4:7F
+04-07 11:38:07.810 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+04-07 11:38:07.810 D/BleProximity: 📡 连接状态: CONNECTING
+04-07 11:38:07.820 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): D4:06:0F:CF:B4:7F
+04-07 11:38:07.821 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
