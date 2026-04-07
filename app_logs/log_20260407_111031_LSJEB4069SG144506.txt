@@ -1,0 +1,171 @@
+--- Log Capture Start: 20260407_111031 ---
+04-07 11:10:16.334 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+04-07 11:10:16.337 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+04-07 11:10:16.422 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+04-07 11:10:16.437 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+04-07 11:10:16.872 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+04-07 11:10:16.873 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+04-07 11:10:16.878 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+04-07 11:10:17.175 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 383135343246413045354445
+04-07 11:10:17.175 D/ControlWidget: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 383135343246413045354445
+04-07 11:10:17.177 D/BleProximity: 🔐 处理认证挑战: 383135343246413045354445
+04-07 11:10:17.178 D/ControlWidget: 🔐 处理认证挑战: 383135343246413045354445
+04-07 11:10:17.178 D/BleManager: ⬇️ 底层执行: 发送认证响应
+04-07 11:10:17.184 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+04-07 11:10:19.125 D/BleProximity: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3030
+04-07 11:10:19.130 D/ControlWidget: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3030
+04-07 11:10:19.132 D/BleProximity: ❌ 认证失败: 00
+04-07 11:10:19.133 D/ControlWidget: ❌ 认证失败: 00
+04-07 11:10:19.134 D/BleProximity: ❌ 认证失败: 认证码: 00
+04-07 11:10:19.171 D/BleProximity: ⚠️ 仍有 3 个活跃 Session，不执行断开
+04-07 11:10:19.173 D/ControlWidget: ⚠️ 仍有 3 个活跃 Session，不执行断开
+04-07 11:10:19.174 D/BleProximity: 持有者: [BleProximityManager, WidgetControl]
+04-07 11:10:19.175 D/ControlWidget: 持有者: [BleProximityManager, WidgetControl]
+04-07 11:10:19.949 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+04-07 11:10:19.950 D/ControlWidget: ⚙️ 底层状态反馈: status=19, newState=0
+04-07 11:10:19.951 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+04-07 11:10:19.952 D/ControlWidget: ❌ 蓝牙底层断开连接 (Status: 19)
+04-07 11:10:19.952 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 2, Session: 3)
+04-07 11:10:19.953 D/ControlWidget: 📡 状态变更: DISCONNECTED (监听器: 2, Session: 3)
+04-07 11:10:19.953 D/BleProximity: 📡 连接状态: DISCONNECTED
+04-07 11:10:19.964 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+04-07 11:10:19.964 D/ControlWidget: 车辆附近，挂入【狂暴挡】准备秒连！
+04-07 11:10:20.465 D/BleProximity: 🔍 开始连接
+04-07 11:10:20.467 D/ControlWidget: 🔍 开始连接
+04-07 11:10:20.468 D/BleProximity: 车辆 MAC 地址 D4:06:0F:CF:B4:7F
+04-07 11:10:20.469 D/ControlWidget: 车辆 MAC 地址 D4:06:0F:CF:B4:7F
+04-07 11:10:20.470 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 2, Session: 3)
+04-07 11:10:20.470 D/ControlWidget: 📡 状态变更: CONNECTING (监听器: 2, Session: 3)
+04-07 11:10:20.471 D/BleProximity: 📡 连接状态: CONNECTING
+04-07 11:10:20.487 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): D4:06:0F:CF:B4:7F
+04-07 11:10:20.488 D/ControlWidget: ⚡ 发起底层硬件级直连 (autoConnect=true): D4:06:0F:CF:B4:7F
+04-07 11:10:20.489 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+04-07 11:10:20.489 D/ControlWidget: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+04-07 11:10:21.386 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+04-07 11:10:21.389 D/ControlWidget: ⚙️ 底层状态反馈: status=0, newState=2
+04-07 11:10:21.390 D/BleProximity: ✅ 已连接，开始发现服务
+04-07 11:10:21.391 D/ControlWidget: ✅ 已连接，开始发现服务
+04-07 11:10:21.391 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 2, Session: 3)
+04-07 11:10:21.392 D/ControlWidget: 📡 状态变更: CONNECTED (监听器: 2, Session: 3)
+04-07 11:10:21.392 D/BleProximity: 📡 连接状态: CONNECTED
+04-07 11:10:21.412 D/BleProximity: ✅ 特征初始化完成
+04-07 11:10:21.413 D/ControlWidget: ✅ 特征初始化完成
+04-07 11:10:21.685 D/BleProximity: MTU 生效: 65
+04-07 11:10:21.686 D/ControlWidget: MTU 生效: 65
+04-07 11:10:21.687 D/BleProximity: 🔐 开始认证流程
+04-07 11:10:21.688 D/ControlWidget: 🔐 开始认证流程
+04-07 11:10:21.691 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+04-07 11:10:21.692 D/ControlWidget: 🔔 启用通知: 4af4, 结果: true
+04-07 11:10:21.693 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+04-07 11:10:21.697 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+04-07 11:10:21.698 D/ControlWidget: 🔔 启用通知: a37b, 结果: true
+04-07 11:10:21.701 D/BleProximity: 🔔 启用通知: d341, 结果: true
+04-07 11:10:21.702 D/ControlWidget: 🔔 启用通知: d341, 结果: true
+04-07 11:10:21.703 D/BleProximity: 📤 准备发送Booking ID: 01ABC997 (进入串行队列)
+04-07 11:10:21.703 D/ControlWidget: 📤 准备发送Booking ID: 01ABC997 (进入串行队列)
+04-07 11:10:21.765 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+04-07 11:10:21.784 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+04-07 11:10:21.826 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+04-07 11:10:21.829 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+04-07 11:10:21.975 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+04-07 11:10:21.981 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+04-07 11:10:21.987 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+04-07 11:10:22.425 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 433042464230433645333938
+04-07 11:10:22.429 D/ControlWidget: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 433042464230433645333938
+04-07 11:10:22.433 D/BleProximity: 🔐 处理认证挑战: 433042464230433645333938
+04-07 11:10:22.434 D/ControlWidget: 🔐 处理认证挑战: 433042464230433645333938
+04-07 11:10:22.436 D/BleManager: ⬇️ 底层执行: 发送认证响应
+04-07 11:10:22.442 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+04-07 11:10:24.390 D/BleProximity: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3030
+04-07 11:10:24.392 D/ControlWidget: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3030
+04-07 11:10:24.393 D/BleProximity: ❌ 认证失败: 00
+04-07 11:10:24.394 D/ControlWidget: ❌ 认证失败: 00
+04-07 11:10:24.394 D/BleProximity: ❌ 认证失败: 认证码: 00
+04-07 11:10:24.434 D/BleProximity: ⚠️ 仍有 3 个活跃 Session，不执行断开
+04-07 11:10:24.437 D/ControlWidget: ⚠️ 仍有 3 个活跃 Session，不执行断开
+04-07 11:10:24.438 D/BleProximity: 持有者: [BleProximityManager, WidgetControl]
+04-07 11:10:24.438 D/ControlWidget: 持有者: [BleProximityManager, WidgetControl]
+04-07 11:10:25.183 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+04-07 11:10:25.184 D/ControlWidget: ⚙️ 底层状态反馈: status=19, newState=0
+04-07 11:10:25.185 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+04-07 11:10:25.185 D/ControlWidget: ❌ 蓝牙底层断开连接 (Status: 19)
+04-07 11:10:25.186 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 2, Session: 3)
+04-07 11:10:25.186 D/ControlWidget: 📡 状态变更: DISCONNECTED (监听器: 2, Session: 3)
+04-07 11:10:25.187 D/BleProximity: 📡 连接状态: DISCONNECTED
+04-07 11:10:25.201 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+04-07 11:10:25.202 D/ControlWidget: 车辆附近，挂入【狂暴挡】准备秒连！
+04-07 11:10:25.703 D/BleProximity: 🔍 开始连接
+04-07 11:10:25.705 D/ControlWidget: 🔍 开始连接
+04-07 11:10:25.706 D/BleProximity: 车辆 MAC 地址 D4:06:0F:CF:B4:7F
+04-07 11:10:25.707 D/ControlWidget: 车辆 MAC 地址 D4:06:0F:CF:B4:7F
+04-07 11:10:25.707 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 2, Session: 3)
+04-07 11:10:25.708 D/ControlWidget: 📡 状态变更: CONNECTING (监听器: 2, Session: 3)
+04-07 11:10:25.708 D/BleProximity: 📡 连接状态: CONNECTING
+04-07 11:10:25.727 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): D4:06:0F:CF:B4:7F
+04-07 11:10:25.729 D/ControlWidget: ⚡ 发起底层硬件级直连 (autoConnect=true): D4:06:0F:CF:B4:7F
+04-07 11:10:25.730 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+04-07 11:10:25.731 D/ControlWidget: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+04-07 11:10:26.479 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+04-07 11:10:26.480 D/ControlWidget: ⚙️ 底层状态反馈: status=0, newState=2
+04-07 11:10:26.481 D/BleProximity: ✅ 已连接，开始发现服务
+04-07 11:10:26.481 D/ControlWidget: ✅ 已连接，开始发现服务
+04-07 11:10:26.482 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 2, Session: 3)
+04-07 11:10:26.482 D/ControlWidget: 📡 状态变更: CONNECTED (监听器: 2, Session: 3)
+04-07 11:10:26.482 D/BleProximity: 📡 连接状态: CONNECTED
+04-07 11:10:26.497 D/BleProximity: ✅ 特征初始化完成
+04-07 11:10:26.498 D/ControlWidget: ✅ 特征初始化完成
+04-07 11:10:26.751 D/BleProximity: MTU 生效: 65
+04-07 11:10:26.752 D/ControlWidget: MTU 生效: 65
+04-07 11:10:26.753 D/BleProximity: 🔐 开始认证流程
+04-07 11:10:26.753 D/ControlWidget: 🔐 开始认证流程
+04-07 11:10:26.756 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+04-07 11:10:26.756 D/ControlWidget: 🔔 启用通知: 4af4, 结果: true
+04-07 11:10:26.756 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+04-07 11:10:26.759 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+04-07 11:10:26.760 D/ControlWidget: 🔔 启用通知: a37b, 结果: true
+04-07 11:10:26.761 D/BleProximity: 🔔 启用通知: d341, 结果: true
+04-07 11:10:26.762 D/ControlWidget: 🔔 启用通知: d341, 结果: true
+04-07 11:10:26.762 D/BleProximity: 📤 准备发送Booking ID: 01ABC997 (进入串行队列)
+04-07 11:10:26.762 D/ControlWidget: 📤 准备发送Booking ID: 01ABC997 (进入串行队列)
+04-07 11:10:26.805 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+04-07 11:10:26.825 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+04-07 11:10:26.895 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+04-07 11:10:26.899 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+04-07 11:10:27.074 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+04-07 11:10:27.083 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+04-07 11:10:27.089 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+04-07 11:10:27.525 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 433435334541313731384336
+04-07 11:10:27.528 D/ControlWidget: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 433435334541313731384336
+04-07 11:10:27.530 D/BleProximity: 🔐 处理认证挑战: 433435334541313731384336
+04-07 11:10:27.530 D/ControlWidget: 🔐 处理认证挑战: 433435334541313731384336
+04-07 11:10:27.531 D/BleManager: ⬇️ 底层执行: 发送认证响应
+04-07 11:10:27.540 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+04-07 11:10:29.489 D/BleProximity: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3030
+04-07 11:10:29.490 D/ControlWidget: 📨 收到特征变化: 31457EDC-878A-4A15-8554-3568DE71A37B, 数据长度: 2, 数据: 3030
+04-07 11:10:29.491 D/BleProximity: ❌ 认证失败: 00
+04-07 11:10:29.492 D/ControlWidget: ❌ 认证失败: 00
+04-07 11:10:29.492 D/BleProximity: ❌ 认证失败: 认证码: 00
+04-07 11:10:29.516 D/BleProximity: ⚠️ 仍有 3 个活跃 Session，不执行断开
+04-07 11:10:29.518 D/ControlWidget: ⚠️ 仍有 3 个活跃 Session，不执行断开
+04-07 11:10:29.519 D/BleProximity: 持有者: [BleProximityManager, WidgetControl]
+04-07 11:10:29.519 D/ControlWidget: 持有者: [BleProximityManager, WidgetControl]
+04-07 11:10:30.276 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+04-07 11:10:30.278 D/ControlWidget: ⚙️ 底层状态反馈: status=19, newState=0
+04-07 11:10:30.279 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+04-07 11:10:30.280 D/ControlWidget: ❌ 蓝牙底层断开连接 (Status: 19)
+04-07 11:10:30.280 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 2, Session: 3)
+04-07 11:10:30.280 D/ControlWidget: 📡 状态变更: DISCONNECTED (监听器: 2, Session: 3)
+04-07 11:10:30.281 D/BleProximity: 📡 连接状态: DISCONNECTED
+04-07 11:10:30.300 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+04-07 11:10:30.300 D/ControlWidget: 车辆附近，挂入【狂暴挡】准备秒连！
+04-07 11:10:30.803 D/BleProximity: 🔍 开始连接
+04-07 11:10:30.804 D/ControlWidget: 🔍 开始连接
+04-07 11:10:30.805 D/BleProximity: 车辆 MAC 地址 D4:06:0F:CF:B4:7F
+04-07 11:10:30.805 D/ControlWidget: 车辆 MAC 地址 D4:06:0F:CF:B4:7F
+04-07 11:10:30.806 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 2, Session: 3)
+04-07 11:10:30.807 D/ControlWidget: 📡 状态变更: CONNECTING (监听器: 2, Session: 3)
+04-07 11:10:30.808 D/BleProximity: 📡 连接状态: CONNECTING
+04-07 11:10:30.828 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): D4:06:0F:CF:B4:7F
+04-07 11:10:30.830 D/ControlWidget: ⚡ 发起底层硬件级直连 (autoConnect=true): D4:06:0F:CF:B4:7F
+04-07 11:10:30.830 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+04-07 11:10:30.831 D/ControlWidget: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
