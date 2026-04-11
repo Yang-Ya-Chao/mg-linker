@@ -18,7 +18,7 @@ MG Linker 是一款专为名爵(MG)和荣威(RW)汽车打造的Android桌面小�
 ## 安装步骤
 
 1. **下载安装应用**
-   - 下载最新版本的[MG Linker](https://gitee.com/yangyachao-X/mg-linker/releases/download/8.5/MG%20Linker.apk)
+   - 下载最新版本的[MG Linker](https://gitee.com/yangyachao-X/mg-linker/releases/download/8.6/MG%20Linker.apk)
    - 在手机上允许安装未知来源应用后完成安装
 
 2. **输入手机号码登录**
@@ -37,12 +37,12 @@ MG Linker 是一款专为名爵(MG)和荣威(RW)汽车打造的Android桌面小�
    - 配置成功后小组件将自动开始显示车辆数据
 ## 版本历史
 
-| 版本  | 更新内容        |
-|-----|-------------|
-| 8.5 | 增加高德地址解析   |
-| 5.4 | 界面重构前最后版本   |
-| 3.7 | 桌面带按钮控车最后版本 |
-| 1.0 | 初始版本        |
+| 版本  | 更新内容          |
+|-----|---------------|
+| 8.6 | 显示/自动更新过期蓝牙钥匙 |
+| 5.4 | 界面重构前最后版本     |
+| 3.7 | 桌面带按钮控车最后版本   |
+| 1.0 | 初始版本          |
 
 完整版本历史请访问 [Gitee Releases](https://gitee.com/yangyachao-X/mg-linker/releases)
 
