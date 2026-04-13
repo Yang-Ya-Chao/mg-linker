@@ -254,7 +254,7 @@ A: 确保使用正确版本的官方App；荣威车型需要抓取特定接口�
 A: 调试版日志保存在 `Android/data/com.my.mg/files/logs/MGLinker_log.txt`
 
 ### Q: 为什么没有远程/蓝牙控车代码
-A: 完整代码已开源到[github](https://github.com/Yang-Ya-Chao/MGLinker)
+A: 此部分为逆向获取，包含官方包，无法开源
 
 ## 💖鸣谢
 
