@@ -1,0 +1,16 @@
+--- Log Capture Start: 20260422_132633 ---
+04-22 13:25:30.017 D/IslandWindowManager: 灵动岛已存在，无需重复添加
+04-22 13:25:38.201 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 105ms) ──────
+04-22 13:25:38.201 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+04-22 13:25:38.201 D/MG_NET_LOG: │ Method: POST
+04-22 13:25:38.202 D/MG_NET_LOG: │ Header: app-type: mgapp
+04-22 13:25:38.202 D/MG_NET_LOG: │ Header: timestamp: 1776835538094
+04-22 13:25:38.203 D/MG_NET_LOG: │ Header: sign: wi/wjvEGPeAWHN3gUeskqipePZHUp8AXzvncYB6YEak=
+04-22 13:25:38.203 D/MG_NET_LOG: │ Params: data={"userId":"15100000785559","appId":"MG","brandCode":"2","nonce":"3E8B9B4C61059295D6420C0D7DF839F1","timestamp":"1776835538093","token":"3f5d0024ef794868b28c9c5c431c184e-prod_SAIC"}
+04-22 13:25:38.203 D/MG_NET_LOG: ├────── Response Result ──────
+04-22 13:25:38.203 D/MG_NET_LOG: │ Result: {"req_id":"19db3a6acea23be4d71","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":"鲁B70N52","secret_key":"2564402044191006","key_end_time":1779527526000,"mobile":null,"key_start_time":1771837926000,"if_remote_control_park":false,"key_privilege":null,"user_name":"不二先生","is_enable":true,"real_name":null,"key_reference":27884480,"owner_name":"不二先生","owner_mobile":"13706423596","enable":true,"tbox_mac":"448939C274B8","vin":"LSJWJ4W90PZ285291","aes_key":"5004956126669787","status":3}]}}
+04-22 13:25:38.203 D/MG_NET_LOG: └──────────────────────────────────────────────────
+04-22 13:25:38.217 D/BleProximity: 🔄 引擎配置已热更新 | 落锁阈值:-90.0 | 解锁阈值:-87.0 | 趋势检测:true
+04-22 13:25:38.217 D/IslandWindowManager: 灵动岛已存在，无需重复添加
+04-22 13:25:39.271 D/IslandWindowManager: 灵动岛已存在，无需重复添加
+04-22 13:26:22.834 D/IslandWindowManager: 灵动岛已存在，无需重复添加
