@@ -1,0 +1,15 @@
+--- Log Capture Start: 20260505_161626 ---
+05-05 16:16:22.822 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 350ms) ──────
+05-05 16:16:22.823 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+05-05 16:16:22.823 D/MG_NET_LOG: │ Method: POST
+05-05 16:16:22.824 D/MG_NET_LOG: │ Header: app-type: mgapp
+05-05 16:16:22.824 D/MG_NET_LOG: │ Header: timestamp: 1777968982467
+05-05 16:16:22.825 D/MG_NET_LOG: │ Header: sign: ibb7SHJ5QXabbyWJOZu56LVR1bUT1Yaplhcqb9mn2ZU=
+05-05 16:16:22.825 D/MG_NET_LOG: │ Params: data={"userId":"15100003284706","appId":"MG","brandCode":"2","nonce":"24F7396D272A25617A18665AFEA074D4","timestamp":"1777968982463","token":"7f3d8dfa33ca4d07ac6d1719aa2735df-prod_SAIC"}
+05-05 16:16:22.825 D/MG_NET_LOG: ├────── Response Result ──────
+05-05 16:16:22.826 D/MG_NET_LOG: │ Result: {"req_id":"19df735aafe2a2442","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":"闽D038NK","secret_key":"5848101457830821","key_end_time":1778828905000,"mobile":null,"key_start_time":1771139305000,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":27794510,"owner_name":null,"owner_mobile":"13666021700","enable":true,"tbox_mac":"5CF40FEBD406","vin":"LSJWJ4W90TZ151620","aes_key":"8142548474647170","status":3}]}}
+05-05 16:16:22.827 D/MG_NET_LOG: └──────────────────────────────────────────────────
+05-05 16:16:22.843 D/BleProximity: 🔄 引擎配置已热更新 | 落锁阈值:-90.0 | 解锁阈值:-87.0 | 趋势检测:true
+05-05 16:16:22.847 D/MGWidget: onUpdate called for IDs: 16
+05-05 16:16:22.848 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+05-05 16:16:22.872 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
