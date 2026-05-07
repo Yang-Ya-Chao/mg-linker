@@ -1,0 +1,1001 @@
+--- Log Capture Start: 20260507_201858 ---
+05-07 18:10:44.864 D/BleProximity: 📡 EMA 信号: -49 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:45.072 D/BleProximity: 📡 EMA 信号: -49 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:45.278 D/BleProximity: 📡 EMA 信号: -49 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:45.484 D/BleProximity: 📡 EMA 信号: -49 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:45.689 D/BleProximity: 📡 EMA 信号: -49 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:45.896 D/BleProximity: 📡 EMA 信号: -49 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:46.104 D/BleProximity: 📡 EMA 信号: -49 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:46.312 D/BleProximity: 📡 EMA 信号: -48 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:46.512 D/BleProximity: 📡 EMA 信号: -47 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:46.715 D/BleProximity: 📡 EMA 信号: -47 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:46.917 D/BleProximity: 📡 EMA 信号: -49 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:47.123 D/BleProximity: 📡 EMA 信号: -50 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:47.322 D/BleProximity: 📡 EMA 信号: -51 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:47.528 D/BleProximity: 📡 EMA 信号: -50 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:47.729 D/BleProximity: 📡 EMA 信号: -50 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:47.931 D/BleProximity: 📡 EMA 信号: -50 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:48.132 D/BleProximity: 📡 EMA 信号: -50 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:48.335 D/BleProximity: 📡 EMA 信号: -50 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:48.536 D/BleProximity: 📡 EMA 信号: -50 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:48.738 D/BleProximity: 📡 EMA 信号: -50 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:48.939 D/BleProximity: 📡 EMA 信号: -50 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:49.149 D/BleProximity: 📡 EMA 信号: -50 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:49.298 D/IslandWindowManager: 灵动岛已存在，无需重复添加
+05-07 18:10:49.342 D/BleProximity: 📡 EMA 信号: -50 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:49.544 D/BleProximity: 📡 EMA 信号: -50 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:49.747 D/BleProximity: 📡 EMA 信号: -50 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:49.948 D/BleProximity: 📡 EMA 信号: -50 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:50.153 D/BleProximity: 📡 EMA 信号: -50 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:50.353 D/BleProximity: 📡 EMA 信号: -50 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:50.559 D/BleProximity: 📡 EMA 信号: -50 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:50.758 D/BleProximity: 📡 EMA 信号: -50 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:50.961 D/BleProximity: 📡 EMA 信号: -50 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:51.166 D/BleProximity: 📡 EMA 信号: -50 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:51.364 D/BleProximity: 📡 EMA 信号: -50 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:51.568 D/BleProximity: 📡 EMA 信号: -50 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:51.772 D/BleProximity: 📡 EMA 信号: -50 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:51.975 D/BleProximity: 📡 EMA 信号: -50 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:52.178 D/BleProximity: 📡 EMA 信号: -49 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:52.381 D/BleProximity: 📡 EMA 信号: -49 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:52.585 D/BleProximity: 📡 EMA 信号: -49 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:52.792 D/BleProximity: 📡 EMA 信号: -49 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:52.992 D/BleProximity: 📡 EMA 信号: -49 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:53.199 D/BleProximity: 📡 EMA 信号: -49 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:53.406 D/BleProximity: 📡 EMA 信号: -49 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:53.610 D/BleProximity: 📡 EMA 信号: -49 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:53.814 D/BleProximity: 📡 EMA 信号: -49 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:54.019 D/BleProximity: 📡 EMA 信号: -49 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:54.222 D/BleProximity: 📡 EMA 信号: -49 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:54.422 D/BleProximity: 📡 EMA 信号: -49 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:54.624 D/BleProximity: 📡 EMA 信号: -49 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:54.822 D/BleProximity: 📡 EMA 信号: -48 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:55.031 D/BleProximity: 📡 EMA 信号: -48 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:55.233 D/BleProximity: 📡 EMA 信号: -48 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:55.433 D/BleProximity: 📡 EMA 信号: -48 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:55.638 D/BleProximity: 📡 EMA 信号: -48 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:55.840 D/BleProximity: 📡 EMA 信号: -48 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:56.044 D/BleProximity: 📡 EMA 信号: -47 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:56.249 D/BleProximity: 📡 EMA 信号: -47 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:56.455 D/BleProximity: 📡 EMA 信号: -47 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:56.657 D/BleProximity: 📡 EMA 信号: -47 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:56.859 D/BleProximity: 📡 EMA 信号: -46 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:57.064 D/BleProximity: 📡 EMA 信号: -46 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:57.265 D/BleProximity: 📡 EMA 信号: -47 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:57.470 D/BleProximity: 📡 EMA 信号: -47 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:57.676 D/BleProximity: 📡 EMA 信号: -48 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:57.878 D/BleProximity: 📡 EMA 信号: -48 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:58.082 D/BleProximity: 📡 EMA 信号: -48 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:58.286 D/BleProximity: 📡 EMA 信号: -48 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:58.487 D/BleProximity: 📡 EMA 信号: -48 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:58.686 D/BleProximity: 📡 EMA 信号: -50 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:58.890 D/BleProximity: 📡 EMA 信号: -54 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:59.091 D/BleProximity: 📡 EMA 信号: -58 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:59.295 D/BleProximity: 📡 EMA 信号: -58 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:59.503 D/BleProximity: 📡 EMA 信号: -56 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:59.707 D/BleProximity: 📡 EMA 信号: -58 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:10:59.916 D/BleProximity: 📡 EMA 信号: -59 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:00.127 D/BleProximity: 📡 EMA 信号: -58 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:00.327 D/BleProximity: 📡 EMA 信号: -58 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:00.532 D/BleProximity: 📡 EMA 信号: -58 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:00.741 D/BleProximity: 📡 EMA 信号: -58 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:00.945 D/BleProximity: 📡 EMA 信号: -57 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:01.148 D/BleProximity: 📡 EMA 信号: -56 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:01.364 D/BleProximity: 📡 EMA 信号: -57 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:01.573 D/BleProximity: 📡 EMA 信号: -57 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:01.776 D/BleProximity: 📡 EMA 信号: -56 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:01.983 D/BleProximity: 📡 EMA 信号: -55 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:02.190 D/BleProximity: 📡 EMA 信号: -55 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:02.397 D/BleProximity: 📡 EMA 信号: -54 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:02.607 D/BleProximity: 📡 EMA 信号: -55 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:02.815 D/BleProximity: 📡 EMA 信号: -55 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:03.017 D/BleProximity: 📡 EMA 信号: -54 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:03.220 D/BleProximity: 📡 EMA 信号: -51 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:03.421 D/BleProximity: 📡 EMA 信号: -52 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:03.626 D/BleProximity: 📡 EMA 信号: -54 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:03.833 D/BleProximity: 📡 EMA 信号: -58 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:04.033 D/BleProximity: 📡 EMA 信号: -60 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:04.239 D/BleProximity: 📡 EMA 信号: -61 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:04.445 D/BleProximity: 📡 EMA 信号: -60 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:04.648 D/BleProximity: 📡 EMA 信号: -57 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:04.852 D/BleProximity: 📡 EMA 信号: -58 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:05.055 D/BleProximity: 📡 EMA 信号: -57 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:05.264 D/BleProximity: 📡 EMA 信号: -56 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:05.470 D/BleProximity: 📡 EMA 信号: -59 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:05.675 D/BleProximity: 📡 EMA 信号: -60 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:05.879 D/BleProximity: 📡 EMA 信号: -60 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:06.085 D/BleProximity: 📡 EMA 信号: -59 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:06.288 D/BleProximity: 📡 EMA 信号: -58 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:06.493 D/BleProximity: 📡 EMA 信号: -59 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:06.695 D/BleProximity: 📡 EMA 信号: -60 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:06.902 D/BleProximity: 📡 EMA 信号: -62 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:07.103 D/BleProximity: 📡 EMA 信号: -62 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:07.305 D/BleProximity: 📡 EMA 信号: -62 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:07.509 D/BleProximity: 📡 EMA 信号: -63 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:07.712 D/BleProximity: 📡 EMA 信号: -65 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:07.916 D/BleProximity: 📡 EMA 信号: -67 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:08.120 D/BleProximity: 📡 EMA 信号: -67 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:08.322 D/BleProximity: 📡 EMA 信号: -68 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:08.522 D/BleProximity: 📡 EMA 信号: -70 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:08.743 D/BleProximity: 📡 EMA 信号: -70 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:08.945 D/BleProximity: 📡 EMA 信号: -72 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:09.155 D/BleProximity: 📡 EMA 信号: -74 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:09.356 D/BleProximity: 📡 EMA 信号: -74 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:09.561 D/BleProximity: 📡 EMA 信号: -74 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:09.768 D/BleProximity: 📡 EMA 信号: -71 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:09.973 D/BleProximity: 📡 EMA 信号: -70 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:10.179 D/BleProximity: 📡 EMA 信号: -69 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:10.387 D/BleProximity: 📡 EMA 信号: -69 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:10.585 D/BleProximity: 📡 EMA 信号: -69 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:10.787 D/BleProximity: 📡 EMA 信号: -69 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:10.992 D/BleProximity: 📡 EMA 信号: -69 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:11.200 D/BleProximity: 📡 EMA 信号: -70 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:11.403 D/BleProximity: 📡 EMA 信号: -72 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:11.603 D/BleProximity: 📡 EMA 信号: -74 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:11.807 D/BleProximity: 📡 EMA 信号: -74 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:12.007 D/BleProximity: 📡 EMA 信号: -74 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:12.209 D/BleProximity: 📡 EMA 信号: -74 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:12.408 D/BleProximity: 📡 EMA 信号: -73 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:12.610 D/BleProximity: 📡 EMA 信号: -73 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:12.810 D/BleProximity: 📡 EMA 信号: -77 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:13.016 D/BleProximity: 📡 EMA 信号: -79 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:13.222 D/BleProximity: 📡 EMA 信号: -81 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:13.425 D/BleProximity: 📡 EMA 信号: -82 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:13.623 D/BleProximity: 📡 EMA 信号: -82 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:13.829 D/BleProximity: 📡 EMA 信号: -81 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:14.029 D/BleProximity: 📡 EMA 信号: -82 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:14.236 D/BleProximity: 📡 EMA 信号: -83 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:14.370 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 275ms) ──────
+05-07 18:11:14.375 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+05-07 18:11:14.376 D/MG_NET_LOG: │ Method: POST
+05-07 18:11:14.377 D/MG_NET_LOG: │ Header: app-type: roewe
+05-07 18:11:14.378 D/MG_NET_LOG: │ Header: timestamp: 1778148674091
+05-07 18:11:14.379 D/MG_NET_LOG: │ Header: sign: F3cZiwhO6JArIsirGUzx5gEjNxBP940gbA87faiBpUs=
+05-07 18:11:14.380 D/MG_NET_LOG: │ Params: data={"userId":"15100001118103","appId":"Roewe","brandCode":"1","nonce":"08857DE1BDBC621BFE65C0A0582BCA0C","timestamp":"1778148674087","token":"caa63253c533499b818fc763ab242b36-prod_SAIC"}
+05-07 18:11:14.380 D/MG_NET_LOG: ├────── Response Result ──────
+05-07 18:11:14.382 D/MG_NET_LOG: │ Result: {"req_id":"19e01eb89ef74cae25","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":"辽CF89956","secret_key":"2761178311596101","key_end_time":1786095869000,"key_start_time":1778147069000,"mobile":null,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":28783174,"owner_mobile":"13464751784","owner_name":null,"enable":true,"tbox_mac":"4FE04C33CCB5","vin":"LSJWM6390PZ876163","aes_key":"0969630378790994","status":3}]}}
+05-07 18:11:14.383 D/MG_NET_LOG: └──────────────────────────────────────────────────
+05-07 18:11:14.402 D/BleProximity: 🔄 引擎配置已热更新 | 落锁阈值:-90.0 | 解锁阈值:-87.0 | 趋势检测:true
+05-07 18:11:14.402 D/IslandWindowManager: 灵动岛已存在，无需重复添加
+05-07 18:11:14.431 D/MGWidget: onUpdate called for IDs: 9
+05-07 18:11:14.432 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+05-07 18:11:14.480 D/BleProximity: 📡 EMA 信号: -85 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:14.540 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+05-07 18:11:14.681 D/BleProximity: 📡 EMA 信号: -84 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:14.882 D/BleProximity: 📡 EMA 信号: -83 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:15.083 D/BleProximity: 📡 EMA 信号: -84 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:15.210 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 655ms) ──────
+05-07 18:11:15.210 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+05-07 18:11:15.211 D/MG_NET_LOG: │ Method: POST
+05-07 18:11:15.211 D/MG_NET_LOG: │ Header: app-type: roewe
+05-07 18:11:15.211 D/MG_NET_LOG: │ Header: timestamp: 1778148674550
+05-07 18:11:15.211 D/MG_NET_LOG: │ Header: sign: Gt0hi+mN6pLDgp6xGMeBEX6YyRh7mQ4M44ATnjFV/zY=
+05-07 18:11:15.211 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6390PZ876163","appId":"Roewe","brandCode":"1","nonce":"69376E3E45685A24735DB4435A0215DF","timestamp":"1778148674542","token":"caa63253c533499b818fc763ab242b36-prod_SAIC"}
+05-07 18:11:15.212 D/MG_NET_LOG: ├────── Response Result ──────
+05-07 18:11:15.212 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19e01eb8bb9f759cc75","data":{"vehicle_position":{"satellites":8,"altitude":7,"gps_status":2,"latitude":"40.230903","update_time":1778147497000,"gps_time":1778148649000,"hdop":7,"longitude":"122.110323"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":268,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":589,"power_mode":2,"battery_pack_range":56,"engine_status":0,"exterior_temperature":18,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":55,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":36472,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":2587,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1330,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":276,"charge_status":1009,"speed":0,"localfront_right_seat_vent_level":null,"front_right_tyre_pressure":268,"vehicle_battery_dev":2,"battery_pack_prc":445,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":589,"current_journey_id":3506,"pwr_lftgt_pos_v":null,"interior_temperature":31,"localfront_right_seat_heat_level":null,"heading":13,"battery_alarm_value":[50,200,500],"update_time":1778147497000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":0,"rear_left_tyre_pressure":272,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":900,"battery_type":0,"fuel_level_disp":5,"monitor_status":null,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1778147497000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":true,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1778147497000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_win
+05-07 18:11:15.212 D/MG_NET_LOG: │ Result(Part 2): dow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":true,"rear_left_window":false,"main_beam":false}}}
+05-07 18:11:15.213 D/MG_NET_LOG: └──────────────────────────────────────────────────
+05-07 18:11:15.214 D/WidgetUpdateWorker: 开始获取地址
+05-07 18:11:15.290 D/BleProximity: 📡 EMA 信号: -84 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:15.431 D/WidgetUpdateWorker: 高德地址：辽宁省营口市鲅鱼圈区红海街道平安西街72号
+05-07 18:11:15.433 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 辽宁省营口市鲅鱼圈区红海街道平安西街72号
+05-07 18:11:15.434 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+05-07 18:11:15.435 D/MGWidget: updateWidgetSynchronously called for ID: 9
+05-07 18:11:15.491 D/BleProximity: 📡 EMA 信号: -85 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:15.702 D/BleProximity: 📡 EMA 信号: -85 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:15.909 D/BleProximity: 📡 EMA 信号: -84 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:16.104 D/BleProximity: 📡 EMA 信号: -85 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:16.308 D/BleProximity: 📡 EMA 信号: -85 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:16.512 D/BleProximity: 📡 EMA 信号: -87 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:16.716 D/BleProximity: 📡 EMA 信号: -87 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:16.930 D/BleProximity: 📡 EMA 信号: -89 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:17.134 D/BleProximity: 📡 EMA 信号: -90 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:17.135 D/BleProximity: ⚡ [决策通过 - 超车道: 瞬态动量锐减] 触发 LOCK！(信号: -90)
+05-07 18:11:17.150 D/BleProximity: 📤 发送指令: 锁车门
+05-07 18:11:17.151 D/BleManager: ⬇️ 底层执行: 锁车门
+05-07 18:11:17.160 D/BleManager: ✅ 底层特征写入完成: 42e4 status: 0
+05-07 18:11:17.191 D/BleProximity: 📨 收到特征变化: E6B0E704-BD48-4CA4-8EC4-7C6503C24AF4, 数据长度: 12, 数据: 653438663032623938353433
+05-07 18:11:17.192 D/BleProximity: 🔐 处理认证挑战: 653438663032623938353433
+05-07 18:11:17.193 D/BleManager: ⬇️ 底层执行: 发送认证响应
+05-07 18:11:17.197 D/BleManager: ✅ 底层特征写入完成: e39c status: 0
+05-07 18:11:18.583 D/BleProximity: 📨 收到特征变化: 6CB493E3-7D21-46FB-A7F6-003E2464267E, 数据长度: 2, 数据: 3032
+05-07 18:11:18.584 D/BleProximity: 上锁成功
+05-07 18:11:18.585 D/BleProximity: 📊 指令出队: 锁车门 -> W2.r@a85a1c6
+05-07 18:11:18.586 D/BleProximity: 🔒 上锁结果: W2.r@a85a1c6
+05-07 18:11:18.586 D/BleProximity: ✅ 车辆已上锁
+05-07 18:11:23.694 D/BleProximity: 📡 EMA 信号: -96 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:23.899 D/BleProximity: 📡 EMA 信号: -96 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:24.112 D/BleProximity: 📡 EMA 信号: -96 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:24.317 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:24.518 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:24.723 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:24.928 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:25.129 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:25.342 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:25.550 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:25.752 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:25.961 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:26.163 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:26.370 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:26.568 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:26.774 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:26.982 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:27.183 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:27.390 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:27.590 D/BleProximity: 📡 EMA 信号: -92 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:27.795 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:28.002 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:28.208 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:28.414 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:28.614 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:28.822 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:29.028 D/BleProximity: 📡 EMA 信号: -93 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:29.234 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:29.440 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:29.639 D/BleProximity: 📡 EMA 信号: -94 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:29.847 D/BleProximity: 📡 EMA 信号: -95 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:30.055 D/BleProximity: 📡 EMA 信号: -95 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:30.261 D/BleProximity: 📡 EMA 信号: -96 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:30.468 D/BleProximity: 📡 EMA 信号: -96 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:30.663 D/BleProximity: 📡 EMA 信号: -96 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:30.870 D/BleProximity: 📡 EMA 信号: -96 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:31.070 D/BleProximity: 📡 EMA 信号: -96 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:31.274 D/BleProximity: 📡 EMA 信号: -96 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:31.478 D/BleProximity: 📡 EMA 信号: -96 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:31.682 D/BleProximity: 📡 EMA 信号: -97 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:31.889 D/BleProximity: 📡 EMA 信号: -97 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:32.089 D/BleProximity: 📡 EMA 信号: -98 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:32.293 D/BleProximity: 📡 EMA 信号: -98 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:32.495 D/BleProximity: 📡 EMA 信号: -98 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:32.697 D/BleProximity: 📡 EMA 信号: -98 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:32.897 D/BleProximity: 📡 EMA 信号: -98 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:33.104 D/BleProximity: 📡 EMA 信号: -98 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:33.305 D/BleProximity: 📡 EMA 信号: -98 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:33.510 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:33.715 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:33.920 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:34.122 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:34.323 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:34.530 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:34.734 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:34.940 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:35.142 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:35.351 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:35.560 D/BleProximity: 📡 EMA 信号: -99 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:35.764 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:35.972 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:36.175 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:36.381 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:36.580 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:36.783 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:36.986 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:37.189 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:37.394 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:37.598 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:37.800 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:38.001 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:38.204 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:38.417 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:38.627 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:38.831 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:39.041 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:39.247 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:39.448 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:39.653 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:39.857 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:40.062 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:40.264 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:40.470 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:40.674 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:40.882 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:41.081 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:41.286 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:41.488 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:41.691 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:41.893 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:42.100 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:42.310 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:42.523 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:42.718 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:42.917 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:43.123 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:43.318 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:43.522 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:43.722 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:43.929 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:44.133 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:44.333 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:44.539 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:44.747 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:44.941 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:45.195 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:45.343 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:45.543 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:45.746 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:45.952 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:46.158 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:46.355 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:46.556 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:46.759 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:46.973 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:47.166 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:47.373 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:47.570 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:47.773 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:47.975 D/BleProximity: 📡 EMA 信号: -100 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:48.180 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:48.382 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:48.582 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:48.784 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:48.995 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:49.192 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:49.398 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:49.601 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:49.805 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:50.008 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:50.212 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:50.413 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:50.618 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:50.822 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:51.029 D/BleProximity: 📡 EMA 信号: -101 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:51.234 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:51.439 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:51.645 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:51.853 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:52.062 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:52.270 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:52.474 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:52.686 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:52.902 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:53.107 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:53.518 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:53.724 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:53.930 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:54.137 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:54.344 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:54.539 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:54.754 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:54.951 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:55.149 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:55.355 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:55.560 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:55.764 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:55.968 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:56.170 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:56.372 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:56.580 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:56.782 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:56.986 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:57.190 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:57.396 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:57.600 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:57.803 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:58.008 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:58.210 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:58.414 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:58.618 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:58.821 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:59.024 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:59.228 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:59.430 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:59.638 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:11:59.843 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:12:00.039 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:12:00.246 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:12:00.464 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:12:00.675 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:12:00.882 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:12:01.090 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:12:01.298 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:12:01.506 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:12:01.715 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:12:01.923 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:12:02.130 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:12:02.333 D/BleProximity: 📡 EMA 信号: -102 | 落锁阈值:-90.0 | 解锁阈值:-87.0
+05-07 18:12:02.522 D/BleProximity: ⚙️ 底层状态反馈: status=8, newState=0
+05-07 18:12:02.524 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 8)
+05-07 18:12:02.532 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:12:02.533 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:12:02.541 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-07 18:12:03.043 D/BleProximity: 🔍 开始连接
+05-07 18:12:03.045 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:12:03.046 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:12:03.046 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:12:03.060 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:12:03.063 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:12:08.067 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:12:08.083 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:12:08.085 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:12:09.097 D/BleProximity: 🔍 开始连接
+05-07 18:12:09.098 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:12:09.098 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:12:09.099 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:12:09.116 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:12:09.121 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:12:14.128 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:12:14.143 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:12:14.144 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:12:15.153 D/BleProximity: 🔍 开始连接
+05-07 18:12:15.155 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:12:15.158 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:12:15.161 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:12:15.179 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:12:15.187 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:12:20.198 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:12:20.211 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:12:20.213 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:12:21.223 D/BleProximity: 🔍 开始连接
+05-07 18:12:21.224 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:12:21.225 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:12:21.225 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:12:21.235 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:12:21.238 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:12:26.243 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:12:26.253 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:12:26.253 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:12:27.262 D/BleProximity: 🔍 开始连接
+05-07 18:12:27.266 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:12:27.267 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:12:27.268 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:12:27.285 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:12:27.288 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:12:32.294 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:12:32.305 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:12:32.306 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:12:33.314 D/BleProximity: 🔍 开始连接
+05-07 18:12:33.317 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:12:33.318 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:12:33.321 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:12:33.333 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:12:33.338 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:12:38.345 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:12:38.358 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:12:38.359 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:12:39.370 D/BleProximity: 🔍 开始连接
+05-07 18:12:39.372 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:12:39.372 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:12:39.373 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:12:39.388 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:12:39.395 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:12:44.403 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:12:44.408 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:12:44.409 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:12:45.416 D/BleProximity: 🔍 开始连接
+05-07 18:12:45.417 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:12:45.418 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:12:45.418 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:12:45.425 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:12:45.429 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:12:50.434 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:12:50.449 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:12:50.449 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:12:51.458 D/BleProximity: 🔍 开始连接
+05-07 18:12:51.459 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:12:51.459 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:12:51.460 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:12:51.469 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:12:51.474 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:12:56.481 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:12:56.488 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:12:56.489 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:12:57.495 D/BleProximity: 🔍 开始连接
+05-07 18:12:57.497 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:12:57.498 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:12:57.499 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:12:57.515 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:12:57.527 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:13:02.538 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:13:02.549 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:13:02.549 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:13:03.562 D/BleProximity: 🔍 开始连接
+05-07 18:13:03.565 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:13:03.566 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:13:03.567 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:13:03.577 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:13:03.582 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:13:08.587 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:13:08.598 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:13:08.600 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:13:09.615 D/BleProximity: 🔍 开始连接
+05-07 18:13:09.619 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:13:09.621 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:13:09.623 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:13:09.638 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:13:09.645 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:13:14.655 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:13:14.670 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:13:14.671 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:13:15.687 D/BleProximity: 🔍 开始连接
+05-07 18:13:15.688 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:13:15.690 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:13:15.691 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:13:15.699 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:13:15.703 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:13:20.709 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:13:20.720 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:13:20.721 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:13:21.731 D/BleProximity: 🔍 开始连接
+05-07 18:13:21.733 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:13:21.734 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:13:21.735 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:13:21.745 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:13:21.750 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:13:26.758 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:13:26.767 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:13:26.771 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:13:27.785 D/BleProximity: 🔍 开始连接
+05-07 18:13:27.788 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:13:27.789 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:13:27.790 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:13:27.798 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:13:27.801 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:13:32.808 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:13:32.820 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:13:32.821 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:13:33.832 D/BleProximity: 🔍 开始连接
+05-07 18:13:33.834 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:13:33.835 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:13:33.836 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:13:33.849 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:13:33.855 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:13:38.862 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:13:38.873 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:13:38.874 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:13:39.884 D/BleProximity: 🔍 开始连接
+05-07 18:13:39.886 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:13:39.887 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:13:39.887 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:13:39.902 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:13:39.907 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:13:44.914 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:13:44.927 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:13:44.928 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:13:45.941 D/BleProximity: 🔍 开始连接
+05-07 18:13:45.944 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:13:45.946 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:13:45.947 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:13:45.965 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:13:45.970 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:13:50.982 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:13:50.988 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:13:50.988 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:13:51.995 D/BleProximity: 🔍 开始连接
+05-07 18:13:51.997 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:13:51.998 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:13:51.999 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:13:52.012 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:13:52.020 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:13:57.028 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:13:57.039 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:13:57.040 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:13:58.049 D/BleProximity: 🔍 开始连接
+05-07 18:13:58.051 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:13:58.052 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:13:58.053 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:13:58.063 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:13:58.066 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:14:03.072 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:14:03.081 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:14:03.082 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:14:04.094 D/BleProximity: 🔍 开始连接
+05-07 18:14:04.095 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:14:04.096 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:14:04.097 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:14:04.106 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:14:04.109 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:14:09.116 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:14:09.121 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:14:09.121 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:14:10.126 D/BleProximity: 🔍 开始连接
+05-07 18:14:10.127 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:14:10.127 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:14:10.127 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:14:10.147 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:14:10.149 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:14:12.853 D/IslandWindowManager: 灵动岛已存在，无需重复添加
+05-07 18:14:15.154 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:14:15.159 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:14:15.159 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:14:16.167 D/BleProximity: 🔍 开始连接
+05-07 18:14:16.168 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:14:16.168 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:14:16.168 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:14:16.172 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:14:16.175 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:14:21.180 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:14:21.186 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:14:21.188 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:14:22.197 D/BleProximity: 🔍 开始连接
+05-07 18:14:22.198 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:14:22.198 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:14:22.199 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:14:22.206 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:14:22.209 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:14:27.214 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:14:27.226 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:14:27.227 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:14:28.236 D/BleProximity: 🔍 开始连接
+05-07 18:14:28.237 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:14:28.238 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:14:28.238 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:14:28.247 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:14:28.250 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:14:33.257 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:14:33.263 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:14:33.263 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:14:34.272 D/BleProximity: 🔍 开始连接
+05-07 18:14:34.273 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:14:34.273 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:14:34.274 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:14:34.282 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:14:34.285 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:14:39.291 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:14:39.300 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:14:39.301 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:14:40.310 D/BleProximity: 🔍 开始连接
+05-07 18:14:40.312 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:14:40.313 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:14:40.314 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:14:40.323 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:14:40.325 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:14:45.332 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:14:45.353 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:14:45.353 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:14:46.360 D/BleProximity: 🔍 开始连接
+05-07 18:14:46.361 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:14:46.362 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:14:46.362 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:14:46.370 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:14:46.373 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:14:51.379 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:14:51.389 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:14:51.389 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:14:52.397 D/BleProximity: 🔍 开始连接
+05-07 18:14:52.397 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:14:52.397 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:14:52.397 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:14:52.414 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:14:52.416 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:14:57.423 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:14:57.430 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:14:57.430 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:14:58.435 D/BleProximity: 🔍 开始连接
+05-07 18:14:58.436 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:14:58.437 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:14:58.438 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:14:58.449 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:14:58.453 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:15:03.457 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:15:03.464 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:15:03.465 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:15:04.471 D/BleProximity: 🔍 开始连接
+05-07 18:15:04.473 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:15:04.473 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:15:04.474 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:15:04.483 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:15:04.488 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:15:09.493 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:15:09.498 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:15:09.499 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:15:10.505 D/BleProximity: 🔍 开始连接
+05-07 18:15:10.506 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:15:10.507 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:15:10.507 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:15:10.515 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:15:10.517 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:15:15.521 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:15:15.528 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:15:15.528 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:15:16.539 D/BleProximity: 🔍 开始连接
+05-07 18:15:16.541 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:15:16.542 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:15:16.544 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:15:16.558 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:15:16.565 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:15:21.572 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:15:21.579 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:15:21.579 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:15:22.588 D/BleProximity: 🔍 开始连接
+05-07 18:15:22.589 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:15:22.590 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:15:22.591 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:15:22.605 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:15:22.611 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:15:27.618 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:15:27.626 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:15:27.627 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:15:28.633 D/BleProximity: 🔍 开始连接
+05-07 18:15:28.634 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:15:28.635 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:15:28.636 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:15:28.641 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:15:28.643 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:15:33.647 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:15:33.651 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:15:33.652 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:15:34.657 D/BleProximity: 🔍 开始连接
+05-07 18:15:34.658 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:15:34.659 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:15:34.661 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:15:34.667 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:15:34.669 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:15:39.675 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:15:39.681 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:15:39.682 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:15:40.696 D/BleProximity: 🔍 开始连接
+05-07 18:15:40.697 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:15:40.698 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:15:40.698 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:15:40.710 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:15:40.714 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:15:45.726 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:15:45.734 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:15:45.734 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:15:46.742 D/BleProximity: 🔍 开始连接
+05-07 18:15:46.742 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:15:46.742 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:15:46.742 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:15:46.748 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:15:46.750 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:15:51.754 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:15:51.760 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:15:51.761 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:15:52.767 D/BleProximity: 🔍 开始连接
+05-07 18:15:52.768 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:15:52.768 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:15:52.769 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:15:52.774 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:15:52.785 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:15:57.796 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:15:57.804 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:15:57.804 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:15:58.815 D/BleProximity: 🔍 开始连接
+05-07 18:15:58.817 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:15:58.818 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:15:58.818 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:15:58.824 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:15:58.825 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:16:03.832 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:16:03.847 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:16:03.847 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:16:04.854 D/BleProximity: 🔍 开始连接
+05-07 18:16:04.855 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:16:04.856 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:16:04.856 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:16:04.862 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:16:04.864 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:16:09.869 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:16:09.873 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:16:09.873 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:16:10.888 D/BleProximity: 🔍 开始连接
+05-07 18:16:10.889 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:16:10.889 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:16:10.890 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:16:10.898 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:16:10.901 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:16:15.936 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:16:15.945 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:16:15.946 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:16:16.994 D/BleProximity: 🔍 开始连接
+05-07 18:16:16.997 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:16:16.998 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:16:16.999 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:16:17.007 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:16:17.023 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:16:34.919 D/BleProximity: ⚙️ 底层状态反馈: status=147, newState=0
+05-07 18:16:34.929 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:16:34.937 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:16:34.937 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:16:34.943 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 147)
+05-07 18:16:34.943 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:16:34.943 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:16:34.947 D/BleProximity: 狂暴模式重试 (1/3)...
+05-07 18:16:35.449 D/BleProximity: 🔍 开始连接
+05-07 18:16:35.451 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:16:35.453 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:16:35.454 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:16:35.473 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:16:35.478 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:17:04.972 D/BleProximity: ⚙️ 底层状态反馈: status=147, newState=0
+05-07 18:17:04.973 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:17:04.981 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:17:04.982 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:17:04.995 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 147)
+05-07 18:17:04.996 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:17:04.997 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:17:05.004 D/BleProximity: 狂暴模式重试 (2/3)...
+05-07 18:17:05.505 D/BleProximity: 🔍 开始连接
+05-07 18:17:05.507 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:17:05.509 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:17:05.510 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:17:05.525 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:17:05.528 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-07 18:17:35.583 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-07 18:17:35.585 D/BleProximity: ⚙️ 底层状态反馈: status=147, newState=0
+05-07 18:17:35.592 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:17:35.593 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:17:35.604 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 147)
+05-07 18:17:35.605 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-07 18:17:35.606 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-07 18:17:35.613 D/BleProximity: 重试 3 次失败，2秒后切回【省电挡】
+05-07 18:17:37.614 D/BleProximity: 🔍 开始连接
+05-07 18:17:37.617 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:33:4F:E0
+05-07 18:17:37.617 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-07 18:17:37.618 D/BleProximity: 📡 连接状态: CONNECTING
+05-07 18:17:37.632 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:33:4F:E0
+05-07 18:17:37.636 D/BleProximity: 💤 [省电挡] 挂载硬件后台监听 (autoConnect=true)
+05-07 18:41:01.261 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+05-07 18:41:03.087 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1579ms) ──────
+05-07 18:41:03.104 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+05-07 18:41:03.104 D/MG_NET_LOG: │ Method: POST
+05-07 18:41:03.105 D/MG_NET_LOG: │ Header: app-type: roewe
+05-07 18:41:03.108 D/MG_NET_LOG: │ Header: timestamp: 1778150461344
+05-07 18:41:03.110 D/MG_NET_LOG: │ Header: sign: IwPkyaObnsf7hQPbFwiAhr8KdUw4mFc1J+0kHt8kbUM=
+05-07 18:41:03.112 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6390PZ876163","appId":"Roewe","brandCode":"1","nonce":"F3408E2C57969F15337476282AD06829","timestamp":"1778150461262","token":"caa63253c533499b818fc763ab242b36-prod_SAIC"}
+05-07 18:41:03.112 D/MG_NET_LOG: ├────── Response Result ──────
+05-07 18:41:03.113 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19e0206d31590eb5936","data":{"vehicle_position":{"satellites":8,"altitude":8,"gps_status":2,"latitude":"40.230910","update_time":1778147497000,"gps_time":1778148694000,"hdop":7,"longitude":"122.110324"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":268,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":589,"power_mode":2,"battery_pack_range":56,"engine_status":0,"exterior_temperature":18,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":55,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":36472,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":2587,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1330,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":276,"charge_status":1009,"speed":0,"localfront_right_seat_vent_level":null,"front_right_tyre_pressure":268,"vehicle_battery_dev":2,"battery_pack_prc":445,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":589,"current_journey_id":3506,"pwr_lftgt_pos_v":null,"interior_temperature":31,"localfront_right_seat_heat_level":null,"heading":13,"battery_alarm_value":[50,200,500],"update_time":1778147497000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":0,"rear_left_tyre_pressure":272,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":900,"battery_type":0,"fuel_level_disp":5,"monitor_status":null,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1778147497000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":true,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1778147497000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_win
+05-07 18:41:03.113 D/MG_NET_LOG: │ Result(Part 2): dow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":true,"rear_left_window":false,"main_beam":false}}}
+05-07 18:41:03.116 D/MG_NET_LOG: └──────────────────────────────────────────────────
+05-07 18:41:03.127 D/WidgetUpdateWorker: 开始获取地址
+05-07 18:41:03.130 D/WidgetUpdateWorker: 高德地址：辽宁省营口市鲅鱼圈区红海街道平安西街72号
+05-07 18:41:03.131 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 辽宁省营口市鲅鱼圈区红海街道平安西街72号
+05-07 18:41:03.132 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+05-07 18:41:03.139 D/MGWidget: updateWidgetSynchronously called for ID: 9
+05-07 18:58:21.043 D/MGWidget: onUpdate called for IDs: 9
+05-07 18:58:21.045 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+05-07 18:58:21.328 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+05-07 18:58:22.455 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1091ms) ──────
+05-07 18:58:22.462 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+05-07 18:58:22.463 D/MG_NET_LOG: │ Method: POST
+05-07 18:58:22.480 D/MG_NET_LOG: │ Header: app-type: roewe
+05-07 18:58:22.483 D/MG_NET_LOG: │ Header: timestamp: 1778151501354
+05-07 18:58:22.484 D/MG_NET_LOG: │ Header: sign: YbVlkTYjxMsOQ/h8uDGVQ9K7ky/YY3FriUZWFmIK6LU=
+05-07 18:58:22.485 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6390PZ876163","appId":"Roewe","brandCode":"1","nonce":"97DD21E0EDD01EC71D250D1DC083C29C","timestamp":"1778151501330","token":"caa63253c533499b818fc763ab242b36-prod_SAIC"}
+05-07 18:58:22.486 D/MG_NET_LOG: ├────── Response Result ──────
+05-07 18:58:22.498 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19e0216afa4c3c9d2d0","data":{"vehicle_position":{"satellites":8,"altitude":8,"gps_status":2,"latitude":"40.230910","update_time":1778147497000,"gps_time":1778148694000,"hdop":7,"longitude":"122.110324"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"pwr_lftgt_pos":null,"steer_heat_level":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":268,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"tbox_internal_battery":null,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":589,"battery_pack_range":56,"power_mode":2,"engine_status":0,"exterior_temperature":18,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":55,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":36472,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":2587,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1330,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":276,"charge_status":1009,"speed":0,"localfront_right_seat_vent_level":null,"vehicle_battery_dev":2,"front_right_tyre_pressure":268,"battery_pack_prc":445,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":589,"current_journey_id":3506,"pwr_lftgt_pos_v":null,"interior_temperature":31,"localfront_right_seat_heat_level":null,"heading":13,"battery_alarm_value":[50,200,500],"update_time":1778147497000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":0,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":272,"vehicle_battery_prc":900,"battery_type":0,"fuel_level_disp":5,"monitor_status":null,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1778147497000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"driver_window":true,"vehicle_battery_connected":true,"clstr_range":false,"driver_door":false,"seat_heat":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":true,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1778147497000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_win
+05-07 18:58:22.499 D/MG_NET_LOG: │ Result(Part 2): dow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":true,"rear_left_window":false,"main_beam":false}}}
+05-07 18:58:22.499 D/MG_NET_LOG: └──────────────────────────────────────────────────
+05-07 18:58:22.507 D/WidgetUpdateWorker: 开始获取地址
+05-07 18:58:22.508 D/WidgetUpdateWorker: 高德地址：辽宁省营口市鲅鱼圈区红海街道平安西街72号
+05-07 18:58:22.508 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 辽宁省营口市鲅鱼圈区红海街道平安西街72号
+05-07 18:58:22.509 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+05-07 18:58:22.509 D/MGWidget: updateWidgetSynchronously called for ID: 9
+05-07 19:09:02.137 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 786ms) ──────
+05-07 19:09:02.138 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+05-07 19:09:02.140 D/MG_NET_LOG: │ Method: POST
+05-07 19:09:02.140 D/MG_NET_LOG: │ Header: app-type: roewe
+05-07 19:09:02.141 D/MG_NET_LOG: │ Header: timestamp: 1778152141347
+05-07 19:09:02.144 D/MG_NET_LOG: │ Header: sign: qpVdb/kuT52nBpYepIAmkMg/R2dwFEnlpqLmNUZmGKQ=
+05-07 19:09:02.146 D/MG_NET_LOG: │ Params: data={"userId":"15100001118103","appId":"Roewe","brandCode":"1","nonce":"AAEC10D4EE3FCE38B7BD71145BA28D7C","timestamp":"1778152141342","token":"caa63253c533499b818fc763ab242b36-prod_SAIC"}
+05-07 19:09:02.146 D/MG_NET_LOG: ├────── Response Result ──────
+05-07 19:09:02.146 D/MG_NET_LOG: │ Result: {"req_id":"19e022073bc8b123b82","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":"辽CF89956","secret_key":"2761178311596101","key_end_time":1786095869000,"mobile":null,"key_start_time":1778147069000,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":28783174,"owner_name":null,"owner_mobile":"13464751784","enable":true,"tbox_mac":"4FE04C33CCB5","vin":"LSJWM6390PZ876163","aes_key":"0969630378790994","status":3}]}}
+05-07 19:09:02.149 D/MG_NET_LOG: └──────────────────────────────────────────────────
+05-07 19:09:02.166 D/BleProximity: 🔄 引擎配置已热更新 | 落锁阈值:-90.0 | 解锁阈值:-87.0 | 趋势检测:true
+05-07 19:09:02.170 D/IslandWindowManager: 灵动岛已从 WindowManager 移除
+05-07 19:09:02.251 D/MGWidget: onUpdate called for IDs: 9
+05-07 19:09:02.252 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+05-07 19:09:02.441 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+05-07 19:09:03.105 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 654ms) ──────
+05-07 19:09:03.107 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+05-07 19:09:03.108 D/MG_NET_LOG: │ Method: POST
+05-07 19:09:03.109 D/MG_NET_LOG: │ Header: app-type: roewe
+05-07 19:09:03.109 D/MG_NET_LOG: │ Header: timestamp: 1778152142449
+05-07 19:09:03.110 D/MG_NET_LOG: │ Header: sign: e52G5QIpuDVRfJmiw4nNRr2Pl/NanAIVcKL34xcI+eI=
+05-07 19:09:03.110 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6390PZ876163","appId":"Roewe","brandCode":"1","nonce":"1BEECF3B75A9776DD72A65E73748D013","timestamp":"1778152142444","token":"caa63253c533499b818fc763ab242b36-prod_SAIC"}
+05-07 19:09:03.111 D/MG_NET_LOG: ├────── Response Result ──────
+05-07 19:09:03.112 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19e0220764b7ecb4d4d","data":{"vehicle_position":{"satellites":8,"altitude":8,"gps_status":2,"latitude":"40.230910","update_time":1778147497000,"gps_time":1778148694000,"hdop":7,"longitude":"122.110324"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"pwr_lftgt_pos":null,"steer_heat_level":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":268,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"tbox_internal_battery":null,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":589,"battery_pack_range":56,"power_mode":2,"engine_status":0,"exterior_temperature":18,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":55,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":36472,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":2587,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1330,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":276,"charge_status":1009,"speed":0,"localfront_right_seat_vent_level":null,"vehicle_battery_dev":2,"front_right_tyre_pressure":268,"battery_pack_prc":445,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":589,"current_journey_id":3506,"pwr_lftgt_pos_v":null,"interior_temperature":31,"localfront_right_seat_heat_level":null,"heading":13,"battery_alarm_value":[50,200,500],"update_time":1778147497000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":0,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":272,"vehicle_battery_prc":900,"battery_type":0,"fuel_level_disp":5,"monitor_status":null,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1778147497000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"driver_window":true,"vehicle_battery_connected":true,"clstr_range":false,"driver_door":false,"seat_heat":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":true,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1778147497000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_win
+05-07 19:09:03.115 D/MG_NET_LOG: │ Result(Part 2): dow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":true,"rear_left_window":false,"main_beam":false}}}
+05-07 19:09:03.116 D/MG_NET_LOG: └──────────────────────────────────────────────────
+05-07 19:09:03.119 D/WidgetUpdateWorker: 开始获取地址
+05-07 19:09:03.126 D/WidgetUpdateWorker: 高德地址：辽宁省营口市鲅鱼圈区红海街道平安西街72号
+05-07 19:09:03.127 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 辽宁省营口市鲅鱼圈区红海街道平安西街72号
+05-07 19:09:03.128 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+05-07 19:09:03.132 D/MGWidget: updateWidgetSynchronously called for ID: 9
+05-07 19:12:33.813 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+05-07 19:12:34.988 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 963ms) ──────
+05-07 19:12:34.990 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+05-07 19:12:34.990 D/MG_NET_LOG: │ Method: POST
+05-07 19:12:34.991 D/MG_NET_LOG: │ Header: app-type: roewe
+05-07 19:12:34.991 D/MG_NET_LOG: │ Header: timestamp: 1778152353928
+05-07 19:12:34.992 D/MG_NET_LOG: │ Header: sign: R/TRY7ylGumbzTWrmp1p/ZT8+ALXxIEydjg0alH8J+4=
+05-07 19:12:34.992 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6390PZ876163","appId":"Roewe","brandCode":"1","nonce":"E585C864DC429CD543B6F3958100A6A2","timestamp":"1778152353814","token":"caa63253c533499b818fc763ab242b36-prod_SAIC"}
+05-07 19:12:34.993 D/MG_NET_LOG: ├────── Response Result ──────
+05-07 19:12:34.994 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19e0223b259ed308205","data":{"vehicle_position":{"satellites":8,"altitude":8,"gps_status":2,"latitude":"40.230910","update_time":1778147497000,"gps_time":1778148694000,"hdop":7,"longitude":"122.110324"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":268,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":589,"power_mode":2,"battery_pack_range":56,"engine_status":0,"exterior_temperature":18,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":55,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":36472,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":2587,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1330,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":276,"charge_status":1009,"speed":0,"localfront_right_seat_vent_level":null,"front_right_tyre_pressure":268,"vehicle_battery_dev":2,"battery_pack_prc":445,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":589,"current_journey_id":3506,"pwr_lftgt_pos_v":null,"interior_temperature":31,"localfront_right_seat_heat_level":null,"heading":13,"battery_alarm_value":[50,200,500],"update_time":1778147497000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":0,"rear_left_tyre_pressure":272,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":900,"battery_type":0,"fuel_level_disp":5,"monitor_status":null,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1778147497000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":true,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1778147497000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_win
+05-07 19:12:34.995 D/MG_NET_LOG: │ Result(Part 2): dow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":true,"rear_left_window":false,"main_beam":false}}}
+05-07 19:12:34.995 D/MG_NET_LOG: └──────────────────────────────────────────────────
+05-07 19:12:35.000 D/WidgetUpdateWorker: 开始获取地址
+05-07 19:12:35.001 D/WidgetUpdateWorker: 高德地址：辽宁省营口市鲅鱼圈区红海街道平安西街72号
+05-07 19:12:35.001 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 辽宁省营口市鲅鱼圈区红海街道平安西街72号
+05-07 19:12:35.001 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+05-07 19:12:35.003 D/MGWidget: updateWidgetSynchronously called for ID: 9
+05-07 19:43:34.475 D/MGWidget: onUpdate called for IDs: 9
+05-07 19:43:34.486 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+05-07 19:43:34.657 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+05-07 19:43:34.672 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+05-07 19:43:35.771 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1094ms) ──────
+05-07 19:43:35.775 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+05-07 19:43:35.776 D/MG_NET_LOG: │ Method: POST
+05-07 19:43:35.777 D/MG_NET_LOG: │ Header: app-type: roewe
+05-07 19:43:35.782 D/MG_NET_LOG: │ Header: timestamp: 1778154214666
+05-07 19:43:35.783 D/MG_NET_LOG: │ Header: sign: Gnucntw/6bpv92mrTUdkfSg/MTEmVLvQTNR5QpI3dpw=
+05-07 19:43:35.784 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6390PZ876163","appId":"Roewe","brandCode":"1","nonce":"96B21CA6449526BBF46F0265235DAE9B","timestamp":"1778154214658","token":"caa63253c533499b818fc763ab242b36-prod_SAIC"}
+05-07 19:43:35.784 D/MG_NET_LOG: ├────── Response Result ──────
+05-07 19:43:35.784 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19e024016954407f81a","data":{"vehicle_position":{"satellites":8,"altitude":8,"gps_status":2,"latitude":"40.230910","update_time":1778147497000,"gps_time":1778148694000,"hdop":7,"longitude":"122.110324"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"pwr_lftgt_pos":null,"steer_heat_level":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":268,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"tbox_internal_battery":null,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":589,"battery_pack_range":56,"power_mode":2,"engine_status":0,"exterior_temperature":18,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":55,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":36472,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":2587,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1330,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":276,"charge_status":1009,"speed":0,"localfront_right_seat_vent_level":null,"vehicle_battery_dev":2,"front_right_tyre_pressure":268,"battery_pack_prc":445,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":589,"current_journey_id":3506,"pwr_lftgt_pos_v":null,"interior_temperature":31,"localfront_right_seat_heat_level":null,"heading":13,"battery_alarm_value":[50,200,500],"update_time":1778147497000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":0,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":272,"vehicle_battery_prc":900,"battery_type":0,"fuel_level_disp":5,"monitor_status":null,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1778147497000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"driver_window":true,"vehicle_battery_connected":true,"clstr_range":false,"driver_door":false,"seat_heat":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":true,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1778147497000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_win
+05-07 19:43:35.784 D/MG_NET_LOG: │ Result(Part 2): dow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":true,"rear_left_window":false,"main_beam":false}}}
+05-07 19:43:35.785 D/MG_NET_LOG: └──────────────────────────────────────────────────
+05-07 19:43:35.785 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1091ms) ──────
+05-07 19:43:35.786 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+05-07 19:43:35.786 D/MG_NET_LOG: │ Method: POST
+05-07 19:43:35.786 D/MG_NET_LOG: │ Header: app-type: roewe
+05-07 19:43:35.787 D/MG_NET_LOG: │ Header: timestamp: 1778154214677
+05-07 19:43:35.787 D/MG_NET_LOG: │ Header: sign: myh35v+QBa/qgV1jT4E8bWMha/eo3b1liTo8cyilsE8=
+05-07 19:43:35.787 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6390PZ876163","appId":"Roewe","brandCode":"1","nonce":"476DDB4DD8B7918456526B8AFBD4862B","timestamp":"1778154214674","token":"caa63253c533499b818fc763ab242b36-prod_SAIC"}
+05-07 19:43:35.788 D/WidgetUpdateWorker: 开始获取地址
+05-07 19:43:35.790 D/MG_NET_LOG: ├────── Response Result ──────
+05-07 19:43:35.791 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19e024016944c57e340","data":{"vehicle_position":{"satellites":8,"altitude":8,"gps_status":2,"latitude":"40.230910","update_time":1778147497000,"gps_time":1778148694000,"hdop":7,"longitude":"122.110324"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"pwr_lftgt_pos":null,"steer_heat_level":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":268,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"tbox_internal_battery":null,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":589,"battery_pack_range":56,"power_mode":2,"engine_status":0,"exterior_temperature":18,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":55,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":36472,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":2587,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1330,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":276,"charge_status":1009,"speed":0,"localfront_right_seat_vent_level":null,"vehicle_battery_dev":2,"front_right_tyre_pressure":268,"battery_pack_prc":445,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":589,"current_journey_id":3506,"pwr_lftgt_pos_v":null,"interior_temperature":31,"localfront_right_seat_heat_level":null,"heading":13,"battery_alarm_value":[50,200,500],"update_time":1778147497000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":0,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":272,"vehicle_battery_prc":900,"battery_type":0,"fuel_level_disp":5,"monitor_status":null,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1778147497000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"driver_window":true,"vehicle_battery_connected":true,"clstr_range":false,"driver_door":false,"seat_heat":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":true,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1778147497000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_win
+05-07 19:43:35.793 D/WidgetUpdateWorker: 高德地址：辽宁省营口市鲅鱼圈区红海街道平安西街72号
+05-07 19:43:35.791 D/MG_NET_LOG: │ Result(Part 2): dow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":true,"rear_left_window":false,"main_beam":false}}}
+05-07 19:43:35.794 D/MG_NET_LOG: └──────────────────────────────────────────────────
+05-07 19:43:35.794 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 辽宁省营口市鲅鱼圈区红海街道平安西街72号
+05-07 19:43:35.795 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+05-07 19:43:35.797 D/WidgetUpdateWorker: 开始获取地址
+05-07 19:43:35.799 D/WidgetUpdateWorker: 高德地址：辽宁省营口市鲅鱼圈区红海街道平安西街72号
+05-07 19:43:35.800 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 辽宁省营口市鲅鱼圈区红海街道平安西街72号
+05-07 19:43:35.801 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+05-07 19:43:35.801 D/MGWidget: updateWidgetSynchronously called for ID: 9
+05-07 19:43:35.802 D/MGWidget: updateWidgetSynchronously called for ID: 9
+05-07 20:15:15.935 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+05-07 20:15:17.497 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 936ms) ──────
+05-07 20:15:17.504 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+05-07 20:15:17.508 D/MG_NET_LOG: │ Method: POST
+05-07 20:15:17.508 D/MG_NET_LOG: │ Header: app-type: roewe
+05-07 20:15:17.508 D/MG_NET_LOG: │ Header: timestamp: 1778156116553
+05-07 20:15:17.509 D/MG_NET_LOG: │ Header: sign: MEbPcgXmKVs1sMODuwCVAXhYdR3J7tSsSEkKrI+SzIY=
+05-07 20:15:17.510 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6390PZ876163","appId":"Roewe","brandCode":"1","nonce":"F54E2763E2D13778B75137ECB6521BA1","timestamp":"1778156115949","token":"caa63253c533499b818fc763ab242b36-prod_SAIC"}
+05-07 20:15:17.511 D/MG_NET_LOG: ├────── Response Result ──────
+05-07 20:15:17.512 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19e025d1bb6e99e3e37","data":{"vehicle_position":{"satellites":8,"altitude":8,"gps_status":2,"latitude":"40.230910","update_time":1778147497000,"gps_time":1778148694000,"hdop":7,"longitude":"122.110324"},"vehicle_alerts":[],"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"pwr_lftgt_pos":null,"steer_heat_level":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":268,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"tbox_internal_battery":null,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":589,"battery_pack_range":56,"power_mode":2,"engine_status":0,"exterior_temperature":18,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":55,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":36472,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":2587,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1330,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":276,"charge_status":1009,"speed":0,"localfront_right_seat_vent_level":null,"vehicle_battery_dev":2,"front_right_tyre_pressure":268,"battery_pack_prc":445,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":589,"current_journey_id":3506,"pwr_lftgt_pos_v":null,"interior_temperature":31,"localfront_right_seat_heat_level":null,"heading":13,"battery_alarm_value":[50,200,500],"update_time":1778147497000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":0,"veh_intlgnt_scene_md":null,"rear_left_tyre_pressure":272,"vehicle_battery_prc":900,"battery_type":0,"fuel_level_disp":5,"monitor_status":null,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1778147497000,"vehicle_state":{"door":false,"gnss_ant_connected":false,"second_row_left_seat_heat":false,"rear_right_door":false,"dipped_beam":false,"second_row_right_seat_vent":false,"driver_window":true,"vehicle_battery_connected":true,"clstr_range":false,"driver_door":false,"seat_heat":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":true,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1778147497000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_win
+05-07 20:15:17.513 D/MG_NET_LOG: │ Result(Part 2): dow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":true,"rear_left_window":false,"main_beam":false}}}
+05-07 20:15:17.534 D/MG_NET_LOG: └──────────────────────────────────────────────────
+05-07 20:15:17.549 D/WidgetUpdateWorker: 开始获取地址
+05-07 20:15:17.556 D/WidgetUpdateWorker: 高德地址：辽宁省营口市鲅鱼圈区红海街道平安西街72号
+05-07 20:15:17.556 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 辽宁省营口市鲅鱼圈区红海街道平安西街72号
+05-07 20:15:17.557 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+05-07 20:15:17.557 D/MGWidget: updateWidgetSynchronously called for ID: 9
+05-07 20:16:52.820 D/MGWidget: onUpdate called for IDs: 9
+05-07 20:16:52.823 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+05-07 20:16:52.848 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+05-07 20:16:53.416 D/MGWidget: onReceive called with action: com.my.mg.ACTION_REFRESH
+05-07 20:16:53.963 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 1106ms) ──────
+05-07 20:16:53.965 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+05-07 20:16:53.965 D/MG_NET_LOG: │ Method: POST
+05-07 20:16:53.966 D/MG_NET_LOG: │ Header: app-type: roewe
+05-07 20:16:53.966 D/MG_NET_LOG: │ Header: timestamp: 1778156212852
+05-07 20:16:53.967 D/MG_NET_LOG: │ Header: sign: jnBqdmpwz6Hr8+wTR8RBJLeeB436cUH88X32UVRk20c=
+05-07 20:16:53.967 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6390PZ876163","appId":"Roewe","brandCode":"1","nonce":"8F0EA76D91C4F9216D798C316C775987","timestamp":"1778156212850","token":"caa63253c533499b818fc763ab242b36-prod_SAIC"}
+05-07 20:16:53.967 D/MG_NET_LOG: ├────── Response Result ──────
+05-07 20:16:53.968 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19e025e9477f1a6f701","data":{"vehicle_position":{"satellites":8,"altitude":8,"gps_status":2,"latitude":"40.230910","update_time":1778147497000,"gps_time":1778148694000,"hdop":7,"longitude":"122.110324"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":268,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":589,"power_mode":2,"battery_pack_range":56,"engine_status":0,"exterior_temperature":18,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":55,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":36472,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":2587,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1330,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":276,"charge_status":1009,"speed":0,"localfront_right_seat_vent_level":null,"front_right_tyre_pressure":268,"vehicle_battery_dev":2,"battery_pack_prc":445,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":589,"current_journey_id":3506,"pwr_lftgt_pos_v":null,"interior_temperature":31,"localfront_right_seat_heat_level":null,"heading":13,"battery_alarm_value":[50,200,500],"update_time":1778147497000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":0,"rear_left_tyre_pressure":272,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":900,"battery_type":0,"fuel_level_disp":5,"monitor_status":null,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1778147497000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":true,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":true,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1778147497000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_win
+05-07 20:16:53.968 D/MG_NET_LOG: │ Result(Part 2): dow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":true,"rear_left_window":false,"main_beam":false}}}
+05-07 20:16:53.969 D/MG_NET_LOG: └──────────────────────────────────────────────────
+05-07 20:16:53.972 D/WidgetUpdateWorker: 开始获取地址
+05-07 20:16:53.981 D/WidgetUpdateWorker: 高德地址：辽宁省营口市鲅鱼圈区红海街道平安西街72号
+05-07 20:16:53.982 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 辽宁省营口市鲅鱼圈区红海街道平安西街72号
+05-07 20:16:53.983 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+05-07 20:16:53.985 D/MGWidget: updateWidgetSynchronously called for ID: 9
+05-07 20:17:11.432 D/MGWidget: onReceive called with action: com.my.mg.ACTION_REFRESH
+05-07 20:17:11.460 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+05-07 20:17:12.107 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 641ms) ──────
+05-07 20:17:12.108 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+05-07 20:17:12.108 D/MG_NET_LOG: │ Method: POST
+05-07 20:17:12.108 D/MG_NET_LOG: │ Header: app-type: roewe
+05-07 20:17:12.109 D/MG_NET_LOG: │ Header: timestamp: 1778156231463
+05-07 20:17:12.110 D/MG_NET_LOG: │ Header: sign: UIbd+iUpqcWzK+Bd05EbgQgEKg72mJjBulYeIM42uA4=
+05-07 20:17:12.111 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6390PZ876163","appId":"Roewe","brandCode":"1","nonce":"B1BE4C04143228B249D8112821994F82","timestamp":"1778156231461","token":"caa63253c533499b818fc763ab242b36-prod_SAIC"}
+05-07 20:17:12.111 D/MG_NET_LOG: ├────── Response Result ──────
+05-07 20:17:12.112 D/MG_NET_LOG: │ Result(Part 1): {"req_id":"19e025edb3b8ff1e9b5","data":{"vehicle_position":{"satellites":7,"altitude":25,"gps_status":2,"latitude":"40.231000","update_time":1778156224000,"gps_time":1778156224000,"hdop":11,"longitude":"122.110508"},"vehicle_security":{"position_authorization_status":true,"privacy_status":true},"vehicle_alerts":[],"vehicle_value":{"local_sec_row_r_seat_vent_lvl":null,"climate_on_off_status":null,"steer_heat_level":null,"pwr_lftgt_pos":null,"inst_fuel_consumption":null,"rear_right_tyre_pressure":276,"tbox_internal_battery":null,"battery_pack_fault_status":null,"charge_door_position_status":0,"veh_elec_rng_dsp_cmd":0,"local_sec_row_l_seat_vent_lvl":null,"veh_bms_pack_soc_dsp_v":null,"battery_lattice_number":4,"driving_range":589,"power_mode":0,"battery_pack_range":46,"engine_status":0,"exterior_temperature":17,"rmt_rr_seat_heat_flr_rsn":null,"fuel_level_prc":55,"localfront_left_seat_heat_level":null,"interior_pm25":0,"odometer":36472,"local_sec_row_l_seat_heat_lvl":null,"rmt_fr_seat_heat_flr_rsn":null,"rmt_seat_vent_flr_rsn":null,"inspect_status":null,"remote_steer_heat_level":null,"last_key_seen":0,"wheel_tyre_monitor_status":null,"rmt_a_c_abot_rsn":null,"vehicle_battery":1250,"chrgng_rmnng_time_v":null,"exterior_pm25":0,"front_left_tyre_pressure":280,"charge_status":1009,"speed":0,"localfront_right_seat_vent_level":null,"front_right_tyre_pressure":276,"vehicle_battery_dev":2,"battery_pack_prc":368,"interior_temperature_v":null,"local_sec_row_r_seat_heat_lvl":null,"steer_heat_failure_reason":null,"clstr_elec_rng_to_eptv":null,"fuel_range":589,"current_journey_id":3506,"pwr_lftgt_pos_v":null,"interior_temperature":1,"localfront_right_seat_heat_level":null,"heading":0,"battery_alarm_value":[50,200,500],"update_time":1778156224000,"remote_climate_status":0,"fota_status":0,"current_journey_distance":0,"bms_charge_status":null,"vehicle_alarm_status":2,"rear_left_tyre_pressure":280,"veh_intlgnt_scene_md":null,"vehicle_battery_prc":900,"battery_type":0,"fuel_level_disp":5,"monitor_status":null,"chrgng_rmnng_time":null,"localfront_left_seat_vent_level":null},"update_time":1778156224000,"vehicle_state":{"gnss_ant_connected":false,"door":false,"second_row_left_seat_heat":false,"rear_right_door":false,"second_row_right_seat_vent":false,"dipped_beam":false,"clstr_range":false,"vehicle_battery_connected":true,"driver_window":false,"seat_heat":false,"driver_door":false,"lock":true,"right_seat_heat":false,"feed":false,"horn":false,"air_clean":false,"light":false,"bonnet":false,"bat_low":null,"inspect":null,"steer_heat":false,"side_light":false,"gsm_ant_connected":false,"second_row_left_seat_vent":false,"battery_pack":true,"combination_control":false,"engine":false,"seat_vent":false,"second_row_right_seat_heat":false,"left_seat_vent":false,"power":false,"boot":false,"power_protection":false,"charge":false,"passenger_door":false,"can_bus":true,"update_time":1778156224000,"monitor":null,"climate":false,"right_seat_vent":false,"left_seat_heat":false,"rear_right_wind
+05-07 20:17:12.112 D/MG_NET_LOG: │ Result(Part 2): ow":false,"sunroof":false,"rear_left_door":false,"passenger_window":false,"window":false,"rear_left_window":false,"main_beam":false}}}
+05-07 20:17:12.112 D/MG_NET_LOG: └──────────────────────────────────────────────────
+05-07 20:17:12.118 D/WidgetUpdateWorker: 开始获取地址
+05-07 20:17:12.400 D/WidgetUpdateWorker: 高德地址：辽宁省营口市鲅鱼圈区红海街道平安西街74号
+05-07 20:17:12.401 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: 辽宁省营口市鲅鱼圈区红海街道平安西街74号
+05-07 20:17:12.402 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+05-07 20:17:12.403 D/MGWidget: updateWidgetSynchronously called for ID: 9
