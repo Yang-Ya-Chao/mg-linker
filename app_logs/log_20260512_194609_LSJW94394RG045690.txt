@@ -1,0 +1,7 @@
+--- Log Capture Start: 20260512_194609 ---
+05-12 19:45:59.507 D/BleUnlockWorker: ⏰ ensureConnected 超时 (BleUnlockWorker)
+05-12 19:45:59.511 D/BleUnlockWorker: ➖ 移除监听器: callback_14_1778586344506 
+05-12 19:45:59.521 D/BleUnlockWorker: 清理资源
+05-12 19:45:59.521 D/BleUnlockWorker: 🎫 [BleUnlockWorker] 释放 Session: session_BleUnlockWorker_7_1778586344504 (剩余: 0)
+05-12 19:45:59.522 D/BleUnlockWorker: ✂️ 所有 Session 已释放，准备断开连接
+05-12 19:45:59.522 D/BleUnlockWorker: ➖ 移除监听器: callback_13_1778586344506 
