@@ -1,0 +1,28 @@
+--- Log Capture Start: 20260515_022603 ---
+05-15 02:17:39.205 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-15 02:17:39.213 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-15 02:17:39.213 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-15 02:17:40.222 D/BleProximity: 🔍 开始连接
+05-15 02:17:40.223 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:34:22:59
+05-15 02:17:40.223 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-15 02:17:40.226 D/BleProximity: 📡 连接状态: CONNECTING
+05-15 02:17:40.237 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:34:22:59
+05-15 02:17:40.239 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-15 02:17:45.243 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-15 02:17:45.265 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-15 02:17:45.266 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-15 02:17:46.275 D/BleProximity: 🔍 开始连接
+05-15 02:17:46.276 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:34:22:59
+05-15 02:17:46.276 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-15 02:17:46.277 D/BleProximity: 📡 连接状态: CONNECTING
+05-15 02:17:46.280 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:34:22:59
+05-15 02:17:46.281 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-15 02:17:51.284 D/BleProximity: ⏱️ 狂暴暴击超时，强制重置
+05-15 02:17:51.290 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-15 02:17:51.291 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-15 02:17:52.295 D/BleProximity: 🔍 开始连接
+05-15 02:17:52.298 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:34:22:59
+05-15 02:17:52.299 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-15 02:17:52.300 D/BleProximity: 📡 连接状态: CONNECTING
+05-15 02:17:52.312 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:34:22:59
+05-15 02:17:52.316 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
