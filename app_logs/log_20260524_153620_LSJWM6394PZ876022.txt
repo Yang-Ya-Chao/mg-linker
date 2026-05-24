@@ -1,0 +1,944 @@
+--- Log Capture Start: 20260524_153620 ---
+05-24 15:35:07.932 D/BleProximity: 🔍 开始连接
+05-24 15:35:07.932 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:35:07.932 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:35:07.933 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:35:07.936 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:35:07.936 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:35:08.384 D/BleProximity: ⚙️ 底层状态反馈: status=133, newState=0
+05-24 15:35:08.385 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 133)
+05-24 15:35:08.385 D/BleProximity: ⚠️ 遇到协议栈恶性错误 133，尝试清理缓存自救
+05-24 15:35:08.385 D/BleProximity: 🧹 GATT 缓存清理失败
+05-24 15:35:08.385 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:35:08.385 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:35:08.387 D/BleProximity: 狂暴模式重试 (1/3)...
+05-24 15:35:08.888 D/BleProximity: 🔍 开始连接
+05-24 15:35:08.888 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:35:08.889 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:35:08.889 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:35:08.892 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:35:08.892 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:35:09.148 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:35:09.150 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:35:09.151 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:35:09.151 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:35:10.003 D/BleProximity: ✅ 特征初始化完成
+05-24 15:35:10.026 D/BleProximity: MTU 生效: 65
+05-24 15:35:10.026 D/BleProximity: 🔐 开始认证流程
+05-24 15:35:10.027 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:35:10.028 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:35:10.029 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:35:10.030 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:35:10.031 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:35:10.045 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:10.046 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:35:10.059 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:10.060 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:35:10.089 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:10.090 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:35:10.092 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:35:10.148 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:35:10.157 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:35:10.157 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:35:10.218 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:35:10.218 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:35:10.218 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:35:10.218 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:35:10.224 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:35:10.724 D/BleProximity: 🔍 开始连接
+05-24 15:35:10.725 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:35:10.725 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:35:10.725 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:35:10.728 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:35:10.728 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:35:12.692 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:35:12.692 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:35:12.693 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:35:12.693 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:35:13.544 D/BleProximity: ✅ 特征初始化完成
+05-24 15:35:13.563 D/BleProximity: MTU 生效: 65
+05-24 15:35:13.564 D/BleProximity: 🔐 开始认证流程
+05-24 15:35:13.566 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:35:13.566 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:35:13.568 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:35:13.569 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:35:13.569 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:35:13.585 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:13.586 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:35:13.600 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:13.600 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:35:13.659 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:13.660 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:35:13.662 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:35:13.720 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:35:13.721 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:35:13.721 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:35:13.788 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:35:13.789 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:35:13.789 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:35:13.789 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:35:13.793 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:35:14.294 D/BleProximity: 🔍 开始连接
+05-24 15:35:14.295 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:35:14.295 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:35:14.295 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:35:14.298 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:35:14.298 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:35:14.664 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:35:14.666 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:35:14.666 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:35:14.666 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:35:15.524 D/BleProximity: ✅ 特征初始化完成
+05-24 15:35:15.543 D/BleProximity: MTU 生效: 65
+05-24 15:35:15.544 D/BleProximity: 🔐 开始认证流程
+05-24 15:35:15.546 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:35:15.546 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:35:15.548 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:35:15.549 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:35:15.549 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:35:15.564 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:15.565 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:35:15.581 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:15.582 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:35:15.639 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:15.640 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:35:15.643 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:35:15.700 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:35:15.700 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:35:15.701 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:35:15.770 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:35:15.771 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:35:15.771 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:35:15.771 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:35:15.778 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:35:16.278 D/BleProximity: 🔍 开始连接
+05-24 15:35:16.279 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:35:16.279 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:35:16.280 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:35:16.285 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:35:16.285 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:35:17.463 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:35:17.464 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:35:17.464 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:35:17.465 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:35:18.313 D/BleProximity: ✅ 特征初始化完成
+05-24 15:35:18.333 D/BleProximity: MTU 生效: 65
+05-24 15:35:18.333 D/BleProximity: 🔐 开始认证流程
+05-24 15:35:18.335 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:35:18.335 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:35:18.338 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:35:18.339 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:35:18.339 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:35:18.355 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:18.356 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:35:18.370 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:18.371 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:35:18.401 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:18.402 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:35:18.405 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:35:18.460 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:35:18.460 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:35:18.461 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:35:18.526 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:35:18.527 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:35:18.527 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:35:18.527 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:35:18.530 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:35:19.031 D/BleProximity: 🔍 开始连接
+05-24 15:35:19.032 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:35:19.032 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:35:19.032 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:35:19.037 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:35:19.038 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:35:19.446 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:35:19.447 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:35:19.447 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:35:19.448 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:35:20.294 D/BleProximity: ✅ 特征初始化完成
+05-24 15:35:20.315 D/BleProximity: MTU 生效: 65
+05-24 15:35:20.315 D/BleProximity: 🔐 开始认证流程
+05-24 15:35:20.317 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:35:20.317 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:35:20.319 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:35:20.320 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:35:20.321 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:35:20.335 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:20.336 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:35:20.350 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:20.351 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:35:20.379 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:20.380 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:35:20.383 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:35:20.441 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:35:20.442 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:35:20.443 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:35:20.504 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:35:20.504 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:35:20.504 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:35:20.504 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:35:20.510 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:35:21.012 D/BleProximity: 🔍 开始连接
+05-24 15:35:21.013 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:35:21.014 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:35:21.014 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:35:21.019 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:35:21.021 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:35:22.990 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:35:22.991 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:35:22.991 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:35:22.991 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:35:23.841 D/BleProximity: ✅ 特征初始化完成
+05-24 15:35:23.860 D/BleProximity: MTU 生效: 65
+05-24 15:35:23.861 D/BleProximity: 🔐 开始认证流程
+05-24 15:35:23.863 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:35:23.863 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:35:23.866 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:35:23.868 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:35:23.868 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:35:23.882 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:23.883 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:35:23.897 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:23.897 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:35:23.919 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:23.919 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:35:23.922 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:35:23.979 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:35:23.980 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:35:23.980 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:35:24.052 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:35:24.053 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:35:24.053 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:35:24.053 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:35:24.058 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:35:24.558 D/BleProximity: 🔍 开始连接
+05-24 15:35:24.559 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:35:24.559 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:35:24.559 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:35:24.566 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:35:24.566 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:35:24.992 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:35:24.993 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:35:24.993 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:35:24.993 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:35:25.843 D/BleProximity: ✅ 特征初始化完成
+05-24 15:35:25.863 D/BleProximity: MTU 生效: 65
+05-24 15:35:25.864 D/BleProximity: 🔐 开始认证流程
+05-24 15:35:25.867 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:35:25.867 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:35:25.869 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:35:25.870 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:35:25.870 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:35:25.884 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:25.884 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:35:25.900 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:25.900 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:35:25.930 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:25.948 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:35:25.950 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:35:25.989 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:35:25.990 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:35:25.990 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:35:26.066 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:35:26.066 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:35:26.066 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:35:26.066 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:35:26.071 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:35:26.571 D/BleProximity: 🔍 开始连接
+05-24 15:35:26.573 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:35:26.573 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:35:26.575 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:35:26.578 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:35:26.579 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:35:27.762 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:35:27.763 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:35:27.763 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:35:27.763 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:35:28.613 D/BleProximity: ✅ 特征初始化完成
+05-24 15:35:28.646 D/BleProximity: MTU 生效: 65
+05-24 15:35:28.646 D/BleProximity: 🔐 开始认证流程
+05-24 15:35:28.647 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:35:28.648 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:35:28.649 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:35:28.649 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:35:28.650 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:35:28.666 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:28.680 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:35:28.718 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:28.728 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:35:28.779 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:28.780 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:35:28.782 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:35:28.838 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:35:28.839 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:35:28.839 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:35:28.905 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:35:28.906 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:35:28.906 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:35:28.906 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:35:28.911 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:35:29.412 D/BleProximity: 🔍 开始连接
+05-24 15:35:29.413 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:35:29.413 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:35:29.414 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:35:29.418 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:35:29.420 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:35:29.827 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:35:29.831 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:35:29.832 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:35:29.832 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:35:30.681 D/BleProximity: ✅ 特征初始化完成
+05-24 15:35:30.706 D/BleProximity: MTU 生效: 65
+05-24 15:35:30.706 D/BleProximity: 🔐 开始认证流程
+05-24 15:35:30.708 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:35:30.708 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:35:30.709 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:35:30.710 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:35:30.710 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:35:30.722 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:30.722 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:35:30.739 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:30.739 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:35:30.759 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:30.759 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:35:30.761 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:35:30.820 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:35:30.821 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:35:30.822 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:35:30.889 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:35:30.890 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:35:30.890 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:35:30.890 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:35:30.897 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:35:31.398 D/BleProximity: 🔍 开始连接
+05-24 15:35:31.399 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:35:31.399 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:35:31.399 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:35:31.402 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:35:31.403 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:35:32.584 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:35:32.585 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:35:32.587 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:35:32.587 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:35:33.433 D/BleProximity: ✅ 特征初始化完成
+05-24 15:35:33.460 D/BleProximity: MTU 生效: 65
+05-24 15:35:33.460 D/BleProximity: 🔐 开始认证流程
+05-24 15:35:33.462 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:35:33.463 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:35:33.465 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:35:33.467 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:35:33.468 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:35:33.482 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:33.483 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:35:33.497 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:33.498 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:35:33.549 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:33.550 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:35:33.553 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:35:33.610 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:35:33.611 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:35:33.611 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:35:33.675 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:35:33.675 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:35:33.676 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:35:33.676 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:35:33.683 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:35:34.183 D/BleProximity: 🔍 开始连接
+05-24 15:35:34.184 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:35:34.184 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:35:34.185 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:35:34.188 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:35:34.188 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:35:34.568 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:35:34.568 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:35:34.568 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:35:34.568 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:35:35.413 D/BleProximity: ✅ 特征初始化完成
+05-24 15:35:35.433 D/BleProximity: MTU 生效: 65
+05-24 15:35:35.434 D/BleProximity: 🔐 开始认证流程
+05-24 15:35:35.436 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:35:35.436 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:35:35.438 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:35:35.439 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:35:35.439 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:35:35.455 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:35.473 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:35:35.531 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:35.531 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:35:35.588 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:35.588 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:35:35.590 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:35:35.650 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:35:35.651 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:35:35.651 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:35:35.720 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:35:35.722 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:35:35.722 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:35:35.722 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:35:35.726 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:35:36.227 D/BleProximity: 🔍 开始连接
+05-24 15:35:36.227 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:35:36.227 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:35:36.227 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:35:36.232 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:35:36.233 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:35:38.198 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:35:38.199 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:35:38.199 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:35:38.199 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:35:39.052 D/BleProximity: ✅ 特征初始化完成
+05-24 15:35:39.069 D/BleProximity: MTU 生效: 65
+05-24 15:35:39.070 D/BleProximity: 🔐 开始认证流程
+05-24 15:35:39.071 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:35:39.071 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:35:39.072 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:35:39.072 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:35:39.072 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:35:39.084 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:39.085 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:35:39.101 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:39.101 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:35:39.115 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:39.115 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:35:39.117 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:35:39.159 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:35:39.160 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:35:39.160 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:35:39.227 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:35:39.228 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:35:39.229 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:35:39.229 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:35:39.234 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:35:39.735 D/BleProximity: 🔍 开始连接
+05-24 15:35:39.737 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:35:39.737 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:35:39.737 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:35:39.742 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:35:39.743 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:35:40.118 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:35:40.119 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:35:40.119 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:35:40.119 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:35:40.964 D/BleProximity: ✅ 特征初始化完成
+05-24 15:35:40.983 D/BleProximity: MTU 生效: 65
+05-24 15:35:40.983 D/BleProximity: 🔐 开始认证流程
+05-24 15:35:40.985 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:35:40.986 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:35:40.988 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:35:40.989 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:35:40.989 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:35:41.004 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:41.009 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:35:41.029 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:41.030 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:35:41.081 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:41.082 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:35:41.085 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:35:41.140 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:35:41.141 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:35:41.142 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:35:41.204 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:35:41.204 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:35:41.204 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:35:41.205 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:35:41.210 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:35:41.710 D/BleProximity: 🔍 开始连接
+05-24 15:35:41.711 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:35:41.711 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:35:41.712 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:35:41.715 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:35:41.715 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:35:42.114 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:35:42.116 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:35:42.118 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:35:42.118 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:35:42.975 D/BleProximity: ✅ 特征初始化完成
+05-24 15:35:42.993 D/BleProximity: MTU 生效: 65
+05-24 15:35:42.994 D/BleProximity: 🔐 开始认证流程
+05-24 15:35:42.996 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:35:42.997 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:35:42.998 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:35:43.000 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:35:43.000 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:35:43.015 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:43.029 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:35:43.051 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:43.052 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:35:43.111 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:43.111 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:35:43.112 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:35:43.175 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:35:43.175 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:35:43.175 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:35:43.239 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:35:43.239 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:35:43.239 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:35:43.239 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:35:43.244 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:35:43.744 D/BleProximity: 🔍 开始连接
+05-24 15:35:43.745 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:35:43.746 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:35:43.746 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:35:43.750 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:35:43.752 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:35:44.166 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:35:44.166 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:35:44.167 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:35:44.167 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:35:45.012 D/BleProximity: ✅ 特征初始化完成
+05-24 15:35:45.038 D/BleProximity: MTU 生效: 65
+05-24 15:35:45.039 D/BleProximity: 🔐 开始认证流程
+05-24 15:35:45.040 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:35:45.041 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:35:45.043 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:35:45.044 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:35:45.044 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:35:45.056 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:45.067 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:35:45.099 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:45.105 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:35:45.158 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:45.159 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:35:45.162 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:35:45.220 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:35:45.221 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:35:45.221 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:35:45.286 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:35:45.287 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:35:45.287 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:35:45.287 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:35:45.293 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:35:45.792 D/BleProximity: 🔍 开始连接
+05-24 15:35:45.793 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:35:45.793 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:35:45.793 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:35:45.797 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:35:45.797 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:35:46.205 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:35:46.206 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:35:46.206 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:35:46.207 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:35:47.068 D/BleProximity: ✅ 特征初始化完成
+05-24 15:35:47.087 D/BleProximity: MTU 生效: 65
+05-24 15:35:47.087 D/BleProximity: 🔐 开始认证流程
+05-24 15:35:47.088 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:35:47.088 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:35:47.089 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:35:47.090 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:35:47.090 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:35:47.101 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:47.102 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:35:47.116 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:47.116 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:35:47.138 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:47.138 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:35:47.143 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:35:47.200 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:35:47.201 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:35:47.201 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:35:47.267 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:35:47.268 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:35:47.269 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:35:47.269 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:35:47.273 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:35:47.774 D/BleProximity: 🔍 开始连接
+05-24 15:35:47.774 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:35:47.775 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:35:47.775 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:35:47.777 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:35:47.777 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:35:48.160 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:35:48.160 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:35:48.161 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:35:48.161 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:35:49.001 D/BleProximity: ✅ 特征初始化完成
+05-24 15:35:49.014 D/BleProximity: MTU 生效: 65
+05-24 15:35:49.015 D/BleProximity: 🔐 开始认证流程
+05-24 15:35:49.016 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:35:49.016 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:35:49.017 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:35:49.018 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:35:49.018 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:35:49.031 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:49.032 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:35:49.052 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:49.052 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:35:49.068 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:49.068 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:35:49.071 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:35:49.119 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:35:49.121 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:35:49.121 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:35:49.186 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:35:49.187 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:35:49.187 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:35:49.187 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:35:49.190 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:35:49.691 D/BleProximity: 🔍 开始连接
+05-24 15:35:49.692 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:35:49.692 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:35:49.692 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:35:49.695 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:35:49.695 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:35:50.046 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:35:50.047 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:35:50.048 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:35:50.049 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:35:50.905 D/BleProximity: ✅ 特征初始化完成
+05-24 15:35:50.938 D/BleProximity: MTU 生效: 65
+05-24 15:35:50.938 D/BleProximity: 🔐 开始认证流程
+05-24 15:35:50.940 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:35:50.940 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:35:50.941 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:35:50.941 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:35:50.941 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:35:50.957 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:50.970 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:35:51.009 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:51.010 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:35:51.069 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:51.069 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:35:51.072 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:35:51.130 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:35:51.130 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:35:51.131 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:35:51.202 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:35:51.202 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:35:51.203 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:35:51.203 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:35:51.207 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:35:51.707 D/BleProximity: 🔍 开始连接
+05-24 15:35:51.708 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:35:51.708 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:35:51.708 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:35:51.709 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:35:51.712 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:35:52.109 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:35:52.110 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:35:52.113 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:35:52.114 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:35:52.960 D/BleProximity: ✅ 特征初始化完成
+05-24 15:35:52.973 D/BleProximity: MTU 生效: 65
+05-24 15:35:52.974 D/BleProximity: 🔐 开始认证流程
+05-24 15:35:52.974 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:35:52.974 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:35:52.975 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:35:52.975 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:35:52.975 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:35:52.988 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:52.989 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:35:53.003 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:53.004 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:35:53.019 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:53.019 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:35:53.020 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:35:53.049 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:35:53.062 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:35:53.063 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:35:53.117 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:35:53.117 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:35:53.118 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:35:53.118 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:35:53.121 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:35:53.622 D/BleProximity: 🔍 开始连接
+05-24 15:35:53.622 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:35:53.622 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:35:53.622 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:35:53.625 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:35:53.625 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:35:54.810 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:35:54.812 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:35:54.812 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:35:54.812 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:35:55.661 D/BleProximity: ✅ 特征初始化完成
+05-24 15:35:55.674 D/BleProximity: MTU 生效: 65
+05-24 15:35:55.674 D/BleProximity: 🔐 开始认证流程
+05-24 15:35:55.675 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:35:55.675 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:35:55.676 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:35:55.677 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:35:55.677 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:35:55.689 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:55.689 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:35:55.706 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:55.707 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:35:55.720 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:55.721 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:35:55.724 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:35:55.751 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:35:55.752 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:35:55.753 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:35:55.823 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:35:55.824 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:35:55.824 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:35:55.824 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:35:55.827 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:35:56.328 D/BleProximity: 🔍 开始连接
+05-24 15:35:56.329 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:35:56.330 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:35:56.330 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:35:56.334 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:35:56.335 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:35:56.705 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:35:56.707 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:35:56.707 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:35:56.707 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:35:57.562 D/BleProximity: ✅ 特征初始化完成
+05-24 15:35:57.580 D/BleProximity: MTU 生效: 65
+05-24 15:35:57.581 D/BleProximity: 🔐 开始认证流程
+05-24 15:35:57.582 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:35:57.582 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:35:57.584 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:35:57.585 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:35:57.586 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:35:57.601 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:57.602 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:35:57.617 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:57.618 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:35:57.639 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:57.639 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:35:57.642 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:35:57.699 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:35:57.700 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:35:57.701 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:35:57.767 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:35:57.768 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:35:57.768 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:35:57.768 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:35:57.771 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:35:58.272 D/BleProximity: 🔍 开始连接
+05-24 15:35:58.272 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:35:58.272 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:35:58.273 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:35:58.280 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:35:58.280 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:35:58.645 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:35:58.645 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:35:58.645 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:35:58.645 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:35:59.506 D/BleProximity: ✅ 特征初始化完成
+05-24 15:35:59.523 D/BleProximity: MTU 生效: 65
+05-24 15:35:59.524 D/BleProximity: 🔐 开始认证流程
+05-24 15:35:59.525 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:35:59.525 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:35:59.526 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:35:59.527 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:35:59.527 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:35:59.544 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:59.545 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:35:59.560 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:59.561 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:35:59.574 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:35:59.575 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:35:59.576 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:35:59.620 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:35:59.621 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:35:59.621 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:35:59.688 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:35:59.689 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:35:59.690 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:35:59.690 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:35:59.698 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:36:00.199 D/BleProximity: 🔍 开始连接
+05-24 15:36:00.199 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:36:00.199 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:36:00.199 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:36:00.202 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:36:00.202 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:36:02.921 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:36:02.922 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:36:02.922 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:36:02.923 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:36:03.761 D/BleProximity: ✅ 特征初始化完成
+05-24 15:36:03.775 D/BleProximity: MTU 生效: 65
+05-24 15:36:03.775 D/BleProximity: 🔐 开始认证流程
+05-24 15:36:03.776 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:36:03.777 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:36:03.778 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:36:03.779 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:36:03.779 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:36:03.789 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:36:03.790 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:36:03.805 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:36:03.811 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:36:03.826 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:36:03.827 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:36:03.828 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:36:03.879 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:36:03.880 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:36:03.880 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:36:03.947 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:36:03.948 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:36:03.948 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:36:03.948 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:36:03.957 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:36:04.457 D/BleProximity: 🔍 开始连接
+05-24 15:36:04.458 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:36:04.458 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:36:04.459 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:36:04.463 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:36:04.464 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:36:08.764 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:36:08.781 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:36:08.781 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:36:08.781 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:36:09.622 D/BleProximity: ✅ 特征初始化完成
+05-24 15:36:09.655 D/BleProximity: MTU 生效: 65
+05-24 15:36:09.656 D/BleProximity: 🔐 开始认证流程
+05-24 15:36:09.658 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:36:09.658 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:36:09.660 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:36:09.661 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:36:09.661 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:36:09.677 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:36:09.687 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:36:09.730 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:36:09.739 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:36:09.789 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:36:09.804 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:36:09.807 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:36:09.849 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:36:09.869 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:36:09.870 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:36:09.918 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:36:09.934 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:36:09.934 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:36:09.934 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:36:09.936 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:36:10.437 D/BleProximity: 🔍 开始连接
+05-24 15:36:10.437 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:36:10.437 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:36:10.437 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:36:10.439 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:36:10.440 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:36:10.835 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:36:10.836 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:36:10.836 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:36:10.836 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:36:11.681 D/BleProximity: ✅ 特征初始化完成
+05-24 15:36:11.694 D/BleProximity: MTU 生效: 65
+05-24 15:36:11.694 D/BleProximity: 🔐 开始认证流程
+05-24 15:36:11.695 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:36:11.696 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:36:11.697 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:36:11.697 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:36:11.698 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:36:11.709 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:36:11.709 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:36:11.724 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:36:11.724 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:36:11.740 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:36:11.740 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:36:11.741 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:36:11.768 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:36:11.768 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:36:11.769 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:36:11.835 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:36:11.835 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:36:11.836 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:36:11.836 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:36:11.841 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:36:12.342 D/BleProximity: 🔍 开始连接
+05-24 15:36:12.342 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:36:12.342 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:36:12.343 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:36:12.355 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:36:12.357 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:36:12.749 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:36:12.749 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:36:12.750 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:36:12.750 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:36:13.620 D/BleProximity: ✅ 特征初始化完成
+05-24 15:36:13.654 D/BleProximity: MTU 生效: 65
+05-24 15:36:13.654 D/BleProximity: 🔐 开始认证流程
+05-24 15:36:13.656 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:36:13.656 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:36:13.657 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:36:13.658 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:36:13.658 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:36:13.690 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:36:13.704 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:36:13.749 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:36:13.769 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:36:13.808 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:36:13.818 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:36:13.821 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:36:13.870 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:36:13.886 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:36:13.886 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:36:13.935 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:36:13.952 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:36:13.953 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:36:13.953 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:36:13.955 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:36:14.456 D/BleProximity: 🔍 开始连接
+05-24 15:36:14.456 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:36:14.456 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:36:14.456 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:36:14.459 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:36:14.459 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:36:15.638 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:36:15.639 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:36:15.639 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:36:15.639 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:36:16.488 D/BleProximity: ✅ 特征初始化完成
+05-24 15:36:16.510 D/BleProximity: MTU 生效: 65
+05-24 15:36:16.511 D/BleProximity: 🔐 开始认证流程
+05-24 15:36:16.514 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:36:16.514 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:36:16.516 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:36:16.517 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:36:16.518 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:36:16.532 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:36:16.537 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:36:16.570 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:36:16.571 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:36:16.632 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:36:16.636 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:36:16.639 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:36:16.690 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:36:16.691 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:36:16.691 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:36:16.758 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:36:16.758 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:36:16.759 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:36:16.759 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:36:16.764 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:36:17.265 D/BleProximity: 🔍 开始连接
+05-24 15:36:17.265 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:36:17.265 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:36:17.265 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:36:17.268 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:36:17.268 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
+05-24 15:36:17.675 D/BleProximity: ⚙️ 底层状态反馈: status=0, newState=2
+05-24 15:36:17.675 D/BleProximity: ✅ 已连接，开始发现服务
+05-24 15:36:17.675 D/BleProximity: 📡 状态变更: CONNECTED (监听器: 1, Session: 1)
+05-24 15:36:17.676 D/BleProximity: 📡 连接状态: CONNECTED
+05-24 15:36:18.523 D/BleProximity: ✅ 特征初始化完成
+05-24 15:36:18.547 D/BleProximity: MTU 生效: 65
+05-24 15:36:18.548 D/BleProximity: 🔐 开始认证流程
+05-24 15:36:18.549 D/BleProximity: 🔔 启用通知: 4af4, 结果: true
+05-24 15:36:18.550 D/BleManager: ⬇️ 底层执行: 开启通知: 4af4
+05-24 15:36:18.551 D/BleProximity: 🔔 启用通知: a37b, 结果: true
+05-24 15:36:18.552 D/BleProximity: 🔔 启用通知: d341, 结果: true
+05-24 15:36:18.552 D/BleProximity: 📤 准备发送Booking ID: 01A983E9 (进入串行队列)
+05-24 15:36:18.564 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:36:18.564 D/BleManager: ⬇️ 底层执行: 开启通知: a37b
+05-24 15:36:18.581 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:36:18.581 D/BleManager: ⬇️ 底层执行: 开启通知: d341
+05-24 15:36:18.610 D/BleManager: ✅ 底层描述符写入完成: 34fb status: 0
+05-24 15:36:18.613 D/BleManager: ⬇️ 底层执行: 发送 BookingID
+05-24 15:36:18.616 D/BleManager: ✅ 底层特征写入完成: 78d9 status: 0
+05-24 15:36:18.669 D/BleProximity: 📨 收到特征变化: 624C9C6E-29FC-46D7-8B47-D1B8AE54D341, 数据长度: 2, 数据: 3031
+05-24 15:36:18.670 D/BleProximity: ❌ 连接失败原因: 你的智能钥匙无效，请联系客服400-821-8811 (错误码: 01)
+05-24 15:36:18.670 D/BleProximity: ❌ 认证失败: 你的智能钥匙无效，请联系客服400-821-8811
+05-24 15:36:18.737 D/BleProximity: ⚙️ 底层状态反馈: status=19, newState=0
+05-24 15:36:18.737 D/BleProximity: ❌ 蓝牙底层断开连接 (Status: 19)
+05-24 15:36:18.738 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 1)
+05-24 15:36:18.738 D/BleProximity: 📡 连接状态: DISCONNECTED
+05-24 15:36:18.744 D/BleProximity: 车辆附近，挂入【狂暴挡】准备秒连！
+05-24 15:36:19.245 D/BleProximity: 🔍 开始连接
+05-24 15:36:19.245 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:2A
+05-24 15:36:19.245 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-24 15:36:19.246 D/BleProximity: 📡 连接状态: CONNECTING
+05-24 15:36:19.248 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:2A
+05-24 15:36:19.248 D/BleProximity: ⚡ [狂暴挡] 发起满血主动直连 (autoConnect=false)
