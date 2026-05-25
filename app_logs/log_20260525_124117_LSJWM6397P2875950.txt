@@ -1,0 +1,139 @@
+--- Log Capture Start: 20260525_124117 ---
+05-25 12:34:55.056 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 513ms) ──────
+05-25 12:34:55.058 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+05-25 12:34:55.058 D/MG_NET_LOG: │ Method: POST
+05-25 12:34:55.059 D/MG_NET_LOG: │ Header: app-type: roewe
+05-25 12:34:55.059 D/MG_NET_LOG: │ Header: timestamp: 1779683694536
+05-25 12:34:55.060 D/MG_NET_LOG: │ Header: sign: EnoTdDIF2MrUmTz1UC3VA4QRU8kAU2Q+nB3MN5ZwaiM=
+05-25 12:34:55.060 D/MG_NET_LOG: │ Params: data={"userId":"15100001251769","appId":"Roewe","brandCode":"1","nonce":"7F1C37144BCC36C07AB996D4B970074A","timestamp":"1779683694528","token":"accefffa8614413f9424323a24730834-prod_SAIC"}
+05-25 12:34:55.060 D/MG_NET_LOG: ├────── Response Result ──────
+05-25 12:34:55.061 D/MG_NET_LOG: │ Result: {"req_id":"19e5d6a18ce26978b7f","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":"陕AG08529","secret_key":"6457284214623112","key_end_time":1781279382000,"key_start_time":1773330582000,"mobile":null,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":28087985,"owner_name":null,"owner_mobile":"17695454295","enable":true,"tbox_mac":"7B654C35CCB5","vin":"LSJWM6397PZ875950","aes_key":"0362537879815366","status":3}]}}
+05-25 12:34:55.061 D/MG_NET_LOG: └──────────────────────────────────────────────────
+05-25 12:34:55.088 D/BleProximity: 🔄 引擎配置已热更新 | 落锁阈值:-90.0 | 解锁阈值:-87.0 | 趋势检测:true
+05-25 12:34:55.104 D/IslandWindowManager: 灵动岛成功注入 WindowManager
+05-25 12:34:55.168 D/MGWidget: onUpdate called for IDs: 64
+05-25 12:34:55.170 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+05-25 12:34:55.205 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+05-25 12:34:55.326 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 118ms) ──────
+05-25 12:34:55.326 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+05-25 12:34:55.326 D/MG_NET_LOG: │ Method: POST
+05-25 12:34:55.326 D/MG_NET_LOG: │ Header: app-type: roewe
+05-25 12:34:55.327 D/MG_NET_LOG: │ Header: timestamp: 1779683695207
+05-25 12:34:55.327 D/MG_NET_LOG: │ Header: sign: uAvjRjmuIC/LTde5SiJAwIUDbZlpwUkOAwBlc2ofAgM=
+05-25 12:34:55.327 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6397P2875950","appId":"Roewe","brandCode":"1","nonce":"7D4BB0C356AEB1B90FFB8F8970560B32","timestamp":"1779683695206","token":"accefffa8614413f9424323a24730834-prod_SAIC"}
+05-25 12:34:55.327 D/MG_NET_LOG: ├────── Response Result ──────
+05-25 12:34:55.327 D/MG_NET_LOG: │ Result: {"req_id":"19e5d6a1aa8ef05fdd9","err_resp":{"msg":"请求失败，请重试","code":"14106","desc":"请求失败，请重试"}}
+05-25 12:34:55.327 D/MG_NET_LOG: └──────────────────────────────────────────────────
+05-25 12:34:55.328 D/WidgetUpdateWorker: 开始获取地址
+05-25 12:34:55.328 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: null
+05-25 12:34:55.328 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+05-25 12:34:55.328 D/MGWidget: updateWidgetSynchronously called for ID: 64
+05-25 12:35:25.076 D/BleProximity: 🔧 初始化 BleProximityManager
+05-25 12:35:25.076 D/BleProximity: ⚠️ 检测到已初始化，先清理旧状态
+05-25 12:35:25.077 D/BleProximity: 🛑 停止服务
+05-25 12:35:25.079 D/BleProximity: 🎫 [BleProximityManager] 释放 Session: session_BleProximityManager_1_1779683574781 (剩余: 0)
+05-25 12:35:25.080 D/BleProximity: ✂️ 所有 Session 已释放，准备断开连接
+05-25 12:35:25.089 D/BleProximity: ⚠️ 强制断开连接（忽略活跃 Session）
+05-25 12:35:25.089 D/BleProximity: ✂️ 断开连接
+05-25 12:35:25.090 D/BleProximity: 📡 状态变更: DISCONNECTED (监听器: 1, Session: 0)
+05-25 12:35:25.090 D/BleProximity: ➖ 移除监听器: callback_1_1779683574781 
+05-25 12:35:25.092 D/BleProximity: 🔄 引擎配置已热更新 | 落锁阈值:-90.0 | 解锁阈值:-87.0 | 趋势检测:true
+05-25 12:35:25.092 D/BleProximity: ➕ 添加监听器: callback_2_1779683725092 (总数: 1)
+05-25 12:35:25.093 D/BleProximity: ✅ 初始化完成 | 落锁阈值:-90.0 | 解锁阈值:-87.0 | 趋势检测:true
+05-25 12:35:25.093 D/BleProximity: 🚀 启动靠近解锁服务...
+05-25 12:35:25.096 D/BleProximity: 🎫 [BleProximityManager] 获取 Session: session_BleProximityManager_2_1779683725095 (总数: 1)
+05-25 12:35:25.101 D/BleProximity: 🔍 开始连接
+05-25 12:35:25.101 D/BleProximity: 车辆 MAC 地址 CC:B5:4C:35:7B:65
+05-25 12:35:25.101 D/BleProximity: 📡 状态变更: CONNECTING (监听器: 1, Session: 1)
+05-25 12:35:25.102 D/BleProximity: 📡 连接状态: CONNECTING
+05-25 12:35:25.104 D/BleProximity: ⚡ 发起底层硬件级直连 (autoConnect=true): CC:B5:4C:35:7B:65
+05-25 12:35:25.112 D/BleProximity: 💤 [省电挡] 挂载硬件后台监听 (autoConnect=true)
+05-25 12:35:54.710 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 471ms) ──────
+05-25 12:35:54.710 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+05-25 12:35:54.711 D/MG_NET_LOG: │ Method: POST
+05-25 12:35:54.712 D/MG_NET_LOG: │ Header: app-type: roewe
+05-25 12:35:54.713 D/MG_NET_LOG: │ Header: timestamp: 1779683754235
+05-25 12:35:54.714 D/MG_NET_LOG: │ Header: sign: Zk6zJC27txeEthgnzs0jmW+tyaDrNw7oRXnvLkIFzUU=
+05-25 12:35:54.714 D/MG_NET_LOG: │ Params: data={"userId":"15100001251769","appId":"Roewe","brandCode":"1","nonce":"91B81CB7FFF3B50C74C9438EC9BB1E1C","timestamp":"1779683754233","token":"accefffa8614413f9424323a24730834-prod_SAIC"}
+05-25 12:35:54.716 D/MG_NET_LOG: ├────── Response Result ──────
+05-25 12:35:54.716 D/MG_NET_LOG: │ Result: {"req_id":"19e5d6b01edb18920b0","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":"陕AG08529","secret_key":"6457284214623112","key_end_time":1781279382000,"mobile":null,"key_start_time":1773330582000,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":28087985,"owner_name":null,"owner_mobile":"17695454295","enable":true,"tbox_mac":"7B654C35CCB5","vin":"LSJWM6397PZ875950","aes_key":"0362537879815366","status":3}]}}
+05-25 12:35:54.717 D/MG_NET_LOG: └──────────────────────────────────────────────────
+05-25 12:35:54.729 D/BleProximity: 🔄 引擎配置已热更新 | 落锁阈值:-90.0 | 解锁阈值:-87.0 | 趋势检测:true
+05-25 12:35:54.730 D/IslandWindowManager: 灵动岛已存在，无需重复添加
+05-25 12:35:54.750 D/MGWidget: onUpdate called for IDs: 64
+05-25 12:35:54.751 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+05-25 12:35:54.830 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+05-25 12:35:54.966 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 129ms) ──────
+05-25 12:35:54.966 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+05-25 12:35:54.967 D/MG_NET_LOG: │ Method: POST
+05-25 12:35:54.967 D/MG_NET_LOG: │ Header: app-type: roewe
+05-25 12:35:54.967 D/MG_NET_LOG: │ Header: timestamp: 1779683754835
+05-25 12:35:54.967 D/MG_NET_LOG: │ Header: sign: 7W3UmI8XR5jtbP+MOZrtHSLX/rcLORBG0ByoEb8nX5s=
+05-25 12:35:54.967 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6397P2875950","appId":"Roewe","brandCode":"1","nonce":"2B6168BFAAB4DC7B5942B539FC4877DB","timestamp":"1779683754834","token":"accefffa8614413f9424323a24730834-prod_SAIC"}
+05-25 12:35:54.967 D/MG_NET_LOG: ├────── Response Result ──────
+05-25 12:35:54.968 D/MG_NET_LOG: │ Result: {"req_id":"19e5d6b03a6e3f7151","err_resp":{"msg":"请求失败，请重试","code":"14106","desc":"请求失败，请重试"}}
+05-25 12:35:54.968 D/MG_NET_LOG: └──────────────────────────────────────────────────
+05-25 12:35:54.968 D/WidgetUpdateWorker: 开始获取地址
+05-25 12:35:54.969 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: null
+05-25 12:35:54.969 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+05-25 12:35:54.969 D/MGWidget: updateWidgetSynchronously called for ID: 64
+05-25 12:36:06.195 D/IslandWindowManager: 灵动岛已存在，无需重复添加
+05-25 12:38:21.187 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 374ms) ──────
+05-25 12:38:21.188 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+05-25 12:38:21.188 D/MG_NET_LOG: │ Method: POST
+05-25 12:38:21.189 D/MG_NET_LOG: │ Header: app-type: roewe
+05-25 12:38:21.190 D/MG_NET_LOG: │ Header: timestamp: 1779683900810
+05-25 12:38:21.191 D/MG_NET_LOG: │ Header: sign: qv97/btA3pZmRD2iaYG1lfPLyOOTjOT+uBsWKHFuwRc=
+05-25 12:38:21.191 D/MG_NET_LOG: │ Params: data={"userId":"15100001251769","appId":"Roewe","brandCode":"1","nonce":"5453EDD2E4D36B00676D4C4589745D2B","timestamp":"1779683900806","token":"accefffa8614413f9424323a24730834-prod_SAIC"}
+05-25 12:38:21.192 D/MG_NET_LOG: ├────── Response Result ──────
+05-25 12:38:21.192 D/MG_NET_LOG: │ Result: {"req_id":"19e5d6d3e2cb67faf62","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":"陕AG08529","secret_key":"6457284214623112","key_end_time":1781279382000,"mobile":null,"key_start_time":1773330582000,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":28087985,"owner_name":null,"owner_mobile":"17695454295","enable":true,"tbox_mac":"7B654C35CCB5","vin":"LSJWM6397PZ875950","aes_key":"0362537879815366","status":3}]}}
+05-25 12:38:21.193 D/MG_NET_LOG: └──────────────────────────────────────────────────
+05-25 12:38:21.217 D/BleProximity: 🔄 引擎配置已热更新 | 落锁阈值:-90.0 | 解锁阈值:-87.0 | 趋势检测:true
+05-25 12:38:21.218 D/IslandWindowManager: 灵动岛已存在，无需重复添加
+05-25 12:38:21.234 D/MGWidget: onUpdate called for IDs: 64
+05-25 12:38:21.235 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+05-25 12:38:21.302 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+05-25 12:38:21.405 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 98ms) ──────
+05-25 12:38:21.405 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+05-25 12:38:21.405 D/MG_NET_LOG: │ Method: POST
+05-25 12:38:21.405 D/MG_NET_LOG: │ Header: app-type: roewe
+05-25 12:38:21.405 D/MG_NET_LOG: │ Header: timestamp: 1779683901304
+05-25 12:38:21.405 D/MG_NET_LOG: │ Header: sign: RGjWZkUf9PMyupCW+oqIOIwbbHXHIFt9K9mqMZLTddQ=
+05-25 12:38:21.406 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6397P2875950","appId":"Roewe","brandCode":"1","nonce":"32D206E5F0DB3B4B7077F27B34AA8A88","timestamp":"1779683901303","token":"accefffa8614413f9424323a24730834-prod_SAIC"}
+05-25 12:38:21.406 D/MG_NET_LOG: ├────── Response Result ──────
+05-25 12:38:21.408 D/MG_NET_LOG: │ Result: {"req_id":"19e5d6d3fa2ae6f04d9","err_resp":{"msg":"请求失败，请重试","code":"14106","desc":"请求失败，请重试"}}
+05-25 12:38:21.408 D/MG_NET_LOG: └──────────────────────────────────────────────────
+05-25 12:38:21.408 D/WidgetUpdateWorker: 开始获取地址
+05-25 12:38:21.409 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: null
+05-25 12:38:21.409 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+05-25 12:38:21.409 D/MGWidget: updateWidgetSynchronously called for ID: 64
+05-25 12:38:29.814 D/IslandWindowManager: 灵动岛已存在，无需重复添加
+05-25 12:41:12.314 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 382ms) ──────
+05-25 12:41:12.315 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+05-25 12:41:12.315 D/MG_NET_LOG: │ Method: POST
+05-25 12:41:12.316 D/MG_NET_LOG: │ Header: app-type: roewe
+05-25 12:41:12.316 D/MG_NET_LOG: │ Header: timestamp: 1779684071930
+05-25 12:41:12.316 D/MG_NET_LOG: │ Header: sign: Rk8qU8W2uCRbDsKHRfMeo+J2dMI/dn3LhgZw4okuQ1c=
+05-25 12:41:12.318 D/MG_NET_LOG: │ Params: data={"userId":"15100001251769","appId":"Roewe","brandCode":"1","nonce":"BC3E221BB35D5096091FE2CA71316032","timestamp":"1779684071927","token":"accefffa8614413f9424323a24730834-prod_SAIC"}
+05-25 12:41:12.319 D/MG_NET_LOG: ├────── Response Result ──────
+05-25 12:41:12.319 D/MG_NET_LOG: │ Result: {"req_id":"19e5d6fdabe68b153b2","data":{"digital_key_list":[],"bluetooth_key_list":[{"license_no":"陕AG08529","secret_key":"6457284214623112","key_end_time":1781279382000,"key_start_time":1773330582000,"mobile":null,"if_remote_control_park":false,"key_privilege":null,"user_name":null,"is_enable":true,"real_name":null,"key_reference":28087985,"owner_name":null,"owner_mobile":"17695454295","enable":true,"tbox_mac":"7B654C35CCB5","vin":"LSJWM6397PZ875950","aes_key":"0362537879815366","status":3}]}}
+05-25 12:41:12.319 D/MG_NET_LOG: └──────────────────────────────────────────────────
+05-25 12:41:12.338 D/BleProximity: 🔄 引擎配置已热更新 | 落锁阈值:-90.0 | 解锁阈值:-87.0 | 趋势检测:true
+05-25 12:41:12.339 D/IslandWindowManager: 灵动岛已存在，无需重复添加
+05-25 12:41:12.354 D/MGWidget: onUpdate called for IDs: 64
+05-25 12:41:12.355 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+05-25 12:41:12.418 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+05-25 12:41:12.532 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 111ms) ──────
+05-25 12:41:12.532 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+05-25 12:41:12.533 D/MG_NET_LOG: │ Method: POST
+05-25 12:41:12.534 D/MG_NET_LOG: │ Header: app-type: roewe
+05-25 12:41:12.534 D/MG_NET_LOG: │ Header: timestamp: 1779684072419
+05-25 12:41:12.534 D/MG_NET_LOG: │ Header: sign: wSLxPxifUD51kmlqFrDAVWzlZ6gLYMwGiLauKk2UsyI=
+05-25 12:41:12.535 D/MG_NET_LOG: │ Params: data={"vin":"LSJWM6397P2875950","appId":"Roewe","brandCode":"1","nonce":"2DBD87973175DBF4857EB07D16E933CC","timestamp":"1779684072419","token":"accefffa8614413f9424323a24730834-prod_SAIC"}
+05-25 12:41:12.535 D/MG_NET_LOG: ├────── Response Result ──────
+05-25 12:41:12.535 D/MG_NET_LOG: │ Result: {"req_id":"19e5d6fdc1f9a3b4a96","err_resp":{"msg":"请求失败，请重试","code":"14106","desc":"请求失败，请重试"}}
+05-25 12:41:12.535 D/MG_NET_LOG: └──────────────────────────────────────────────────
+05-25 12:41:12.535 D/WidgetUpdateWorker: 开始获取地址
+05-25 12:41:12.536 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: null
+05-25 12:41:12.536 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+05-25 12:41:12.536 D/MGWidget: updateWidgetSynchronously called for ID: 64
