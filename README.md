@@ -1,7 +1,7 @@
 
 
 # MG Linker
-
+# 小组件目前已停止维护，全面转向安卓应用版本（MR Linker -- 上汽车联助手） -> https://gitee.com/yangyachao-X/mr-linker/blob/master/README.md
 ## 项目介绍
 
 MG Linker 是一款专为名爵(MG)和荣威(RW)汽车打造的Android桌面小组件应用。通过登录获取官方APP数据，实现车辆状态信息的实时展示。
