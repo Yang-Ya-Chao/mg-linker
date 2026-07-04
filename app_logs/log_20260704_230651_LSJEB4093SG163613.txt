@@ -1,0 +1,28 @@
+--- Log Capture Start: 20260704_230651 ---
+07-04 23:06:32.554 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 100ms) ──────
+07-04 23:06:32.556 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/user/1.0/bluetoothAndDigitalKeys
+07-04 23:06:32.557 D/MG_NET_LOG: │ Method: POST
+07-04 23:06:32.558 D/MG_NET_LOG: │ Header: app-type: mgapp
+07-04 23:06:32.559 D/MG_NET_LOG: │ Header: timestamp: 1783177592452
+07-04 23:06:32.559 D/MG_NET_LOG: │ Header: sign: cW8Uwh9hfL9QjDRfHy/NO4R1+QpVHrrtc7PGbz+NlWo=
+07-04 23:06:32.559 D/MG_NET_LOG: │ Params: data={"userId":"15100002679087","appId":"MG","brandCode":"2","nonce":"4660B69D86F2693533BFD69DBF67C713","timestamp":"1783177592450","token":"2ee2f79a3c5d4ecda99331d29cbf0902-prod_SAIC"}
+07-04 23:06:32.560 D/MG_NET_LOG: ├────── Response Result ──────
+07-04 23:06:32.560 D/MG_NET_LOG: │ Result: {"req_id":"19f2daac059f8172298","err_resp":{"msg":"登录态失效，请重新登录","code":"14101","desc":"登录态失效，请重新登录"}}
+07-04 23:06:32.561 D/MG_NET_LOG: └──────────────────────────────────────────────────
+07-04 23:06:32.569 D/MGWidget: onUpdate called for IDs: 62
+07-04 23:06:32.569 D/MGWidget: onReceive called with action: android.appwidget.action.APPWIDGET_UPDATE
+07-04 23:06:32.584 D/WidgetUpdateWorker: Found active widgets, starting data fetch...
+07-04 23:06:32.683 D/MG_NET_LOG: ┌────── HTTP Request & Response (200 / 96ms) ──────
+07-04 23:06:32.683 D/MG_NET_LOG: │ URL: https://mp.ebanma.com/app-mp/vp/1.2/getVehicleStatus
+07-04 23:06:32.684 D/MG_NET_LOG: │ Method: POST
+07-04 23:06:32.684 D/MG_NET_LOG: │ Header: app-type: mgapp
+07-04 23:06:32.684 D/MG_NET_LOG: │ Header: timestamp: 1783177592585
+07-04 23:06:32.684 D/MG_NET_LOG: │ Header: sign: fIdkekPbhXS2tCJP6JhNekol+jaOpJHKzvFcCV/KQaQ=
+07-04 23:06:32.685 D/MG_NET_LOG: │ Params: data={"vin":"LSJEB4093SG163613","appId":"MG","brandCode":"2","nonce":"7FE3C6B06D50D17CB993B4041737BE1D","timestamp":"1783177592584","token":"2ee2f79a3c5d4ecda99331d29cbf0902-prod_SAIC"}
+07-04 23:06:32.685 D/MG_NET_LOG: ├────── Response Result ──────
+07-04 23:06:32.685 D/MG_NET_LOG: │ Result: {"req_id":"19f2daac0db2e3e7c40","err_resp":{"msg":"登录态失效，请重新登录","code":"14101","desc":"登录态失效，请重新登录"}}
+07-04 23:06:32.686 D/MG_NET_LOG: └──────────────────────────────────────────────────
+07-04 23:06:32.686 D/WidgetUpdateWorker: 开始获取地址
+07-04 23:06:32.687 D/WidgetUpdateWorker: Data fetch complete. Success: true, Address: null
+07-04 23:06:32.687 D/WidgetUpdateWorker: Starting update loop for 1 widget types
+07-04 23:06:32.687 D/MGWidget: updateWidgetSynchronously called for ID: 62
