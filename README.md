@@ -1,7 +1,7 @@
 
 
 # MG Linker
-# 小组件目前已停止维护，全面转向安卓应用版本:
+# 小组件目前已停止维护，请下载使用安卓应用版本:
 
 MR Linker(上汽车联助手） -> https://gitee.com/yangyachao-X/mr-linker/blob/master/README.md
 ## 项目介绍
